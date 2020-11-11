@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+	<gresource prefix="/fr/romainvigier/MetadataCleaner">
+		<file compressed="true" preprocess="xml-stripblanks">ui/background-logo.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/AddFilesButton.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/CleanMetadataButton.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/EmptyView.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/FileButton.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/FilePopover.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/FileRow.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/FilesView.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataView.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/Window.ui</file>
+	</gresource>
+</gresources>

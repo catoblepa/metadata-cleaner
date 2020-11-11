@@ -1,0 +1,74 @@
+from gettext import gettext as _
+from gi.repository import Gtk
+from typing import Optional
+
+from metadatacleaner.filesmanager import File, FileState
+from metadatacleaner.metadataview import MetadataView
+
+
+@Gtk.Template(
+    resource_path="/fr/romainvigier/MetadataCleaner/ui/FilePopover.ui"
+)
+class FilePopover(Gtk.Popover):
+
+    __gtype_name__ = "FilePopover"
+
+    _box: Gtk.Box = Gtk.Template.Child()
+    _title: Gtk.Label = Gtk.Template.Child()
+
+    _content: Optional[Gtk.Widget] = None
+
+    def __init__(self, app: Gtk.Application, f: File) -> None:
+        super().__init__()
+        self._app = app
+        self._file = f
+        self._sync_title_to_file()
+        self._sync_content_to_file()
+        self._file.connect("state-changed", self._on_file_state_changed)
+
+    def _on_file_state_changed(self, file, new_state) -> None:
+        self._sync_title_to_file()
+        self._sync_content_to_file()
+
+    def _sync_title_to_file(self) -> None:
+        title = {
+            FileState.INITIALIZING: _("Initializing..."),
+            FileState.UNSUPPORTED: _("File type not supported."),
+            FileState.CHECKING_METADATA: _("Checking metadata..."),
+            FileState.ERROR_WHILE_CHECKING_METADATA: _(
+                "Error while checking metadata:"
+            ),
+            FileState.HAS_NO_METADATA: _("No metadata have been found!"),
+            FileState.HAS_METADATA: _("These metadata have been found:"),
+            FileState.REMOVING_METADATA: _("Removing metadata..."),
+            FileState.ERROR_WHILE_REMOVING_METADATA: _(
+                "Error while removing metadata:"
+            ),
+            FileState.CLEANED: _("The file has been cleaned.") + (
+                _("\nThe following metadata remain:")
+                if self._file.metadata
+                else ""
+            )
+        }
+        self._title.set_label(title[self._file.state])
+
+    def _sync_content_to_file(self) -> None:
+        if self._content:
+            self._content.destroy()
+            self._content = None
+        if self._file.state in [FileState.HAS_METADATA, FileState.CLEANED]:
+            self._content = MetadataView(
+                self._app,
+                self._file.metadata
+            ) if self._file.metadata else None
+        elif self._file.state in [
+            FileState.ERROR_WHILE_CHECKING_METADATA,
+            FileState.ERROR_WHILE_REMOVING_METADATA
+        ]:
+            self._content = Gtk.Label(
+                visible=True,
+                label=str(self._file.error),
+                selectable=True
+            )
+        if self._content:
+            self._box.pack_end(self._content, False, True, 0)

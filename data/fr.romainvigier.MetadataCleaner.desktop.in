@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Metadata Cleaner
+GenericName=Metadata Cleaner
+Comment=Clean metadata from your files
+Icon=fr.romainvigier.MetadataCleaner
+Exec=metadata-cleaner
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=Metadata;Remover;Cleaner;
+StartupNotify=true

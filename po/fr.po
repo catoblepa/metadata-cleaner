@@ -1,0 +1,141 @@
+# French translations for fr.romainvigier.MetadataRemover package.
+# Copyright (C) 2020 THE fr.romainvigier.MetadataRemover'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fr.romainvigier.MetadataRemover package.
+# Automatically generated, 2020.
+# Romain Vigier <romain@romainvigier.fr>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fr.romainvigier.MetadataRemover\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-11 18:26+0100\n"
+"PO-Revision-Date: 2020-11-11 18:26+0100\n"
+"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"Language-Team: French <romain@romainvigier.fr>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 3.38.0\n"
+
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:3
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 data/ui/EmptyView.ui:12
+#: metadatacleaner/app.py:17
+msgid "Metadata Cleaner"
+msgstr "Nettoyeur de métadonnées"
+
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:5
+msgid "Clean metadata from your files"
+msgstr "Nettoie les métadonnées de vos fichiers"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:12
+msgid "Metadata;Remover;Cleaner;"
+msgstr "Métadonnées;Metadata;Supprimer;Effacer;Nettoyer;"
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:6
+msgid "Warn before removing metadata"
+msgstr "Prévenir avant de supprimer les métadonnées"
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:7
+msgid "Show the warning dialog before removing metadata"
+msgstr ""
+"Afficher le dialogue d’avertissement avant de supprimer les métadonnées"
+
+#: data/ui/AddFilesButton.ui:8
+msgid "_Add files"
+msgstr "_Ajouter des fichiers"
+
+#: data/ui/CleanMetadataButton.ui:8
+msgid "_Clean metadata"
+msgstr "_Nettoyer les métadonnées"
+
+#: data/ui/EmptyView.ui:44
+msgid "Clean your traces."
+msgstr "Effacez vos traces."
+
+#: metadatacleaner/filepopover.py:35
+msgid "Initializing..."
+msgstr "Initialisation…"
+
+#: metadatacleaner/filepopover.py:36
+msgid "File type not supported."
+msgstr "Type de fichier non supporté."
+
+#: metadatacleaner/filepopover.py:37
+msgid "Checking metadata..."
+msgstr "Récupération des métadonnées…"
+
+#: metadatacleaner/filepopover.py:39
+msgid "Error while checking metadata:"
+msgstr "Erreur en récupérant les métadonnées :"
+
+#: metadatacleaner/filepopover.py:41
+msgid "No metadata have been found!"
+msgstr "Aucune métadonnée n’a été trouvée !"
+
+#: metadatacleaner/filepopover.py:42
+msgid "These metadata have been found:"
+msgstr "Les métadonnées suivantes ont été trouvées :"
+
+#: metadatacleaner/filepopover.py:43
+msgid "Removing metadata..."
+msgstr "Suppression des métadonnées…"
+
+#: metadatacleaner/filepopover.py:45
+msgid "Error while removing metadata:"
+msgstr "Erreur pendant la suppression des métadonnées :"
+
+#: metadatacleaner/filepopover.py:47
+msgid "The file has been cleaned."
+msgstr "Le fichier a été nettoyé."
+
+#: metadatacleaner/filepopover.py:48
+msgid ""
+"\n"
+"The following metadata remain:"
+msgstr ""
+"\n"
+"Les métadonnées suivantes demeurent :"
+
+#: metadatacleaner/metadataview.py:42 metadatacleaner/metadataview.py:54
+msgid "Key"
+msgstr "Clé"
+
+#: metadatacleaner/metadataview.py:45 metadatacleaner/metadataview.py:57
+msgid "Value"
+msgstr "Valeur"
+
+#: metadatacleaner/metadataview.py:51
+msgid "File"
+msgstr "Fichier"
+
+#: metadatacleaner/window.py:52
+msgid "Choose files"
+msgstr "Sélectionner les fichiers"
+
+#: metadatacleaner/window.py:59
+msgid "All supported files"
+msgstr "Tous les fichiers supportés"
+
+#: metadatacleaner/window.py:72
+msgid "Make sure you backed up your files!"
+msgstr "Assurez-vous d’avoir fait une sauvegarde de vos fichiers !"
+
+#: metadatacleaner/window.py:74
+msgid "Once you remove metadata, there's no going back."
+msgstr "Une fois les métadonnées supprimées, impossible de revenir en arrière."
+
+#: metadatacleaner/window.py:84
+msgid "Don't tell me again"
+msgstr "Ne plus m’avertir"
+
+#~ msgid "Metadata Remover"
+#~ msgstr "Nettoyeur de métadonnées"
+
+#~ msgid "Clear"
+#~ msgstr "Effacer"
+
+#~ msgid "No metadata"
+#~ msgstr "Pas de métadonnées"

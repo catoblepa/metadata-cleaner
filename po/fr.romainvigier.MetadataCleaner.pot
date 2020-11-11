@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-11 18:26+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:3
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 data/ui/EmptyView.ui:12
+#: metadatacleaner/app.py:17
+msgid "Metadata Cleaner"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:5
+msgid "Clean metadata from your files"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:12
+msgid "Metadata;Remover;Cleaner;"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:6
+msgid "Warn before removing metadata"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:7
+msgid "Show the warning dialog before removing metadata"
+msgstr ""
+
+#: data/ui/AddFilesButton.ui:8
+msgid "_Add files"
+msgstr ""
+
+#: data/ui/CleanMetadataButton.ui:8
+msgid "_Clean metadata"
+msgstr ""
+
+#: data/ui/EmptyView.ui:44
+msgid "Clean your traces."
+msgstr ""
+
+#: metadatacleaner/filepopover.py:35
+msgid "Initializing..."
+msgstr ""
+
+#: metadatacleaner/filepopover.py:36
+msgid "File type not supported."
+msgstr ""
+
+#: metadatacleaner/filepopover.py:37
+msgid "Checking metadata..."
+msgstr ""
+
+#: metadatacleaner/filepopover.py:39
+msgid "Error while checking metadata:"
+msgstr ""
+
+#: metadatacleaner/filepopover.py:41
+msgid "No metadata have been found!"
+msgstr ""
+
+#: metadatacleaner/filepopover.py:42
+msgid "These metadata have been found:"
+msgstr ""
+
+#: metadatacleaner/filepopover.py:43
+msgid "Removing metadata..."
+msgstr ""
+
+#: metadatacleaner/filepopover.py:45
+msgid "Error while removing metadata:"
+msgstr ""
+
+#: metadatacleaner/filepopover.py:47
+msgid "The file has been cleaned."
+msgstr ""
+
+#: metadatacleaner/filepopover.py:48
+msgid ""
+"\n"
+"The following metadata remain:"
+msgstr ""
+
+#: metadatacleaner/metadataview.py:42 metadatacleaner/metadataview.py:54
+msgid "Key"
+msgstr ""
+
+#: metadatacleaner/metadataview.py:45 metadatacleaner/metadataview.py:57
+msgid "Value"
+msgstr ""
+
+#: metadatacleaner/metadataview.py:51
+msgid "File"
+msgstr ""
+
+#: metadatacleaner/window.py:52
+msgid "Choose files"
+msgstr ""
+
+#: metadatacleaner/window.py:59
+msgid "All supported files"
+msgstr ""
+
+#: metadatacleaner/window.py:72
+msgid "Make sure you backed up your files!"
+msgstr ""
+
+#: metadatacleaner/window.py:74
+msgid "Once you remove metadata, there's no going back."
+msgstr ""
+
+#: metadatacleaner/window.py:84
+msgid "Don't tell me again"
+msgstr ""
