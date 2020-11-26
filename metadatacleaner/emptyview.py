@@ -1,6 +1,7 @@
 from gi.repository import Gtk, Handy
 
 from metadatacleaner.addfilesbutton import AddFilesButton
+from metadatacleaner.menubutton import MenuButton
 
 
 @Gtk.Template(resource_path="/fr/romainvigier/MetadataCleaner/ui/EmptyView.ui")
@@ -14,4 +15,11 @@ class EmptyView(Gtk.Box):
     def __init__(self, app: Gtk.Application) -> None:
         super().__init__()
         self._app = app
+        self._setup_headerbar()
+        self._setup_box()
+
+    def _setup_headerbar(self) -> None:
+        self._headerbar.pack_end(MenuButton(self._app))
+
+    def _setup_box(self) -> None:
         self._box.pack_end(AddFilesButton(self._app), False, True, 0)

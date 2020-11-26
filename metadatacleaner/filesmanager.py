@@ -128,17 +128,18 @@ class File(GObject.GObject):
             logging.debug(f"Found no metadata for {self.filename}.")
             self._set_state(FileState.HAS_NO_METADATA)
 
-    def remove_metadata(self) -> None:
+    def remove_metadata(self, lightweight_mode=False) -> None:
         if self.state != FileState.HAS_METADATA:
             return
         logging.debug(f"Removing metadata for {self.filename}...")
         self._set_state(FileState.REMOVING_METADATA)
-        thread = Thread(target=self._remove_metadata)
+        thread = Thread(target=self._remove_metadata, args=(lightweight_mode,))
         thread.daemon = True
         thread.start()
 
-    def _remove_metadata(self) -> None:
+    def _remove_metadata(self, lightweight_mode=False) -> None:
         try:
+            self._parser.lightweight_cleaning = lightweight_mode
             self._parser.remove_all()
             # Because of flatpak sandbox we have to replace the original file
             os.replace(self._parser.output_filename, self.path)

@@ -17,6 +17,7 @@ from gi.repository import GLib, Gio, Gtk, Handy  # noqa: E402
 
 
 APP_ID = "@app_id@"
+VERSION = "@version@"
 LOCALE_DIR = "@localedir@"
 PKGDATA_DIR = "@pkgdatadir@"
 PYTHON_DIR = "@pythondir@"
@@ -58,7 +59,7 @@ def setup_mimetypes() -> None:
 
 def run_app() -> int:
     from metadatacleaner.app import MetadataCleaner
-    app = MetadataCleaner(APP_ID)
+    app = MetadataCleaner(APP_ID, VERSION)
     signal.signal(signal.SIGINT, signal.SIG_DFL)
     exit_status = app.run()
     return exit_status

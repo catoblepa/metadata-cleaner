@@ -17,12 +17,11 @@ class Window(Handy.ApplicationWindow):
     def __init__(self, app: Gtk.Application) -> None:
         super().__init__(
             application=app,
-            title=app.name
+            title=app.name,
+            show_menubar=False,
         )
         self._app = app
         self._setup_views()
-        # TODO: Add about dialog
-        # TODO: Add lightweight setting
         # TODO: Check accessibility
         self._app.files_manager.connect("file-added", self._on_file_added)
 
@@ -99,3 +98,16 @@ class Window(Handy.ApplicationWindow):
         response = dialog.run()
         dialog.destroy()
         return response
+
+    def show_about_dialog(self) -> None:
+        about_dialog = Gtk.AboutDialog(
+            transient_for=self,
+            modal=True,
+            version=self._app.version,
+            logo_icon_name=self._app.get_application_id(),
+            license_type=Gtk.License.GPL_3_0,
+            copyright="© 2020 Romain Vigier",
+            authors=["Romain Vigier"],
+            website="https://gitlab.com/rmnvgr/metadata-cleaner/"
+        )
+        about_dialog.present()

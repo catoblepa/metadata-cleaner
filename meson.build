@@ -30,6 +30,7 @@ bin_config.set('pkgdatadir', pkgdatadir)
 bin_config.set('pythondir', pythondir)
 bin_config.set('schemasdir', schemasdir)
 bin_config.set('app_id', PROJECT_RDNN_NAME)
+bin_config.set('version', meson.project_version())
 
 configure_file(
   input: 'metadata-cleaner.py.in',
@@ -49,6 +50,8 @@ sources = [
   'metadatacleaner/filerow.py',
   'metadatacleaner/filesmanager.py',
   'metadatacleaner/filesview.py',
+  'metadatacleaner/menubutton.py',
+  'metadatacleaner/menupopover.py',
   'metadatacleaner/metadataview.py',
   'metadatacleaner/window.py',
 ]

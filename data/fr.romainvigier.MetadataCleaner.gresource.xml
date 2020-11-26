@@ -9,6 +9,8 @@
 		<file compressed="true" preprocess="xml-stripblanks">ui/FilePopover.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/FileRow.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/FilesView.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/MenuButton.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/MenuPopover.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataView.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/Window.ui</file>
 	</gresource>

@@ -1,8 +1,9 @@
 from gi.repository import Gtk, Handy
 
 from metadatacleaner.addfilesbutton import AddFilesButton
-from metadatacleaner.filerow import FileRow
 from metadatacleaner.cleanmetadatabutton import CleanMetadataButton
+from metadatacleaner.filerow import FileRow
+from metadatacleaner.menubutton import MenuButton
 
 
 @Gtk.Template(resource_path="/fr/romainvigier/MetadataCleaner/ui/FilesView.ui")
@@ -25,4 +26,5 @@ class FilesView(Gtk.Box):
 
     def _setup_headerbar(self) -> None:
         self._headerbar.pack_start(AddFilesButton(self._app))
+        self._headerbar.pack_end(MenuButton(self._app))
         self._headerbar.pack_end(CleanMetadataButton(self._app))

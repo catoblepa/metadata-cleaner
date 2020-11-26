@@ -6,5 +6,10 @@
             <summary>Warn before removing metadata</summary>
             <description>Show the warning dialog before removing metadata</description>
         </key>
+        <key name="lightweight-mode" type="b">
+            <default>false</default>
+            <summary>Use lightweight mode</summary>
+            <description>Remove less metadata but guarantee the integrity of the data</description>
+        </key>
     </schema>
 </schemalist>
