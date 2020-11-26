@@ -33,7 +33,11 @@ class FilePopover(Gtk.Popover):
     def _sync_title_to_file(self) -> None:
         title = {
             FileState.INITIALIZING: _("Initializing..."),
+            FileState.ERROR_WHILE_INITIALIZING: _(
+                "Error while initializing the file parser."
+            ),
             FileState.UNSUPPORTED: _("File type not supported."),
+            FileState.SUPPORTED: _("File type supported."),
             FileState.CHECKING_METADATA: _("Checking metadata..."),
             FileState.ERROR_WHILE_CHECKING_METADATA: _(
                 "Error while checking metadata:"
@@ -44,11 +48,7 @@ class FilePopover(Gtk.Popover):
             FileState.ERROR_WHILE_REMOVING_METADATA: _(
                 "Error while removing metadata:"
             ),
-            FileState.CLEANED: _("The file has been cleaned.") + (
-                _("\nThe following metadata remain:")
-                if self._file.metadata
-                else ""
-            )
+            FileState.CLEANED: _("The file has been cleaned.")
         }
         self._title.set_label(title[self._file.state])
 
@@ -56,12 +56,13 @@ class FilePopover(Gtk.Popover):
         if self._content:
             self._content.destroy()
             self._content = None
-        if self._file.state in [FileState.HAS_METADATA, FileState.CLEANED]:
+        if self._file.state == FileState.HAS_METADATA:
             self._content = MetadataView(
                 self._app,
                 self._file.metadata
             ) if self._file.metadata else None
         elif self._file.state in [
+            FileState.ERROR_WHILE_INITIALIZING,
             FileState.ERROR_WHILE_CHECKING_METADATA,
             FileState.ERROR_WHILE_REMOVING_METADATA
         ]:

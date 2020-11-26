@@ -67,7 +67,7 @@ modules:
     buildsystem: simple
     build-commands:
       - python3 setup.py build
-      - python3 setup.py install --prefix=$FLATPAK_DEST
+      - python3 setup.py install --optimize=1 --single-version-externally-managed --prefix=$FLATPAK_DEST --root=/
     ensure-writable:
       - /lib/python3*/site-packages/easy-install.pth
     sources:
@@ -80,7 +80,7 @@ modules:
     buildsystem: simple
     build-commands:
       - python3 setup.py build
-      - python3 setup.py install --prefix=$FLATPAK_DEST
+      - python3 setup.py install --optimize=1 --single-version-externally-managed --prefix=$FLATPAK_DEST --root=/
     ensure-writable:
       - /lib/python3*/site-packages/easy-install.pth
     sources:

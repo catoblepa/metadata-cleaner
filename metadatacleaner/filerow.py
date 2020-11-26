@@ -24,7 +24,6 @@ class FileRow(Gtk.ListBoxRow):
         self._file = f
         self._setup_file_label()
         self._setup_file_button()
-        self._file.update_metadata()
 
     def _setup_file_label(self) -> None:
         self._file_label.set_label(self._file.filename)

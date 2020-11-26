@@ -21,7 +21,6 @@ class FileButton(Gtk.Bin):
         self._app = app
         self._file = f
         self._setup_popover()
-        self._sync_file_button_to_state()
         self._file.connect("state-changed", self._on_file_state_changed)
 
     @Gtk.Template.Callback()
@@ -38,7 +37,9 @@ class FileButton(Gtk.Bin):
     def _sync_file_button_to_state(self) -> None:
         page = {
             FileState.INITIALIZING: "working",
+            FileState.ERROR_WHILE_INITIALIZING: "error",
             FileState.UNSUPPORTED: "error",
+            FileState.SUPPORTED: "working",
             FileState.CHECKING_METADATA: "working",
             FileState.ERROR_WHILE_CHECKING_METADATA: "error",
             FileState.HAS_NO_METADATA: "clean",

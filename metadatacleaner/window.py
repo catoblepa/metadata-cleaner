@@ -24,7 +24,6 @@ class Window(Handy.ApplicationWindow):
         # TODO: Add about dialog
         # TODO: Add lightweight setting
         # TODO: Check accessibility
-        # TODO: Add a ScrolledWindow to prevent window growing out of control
         self._app.files_manager.connect("file-added", self._on_file_added)
 
     def _on_file_added(self, file_manager, new_file_index):

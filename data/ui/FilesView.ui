@@ -17,18 +17,30 @@
       </packing>
     </child>
     <child>
-      <object class="GtkFrame">
+      <object class="GtkScrolledWindow">
         <property name="visible">True</property>
-        <property name="margin">18</property>
-        <property name="label-xalign">0</property>
+        <property name="can-focus">True</property>
         <child>
-          <object class="GtkListBox" id="_files_list_box">
+          <object class="GtkViewport">
             <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <child>
+              <object class="GtkFrame">
+                <property name="visible">True</property>
+                <property name="margin">18</property>
+                <property name="valign">start</property>
+                <child>
+                  <object class="GtkListBox" id="_files_list_box">
+                    <property name="visible">True</property>
+                  </object>
+                </child>
+              </object>
+            </child>
           </object>
         </child>
       </object>
       <packing>
-        <property name="expand">False</property>
+        <property name="expand">True</property>
         <property name="fill">True</property>
         <property name="position">1</property>
       </packing>

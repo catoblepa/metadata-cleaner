@@ -26,8 +26,8 @@ Author: Romain Vigier
   <requires lib="libhandy" version="1.0"/>
   <template class="Window" parent="HdyApplicationWindow">
     <property name="visible">True</property>
-    <property name="width-request">440</property>
-    <property name="height-request">260</property>
+    <property name="width-request">600</property>
+    <property name="height-request">340</property>
     <signal name="destroy" handler="_on_destroy" swapped="no"/>
     <child>
       <object class="GtkStack" id="_stack">

@@ -1,4 +1,5 @@
 import libmat2
+import logging
 import mimetypes
 import os
 
@@ -30,7 +31,9 @@ SUPPORTED_FORMATS = _get_supported_formats()
 
 class FileState(Enum):
     INITIALIZING = auto()
+    ERROR_WHILE_INITIALIZING = auto()
     UNSUPPORTED = auto()
+    SUPPORTED = auto()
     CHECKING_METADATA = auto()
     ERROR_WHILE_CHECKING_METADATA = auto()
     HAS_NO_METADATA = auto()
@@ -57,67 +60,84 @@ class File(GObject.GObject):
         super().__init__()
         self.path = gfile.get_path()
         self.filename = gfile.get_basename()
-        self._parser = self._get_parser()
-
-    def _get_parser(self) -> Optional[AbstractParser]:
-        parser, mimetype = parser_factory.get_parser(self.path)
-        return parser
 
     def _set_state(self, state: FileState) -> None:
         if state != self.state:
             self.state = state
             self.emit("state-changed", state)
 
-    def update_metadata(self) -> None:
-        import time
-        if not self._parser:
-            self.cleanable = False
+    def initialize_parser(self) -> None:
+        logging.debug(f"Initializing parser for {self.filename}...")
+        self._initialize_parser()
+
+    def _initialize_parser(self) -> None:
+        try:
+            parser, mimetype = parser_factory.get_parser(self.path)
+        except ValueError as e:
+            self.error = e
+            self._on_parser_initialization_error()
+        else:
+            self._parser = parser
+            self._on_parser_initialization_finished()
+
+    def _on_parser_initialization_error(self) -> None:
+        logging.error(
+            f"Error while initializing parser for {self.filename}: "
+            f"{self.error}"
+        )
+        self._set_state(FileState.ERROR_WHILE_INITIALIZING)
+
+    def _on_parser_initialization_finished(self) -> None:
+        if self._parser:
+            logging.debug(f"{self.filename} is supported.")
+            self._set_state(FileState.SUPPORTED)
+        else:
+            logging.warning(f"{self.filename} is unsupported.")
             self._set_state(FileState.UNSUPPORTED)
+
+    def check_metadata(self) -> None:
+        if self.state != FileState.SUPPORTED:
             return
-        self._checking = True
+        logging.debug(f"Checking metadata for {self.filename}...")
         self._set_state(FileState.CHECKING_METADATA)
-        thread = Thread(target=self._get_metadata)
+        thread = Thread(target=self._check_metadata)
         thread.daemon = True
         thread.start()
 
-    def _get_metadata(self) -> None:
-        if not self._parser:
-            return None
+    def _check_metadata(self) -> None:
         try:
             metadata = self._parser.get_meta()
-        except (KeyError, ValueError) as e:
-            self._on_get_metadata_error()
+        except Exception as e:
+            self.error = e
+            self._on_check_metadata_error()
         else:
             self.metadata = metadata if bool(metadata) else None
-            self._on_get_metadata_finished()
+            self._on_check_metadata_finished()
 
-    def _on_get_metadata_finished(self) -> None:
-        if self._cleaning:
-            self._cleaning = False
-            self.cleanable = False
-            self._set_state(FileState.CLEANED)
-        elif self.metadata:
+    def _on_check_metadata_error(self) -> None:
+        logging.error(
+            f"Error while checking metadata for {self.filename}: {self.error}"
+        )
+        self._set_state(FileState.ERROR_WHILE_CHECKING_METADATA)
+
+    def _on_check_metadata_finished(self) -> None:
+        if self.metadata:
+            logging.debug(f"Found metadata for {self.filename}.")
             self._set_state(FileState.HAS_METADATA)
         else:
-            self.cleanable = False
+            logging.debug(f"Found no metadata for {self.filename}.")
             self._set_state(FileState.HAS_NO_METADATA)
-        self._checking = False
-
-    def _on_get_metadata_error(self) -> None:
-        self._set_state(FileState.ERROR_WHILE_CHECKING_METADATA)
-        self._checking = False
 
     def remove_metadata(self) -> None:
-        if self._parser and self.metadata:
-            self._cleaning = True
-            self._set_state(FileState.REMOVING_METADATA)
-            thread = Thread(target=self._remove_metadata)
-            thread.daemon = True
-            thread.start()
+        if self.state != FileState.HAS_METADATA:
+            return
+        logging.debug(f"Removing metadata for {self.filename}...")
+        self._set_state(FileState.REMOVING_METADATA)
+        thread = Thread(target=self._remove_metadata)
+        thread.daemon = True
+        thread.start()
 
     def _remove_metadata(self) -> None:
-        if not self._parser:
-            return
         try:
             self._parser.remove_all()
             # Because of flatpak sandbox we have to replace the original file
@@ -128,12 +148,15 @@ class File(GObject.GObject):
         else:
             self._on_remove_metadata_finished()
 
-    def _on_remove_metadata_finished(self) -> None:
-        self.update_metadata()
-
     def _on_remove_metadata_error(self) -> None:
+        logging.error(
+            f"Error while removing metadata for {self.filename}: {self.error}"
+        )
         self._set_state(FileState.ERROR_WHILE_REMOVING_METADATA)
-        self._cleaning = False
+
+    def _on_remove_metadata_finished(self) -> None:
+        logging.debug(f"{self.filename} has been cleaned.")
+        self._set_state(FileState.CLEANED)
 
 
 class FilesManager(GObject.GObject):
@@ -163,7 +186,7 @@ class FilesManager(GObject.GObject):
     def get_cleanable_files(self) -> Deque[File]:
         cleanable_files: Deque[File] = deque()
         for f in self._files:
-            if f.cleanable:
+            if f.state == FileState.HAS_METADATA:
                 cleanable_files.append(f)
         return cleanable_files
 

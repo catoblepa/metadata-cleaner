@@ -1,3 +1,5 @@
+import logging
+
 from gettext import gettext as _
 from gi.repository import Gdk, Gio, GLib, Gtk
 
@@ -36,11 +38,15 @@ class MetadataCleaner(Gtk.Application):
     def add_files(self):
         if not self._window:
             return
-        files = self._window.get_files_from_filechooser()
-        if not files:
+        gfiles = self._window.get_files_from_filechooser()
+        if not gfiles:
             return
-        for f in files:
-            self.files_manager.add(File(f))
+        for gfile in gfiles:
+            f = File(gfile)
+            self.files_manager.add(f)
+        for f in self.files_manager.get_files():
+            f.initialize_parser()
+            f.check_metadata()
 
     def clean_metadata(self) -> None:
         if not self._window:
