@@ -43,10 +43,12 @@ class MetadataCleaner(Gtk.Application):
         gfiles = self._window.get_files_from_filechooser()
         if not gfiles:
             return
+        files = []
         for gfile in gfiles:
             f = File(gfile)
             self.files_manager.add(f)
-        for f in self.files_manager.get_files():
+            files.append(f)
+        for f in files:
             f.initialize_parser()
             f.check_metadata()
 

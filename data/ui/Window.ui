@@ -27,7 +27,7 @@ Author: Romain Vigier
   <template class="Window" parent="HdyApplicationWindow">
     <property name="visible">True</property>
     <property name="width-request">600</property>
-    <property name="height-request">340</property>
+    <property name="height-request">440</property>
     <signal name="destroy" handler="_on_destroy" swapped="no"/>
     <child>
       <object class="GtkStack" id="_stack">

@@ -64,6 +64,7 @@ class File(GObject.GObject):
     def _set_state(self, state: FileState) -> None:
         if state != self.state:
             self.state = state
+            logging.debug(f"State of {self.filename} changed to {state}.")
             self.emit("state-changed", state)
 
     def initialize_parser(self) -> None:
