@@ -29,7 +29,7 @@
           <object class="GtkImage">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="resource">/fr/romainvigier/MetadataCleaner/ui/background-logo.svg</property>
+            <property name="resource">/fr/romainvigier/MetadataCleaner/icons/background-logo.svg</property>
           </object>
           <packing>
             <property name="expand">False</property>

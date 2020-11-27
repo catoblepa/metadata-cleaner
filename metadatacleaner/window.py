@@ -17,17 +17,21 @@ class Window(Handy.ApplicationWindow):
     def __init__(self, app: Gtk.Application) -> None:
         super().__init__(
             application=app,
-            title=app.name,
-            show_menubar=False,
+            title=app.name
         )
         self._app = app
         self._setup_views()
         # TODO: Check accessibility
         self._app.files_manager.connect("file-added", self._on_file_added)
+        self._app.files_manager.connect("file-removed", self._on_file_removed)
 
     def _on_file_added(self, file_manager, new_file_index):
         if self._stack.get_visible_child_name() != "files_view":
             self.show_files_view()
+
+    def _on_file_removed(self, file_manager):
+        if len(self._app.files_manager.get_files()) == 0:
+            self.show_empty_view()
 
     @Gtk.Template.Callback()
     def _on_destroy(self, window: Gtk.Window) -> None:

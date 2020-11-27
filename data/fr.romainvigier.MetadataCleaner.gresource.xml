@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
 	<gresource prefix="/fr/romainvigier/MetadataCleaner">
-		<file compressed="true" preprocess="xml-stripblanks">ui/background-logo.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks">icons/add-files-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks">icons/background-logo.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks">icons/clean-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks">icons/error-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks">icons/metadata-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks">icons/remove-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/AddFilesButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/CleanMetadataButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/EmptyView.ui</file>

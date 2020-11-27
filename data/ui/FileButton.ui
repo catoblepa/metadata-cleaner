@@ -1,73 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <requires lib="gtk+" version="3.24"/>
-  <template class="FileButton" parent="GtkBin">
+  <template class="FileButton" parent="GtkButton">
     <property name="visible">True</property>
-    <property name="can-focus">False</property>
+    <property name="can-focus">True</property>
+    <property name="vexpand">False</property>
+    <property name="valign">center</property>
+    <signal name="clicked" handler="_on_file_button_clicked" swapped="no"/>
+    <style>
+      <class name="circular"/>
+    </style>
     <child>
-      <object class="GtkButton" id="_button">
+      <object class="GtkStack" id="_state_stack">
         <property name="visible">True</property>
-        <property name="can-focus">True</property>
-        <property name="receives-default">True</property>
-        <signal name="clicked" handler="_on_file_button_clicked" swapped="no"/>
+        <property name="can-focus">False</property>
+        <property name="transition-type">crossfade</property>
         <child>
-          <object class="GtkStack" id="_state_stack">
+          <object class="GtkImage" id="_error_image">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="transition-type">crossfade</property>
-            <child>
-              <object class="GtkImage" id="_error_image">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <!-- TODO: Load image from resource -->
-                <property name="icon-name">fr.romainvigier.MetadataCleaner-error-symbolic</property>
-              </object>
-              <packing>
-                <property name="name">error</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkImage" id="_has_metadata_image">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <!-- TODO: Load image from resource -->
-                <property name="icon-name">fr.romainvigier.MetadataCleaner-metadata-symbolic</property>
-              </object>
-              <packing>
-                <property name="name">has-metadata</property>
-                <property name="position">1</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkImage" id="_clean_image">
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <!-- TODO: Load image from resource -->
-                <property name="icon-name">fr.romainvigier.MetadataCleaner-clean-symbolic</property>
-              </object>
-              <packing>
-                <property name="name">clean</property>
-                <property name="position">2</property>
-              </packing>
-            </child>
-            <child>
-              <object class="GtkSpinner" id="_working_spinner">
-                <property name="width-request">24</property>
-                <property name="height-request">24</property>
-                <property name="visible">True</property>
-                <property name="can-focus">False</property>
-                <property name="active">True</property>
-              </object>
-              <packing>
-                <property name="name">working</property>
-                <property name="position">3</property>
-              </packing>
-            </child>
+            <property name="icon-name">error-symbolic</property>
           </object>
+          <packing>
+            <property name="name">error</property>
+          </packing>
         </child>
-        <style>
-          <class name="circular"/>
-        </style>
+        <child>
+          <object class="GtkImage" id="_has_metadata_image">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="icon-name">metadata-symbolic</property>
+          </object>
+          <packing>
+            <property name="name">has-metadata</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkImage" id="_clean_image">
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="icon-name">clean-symbolic</property>
+          </object>
+          <packing>
+            <property name="name">clean</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkSpinner" id="_working_spinner">
+            <property name="width-request">24</property>
+            <property name="height-request">24</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="active">True</property>
+          </object>
+          <packing>
+            <property name="name">working</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
       </object>
     </child>
   </template>

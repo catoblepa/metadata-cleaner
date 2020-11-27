@@ -5,6 +5,7 @@ import os
 
 from collections import deque
 from enum import Enum, auto
+from gettext import gettext as _
 from gi.repository import Gio, GObject
 from libmat2 import parser_factory
 from libmat2.abstract import AbstractParser
@@ -46,15 +47,14 @@ class FileState(Enum):
 class File(GObject.GObject):
 
     __gsignals__ = {
-        "state-changed": (GObject.SIGNAL_RUN_FIRST, None, (str,))
+        "state-changed": (GObject.SIGNAL_RUN_FIRST, None, (str,)),
+        "removed": (GObject.SIGNAL_RUN_FIRST, None, ())
     }
 
     state = FileState.INITIALIZING
+    mimetype = "text/plain"
     metadata: Optional[Dict] = None
     error: Optional[Exception] = None
-    cleanable = True
-    _checking = False
-    _cleaning = False
 
     def __init__(self, gfile: Gio.File) -> None:
         super().__init__()
@@ -79,6 +79,7 @@ class File(GObject.GObject):
             self._on_parser_initialization_error()
         else:
             self._parser = parser
+            self.mimetype = mimetype
             self._on_parser_initialization_finished()
 
     def _on_parser_initialization_error(self) -> None:
@@ -142,6 +143,11 @@ class File(GObject.GObject):
         try:
             self._parser.lightweight_cleaning = lightweight_mode
             self._parser.remove_all()
+            if not os.path.exists(self._parser.output_filename):
+                raise RuntimeError(_(
+                    "Something bad happened during the removal, "
+                    "cleaned file not found"
+                ))
             # Because of flatpak sandbox we have to replace the original file
             os.replace(self._parser.output_filename, self.path)
         except (RuntimeError, OSError) as e:
@@ -160,11 +166,15 @@ class File(GObject.GObject):
         logging.debug(f"{self.filename} has been cleaned.")
         self._set_state(FileState.CLEANED)
 
+    def remove(self) -> None:
+        self.emit("removed")
+
 
 class FilesManager(GObject.GObject):
 
     __gsignals__ = {
         "file-added": (GObject.SIGNAL_RUN_FIRST, None, (int,)),
+        "file-removed": (GObject.SIGNAL_RUN_FIRST, None, ()),
         "file-state-changed": (GObject.SIGNAL_RUN_FIRST, None, (int,))
     }
 
@@ -184,6 +194,11 @@ class FilesManager(GObject.GObject):
             self._files.append(f)
             f.connect("state-changed", self._on_file_state_changed)
             self.emit("file-added", len(self._files) - 1)
+
+    def remove(self, f: File) -> None:
+        self._files.remove(f)
+        f.remove()
+        self.emit("file-removed")
 
     def get_cleanable_files(self) -> Deque[File]:
         cleanable_files: Deque[File] = deque()

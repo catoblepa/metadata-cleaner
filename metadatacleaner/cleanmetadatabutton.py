@@ -15,6 +15,7 @@ class CleanMetadataButton(Gtk.Bin):
         self._app = app
         self._sync_button_sensitivity()
         self._app.files_manager.connect("file-added", self._on_file_added)
+        self._app.files_manager.connect("file-removed", self._on_file_removed)
         self._app.files_manager.connect(
             "file-state-changed",
             self._on_file_state_changed
@@ -25,6 +26,9 @@ class CleanMetadataButton(Gtk.Bin):
         self._app.clean_metadata()
 
     def _on_file_added(self, files_manager, file_index) -> None:
+        self._sync_button_sensitivity()
+
+    def _on_file_removed(self, files_manager) -> None:
         self._sync_button_sensitivity()
 
     def _on_file_state_changed(self, files_manager, file_index) -> None:

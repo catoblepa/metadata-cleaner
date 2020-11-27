@@ -8,10 +8,11 @@ from metadatacleaner.filesmanager import File, FileState
 @Gtk.Template(
     resource_path="/fr/romainvigier/MetadataCleaner/ui/FileButton.ui"
 )
-class FileButton(Gtk.Bin):
+class FileButton(Gtk.Button):
 
     __gtype_name__ = "FileButton"
 
+    # _button: Gtk.Button = Gtk.Template.Child()
     _state_stack: Gtk.Stack = Gtk.Template.Child()
 
     _popover: Optional[FilePopover] = None

@@ -14,21 +14,20 @@ class MetadataCleaner(Gtk.Application):
 
     def __init__(self, app_id: str, version: str) -> None:
         super().__init__(
-            application_id=app_id
+            application_id=app_id,
+            flags=Gio.ApplicationFlags.FLAGS_NONE
         )
         self.name = _("Metadata Cleaner")
         self.version = version
-        self.settings = Gio.Settings.new(
-            app_id
-        )
+        self.settings = Gio.Settings.new(app_id)
         self.files_manager = FilesManager()
         GLib.set_application_name(self.name)
         GLib.set_prgname(self.name)
+        Gtk.Window.set_default_icon_name(app_id)
 
     def do_activate(self) -> None:
         if not self._window:
             self._window = Window(self)
-            self._window.set_application(self)
             self._window.show_all()
         self._window.show_empty_view()
         self._window.present()
@@ -68,9 +67,6 @@ class MetadataCleaner(Gtk.Application):
         about_action = Gio.SimpleAction.new("about", None)
         about_action.connect("activate", self._on_about_action)
         self.add_action(about_action)
-        quit_action = Gio.SimpleAction.new("quit", None)
-        quit_action.connect("activate", self._on_quit_action)
-        self.add_action(quit_action)
         lightweight_setting_action = Gio.SimpleAction.new_stateful(
             "lightweight-setting",
             None,
@@ -86,9 +82,6 @@ class MetadataCleaner(Gtk.Application):
         if not self._window:
             return
         self._window.show_about_dialog()
-
-    def _on_quit_action(self, action, parameters) -> None:
-        self.quit()
 
     def on_lightweight_setting_action(self, action, parameters) -> None:
         self.settings.set_boolean(

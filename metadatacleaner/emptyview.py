@@ -19,7 +19,8 @@ class EmptyView(Gtk.Box):
         self._setup_box()
 
     def _setup_headerbar(self) -> None:
+        self._headerbar.pack_start(AddFilesButton(self._app))
         self._headerbar.pack_end(MenuButton(self._app))
 
     def _setup_box(self) -> None:
-        self._box.pack_end(AddFilesButton(self._app), False, True, 0)
+        pass

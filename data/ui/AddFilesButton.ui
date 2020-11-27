@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <requires lib="gtk+" version="3.24"/>
-  <requires lib="libhandy" version="1.0"/>
-  <template class="AddFilesButton" parent="GtkBin">
+  <template class="AddFilesButton" parent="GtkButton">
+    <property name="tooltip-text" translatable="yes">Add files</property>
+    <property name="visible">True</property>
+    <signal name="clicked" handler="_on_add_files_button_clicked" swapped="no"/>
     <child>
-      <object class="GtkButton">
-        <property name="label" translatable="yes">_Add files</property>
+      <object class="GtkImage">
         <property name="visible">True</property>
-        <property name="can-focus">True</property>
-        <property name="receives-default">True</property>
-        <property name="use-underline">True</property>
-        <property name="halign">center</property>
-        <style>
-          <class name="suggested-action"/>
-        </style>
-        <signal name="clicked" handler="_on_add_files_button_clicked" swapped="no"/>
+        <property name="icon-name">add-files-symbolic</property>
       </object>
     </child>
   </template>
