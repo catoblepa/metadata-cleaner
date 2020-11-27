@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-26 23:12+0100\n"
+"POT-Creation-Date: 2020-11-27 23:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:3
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 data/ui/EmptyView.ui:12
-#: metadatacleaner/app.py:19
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:21
 msgid "Metadata Cleaner"
 msgstr ""
 
@@ -28,16 +27,16 @@ msgid "Clean metadata from your files"
 msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:12
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:14
 msgid "Metadata;Remover;Cleaner;"
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:6
-msgid "Warn before removing metadata"
+msgid "Warn before saving cleaned files"
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:7
-msgid "Show the warning dialog before removing metadata"
+msgid "Show the warning dialog before saving the cleaned files"
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
@@ -48,16 +47,20 @@ msgstr ""
 msgid "Remove less metadata but guarantee the integrity of the data"
 msgstr ""
 
-#: data/ui/AddFilesButton.ui:8
-msgid "_Add files"
+#: data/ui/AddFilesButton.ui:5
+msgid "Add files"
 msgstr ""
 
-#: data/ui/CleanMetadataButton.ui:8
-msgid "_Clean metadata"
+#: data/ui/CleanMetadataButton.ui:7
+msgid "_Clean"
 msgstr ""
 
-#: data/ui/EmptyView.ui:44
+#: data/ui/EmptyView.ui:28
 msgid "Clean your traces."
+msgstr ""
+
+#: data/ui/FileRow.ui:12
+msgid "Remove file from list"
 msgstr ""
 
 #: data/ui/MenuPopover.ui:14
@@ -78,12 +81,20 @@ msgstr ""
 msgid "_About Metadata Cleaner"
 msgstr ""
 
-#: data/ui/MenuPopover.ui:37
-msgid "_Quit"
+#: data/ui/SaveFilesButton.ui:7
+msgid "_Save"
+msgstr ""
+
+#: data/ui/StatusIndicator.ui:33
+msgid "Done!"
+msgstr ""
+
+#: metadatacleaner/file.py:132
+msgid "Something bad happened during the removal, cleaned file not found"
 msgstr ""
 
 #: metadatacleaner/filepopover.py:35
-msgid "Initializing..."
+msgid "Initializing…"
 msgstr ""
 
 #: metadatacleaner/filepopover.py:37
@@ -99,7 +110,7 @@ msgid "File type supported."
 msgstr ""
 
 #: metadatacleaner/filepopover.py:41
-msgid "Checking metadata..."
+msgid "Checking metadata…"
 msgstr ""
 
 #: metadatacleaner/filepopover.py:43
@@ -107,7 +118,7 @@ msgid "Error while checking metadata:"
 msgstr ""
 
 #: metadatacleaner/filepopover.py:45
-msgid "No metadata have been found!"
+msgid "No metadata have been found."
 msgstr ""
 
 #: metadatacleaner/filepopover.py:46
@@ -115,7 +126,7 @@ msgid "These metadata have been found:"
 msgstr ""
 
 #: metadatacleaner/filepopover.py:47
-msgid "Removing metadata..."
+msgid "Removing metadata…"
 msgstr ""
 
 #: metadatacleaner/filepopover.py:49
@@ -126,8 +137,16 @@ msgstr ""
 msgid "The file has been cleaned."
 msgstr ""
 
-#: metadatacleaner/filesmanager.py:148
-msgid "Something bad happened during the removal, cleaned file not found"
+#: metadatacleaner/filepopover.py:52
+msgid "Saving the cleaned file…"
+msgstr ""
+
+#: metadatacleaner/filepopover.py:53
+msgid "Error while saving the file:"
+msgstr ""
+
+#: metadatacleaner/filepopover.py:54
+msgid "The cleaned file has been saved."
 msgstr ""
 
 #: metadatacleaner/metadataview.py:42 metadatacleaner/metadataview.py:54
@@ -142,22 +161,26 @@ msgstr ""
 msgid "File"
 msgstr ""
 
-#: metadatacleaner/window.py:51
+#: metadatacleaner/statusindicator.py:52
+msgid "Processing file {}/{}"
+msgstr ""
+
+#: metadatacleaner/window.py:64
 msgid "Choose files"
 msgstr ""
 
-#: metadatacleaner/window.py:58
+#: metadatacleaner/window.py:71
 msgid "All supported files"
 msgstr ""
 
-#: metadatacleaner/window.py:71
+#: metadatacleaner/window.py:84
 msgid "Make sure you backed up your files!"
 msgstr ""
 
-#: metadatacleaner/window.py:73
-msgid "Once you remove metadata, there's no going back."
+#: metadatacleaner/window.py:86
+msgid "Once you replace your files, there's no going back."
 msgstr ""
 
-#: metadatacleaner/window.py:83
+#: metadatacleaner/window.py:96
 msgid "Don't tell me again"
 msgstr ""

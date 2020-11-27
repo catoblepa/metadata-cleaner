@@ -45,6 +45,7 @@ sources = [
   'metadatacleaner/app.py',
   'metadatacleaner/cleanmetadatabutton.py',
   'metadatacleaner/emptyview.py',
+  'metadatacleaner/file.py',
   'metadatacleaner/filebutton.py',
   'metadatacleaner/filepopover.py',
   'metadatacleaner/filerow.py',
@@ -53,6 +54,8 @@ sources = [
   'metadatacleaner/menubutton.py',
   'metadatacleaner/menupopover.py',
   'metadatacleaner/metadataview.py',
+  'metadatacleaner/savefilesbutton.py',
+  'metadatacleaner/statusindicator.py',
   'metadatacleaner/window.py',
 ]
 install_data(sources, install_dir: metadatacleanerdir)

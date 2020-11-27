@@ -2,7 +2,7 @@ from gettext import gettext as _
 from gi.repository import Gtk
 from typing import Optional
 
-from metadatacleaner.filesmanager import File, FileState
+from metadatacleaner.file import File, FileState
 from metadatacleaner.metadataview import MetadataView
 
 
@@ -32,23 +32,26 @@ class FilePopover(Gtk.Popover):
 
     def _sync_title_to_file(self) -> None:
         title = {
-            FileState.INITIALIZING: _("Initializing..."),
+            FileState.INITIALIZING: _("Initializing…"),
             FileState.ERROR_WHILE_INITIALIZING: _(
                 "Error while initializing the file parser."
             ),
             FileState.UNSUPPORTED: _("File type not supported."),
             FileState.SUPPORTED: _("File type supported."),
-            FileState.CHECKING_METADATA: _("Checking metadata..."),
+            FileState.CHECKING_METADATA: _("Checking metadata…"),
             FileState.ERROR_WHILE_CHECKING_METADATA: _(
                 "Error while checking metadata:"
             ),
-            FileState.HAS_NO_METADATA: _("No metadata have been found!"),
+            FileState.HAS_NO_METADATA: _("No metadata have been found."),
             FileState.HAS_METADATA: _("These metadata have been found:"),
-            FileState.REMOVING_METADATA: _("Removing metadata..."),
+            FileState.REMOVING_METADATA: _("Removing metadata…"),
             FileState.ERROR_WHILE_REMOVING_METADATA: _(
                 "Error while removing metadata:"
             ),
-            FileState.CLEANED: _("The file has been cleaned.")
+            FileState.CLEANED: _("The file has been cleaned."),
+            FileState.SAVING: _("Saving the cleaned file…"),
+            FileState.ERROR_WHILE_SAVING: _("Error while saving the file:"),
+            FileState.SAVED: _("The cleaned file has been saved.")
         }
         self._title.set_label(title[self._file.state])
 
@@ -64,7 +67,8 @@ class FilePopover(Gtk.Popover):
         elif self._file.state in [
             FileState.ERROR_WHILE_INITIALIZING,
             FileState.ERROR_WHILE_CHECKING_METADATA,
-            FileState.ERROR_WHILE_REMOVING_METADATA
+            FileState.ERROR_WHILE_REMOVING_METADATA,
+            FileState.ERROR_WHILE_SAVING
         ]:
             self._content = Gtk.Label(
                 visible=True,

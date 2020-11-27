@@ -2,8 +2,8 @@ from gettext import gettext as _
 from gi.repository import Gdk, Gio, GLib, Gtk, Handy
 from typing import Optional
 
+from metadatacleaner.file import File, FileState
 from metadatacleaner.filebutton import FileButton
-from metadatacleaner.filesmanager import File, FileState
 
 
 @Gtk.Template(
@@ -26,7 +26,7 @@ class FileRow(Handy.ActionRow):
 
     @Gtk.Template.Callback()
     def _on_remove_file_button_clicked(self, button) -> None:
-        self._app.files_manager.remove(self._file)
+        self._app.files_manager.remove_file(self._file)
 
     def _on_file_state_changed(self, file, new_state) -> None:
         self._sync_icon()

@@ -4,12 +4,16 @@
   <requires lib="libhandy" version="1.0"/>
   <template class="EmptyView" parent="GtkBox">
     <property name="visible">True</property>
+    <property name="can-focus">False</property>
+    <property name="valign">center</property>
     <property name="orientation">vertical</property>
+    <property name="margin">36</property>
+    <property name="spacing">12</property>
     <child>
-      <object class="HdyHeaderBar" id="_headerbar">
+      <object class="GtkImage">
         <property name="visible">True</property>
-        <property name="show-close-button">True</property>
-        <property name="title" translatable="yes">Metadata Cleaner</property>
+        <property name="can-focus">False</property>
+        <property name="resource">/fr/romainvigier/MetadataCleaner/icons/background-logo.svg</property>
       </object>
       <packing>
         <property name="expand">False</property>
@@ -18,46 +22,19 @@
       </packing>
     </child>
     <child>
-      <object class="GtkBox" id="_box">
+      <object class="GtkLabel">
         <property name="visible">True</property>
         <property name="can-focus">False</property>
-        <property name="valign">center</property>
-        <property name="orientation">vertical</property>
-        <property name="margin">36</property>
-        <property name="spacing">12</property>
-        <child>
-          <object class="GtkImage">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="resource">/fr/romainvigier/MetadataCleaner/icons/background-logo.svg</property>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">0</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkLabel">
-            <property name="visible">True</property>
-            <property name="can-focus">False</property>
-            <property name="label" translatable="yes">Clean your traces.</property>
-            <attributes>
-              <attribute name="size" value="15360"/>
-            </attributes>
-            <style>
-              <class name="dim-label"/>
-            </style>
-          </object>
-          <packing>
-            <property name="expand">False</property>
-            <property name="fill">True</property>
-            <property name="position">1</property>
-          </packing>
-        </child>
+        <property name="label" translatable="yes">Clean your traces.</property>
+        <attributes>
+          <attribute name="size" value="15360"/>
+        </attributes>
+        <style>
+          <class name="dim-label"/>
+        </style>
       </object>
       <packing>
-        <property name="expand">True</property>
+        <property name="expand">False</property>
         <property name="fill">True</property>
         <property name="position">1</property>
       </packing>

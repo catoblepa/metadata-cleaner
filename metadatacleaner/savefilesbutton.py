@@ -4,15 +4,15 @@ from metadatacleaner.filesmanager import FilesManager, FilesManagerState
 
 
 @Gtk.Template(
-    resource_path="/fr/romainvigier/MetadataCleaner/ui/CleanMetadataButton.ui"
+    resource_path="/fr/romainvigier/MetadataCleaner/ui/SaveFilesButton.ui"
 )
-class CleanMetadataButton(Gtk.Bin):
+class SaveFilesButton(Gtk.Bin):
 
-    __gtype_name__ = "CleanMetadataButton"
+    __gtype_name__ = "SaveFilesButton"
 
     _button: Gtk.Button = Gtk.Template.Child()
 
-    def __init__(self, app) -> None:
+    def __init__(self, app):
         super().__init__()
         self._app = app
         self._sync_button_sensitivity()
@@ -28,8 +28,8 @@ class CleanMetadataButton(Gtk.Bin):
         )
 
     @Gtk.Template.Callback()
-    def _on_clean_metadata_button_clicked(self, button) -> None:
-        self._app.clean_metadata()
+    def _on_save_files_button_clicked(self, button):
+        self._app.save_cleaned_files()
 
     def _on_file_added(self, files_manager, file_index) -> None:
         self._sync_button_sensitivity()
@@ -49,7 +49,7 @@ class CleanMetadataButton(Gtk.Bin):
 
     def _sync_button_sensitivity(self) -> None:
         if self._app.files_manager.state == FilesManagerState.WORKING \
-                or len(self._app.files_manager.get_cleanable_files()) == 0:
+                or len(self._app.files_manager.get_cleaned_files()) == 0:
             self._button.set_sensitive(False)
         else:
             self._button.set_sensitive(True)

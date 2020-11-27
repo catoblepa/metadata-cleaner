@@ -6,17 +6,6 @@
     <property name="visible">True</property>
     <property name="orientation">vertical</property>
     <child>
-      <object class="HdyHeaderBar" id="_headerbar">
-        <property name="visible">True</property>
-        <property name="show-close-button">True</property>
-      </object>
-      <packing>
-        <property name="expand">False</property>
-        <property name="fill">True</property>
-        <property name="position">0</property>
-      </packing>
-    </child>
-    <child>
       <object class="GtkScrolledWindow">
         <property name="visible">True</property>
         <property name="can-focus">True</property>
@@ -41,6 +30,16 @@
       </object>
       <packing>
         <property name="expand">True</property>
+        <property name="fill">True</property>
+        <property name="position">0</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkActionBar" id="_actionbar">
+        <property name="visible">True</property>
+      </object>
+      <packing>
+        <property name="expand">False</property>
         <property name="fill">True</property>
         <property name="position">1</property>
       </packing>

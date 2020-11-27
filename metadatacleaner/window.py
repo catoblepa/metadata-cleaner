@@ -2,9 +2,11 @@ from gettext import gettext as _
 from gi.repository import Gio, Gtk, Handy
 from typing import List, Optional
 
+from metadatacleaner.addfilesbutton import AddFilesButton
 from metadatacleaner.emptyview import EmptyView
 from metadatacleaner.filesview import FilesView
 from metadatacleaner.filesmanager import SUPPORTED_FORMATS
+from metadatacleaner.menubutton import MenuButton
 
 
 @Gtk.Template(resource_path="/fr/romainvigier/MetadataCleaner/ui/Window.ui")
@@ -12,6 +14,7 @@ class Window(Handy.ApplicationWindow):
 
     __gtype_name__ = "Window"
 
+    _headerbar: Handy.HeaderBar = Gtk.Template.Child()
     _stack: Gtk.Stack = Gtk.Template.Child()
 
     def __init__(self, app: Gtk.Application) -> None:
@@ -20,6 +23,7 @@ class Window(Handy.ApplicationWindow):
             title=app.name
         )
         self._app = app
+        self._setup_headerbar()
         self._setup_views()
         # TODO: Check accessibility
         self._app.files_manager.connect("file-added", self._on_file_added)
@@ -36,6 +40,11 @@ class Window(Handy.ApplicationWindow):
     @Gtk.Template.Callback()
     def _on_destroy(self, window: Gtk.Window) -> None:
         self._app.quit()
+
+    def _setup_headerbar(self) -> None:
+        self._headerbar.pack_start(AddFilesButton(self._app))
+        self._headerbar.pack_end(MenuButton(self._app))
+        self._headerbar.set_title(self._app.name)
 
     def _setup_views(self) -> None:
         self._empty_view = EmptyView(self._app)
@@ -70,11 +79,11 @@ class Window(Handy.ApplicationWindow):
         file_chooser.destroy()
         return files
 
-    def show_remove_warning_dialog(self) -> Gtk.ResponseType:
+    def show_save_warning_dialog(self) -> Gtk.ResponseType:
         dialog = Gtk.MessageDialog(
             text=_("Make sure you backed up your files!"),
             secondary_text=_(
-                "Once you remove metadata, there's no going back."
+                "Once you replace your files, there's no going back."
             ),
             flags=0,
             modal=True,
@@ -88,7 +97,7 @@ class Window(Handy.ApplicationWindow):
             halign="center"
         )
         self._app.settings.bind(
-            "warn-before-removing",
+            "warn-before-saving",
             dont_warn_again_checkbox,
             "active",
             Gio.SettingsBindFlags.INVERT_BOOLEAN

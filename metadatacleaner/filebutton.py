@@ -1,8 +1,8 @@
 from gi.repository import Gtk
 from typing import Optional
 
+from metadatacleaner.file import File, FileState
 from metadatacleaner.filepopover import FilePopover
-from metadatacleaner.filesmanager import File, FileState
 
 
 @Gtk.Template(
@@ -47,7 +47,10 @@ class FileButton(Gtk.Button):
             FileState.HAS_METADATA: "has-metadata",
             FileState.REMOVING_METADATA: "working",
             FileState.ERROR_WHILE_REMOVING_METADATA: "error",
-            FileState.CLEANED: "clean"
+            FileState.CLEANED: "clean",
+            FileState.SAVING: "working",
+            FileState.ERROR_WHILE_SAVING: "error",
+            FileState.SAVED: "clean"
         }
         self._state_stack.set_visible_child_name(page[self._file.state])
 

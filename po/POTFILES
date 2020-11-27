@@ -10,11 +10,14 @@ data/ui/FilesView.ui
 data/ui/MenuButton.ui
 data/ui/MenuPopover.ui
 data/ui/MetadataView.ui
+data/ui/SaveFilesButton.ui
+data/ui/StatusIndicator.ui
 data/ui/Window.ui
 metadatacleaner/addfilesbutton.py
 metadatacleaner/app.py
 metadatacleaner/cleanmetadatabutton.py
 metadatacleaner/emptyview.py
+metadatacleaner/file.py
 metadatacleaner/filebutton.py
 metadatacleaner/filepopover.py
 metadatacleaner/filerow.py
@@ -23,4 +26,6 @@ metadatacleaner/filesview.py
 metadatacleaner/menubutton.py
 metadatacleaner/menupopover.py
 metadatacleaner/metadataview.py
+metadatacleaner/savefilesbutton.py
+metadatacleaner/statusindicator.py
 metadatacleaner/window.py

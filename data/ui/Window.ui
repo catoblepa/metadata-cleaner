@@ -31,11 +31,33 @@ Author: Romain Vigier
     <property name="show-menubar">False</property>
     <signal name="destroy" handler="_on_destroy" swapped="no"/>
     <child>
-      <object class="GtkStack" id="_stack">
+      <object class="GtkBox">
         <property name="visible">True</property>
-        <property name="vhomogeneous">False</property>
-        <property name="interpolate-size">True</property>
-        <property name="transition-type">crossfade</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="HdyHeaderBar" id="_headerbar">
+            <property name="visible">True</property>
+            <property name="show-close-button">True</property>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkStack" id="_stack">
+            <property name="visible">True</property>
+            <property name="vhomogeneous">False</property>
+            <property name="interpolate-size">True</property>
+            <property name="transition-type">crossfade</property>
+          </object>
+          <packing>
+            <property name="expand">True</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
       </object>
     </child>
   </template>

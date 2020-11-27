@@ -3,7 +3,8 @@ import logging
 from gettext import gettext as _
 from gi.repository import Gdk, Gio, GLib, Gtk
 
-from metadatacleaner.filesmanager import File, FilesManager
+from metadatacleaner.file import File
+from metadatacleaner.filesmanager import FilesManager
 from metadatacleaner.window import Window
 
 
@@ -45,23 +46,27 @@ class MetadataCleaner(Gtk.Application):
         files = []
         for gfile in gfiles:
             f = File(gfile)
-            self.files_manager.add(f)
+            self.files_manager.add_file(f)
             files.append(f)
         for f in files:
             f.initialize_parser()
             f.check_metadata()
 
     def clean_metadata(self) -> None:
+        if not self.files_manager:
+            return
+        self.files_manager.clean_files(
+            lightweight_mode=self.settings.get_boolean("lightweight-mode")
+        )
+
+    def save_cleaned_files(self) -> None:
         if not self._window or not self.files_manager:
             return
-        if self.settings.get_boolean("warn-before-removing"):
-            response = self._window.show_remove_warning_dialog()
+        if self.settings.get_boolean("warn-before-saving"):
+            response = self._window.show_save_warning_dialog()
             if response != Gtk.ResponseType.OK:
                 return
-        for f in self.files_manager.get_cleanable_files():
-            f.remove_metadata(
-                lightweight_mode=self.settings.get_boolean("lightweight-mode")
-            )
+        self.files_manager.save_cleaned_files()
 
     def _setup_actions(self) -> None:
         about_action = Gio.SimpleAction.new("about", None)
