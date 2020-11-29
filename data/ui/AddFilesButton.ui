@@ -4,7 +4,7 @@
   <template class="AddFilesButton" parent="GtkButton">
     <property name="tooltip-text" translatable="yes">Add files</property>
     <property name="visible">True</property>
-    <signal name="clicked" handler="_on_add_files_button_clicked" swapped="no"/>
+    <property name="action-name">app.add-files</property>
     <child>
       <object class="GtkImage">
         <property name="visible">True</property>

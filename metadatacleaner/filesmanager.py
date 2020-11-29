@@ -2,12 +2,11 @@ import libmat2
 import logging
 import mimetypes
 
-from collections import deque
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from enum import IntEnum, auto
-from gi.repository import GObject
+from gi.repository import Gio, GLib, GObject
 from threading import Thread
-from typing import Deque, Dict, Set
+from typing import Dict, Iterable, List, Set
 
 from metadatacleaner.file import File, FileState
 
@@ -47,30 +46,58 @@ class FilesManager(GObject.GObject):
     state = FilesManagerState.IDLE
     progress = (0, 0)
 
-    _files: Deque[File] = deque()
+    _files: List[File] = list()
+    _paths: Set = set()
 
     def __init__(self) -> None:
         super().__init__()
 
-    def _on_file_state_changed(self, file: File, new_state: FileState) -> None:
-        self.emit("file-state-changed", self._files.index(file))
+    def _on_file_state_changed(self, f: File, new_state: FileState) -> None:
+        GLib.idle_add(self.emit, "file-state-changed", self._files.index(f))
 
-    def get_files(self) -> Deque[File]:
+    def get_files(self) -> List[File]:
         return self._files
 
     def get_file(self, index: int) -> File:
         return self._files[index]
 
-    def add_file(self, f: File) -> None:
-        if f.path not in [existing_file.path for existing_file in self._files]:
-            self._files.append(f)
-            f.connect("state-changed", self._on_file_state_changed)
-            self.emit("file-added", len(self._files) - 1)
+    def add_gfiles(self, gfiles: List[Gio.File]) -> None:
+        thread = Thread(
+            target=self._add_gfiles_async,
+            args=(gfiles,),
+            daemon=True
+        )
+        thread.start()
+
+    def _add_gfiles_async(self, gfiles: List[Gio.File]) -> None:
+        number_of_gfiles = len(gfiles)
+        self._set_progress(0, number_of_gfiles)
+        self._set_state(FilesManagerState.WORKING)
+        with ThreadPoolExecutor() as executor:
+            futures = {
+                executor.submit(self.add_gfile, gfile)
+                for gfile in gfiles
+            }
+            for i, future in enumerate(as_completed(futures)):
+                self._set_progress(i + 1, number_of_gfiles)
+        self._set_state(FilesManagerState.IDLE)
+
+    def add_gfile(self, gfile: Gio.File) -> None:
+        if gfile.get_path() in self._paths:
+            return
+        f = File(gfile)
+        self._paths.add(f.path)
+        self._files.append(f)
+        GLib.idle_add(self.emit, "file-added", len(self._files) - 1)
+        f.connect("state-changed", self._on_file_state_changed)
+        f.initialize_parser()
+        f.check_metadata()
 
     def remove_file(self, f: File) -> None:
         self._files.remove(f)
+        self._paths.remove(f.path)
         f.remove()
-        self.emit("file-removed")
+        GLib.idle_add(self.emit, "file-removed")
 
     def clean_files(self, lightweight_mode=False) -> None:
         thread = Thread(
@@ -109,28 +136,35 @@ class FilesManager(GObject.GObject):
                 self._set_progress(i + 1, number_of_cleaned_files)
         self._set_state(FilesManagerState.IDLE)
 
-    def get_cleanable_files(self) -> Deque[File]:
-        return self._get_files_with_state(FileState.HAS_METADATA)
+    def get_cleanable_files(self) -> List[File]:
+        return self._get_files_with_states((
+            FileState.HAS_METADATA,
+            FileState.HAS_NO_METADATA
+        ))
 
-    def get_cleaned_files(self) -> Deque[File]:
-        return self._get_files_with_state(FileState.CLEANED)
+    def get_cleaned_files(self) -> List[File]:
+        return self._get_files_with_states((FileState.CLEANED,))
 
-    def _get_files_with_state(self, state: FileState) -> Deque[File]:
-        wanted_files: Deque[File] = deque()
+    def _get_files_with_states(
+        self,
+        states: Iterable[FileState]
+    ) -> List[File]:
+        wanted_files: List[File] = []
         for f in self._files:
-            if f.state == state:
+            if f.state in states:
                 wanted_files.append(f)
         return wanted_files
 
     def _set_state(self, state: FilesManagerState) -> None:
-        if state != self.state:
-            self.state = state
-            logging.debug(
-                f"State of files manager changed to {str(self.state)}."
-            )
-            self.emit("state-changed", state)
+        if state == self.state:
+            return
+        self.state = state
+        logging.debug(
+            f"State of files manager changed to {str(self.state)}."
+        )
+        GLib.idle_add(self.emit, "state-changed", state)
 
     def _set_progress(self, current: int, total: int) -> None:
         self.progress = (current, total)
         logging.debug(f"Files manager progress set to {self.progress}.")
-        self.emit("progress-changed", current, total)
+        GLib.idle_add(self.emit, "progress-changed", current, total)

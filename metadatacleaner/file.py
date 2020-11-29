@@ -3,7 +3,7 @@ import os
 
 from enum import IntEnum, auto
 from gettext import gettext as _
-from gi.repository import Gio, GObject
+from gi.repository import Gio, GLib, GObject
 from libmat2 import parser_factory
 from libmat2.abstract import AbstractParser
 from threading import Thread
@@ -48,73 +48,57 @@ class File(GObject.GObject):
         if state != self.state:
             self.state = state
             logging.debug(f"State of {self.filename} changed to {str(state)}.")
-            self.emit("state-changed", state)
+            GLib.idle_add(self.emit, "state-changed", state)
 
     def initialize_parser(self) -> None:
         logging.debug(f"Initializing parser for {self.filename}...")
-        self._initialize_parser()
-
-    def _initialize_parser(self) -> None:
         try:
             parser, mimetype = parser_factory.get_parser(self.path)
         except ValueError as e:
             self.error = e
-            self._on_parser_initialization_error()
+            logging.error(
+                f"Error while initializing parser for {self.filename}: "
+                f"{self.error}"
+            )
+            self._set_state(FileState.ERROR_WHILE_INITIALIZING)
         else:
             self._parser = parser
             self.mimetype = mimetype
-            self._on_parser_initialization_finished()
-
-    def _on_parser_initialization_error(self) -> None:
-        logging.error(
-            f"Error while initializing parser for {self.filename}: "
-            f"{self.error}"
-        )
-        self._set_state(FileState.ERROR_WHILE_INITIALIZING)
-
-    def _on_parser_initialization_finished(self) -> None:
-        if self._parser:
-            logging.debug(f"{self.filename} is supported.")
-            self._set_state(FileState.SUPPORTED)
-        else:
-            logging.warning(f"{self.filename} is unsupported.")
-            self._set_state(FileState.UNSUPPORTED)
+            if self._parser:
+                logging.debug(f"{self.filename} is supported.")
+                self._set_state(FileState.SUPPORTED)
+            else:
+                logging.warning(f"{self.filename} is unsupported.")
+                self._set_state(FileState.UNSUPPORTED)
 
     def check_metadata(self) -> None:
         if self.state != FileState.SUPPORTED:
             return
         logging.debug(f"Checking metadata for {self.filename}...")
         self._set_state(FileState.CHECKING_METADATA)
-        thread = Thread(target=self._check_metadata)
-        thread.daemon = True
-        thread.start()
-
-    def _check_metadata(self) -> None:
         try:
             metadata = self._parser.get_meta()
         except Exception as e:
             self.error = e
-            self._on_check_metadata_error()
+            logging.error(
+                "Error while checking metadata for "
+                f"{self.filename}: {self.error}"
+            )
+            self._set_state(FileState.ERROR_WHILE_CHECKING_METADATA)
         else:
             self.metadata = metadata if bool(metadata) else None
-            self._on_check_metadata_finished()
-
-    def _on_check_metadata_error(self) -> None:
-        logging.error(
-            f"Error while checking metadata for {self.filename}: {self.error}"
-        )
-        self._set_state(FileState.ERROR_WHILE_CHECKING_METADATA)
-
-    def _on_check_metadata_finished(self) -> None:
-        if self.metadata:
-            logging.debug(f"Found metadata for {self.filename}.")
-            self._set_state(FileState.HAS_METADATA)
-        else:
-            logging.debug(f"Found no metadata for {self.filename}.")
-            self._set_state(FileState.HAS_NO_METADATA)
+            if self.metadata:
+                logging.debug(f"Found metadata for {self.filename}.")
+                self._set_state(FileState.HAS_METADATA)
+            else:
+                logging.debug(f"Found no metadata for {self.filename}.")
+                self._set_state(FileState.HAS_NO_METADATA)
 
     def remove_metadata(self, lightweight_mode=False) -> None:
-        if self.state != FileState.HAS_METADATA:
+        if self.state not in [
+            FileState.HAS_METADATA,
+            FileState.HAS_NO_METADATA
+        ]:
             return
         logging.debug(f"Removing metadata for {self.filename}...")
         self._set_state(FileState.REMOVING_METADATA)
@@ -153,4 +137,4 @@ class File(GObject.GObject):
             self._set_state(FileState.SAVED)
 
     def remove(self) -> None:
-        self.emit("removed")
+        GLib.idle_add(self.emit, "removed")

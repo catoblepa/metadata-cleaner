@@ -43,14 +43,7 @@ class MetadataCleaner(Gtk.Application):
         gfiles = self._window.get_files_from_filechooser()
         if not gfiles:
             return
-        files = []
-        for gfile in gfiles:
-            f = File(gfile)
-            self.files_manager.add_file(f)
-            files.append(f)
-        for f in files:
-            f.initialize_parser()
-            f.check_metadata()
+        self.files_manager.add_gfiles(gfiles)
 
     def clean_metadata(self) -> None:
         if not self.files_manager:
@@ -72,6 +65,42 @@ class MetadataCleaner(Gtk.Application):
         about_action = Gio.SimpleAction.new("about", None)
         about_action.connect("activate", self._on_about_action)
         self.add_action(about_action)
+        about_metadata_privacy_action = Gio.SimpleAction.new(
+            "about-metadata-privacy",
+            None
+        )
+        about_metadata_privacy_action.connect(
+            "activate",
+            self._on_about_metadata_privacy_action
+        )
+        self.add_action(about_metadata_privacy_action)
+        about_removing_metadata_action = Gio.SimpleAction.new(
+            "about-removing-metadata",
+            None
+        )
+        about_removing_metadata_action.connect(
+            "activate",
+            self._on_about_removing_metadata_action
+        )
+        self.add_action(about_removing_metadata_action)
+        add_files_action = Gio.SimpleAction.new("add-files", None)
+        add_files_action.connect("activate", self._on_add_files_action)
+        self.add_action(add_files_action)
+        clean_metadata_action = Gio.SimpleAction.new("clean-metadata", None)
+        clean_metadata_action.connect(
+            "activate",
+            self._on_clean_metadata_action
+        )
+        self.add_action(clean_metadata_action)
+        save_cleaned_files_action = Gio.SimpleAction.new(
+            "save-cleaned-files",
+            None
+        )
+        save_cleaned_files_action.connect(
+            "activate",
+            self._on_save_cleaned_files_action
+        )
+        self.add_action(save_cleaned_files_action)
         lightweight_setting_action = Gio.SimpleAction.new_stateful(
             "lightweight-setting",
             None,
@@ -87,6 +116,25 @@ class MetadataCleaner(Gtk.Application):
         if not self._window:
             return
         self._window.show_about_dialog()
+
+    def _on_about_metadata_privacy_action(self, action, parameters) -> None:
+        if not self._window:
+            return
+        self._window.show_about_metadata_privacy_dialog()
+
+    def _on_about_removing_metadata_action(self, action, parameters) -> None:
+        if not self._window:
+            return
+        self._window.show_about_removing_metadata_dialog()
+
+    def _on_add_files_action(self, action, parameters) -> None:
+        self.add_files()
+
+    def _on_clean_metadata_action(self, action, parameters) -> None:
+        self.clean_metadata()
+
+    def _on_save_cleaned_files_action(self, action, parameters) -> None:
+        self.save_cleaned_files()
 
     def on_lightweight_setting_action(self, action, parameters) -> None:
         self.settings.set_boolean(

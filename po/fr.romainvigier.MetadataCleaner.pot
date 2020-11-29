@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-27 23:41+0100\n"
+"POT-Creation-Date: 2020-11-29 12:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr ""
 msgid "_Clean"
 msgstr ""
 
-#: data/ui/EmptyView.ui:28
+#: data/ui/EmptyView.ui:24
 msgid "Clean your traces."
 msgstr ""
 
@@ -77,7 +77,15 @@ msgid ""
 "mode precisely does that."
 msgstr ""
 
-#: data/ui/MenuPopover.ui:30
+#: data/ui/MenuPopover.ui:29
+msgid "Note about _metadata and privacy"
+msgstr ""
+
+#: data/ui/MenuPopover.ui:36
+msgid "Note about _removing metadata"
+msgstr ""
+
+#: data/ui/MenuPopover.ui:52
 msgid "_About Metadata Cleaner"
 msgstr ""
 
@@ -89,7 +97,7 @@ msgstr ""
 msgid "Done!"
 msgstr ""
 
-#: metadatacleaner/file.py:132
+#: metadatacleaner/file.py:110
 msgid "Something bad happened during the removal, cleaned file not found"
 msgstr ""
 
@@ -183,4 +191,38 @@ msgstr ""
 
 #: metadatacleaner/window.py:96
 msgid "Don't tell me again"
+msgstr ""
+
+#: metadatacleaner/window.py:130
+msgid "Note about metadata and privacy"
+msgstr ""
+
+#: metadatacleaner/window.py:132
+msgid ""
+"Metadata consist of information that characterizes data. Metadata are used "
+"to provide documentation for data products. In essence, metadata answer who, "
+"what, when, where, why, and how about every facet of the data that are being "
+"documented.\n"
+"\n"
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when a picture was taken and what camera was used. Office documents like PDF "
+"or Office automatically adds author and company information to documents and "
+"spreadsheets. Maybe you don't want to disclose those informations.\n"
+"\n"
+"This tool will get rid, as much as possible, of metadata."
+msgstr ""
+
+#: metadatacleaner/window.py:156
+msgid "Note about removing metadata"
+msgstr ""
+
+#: metadatacleaner/window.py:158
+msgid ""
+"While this tool is doing its very best to display metadata, it doesn't mean "
+"that a file is clean from any metadata if it doesn't show any. There is no "
+"reliable way to detect every single possible metadata for complex file "
+"formats.\n"
+"\n"
+"This is why you shouldn't rely on metadata's presence to decide if your file "
+"must be cleaned or not."
 msgstr ""

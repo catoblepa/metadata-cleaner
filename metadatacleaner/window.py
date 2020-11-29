@@ -124,3 +124,49 @@ class Window(Handy.ApplicationWindow):
             website="https://gitlab.com/rmnvgr/metadata-cleaner/"
         )
         about_dialog.present()
+
+    def show_about_metadata_privacy_dialog(self) -> None:
+        dialog = Gtk.MessageDialog(
+            text=_("Note about metadata and privacy"),
+            secondary_text=_(
+                "Metadata consist of information that characterizes data. "
+                "Metadata are used to provide documentation for data "
+                "products. In essence, metadata answer who, what, when, "
+                "where, why, and how about every facet of the data that are "
+                "being documented.\n\n"
+                "Metadata within a file can tell a lot about you. Cameras "
+                "record data about when a picture was taken and what camera "
+                "was used. Office documents like PDF or Office automatically "
+                "adds author and company information to documents and "
+                "spreadsheets. Maybe you don't want to disclose those "
+                "informations.\n\n"
+                "This tool will get rid, as much as possible, of metadata."
+            ),
+            flags=0,
+            modal=True,
+            message_type=Gtk.MessageType.INFO,
+            buttons=Gtk.ButtonsType.OK,
+            transient_for=self
+        )
+        dialog.run()
+        dialog.destroy()
+
+    def show_about_removing_metadata_dialog(self) -> None:
+        dialog = Gtk.MessageDialog(
+            text=_("Note about removing metadata"),
+            secondary_text=_(
+                "While this tool is doing its very best to display metadata, "
+                "it doesn't mean that a file is clean from any metadata if "
+                "it doesn't show any. There is no reliable way to detect "
+                "every single possible metadata for complex file formats.\n\n"
+                "This is why you shouldn't rely on metadata's presence to "
+                "decide if your file must be cleaned or not."
+            ),
+            flags=0,
+            modal=True,
+            message_type=Gtk.MessageType.INFO,
+            buttons=Gtk.ButtonsType.OK,
+            transient_for=self
+        )
+        dialog.run()
+        dialog.destroy()

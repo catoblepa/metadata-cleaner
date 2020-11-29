@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-27 23:41+0100\n"
-"PO-Revision-Date: 2020-11-27 23:41+0100\n"
+"POT-Creation-Date: 2020-11-29 12:02+0100\n"
+"PO-Revision-Date: 2020-11-29 12:11+0100\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <romain@romainvigier.fr>\n"
 "Language: fr\n"
@@ -59,7 +59,7 @@ msgstr "Ajouter des fichiers"
 msgid "_Clean"
 msgstr "_Nettoyer"
 
-#: data/ui/EmptyView.ui:28
+#: data/ui/EmptyView.ui:24
 msgid "Clean your traces."
 msgstr "Effacez vos traces."
 
@@ -87,7 +87,15 @@ msgstr ""
 "la présence de quelques métadonnées contre la garantie que les données de "
 "vos fichiers ne seront pas modifiées, le mode léger accomplit précisément ça."
 
-#: data/ui/MenuPopover.ui:30
+#: data/ui/MenuPopover.ui:29
+msgid "Note about _metadata and privacy"
+msgstr "Note sur les _métadonnées et la vie privée"
+
+#: data/ui/MenuPopover.ui:36
+msgid "Note about _removing metadata"
+msgstr "Note sur la _suppression des métadonnées"
+
+#: data/ui/MenuPopover.ui:52
 msgid "_About Metadata Cleaner"
 msgstr "À _propos de Nettoyeur de métadonnées"
 
@@ -99,7 +107,7 @@ msgstr "_Enregistrer"
 msgid "Done!"
 msgstr "Terminé !"
 
-#: metadatacleaner/file.py:132
+#: metadatacleaner/file.py:110
 msgid "Something bad happened during the removal, cleaned file not found"
 msgstr ""
 "Quelque chose s’est mal passé pendant la suppression, le fichier nettoyé est "
@@ -196,6 +204,61 @@ msgstr "Une fois les fichiers remplacés, impossible de revenir en arrière."
 #: metadatacleaner/window.py:96
 msgid "Don't tell me again"
 msgstr "Ne plus m’avertir"
+
+#: metadatacleaner/window.py:130
+msgid "Note about metadata and privacy"
+msgstr "Note sur les métadonnées et la vie privée"
+
+#: metadatacleaner/window.py:132
+msgid ""
+"Metadata consist of information that characterizes data. Metadata are used "
+"to provide documentation for data products. In essence, metadata answer who, "
+"what, when, where, why, and how about every facet of the data that are being "
+"documented.\n"
+"\n"
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when a picture was taken and what camera was used. Office documents like PDF "
+"or Office automatically adds author and company information to documents and "
+"spreadsheets. Maybe you don't want to disclose those informations.\n"
+"\n"
+"This tool will get rid, as much as possible, of metadata."
+msgstr ""
+"Une métadonnée est une information qui caractérise une donnée. Les "
+"métadonnées sont utilisées pour fournir de la documentation aux produits "
+"utilisant des données. Les métadonnées répondent essentiellement aux "
+"questions qui, quoi, quand, où, pourquoi et comment de chaque aspect de la "
+"donnée qui est documentée.\n"
+"\n"
+"Les métadonnées dans un fichier peuvent en dire beaucoup à votre sujet. Les "
+"appareils photo enregistrent quand une photographie a été prise et quel "
+"appareil a été utilisé. Les documents bureautiques comme les fichiers PDF ou "
+"Office ajoutent automatiquement des informations sur l’auteur et "
+"l’entreprise aux documents et aux tableaux. Vous ne voulez peut-être pas "
+"dévoiler ces informations.\n"
+"\n"
+"Cet outil va effacer, autant que possible, les métadonnées."
+
+#: metadatacleaner/window.py:156
+msgid "Note about removing metadata"
+msgstr "Note sur la suppression des métadonnées"
+
+#: metadatacleaner/window.py:158
+msgid ""
+"While this tool is doing its very best to display metadata, it doesn't mean "
+"that a file is clean from any metadata if it doesn't show any. There is no "
+"reliable way to detect every single possible metadata for complex file "
+"formats.\n"
+"\n"
+"This is why you shouldn't rely on metadata's presence to decide if your file "
+"must be cleaned or not."
+msgstr ""
+"Même si cet outil fait de son mieux pour afficher les métadonnées, cela ne "
+"signifie pas qu’un fichier est propre s’il n’en affiche aucune. Il n’y a pas "
+"de méthode fiable pour détecter chaque métadonnée possible pour les formats "
+"de fichier complexes.\n"
+"\n"
+"C’est pourquoi vous ne devriez pas vous fier à la présence de métadonnées "
+"pour décider si votre fichier doit être nettoyé ou pas."
 
 #~ msgid "_Clean Metadata"
 #~ msgstr "_Nettoyer les métadonnées"

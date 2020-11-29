@@ -27,10 +27,6 @@ class CleanMetadataButton(Gtk.Bin):
             self._on_files_manager_state_changed
         )
 
-    @Gtk.Template.Callback()
-    def _on_clean_metadata_button_clicked(self, button) -> None:
-        self._app.clean_metadata()
-
     def _on_file_added(self, files_manager, file_index) -> None:
         self._sync_button_sensitivity()
 

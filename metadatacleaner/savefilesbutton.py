@@ -27,10 +27,6 @@ class SaveFilesButton(Gtk.Bin):
             self._on_files_manager_state_changed
         )
 
-    @Gtk.Template.Callback()
-    def _on_save_files_button_clicked(self, button):
-        self._app.save_cleaned_files()
-
     def _on_file_added(self, files_manager, file_index) -> None:
         self._sync_button_sensitivity()
 

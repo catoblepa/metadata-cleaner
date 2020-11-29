@@ -26,6 +26,28 @@
         <child>
           <object class="GtkModelButton">
             <property name="visible">True</property>
+            <property name="text" translatable="yes">Note about _metadata and privacy</property>
+            <property name="action-name">app.about-metadata-privacy</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkModelButton">
+            <property name="visible">True</property>
+            <property name="text" translatable="yes">Note about _removing metadata</property>
+            <property name="action-name">app.about-removing-metadata</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkSeparator">
+            <property name="visible">True</property>
+            <property name="orientation">horizontal</property>
+            <property name="margin-top">6</property>
+            <property name="margin-bottom">6</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkModelButton">
+            <property name="visible">True</property>
             <property name="action-name">app.about</property>
             <property name="text" translatable="yes">_About Metadata Cleaner</property>
           </object>
