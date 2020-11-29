@@ -60,4 +60,8 @@ class StatusIndicator(Gtk.Stack):
 
     def show_done(self) -> None:
         self.set_visible_child_name("done")
-        GLib.timeout_add_seconds(5, self.show_idle)
+        GLib.timeout_add_seconds(5, self._show_done_finished)
+
+    def _show_done_finished(self) -> None:
+        if self._app.files_manager.state == FilesManagerState.IDLE:
+            self.show_idle()
