@@ -24,8 +24,6 @@ class Window(Handy.ApplicationWindow):
     _headerbar: Handy.HeaderBar = Gtk.Template.Child()
     _stack: Gtk.Stack = Gtk.Template.Child()
 
-    files_manager: Optional[FilesManager] = None
-
     def __init__(self, app: Gtk.Application) -> None:
         super().__init__(
             application=app,
@@ -61,8 +59,6 @@ class Window(Handy.ApplicationWindow):
         self._stack.add_named(self._files_view, "files_view")
 
     def _setup_actions(self) -> None:
-        if not self.files_manager:
-            return
         close_action = Gio.SimpleAction.new("close", None)
         close_action.connect("activate", self._on_close_action)
         self.add_action(close_action)
@@ -148,24 +144,18 @@ class Window(Handy.ApplicationWindow):
         self.add_files()
 
     def _on_clean_metadata_action(self, action, parameters) -> None:
-        if not self.files_manager:
-            return
         if self.files_manager.state == FilesManagerState.WORKING \
                 or len(self.files_manager.get_cleanable_files()) == 0:
             return
         self.clean_metadata()
 
     def _on_save_cleaned_files_action(self, action, parameters) -> None:
-        if not self.files_manager:
-            return
         if self.files_manager.state == FilesManagerState.WORKING \
                 or len(self.files_manager.get_cleaned_files()) == 0:
             return
         self.save_cleaned_files()
 
     def on_lightweight_mode_action(self, action, parameters) -> None:
-        if not self.files_manager:
-            return
         self.files_manager.lightweight_mode = \
             not self.files_manager.lightweight_mode
         action.set_state(
@@ -183,21 +173,15 @@ class Window(Handy.ApplicationWindow):
     # ACTIONS #
 
     def add_files(self) -> None:
-        if not self.files_manager:
-            return
         gfiles = self.get_files_from_filechooser()
         if not gfiles:
             return
         self.files_manager.add_gfiles(gfiles)
 
     def clean_metadata(self) -> None:
-        if not self.files_manager:
-            return
         self.files_manager.clean_files()
 
     def save_cleaned_files(self) -> None:
-        if not self.files_manager:
-            return
         if self._app.settings.get_boolean("warn-before-saving"):
             response = self.show_save_warning_dialog()
             if response != Gtk.ResponseType.OK:
