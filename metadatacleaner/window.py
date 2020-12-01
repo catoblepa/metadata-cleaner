@@ -144,10 +144,6 @@ class Window(Handy.ApplicationWindow):
         self.show_about_removing_metadata_dialog()
 
     def _on_add_files_action(self, action, parameters) -> None:
-        if not self.files_manager:
-            return
-        if self.files_manager.state == FilesManagerState.WORKING:
-            return
         self.add_files()
 
     def _on_clean_metadata_action(self, action, parameters) -> None:
