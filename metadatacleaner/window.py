@@ -36,7 +36,6 @@ class Window(Handy.ApplicationWindow):
         self._setup_headerbar()
         self._setup_views()
         self._setup_actions()
-        # TODO: Check accessibility
         # TODO: Clean unused imports, commented code
         # TODO: Check typing
         # TODO: Resize window when a lot of files are added?
