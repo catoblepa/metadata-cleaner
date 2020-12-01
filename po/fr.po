@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 21:19+0100\n"
-"PO-Revision-Date: 2020-12-01 21:20+0100\n"
+"POT-Creation-Date: 2020-12-01 22:50+0100\n"
+"PO-Revision-Date: 2020-12-01 22:51+0100\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <romain@romainvigier.fr>\n"
 "Language: fr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Gtranslator 3.38.0\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:3
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:23
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:19
 msgid "Metadata Cleaner"
 msgstr "Nettoyeur de métadonnées"
 
@@ -43,11 +43,20 @@ msgstr ""
 "Afficher le dialogue d’avertissement avant d’enregistrer les fichiers "
 "nettoyés"
 
+#: data/ui/AboutDialog.ui:18
+msgid ""
+"<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
+"a> to clean the metadata. Show them some love!</small>"
+msgstr ""
+"<small>Ce programme utilise <a href=\"https://0xacab.org/jvoisin/"
+"mat2\">mat2</a> pour effacer les métadonnées. Montrez-leur votre amour !</"
+"small>"
+
 #: data/ui/AddFilesButton.ui:5
 msgid "Add files"
 msgstr "Ajouter des fichiers"
 
-#: data/ui/CleanMetadataButton.ui:7
+#: data/ui/CleanMetadataButton.ui:8
 msgid "_Clean"
 msgstr "_Nettoyer"
 
@@ -55,7 +64,7 @@ msgstr "_Nettoyer"
 msgid "Clean your traces."
 msgstr "Effacez vos traces."
 
-#: data/ui/FileRow.ui:12
+#: data/ui/FileRow.ui:11
 msgid "Remove file from list"
 msgstr "Retirer le fichier de la liste"
 
@@ -99,51 +108,51 @@ msgstr "_Raccourcis clavier"
 msgid "_About Metadata Cleaner"
 msgstr "À _propos de Nettoyeur de métadonnées"
 
-#: data/ui/SaveFilesButton.ui:7
+#: data/ui/SaveFilesButton.ui:8
 msgid "_Save"
 msgstr "_Enregistrer"
 
-#: data/ui/ShortcutsDialog.ui:13
+#: data/ui/ShortcutsDialog.ui:14
 msgctxt "shortcut window"
 msgid "Files"
 msgstr "Fichiers"
 
-#: data/ui/ShortcutsDialog.ui:17
+#: data/ui/ShortcutsDialog.ui:18
 msgctxt "shortcut window"
 msgid "Add files"
 msgstr "Ajouter des fichiers"
 
-#: data/ui/ShortcutsDialog.ui:24
+#: data/ui/ShortcutsDialog.ui:25
 msgctxt "shortcut window"
 msgid "Clean metadata"
 msgstr "Nettoyer les métadonnées"
 
-#: data/ui/ShortcutsDialog.ui:31
+#: data/ui/ShortcutsDialog.ui:32
 msgctxt "shortcut window"
 msgid "Save cleaned files"
 msgstr "Enregistrer les fichiers nettoyés"
 
-#: data/ui/ShortcutsDialog.ui:40
+#: data/ui/ShortcutsDialog.ui:41
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Général"
 
-#: data/ui/ShortcutsDialog.ui:44
+#: data/ui/ShortcutsDialog.ui:45
 msgctxt "shortcut window"
 msgid "New window"
 msgstr "Nouvelle fenêtre"
 
-#: data/ui/ShortcutsDialog.ui:51
+#: data/ui/ShortcutsDialog.ui:52
 msgctxt "shortcut window"
 msgid "Close window"
 msgstr "Fermer la fenêtre"
 
-#: data/ui/ShortcutsDialog.ui:58
+#: data/ui/ShortcutsDialog.ui:59
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Quitter"
 
-#: data/ui/ShortcutsDialog.ui:65
+#: data/ui/ShortcutsDialog.ui:66
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts"
 msgstr "Raccourcis clavier"
@@ -152,109 +161,109 @@ msgstr "Raccourcis clavier"
 msgid "Done!"
 msgstr "Terminé !"
 
-#: metadatacleaner/file.py:110
+#: metadatacleaner/file.py:109
 msgid "Something bad happened during the removal, cleaned file not found"
 msgstr ""
 "Quelque chose s’est mal passé pendant la suppression, le fichier nettoyé est "
 "introuvable."
 
-#: metadatacleaner/filepopover.py:35
+#: metadatacleaner/filepopover.py:33
 msgid "Initializing…"
 msgstr "Initialisation…"
 
-#: metadatacleaner/filepopover.py:37
+#: metadatacleaner/filepopover.py:35
 msgid "Error while initializing the file parser."
 msgstr "Erreur pendant l’initialisation du lecteur de fichier."
 
-#: metadatacleaner/filepopover.py:39
+#: metadatacleaner/filepopover.py:37
 msgid "File type not supported."
 msgstr "Type de fichier non supporté."
 
-#: metadatacleaner/filepopover.py:40
+#: metadatacleaner/filepopover.py:38
 msgid "File type supported."
 msgstr "Type de fichier supporté."
 
-#: metadatacleaner/filepopover.py:41
+#: metadatacleaner/filepopover.py:39
 msgid "Checking metadata…"
 msgstr "Récupération des métadonnées…"
 
-#: metadatacleaner/filepopover.py:43
+#: metadatacleaner/filepopover.py:41
 msgid "Error while checking metadata:"
 msgstr "Erreur en récupérant les métadonnées :"
 
-#: metadatacleaner/filepopover.py:45
+#: metadatacleaner/filepopover.py:43
 msgid "No metadata have been found."
 msgstr "Aucune métadonnée n’a été trouvée."
 
-#: metadatacleaner/filepopover.py:46
+#: metadatacleaner/filepopover.py:44
 msgid "These metadata have been found:"
 msgstr "Les métadonnées suivantes ont été trouvées :"
 
-#: metadatacleaner/filepopover.py:47
+#: metadatacleaner/filepopover.py:45
 msgid "Removing metadata…"
 msgstr "Suppression des métadonnées…"
 
-#: metadatacleaner/filepopover.py:49
+#: metadatacleaner/filepopover.py:47
 msgid "Error while removing metadata:"
 msgstr "Erreur pendant la suppression des métadonnées :"
 
-#: metadatacleaner/filepopover.py:51
+#: metadatacleaner/filepopover.py:49
 msgid "The file has been cleaned."
 msgstr "Le fichier a été nettoyé."
 
-#: metadatacleaner/filepopover.py:52
+#: metadatacleaner/filepopover.py:50
 msgid "Saving the cleaned file…"
 msgstr "Enregistrement du fichier nettoyé…"
 
-#: metadatacleaner/filepopover.py:53
+#: metadatacleaner/filepopover.py:51
 msgid "Error while saving the file:"
 msgstr "Erreur pendant l’enregistrement du fichier :"
 
-#: metadatacleaner/filepopover.py:54
+#: metadatacleaner/filepopover.py:52
 msgid "The cleaned file has been saved."
 msgstr "Le fichier nettoyé a été enregistré."
 
-#: metadatacleaner/metadataview.py:42 metadatacleaner/metadataview.py:54
+#: metadatacleaner/metadataview.py:39 metadatacleaner/metadataview.py:51
 msgid "Key"
 msgstr "Clé"
 
-#: metadatacleaner/metadataview.py:45 metadatacleaner/metadataview.py:57
+#: metadatacleaner/metadataview.py:42 metadatacleaner/metadataview.py:54
 msgid "Value"
 msgstr "Valeur"
 
-#: metadatacleaner/metadataview.py:51
+#: metadatacleaner/metadataview.py:48
 msgid "File"
 msgstr "Fichier"
 
-#: metadatacleaner/statusindicator.py:59
+#: metadatacleaner/statusindicator.py:56
 msgid "Processing file {}/{}"
 msgstr "Traitement du fichier {}/{}"
 
-#: metadatacleaner/window.py:211
+#: metadatacleaner/window.py:212
 msgid "Choose files"
 msgstr "Sélectionner les fichiers"
 
-#: metadatacleaner/window.py:218
+#: metadatacleaner/window.py:219
 msgid "All supported files"
 msgstr "Tous les fichiers supportés"
 
-#: metadatacleaner/window.py:231
+#: metadatacleaner/window.py:232
 msgid "Make sure you backed up your files!"
 msgstr "Assurez-vous d’avoir fait une sauvegarde de vos fichiers !"
 
-#: metadatacleaner/window.py:233
+#: metadatacleaner/window.py:234
 msgid "Once you replace your files, there's no going back."
 msgstr "Une fois les fichiers remplacés, impossible de revenir en arrière."
 
-#: metadatacleaner/window.py:243
+#: metadatacleaner/window.py:244
 msgid "Don't tell me again"
 msgstr "Ne plus m’avertir"
 
-#: metadatacleaner/window.py:283
+#: metadatacleaner/window.py:278
 msgid "Note about metadata and privacy"
 msgstr "Note sur les métadonnées et la vie privée"
 
-#: metadatacleaner/window.py:285
+#: metadatacleaner/window.py:280
 msgid ""
 "Metadata consist of information that characterizes data. Metadata are used "
 "to provide documentation for data products. In essence, metadata answer who, "
@@ -283,11 +292,11 @@ msgstr ""
 "\n"
 "Cet outil va effacer, autant que possible, les métadonnées."
 
-#: metadatacleaner/window.py:309
+#: metadatacleaner/window.py:304
 msgid "Note about removing metadata"
 msgstr "Note sur la suppression des métadonnées"
 
-#: metadatacleaner/window.py:311
+#: metadatacleaner/window.py:306
 msgid ""
 "While this tool is doing its very best to display metadata, it doesn't mean "
 "that a file is clean from any metadata if it doesn't show any. There is no "

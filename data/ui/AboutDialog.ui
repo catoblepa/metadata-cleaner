@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="AboutDialog" parent="GtkAboutDialog">
+    <property name="visible">True</property>
+    <property name="modal">True</property>
+    <property name="logo-icon-name">fr.romainvigier.MetadataCleaner</property>
+    <property name="license-type">gpl-3-0</property>
+    <property name="copyright">© 2020 Romain Vigier</property>
+    <property name="authors">Romain Vigier</property>
+    <property name="artists" translatable="yes">Romain Vigier</property>
+    <property name="website">https://gitlab.com/rmnvgr/metadata-cleaner/</property>
+    <child internal-child="vbox">
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="margin">12</property>
+        <child>
+          <object class="GtkLabel">
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">&lt;small&gt;This program uses &lt;a href="https://0xacab.org/jvoisin/mat2"&gt;mat2&lt;/a&gt; to clean the metadata. Show them some love!&lt;/small&gt;</property>
+            <property name="use-markup">True</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

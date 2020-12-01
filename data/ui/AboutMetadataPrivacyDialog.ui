@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="AboutMetadataPrivacyDialog" parent="GtkMessageDialog">
+    <property name="modal">True</property>
+    <property name="text" translatable="yes">Note about metadata and privacy</property>
+    <property name="secondary-text" translatable="yes">Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented.
+
+Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office documents like PDF or Office automatically adds author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations.
+
+This tool will get rid, as much as possible, of metadata.</property>
+    <property name="message-type">info</property>
+  </template>
+</interface>

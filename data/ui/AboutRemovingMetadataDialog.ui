@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="AboutRemovingMetadataDialog" parent="GtkMessageDialog">
+    <property name="modal">True</property>
+    <property name="text" translatable="yes">Note about removing metadata</property>
+    <property name="secondary-text" translatable="yes">While this tool is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats.
+
+This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not.</property>
+    <property name="message-type">info</property>
+  </template>
+</interface>

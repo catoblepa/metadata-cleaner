@@ -34,15 +34,14 @@ class File(GObject.GObject):
         "removed": (GObject.SIGNAL_RUN_FIRST, None, ())
     }
 
-    state = FileState.INITIALIZING
-    mimetype = "text/plain"
-    metadata: Optional[Dict] = None
-    error: Optional[Exception] = None
-
     def __init__(self, gfile: Gio.File) -> None:
         super().__init__()
         self.path = gfile.get_path()
         self.filename = gfile.get_basename()
+        self.state = FileState.INITIALIZING
+        self.mimetype = "text/plain"
+        self.metadata: Optional[Dict] = None
+        self.error: Optional[Exception] = None
 
     def _set_state(self, state: FileState) -> None:
         if state != self.state:
