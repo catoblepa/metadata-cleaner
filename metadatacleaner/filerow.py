@@ -13,11 +13,8 @@ class FileRow(Handy.ActionRow):
 
     __gtype_name__ = "FileRow"
 
-    _file_button: Optional[FileButton] = None
-
-    def __init__(self, app: Gtk.Application, f: File) -> None:
+    def __init__(self, f: File) -> None:
         super().__init__()
-        self._app = app
         self._file = f
         self._setup_title()
         self._setup_file_button()
@@ -38,7 +35,7 @@ class FileRow(Handy.ActionRow):
         self.set_title(self._file.filename)
 
     def _setup_file_button(self) -> None:
-        self._file_button = FileButton(self._app, self._file)
+        self._file_button = FileButton(self._file)
         self.add(self._file_button)
         self.set_activatable_widget(self._file_button)
 

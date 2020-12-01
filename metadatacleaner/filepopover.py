@@ -16,12 +16,10 @@ class FilePopover(Gtk.Popover):
     _box: Gtk.Box = Gtk.Template.Child()
     _title: Gtk.Label = Gtk.Template.Child()
 
-    _content: Optional[Gtk.Widget] = None
-
-    def __init__(self, app: Gtk.Application, f: File) -> None:
+    def __init__(self, f: File) -> None:
         super().__init__()
-        self._app = app
         self._file = f
+        self._content: Optional[Gtk.Widget] = None
         self._sync_title_to_file()
         self._sync_content_to_file()
         self._file.connect("state-changed", self._on_file_state_changed)
@@ -60,10 +58,9 @@ class FilePopover(Gtk.Popover):
             self._content.destroy()
             self._content = None
         if self._file.state == FileState.HAS_METADATA:
-            self._content = MetadataView(
-                self._app,
-                self._file.metadata
-            ) if self._file.metadata else None
+            self._content = MetadataView(self._file.metadata) \
+                if self._file.metadata \
+                else None
         elif self._file.state in [
             FileState.ERROR_WHILE_INITIALIZING,
             FileState.ERROR_WHILE_CHECKING_METADATA,

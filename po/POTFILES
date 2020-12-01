@@ -11,6 +11,7 @@ data/ui/MenuButton.ui
 data/ui/MenuPopover.ui
 data/ui/MetadataView.ui
 data/ui/SaveFilesButton.ui
+data/ui/ShortcutsDialog.ui
 data/ui/StatusIndicator.ui
 data/ui/Window.ui
 metadatacleaner/addfilesbutton.py
@@ -27,5 +28,6 @@ metadatacleaner/menubutton.py
 metadatacleaner/menupopover.py
 metadatacleaner/metadataview.py
 metadatacleaner/savefilesbutton.py
+metadatacleaner/shortcutsdialog.py
 metadatacleaner/statusindicator.py
 metadatacleaner/window.py

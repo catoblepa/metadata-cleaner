@@ -11,13 +11,10 @@ class MenuButton(Gtk.MenuButton):
 
     __gtype_name__ = "MenuButton"
 
-    _popover: Optional[MenuPopover] = None
-
-    def __init__(self, app):
+    def __init__(self) -> None:
         super().__init__()
-        self._app = app
         self._setup_popover()
 
     def _setup_popover(self) -> None:
-        self._popover = MenuPopover(self._app)
+        self._popover = MenuPopover()
         self.set_popover(self._popover)

@@ -43,14 +43,16 @@ class FilesManager(GObject.GObject):
         "progress-changed": (GObject.SIGNAL_RUN_FIRST, None, (int, int))
     }
 
-    state = FilesManagerState.IDLE
-    progress = (0, 0)
-
     _files: List[File] = list()
     _paths: Set = set()
 
     def __init__(self) -> None:
         super().__init__()
+        # self._files: List[File] = []
+        # self._paths: Set = set()
+        self.state = FilesManagerState.IDLE
+        self.progress = (0, 0)
+        self.lightweight_mode = False
 
     def _on_file_state_changed(self, f: File, new_state: FileState) -> None:
         GLib.idle_add(self.emit, "file-state-changed", self._files.index(f))
@@ -99,22 +101,21 @@ class FilesManager(GObject.GObject):
         f.remove()
         GLib.idle_add(self.emit, "file-removed")
 
-    def clean_files(self, lightweight_mode=False) -> None:
+    def clean_files(self) -> None:
         thread = Thread(
             target=self._clean_files_async,
-            args=(lightweight_mode,),
             daemon=True
         )
         thread.start()
 
-    def _clean_files_async(self, lightweight_mode: bool) -> None:
+    def _clean_files_async(self) -> None:
         cleanable_files = self.get_cleanable_files()
         number_of_cleanable_files = len(cleanable_files)
         self._set_progress(0, number_of_cleanable_files)
         self._set_state(FilesManagerState.WORKING)
         with ThreadPoolExecutor() as executor:
             futures = {
-                executor.submit(f.remove_metadata, lightweight_mode)
+                executor.submit(f.remove_metadata, self.lightweight_mode)
                 for f in cleanable_files
             }
             for i, future in enumerate(as_completed(futures)):

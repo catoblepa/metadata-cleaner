@@ -8,6 +8,5 @@ class MenuPopover(Gtk.PopoverMenu):
 
     __gtype_name__ = "MenuPopover"
 
-    def __init__(self, app: Gtk.PopoverMenu) -> None:
+    def __init__(self) -> None:
         super().__init__()
-        self._app = app

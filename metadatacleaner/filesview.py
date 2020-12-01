@@ -1,4 +1,5 @@
 from gi.repository import Gtk, Handy
+from typing import Optional
 
 from metadatacleaner.cleanmetadatabutton import CleanMetadataButton
 from metadatacleaner.filerow import FileRow
@@ -14,17 +15,21 @@ class FilesView(Gtk.Box):
     _files_list_box: Gtk.ListBox = Gtk.Template.Child()
     _actionbar: Gtk.ActionBar = Gtk.Template.Child()
 
-    def __init__(self, app: Gtk.Application) -> None:
+    def __init__(self) -> None:
         super().__init__()
-        self._app = app
-        self._setup_actionbar()
-        self._app.files_manager.connect("file-added", self._on_file_added)
+        self._window: Optional[Gtk.Window] = None
+        self.connect("realize", self._on_realize)
 
-    def _on_file_added(self, file_manager, new_file_index) -> None:
-        f = self._app.files_manager.get_file(new_file_index)
-        self._files_list_box.add(FileRow(self._app, f))
+    def _on_realize(self, widget) -> None:
+        self._window = self.get_toplevel()
+        self._window.files_manager.connect("file-added", self._on_file_added)
+        self._setup_actionbar()
+
+    def _on_file_added(self, files_manager, new_file_index) -> None:
+        f = files_manager.get_file(new_file_index)
+        self._files_list_box.add(FileRow(f))
 
     def _setup_actionbar(self) -> None:
-        self._actionbar.pack_start(StatusIndicator(self._app))
-        self._actionbar.pack_end(SaveFilesButton(self._app))
-        self._actionbar.pack_end(CleanMetadataButton(self._app))
+        self._actionbar.pack_start(StatusIndicator())
+        self._actionbar.pack_end(SaveFilesButton())
+        self._actionbar.pack_end(CleanMetadataButton())

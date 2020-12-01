@@ -1,5 +1,4 @@
 from gi.repository import Gtk
-from typing import Optional
 
 from metadatacleaner.file import File, FileState
 from metadatacleaner.filepopover import FilePopover
@@ -12,14 +11,10 @@ class FileButton(Gtk.Button):
 
     __gtype_name__ = "FileButton"
 
-    # _button: Gtk.Button = Gtk.Template.Child()
     _state_stack: Gtk.Stack = Gtk.Template.Child()
 
-    _popover: Optional[FilePopover] = None
-
-    def __init__(self, app: Gtk.Application, f: File) -> None:
+    def __init__(self, f: File) -> None:
         super().__init__()
-        self._app = app
         self._file = f
         self._setup_popover()
         self._file.connect("state-changed", self._on_file_state_changed)
@@ -32,7 +27,7 @@ class FileButton(Gtk.Button):
         self._sync_file_button_to_state()
 
     def _setup_popover(self) -> None:
-        self._popover = FilePopover(self._app, self._file)
+        self._popover = FilePopover(self._file)
         self._popover.set_relative_to(self)
 
     def _sync_file_button_to_state(self) -> None:
@@ -55,5 +50,4 @@ class FileButton(Gtk.Button):
         self._state_stack.set_visible_child_name(page[self._file.state])
 
     def show_popover(self) -> None:
-        if self._popover:
-            self._popover.popup()
+        self._popover.popup()

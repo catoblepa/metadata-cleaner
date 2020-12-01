@@ -12,11 +12,8 @@ class MetadataView(Gtk.ScrolledWindow):
 
     _tree_view: Gtk.TreeView = Gtk.Template.Child()
 
-    _list_store: Optional[Gtk.ListStore] = None
-
-    def __init__(self, app: Gtk.Application, metadata: Dict) -> None:
+    def __init__(self, metadata: Dict) -> None:
         super().__init__()
-        self._app = app
         self._metadata = metadata
         if isinstance(metadata[list(metadata)[0]], Dict):
             self._setup_multifile_list_store()

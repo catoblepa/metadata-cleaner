@@ -6,10 +6,5 @@
             <summary>Warn before saving cleaned files</summary>
             <description>Show the warning dialog before saving the cleaned files</description>
         </key>
-        <key name="lightweight-mode" type="b">
-            <default>false</default>
-            <summary>Use lightweight mode</summary>
-            <description>Remove less metadata but guarantee the integrity of the data</description>
-        </key>
     </schema>
 </schemalist>

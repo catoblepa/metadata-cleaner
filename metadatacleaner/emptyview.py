@@ -6,6 +6,5 @@ class EmptyView(Gtk.Box):
 
     __gtype_name__ = "EmptyView"
 
-    def __init__(self, app: Gtk.Application) -> None:
+    def __init__(self) -> None:
         super().__init__()
-        self._app = app

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-29 12:02+0100\n"
-"PO-Revision-Date: 2020-11-29 12:11+0100\n"
+"POT-Creation-Date: 2020-12-01 21:19+0100\n"
+"PO-Revision-Date: 2020-12-01 21:20+0100\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <romain@romainvigier.fr>\n"
 "Language: fr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Gtranslator 3.38.0\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:3
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:21
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:23
 msgid "Metadata Cleaner"
 msgstr "Nettoyeur de métadonnées"
 
@@ -29,7 +29,7 @@ msgid "Clean metadata from your files"
 msgstr "Nettoie les métadonnées de vos fichiers"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:14
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:13
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Métadonnées;Metadata;Supprimer;Effacer;Nettoyer;"
 
@@ -42,14 +42,6 @@ msgid "Show the warning dialog before saving the cleaned files"
 msgstr ""
 "Afficher le dialogue d’avertissement avant d’enregistrer les fichiers "
 "nettoyés"
-
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Use lightweight mode"
-msgstr "Utiliser le mode léger"
-
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:12
-msgid "Remove less metadata but guarantee the integrity of the data"
-msgstr "Supprime moins de métadonnées mais garantie l’intégrité des données"
 
 #: data/ui/AddFilesButton.ui:5
 msgid "Add files"
@@ -68,10 +60,14 @@ msgid "Remove file from list"
 msgstr "Retirer le fichier de la liste"
 
 #: data/ui/MenuPopover.ui:14
+msgid "_New window"
+msgstr "_Nouvelle fenêtre"
+
+#: data/ui/MenuPopover.ui:29
 msgid "_Lightweight mode"
 msgstr "Mode _léger"
 
-#: data/ui/MenuPopover.ui:15
+#: data/ui/MenuPopover.ui:30
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -87,21 +83,70 @@ msgstr ""
 "la présence de quelques métadonnées contre la garantie que les données de "
 "vos fichiers ne seront pas modifiées, le mode léger accomplit précisément ça."
 
-#: data/ui/MenuPopover.ui:29
+#: data/ui/MenuPopover.ui:44
 msgid "Note about _metadata and privacy"
 msgstr "Note sur les _métadonnées et la vie privée"
 
-#: data/ui/MenuPopover.ui:36
+#: data/ui/MenuPopover.ui:51
 msgid "Note about _removing metadata"
 msgstr "Note sur la _suppression des métadonnées"
 
-#: data/ui/MenuPopover.ui:52
+#: data/ui/MenuPopover.ui:67
+msgid "_Keyboard shortcuts"
+msgstr "_Raccourcis clavier"
+
+#: data/ui/MenuPopover.ui:74
 msgid "_About Metadata Cleaner"
 msgstr "À _propos de Nettoyeur de métadonnées"
 
 #: data/ui/SaveFilesButton.ui:7
 msgid "_Save"
 msgstr "_Enregistrer"
+
+#: data/ui/ShortcutsDialog.ui:13
+msgctxt "shortcut window"
+msgid "Files"
+msgstr "Fichiers"
+
+#: data/ui/ShortcutsDialog.ui:17
+msgctxt "shortcut window"
+msgid "Add files"
+msgstr "Ajouter des fichiers"
+
+#: data/ui/ShortcutsDialog.ui:24
+msgctxt "shortcut window"
+msgid "Clean metadata"
+msgstr "Nettoyer les métadonnées"
+
+#: data/ui/ShortcutsDialog.ui:31
+msgctxt "shortcut window"
+msgid "Save cleaned files"
+msgstr "Enregistrer les fichiers nettoyés"
+
+#: data/ui/ShortcutsDialog.ui:40
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Général"
+
+#: data/ui/ShortcutsDialog.ui:44
+msgctxt "shortcut window"
+msgid "New window"
+msgstr "Nouvelle fenêtre"
+
+#: data/ui/ShortcutsDialog.ui:51
+msgctxt "shortcut window"
+msgid "Close window"
+msgstr "Fermer la fenêtre"
+
+#: data/ui/ShortcutsDialog.ui:58
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Quitter"
+
+#: data/ui/ShortcutsDialog.ui:65
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr "Raccourcis clavier"
 
 #: data/ui/StatusIndicator.ui:33
 msgid "Done!"
@@ -181,35 +226,35 @@ msgstr "Valeur"
 msgid "File"
 msgstr "Fichier"
 
-#: metadatacleaner/statusindicator.py:52
+#: metadatacleaner/statusindicator.py:59
 msgid "Processing file {}/{}"
 msgstr "Traitement du fichier {}/{}"
 
-#: metadatacleaner/window.py:64
+#: metadatacleaner/window.py:211
 msgid "Choose files"
 msgstr "Sélectionner les fichiers"
 
-#: metadatacleaner/window.py:71
+#: metadatacleaner/window.py:218
 msgid "All supported files"
 msgstr "Tous les fichiers supportés"
 
-#: metadatacleaner/window.py:84
+#: metadatacleaner/window.py:231
 msgid "Make sure you backed up your files!"
 msgstr "Assurez-vous d’avoir fait une sauvegarde de vos fichiers !"
 
-#: metadatacleaner/window.py:86
+#: metadatacleaner/window.py:233
 msgid "Once you replace your files, there's no going back."
 msgstr "Une fois les fichiers remplacés, impossible de revenir en arrière."
 
-#: metadatacleaner/window.py:96
+#: metadatacleaner/window.py:243
 msgid "Don't tell me again"
 msgstr "Ne plus m’avertir"
 
-#: metadatacleaner/window.py:130
+#: metadatacleaner/window.py:283
 msgid "Note about metadata and privacy"
 msgstr "Note sur les métadonnées et la vie privée"
 
-#: metadatacleaner/window.py:132
+#: metadatacleaner/window.py:285
 msgid ""
 "Metadata consist of information that characterizes data. Metadata are used "
 "to provide documentation for data products. In essence, metadata answer who, "
@@ -238,11 +283,11 @@ msgstr ""
 "\n"
 "Cet outil va effacer, autant que possible, les métadonnées."
 
-#: metadatacleaner/window.py:156
+#: metadatacleaner/window.py:309
 msgid "Note about removing metadata"
 msgstr "Note sur la suppression des métadonnées"
 
-#: metadatacleaner/window.py:158
+#: metadatacleaner/window.py:311
 msgid ""
 "While this tool is doing its very best to display metadata, it doesn't mean "
 "that a file is clean from any metadata if it doesn't show any. There is no "
@@ -260,11 +305,11 @@ msgstr ""
 "C’est pourquoi vous ne devriez pas vous fier à la présence de métadonnées "
 "pour décider si votre fichier doit être nettoyé ou pas."
 
-#~ msgid "_Clean Metadata"
-#~ msgstr "_Nettoyer les métadonnées"
+#~ msgid "Use lightweight mode"
+#~ msgstr "Utiliser le mode léger"
 
-#~ msgid "_Quit"
-#~ msgstr "_Quitter"
+#~ msgid "Remove less metadata but guarantee the integrity of the data"
+#~ msgstr "Supprime moins de métadonnées mais garantie l’intégrité des données"
 
 #~ msgid ""
 #~ "\n"

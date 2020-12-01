@@ -15,18 +15,22 @@ class StatusIndicator(Gtk.Stack):
 
     _progressbar: Gtk.ProgressBar = Gtk.Template.Child()
 
-    def __init__(self, app):
+    def __init__(self) -> None:
         super().__init__()
-        self._app = app
-        self.show_idle()
-        self._app.files_manager.connect(
+        self._window: Optional[Gtk.Window] = None
+        self.connect("realize", self._on_realize)
+
+    def _on_realize(self, widget) -> None:
+        self._window = self.get_toplevel()
+        self._window.files_manager.connect(
             "state-changed",
             self._on_files_manager_state_changed
         )
-        self._app.files_manager.connect(
+        self._window.files_manager.connect(
             "progress-changed",
             self._on_files_manager_progress_changed
         )
+        self.show_idle()
 
     def _on_files_manager_state_changed(
         self,
@@ -63,5 +67,7 @@ class StatusIndicator(Gtk.Stack):
         GLib.timeout_add_seconds(5, self._show_done_finished)
 
     def _show_done_finished(self) -> None:
-        if self._app.files_manager.state == FilesManagerState.IDLE:
+        if not self._window:
+            return
+        if self._window.files_manager.state == FilesManagerState.IDLE:
             self.show_idle()

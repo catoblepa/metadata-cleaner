@@ -8,6 +8,5 @@ class AddFilesButton(Gtk.Button):
 
     __gtype_name__ = "AddFilesButton"
 
-    def __init__(self, app):
+    def __init__(self):
         super().__init__()
-        self._app = app

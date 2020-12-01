@@ -55,6 +55,7 @@ sources = [
   'metadatacleaner/menupopover.py',
   'metadatacleaner/metadataview.py',
   'metadatacleaner/savefilesbutton.py',
+  'metadatacleaner/shortcutsdialog.py',
   'metadatacleaner/statusindicator.py',
   'metadatacleaner/window.py',
 ]

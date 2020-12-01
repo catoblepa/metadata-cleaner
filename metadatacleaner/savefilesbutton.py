@@ -1,4 +1,5 @@
 from gi.repository import Gtk
+from typing import Optional
 
 from metadatacleaner.filesmanager import FilesManager, FilesManagerState
 
@@ -12,20 +13,27 @@ class SaveFilesButton(Gtk.Bin):
 
     _button: Gtk.Button = Gtk.Template.Child()
 
-    def __init__(self, app):
+    def __init__(self):
         super().__init__()
-        self._app = app
-        self._sync_button_sensitivity()
-        self._app.files_manager.connect("file-added", self._on_file_added)
-        self._app.files_manager.connect("file-removed", self._on_file_removed)
-        self._app.files_manager.connect(
+        self._window: Optional[Gtk.Window] = None
+        self.connect("realize", self._on_realize)
+
+    def _on_realize(self, widget) -> None:
+        self._window = self.get_toplevel()
+        self._window.files_manager.connect("file-added", self._on_file_added)
+        self._window.files_manager.connect(
+            "file-removed",
+            self._on_file_removed
+        )
+        self._window.files_manager.connect(
             "file-state-changed",
             self._on_file_state_changed
         )
-        self._app.files_manager.connect(
+        self._window.files_manager.connect(
             "state-changed",
             self._on_files_manager_state_changed
         )
+        self._sync_button_sensitivity()
 
     def _on_file_added(self, files_manager, file_index) -> None:
         self._sync_button_sensitivity()
@@ -44,8 +52,10 @@ class SaveFilesButton(Gtk.Bin):
         self._sync_button_sensitivity()
 
     def _sync_button_sensitivity(self) -> None:
-        if self._app.files_manager.state == FilesManagerState.WORKING \
-                or len(self._app.files_manager.get_cleaned_files()) == 0:
+        if not self._window:
+            return
+        if self._window.files_manager.state == FilesManagerState.WORKING \
+                or len(self._window.files_manager.get_cleaned_files()) == 0:
             self._button.set_sensitive(False)
         else:
             self._button.set_sensitive(True)
