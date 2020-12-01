@@ -86,8 +86,8 @@ modules:
     sources:
       - type: git
         url: https://0xacab.org/jvoisin/mat2
-        tag: 0.11.0
-        commit: d008b1e2f016e83180ca029d1c1a42dc5c6e0115
+        branch: master
+        commit: 92dcc8175da12285961d97a6dd64917b8e7ae464
 
   - name: metadata-cleaner
     buildsystem: meson

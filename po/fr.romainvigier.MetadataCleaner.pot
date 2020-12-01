@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 22:50+0100\n"
+"POT-Creation-Date: 2020-12-02 00:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,10 +39,44 @@ msgstr ""
 msgid "Show the warning dialog before saving the cleaned files"
 msgstr ""
 
-#: data/ui/AboutDialog.ui:18
+#: data/ui/AboutDialog.ui:19
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"
+msgstr ""
+
+#: data/ui/AboutMetadataPrivacyDialog.ui:5
+msgid "Note about metadata and privacy"
+msgstr ""
+
+#: data/ui/AboutMetadataPrivacyDialog.ui:6
+msgid ""
+"Metadata consist of information that characterizes data. Metadata are used "
+"to provide documentation for data products. In essence, metadata answer who, "
+"what, when, where, why, and how about every facet of the data that are being "
+"documented.\n"
+"\n"
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when a picture was taken and what camera was used. Office documents like PDF "
+"or Office automatically adds author and company information to documents and "
+"spreadsheets. Maybe you don't want to disclose those informations.\n"
+"\n"
+"This tool will get rid, as much as possible, of metadata."
+msgstr ""
+
+#: data/ui/AboutRemovingMetadataDialog.ui:5
+msgid "Note about removing metadata"
+msgstr ""
+
+#: data/ui/AboutRemovingMetadataDialog.ui:6
+msgid ""
+"While this tool is doing its very best to display metadata, it doesn't mean "
+"that a file is clean from any metadata if it doesn't show any. There is no "
+"reliable way to detect every single possible metadata for complex file "
+"formats.\n"
+"\n"
+"This is why you shouldn't rely on metadata's presence to decide if your file "
+"must be cleaned or not."
 msgstr ""
 
 #: data/ui/AddFilesButton.ui:5
@@ -99,6 +133,18 @@ msgstr ""
 msgid "_Save"
 msgstr ""
 
+#: data/ui/SaveWarningDialog.ui:5
+msgid "Make sure you backed up your files!"
+msgstr ""
+
+#: data/ui/SaveWarningDialog.ui:6
+msgid "Once you replace your files, there's no going back."
+msgstr ""
+
+#: data/ui/SaveWarningDialog.ui:14
+msgid "Don't tell me again"
+msgstr ""
+
 #: data/ui/ShortcutsDialog.ui:14
 msgctxt "shortcut window"
 msgid "Files"
@@ -150,6 +196,14 @@ msgstr ""
 
 #: metadatacleaner/file.py:109
 msgid "Something bad happened during the removal, cleaned file not found"
+msgstr ""
+
+#: metadatacleaner/filechooserdialog.py:14
+msgid "Choose files"
+msgstr ""
+
+#: metadatacleaner/filechooserdialog.py:24
+msgid "All supported files"
 msgstr ""
 
 #: metadatacleaner/filepopover.py:33
@@ -222,58 +276,4 @@ msgstr ""
 
 #: metadatacleaner/statusindicator.py:56
 msgid "Processing file {}/{}"
-msgstr ""
-
-#: metadatacleaner/window.py:212
-msgid "Choose files"
-msgstr ""
-
-#: metadatacleaner/window.py:219
-msgid "All supported files"
-msgstr ""
-
-#: metadatacleaner/window.py:232
-msgid "Make sure you backed up your files!"
-msgstr ""
-
-#: metadatacleaner/window.py:234
-msgid "Once you replace your files, there's no going back."
-msgstr ""
-
-#: metadatacleaner/window.py:244
-msgid "Don't tell me again"
-msgstr ""
-
-#: metadatacleaner/window.py:278
-msgid "Note about metadata and privacy"
-msgstr ""
-
-#: metadatacleaner/window.py:280
-msgid ""
-"Metadata consist of information that characterizes data. Metadata are used "
-"to provide documentation for data products. In essence, metadata answer who, "
-"what, when, where, why, and how about every facet of the data that are being "
-"documented.\n"
-"\n"
-"Metadata within a file can tell a lot about you. Cameras record data about "
-"when a picture was taken and what camera was used. Office documents like PDF "
-"or Office automatically adds author and company information to documents and "
-"spreadsheets. Maybe you don't want to disclose those informations.\n"
-"\n"
-"This tool will get rid, as much as possible, of metadata."
-msgstr ""
-
-#: metadatacleaner/window.py:304
-msgid "Note about removing metadata"
-msgstr ""
-
-#: metadatacleaner/window.py:306
-msgid ""
-"While this tool is doing its very best to display metadata, it doesn't mean "
-"that a file is clean from any metadata if it doesn't show any. There is no "
-"reliable way to detect every single possible metadata for complex file "
-"formats.\n"
-"\n"
-"This is why you shouldn't rely on metadata's presence to decide if your file "
-"must be cleaned or not."
 msgstr ""

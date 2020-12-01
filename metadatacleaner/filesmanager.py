@@ -43,13 +43,10 @@ class FilesManager(GObject.GObject):
         "progress-changed": (GObject.SIGNAL_RUN_FIRST, None, (int, int))
     }
 
-    _files: List[File] = list()
-    _paths: Set = set()
-
     def __init__(self) -> None:
         super().__init__()
-        # self._files: List[File] = []
-        # self._paths: Set = set()
+        self._files: List[File] = []
+        self._paths: Set = set()
         self.state = FilesManagerState.IDLE
         self.progress = (0, 0)
         self.lightweight_mode = False

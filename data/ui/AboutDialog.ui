@@ -7,7 +7,7 @@
     <property name="license-type">gpl-3-0</property>
     <property name="copyright">© 2020 Romain Vigier</property>
     <property name="authors">Romain Vigier</property>
-    <property name="artists" translatable="yes">Romain Vigier</property>
+    <property name="artists">Romain Vigier</property>
     <property name="website">https://gitlab.com/rmnvgr/metadata-cleaner/</property>
     <child internal-child="vbox">
       <object class="GtkBox">

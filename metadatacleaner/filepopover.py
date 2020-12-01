@@ -62,7 +62,6 @@ class FilePopover(Gtk.Popover):
                 if self._file.metadata \
                 else None
         elif self._file.state in [
-            FileState.ERROR_WHILE_INITIALIZING,
             FileState.ERROR_WHILE_CHECKING_METADATA,
             FileState.ERROR_WHILE_REMOVING_METADATA,
             FileState.ERROR_WHILE_SAVING
