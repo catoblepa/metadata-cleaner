@@ -1,5 +1,7 @@
+"""Application window of Metadata Cleaner."""
+
 from gi.repository import Gio, GLib, Gtk, Handy
-from typing import List, Optional
+from typing import Any, List, Optional
 
 from metadatacleaner.aboutdialog import AboutDialog
 from metadatacleaner.aboutmetadataprivacydialog \
@@ -18,27 +20,40 @@ from metadatacleaner.shortcutsdialog import ShortcutsDialog
 
 @Gtk.Template(resource_path="/fr/romainvigier/MetadataCleaner/ui/Window.ui")
 class Window(Handy.ApplicationWindow):
+    """Application window of Metadata Cleaner."""
 
     __gtype_name__ = "Window"
 
     _headerbar: Handy.HeaderBar = Gtk.Template.Child()
     _stack: Gtk.Stack = Gtk.Template.Child()
 
-    def __init__(self, app: Gtk.Application) -> None:
+    def __init__(
+        self,
+        app: Gtk.Application,
+        gfiles: List[Gio.File] = None,
+        *args,
+        **kwargs
+    ) -> None:
+        """Window initialization.
+
+        Args:
+            app (Gtk.Application): The parent application.
+            gfiles (List[Gio.File], optional): List of files to add. Defaults
+                to None.
+        """
         super().__init__(
             application=app,
-            title=app.name
+            title=app.name,
+            *args,
+            **kwargs
         )
         self._app = app
         self._setup_files_manager()
         self._setup_headerbar()
         self._setup_views()
         self._setup_actions()
-        # TODO: Change icon for files without metadata (?)
-        # TODO: Clean unused imports, commented code
-        # TODO: Check typing
-        # TODO: Resize window when a lot of files are added?
-        # TODO: Settings class?
+        if gfiles:
+            self.files_manager.add_gfiles(gfiles)
 
     # SETUP #
 
@@ -111,51 +126,79 @@ class Window(Handy.ApplicationWindow):
         )
         lightweight_mode_action.connect(
             "activate",
-            self.on_lightweight_mode_action
+            self._on_lightweight_mode_action
         )
         self.add_action(lightweight_mode_action)
 
     # SIGNAL HANDLERS #
 
-    def _on_file_added(self, file_manager, new_file_index):
+    def _on_file_added(self, file_manager: FilesManager, new_file_index: int):
         if self._stack.get_visible_child_name() != "files_view":
             self.show_files_view()
 
-    def _on_file_removed(self, file_manager):
-        if len(self._app.files_manager.get_files()) == 0:
+    def _on_file_removed(self, file_manager: FilesManager):
+        if len(self.files_manager.get_files()) == 0:
             self.show_empty_view()
 
-    def _on_close_action(self, action, parameters) -> None:
+    def _on_close_action(self, action: Gio.Action, parameters: Any) -> None:
         self.destroy()
 
-    def _on_about_action(self, action, parameters) -> None:
+    def _on_about_action(self, action: Gio.Action, parameters: Any) -> None:
         self.show_about_dialog()
 
-    def _on_shortcuts_action(self, action, parameters) -> None:
+    def _on_shortcuts_action(
+        self,
+        action: Gio.Action,
+        parameters: Any
+    ) -> None:
         self.show_shortcuts_dialog()
 
-    def _on_about_metadata_privacy_action(self, action, parameters) -> None:
+    def _on_about_metadata_privacy_action(
+        self,
+        action: Gio.Action,
+        parameters: Any
+    ) -> None:
         self.show_about_metadata_privacy_dialog()
 
-    def _on_about_removing_metadata_action(self, action, parameters) -> None:
+    def _on_about_removing_metadata_action(
+        self,
+        action: Gio.Action,
+        parameters: Any
+    ) -> None:
         self.show_about_removing_metadata_dialog()
 
-    def _on_add_files_action(self, action, parameters) -> None:
+    def _on_add_files_action(
+        self,
+        action: Gio.Action,
+        parameters: Any
+    ) -> None:
         self.add_files()
 
-    def _on_clean_metadata_action(self, action, parameters) -> None:
+    def _on_clean_metadata_action(
+        self,
+        action: Gio.Action,
+        parameters: Any
+    ) -> None:
         if self.files_manager.state == FilesManagerState.WORKING \
                 or len(self.files_manager.get_cleanable_files()) == 0:
             return
         self.clean_metadata()
 
-    def _on_save_cleaned_files_action(self, action, parameters) -> None:
+    def _on_save_cleaned_files_action(
+        self,
+        action: Gio.Action,
+        parameters: Any
+    ) -> None:
         if self.files_manager.state == FilesManagerState.WORKING \
                 or len(self.files_manager.get_cleaned_files()) == 0:
             return
         self.save_cleaned_files()
 
-    def on_lightweight_mode_action(self, action, parameters) -> None:
+    def _on_lightweight_mode_action(
+        self,
+        action: Gio.Action,
+        parameters: Any
+    ) -> None:
         self.files_manager.lightweight_mode = \
             not self.files_manager.lightweight_mode
         action.set_state(
@@ -165,23 +208,28 @@ class Window(Handy.ApplicationWindow):
     # VIEWS #
 
     def show_empty_view(self) -> None:
+        """Show an empty view."""
         self._stack.set_visible_child_name("empty_view")
 
     def show_files_view(self) -> None:
+        """Show the files."""
         self._stack.set_visible_child_name("files_view")
 
     # ACTIONS #
 
     def add_files(self) -> None:
+        """Add files."""
         gfiles = self.get_files_from_filechooser()
         if not gfiles:
             return
         self.files_manager.add_gfiles(gfiles)
 
     def clean_metadata(self) -> None:
+        """Remove metadata from files."""
         self.files_manager.clean_files()
 
     def save_cleaned_files(self) -> None:
+        """Save cleaned files."""
         if self._app.settings.get_boolean("warn-before-saving"):
             response = self.show_save_warning_dialog()
             if response != Gtk.ResponseType.OK:
@@ -191,26 +239,37 @@ class Window(Handy.ApplicationWindow):
     # DIALOGS #
 
     def get_files_from_filechooser(self) -> Optional[List[Gio.File]]:
+        """Get files from a file chooser.
+
+        Returns:
+            Optional[List[Gio.File]]: List of Gio Files choosed by the user.
+        """
         files: Optional[List[Gio.File]] = None
         file_chooser = FileChooserDialog(
             transient_for=self
         )
-        response = file_chooser.run()
+        response: Gtk.ResponseType = file_chooser.run()
         if response == Gtk.ResponseType.ACCEPT:
             files = file_chooser.get_files()
         file_chooser.destroy()
         return files
 
     def show_save_warning_dialog(self) -> Gtk.ResponseType:
+        """Show a warning about data loss before saving.
+
+        Returns:
+            Gtk.ResponseType: The action choosed by the user.
+        """
         dialog = SaveWarningDialog(
             settings=self._app.settings,
             transient_for=self
         )
-        response = dialog.run()
+        response: Gtk.ResponseType = dialog.run()
         dialog.destroy()
         return response
 
     def show_about_dialog(self) -> None:
+        """Show a dialog with informations about the application."""
         about_dialog = AboutDialog(
             transient_for=self,
             version=self._app.version
@@ -218,12 +277,14 @@ class Window(Handy.ApplicationWindow):
         about_dialog.show()
 
     def show_shortcuts_dialog(self) -> None:
+        """Show a dialog with keyboard shortcuts."""
         shortcuts_dialog = ShortcutsDialog(
             transient_for=self
         )
         shortcuts_dialog.show()
 
     def show_about_metadata_privacy_dialog(self) -> None:
+        """Show a message dialog teaching users about metadata and privacy."""
         dialog = AboutMetadataPrivacyDialog(
             transient_for=self
         )
@@ -231,6 +292,7 @@ class Window(Handy.ApplicationWindow):
         dialog.destroy()
 
     def show_about_removing_metadata_dialog(self) -> None:
+        """Show a message dialog teaching users about removing metadata."""
         dialog = AboutRemovingMetadataDialog(
             transient_for=self
         )

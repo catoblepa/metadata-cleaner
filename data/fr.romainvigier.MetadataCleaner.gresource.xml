@@ -7,6 +7,7 @@
 		<file compressed="true" preprocess="xml-stripblanks">icons/error-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks">icons/metadata-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks">icons/remove-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks">icons/warning-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/AboutDialog.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/AboutMetadataPrivacyDialog.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/AboutRemovingMetadataDialog.ui</file>

@@ -13,8 +13,6 @@ gi.require_version("Gdk", "3.0")
 gi.require_version("Gtk", "3.0")
 gi.require_version("Handy", "1")
 
-from gi.repository import GLib, Gio, Gtk, Handy  # noqa: E402
-
 
 APP_ID = "@app_id@"
 VERSION = "@version@"
@@ -25,22 +23,20 @@ PYTHON_DIR = "@pythondir@"
 sys.path.insert(1, PYTHON_DIR)
 
 
-def setup_logging() -> None:
-    logging.basicConfig()
-    logging.getLogger().setLevel(logging.DEBUG)  # TODO: Handle logging level
-
-
 def setup_i18n() -> None:
     try:
         locale.bindtextdomain(APP_ID, LOCALE_DIR)  # type: ignore
         locale.textdomain(APP_ID)  # type: ignore
     except AttributeError as e:
-        print(f"Unable to set the gettext translation domain.\nError:\n{e}")
+        logging.warning(
+            f"Unable to set the gettext translation domain.\nError:\n{e}"
+        )
     gettext.bindtextdomain(APP_ID, LOCALE_DIR)
     gettext.textdomain(APP_ID)
 
 
 def setup_resources() -> None:
+    from gi.repository import Gio
     resource = Gio.Resource.load(
         os.path.join(PKGDATA_DIR, f"{APP_ID}.gresource")
     )
@@ -50,7 +46,7 @@ def setup_resources() -> None:
 def setup_mimetypes() -> None:
     # The Flatpak runtime doesn't have a mime.types file, we have to import
     # our own
-    if os.path.exists("/.flatpak-info"):
+    if flatpak:
         mimetypes.init(
             files=mimetypes.knownfiles +
             [os.path.join(PKGDATA_DIR, "mime.types")]
@@ -59,19 +55,17 @@ def setup_mimetypes() -> None:
 
 def run_app() -> int:
     from metadatacleaner.app import MetadataCleaner
-    app = MetadataCleaner(APP_ID, VERSION)
+    app = MetadataCleaner(app_id=APP_ID, version=VERSION, flatpak=flatpak)
     signal.signal(signal.SIGINT, signal.SIG_DFL)
-    exit_status = app.run()
+    exit_status = app.run(sys.argv)
     return exit_status
 
 
 if __name__ == "__main__":
-    setup_logging()
+    flatpak = os.path.exists("/.flatpak-info")
     setup_i18n()
     setup_resources()
     setup_mimetypes()
-
-    Handy.init()
 
     exit_status = run_app()
     sys.exit(exit_status)

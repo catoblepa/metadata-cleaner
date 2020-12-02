@@ -1,3 +1,5 @@
+"""Indicator showing the status of the files manager."""
+
 from gettext import gettext as _
 from gi.repository import GLib, Gtk
 from typing import Optional
@@ -10,18 +12,27 @@ from metadatacleaner.menupopover import MenuPopover
     resource_path="/fr/romainvigier/MetadataCleaner/ui/StatusIndicator.ui"
 )
 class StatusIndicator(Gtk.Stack):
+    """Indicator showing the status of the files manager."""
 
     __gtype_name__ = "StatusIndicator"
 
     _progressbar: Gtk.ProgressBar = Gtk.Template.Child()
 
-    def __init__(self) -> None:
-        super().__init__()
-        self._window: Optional[Gtk.Window] = None
-        self.connect("realize", self._on_realize)
+    def __init__(self, *args, **kwargs) -> None:
+        """Status indicator initialization."""
+        super().__init__(*args, **kwargs)
+        self._window: Optional[Gtk.Widget] = None
+        self.connect("hierarchy-changed", self._on_hierarchy_changed)
 
-    def _on_realize(self, widget) -> None:
+    def _on_hierarchy_changed(
+        self,
+        widget: Gtk.Widget,
+        previous_toplevel: Optional[Gtk.Widget]
+    ) -> None:
         self._window = self.get_toplevel()
+        if not hasattr(self._window, "files_manager"):
+            self._window = None
+            return
         self._window.files_manager.connect(
             "state-changed",
             self._on_files_manager_state_changed
@@ -57,12 +68,15 @@ class StatusIndicator(Gtk.Stack):
         )
 
     def show_idle(self) -> None:
+        """Show the idle state."""
         self.set_visible_child_name("idle")
 
     def show_progressbar(self) -> None:
+        """Show a progress bar."""
         self.set_visible_child_name("working")
 
     def show_done(self) -> None:
+        """Show a "Done" message."""
         self.set_visible_child_name("done")
         GLib.timeout_add_seconds(5, self._show_done_finished)
 

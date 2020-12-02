@@ -1,3 +1,5 @@
+"""Vizualisation of metadata."""
+
 from gettext import gettext as _
 from gi.repository import Gtk
 from typing import Dict, Optional
@@ -7,13 +9,19 @@ from typing import Dict, Optional
     resource_path="/fr/romainvigier/MetadataCleaner/ui/MetadataView.ui"
 )
 class MetadataView(Gtk.ScrolledWindow):
+    """Vizualisation of metadata."""
 
     __gtype_name__ = "MetadataView"
 
     _tree_view: Gtk.TreeView = Gtk.Template.Child()
 
-    def __init__(self, metadata: Dict) -> None:
-        super().__init__()
+    def __init__(self, metadata: Dict, *args, **kwargs) -> None:
+        """View initialization.
+
+        Args:
+            metadata (Dict): The metadata to visualize.
+        """
+        super().__init__(*args, **kwargs)
         self._metadata = metadata
         if isinstance(metadata[list(metadata)[0]], Dict):
             self._setup_multifile_list_store()

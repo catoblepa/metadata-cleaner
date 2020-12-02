@@ -1,3 +1,5 @@
+"""File chooser dialog."""
+
 from gettext import gettext as _
 from gi.repository import Gtk
 
@@ -5,10 +7,12 @@ from metadatacleaner.filesmanager import SUPPORTED_FORMATS
 
 
 class FileChooserDialog(Gtk.FileChooserNative):
+    """File chooser dialog."""
 
     __gtype_name__ = "FileChooserDialog"
 
     def __init__(self, *args, **kwargs) -> None:
+        """File chooser dialog initialization."""
         super().__init__(
             modal=True,
             title=_("Choose files"),

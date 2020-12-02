@@ -1,3 +1,5 @@
+"""Files Manager object and states."""
+
 import libmat2
 import logging
 import mimetypes
@@ -29,11 +31,14 @@ SUPPORTED_FORMATS = _get_supported_formats()
 
 
 class FilesManagerState(IntEnum):
+    """States the Files Manager can have."""
+
     IDLE = auto()
     WORKING = auto()
 
 
 class FilesManager(GObject.GObject):
+    """Files Manager object."""
 
     __gsignals__ = {
         "file-added": (GObject.SIGNAL_RUN_FIRST, None, (int,)),
@@ -44,6 +49,7 @@ class FilesManager(GObject.GObject):
     }
 
     def __init__(self) -> None:
+        """Files Manager initialization."""
         super().__init__()
         self._files: List[File] = []
         self._paths: Set = set()
@@ -55,12 +61,30 @@ class FilesManager(GObject.GObject):
         GLib.idle_add(self.emit, "file-state-changed", self._files.index(f))
 
     def get_files(self) -> List[File]:
+        """Get all the files from the Files Manager.
+
+        Returns:
+            List[File]: List of files.
+        """
         return self._files
 
     def get_file(self, index: int) -> File:
+        """Get a files at a specific index.
+
+        Args:
+            index (int): Index of the file.
+
+        Returns:
+            File: The requested file.
+        """
         return self._files[index]
 
     def add_gfiles(self, gfiles: List[Gio.File]) -> None:
+        """Add Gio Files to the Files Manager.
+
+        Args:
+            gfiles (List[Gio.File]): List of Gio Files to add.
+        """
         thread = Thread(
             target=self._add_gfiles_async,
             args=(gfiles,),
@@ -82,6 +106,11 @@ class FilesManager(GObject.GObject):
         self._set_state(FilesManagerState.IDLE)
 
     def add_gfile(self, gfile: Gio.File) -> None:
+        """Add a Gio File to the Files Manager.
+
+        Args:
+            gfile (Gio.File): The Gio File to add.
+        """
         if gfile.get_path() in self._paths:
             return
         f = File(gfile)
@@ -93,12 +122,18 @@ class FilesManager(GObject.GObject):
         f.check_metadata()
 
     def remove_file(self, f: File) -> None:
+        """Remove a file from the Files Manager.
+
+        Args:
+            f (File): The file to remove.
+        """
         self._files.remove(f)
         self._paths.remove(f.path)
         f.remove()
         GLib.idle_add(self.emit, "file-removed")
 
     def clean_files(self) -> None:
+        """Remove metadata from all the cleanable files."""
         thread = Thread(
             target=self._clean_files_async,
             daemon=True
@@ -120,6 +155,7 @@ class FilesManager(GObject.GObject):
         self._set_state(FilesManagerState.IDLE)
 
     def save_cleaned_files(self) -> None:
+        """Save the cleaned files."""
         thread = Thread(target=self._save_cleaned_files_async, daemon=True)
         thread.start()
 
@@ -135,12 +171,22 @@ class FilesManager(GObject.GObject):
         self._set_state(FilesManagerState.IDLE)
 
     def get_cleanable_files(self) -> List[File]:
+        """Get all the cleanable files.
+
+        Returns:
+            List[File]: List of cleanable files.
+        """
         return self._get_files_with_states((
             FileState.HAS_METADATA,
             FileState.HAS_NO_METADATA
         ))
 
     def get_cleaned_files(self) -> List[File]:
+        """Get all the cleaned files.
+
+        Returns:
+            List[File]: List of cleaned files.
+        """
         return self._get_files_with_states((FileState.CLEANED,))
 
     def _get_files_with_states(

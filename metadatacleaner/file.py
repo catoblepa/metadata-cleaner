@@ -1,3 +1,5 @@
+"""File object and states."""
+
 import logging
 import os
 
@@ -5,12 +7,13 @@ from enum import IntEnum, auto
 from gettext import gettext as _
 from gi.repository import Gio, GLib, GObject
 from libmat2 import parser_factory
-from libmat2.abstract import AbstractParser
 from threading import Thread
-from typing import Dict, Optional, Set
+from typing import Dict, Optional
 
 
 class FileState(IntEnum):
+    """States that a File can have."""
+
     INITIALIZING = auto()
     ERROR_WHILE_INITIALIZING = auto()
     UNSUPPORTED = auto()
@@ -28,6 +31,7 @@ class FileState(IntEnum):
 
 
 class File(GObject.GObject):
+    """File object."""
 
     __gsignals__ = {
         "state-changed": (GObject.SIGNAL_RUN_FIRST, None, (int,)),
@@ -35,6 +39,11 @@ class File(GObject.GObject):
     }
 
     def __init__(self, gfile: Gio.File) -> None:
+        """File initialization.
+
+        Args:
+            gfile (Gio.File): The Gio File that the File will be built from.
+        """
         super().__init__()
         self.path = gfile.get_path()
         self.filename = gfile.get_basename()
@@ -50,6 +59,7 @@ class File(GObject.GObject):
             GLib.idle_add(self.emit, "state-changed", state)
 
     def initialize_parser(self) -> None:
+        """Initialize the metadata parser."""
         logging.debug(f"Initializing parser for {self.filename}...")
         try:
             parser, mimetype = parser_factory.get_parser(self.path)
@@ -71,6 +81,7 @@ class File(GObject.GObject):
                 self._set_state(FileState.UNSUPPORTED)
 
     def check_metadata(self) -> None:
+        """Check the metadata present in the file."""
         if self.state != FileState.SUPPORTED:
             return
         logging.debug(f"Checking metadata for {self.filename}...")
@@ -94,6 +105,12 @@ class File(GObject.GObject):
                 self._set_state(FileState.HAS_NO_METADATA)
 
     def remove_metadata(self, lightweight_mode=False) -> None:
+        """Remove the metadata from the file.
+
+        Args:
+            lightweight_mode (bool, optional): Use mat2 lightweight mode to
+                preserve data integrity. Defaults to False.
+        """
         if self.state not in [
             FileState.HAS_METADATA,
             FileState.HAS_NO_METADATA
@@ -121,6 +138,7 @@ class File(GObject.GObject):
             self._set_state(FileState.CLEANED)
 
     def save(self) -> None:
+        """Save the cleaned file."""
         if self.state != FileState.CLEANED:
             return
         logging.debug(f"Saving {self.filename}...")
@@ -136,4 +154,5 @@ class File(GObject.GObject):
             self._set_state(FileState.SAVED)
 
     def remove(self) -> None:
+        """Remove the file from the application."""
         GLib.idle_add(self.emit, "removed")

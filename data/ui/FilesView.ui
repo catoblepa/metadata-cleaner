@@ -12,15 +12,8 @@
           <object class="GtkViewport">
             <property name="visible">True</property>
             <child>
-              <object class="GtkFrame">
+              <object class="GtkListBox" id="_files_list_box">
                 <property name="visible">True</property>
-                <property name="margin">18</property>
-                <property name="valign">start</property>
-                <child>
-                  <object class="GtkListBox" id="_files_list_box">
-                    <property name="visible">True</property>
-                  </object>
-                </child>
               </object>
             </child>
           </object>
