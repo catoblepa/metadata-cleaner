@@ -22,6 +22,15 @@ class CleanMetadataButton(Gtk.Bin):
         self._window: Optional[Gtk.Widget] = None
         self.connect("hierarchy-changed", self._on_hierarchy_changed)
 
+    def _sync_button_sensitivity(self) -> None:
+        if not self._window:
+            return
+        if self._window.files_manager.state == FilesManagerState.WORKING \
+                or len(self._window.files_manager.get_cleanable_files()) == 0:
+            self._button.set_sensitive(False)
+        else:
+            self._button.set_sensitive(True)
+
     def _on_hierarchy_changed(
         self,
         widget: Gtk.Widget,
@@ -69,12 +78,3 @@ class CleanMetadataButton(Gtk.Bin):
         new_state: FilesManagerState
     ) -> None:
         self._sync_button_sensitivity()
-
-    def _sync_button_sensitivity(self) -> None:
-        if not self._window:
-            return
-        if self._window.files_manager.state == FilesManagerState.WORKING \
-                or len(self._window.files_manager.get_cleanable_files()) == 0:
-            self._button.set_sensitive(False)
-        else:
-            self._button.set_sensitive(True)

@@ -24,6 +24,12 @@ class StatusIndicator(Gtk.Stack):
         self._window: Optional[Gtk.Widget] = None
         self.connect("hierarchy-changed", self._on_hierarchy_changed)
 
+    def _sync_progressbar(self, current, total) -> None:
+        self._progressbar.set_fraction(current / total)
+        self._progressbar.set_text(
+            _("Processing file {}/{}").format(current, total)
+        )
+
     def _on_hierarchy_changed(
         self,
         widget: Gtk.Widget,
@@ -60,12 +66,6 @@ class StatusIndicator(Gtk.Stack):
         self._sync_progressbar(current, total)
         if current == total:
             self.show_done()
-
-    def _sync_progressbar(self, current, total) -> None:
-        self._progressbar.set_fraction(current / total)
-        self._progressbar.set_text(
-            _("Processing file {}/{}").format(current, total)
-        )
 
     def show_idle(self) -> None:
         """Show the idle state."""

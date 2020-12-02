@@ -32,10 +32,6 @@ class FilePopover(Gtk.Popover):
         self._sync_content_to_file()
         self._file.connect("state-changed", self._on_file_state_changed)
 
-    def _on_file_state_changed(self, file: File, new_state: FileState) -> None:
-        self._sync_title_to_file()
-        self._sync_content_to_file()
-
     def _sync_title_to_file(self) -> None:
         title = {
             FileState.INITIALIZING: _("Initializing…"),
@@ -84,3 +80,7 @@ class FilePopover(Gtk.Popover):
             )
         if self._content:
             self._box.pack_end(self._content, False, True, 0)
+
+    def _on_file_state_changed(self, file: File, new_state: FileState) -> None:
+        self._sync_title_to_file()
+        self._sync_content_to_file()

@@ -46,6 +46,8 @@ class MetadataCleaner(Gtk.Application):
         Gtk.Window.set_default_icon_name(app_id)
         Handy.init()
 
+    # APPLICATION METHODS #
+
     def do_activate(self) -> None:
         """Run on application activation."""
         self.new_window()
@@ -68,6 +70,8 @@ class MetadataCleaner(Gtk.Application):
             return
         self.new_window(gfiles=gfiles)
 
+    # SETUP #
+
     def _setup_actions(self) -> None:
         new_window_action = Gio.SimpleAction.new("new-window", None)
         new_window_action.connect("activate", self._on_new_window_action)
@@ -85,6 +89,8 @@ class MetadataCleaner(Gtk.Application):
         self.add_accelerator("<Primary>s", "win.save-cleaned-files", None)
         self.add_accelerator("<Primary>question", "win.shortcuts", None)
 
+    # SIGNAL HANDLERS #
+
     def _on_new_window_action(self, action, parameters) -> None:
         self.new_window()
 
@@ -95,6 +101,8 @@ class MetadataCleaner(Gtk.Application):
         self._windows.remove(window)
         if len(self._windows) == 0:
             self.quit()
+
+    # PUBLIC #
 
     def new_window(self, gfiles: List[Gio.File] = None) -> None:
         """Create a new window.

@@ -25,6 +25,11 @@ class FilesView(Gtk.Box):
         self._window: Optional[Gtk.Widget] = None
         self.connect("hierarchy-changed", self._on_hierarchy_changed)
 
+    def _setup_actionbar(self) -> None:
+        self._actionbar.pack_start(StatusIndicator())
+        self._actionbar.pack_end(SaveFilesButton())
+        self._actionbar.pack_end(CleanMetadataButton())
+
     def _on_hierarchy_changed(
         self,
         widget: Gtk.Widget,
@@ -44,8 +49,3 @@ class FilesView(Gtk.Box):
     ) -> None:
         f = files_manager.get_file(new_file_index)
         self._files_list_box.add(FileRow(f))
-
-    def _setup_actionbar(self) -> None:
-        self._actionbar.pack_start(StatusIndicator())
-        self._actionbar.pack_end(SaveFilesButton())
-        self._actionbar.pack_end(CleanMetadataButton())

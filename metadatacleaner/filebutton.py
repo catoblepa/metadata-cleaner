@@ -27,13 +27,6 @@ class FileButton(Gtk.Button):
         self._setup_popover()
         self._file.connect("state-changed", self._on_file_state_changed)
 
-    @Gtk.Template.Callback()
-    def _on_file_button_clicked(self, button: Gtk.Button) -> None:
-        self.show_popover()
-
-    def _on_file_state_changed(self, file: File, new_state: FileState) -> None:
-        self._sync_file_button_to_state()
-
     def _setup_popover(self) -> None:
         self._popover = FilePopover(self._file)
         self._popover.set_relative_to(self)
@@ -56,6 +49,13 @@ class FileButton(Gtk.Button):
             FileState.SAVED: "clean"
         }
         self._state_stack.set_visible_child_name(page[self._file.state])
+
+    @Gtk.Template.Callback()
+    def _on_file_button_clicked(self, button: Gtk.Button) -> None:
+        self.show_popover()
+
+    def _on_file_state_changed(self, file: File, new_state: FileState) -> None:
+        self._sync_file_button_to_state()
 
     def show_popover(self) -> None:
         """Show the popover with details about the file's metadata."""

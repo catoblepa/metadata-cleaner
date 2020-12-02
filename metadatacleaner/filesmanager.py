@@ -60,6 +60,20 @@ class FilesManager(GObject.GObject):
     def _on_file_state_changed(self, f: File, new_state: FileState) -> None:
         GLib.idle_add(self.emit, "file-state-changed", self._files.index(f))
 
+    def _set_state(self, state: FilesManagerState) -> None:
+        if state == self.state:
+            return
+        self.state = state
+        logging.debug(
+            f"State of files manager changed to {str(self.state)}."
+        )
+        GLib.idle_add(self.emit, "state-changed", state)
+
+    def _set_progress(self, current: int, total: int) -> None:
+        self.progress = (current, total)
+        logging.debug(f"Files manager progress set to {self.progress}.")
+        GLib.idle_add(self.emit, "progress-changed", current, total)
+
     def get_files(self) -> List[File]:
         """Get all the files from the Files Manager.
 
@@ -198,17 +212,3 @@ class FilesManager(GObject.GObject):
             if f.state in states:
                 wanted_files.append(f)
         return wanted_files
-
-    def _set_state(self, state: FilesManagerState) -> None:
-        if state == self.state:
-            return
-        self.state = state
-        logging.debug(
-            f"State of files manager changed to {str(self.state)}."
-        )
-        GLib.idle_add(self.emit, "state-changed", state)
-
-    def _set_progress(self, current: int, total: int) -> None:
-        self.progress = (current, total)
-        logging.debug(f"Files manager progress set to {self.progress}.")
-        GLib.idle_add(self.emit, "progress-changed", current, total)
