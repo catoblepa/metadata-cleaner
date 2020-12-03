@@ -11,7 +11,11 @@ Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse an
 
 [![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/rmnvgr/donate)
 
+---
+
 [[_TOC_]]
+
+---
 
 ## Building from source
 
