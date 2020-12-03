@@ -1,0 +1,18 @@
+.cache
+.venv
+.vscode
+
+# Build directories
+build
+builddir
+build-dir
+
+# Flatpak temporary files
+.flatpak-builder
+
+# Glade temporary files
+**/*.ui~
+**/*.ui#
+
+# Python cache
+**/__pycache__

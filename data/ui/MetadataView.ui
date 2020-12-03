@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <template class="MetadataView" parent="GtkScrolledWindow">
+    <property name="visible">True</property>
+    <property name="shadow-type">in</property>
+    <property name="max-content-width">600</property>
+    <property name="max-content-height">400</property>
+    <property name="propagate-natural-width">True</property>
+    <property name="propagate-natural-height">True</property>
+    <child>
+      <object class="GtkTreeView" id="_tree_view">
+        <property name="visible">True</property>
+        <property name="enable-grid-lines">vertical</property>
+      </object>
+    </child>
+  </template>
+</interface>

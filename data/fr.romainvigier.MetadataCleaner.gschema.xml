@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="fr.romainvigier.MetadataCleaner">
+    <schema id="fr.romainvigier.MetadataCleaner" path="/fr/romainvigier/MetadataCleaner/">
+        <key name="warn-before-saving" type="b">
+            <default>true</default>
+            <summary>Warn before saving cleaned files</summary>
+            <description>Show the warning dialog before saving the cleaned files</description>
+        </key>
+    </schema>
+</schemalist>
