@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-03 18:12+0100\n"
+"POT-Creation-Date: 2020-12-03 20:47+0100\n"
 "PO-Revision-Date: 2020-12-03 18:12+0100\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <romain@romainvigier.fr>\n"
@@ -56,19 +56,11 @@ msgid ""
 "automatically add author and company information to documents and "
 "spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
-"Une métadonnée est une information qui caractérise une donnée. Les "
-"métadonnées sont utilisées pour fournir de la documentation aux produits "
-"utilisant des données. Les métadonnées répondent essentiellement aux "
-"questions qui, quoi, quand, où, pourquoi et comment de chaque aspect de la "
-"donnée qui est documentée.\n"
-"\n"
 "Les métadonnées dans un fichier peuvent en dire beaucoup à votre sujet. Les "
 "appareils photo enregistrent quand une photographie a été prise et quel "
 "appareil a été utilisé. Les applications bureautiques ajoutent "
 "automatiquement des informations sur l’auteur et l’entreprise aux documents "
-"et aux tableaux. Vous ne voulez peut-être pas dévoiler ces informations.\n"
-"\n"
-"Cet outil va effacer, autant que possible, les métadonnées."
+"et aux tableaux. Vous ne voulez peut-être pas dévoiler ces informations."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:13
 msgid ""
@@ -278,19 +270,11 @@ msgstr "Raccourcis clavier"
 msgid "Done!"
 msgstr "Terminé !"
 
-#: metadatacleaner/file.py:126
-msgid "Unable to create a temporary file."
-msgstr "Impossible de créer un fichier temporaire."
-
-#: metadatacleaner/file.py:132
+#: metadatacleaner/file.py:138
 msgid "Something bad happened during the removal, cleaned file not found"
 msgstr ""
 "Quelque chose s’est mal passé pendant la suppression, le fichier nettoyé est "
 "introuvable."
-
-#: metadatacleaner/file.py:153
-msgid "Unable to find the cleaned file."
-msgstr "Impossible de trouver le fichier nettoyé."
 
 #: metadatacleaner/filechooserdialog.py:18
 msgid "Choose files"
@@ -376,21 +360,8 @@ msgstr "Fichier"
 msgid "Processing file {}/{}"
 msgstr "Traitement du fichier {}/{}"
 
-#~ msgid "No metadata have been found."
-#~ msgstr "Aucune métadonnée n’a été trouvée."
+#~ msgid "Unable to create a temporary file."
+#~ msgstr "Impossible de créer un fichier temporaire."
 
-#~ msgid "Use lightweight mode"
-#~ msgstr "Utiliser le mode léger"
-
-#~ msgid "Remove less metadata but guarantee the integrity of the data"
-#~ msgstr "Supprime moins de métadonnées mais garantie l’intégrité des données"
-
-#~ msgid ""
-#~ "\n"
-#~ "The following metadata remain:"
-#~ msgstr ""
-#~ "\n"
-#~ "Les métadonnées suivantes demeurent :"
-
-#~ msgid "Metadata Remover"
-#~ msgstr "Nettoyeur de métadonnées"
+#~ msgid "Unable to find the cleaned file."
+#~ msgstr "Impossible de trouver le fichier nettoyé."

@@ -1,6 +1,9 @@
 """File object and states."""
 
+import hashlib
 import logging
+import os
+import tempfile
 
 from enum import IntEnum, auto
 from gettext import gettext as _
@@ -48,13 +51,19 @@ class File(GObject.GObject):
         """
         super().__init__()
         self._gfile = gfile
-        self._temp_gfile: Optional[Gio.File] = None
+        self._temp_path = self._compute_temp_path(gfile.get_path())
         self.path = gfile.get_path()
         self.filename = gfile.get_basename()
         self.state = FileState.INITIALIZING
         self.mimetype = "text/plain"
         self.metadata: Optional[Dict] = None
         self.error: Optional[Exception] = None
+
+    def _compute_temp_path(self, path: str) -> str:
+        # We have to keep the extension so that ffmpeg doesn't break
+        filename, extension = os.path.splitext(path)
+        digest = hashlib.sha256(path.encode("utf-8")).hexdigest()
+        return os.path.join(tempfile.gettempdir(), f"{digest}{extension}")
 
     def _set_state(self, state: FileState) -> None:
         if state != self.state:
@@ -121,13 +130,10 @@ class File(GObject.GObject):
         logger.debug(f"Removing metadata for {self.filename}...")
         self._set_state(FileState.REMOVING_METADATA)
         try:
-            self._temp_gfile, io_stream = Gio.file_new_tmp(None)
-            if not isinstance(self._temp_gfile, Gio.File):
-                raise OSError(_("Unable to create a temporary file."))
-            self._parser.output_filename = self._temp_gfile.get_path()
+            self._parser.output_filename = self._temp_path
             self._parser.lightweight_cleaning = lightweight_mode
             self._parser.remove_all()
-            if not self._temp_gfile.query_exists(None):
+            if not os.path.exists(self._temp_path):
                 raise RuntimeError(_(
                     "Something bad happened during the removal, "
                     "cleaned file not found"
@@ -149,9 +155,8 @@ class File(GObject.GObject):
         logger.debug(f"Saving {self.filename}...")
         self._set_state(FileState.SAVING)
         try:
-            if not isinstance(self._temp_gfile, Gio.File):
-                raise OSError(_("Unable to find the cleaned file."))
-            self._temp_gfile.move(
+            cleaned_gfile = Gio.File.new_for_path(self._temp_path)
+            cleaned_gfile.move(
                 self._gfile,
                 Gio.FileCopyFlags.OVERWRITE,
                 None,
@@ -168,7 +173,6 @@ class File(GObject.GObject):
 
     def remove(self) -> None:
         """Remove the file from the application."""
-        if isinstance(self._temp_gfile, Gio.File) and \
-                self._temp_gfile.query_exists(None):
-            self._temp_gfile.delete(None)
+        if os.path.exists(self._temp_path):
+            os.remove(self._temp_path)
         GLib.idle_add(self.emit, "removed")
