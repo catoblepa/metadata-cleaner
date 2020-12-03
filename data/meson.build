@@ -15,6 +15,22 @@ gio_schemasdir = dependency('gio-2.0').get_pkgconfig_variable(
   default: schemasdir,
 )
 
+# Validate MetaInfo file
+metainfo_file = 'fr.romainvigier.MetadataCleaner.metainfo.xml'
+ascli_exe = find_program('appstreamcli', required: false)
+if ascli_exe.found()
+  test(
+    'validate metainfo file',
+    ascli_exe,
+    args: [
+      'validate',
+      '--no-net',
+      '--pedantic',
+      metainfo_file
+    ]
+  )
+endif
+
 i18n.merge_file(
   type: 'desktop',
   input: PROJECT_RDNN_NAME + '.desktop.in',
@@ -22,6 +38,15 @@ i18n.merge_file(
   po_dir: join_paths(meson.source_root(), 'po'),
   install: true,
   install_dir: applicationsdir
+)
+
+i18n.merge_file(
+  input: metainfo_file,
+  output: 'fr.romainvigier.MetadataCleaner.metainfo.xml',
+  type: 'xml',
+  po_dir: join_paths (meson.source_root(), 'po'),
+  install: true,
+  install_dir: appdatadir
 )
 
 

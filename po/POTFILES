@@ -1,5 +1,6 @@
 data/fr.romainvigier.MetadataCleaner.desktop.in
 data/fr.romainvigier.MetadataCleaner.gschema.xml
+data/fr.romainvigier.MetadataCleaner.metainfo.xml
 data/ui/AboutDialog.ui
 data/ui/AboutMetadataPrivacyDialog.ui
 data/ui/AboutRemovingMetadataDialog.ui

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-03 17:04+0100\n"
+"POT-Creation-Date: 2020-12-03 18:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:3
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:42
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:4
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:5
+#: metadatacleaner/app.py:42
 msgid "Metadata Cleaner"
 msgstr ""
 
@@ -39,6 +41,24 @@ msgstr ""
 msgid "Show the warning dialog before saving the cleaned files"
 msgstr ""
 
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:6
+msgid "View and clean metadata in files"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:12
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when a picture was taken and what camera was used. Office applications "
+"automatically add author and company information to documents and "
+"spreadsheets. Maybe you don't want to disclose those informations."
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:13
+msgid ""
+"This tool allows you to view metadata in your files and to get rid of them, "
+"as much as possible."
+msgstr ""
+
 #: data/ui/AboutDialog.ui:19
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
@@ -57,8 +77,8 @@ msgid ""
 "documented.\n"
 "\n"
 "Metadata within a file can tell a lot about you. Cameras record data about "
-"when a picture was taken and what camera was used. Office documents like PDF "
-"or Office automatically adds author and company information to documents and "
+"when a picture was taken and what camera was used. Office aplications "
+"automatically add author and company information to documents and "
 "spreadsheets. Maybe you don't want to disclose those informations.\n"
 "\n"
 "This tool will get rid, as much as possible, of metadata."
