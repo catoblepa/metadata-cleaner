@@ -23,6 +23,15 @@ PYTHON_DIR = "@pythondir@"
 sys.path.insert(1, PYTHON_DIR)
 
 
+def setup_logger() -> None:
+    if "LOG_LEVEL" not in os.environ:
+        return
+    numeric_level = getattr(logging, os.environ["LOG_LEVEL"].upper(), None)
+    if not isinstance(numeric_level, int):
+        return
+    logging.basicConfig(level=numeric_level)
+
+
 def setup_i18n() -> None:
     try:
         locale.bindtextdomain(APP_ID, LOCALE_DIR)  # type: ignore
@@ -63,6 +72,7 @@ def run_app() -> int:
 
 if __name__ == "__main__":
     flatpak = os.path.exists("/.flatpak-info")
+    setup_logger()
     setup_i18n()
     setup_resources()
     setup_mimetypes()

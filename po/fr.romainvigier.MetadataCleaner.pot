@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 17:54+0100\n"
+"POT-Creation-Date: 2020-12-03 17:04+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:3
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:39
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:42
 msgid "Metadata Cleaner"
 msgstr ""
 
@@ -211,7 +211,15 @@ msgid "Done!"
 msgstr ""
 
 #: metadatacleaner/file.py:126
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#: metadatacleaner/file.py:132
 msgid "Something bad happened during the removal, cleaned file not found"
+msgstr ""
+
+#: metadatacleaner/file.py:153
+msgid "Unable to find the cleaned file."
 msgstr ""
 
 #: metadatacleaner/filechooserdialog.py:18

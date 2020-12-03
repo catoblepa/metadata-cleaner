@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-02 17:54+0100\n"
-"PO-Revision-Date: 2020-12-02 16:14+0100\n"
+"POT-Creation-Date: 2020-12-03 17:04+0100\n"
+"PO-Revision-Date: 2020-12-03 17:05+0100\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <romain@romainvigier.fr>\n"
 "Language: fr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Gtranslator 3.38.0\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:3
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:39
+#: data/fr.romainvigier.MetadataCleaner.desktop.in:4 metadatacleaner/app.py:42
 msgid "Metadata Cleaner"
 msgstr "Nettoyeur de métadonnées"
 
@@ -245,10 +245,18 @@ msgid "Done!"
 msgstr "Terminé !"
 
 #: metadatacleaner/file.py:126
+msgid "Unable to create a temporary file."
+msgstr "Impossible de créer un fichier temporaire."
+
+#: metadatacleaner/file.py:132
 msgid "Something bad happened during the removal, cleaned file not found"
 msgstr ""
 "Quelque chose s’est mal passé pendant la suppression, le fichier nettoyé est "
 "introuvable."
+
+#: metadatacleaner/file.py:153
+msgid "Unable to find the cleaned file."
+msgstr "Impossible de trouver le fichier nettoyé."
 
 #: metadatacleaner/filechooserdialog.py:18
 msgid "Choose files"

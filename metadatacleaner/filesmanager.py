@@ -13,6 +13,9 @@ from typing import Dict, Iterable, List, Set
 from metadatacleaner.file import File, FileState
 
 
+logger = logging.getLogger(__name__)
+
+
 def _get_supported_formats() -> Dict:
     formats = {}
     for parser in libmat2.parser_factory._get_parsers():
@@ -64,14 +67,14 @@ class FilesManager(GObject.GObject):
         if state == self.state:
             return
         self.state = state
-        logging.debug(
+        logger.debug(
             f"State of files manager changed to {str(self.state)}."
         )
         GLib.idle_add(self.emit, "state-changed", state)
 
     def _set_progress(self, current: int, total: int) -> None:
         self.progress = (current, total)
-        logging.debug(f"Files manager progress set to {self.progress}.")
+        logger.debug(f"Files manager progress set to {self.progress}.")
         GLib.idle_add(self.emit, "progress-changed", current, total)
 
     def get_files(self) -> List[File]:
@@ -126,7 +129,12 @@ class FilesManager(GObject.GObject):
             gfile (Gio.File): The Gio File to add.
         """
         if gfile.get_path() in self._paths:
+            logger.debug(f"Skipping {gfile.get_path()}, already added.")
             return
+        if not gfile.query_exists(None):
+            logger.error(f"File {gfile.get_path()} does not exist, skipping.")
+            return
+        logger.debug(f"Adding {gfile.get_path()}...")
         f = File(gfile)
         self._paths.add(f.path)
         self._files.append(f)

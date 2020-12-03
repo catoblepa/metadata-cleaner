@@ -1,6 +1,6 @@
 """Application window of Metadata Cleaner."""
 
-from gi.repository import Gio, GLib, Gtk, Handy
+from gi.repository import Gdk, Gio, GLib, Gtk, Handy
 from typing import Any, List, Optional
 
 from metadatacleaner.aboutdialog import AboutDialog
@@ -51,6 +51,7 @@ class Window(Handy.ApplicationWindow):
         self._setup_files_manager()
         self._setup_headerbar()
         self._setup_views()
+        self._setup_drop_target()
         self._setup_actions()
         if gfiles:
             self.files_manager.add_gfiles(gfiles)
@@ -72,6 +73,13 @@ class Window(Handy.ApplicationWindow):
         self._files_view = FilesView()
         self._stack.add_named(self._empty_view, "empty_view")
         self._stack.add_named(self._files_view, "files_view")
+
+    def _setup_drop_target(self) -> None:
+        if self._app.flatpak:
+            return
+        self.drag_dest_set(Gtk.DestDefaults.ALL, None, Gdk.DragAction.COPY)
+        self.drag_dest_add_uri_targets()
+        self.connect("drag-data-received", self._on_drag_data_received)
 
     def _setup_actions(self) -> None:
         close_action = Gio.SimpleAction.new("close", None)
@@ -139,6 +147,19 @@ class Window(Handy.ApplicationWindow):
     def _on_file_removed(self, file_manager: FilesManager):
         if len(self.files_manager.get_files()) == 0:
             self.show_empty_view()
+
+    def _on_drag_data_received(
+        self,
+        widget: Gtk.Widget,
+        context: Gdk.DragContext,
+        x: int,
+        y: int,
+        data: Gtk.SelectionData,
+        info: int,
+        time: int
+    ):
+        gfiles = [Gio.File.new_for_uri(uri) for uri in data.get_uris()]
+        self.files_manager.add_gfiles(gfiles)
 
     def _on_close_action(self, action: Gio.Action, parameters: Any) -> None:
         self.destroy()

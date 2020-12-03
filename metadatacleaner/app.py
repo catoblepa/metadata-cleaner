@@ -11,6 +11,9 @@ from metadatacleaner.filesmanager import FilesManager
 from metadatacleaner.window import Window
 
 
+logger = logging.getLogger(__name__)
+
+
 class MetadataCleaner(Gtk.Application):
     """Application for Metadata Cleaner."""
 
@@ -61,7 +64,7 @@ class MetadataCleaner(Gtk.Application):
     def do_open(self, gfiles: List[Gio.File], n_files: int, hint: str) -> None:
         """Run when files are passed to the command line."""
         if self.flatpak:
-            logging.warning(
+            logger.warning(
                 "Opening files from the command line is not supported in the "
                 "Flatpak sandbox. Please open them directly from the "
                 "application window."
