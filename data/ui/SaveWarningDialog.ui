@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <template class="SaveWarningDialog" parent="GtkMessageDialog">
+    <property name="modal">True</property>
+    <property name="text" translatable="yes">Make sure you backed up your files!</property>
+    <property name="secondary-text" translatable="yes">Once you replace your files, there's no going back.</property>
+    <property name="message-type">warning</property>
+    <child internal-child="message_area">
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <child>
+          <object class="GtkCheckButton" id="_checkbutton">
+            <property name="visible">True</property>
+            <property name="label" translatable="yes">Don't tell me again</property>
+            <property name="halign">center</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+</interface>

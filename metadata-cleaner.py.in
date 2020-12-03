@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+
+import gettext
+import gi
+import locale
+import logging
+import mimetypes
+import os
+import signal
+import sys
+
+gi.require_version("Gdk", "3.0")
+gi.require_version("Gtk", "3.0")
+gi.require_version("Handy", "1")
+
+
+APP_ID = "@app_id@"
+VERSION = "@version@"
+LOCALE_DIR = "@localedir@"
+PKGDATA_DIR = "@pkgdatadir@"
+PYTHON_DIR = "@pythondir@"
+
+sys.path.insert(1, PYTHON_DIR)
+
+
+def setup_logger() -> None:
+    if "LOG_LEVEL" not in os.environ:
+        return
+    numeric_level = getattr(logging, os.environ["LOG_LEVEL"].upper(), None)
+    if not isinstance(numeric_level, int):
+        return
+    logging.basicConfig(level=numeric_level)
+
+
+def setup_i18n() -> None:
+    try:
+        locale.bindtextdomain(APP_ID, LOCALE_DIR)  # type: ignore
+        locale.textdomain(APP_ID)  # type: ignore
+    except AttributeError as e:
+        logging.warning(
+            f"Unable to set the gettext translation domain.\nError:\n{e}"
+        )
+    gettext.bindtextdomain(APP_ID, LOCALE_DIR)
+    gettext.textdomain(APP_ID)
+
+
+def setup_resources() -> None:
+    from gi.repository import Gio
+    resource = Gio.Resource.load(
+        os.path.join(PKGDATA_DIR, f"{APP_ID}.gresource")
+    )
+    Gio.Resource._register(resource)
+
+
+def setup_mimetypes() -> None:
+    # The Flatpak runtime doesn't have a mime.types file, we have to import
+    # our own
+    if flatpak:
+        mimetypes.init(
+            files=mimetypes.knownfiles +
+            [os.path.join(PKGDATA_DIR, "mime.types")]
+        )
+
+
+def run_app() -> int:
+    from metadatacleaner.app import MetadataCleaner
+    app = MetadataCleaner(app_id=APP_ID, version=VERSION, flatpak=flatpak)
+    signal.signal(signal.SIGINT, signal.SIG_DFL)
+    exit_status = app.run(sys.argv)
+    return exit_status
+
+
+if __name__ == "__main__":
+    flatpak = os.path.exists("/.flatpak-info")
+    setup_logger()
+    setup_i18n()
+    setup_resources()
+    setup_mimetypes()
+
+    exit_status = run_app()
+    sys.exit(exit_status)
