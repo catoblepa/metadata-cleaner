@@ -9,8 +9,6 @@ This tool allows you to view metadata in your files and to get rid of them, as m
 
 Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse and remove the metadata.
 
-[![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/rmnvgr/donate)
-
 ---
 
 [[_TOC_]]
