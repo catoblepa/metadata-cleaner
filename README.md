@@ -9,6 +9,8 @@ This tool allows you to view metadata in your files and to get rid of them, as m
 
 Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse and remove the metadata.
 
+[![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/rmnvgr/donate)
+
 ## Building from source
 
 Dependencies:
@@ -52,3 +54,7 @@ meson compile fr.romainvigier.MetadataCleaner-update-po
 ```
 
 Edit your language file in the [`./po/`](./po) directory.
+
+### Support
+
+I've written this application for the benefit of everyone, if you want to help me in return, please consider [supporting me on Liberapay](https://liberapay.com/rmnvgr/)!
