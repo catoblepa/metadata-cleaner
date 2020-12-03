@@ -1,5 +1,5 @@
 project('metadata-remover',
-  version: '1.0.0',
+  version: '0.9.0',
   meson_version: '>= 0.46.0'
 )
 
