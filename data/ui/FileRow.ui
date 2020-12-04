@@ -15,7 +15,7 @@
         <child>
           <object class="GtkImage">
             <property name="visible">True</property>
-            <property name="icon-name">remove-symbolic</property>
+            <property name="icon-name">metadatacleaner-remove-symbolic</property>
           </object>
         </child>
       </object>

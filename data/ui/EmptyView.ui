@@ -10,7 +10,7 @@
     <child>
       <object class="GtkImage">
         <property name="visible">True</property>
-        <property name="resource">/fr/romainvigier/MetadataCleaner/icons/background-logo.svg</property>
+        <property name="resource">/fr/romainvigier/MetadataCleaner/icons/metadatacleaner-background-logo.svg</property>
       </object>
       <packing>
         <property name="expand">False</property>

@@ -17,7 +17,7 @@
         <child>
           <object class="GtkImage" id="_warning_image">
             <property name="visible">True</property>
-            <property name="icon-name">warning-symbolic</property>
+            <property name="icon-name">metadatacleaner-warning-symbolic</property>
             <property name="tooltip-text" translatable="yes">Warning</property>
           </object>
           <packing>
@@ -27,7 +27,7 @@
         <child>
           <object class="GtkImage" id="_error_image">
             <property name="visible">True</property>
-            <property name="icon-name">error-symbolic</property>
+            <property name="icon-name">metadatacleaner-error-symbolic</property>
             <property name="tooltip-text" translatable="yes">Error</property>
           </object>
           <packing>
@@ -37,7 +37,7 @@
         <child>
           <object class="GtkImage" id="_has_metadata_image">
             <property name="visible">True</property>
-            <property name="icon-name">metadata-symbolic</property>
+            <property name="icon-name">metadatacleaner-metadata-symbolic</property>
             <property name="tooltip-text" translatable="yes">Metadata</property>
           </object>
           <packing>
@@ -47,7 +47,7 @@
         <child>
           <object class="GtkImage" id="_clean_image">
             <property name="visible">True</property>
-            <property name="icon-name">clean-symbolic</property>
+            <property name="icon-name">metadatacleaner-clean-symbolic</property>
             <property name="tooltip-text" translatable="yes">Cleaned</property>
           </object>
           <packing>
