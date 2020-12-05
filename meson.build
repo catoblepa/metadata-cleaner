@@ -1,11 +1,11 @@
 project('metadata-remover',
   version: '0.9.0',
-  meson_version: '>= 0.46.0'
+  meson_version: '>= 0.51.0'
 )
 
-PROJECT_RDNN_NAME = 'fr.romainvigier.MetadataCleaner'
+APP_ID = 'fr.romainvigier.MetadataCleaner'
 
-python = import('python').find_installation('python3')
+python = import('python').find_installation('python3', modules: 'libmat2')
 
 prefix = get_option('prefix')
 
@@ -23,13 +23,17 @@ metadatacleanerdir = join_paths(pythondir, 'metadatacleaner')
 iconsdir = join_paths(datadir, 'icons')
 schemasdir = join_paths(datadir, 'glib-2.0', 'schemas')
 
+dependency('gtk+-3.0', version: '>=3.24')
+dependency('libhandy-1')
+dependency('pygobject-3.0', version: '>= 3.30')
+dependency('python3')
 
 bin_config = configuration_data()
 bin_config.set('localedir', localedir)
 bin_config.set('pkgdatadir', pkgdatadir)
 bin_config.set('pythondir', pythondir)
 bin_config.set('schemasdir', schemasdir)
-bin_config.set('app_id', PROJECT_RDNN_NAME)
+bin_config.set('app_id', APP_ID)
 bin_config.set('version', meson.project_version())
 
 configure_file(

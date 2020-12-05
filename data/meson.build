@@ -2,8 +2,8 @@ gnome = import('gnome')
 i18n = import('i18n')
 
 gnome.compile_resources(
-  PROJECT_RDNN_NAME,
-  PROJECT_RDNN_NAME + '.gresource.xml',
+  APP_ID,
+  APP_ID + '.gresource.xml',
   gresource_bundle: true,
   install: true,
   install_dir: pkgdatadir,
@@ -33,8 +33,8 @@ endif
 
 i18n.merge_file(
   type: 'desktop',
-  input: PROJECT_RDNN_NAME + '.desktop.in',
-  output: PROJECT_RDNN_NAME + '.desktop',
+  input: APP_ID + '.desktop.in',
+  output: APP_ID + '.desktop',
   po_dir: join_paths(meson.source_root(), 'po'),
   install: true,
   install_dir: applicationsdir
@@ -50,6 +50,6 @@ i18n.merge_file(
 )
 
 
-install_data(PROJECT_RDNN_NAME + '.gschema.xml', install_dir: schemasdir)
+install_data(APP_ID + '.gschema.xml', install_dir: schemasdir)
 install_data('mime.types', install_dir: pkgdatadir)
 install_subdir('icons/hicolor', install_dir: iconsdir)
