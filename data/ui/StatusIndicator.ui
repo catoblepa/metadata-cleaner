@@ -12,7 +12,6 @@
       </object>
       <packing>
         <property name="name">idle</property>
-        <property name="position">0</property>
       </packing>
     </child>
     <child>
@@ -23,7 +22,6 @@
       </object>
       <packing>
         <property name="name">working</property>
-        <property name="position">1</property>
       </packing>
     </child>
     <child>
@@ -34,7 +32,6 @@
       </object>
       <packing>
         <property name="name">done</property>
-        <property name="position">2</property>
       </packing>
     </child>
   </template>

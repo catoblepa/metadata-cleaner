@@ -12,11 +12,6 @@
         <property name="visible">True</property>
         <property name="resource">/fr/romainvigier/MetadataCleaner/icons/metadatacleaner-background-logo.svg</property>
       </object>
-      <packing>
-        <property name="expand">False</property>
-        <property name="fill">True</property>
-        <property name="position">0</property>
-      </packing>
     </child>
     <child>
       <object class="GtkLabel">
@@ -29,11 +24,6 @@
           <class name="dim-label"/>
         </style>
       </object>
-      <packing>
-        <property name="expand">False</property>
-        <property name="fill">True</property>
-        <property name="position">1</property>
-      </packing>
     </child>
   </template>
 </interface>
