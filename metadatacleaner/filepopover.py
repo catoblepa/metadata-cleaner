@@ -27,11 +27,10 @@ class FilePopover(Gtk.Popover):
         super().__init__(*args, **kwargs)
         self._file = f
         self._content: Optional[Gtk.Widget] = None
-        self._sync_title_to_file()
-        self._sync_content_to_file()
-        self._file.connect("state-changed", self._on_file_state_changed)
+        self._setup_title()
+        self._setup_content()
 
-    def _sync_title_to_file(self) -> None:
+    def _setup_title(self) -> None:
         title = {
             FileState.INITIALIZING: _("Initializing…"),
             FileState.ERROR_WHILE_INITIALIZING: _(
@@ -47,7 +46,6 @@ class FilePopover(Gtk.Popover):
                 "No metadata have been found.\n"
                 "The file will be cleaned anyway, better safe than sorry."
             ),
-            FileState.HAS_METADATA: _("These metadata have been found:"),
             FileState.REMOVING_METADATA: _("Removing metadata…"),
             FileState.ERROR_WHILE_REMOVING_METADATA: _(
                 "Error while removing metadata:"
@@ -59,23 +57,16 @@ class FilePopover(Gtk.Popover):
         }
         self._title.set_label(title[self._file.state])
 
-    def _sync_content_to_file(self) -> None:
-        if self._content:
-            self._content.destroy()
-            self._content = None
-        elif self._file.state in [
+    def _setup_content(self) -> None:
+        if self._file.state in [
             FileState.ERROR_WHILE_CHECKING_METADATA,
             FileState.ERROR_WHILE_REMOVING_METADATA,
             FileState.ERROR_WHILE_SAVING
         ]:
-            self._content = Gtk.Label(
+            content = Gtk.Label(
                 visible=True,
                 label=str(self._file.error),
-                selectable=True
+                selectable=True,
+                wrap=True
             )
-        if self._content:
-            self._box.pack_end(self._content, False, True, 0)
-
-    def _on_file_state_changed(self, file: File, new_state: FileState) -> None:
-        self._sync_title_to_file()
-        self._sync_content_to_file()
+            self._box.pack_end(content, False, True, 0)

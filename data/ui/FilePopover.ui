@@ -13,10 +13,8 @@
           <object class="GtkLabel" id="_title">
             <property name="visible">True</property>
             <property name="halign">start</property>
+            <property name="wrap">True</property>
           </object>
-          <packing>
-            <property name="expand">True</property>
-          </packing>
         </child>
       </object>
     </child>

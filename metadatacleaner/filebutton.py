@@ -25,12 +25,7 @@ class FileButton(Gtk.Button):
         """
         super().__init__(*args, **kwargs)
         self._file = f
-        self._setup_popover()
         self._file.connect("state-changed", self._on_file_state_changed)
-
-    def _setup_popover(self) -> None:
-        self._popover = FilePopover(self._file)
-        self._popover.set_relative_to(self)
 
     def _sync_file_button_to_state(self) -> None:
         page = {
@@ -63,10 +58,12 @@ class FileButton(Gtk.Button):
 
     def show_popover(self) -> None:
         """Show the popover with details about the file's state."""
-        self._popover.popup()
+        popover = FilePopover(self._file)
+        popover.set_relative_to(self)
+        popover.popup()
 
     def show_metadata_window(self) -> None:
-        """Show the window with the details about the file's metadata"""
+        """Show the window with the details about the file's metadata."""
         window = MetadataWindow(
             transient_for=self.get_toplevel(),
             f=self._file
