@@ -20,8 +20,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/GNOME/libhandy.git
-        tag: 1.0.1
-        commit: 5cee0927b8b39dea1b2a62ec6d19169f73ba06c6
+        tag: 1.0.2
+        commit: 465c00f8f80c27330be494ed7c0ba2ffe26321c4
 
   - name: ffmpeg
     buildsystem: autotools
@@ -52,16 +52,16 @@ modules:
       - make install
     sources:
       - type: archive
-        url: https://exiftool.org/Image-ExifTool-12.09.tar.gz
-        sha256: d52d9ff508c4af8abe09c917db216788739a335cd5e921e4862c02848f1e0cca
+        url: https://exiftool.org/Image-ExifTool-12.12.tar.gz
+        sha256: 4a6536c69c86a0c87b8eed355938ba3eb903324d2f3aea5e6e87d91172b8ecc8
 
   - name: poppler
     buildsystem: cmake
     sources:
       - type: git
         url: https://anongit.freedesktop.org/git/poppler/poppler.git
-        tag: poppler-20.11.0
-        commit: ef71527479bab01da0a8b7b7c6da3320d4bdffbe
+        tag: poppler-20.12.0
+        commit: 8766a45a1e101538724d2b767b3efd0ec210357c
 
   - name: python3-mutagen
     buildsystem: simple
