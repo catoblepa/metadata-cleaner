@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-10 12:41+0100\n"
-"PO-Revision-Date: 2020-12-05 21:57+0100\n"
+"POT-Creation-Date: 2020-12-24 12:35+0100\n"
+"PO-Revision-Date: 2020-12-24 12:35+0100\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <romain@romainvigier.fr>\n"
 "Language: fr\n"
@@ -51,7 +51,7 @@ msgstr "Affiche et nettoie les métadonnées des fichiers"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:15
 msgid "Romain Vigier"
-msgstr ""
+msgstr "Romain Vigier"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:22
 msgid ""
@@ -74,7 +74,15 @@ msgstr ""
 "Cet outil vous permet d’afficher les métadonnées dans vos fichiers et de "
 "vous en débarrasser, dans la mesure du possible."
 
-#: data/ui/AboutDialog.ui:23
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
+msgid "New in v1.0.1:"
+msgstr "Nouveau dans la version 1.0.1 :"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+msgid "German translation (contributed by lux)"
+msgstr "Traduction allemande (contribution de lux)"
+
+#: data/ui/AboutDialog.ui:25
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"
