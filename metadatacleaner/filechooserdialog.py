@@ -32,4 +32,5 @@ class FileChooserDialog(Gtk.FileChooserNative):
         for mimetype, extensions in SUPPORTED_FORMATS.items():
             for extension in extensions:
                 file_filter.add_pattern(f"*{extension}")
+                file_filter.add_pattern(f"*{extension.upper()}")
         self.add_filter(file_filter)
