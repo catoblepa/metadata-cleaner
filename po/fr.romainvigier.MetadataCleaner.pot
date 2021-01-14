@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-24 12:26+0100\n"
+"POT-Creation-Date: 2021-01-14 13:52+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,14 +64,34 @@ msgid ""
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
-msgid "New in v1.0.1:"
+msgid "New in v1.0.2:"
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
+msgid "Swedish translation (contributed by Åke Engelbrektson)"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:54
+msgid "Bug fixes:"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:56
+msgid "Files with uppercase extension can now be added"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:62
+msgid "New in v1.0.1:"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:64
 msgid "German translation (contributed by lux)"
 msgstr ""
 
-#: data/ui/AboutDialog.ui:25
+#: data/ui/AboutDialog.ui:27
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"
