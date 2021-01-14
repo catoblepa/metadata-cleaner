@@ -12,9 +12,10 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="copyright">© 2020 Romain Vigier</property>
     <property name="authors">Romain Vigier</property>
     <property name="artists">Romain Vigier</property>
-    <property name="translator-credits">Romain Vigier
+    <property name="translator-credits">Åke Engelbrektson
 lux
-Óscar Fernández Díaz</property>
+Óscar Fernández Díaz
+Romain Vigier</property>
     <property name="website">https://gitlab.com/rmnvgr/metadata-cleaner/</property>
     <child internal-child="vbox">
       <object class="GtkBox">

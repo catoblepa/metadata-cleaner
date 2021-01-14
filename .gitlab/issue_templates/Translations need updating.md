@@ -5,5 +5,6 @@
 - [ ] de (@lxsycht)
 - [ ] es (@oscfdezdz)
 - [ ] fr (@rmnvgr)
+- [ ] sv (@eson)
 
 /label ~Translation
