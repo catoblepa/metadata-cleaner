@@ -17,10 +17,11 @@ Before writing any code, please open a new issue to discuss your intented change
 
 Metadata Cleaner is written in Python 3. It follows the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guide, the [PEP 257](https://www.python.org/dev/peps/pep-0257/) doctring conventions and the [PEP 484](https://www.python.org/dev/peps/pep-0484/) type hints.
 
-If you add or modify strings, make your modification available to translation by updating the POT file with this command:
+If you add or modify strings, make your modification available to translation by updating the POT and PO files with these commands:
 
 ```bash
 meson compile -C builddir fr.romainvigier.MetadataCleaner-pot
+meson compile -C builddir fr.romainvigier.MetadataCleaner-update-po
 ```
 
 Open a new merge request with your changes, the CI will automatically check your code.
