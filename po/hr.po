@@ -7,45 +7,49 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-02 15:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-04-25 09:05+0000\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: metadatacleaner/app.py:43
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Brisač metapodataka"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "Izbriši metapodatke iz datoteka"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "Metapodaci;uklanjanje;brisanje;brisač;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Warn before saving cleaned files"
-msgstr ""
+msgstr "Upozori prije spremanja datoteka"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Show the warning dialog before saving the cleaned files"
-msgstr ""
+msgstr "Prikaži upozorenje prije spremanja očišćenih datoteka"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Prikaži i izbriši metapodatke u datotekama"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:15
 msgid "Romain Vigier"
-msgstr ""
+msgstr "Romain Vigier"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:22
 msgid ""
@@ -54,63 +58,72 @@ msgid ""
 "automatically add author and company information to documents and "
 "spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"Metapodaci u datoteci mogu otkriti razne informacije o tebi. Kamere bilježe "
+"podatke o tome kada je snimljena slika i koja je kamera korištena. Uredske "
+"aplikacije automatski dodaju podatke o autoru i tvrtki u dokumente i "
+"proračunske tablice. Možda ne želiš da te informacije budu dostupne drugima."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:23
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of them, "
 "as much as possible."
 msgstr ""
+"Ovaj program omogućuje prikaz i brisanje (po mogućnosti svih) metapodataka u "
+"datotekama."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
 msgid "New in v1.0.4:"
-msgstr ""
+msgstr "Novo u v1.0.4:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
 msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr ""
+msgstr "Turski prijevod (Oğuz Ersen)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
 msgid "New in v1.0.2:"
-msgstr ""
+msgstr "Novo u v1.0.2:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr ""
+msgstr "Španjolski prijevod (Óscar Fernández Díaz)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:61
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr ""
+msgstr "Švedski prijevod (Åke Engelbrektson)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:63
 msgid "Bug fixes:"
-msgstr ""
+msgstr "Ispravci grešaka:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:65
 msgid "Files with uppercase extension can now be added"
 msgstr ""
+"Sada je moguće dodati datoteke s datotečnim nastavkom pisan velikim slovima"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
 msgid "New in v1.0.1:"
-msgstr ""
+msgstr "Novo u v1.0.1:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
 msgid "German translation (contributed by lux)"
-msgstr ""
+msgstr "Njemački prijevod (lux)"
 
 #. Translators: Add your name here, do not remove previous ones!
 #: data/ui/AboutDialog.ui:15
 msgid "translator-credits"
-msgstr ""
+msgstr "Milo Ivir &lt;mail@milotype.de&gt;, 2021."
 
 #: data/ui/AboutDialog.ui:24
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"
 msgstr ""
+"<small>Za brisanje metapodataka ovaj program koristi <a href=\"https://0xacab"
+".org/jvoisin/mat2\">mat2</a>. Pokaži im malo ljubavi!</small>"
 
 #: data/ui/AboutMetadataPrivacyDialog.ui:9
 msgid "Note about metadata and privacy"
-msgstr ""
+msgstr "Napomena o metapodacima i privatnosti"
 
 #: data/ui/AboutMetadataPrivacyDialog.ui:10
 msgid ""
@@ -126,10 +139,22 @@ msgid ""
 "\n"
 "This tool will get rid, as much as possible, of metadata."
 msgstr ""
+"Metapodaci sadrže karakterizirajuće podatke. Metapodaci se koriste u svrhu "
+"pružanja dokumentacije za proizvode koji barataju podacima. U osnovi, "
+"metapodaci odgovaraju na pitanja tko, što, kada, gdje, zašto i kako, za "
+"svaki aspekt podataka koji se dokumentiraju.\n"
+"\n"
+"Metapodaci u datoteci mogu otkriti razne informacije o tebi. Kamere bilježe "
+"podatke o tome kada je snimljena slika i koja je kamera korištena. Uredske "
+"aplikacije automatski dodaju podatke o autoru i tvrtki u dokumente i "
+"proračunske tablice. Možda ne želiš da te informacije budu dostupne drugima."
+"\n"
+"\n"
+"Ovaj program briše (po mogućnosti sve) metapodatke."
 
 #: data/ui/AboutRemovingMetadataDialog.ui:9
 msgid "Note about removing metadata"
-msgstr ""
+msgstr "Napomena o uklanjanju metapodataka"
 
 #: data/ui/AboutRemovingMetadataDialog.ui:10
 msgid ""
@@ -141,46 +166,52 @@ msgid ""
 "This is why you shouldn't rely on metadata's presence to decide if your file "
 "must be cleaned or not."
 msgstr ""
+"Ovaj program pokušava prikazati metapodatke. Međutim, ako ih ne prikaže, to "
+"još uvijek ne znači da datoteka ne sadrži metapodatke. Za složene datotečne "
+"formate ne postoji pouzdan način za otkrivanje svih mogućih metapodataka.\n"
+"\n"
+"Stoga se nemoj pouzdati na (ne)prisutnost metapodataka pri donošenju odluke "
+"o tome, treba li se tvoja datoteka očistiti ili ne."
 
 #: data/ui/AddFilesButton.ui:9
 msgid "Add files"
-msgstr ""
+msgstr "Dodaj datoteke"
 
 #: data/ui/CleanMetadataButton.ui:12
 msgid "_Clean"
-msgstr ""
+msgstr "_Izbriši"
 
 #: data/ui/EmptyView.ui:23
 msgid "Clean your traces."
-msgstr ""
+msgstr "Izbriši svoje tragove."
 
 #: data/ui/FileButton.ui:25
 msgid "Warning"
-msgstr ""
+msgstr "Upozorenje"
 
 #: data/ui/FileButton.ui:35
 msgid "Error"
-msgstr ""
+msgstr "Greška"
 
 #: data/ui/FileButton.ui:45
 msgid "Metadata"
-msgstr ""
+msgstr "Metapodaci"
 
 #: data/ui/FileButton.ui:55
 msgid "Cleaned"
-msgstr ""
+msgstr "Izbrisano"
 
 #: data/ui/FileRow.ui:14
 msgid "Remove file from list"
-msgstr ""
+msgstr "Ukloni datoteku iz popisa"
 
 #: data/ui/MenuPopover.ui:18
 msgid "_New window"
-msgstr ""
+msgstr "_Novi prozor"
 
 #: data/ui/MenuPopover.ui:33
 msgid "_Lightweight mode"
-msgstr ""
+msgstr "_Površni način rada"
 
 #: data/ui/MenuPopover.ui:34
 msgid ""
@@ -191,163 +222,170 @@ msgid ""
 "the guarantee that the data of your files won't be modified, the lightweight "
 "mode precisely does that."
 msgstr ""
+"Standarni postupak uklanjanja možda će promijeniti neke podatke datoteka "
+"kako bi se uklonio što veći broj metapodataka. Na primjer, tekstovi u PDF-u "
+"se možda više neće moći odabrati, komprimirane slike će se možda ponovo "
+"komprimirati … Ako želiš osigurati da se podaci datoteke ne mijenjaju i ako "
+"te ne smeta prisutnost nekih metapodaka, koristi površni način rada."
 
 #: data/ui/MenuPopover.ui:48
 msgid "Note about _metadata and privacy"
-msgstr ""
+msgstr "Napomena o _metapodacima i privatnosti"
 
 #: data/ui/MenuPopover.ui:55
 msgid "Note about _removing metadata"
-msgstr ""
+msgstr "Napomena o _uklanjanju metapodataka"
 
 #: data/ui/MenuPopover.ui:71
 msgid "_Keyboard shortcuts"
-msgstr ""
+msgstr "_Tipkovni prečaci"
 
 #: data/ui/MenuPopover.ui:78
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_O programu Brisač metapodataka"
 
 #: data/ui/MetadataWindow.ui:9
 msgid "Metadata details"
-msgstr ""
+msgstr "Detalji metapodataka"
 
 #: data/ui/SaveFilesButton.ui:12
 msgid "_Save"
-msgstr ""
+msgstr "_Spremi"
 
 #: data/ui/SaveWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Pazi da imaš sigurnosne kopije tvojih datoteka!"
 
 #: data/ui/SaveWarningDialog.ui:10
 msgid "Once you replace your files, there's no going back."
-msgstr ""
+msgstr "Nakon zamjene datoteka, nema povratka na staro."
 
 #: data/ui/SaveWarningDialog.ui:18
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Ne podsjećuj me više"
 
 #: data/ui/ShortcutsDialog.ui:18
 msgctxt "shortcut window"
 msgid "Files"
-msgstr ""
+msgstr "Datoteke"
 
 #: data/ui/ShortcutsDialog.ui:22
 msgctxt "shortcut window"
 msgid "Add files"
-msgstr ""
+msgstr "Dodaj datoteke"
 
 #: data/ui/ShortcutsDialog.ui:29
 msgctxt "shortcut window"
 msgid "Clean metadata"
-msgstr ""
+msgstr "Izbriši metapodatke"
 
 #: data/ui/ShortcutsDialog.ui:36
 msgctxt "shortcut window"
 msgid "Save cleaned files"
-msgstr ""
+msgstr "Spremi očišćene datoteke"
 
 #: data/ui/ShortcutsDialog.ui:45
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Opće"
 
 #: data/ui/ShortcutsDialog.ui:49
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "Novi prozor"
 
 #: data/ui/ShortcutsDialog.ui:56
 msgctxt "shortcut window"
 msgid "Close window"
-msgstr ""
+msgstr "Zatvori prozor"
 
 #: data/ui/ShortcutsDialog.ui:63
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Zatvori program"
 
 #: data/ui/ShortcutsDialog.ui:70
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Tipkovni prečaci"
 
 #: data/ui/StatusIndicator.ui:35
 msgid "Done!"
-msgstr ""
+msgstr "Gotovo!"
 
 #: metadatacleaner/file.py:139
 msgid "Something bad happened during the removal, cleaned file not found"
-msgstr ""
+msgstr "Tijekom uklanjanja se dogodila greška, očišćena datoteka nije pronađena"
 
 #: metadatacleaner/filechooserdialog.py:21
 msgid "Choose files"
-msgstr ""
+msgstr "Odaberi datoteke"
 
 #: metadatacleaner/filechooserdialog.py:31
 msgid "All supported files"
-msgstr ""
+msgstr "Sve podržane datoteke"
 
 #: metadatacleaner/filepopover.py:38
 msgid "Initializing…"
-msgstr ""
+msgstr "Inicijaliziranje …"
 
 #: metadatacleaner/filepopover.py:40
 msgid "Error while initializing the file parser."
-msgstr ""
+msgstr "Greška tijekom inicijaliziranja alata za analiziranje datoteke."
 
 #: metadatacleaner/filepopover.py:42
 msgid "File type not supported."
-msgstr ""
+msgstr "Vrsta datoteke nije podržana."
 
 #: metadatacleaner/filepopover.py:43
 msgid "File type supported."
-msgstr ""
+msgstr "Vrsta datoteke je podržana."
 
 #: metadatacleaner/filepopover.py:44
 msgid "Checking metadata…"
-msgstr ""
+msgstr "Provjeravanje metapodataka …"
 
 #: metadatacleaner/filepopover.py:46
 msgid "Error while checking metadata:"
-msgstr ""
+msgstr "Greška tijekom provjeravanja metapodataka:"
 
 #: metadatacleaner/filepopover.py:49
 msgid ""
 "No metadata have been found.\n"
 "The file will be cleaned anyway, better safe than sorry."
 msgstr ""
+"Nema metapodataka.\n"
+"Datoteka će se, za svaki slučaj, svejedno očistiti."
 
 #: metadatacleaner/filepopover.py:52
 msgid "Removing metadata…"
-msgstr ""
+msgstr "Uklanjanje metapodataka …"
 
 #: metadatacleaner/filepopover.py:54
 msgid "Error while removing metadata:"
-msgstr ""
+msgstr "Greška tijekom uklanjanja metapodataka:"
 
 #: metadatacleaner/filepopover.py:56
 msgid "The file has been cleaned."
-msgstr ""
+msgstr "Datoteka je očišćena."
 
 #: metadatacleaner/filepopover.py:57
 msgid "Saving the cleaned file…"
-msgstr ""
+msgstr "Spremanje očišćene datoteke …"
 
 #: metadatacleaner/filepopover.py:58
 msgid "Error while saving the file:"
-msgstr ""
+msgstr "Greška tijekom spremanja datoteke:"
 
 #: metadatacleaner/filepopover.py:59
 msgid "The cleaned file has been saved."
-msgstr ""
+msgstr "Očišćena datoteka je spremljena."
 
 #: metadatacleaner/metadatadetails.py:39
 #, python-brace-format
 msgid "{filename}:"
-msgstr ""
+msgstr "{filename}:"
 
 #: metadatacleaner/statusindicator.py:33
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "Obrada datoteke {}/{}"
