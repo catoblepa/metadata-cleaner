@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 10:37+0200\n"
+"POT-Creation-Date: 2021-04-27 11:07+0200\n"
 "PO-Revision-Date: 2021-04-02 16:10+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -71,39 +71,49 @@ msgstr ""
 "Bu araç, dosyalarınızdaki üst verileri görüntülemenizi ve mümkün olduğunca "
 "onlardan kurtulmanızı sağlar."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:50
+#, fuzzy
+msgid "Croatian translation (contributed by Milo Ivir)"
+msgstr "Almanca çeviri (katkıda bulunan: lux)"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+#, fuzzy
+msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
+msgstr "Almanca çeviri (katkıda bulunan: lux)"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
 msgid "New in v1.0.4:"
 msgstr "1.0.4 sürümündeki yenilikler:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Türkçe çeviri (katkıda bulunan: Oğuz Ersen)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
 msgid "New in v1.0.2:"
 msgstr "1.0.2 sürümündeki yenilikler:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "İspanyolca çeviri (katkıda bulunan: Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:61
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "İsveççe çeviri (katkıda bulunan: Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:63
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:72
 msgid "Bug fixes:"
 msgstr "Hata düzeltmeleri:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:65
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Files with uppercase extension can now be added"
 msgstr "Büyük harfli uzantıya sahip dosyalar artık eklenebilir"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:80
 msgid "New in v1.0.1:"
 msgstr "1.0.1 sürümündeki yenilikler:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
 msgid "German translation (contributed by lux)"
 msgstr "Almanca çeviri (katkıda bulunan: lux)"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-27 10:37+0200\n"
+"POT-Creation-Date: 2021-04-27 11:07+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,39 +63,47 @@ msgid ""
 "as much as possible."
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
-msgid "New in v1.0.4:"
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:50
+msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
-msgid "Turkish translation (contributed by Oğuz Ersen)"
+msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
-msgid "New in v1.0.2:"
+msgid "New in v1.0.4:"
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
+msgid "Turkish translation (contributed by Oğuz Ersen)"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
+msgid "New in v1.0.2:"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:61
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:63
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:72
 msgid "Bug fixes:"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:65
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:80
 msgid "New in v1.0.1:"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
 msgid "German translation (contributed by lux)"
 msgstr ""
 

@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-02 15:08+0200\n"
+"POT-Creation-Date: 2021-04-27 11:07+0200\n"
 "PO-Revision-Date: 2021-04-27 08:52+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,44 +72,54 @@ msgstr ""
 "Ovaj program omogućuje prikaz i brisanje (po mogućnosti svih) metapodataka u "
 "datotekama."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:49
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:50
+#, fuzzy
+msgid "Croatian translation (contributed by Milo Ivir)"
+msgstr "Njemački prijevod (lux)"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+#, fuzzy
+msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
+msgstr "Njemački prijevod (lux)"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
 msgid "New in v1.0.4:"
 msgstr "Novo u v1.0.4:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Turski prijevod (Oğuz Ersen)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
 msgid "New in v1.0.2:"
 msgstr "Novo u v1.0.2:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Španjolski prijevod (Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:61
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Švedski prijevod (Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:63
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:72
 msgid "Bug fixes:"
 msgstr "Ispravci grešaka:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:65
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 "Sada je moguće dodati datoteke s datotečnim nastavkom pisan velikim slovima"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:80
 msgid "New in v1.0.1:"
 msgstr "Novo u v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
 msgid "German translation (contributed by lux)"
 msgstr "Njemački prijevod (lux)"
 
-#. Translators: Add your name here, do not remove previous ones!
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/AboutDialog.ui:15
 msgid "translator-credits"
 msgstr "Milo Ivir <mail@milotype.de>"
@@ -119,8 +129,8 @@ msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"
 msgstr ""
-"<small>Za brisanje metapodataka ovaj program koristi <a href=\"https://0xacab"
-".org/jvoisin/mat2\">mat2</a>. Pokaži im malo ljubavi!</small>"
+"<small>Za brisanje metapodataka ovaj program koristi <a href="
+"\"https://0xacab.org/jvoisin/mat2\">mat2</a>. Pokaži im malo ljubavi!</small>"
 
 #: data/ui/AboutMetadataPrivacyDialog.ui:9
 msgid "Note about metadata and privacy"
@@ -148,8 +158,8 @@ msgstr ""
 "Metapodaci u datoteci mogu otkriti razne informacije o tebi. Kamere bilježe "
 "podatke o tome kada je snimljena slika i koja je kamera korištena. Uredske "
 "aplikacije automatski dodaju podatke o autoru i tvrtki u dokumente i "
-"proračunske tablice. Možda ne želiš da te informacije budu dostupne drugima."
-"\n"
+"proračunske tablice. Možda ne želiš da te informacije budu dostupne "
+"drugima.\n"
 "\n"
 "Ovaj program briše (po mogućnosti sve) metapodatke."
 
@@ -316,7 +326,8 @@ msgstr "Gotovo!"
 
 #: metadatacleaner/file.py:139
 msgid "Something bad happened during the removal, cleaned file not found"
-msgstr "Tijekom uklanjanja se dogodila greška, očišćena datoteka nije pronađena"
+msgstr ""
+"Tijekom uklanjanja se dogodila greška, očišćena datoteka nije pronađena"
 
 #: metadatacleaner/filechooserdialog.py:21
 msgid "Choose files"
