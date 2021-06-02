@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 11:07+0200\n"
-"PO-Revision-Date: 2021-04-27 08:52+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"PO-Revision-Date: 2021-06-04 07:33+0000\n"
+"Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -73,14 +73,12 @@ msgstr ""
 "livre deles, o tanto quanto possível."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:50
-#, fuzzy
 msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr "Tradução para o alemão (contribuição de lux)"
+msgstr "Tradução croata (contribuição de Milo Ivir)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:51
-#, fuzzy
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr "Tradução para o alemão (contribuição de lux)"
+msgstr "Tradução para o Português brasileiro (contribuição de Gustavo Costa)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
 msgid "New in v1.0.4:"
