@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # liimee <alt3753.7@gmail.com>, 2021.
+# Reza Almanda <rezaalmanda27@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-27 11:07+0200\n"
-"PO-Revision-Date: 2021-06-17 00:40+0000\n"
-"Last-Translator: liimee <alt3753.7@gmail.com>\n"
+"PO-Revision-Date: 2021-06-18 02:33+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/id/>\n"
 "Language: id\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -79,11 +80,11 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:58
 msgid "New in v1.0.4:"
-msgstr ""
+msgstr "Apa yang baru di v1.0.4:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
 msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr ""
+msgstr "Terjemahan bahasa Turki ( oleh Oğuz Ersen)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
 msgid "New in v1.0.2:"
@@ -160,7 +161,7 @@ msgstr ""
 
 #: data/ui/AddFilesButton.ui:9
 msgid "Add files"
-msgstr ""
+msgstr "Tambah berkas"
 
 #: data/ui/CleanMetadataButton.ui:12
 msgid "_Clean"
@@ -226,11 +227,11 @@ msgstr ""
 
 #: data/ui/MetadataWindow.ui:9
 msgid "Metadata details"
-msgstr ""
+msgstr "Rincian metadata"
 
 #: data/ui/SaveFilesButton.ui:12
 msgid "_Save"
-msgstr ""
+msgstr "_Simpan"
 
 #: data/ui/SaveWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
