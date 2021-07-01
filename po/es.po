@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-01 11:08+0200\n"
-"PO-Revision-Date: 2021-04-29 13:32+0000\n"
+"PO-Revision-Date: 2021-07-02 18:32+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -74,7 +74,7 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
 msgid "New translations"
-msgstr ""
+msgstr "Nuevas traducciones"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:59
 msgid "Croatian translation (contributed by Milo Ivir)"
@@ -224,7 +224,7 @@ msgstr "_Ventana nueva"
 
 #: data/ui/MenuPopover.ui:33
 msgid "_Lightweight mode"
-msgstr "_Modo ligero"
+msgstr "Modo _ligero"
 
 #: data/ui/MenuPopover.ui:34
 msgid ""
@@ -244,7 +244,7 @@ msgstr ""
 
 #: data/ui/MenuPopover.ui:48
 msgid "Note about _metadata and privacy"
-msgstr "Nota sobre los metadatos y _privacidad"
+msgstr "Nota sobre los _metadatos y privacidad"
 
 #: data/ui/MenuPopover.ui:55
 msgid "Note about _removing metadata"
