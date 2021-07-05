@@ -7,45 +7,48 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-01 11:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-07-06 17:33+0000\n"
+"Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
+"application/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: metadatacleaner/app.py:43
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Metadata Cleaner"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "Pulisci i metadati dai tuoi file"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "Metadati;Rimuovitore;Pulitore;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Warn before saving cleaned files"
-msgstr ""
+msgstr "Avvisa prima di salvare i file puliti"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Show the warning dialog before saving the cleaned files"
-msgstr ""
+msgstr "Mostra la finestra di avviso prima di salvare i file puliti"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Visualizza e pulisci i metadati nei file"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:15
 msgid "Romain Vigier"
-msgstr ""
+msgstr "Romain Vigier"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:22
 msgid ""
@@ -54,75 +57,84 @@ msgid ""
 "automatically add author and company information to documents and "
 "spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"I metadati all'interno di un file possono dire molto su di te. Le fotocamere "
+"registrano i dati su quando è stata scattata una foto e quale fotocamera è "
+"stata utilizzata. Le applicazioni di Office aggiungono automaticamente "
+"informazioni sull'autore e sull'azienda a documenti e fogli di calcolo. "
+"Forse non vuoi divulgare queste informazioni."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:23
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of them, "
 "as much as possible."
 msgstr ""
+"Questo strumento ti consente di visualizzare i metadati nei tuoi file e di "
+"eliminarli il più possibile."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
 msgid "New translations"
-msgstr ""
+msgstr "Nuove traduzioni"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:59
 msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr ""
+msgstr "Traduzione croata (contributo di Milo Ivir)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr ""
+msgstr "Traduzione portoghese (Brasile) (contributo di Gustavo Costa)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
 msgid "New in v1.0.4:"
-msgstr ""
+msgstr "Novità nella v1.0.4:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
 msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr ""
+msgstr "Traduzione in turco (contributo di Oğuz Ersen)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "New in v1.0.2:"
-msgstr ""
+msgstr "Novità nella v1.0.2:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr ""
+msgstr "Traduzione spagnola (contributo di Óscar Fernández Díaz)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr ""
+msgstr "Traduzione svedese (contributo di Åke Engelbrektson)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
 msgid "Bug fixes:"
-msgstr ""
+msgstr "Correzioni di bug:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "È ora possibile aggiungere file con estensione maiuscola"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
 msgid "New in v1.0.1:"
-msgstr ""
+msgstr "Novità nella v1.0.1:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "German translation (contributed by lux)"
-msgstr ""
+msgstr "Traduzione in tedesco (contributo di lux)"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/AboutDialog.ui:15
 msgid "translator-credits"
-msgstr ""
+msgstr "Albano Battistella <albano_battistella@hotmail.com>"
 
 #: data/ui/AboutDialog.ui:24
 msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"
 msgstr ""
+"<small>Questo programma utilizza <a href=\"https://0xacab.org/jvoisin/mat2\""
+">mat2</a> per pulire i metadati. Mostra loro un po' d'amore!</small>"
 
 #: data/ui/AboutMetadataPrivacyDialog.ui:9
 msgid "Note about metadata and privacy"
-msgstr ""
+msgstr "Nota sui metadati e sulla privacy"
 
 #: data/ui/AboutMetadataPrivacyDialog.ui:10
 msgid ""
@@ -138,10 +150,22 @@ msgid ""
 "\n"
 "This tool will get rid, as much as possible, of metadata."
 msgstr ""
+"I metadati sono informazioni che caratterizzano i dati. I metadati vengono "
+"utilizzati per fornire documentazione per i prodotti di dati. In sostanza, i "
+"metadati rispondono a chi, cosa, quando, dove, perché e come su ogni aspetto "
+"dei dati che vengono documentati.\n"
+"\n"
+"I metadati all'interno di un file possono dire molto su di te. Le fotocamere "
+"registrano i dati su quando è stata scattata una foto e quale fotocamera è "
+"stata utilizzata. Le applicazioni di Office aggiungono automaticamente "
+"informazioni sull'autore e sull'azienda a documenti e fogli di calcolo. "
+"Forse non vuoi divulgare queste informazioni.\n"
+"\n"
+"Questo strumento eliminerà, per quanto possibile, i metadati."
 
 #: data/ui/AboutRemovingMetadataDialog.ui:9
 msgid "Note about removing metadata"
-msgstr ""
+msgstr "Nota sulla rimozione dei metadati"
 
 #: data/ui/AboutRemovingMetadataDialog.ui:10
 msgid ""
@@ -153,46 +177,53 @@ msgid ""
 "This is why you shouldn't rely on metadata's presence to decide if your file "
 "must be cleaned or not."
 msgstr ""
+"Sebbene questo strumento stia facendo del suo meglio per visualizzare i "
+"metadati, ciò non significa che un file sia pulito da qualsiasi metadato se "
+"non ne mostra alcuno. Non esiste un modo affidabile per rilevare ogni "
+"singolo metadato possibile per formati di file complessi.\n"
+"\n"
+"Questo è il motivo per cui non dovresti fare affidamento sulla presenza dei "
+"metadati per decidere se il tuo file deve essere pulito o meno."
 
 #: data/ui/AddFilesButton.ui:9
 msgid "Add files"
-msgstr ""
+msgstr "Aggiungere file"
 
 #: data/ui/CleanMetadataButton.ui:12
 msgid "_Clean"
-msgstr ""
+msgstr "_Pulisci"
 
 #: data/ui/EmptyView.ui:23
 msgid "Clean your traces."
-msgstr ""
+msgstr "Pulisci le tue tracce."
 
 #: data/ui/FileButton.ui:25
 msgid "Warning"
-msgstr ""
+msgstr "Avvertimento"
 
 #: data/ui/FileButton.ui:35
 msgid "Error"
-msgstr ""
+msgstr "Errore"
 
 #: data/ui/FileButton.ui:45
 msgid "Metadata"
-msgstr ""
+msgstr "Metadati"
 
 #: data/ui/FileButton.ui:55
 msgid "Cleaned"
-msgstr ""
+msgstr "Pulito"
 
 #: data/ui/FileRow.ui:14
 msgid "Remove file from list"
-msgstr ""
+msgstr "Rimuovi file dall'elenco"
 
 #: data/ui/MenuPopover.ui:18
 msgid "_New window"
-msgstr ""
+msgstr "_Nuova finestra"
 
 #: data/ui/MenuPopover.ui:33
 msgid "_Lightweight mode"
-msgstr ""
+msgstr "_Modalità leggera"
 
 #: data/ui/MenuPopover.ui:34
 msgid ""
@@ -203,163 +234,173 @@ msgid ""
 "the guarantee that the data of your files won't be modified, the lightweight "
 "mode precisely does that."
 msgstr ""
+"Per impostazione predefinita, il processo di rimozione potrebbe alterare "
+"leggermente i dati dei tuoi file, al fine di rimuovere quanti più metadati "
+"possibile. Ad esempio, i testi in PDF potrebbero non essere più "
+"selezionabili, le immagini compresse potrebbero comprimersi di nuovo... Se "
+"sei disposto a scambiare la presenza di alcuni metadati in cambio della "
+"garanzia che i dati dei tuoi file non verranno modificati, la modalità "
+"leggera appunto lo fa."
 
 #: data/ui/MenuPopover.ui:48
 msgid "Note about _metadata and privacy"
-msgstr ""
+msgstr "Nota su _metadati e privacy"
 
 #: data/ui/MenuPopover.ui:55
 msgid "Note about _removing metadata"
-msgstr ""
+msgstr "Nota sulla _rimozione dei metadati"
 
 #: data/ui/MenuPopover.ui:71
 msgid "_Keyboard shortcuts"
-msgstr ""
+msgstr "_Scorciatoie da tastiera"
 
 #: data/ui/MenuPopover.ui:78
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_Informazioni su Metadata Cleaner"
 
 #: data/ui/MetadataWindow.ui:9
 msgid "Metadata details"
-msgstr ""
+msgstr "Dettagli metadati"
 
 #: data/ui/SaveFilesButton.ui:12
 msgid "_Save"
-msgstr ""
+msgstr "_Salva"
 
 #: data/ui/SaveWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Assicurati di aver eseguito il backup dei tuoi file!"
 
 #: data/ui/SaveWarningDialog.ui:10
 msgid "Once you replace your files, there's no going back."
-msgstr ""
+msgstr "Una volta sostituiti i file, non è possibile tornare indietro."
 
 #: data/ui/SaveWarningDialog.ui:18
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Non dirmelo di nuovo"
 
 #: data/ui/ShortcutsDialog.ui:18
 msgctxt "shortcut window"
 msgid "Files"
-msgstr ""
+msgstr "File"
 
 #: data/ui/ShortcutsDialog.ui:22
 msgctxt "shortcut window"
 msgid "Add files"
-msgstr ""
+msgstr "Aggiungi file"
 
 #: data/ui/ShortcutsDialog.ui:29
 msgctxt "shortcut window"
 msgid "Clean metadata"
-msgstr ""
+msgstr "Pulisci i metadati"
 
 #: data/ui/ShortcutsDialog.ui:36
 msgctxt "shortcut window"
 msgid "Save cleaned files"
-msgstr ""
+msgstr "Salva i file puliti"
 
 #: data/ui/ShortcutsDialog.ui:45
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Generale"
 
 #: data/ui/ShortcutsDialog.ui:49
 msgctxt "shortcut window"
 msgid "New window"
-msgstr ""
+msgstr "Nuova finestra"
 
 #: data/ui/ShortcutsDialog.ui:56
 msgctxt "shortcut window"
 msgid "Close window"
-msgstr ""
+msgstr "Chiudi finestra"
 
 #: data/ui/ShortcutsDialog.ui:63
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Esci"
 
 #: data/ui/ShortcutsDialog.ui:70
 msgctxt "shortcut window"
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Scorciatoie da tastiera"
 
 #: data/ui/StatusIndicator.ui:35
 msgid "Done!"
-msgstr ""
+msgstr "Fatto!"
 
 #: metadatacleaner/file.py:139
 msgid "Something bad happened during the removal, cleaned file not found"
 msgstr ""
+"È successo qualcosa di brutto durante la rimozione, file pulito non trovato"
 
 #: metadatacleaner/filechooserdialog.py:21
 msgid "Choose files"
-msgstr ""
+msgstr "Scegli file"
 
 #: metadatacleaner/filechooserdialog.py:31
 msgid "All supported files"
-msgstr ""
+msgstr "Tutti i file supportati"
 
 #: metadatacleaner/filepopover.py:38
 msgid "Initializing…"
-msgstr ""
+msgstr "Inizializzazione in corso…"
 
 #: metadatacleaner/filepopover.py:40
 msgid "Error while initializing the file parser."
-msgstr ""
+msgstr "Errore durante l'inizializzazione dell'analisi del file."
 
 #: metadatacleaner/filepopover.py:42
 msgid "File type not supported."
-msgstr ""
+msgstr "Tipo di file non supportato."
 
 #: metadatacleaner/filepopover.py:43
 msgid "File type supported."
-msgstr ""
+msgstr "Tipo di file supportato."
 
 #: metadatacleaner/filepopover.py:44
 msgid "Checking metadata…"
-msgstr ""
+msgstr "Controllo dei metadati…"
 
 #: metadatacleaner/filepopover.py:46
 msgid "Error while checking metadata:"
-msgstr ""
+msgstr "Errore durante il controllo dei metadati:"
 
 #: metadatacleaner/filepopover.py:49
 msgid ""
 "No metadata have been found.\n"
 "The file will be cleaned anyway, better safe than sorry."
 msgstr ""
+"Non sono stati trovati metadati.\n"
+"Il file verrà comunque pulito, meglio prevenire che curare."
 
 #: metadatacleaner/filepopover.py:52
 msgid "Removing metadata…"
-msgstr ""
+msgstr "Rimozione dei metadati…"
 
 #: metadatacleaner/filepopover.py:54
 msgid "Error while removing metadata:"
-msgstr ""
+msgstr "Errore durante la rimozione dei metadati:"
 
 #: metadatacleaner/filepopover.py:56
 msgid "The file has been cleaned."
-msgstr ""
+msgstr "Il file è stato pulito."
 
 #: metadatacleaner/filepopover.py:57
 msgid "Saving the cleaned file…"
-msgstr ""
+msgstr "Salvataggio del file pulito…"
 
 #: metadatacleaner/filepopover.py:58
 msgid "Error while saving the file:"
-msgstr ""
+msgstr "Errore durante il salvataggio del file:"
 
 #: metadatacleaner/filepopover.py:59
 msgid "The cleaned file has been saved."
-msgstr ""
+msgstr "Il file pulito è stato salvato."
 
 #: metadatacleaner/metadatadetails.py:39
 #, python-brace-format
 msgid "{filename}:"
-msgstr ""
+msgstr "{filename}:"
 
 #: metadatacleaner/statusindicator.py:33
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "Elaborazione file {}/{}"
