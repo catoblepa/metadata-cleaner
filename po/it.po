@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-01 11:08+0200\n"
-"PO-Revision-Date: 2021-07-06 17:33+0000\n"
+"PO-Revision-Date: 2021-08-02 12:34+0000\n"
 "Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/it/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: metadatacleaner/app.py:43
 msgid "Metadata Cleaner"
-msgstr "Metadata Cleaner"
+msgstr "Pulitore di Metadati"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
