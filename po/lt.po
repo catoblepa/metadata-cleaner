@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-01 11:08+0200\n"
+"POT-Creation-Date: 2021-08-10 14:22+0200\n"
 "PO-Revision-Date: 2021-07-02 18:32+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/lt/>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: metadatacleaner/app.py:43
+#: data/ui/AboutDialog.ui:66 metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "Metaduomenų Valytojas"
 
@@ -44,15 +44,39 @@ msgstr "Įspėti prieš išsaugant išvalytus failus"
 msgid "Show the warning dialog before saving the cleaned files"
 msgstr "Prieš išsaugant išvalytus failus, parodyti įspėjamąjį dialogo langą"
 
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
+#: data/ui/SettingsButton.ui:28
+#, fuzzy
+msgid "Lightweight cleaning"
+msgstr "_Lengvas rėžimas"
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
+msgid ""
+"Trade some metadata's presence in exchange of the guarantee that the data "
+"won't be modified"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
+msgid "Window width"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
+msgid "Saved width of the window"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
+msgid "Window height"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
+msgid "Saved height of the window"
+msgstr ""
+
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "Peržiūrėti ir išvalyti failų metaduomenis"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:15
-msgid "Romain Vigier"
-msgstr "Romain Vigier"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:22
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when a picture was taken and what camera was used. Office applications "
@@ -65,7 +89,7 @@ msgstr ""
 "prie dokumentų ir skaičiuoklių. Galbūt jūs nenorite atskleisti tos "
 "informacijos."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:23
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of them, "
 "as much as possible."
@@ -73,332 +97,414 @@ msgstr ""
 "Šis įrankis leidžia peržiūrėti failų metaduomenis ir jų kiek įmanoma "
 "atsikratyti."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
 msgid "New translations"
 msgstr "Nauji vertimai"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:59
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:88
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr "Vertimas į kroatų kalbą (prisidėjo Milo Ivir)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr "Vertimas į portugalų kalbą (Brazilų) (prisidėjo Gustavo Costa)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:96
 msgid "New in v1.0.4:"
 msgstr "Nauja 1.0.4 versijoje:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:98
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Vertimas į turkų kalbą (prisidėjo Oğuzas Ersenas)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
 msgid "New in v1.0.2:"
 msgstr "Nauja 1.0.2 versijoje:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Vertimas į ispanų kalbą (prisidėjo Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Vertimas į švedų kalbą (prisidėjo Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:110
 msgid "Bug fixes:"
 msgstr "Klaidų pataisymai:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
 msgid "Files with uppercase extension can now be added"
 msgstr "Dabar galima pridėti failus su plėtiniais didžiosiomis raidėmis"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 msgid "New in v1.0.1:"
 msgstr "Nauja 1.0.1 versijoje:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "German translation (contributed by lux)"
 msgstr "Vertimas į vokiečių kalbą (prisidėjo lux)"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: data/ui/AboutDialog.ui:15
-msgid "translator-credits"
-msgstr "Gediminas Murauskas"
+#: data/gtk/help-overlay.ui:15
+#, fuzzy
+msgid "Files"
+msgstr "Failai"
 
-#: data/ui/AboutDialog.ui:24
+#: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
+msgid "Add files"
+msgstr "Pridėti failus"
+
+#: data/gtk/help-overlay.ui:24
+#, fuzzy
+msgid "Clean metadata"
+msgstr "Išvalyti metaduomenis"
+
+#: data/gtk/help-overlay.ui:30
+msgid "Clear all files from window"
+msgstr ""
+
+#: data/gtk/help-overlay.ui:38
+#, fuzzy
+msgid "General"
+msgstr "Bendri"
+
+#: data/gtk/help-overlay.ui:41
+#, fuzzy
+msgid "New window"
+msgstr "Naujas langas"
+
+#: data/gtk/help-overlay.ui:47
+#, fuzzy
+msgid "Close window"
+msgstr "Uždaryti langą"
+
+#: data/gtk/help-overlay.ui:53
+#, fuzzy
+msgid "Quit"
+msgstr "Išeiti"
+
+#: data/gtk/help-overlay.ui:59
+#, fuzzy
+msgid "Keyboard shortcuts"
+msgstr "Spartieji klavišai"
+
+#: data/gtk/help-overlay.ui:65
+msgid "Help"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:87
+msgid "Chat on Matrix"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:97
+msgid "View the code on GitLab"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:107
+msgid "Translate on Weblate"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:117
+msgid "Support us on Liberapay"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:147
+msgid "Code"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:153
+msgid "Artwork"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:159
+msgid "Documentation"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:165
+#, fuzzy
+msgid "Translation"
+msgstr "Nauji vertimai"
+
+#: data/ui/AboutDialog.ui:170
+#, fuzzy
 msgid ""
-"<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
-"a> to clean the metadata. Show them some love!</small>"
+"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+"parse and clean the metadata. Show them some love!"
 msgstr ""
 "<small>Ši programa metaduomenis išvalo naudodama <a href=\"https://0xacab."
 "org/jvoisin/mat2\">mat2</a>. Parodykite jiems meilės!</small>"
 
-#: data/ui/AboutMetadataPrivacyDialog.ui:9
-msgid "Note about metadata and privacy"
-msgstr "Pastaba apie metaduomenis ir privatumą"
-
-#: data/ui/AboutMetadataPrivacyDialog.ui:10
+#: data/ui/AboutDialog.ui:183
 msgid ""
-"Metadata consist of information that characterizes data. Metadata are used "
-"to provide documentation for data products. In essence, metadata answer who, "
-"what, when, where, why, and how about every facet of the data that are being "
-"documented.\n"
-"\n"
-"Metadata within a file can tell a lot about you. Cameras record data about "
-"when a picture was taken and what camera was used. Office aplications "
-"automatically add author and company information to documents and "
-"spreadsheets. Maybe you don't want to disclose those informations.\n"
-"\n"
-"This tool will get rid, as much as possible, of metadata."
+"The source code of this program is released under the terms of the <a href="
+"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
+"original artwork and translations are released under the terms of the <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"Metaduomenys susideda iš informacijos, apibūdinančios duomenis. Metaduomenys "
-"naudojami duomenų produktams pateikti. Iš esmės metaduomenys atsako kas, ką, "
-"kada, kur, kodėl ir kaip apie kiekvieną dokumentuojamų duomenų aspektą.\n"
-"\n"
-"Metaduomenys faile gali daug ką pasakyti apie jus. Kameros įrašo duomenis "
-"apie tai, kada buvo padaryta nuotrauka ir kokia kamera buvo naudojama. "
-"„Office“ programos automatiškai prideda informaciją apie autorius ir įmonę "
-"prie dokumentų ir skaičiuoklių. Gal jūs nenorite atskleisti tos "
-"informacijos.\n"
-"\n"
-"Šis įrankis kiek įmanoma atsikratys šių metaduomenų."
 
-#: data/ui/AboutRemovingMetadataDialog.ui:9
-msgid "Note about removing metadata"
-msgstr "Pastaba apie metaduomenų pašalinimą"
-
-#: data/ui/AboutRemovingMetadataDialog.ui:10
+#: data/ui/AboutDialog.ui:196
 msgid ""
-"While this tool is doing its very best to display metadata, it doesn't mean "
-"that a file is clean from any metadata if it doesn't show any. There is no "
-"reliable way to detect every single possible metadata for complex file "
-"formats.\n"
-"\n"
-"This is why you shouldn't rely on metadata's presence to decide if your file "
-"must be cleaned or not."
+"The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks of "
+"their respective owners."
 msgstr ""
-"Nors šis įrankis daro viską, kad būtų rodomi metaduomenys, tai nereiškia, "
-"kad failas yra švarus nuo bet kokių metaduomenų, jei jis jų nerodo. Nėra "
-"patikimo būdo aptikti visus galimus sudėtingų failų formatų metaduomenis.\n"
-"\n"
-"Štai kodėl neturėtumėte pasikliauti metaduomenų buvimu nuspręsdami, ar "
-"failas turi būti išvalytas, ar ne."
 
-#: data/ui/AddFilesButton.ui:9
-msgid "Add files"
-msgstr "Pridėti failus"
-
-#: data/ui/CleanMetadataButton.ui:12
+#: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Valyti"
 
-#: data/ui/EmptyView.ui:23
+#: data/ui/EmptyView.ui:13
 msgid "Clean your traces."
 msgstr "Išvalyk savo pėdsakus."
 
-#: data/ui/FileButton.ui:25
-msgid "Warning"
-msgstr "Perspėjimas"
+#: data/ui/EmptyView.ui:27
+msgid "Learn more about metadata and the cleaning process limitations."
+msgstr ""
 
-#: data/ui/FileButton.ui:35
-msgid "Error"
-msgstr "Klaida"
-
-#: data/ui/FileButton.ui:45
-msgid "Metadata"
-msgstr "Metaduomenys"
-
-#: data/ui/FileButton.ui:55
-msgid "Cleaned"
-msgstr "Išvalyta"
-
-#: data/ui/FileRow.ui:14
+#: data/ui/FileRow.ui:12
 msgid "Remove file from list"
 msgstr "Pašalinti failą iš sąrašo"
 
-#: data/ui/MenuPopover.ui:18
+#: data/ui/FileRow.ui:93
+msgid "Warning"
+msgstr "Perspėjimas"
+
+#: data/ui/FileRow.ui:111
+msgid "Error"
+msgstr "Klaida"
+
+#: data/ui/FileRow.ui:151
+msgid "Cleaned"
+msgstr "Išvalyta"
+
+#: data/ui/MenuButton.ui:10
 msgid "_New window"
 msgstr "_Naujas langas"
 
-#: data/ui/MenuPopover.ui:33
-msgid "_Lightweight mode"
-msgstr "_Lengvas rėžimas"
+#: data/ui/MenuButton.ui:14
+#, fuzzy
+msgid "_Clear window"
+msgstr "Uždaryti langą"
 
-#: data/ui/MenuPopover.ui:34
-msgid ""
-"By default, the removal process might alter a bit the data of your files, in "
-"order to remove as much metadata as possible. For example, texts in PDF "
-"might not be selectable anymore, compressed images might get compressed "
-"again… If you're willing to trade some metadata's presence in exchange of "
-"the guarantee that the data of your files won't be modified, the lightweight "
-"mode precisely does that."
+#: data/ui/MenuButton.ui:20
+msgid "_Help"
 msgstr ""
-"Pagal numatytuosius nustatymus, kad būtų pašalinta kuo daugiau metaduomenų, "
-"pašalinimo procesas gali šiek tiek pakeisti jūsų failų duomenis. Pvz., "
-"teksto PDF rinkmenoje gali nebebūti galimybės pažymėti, suglaudinti "
-"paveikslėliai gali būti vėl suglaudinti… Jei galite iškeisti kai kuriuos "
-"metaduomenimis mainais į garantiją, kad failų duomenys nebus modifikuoti, "
-"lengvasis režimas skirtas būtent tam."
 
-#: data/ui/MenuPopover.ui:48
-msgid "Note about _metadata and privacy"
-msgstr "Pastaba apie _metaduomenis ir privatumą"
-
-#: data/ui/MenuPopover.ui:55
-msgid "Note about _removing metadata"
-msgstr "Pastaba apie _metaduomenų pašalinimą"
-
-#: data/ui/MenuPopover.ui:71
+#: data/ui/MenuButton.ui:25
 msgid "_Keyboard shortcuts"
 msgstr "_Spartieji klavišai"
 
-#: data/ui/MenuPopover.ui:78
+#: data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
 msgstr "_Apie Metaduomenų Valytoją"
-
-#: data/ui/MetadataWindow.ui:9
-msgid "Metadata details"
-msgstr "Metaduomenų detalės"
-
-#: data/ui/SaveFilesButton.ui:12
-msgid "_Save"
-msgstr "_Išsaugoti"
 
 #: data/ui/SaveWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
 msgstr "Įsitikinkite, kad padarėte atsarginę failų kopiją!"
 
 #: data/ui/SaveWarningDialog.ui:10
-msgid "Once you replace your files, there's no going back."
+#, fuzzy
+msgid "Once the files are cleaned, there's no going back."
 msgstr "Kai pakeisite failus, kelio atgal nebebus."
 
-#: data/ui/SaveWarningDialog.ui:18
+#: data/ui/SaveWarningDialog.ui:17
 msgid "Don't tell me again"
 msgstr "Nesakyk man daugiau"
 
-#: data/ui/ShortcutsDialog.ui:18
-msgctxt "shortcut window"
-msgid "Files"
-msgstr "Failai"
+#: data/ui/SaveWarningDialog.ui:25
+msgid "Cancel"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:22
-msgctxt "shortcut window"
-msgid "Add files"
-msgstr "Pridėti failus"
+#: data/ui/SaveWarningDialog.ui:30
+#, fuzzy
+msgid "Clean"
+msgstr "_Valyti"
 
-#: data/ui/ShortcutsDialog.ui:29
-msgctxt "shortcut window"
-msgid "Clean metadata"
-msgstr "Išvalyti metaduomenis"
+#: data/ui/SettingsButton.ui:9
+msgid "Cleaning settings"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:36
-msgctxt "shortcut window"
-msgid "Save cleaned files"
-msgstr "Išsaugoti išvalytus failus"
+#: data/ui/SettingsButton.ui:33
+msgid "Learn more about the lightweight cleaning"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:45
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Bendri"
+#: data/ui/Window.ui:72
+msgid "Details"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:49
-msgctxt "shortcut window"
-msgid "New window"
-msgstr "Naujas langas"
+#: data/ui/Window.ui:78
+msgid "Close"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:56
-msgctxt "shortcut window"
-msgid "Close window"
-msgstr "Uždaryti langą"
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
+#: data/ui/Window.ui:98
+msgid "translator-credits"
+msgstr "Gediminas Murauskas"
 
-#: data/ui/ShortcutsDialog.ui:63
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "Išeiti"
-
-#: data/ui/ShortcutsDialog.ui:70
-msgctxt "shortcut window"
-msgid "Keyboard shortcuts"
-msgstr "Spartieji klavišai"
-
-#: data/ui/StatusIndicator.ui:35
-msgid "Done!"
-msgstr "Atlikta!"
-
-#: metadatacleaner/file.py:139
-msgid "Something bad happened during the removal, cleaned file not found"
-msgstr "Šalinant įvyko kažkas blogo, išvalytas failas nerastas"
-
-#: metadatacleaner/filechooserdialog.py:21
-msgid "Choose files"
+#: data/ui/Window.ui:107
+#, fuzzy
+msgid "Choose files to clean"
 msgstr "Pasirinkite failus"
 
-#: metadatacleaner/filechooserdialog.py:31
-msgid "All supported files"
-msgstr "Visi palaikomi failai"
+#: metadatacleaner/modules/file.py:223
+#, fuzzy
+msgid "Something bad happened during the cleaning, cleaned file not found"
+msgstr "Šalinant įvyko kažkas blogo, išvalytas failas nerastas"
 
-#: metadatacleaner/filepopover.py:38
-msgid "Initializing…"
-msgstr "Inicijuojama…"
+#: metadatacleaner/ui/detailsview.py:58
+msgid "The file has been cleaned."
+msgstr "Šis failas buvo išvalytas."
 
-#: metadatacleaner/filepopover.py:40
-msgid "Error while initializing the file parser."
-msgstr "Inicijuojant failo analizatorių įvyko klaida."
+#: metadatacleaner/ui/detailsview.py:69
+msgid "Unable to read the file."
+msgstr ""
 
-#: metadatacleaner/filepopover.py:42
+#: metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
 msgstr "Failo tipas nepalaikomas."
 
-#: metadatacleaner/filepopover.py:43
-msgid "File type supported."
-msgstr "Failo tipas palaikomas."
-
-#: metadatacleaner/filepopover.py:44
-msgid "Checking metadata…"
-msgstr "Metaduomenys tikrinami…"
-
-#: metadatacleaner/filepopover.py:46
-msgid "Error while checking metadata:"
+#: metadatacleaner/ui/detailsview.py:72
+#, fuzzy
+msgid "Unable to check metadata."
 msgstr "Klaida tikrinant metaduomenis:"
 
-#: metadatacleaner/filepopover.py:49
-msgid ""
-"No metadata have been found.\n"
-"The file will be cleaned anyway, better safe than sorry."
+#: metadatacleaner/ui/detailsview.py:74
+#, fuzzy
+msgid "No known metadata, the file will be cleaned to be sure."
 msgstr ""
 "Nerasta metaduomenų.\n"
 "Failas vis tiek bus išvalytas, geriau saugiau nei vėliau gailėtis."
 
-#: metadatacleaner/filepopover.py:52
-msgid "Removing metadata…"
-msgstr "Šalinami metaduomenys…"
+#: metadatacleaner/ui/detailsview.py:76
+#, fuzzy
+msgid "Unable to remove metadata."
+msgstr "Pastaba apie metaduomenų pašalinimą"
 
-#: metadatacleaner/filepopover.py:54
-msgid "Error while removing metadata:"
-msgstr "Klaida pašalinant metaduomenis:"
+#: metadatacleaner/ui/filechooserdialog.py:24
+msgid "All supported files"
+msgstr "Visi palaikomi failai"
 
-#: metadatacleaner/filepopover.py:56
-msgid "The file has been cleaned."
-msgstr "Šis failas buvo išvalytas."
-
-#: metadatacleaner/filepopover.py:57
-msgid "Saving the cleaned file…"
-msgstr "Išvalytas failas išsaugojamas…"
-
-#: metadatacleaner/filepopover.py:58
-msgid "Error while saving the file:"
-msgstr "Klaida išsaugant failą:"
-
-#: metadatacleaner/filepopover.py:59
-msgid "The cleaned file has been saved."
-msgstr "Išvalytas failas išsaugotas."
-
-#: metadatacleaner/metadatadetails.py:39
-#, python-brace-format
-msgid "{filename}:"
-msgstr "{filename}:"
-
-#: metadatacleaner/statusindicator.py:33
+#: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "Failas apdorojamas {}/{}"
+
+#~ msgid "Romain Vigier"
+#~ msgstr "Romain Vigier"
+
+#~ msgid "Note about metadata and privacy"
+#~ msgstr "Pastaba apie metaduomenis ir privatumą"
+
+#~ msgid ""
+#~ "Metadata consist of information that characterizes data. Metadata are "
+#~ "used to provide documentation for data products. In essence, metadata "
+#~ "answer who, what, when, where, why, and how about every facet of the data "
+#~ "that are being documented.\n"
+#~ "\n"
+#~ "Metadata within a file can tell a lot about you. Cameras record data "
+#~ "about when a picture was taken and what camera was used. Office "
+#~ "aplications automatically add author and company information to documents "
+#~ "and spreadsheets. Maybe you don't want to disclose those informations.\n"
+#~ "\n"
+#~ "This tool will get rid, as much as possible, of metadata."
+#~ msgstr ""
+#~ "Metaduomenys susideda iš informacijos, apibūdinančios duomenis. "
+#~ "Metaduomenys naudojami duomenų produktams pateikti. Iš esmės metaduomenys "
+#~ "atsako kas, ką, kada, kur, kodėl ir kaip apie kiekvieną dokumentuojamų "
+#~ "duomenų aspektą.\n"
+#~ "\n"
+#~ "Metaduomenys faile gali daug ką pasakyti apie jus. Kameros įrašo duomenis "
+#~ "apie tai, kada buvo padaryta nuotrauka ir kokia kamera buvo naudojama. "
+#~ "„Office“ programos automatiškai prideda informaciją apie autorius ir "
+#~ "įmonę prie dokumentų ir skaičiuoklių. Gal jūs nenorite atskleisti tos "
+#~ "informacijos.\n"
+#~ "\n"
+#~ "Šis įrankis kiek įmanoma atsikratys šių metaduomenų."
+
+#~ msgid ""
+#~ "While this tool is doing its very best to display metadata, it doesn't "
+#~ "mean that a file is clean from any metadata if it doesn't show any. There "
+#~ "is no reliable way to detect every single possible metadata for complex "
+#~ "file formats.\n"
+#~ "\n"
+#~ "This is why you shouldn't rely on metadata's presence to decide if your "
+#~ "file must be cleaned or not."
+#~ msgstr ""
+#~ "Nors šis įrankis daro viską, kad būtų rodomi metaduomenys, tai nereiškia, "
+#~ "kad failas yra švarus nuo bet kokių metaduomenų, jei jis jų nerodo. Nėra "
+#~ "patikimo būdo aptikti visus galimus sudėtingų failų formatų "
+#~ "metaduomenis.\n"
+#~ "\n"
+#~ "Štai kodėl neturėtumėte pasikliauti metaduomenų buvimu nuspręsdami, ar "
+#~ "failas turi būti išvalytas, ar ne."
+
+#~ msgid "Metadata"
+#~ msgstr "Metaduomenys"
+
+#~ msgid ""
+#~ "By default, the removal process might alter a bit the data of your files, "
+#~ "in order to remove as much metadata as possible. For example, texts in "
+#~ "PDF might not be selectable anymore, compressed images might get "
+#~ "compressed again… If you're willing to trade some metadata's presence in "
+#~ "exchange of the guarantee that the data of your files won't be modified, "
+#~ "the lightweight mode precisely does that."
+#~ msgstr ""
+#~ "Pagal numatytuosius nustatymus, kad būtų pašalinta kuo daugiau "
+#~ "metaduomenų, pašalinimo procesas gali šiek tiek pakeisti jūsų failų "
+#~ "duomenis. Pvz., teksto PDF rinkmenoje gali nebebūti galimybės pažymėti, "
+#~ "suglaudinti paveikslėliai gali būti vėl suglaudinti… Jei galite iškeisti "
+#~ "kai kuriuos metaduomenimis mainais į garantiją, kad failų duomenys nebus "
+#~ "modifikuoti, lengvasis režimas skirtas būtent tam."
+
+#~ msgid "Note about _metadata and privacy"
+#~ msgstr "Pastaba apie _metaduomenis ir privatumą"
+
+#~ msgid "Note about _removing metadata"
+#~ msgstr "Pastaba apie _metaduomenų pašalinimą"
+
+#~ msgid "Metadata details"
+#~ msgstr "Metaduomenų detalės"
+
+#~ msgid "_Save"
+#~ msgstr "_Išsaugoti"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Add files"
+#~ msgstr "Pridėti failus"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Save cleaned files"
+#~ msgstr "Išsaugoti išvalytus failus"
+
+#~ msgid "Done!"
+#~ msgstr "Atlikta!"
+
+#~ msgid "Initializing…"
+#~ msgstr "Inicijuojama…"
+
+#~ msgid "Error while initializing the file parser."
+#~ msgstr "Inicijuojant failo analizatorių įvyko klaida."
+
+#~ msgid "File type supported."
+#~ msgstr "Failo tipas palaikomas."
+
+#~ msgid "Checking metadata…"
+#~ msgstr "Metaduomenys tikrinami…"
+
+#~ msgid "Removing metadata…"
+#~ msgstr "Šalinami metaduomenys…"
+
+#~ msgid "Error while removing metadata:"
+#~ msgstr "Klaida pašalinant metaduomenis:"
+
+#~ msgid "Saving the cleaned file…"
+#~ msgstr "Išvalytas failas išsaugojamas…"
+
+#~ msgid "Error while saving the file:"
+#~ msgstr "Klaida išsaugant failą:"
+
+#~ msgid "The cleaned file has been saved."
+#~ msgstr "Išvalytas failas išsaugotas."
+
+#, python-brace-format
+#~ msgid "{filename}:"
+#~ msgstr "{filename}:"

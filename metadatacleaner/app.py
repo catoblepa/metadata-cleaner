@@ -1,54 +1,47 @@
-# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 """Application for Metadata Cleaner."""
 
-import logging
-
 from gettext import gettext as _
-from gi.repository import Gio, GLib, Gtk, Handy
-from typing import List, Optional
+from gi.repository import Adw, Gdk, Gio, GLib, GObject, Gtk
+from typing import List
 
-from metadatacleaner.file import File
-from metadatacleaner.filesmanager import FilesManager
-from metadatacleaner.logger import Logger as logger
-from metadatacleaner.window import Window
+from metadatacleaner.ui.window import Window
 
 
-class MetadataCleaner(Gtk.Application):
+class MetadataCleaner(Adw.Application):
     """Application for Metadata Cleaner."""
 
+    __gtype_name__ = "MetadataCleaner"
+
+    devel = GObject.Property(type=bool, default=False)
+    settings = GObject.Property(type=Gio.Settings)
+    version = GObject.Property(type=str)
+
     def __init__(
-        self,
-        app_id: str,
-        version: str,
-        flatpak: bool = False,
-        *args,
-        **kwargs
-    ) -> None:
+            self,
+            devel: bool,
+            version: str,
+            *args,
+            **kwargs) -> None:
         """Application initialization.
 
         Args:
             app_id (str): Application ID
             version (str): Version string
-            flatpak (bool, optional): If the application is running in a
-                Flatpak sandbox. Defaults to False.
         """
         super().__init__(
-            application_id=app_id,
             flags=Gio.ApplicationFlags.HANDLES_OPEN,
             *args,
-            **kwargs
-        )
+            **kwargs)
         self.name = _("Metadata Cleaner")
+        self.devel = devel
         self.version = version
-        self.flatpak = flatpak
-        self.settings = Gio.Settings.new(app_id)
-        self._windows: List[Window] = list()
+        self.settings = Gio.Settings.new(self.get_application_id())
         GLib.set_application_name(self.name)
         GLib.set_prgname("metadata-cleaner")
-        Gtk.Window.set_default_icon_name(app_id)
-        Handy.init()
+        Gtk.Window.set_default_icon_name(self.get_application_id())
 
     # APPLICATION METHODS #
 
@@ -58,53 +51,62 @@ class MetadataCleaner(Gtk.Application):
 
     def do_startup(self) -> None:
         """Run on application startup."""
-        Gtk.Application.do_startup(self)
+        Adw.Application.do_startup(self)
         self._setup_actions()
         self._setup_accels()
 
     def do_open(self, gfiles: List[Gio.File], n_files: int, hint: str) -> None:
         """Run when files are passed to the command line."""
-        if self.flatpak:
-            logger.warning(
-                "Opening files from the command line is not supported in the "
-                "Flatpak sandbox. Please open them directly from the "
-                "application window."
-            )
-            self.new_window()
-            return
         self.new_window(gfiles=gfiles)
 
     # SETUP #
 
     def _setup_actions(self) -> None:
-        new_window_action = Gio.SimpleAction.new("new-window", None)
-        new_window_action.connect("activate", self._on_new_window_action)
-        self.add_action(new_window_action)
-        quit_action = Gio.SimpleAction.new("quit", None)
-        quit_action.connect("activate", self._on_quit_action)
-        self.add_action(quit_action)
+
+        def on_show_help(action: Gio.Action, parameters: GLib.Variant) -> None:
+            Gtk.show_uri(
+                None,
+                f"help:{self.get_application_id()}{parameters.get_string()}",
+                Gdk.CURRENT_TIME)
+        show_help = Gio.SimpleAction.new("help", GLib.VariantType.new("s"))
+        show_help.connect("activate", on_show_help)
+        self.add_action(show_help)
+
+        def on_show_window(
+                action: Gio.Action,
+                parameters: GLib.Variant) -> None:
+            window_id = parameters.get_uint32()
+            window = self.get_window_by_id(window_id)
+            window.present_with_time(Gdk.CURRENT_TIME)
+            self.withdraw_notification(f"done{window_id}")
+        show_window = Gio.SimpleAction.new(
+            "show-window",
+            GLib.VariantType.new("u"))
+        show_window.connect("activate", on_show_window)
+        self.add_action(show_window)
+
+        def on_new_window(action: Gio.Action, parameters: None) -> None:
+            self.new_window()
+        new_window = Gio.SimpleAction.new("new-window", None)
+        new_window.connect("activate", on_new_window)
+        self.add_action(new_window)
+
+        def on_quit_app(action: Gio.Action, parameters: None) -> None:
+            for window in self.get_windows():
+                self.withdraw_notification(f"done{window.get_id()}")
+            self.quit()
+        quit_app = Gio.SimpleAction.new("quit", None)
+        quit_app.connect("activate", on_quit_app)
+        self.add_action(quit_app)
 
     def _setup_accels(self) -> None:
-        self.add_accelerator("<Primary>n", "app.new-window", None)
-        self.add_accelerator("<Primary>q", "app.quit", None)
-        self.add_accelerator("<Primary>o", "win.add-files", None)
-        self.add_accelerator("<Primary>m", "win.clean-metadata", None)
-        self.add_accelerator("<Primary>w", "win.close", None)
-        self.add_accelerator("<Primary>s", "win.save-cleaned-files", None)
-        self.add_accelerator("<Primary>question", "win.shortcuts", None)
-
-    # SIGNAL HANDLERS #
-
-    def _on_new_window_action(self, action, parameters) -> None:
-        self.new_window()
-
-    def _on_quit_action(self, action, parameters) -> None:
-        self.quit()
-
-    def _on_window_destroyed(self, window) -> None:
-        self._windows.remove(window)
-        if len(self._windows) == 0:
-            self.quit()
+        self.set_accels_for_action("app.help::/index", ["F1"])
+        self.set_accels_for_action("app.new-window", ["<Primary>n"])
+        self.set_accels_for_action("app.quit", ["<Primary>q"])
+        self.set_accels_for_action("win.add-files", ["<Primary>o"])
+        self.set_accels_for_action("win.clear-files", ["<Primary>r"])
+        self.set_accels_for_action("win.clean-metadata", ["<Primary>m"])
+        self.set_accels_for_action("win.close", ["<Primary>w"])
 
     # PUBLIC #
 
@@ -115,8 +117,10 @@ class MetadataCleaner(Gtk.Application):
             gfiles (List[Gio.File], optional): List of files to be added to the
                 new window. Defaults to None.
         """
-        window = Window(app=self, gfiles=gfiles)
-        window.show_empty_view()
-        window.show()
-        window.connect("destroy", self._on_window_destroyed)
-        self._windows.append(window)
+        def on_window_destroyed(window) -> None:
+            self.withdraw_notification(f"done{window.get_id()}")
+        window = Window(application=self)
+        window.connect("destroy", on_window_destroyed)
+        window.present()
+        if gfiles:
+            window.file_store.add_gfiles(gfiles)

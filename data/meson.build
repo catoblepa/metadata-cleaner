@@ -1,8 +1,5 @@
-# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
-
-gnome = import('gnome')
-i18n = import('i18n')
 
 gnome.compile_resources(
   APP_ID,
@@ -19,7 +16,7 @@ gio_schemasdir = dependency('gio-2.0').get_pkgconfig_variable(
 )
 
 # Validate MetaInfo file
-metainfo_file = 'fr.romainvigier.MetadataCleaner.metainfo.xml'
+metainfo_file = APP_ID + '.metainfo.xml'
 ascli_exe = find_program('appstreamcli', required: false)
 if ascli_exe.found()
   test(
@@ -29,7 +26,7 @@ if ascli_exe.found()
       'validate',
       '--no-net',
       '--pedantic',
-      join_paths(meson.current_build_dir(), metainfo_file)
+      meson.current_build_dir() / metainfo_file
     ]
   )
 endif
@@ -38,16 +35,16 @@ i18n.merge_file(
   type: 'desktop',
   input: APP_ID + '.desktop.in',
   output: APP_ID + '.desktop',
-  po_dir: join_paths(meson.source_root(), 'po'),
+  po_dir: meson.source_root() / 'po',
   install: true,
   install_dir: applicationsdir
 )
 
 i18n.merge_file(
   input: metainfo_file,
-  output: 'fr.romainvigier.MetadataCleaner.metainfo.xml',
+  output: APP_ID + '.metainfo.xml',
   type: 'xml',
-  po_dir: join_paths (meson.source_root(), 'po'),
+  po_dir: meson.source_root() / 'po',
   install: true,
   install_dir: appdatadir
 )

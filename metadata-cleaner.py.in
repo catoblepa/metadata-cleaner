@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 import gettext
@@ -12,12 +12,13 @@ import os
 import signal
 import sys
 
-gi.require_version("Gdk", "3.0")
-gi.require_version("Gtk", "3.0")
-gi.require_version("Handy", "1")
+gi.require_version("Gdk", "4.0")
+gi.require_version("Gtk", "4.0")
+gi.require_version("Adw", "1")
 
 
 APP_ID = "@app_id@"
+DEVEL = "@devel@" == "True"
 VERSION = "@version@"
 LOCALE_DIR = "@localedir@"
 PKGDATA_DIR = "@pkgdatadir@"
@@ -32,8 +33,7 @@ def setup_i18n() -> None:
         locale.textdomain(APP_ID)  # type: ignore
     except AttributeError as e:
         logging.warning(
-            f"Unable to set the gettext translation domain.\nError:\n{e}"
-        )
+            f"Unable to set the gettext translation domain.\nError:\n{e}")
     gettext.bindtextdomain(APP_ID, LOCALE_DIR)
     gettext.textdomain(APP_ID)
 
@@ -41,28 +41,26 @@ def setup_i18n() -> None:
 def setup_resources() -> None:
     from gi.repository import Gio
     resource = Gio.Resource.load(
-        os.path.join(PKGDATA_DIR, f"{APP_ID}.gresource")
-    )
+        os.path.join(PKGDATA_DIR, f"{APP_ID}.gresource"))
     Gio.Resource._register(resource)
 
 
 def setup_mimetypes() -> None:
     # The Flatpak runtime doesn't have a mime.types file, we have to import
     # our own
-    if flatpak:
+    if os.path.exists("/.flatpak-info"):
         mimetypes.init(files=mimetypes.knownfiles + ["/app/share/mime.types"])
 
 
 def run_app() -> int:
     from metadatacleaner.app import MetadataCleaner
-    app = MetadataCleaner(app_id=APP_ID, version=VERSION, flatpak=flatpak)
+    app = MetadataCleaner(application_id=APP_ID, devel=DEVEL, version=VERSION)
     signal.signal(signal.SIGINT, signal.SIG_DFL)
     exit_status = app.run(sys.argv)
     return exit_status
 
 
 if __name__ == "__main__":
-    flatpak = os.path.exists("/.flatpak-info")
     setup_i18n()
     setup_resources()
     setup_mimetypes()

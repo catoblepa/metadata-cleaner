@@ -1,0 +1,377 @@
+/*
+ * SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('fonts/PTSans-Regular.woff2') format('woff2'),
+		url('fonts/PTSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'PT Sans';
+	src: url('fonts/PTSans-Bold.woff2') format('woff2'),
+		url('fonts/PTSans-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: url('fonts/WorkSans-Bold.woff2') format('woff2'),
+		url('fonts/WorkSans-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+html,
+body,
+h1,
+h2,
+p,
+ul,
+li,
+figure
+{
+	margin: 0;
+	padding: 0;
+}
+
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+::selection
+{
+	background-color: #813d9c;
+	color: #fff;
+}
+
+a.button
+{
+	display: block;
+	padding: 1em 2em;
+	border: 0.2em solid #222;
+	border-radius: 0.5em;
+	background-color: #813d9c;
+	background: linear-gradient(135deg, #813d9c 0%, #9141ac 100%);
+	color: #fff;
+	font: bold 1.1rem/1.4em 'Work Sans', sans-serif;
+	text-align: center;
+	transition: 0.2s border-color;
+}
+
+a.button::selection
+{
+	background-color: #fff;
+	color: #813d9c;
+}
+
+a.button:hover,
+a.button:focus
+{
+	border-color: #fff;
+	transition: none;
+}
+
+a.button:active
+{
+	background: #fff;
+	color: #813d9c;
+}
+
+a.button::before
+{
+	display: inline-block;
+	content: '';
+	width: 1.5em;
+	height: 1.5em;
+	margin: -0.10em 0.6em -0.4em 0;
+	background: #fff;
+	-webkit-mask-position: center;
+	-webkit-mask-size: 100%;
+	mask-position: center;
+	mask-size: 100%;
+}
+
+a.button:active::before
+{
+	background-color: #813d9c;
+}
+
+html
+{
+	background-color: #000;
+	color: #fff;
+	font: 1em/1em 'PT Sans', sans-serif;
+}
+
+header,
+main,
+aside,
+footer
+{
+	padding: 5rem;
+}
+
+header
+{
+	display: grid;
+	grid-template-areas:
+		"icon title"
+		"icon subtitle";
+	gap: 0.5rem;
+	background-color: #813d9c;
+	background: linear-gradient(135deg, #613583 0%, #9141ac 100%);
+}
+
+header ::selection
+{
+	background-color: #fff;
+	color: #813d9c;
+}
+
+header img
+{
+	grid-area: icon;
+	justify-self: end;
+}
+
+header h1
+{
+	grid-area: title;
+	align-self: end;
+	font: bold 2rem/1em 'Work Sans', sans-serif;
+}
+
+header p
+{
+	grid-area: subtitle;
+}
+
+main
+{
+	display: grid;
+	grid-template-areas:
+		"screenshot description"
+		"screenshot download";
+	justify-content: center;
+	gap: 5rem;
+	background-color: #333;
+}
+
+main figure
+{
+	grid-area: screenshot;
+	align-self: center;
+}
+
+main figure img
+{
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 0 24px rgba(0, 0, 0, 0.6);
+}
+
+main div.description
+{
+	grid-area: description;
+	align-self: end;
+	text-align: justify;
+}
+
+main div.description p
+{
+	max-width: 40em;
+	margin-bottom: 1em;
+	font-size: 1.2rem;
+	line-height: 1.5em;
+}
+
+main div.description p:last-child
+{
+	margin-bottom: 0;
+}
+
+main p.download
+{
+	grid-area: download;
+	justify-self: start;
+}
+
+main p.download a
+{
+	margin: -0.2em;
+	border-color: #333;
+	font-size: 1.5rem;
+}
+
+main p.download a::before
+{
+	width: 2em;
+	height: 2em;
+	margin: -0.5em 0.5em -0.5em 0;
+	-webkit-mask-image: url(icons/flathub.svg);
+	mask-image: url(icons/flathub.svg);
+}
+
+main p.download a:active::before
+{
+	background-color: #813d9c;
+}
+
+aside
+{
+	background-color: #222;
+}
+
+aside h2
+{
+	margin-bottom: 2.5rem;
+	font: bold 2rem/1em 'Work Sans', sans-serif;
+	text-align: center;
+}
+
+aside ul.actions
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1em;
+	list-style: none;
+}
+
+aside ul.actions a.link-gitlab::before
+{
+	-webkit-mask-image: url(icons/gitlab.svg);
+	mask-image: url(icons/gitlab.svg);
+}
+
+aside ul.actions a.link-liberapay::before
+{
+	-webkit-mask-image: url(icons/liberapay.svg);
+	mask-image: url(icons/liberapay.svg);
+}
+
+aside ul.actions a.link-matrix::before
+{
+	-webkit-mask-image: url(icons/matrix.svg);
+	mask-image: url(icons/matrix.svg);
+}
+
+aside ul.actions a.link-weblate::before
+{
+	-webkit-mask-image: url(icons/weblate.svg);
+	mask-image: url(icons/weblate.svg);
+}
+
+footer
+{
+	text-align: center;
+}
+
+footer p
+{
+	line-height: 1.5em;
+	color: #999;
+}
+
+footer p a
+{
+	margin: 0 -0.1em;
+	padding: 0.1em;
+	border-radius: 0.2em;
+	color: #dc8add;
+}
+
+footer p a:hover,
+footer p a:focus
+{
+	color: #fff;
+}
+
+footer p a:active
+{
+	background-color: #fff;
+	color: #813d9c;
+}
+
+
+@media (max-width: 90em)
+{
+	main
+	{
+		grid-template-areas:
+			"screenshot"
+			"description"
+			"download";
+	}
+
+	main figure img
+	{
+		max-width: 100%;
+	}
+
+	main p.download
+	{
+		justify-self: center;
+	}
+}
+
+
+@media (max-width: 40em)
+{
+	header,
+	main,
+	aside,
+	footer
+	{
+		padding: 5rem 2rem;
+	}
+
+	header
+	{
+		grid-template-areas:
+			"icon"
+			"title"
+			"subtitle";
+		justify-items: center;
+	}
+
+	header img
+	{
+		justify-self: center;
+	}
+
+	header h1
+	{
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 24em)
+{
+	header,
+	main,
+	aside,
+	footer
+	{
+		padding: 4rem 1rem;
+	}
+
+	main
+	{
+		gap: 2rem;
+	}
+}

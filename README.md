@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
@@ -22,8 +22,9 @@ Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse an
 ## Screenshots
 
 ![Welcome screen](./data/screenshots/1.png)
-![Metadata details window](./data/screenshots/2.png)
-![Cleaned files](./data/screenshots/3.png)
+![Files view](./data/screenshots/2.png)
+![Metadata details view](./data/screenshots/3.png)
+![Cleaned files](./data/screenshots/4.png)
 
 ## Installing
 
@@ -35,8 +36,8 @@ Metadata Cleaner is available as a Flatpak on Flathub:
 
 Dependencies:
 
-- `gtk+-3.0` >= 3.24
-- `libhandy-1`
+- `gtk4` >= 4.0
+- `libadwaita-1`
 - `pygobject-3.0`
 - `python3`
 - Python 3 `libmat2` module and [its dependencies](https://0xacab.org/jvoisin/mat2#requirements)
@@ -48,7 +49,7 @@ meson builddir
 meson install -C builddir
 ```
 
-Flatpak building is also available and requires the GNOME platform and SDK:
+Flatpak building is also available and requires the GNOME platform and SDK runtimes:
 
 ```sh
 flatpak-builder --force-clean --user --install builddir data/fr.romainvigier.MetadataCleaner.yaml

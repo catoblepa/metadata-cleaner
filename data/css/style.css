@@ -1,0 +1,213 @@
+/*
+SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: GPL-3.0-or-later
+*/
+
+@define-color accent_color #813d9c;
+@define-color accent_bg_color @accent_color;
+@define-color accent_fg_color #fff;
+
+window
+{
+	background: linear-gradient(180deg, @accent_bg_color 0px, @accent_bg_color 20px, @theme_bg_color 20px);
+}
+
+window.dialog,
+window.flat
+{
+	background: @theme_bg_color;
+}
+
+headerbar:not(.flat)
+{
+	background-color: @accent_bg_color;
+	color: @accent_fg_color;
+}
+
+.help-infobar
+{
+	transition: margin 0.1s;
+}
+
+.help-infobar.large
+{
+	margin: 0 18px 18px;
+}
+
+.help-infobar>revealer>box
+{
+	padding: 9px 8px 8px;
+	box-shadow: inset 0 1px 0 0 @borders;
+	transition: all 0.1s;
+}
+
+.help-infobar.large>revealer>box
+{
+	padding: 9px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 1px @borders;
+}
+
+.file-list
+{
+	background: none;
+	transition: margin 0.1s;
+}
+
+.file-list:not(.small)
+{
+	margin: 30px;
+}
+
+.file-list row
+{
+	padding: 0;
+	transition: all 0.1s;
+}
+
+.file-list.small row
+{
+	background: @content_view_bg;
+	border-bottom: 1px solid @borders;
+	padding-left: 6px;
+}
+
+.file-list row:selected
+{
+	background: unset;
+}
+
+.file-list .file
+{
+	border: 1px solid @borders;
+	border-width: 0;
+	border-radius: unset;
+	background: unset;
+	font-weight: unset;
+	transition: all 0.1s;
+}
+
+.file-list:not(.small) .file
+{
+	border-width: 0 1px 1px;
+	background: @content_view_bg;
+}
+
+.file-list:not(.small) row:first-child .file
+{
+	border-width: 1px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.file-list:not(.small) row:last-child .file
+{
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.file-list .file:hover
+{
+	background: @theme_bg_color;
+}
+
+.file-list.small row:selected .file:hover
+{
+	background: unset;
+}
+
+.file-list.small row:hover .file
+{
+	box-shadow: inset 1px 0 0 0 @borders;
+}
+
+.file-list:not(.small) row:selected .file,
+.file-list.small row:selected
+{
+	background: alpha(@theme_fg_color, 0.1);
+}
+
+.badge
+{
+	padding: 0.25em;
+	border-radius: 1em;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.85em;
+}
+
+.badge.flat
+{
+	background: none;
+	color: @theme_fg_color;
+}
+
+.badge.warning
+{
+	background-color: @warning_color;
+}
+
+.badge.error
+{
+	background-color: @error_color;
+}
+
+.badge.success
+{
+	background-color: @success_color;
+}
+
+.badge label
+{
+	padding: 0 0.4em;
+}
+
+.metadata-view row:last-child
+{
+	border-bottom: none;
+}
+
+.outbutton.gitlab
+{
+	background-color: rgba(250, 112, 53, 1);
+	color: #fff;
+}
+
+.outbutton.gitlab:hover
+{
+	background-color: rgba(250, 112, 53, 1);
+}
+
+.outbutton.liberapay
+{
+	background-color: rgba(246, 201, 21, 0.8);
+	color: #1a171b;
+}
+
+.outbutton.liberapay:hover
+{
+	background-color: rgba(246, 201, 21, 1);
+}
+
+.outbutton.matrix
+{
+	background-color: rgba(129, 61, 156, 0.8);
+	color: #fff;
+}
+
+.outbutton.matrix:hover
+{
+	background-color: rgba(129, 61, 156, 1);
+}
+
+.outbutton.weblate
+{
+	background-color: rgba(46, 204, 170, 0.8);
+	color: #fff;
+}
+
+.outbutton.weblate:hover
+{
+	background-color: rgba(46, 204, 170, 1);
+}
