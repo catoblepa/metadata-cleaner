@@ -3,13 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-10 15:00+0000\n"
+"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -64,7 +67,7 @@ msgstr ""
 #. (itstool) path: page/title
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Nettoyeur de métadonnées"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -129,7 +132,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:47
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Nettoyage léger"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
