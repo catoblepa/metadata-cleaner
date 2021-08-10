@@ -1,0 +1,19 @@
+# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+"""Button to clean metadata of all added files."""
+
+from gi.repository import Gtk
+
+
+@Gtk.Template(
+    resource_path="/fr/romainvigier/MetadataCleaner/ui/CleanMetadataButton.ui"
+)
+class CleanMetadataButton(Gtk.Button):
+    """Button to clean metadata of all added files."""
+
+    __gtype_name__ = "CleanMetadataButton"
+
+    def __init__(self, *args, **kwargs) -> None:
+        """Button initialization."""
+        super().__init__(*args, **kwargs)

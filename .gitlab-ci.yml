@@ -1,5 +1,9 @@
-# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
+
+variables:
+  APP_ID: fr.romainvigier.MetadataCleaner
+  MANIFEST: build-aux/fr.romainvigier.MetadataCleaner.yaml
 
 workflow:
   rules:
@@ -10,6 +14,8 @@ workflow:
 stages:
   - check
   - build
+  - bundle
+  - deploy
 
 .python:
   image: python:latest
@@ -46,6 +52,16 @@ pydocstyle:
     - pip install pydocstyle
     - pydocstyle ./metadatacleaner
 
+pycodestyle:
+  extends: .python
+  stage: check
+  rules:
+    - changes:
+      - metadatacleaner/**/*.py
+  script:
+    - pip install pycodestyle
+    - pycodestyle ./metadatacleaner
+
 reuse:
   extends: .python
   stage: check
@@ -53,19 +69,83 @@ reuse:
     - pip install reuse
     - reuse lint
 
-flatpak:
+flatpak-repo:
   stage: build
+  needs:
+    - mypy
+    - pydocstyle
+    - pycodestyle
+    - reuse
   image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
   cache:
-    key: flatpak-builder
-    paths:
-      - .flatpak-builder
+    - key: flatpak-repo-$CI_COMMIT_REF_SLUG
+      paths:
+        - .flatpak-builder
   script:
+    - if [[ -v CI_COMMIT_TAG ]]; then build-aux/prepare_release.py; fi
     - flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-    - flatpak-builder --install-deps-from=flathub --repo=metadata-cleaner-flatpak builddir data/fr.romainvigier.MetadataCleaner.yaml
-    - flatpak build-bundle ./metadata-cleaner-flatpak fr.romainvigier.MetadataCleaner.flatpak fr.romainvigier.MetadataCleaner
+    - flatpak-builder --install-deps-from=flathub --repo=repo --default-branch=$CI_COMMIT_REF_NAME --ccache --disable-rofiles-fuse builddir $MANIFEST
   artifacts:
-    name: "$CI_COMMIT_REF_SLUG"
-    expose_as: "flatpak-bundle"
+    name: $CI_PROJECT_NAME-$CI_COMMIT_REF_SLUG-flatpak-repo
     paths:
-      - "fr.romainvigier.MetadataCleaner.flatpak"
+      - repo
+    expire_in: 1 day
+
+app:
+  stage: bundle
+  needs:
+    - job: flatpak-repo
+      artifacts: true
+  image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
+  script:
+    - flatpak build-bundle ./repo $APP_ID.flatpak $APP_ID $CI_COMMIT_REF_NAME
+  artifacts:
+    name: $CI_PROJECT_NAME-$CI_COMMIT_REF_SLUG-flatpak
+    expose_as: Flatpak bundle
+    paths:
+      - fr.romainvigier.MetadataCleaner.flatpak
+    expire_in: 1 day
+
+debug:
+  stage: bundle
+  needs:
+    - job: flatpak-repo
+      artifacts: true
+  image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
+  script:
+    - flatpak build-bundle --runtime ./repo $APP_ID.Debug.flatpak $APP_ID.Debug $CI_COMMIT_REF_NAME
+  artifacts:
+    name: $CI_PROJECT_NAME-$CI_COMMIT_REF_SLUG-flatpak-debug
+    expose_as: Flatpak debug symbols
+    paths:
+      - fr.romainvigier.MetadataCleaner.Debug.flatpak
+    expire_in: 1 day
+
+package:
+  stage: deploy
+  needs:
+    - job: app
+      artifacts: true
+  image: curlimages/curl:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - 'curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file $APP_ID.flatpak "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/metadata-cleaner/$CI_COMMIT_TAG/$APP_ID.flatpak"'
+
+pages:
+  stage: deploy
+  needs: []
+  image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
+  script:
+    - cp -r website public
+    - cp -r data/screenshots public/screenshots
+    - find public -type f -regex '.*\.\(|html\|css\|svg\|png\|woff\|woff2\)$' -exec gzip -f -k {} \;
+    - find public -type f -regex '.*\.\(|html\|css\|svg\|png\|woff\|woff2\)$' -exec brotli -f -k {} \;
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+      - "website/**/*"
+  artifacts:
+    paths:
+      - public
+    expire_in: 1 day

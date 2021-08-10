@@ -1,42 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <requires lib="gtk+" version="3.24"/>
   <template class="StatusIndicator" parent="GtkStack">
-    <property name="visible">True</property>
-    <property name="transition-type">slide-left</property>
-    <property name="margin-left">12</property>
-    <property name="margin-right">30</property>
+    <property name="valign">center</property>
+    <property name="transition-type">crossfade</property>
+    <property name="hhomogeneous">False</property>
+    <property name="vhomogeneous">False</property>
+    <property name="margin-start">12</property>
+    <property name="margin-end">30</property>
+    <signal name="notify::file-store" handler="_on_file_store_changed"/>
     <child>
-      <object class="GtkLabel" id="_idle_label">
-        <property name="visible">True</property>
-      </object>
-      <packing>
+      <object class="GtkStackPage">
         <property name="name">idle</property>
-      </packing>
+        <property name="child">
+          <object class="GtkLabel" id="_idle_label"/>
+        </property>
+      </object>
     </child>
     <child>
-      <object class="GtkProgressBar" id="_progressbar">
-        <property name="visible">True</property>
-        <property name="valign">center</property>
-        <property name="show-text">True</property>
-      </object>
-      <packing>
+      <object class="GtkStackPage">
         <property name="name">working</property>
-      </packing>
+        <property name="child">
+          <object class="GtkProgressBar" id="_progressbar">
+            <property name="valign">center</property>
+            <property name="show-text">True</property>
+          </object>
+        </property>
+      </object>
     </child>
     <child>
-      <object class="GtkLabel" id="_done_label">
-        <property name="visible">True</property>
-        <property name="halign">start</property>
-        <property name="label" translatable="yes">Done!</property>
-      </object>
-      <packing>
+      <object class="GtkStackPage">
         <property name="name">done</property>
-      </packing>
+        <property name="child">
+          <object class="GtkLabel" id="_done_label">
+            <property name="xalign">0</property>
+            <property name="wrap">True</property>
+            <property name="single-line-mode">True</property>
+          </object>
+        </property>
+      </object>
     </child>
   </template>
 </interface>

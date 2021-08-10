@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<interface>
+  <template class="SettingsButton" parent="GtkMenuButton">
+    <property name="direction">up</property>
+    <property name="tooltip-text" translatable="yes">Cleaning settings</property>
+    <property name="icon-name">emblem-system-symbolic</property>
+    <property name="popover">settings-popover</property>
+    <property name="valign">center</property>
+    <signal name="notify::settings" handler="_on_settings_changed"/>
+    <style>
+      <class name="circular"/>
+    </style>
+  </template>
+  <object class="GtkPopover" id="settings-popover">
+    <property name="margin-start">6</property>
+    <property name="margin-end">6</property>
+    <property name="margin-top">6</property>
+    <property name="margin-bottom">6</property>
+    <child>
+      <object class="GtkListBox">
+        <property name="selection-mode">none</property>
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Lightweight cleaning</property>
+            <property name="activatable-widget">_lightweight_switch</property>
+            <child>
+              <object class="GtkButton">
+                <property name="icon-name">dialog-information-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Learn more about the lightweight cleaning</property>
+                <property name="valign">center</property>
+                <property name="action-name">app.help</property>
+                <property name="action-target">"/lightweight-cleaning"</property>
+                <style>
+                  <class name="circular"/>
+                  <class name="flat"/>
+                </style>
+              </object>
+            </child>
+            <child type="suffix">
+              <object class="GtkSwitch" id="_lightweight_switch">
+                <property name="valign">center</property>
+                <property name="margin-start">48</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
-<component type="desktop-application">
+<component type="desktop-application" xmlns:its="http://www.w3.org/2005/11/its">
   <id>fr.romainvigier.MetadataCleaner</id>
 
   <name>Metadata Cleaner</name>
   <summary>View and clean metadata in files</summary>
+  <categories>
+    <category>Utility</category>
+  </categories>
 
   <metadata_license>CC-BY-SA-4.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
 
-  <developer_name>Romain Vigier</developer_name>
+  <developer_name its:translate="no">Romain Vigier</developer_name>
 
   <url type="homepage">https://gitlab.com/rmnvgr/metadata-cleaner</url>
   <url type="bugtracker">https://gitlab.com/rmnvgr/metadata-cleaner/-/issues</url>
   <url type="donation">https://liberapay.com/rmnvgr/donate</url>
+  <url type="translate">https://hosted.weblate.org/engage/metadata-cleaner/</url>
 
   <description>
     <p>Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office applications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations.</p>
@@ -35,6 +39,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <screenshot>
       <image>https://gitlab.com/rmnvgr/metadata-cleaner/-/raw/main/data/screenshots/3.png</image>
     </screenshot>
+    <screenshot>
+      <image>https://gitlab.com/rmnvgr/metadata-cleaner/-/raw/main/data/screenshots/4.png</image>
+    </screenshot>
   </screenshots>
 
   <provides>
@@ -44,6 +51,21 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <translation type="gettext">fr.romainvigier.MetadataCleaner</translation>
 
   <content_rating type="oars-1.1" />
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </recommends>
+
+  <requires>
+    <display_length compare="ge">small</display_length>
+  </requires>
+
+  <kudos>
+    <kudo>ModernToolkit</kudo>
+    <kudo>UserDocs</kudo>
+  </kudos>
 
   <releases>
     <release version="1.0.8" date="2021-08-10">

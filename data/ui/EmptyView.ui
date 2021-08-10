@@ -1,32 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <requires lib="gtk+" version="3.24"/>
   <template class="EmptyView" parent="GtkBox">
-    <property name="visible">True</property>
     <property name="orientation">vertical</property>
-    <property name="valign">center</property>
-    <property name="margin">36</property>
-    <property name="spacing">12</property>
     <child>
-      <object class="GtkImage">
-        <property name="visible">True</property>
-        <property name="resource">/fr/romainvigier/MetadataCleaner/icons/metadatacleaner-background-logo.svg</property>
+      <object class="AdwStatusPage">
+        <property name="vexpand">True</property>
+        <property name="icon-name">metadatacleaner-background-logo</property>
+        <property name="title" translatable="yes">Clean your traces.</property>
       </object>
     </child>
     <child>
-      <object class="GtkLabel">
-        <property name="visible">True</property>
-        <property name="label" translatable="yes">Clean your traces.</property>
-        <attributes>
-          <attribute name="size" value="15360"/>
-        </attributes>
-        <style>
-          <class name="dim-label"/>
-        </style>
+      <object class="AdwClamp">
+        <property name="tightening-threshold">600</property>
+        <child>
+          <object class="GtkInfoBar">
+            <property name="message-type">info</property>
+            <style>
+              <class name="help-infobar"/>
+            </style>
+            <child>
+              <object class="GtkLabel">
+                <property name="label" translatable="yes">Learn more about metadata and the cleaning process limitations.</property>
+                <property name="wrap">True</property>
+                <property name="xalign">0</property>
+              </object>
+            </child>
+            <child type="action">
+              <object class="GtkButton">
+                <property name="icon-name">dialog-information-symbolic</property>
+                <property name="action-name">app.help</property>
+                <property name="action-target">"/index"</property>
+              </object>
+            </child>
+          </object>
+        </child>
       </object>
     </child>
   </template>

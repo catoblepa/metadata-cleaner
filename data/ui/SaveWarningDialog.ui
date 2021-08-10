@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
   <template class="SaveWarningDialog" parent="GtkMessageDialog">
     <property name="modal">True</property>
     <property name="text" translatable="yes">Make sure you backed up your files!</property>
-    <property name="secondary-text" translatable="yes">Once you replace your files, there's no going back.</property>
+    <property name="secondary-text" translatable="yes">Once the files are cleaned, there's no going back.</property>
     <property name="message-type">warning</property>
+    <signal name="notify::settings" handler="_on_settings_changed"/>
     <child internal-child="message_area">
       <object class="GtkBox">
-        <property name="visible">True</property>
         <child>
           <object class="GtkCheckButton" id="_checkbutton">
-            <property name="visible">True</property>
             <property name="label" translatable="yes">Don't tell me again</property>
             <property name="halign">center</property>
           </object>
         </child>
       </object>
     </child>
+    <child type="action">
+      <object class="GtkButton" id="_button_cancel">
+        <property name="label" translatable="yes">Cancel</property>
+      </object>
+    </child>
+    <child type="action">
+      <object class="GtkButton" id="_button_clean">
+        <property name="label" translatable="yes">Clean</property>
+        <style>
+          <class name="destructive-action"/>
+        </style>
+      </object>
+    </child>
+    <action-widgets>
+      <action-widget response="cancel">_button_cancel</action-widget>
+      <action-widget response="ok" default="true">_button_clean</action-widget>
+    </action-widgets>
   </template>
 </interface>
