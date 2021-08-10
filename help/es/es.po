@@ -1,0 +1,142 @@
+# Óscar Fernández Díaz <oscfdezdz@tuta.io>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-04-23 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: section/title
+#: C/general.page:14
+msgid "Metadata and privacy"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/general.page:15
+msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/general.page:16
+msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/general.page:18
+msgid "Example of metadata in a picture file"
+msgstr ""
+
+#. (itstool) path: figure/desc
+#: C/general.page:20
+msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/general.page:27
+msgid "Cleaning process"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/general.page:28
+msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/general.page:29
+msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/general.page:35
+msgid "Limitations"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/general.page:36
+msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/index.page:10
+msgid "Metadata Cleaner"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/index.page:14
+msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:17
+msgid "General informations"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:21
+msgid "Using <app>Metadata Cleaner</app>"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/usage.page:14
+msgid "Adding files"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/usage.page:15
+msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/usage.page:17
+msgid "<gui style=\"button\">Add Files</gui> button"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/usage.page:25
+msgid "Viewing metadata"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/usage.page:26
+msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/usage.page:28
+msgid "Detailed view of the metadata"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/usage.page:36
+msgid "Cleaning files"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/usage.page:37
+msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
+msgstr ""
+
+#. (itstool) path: figure/title
+#: C/usage.page:39
+msgid "<gui style=\"button\">Clean</gui> button"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/usage.page:47
+msgid "Lightweight cleaning"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/usage.page:48
+msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
+msgstr ""
+
+#. (itstool) path: section/p
+#: C/usage.page:49
+msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
+msgstr ""
