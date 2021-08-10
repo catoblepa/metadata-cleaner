@@ -72,9 +72,12 @@ reuse:
 flatpak-repo:
   stage: build
   needs:
-    - mypy
-    - pydocstyle
-    - pycodestyle
+    - job: mypy
+      optional: true
+    - job: pydocstyle
+      optional: true
+    - job: pycodestyle
+      optional: true
     - reuse
   image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
   cache:
