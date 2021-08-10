@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-10 14:45+0200\n"
-"PO-Revision-Date: 2021-07-23 16:34+0000\n"
+"PO-Revision-Date: 2021-08-11 06:09+0000\n"
 "Last-Translator: liimee <alt3753.7@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -47,9 +47,8 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:28
-#, fuzzy
 msgid "Lightweight cleaning"
-msgstr "_Mode ringan"
+msgstr "Pembersihan ringan"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid ""
@@ -59,19 +58,19 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "Lebar jendela"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr ""
+msgstr "Simpan lebar dari jendela"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "Tinggi jendela"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr ""
+msgstr "Simpan tinggi dari jendela"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -99,16 +98,15 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New help pages"
-msgstr ""
+msgstr "Halaman bantuan baru"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "One-click cleaning, no need to clean then save anymore"
-msgstr ""
+msgstr "Pembersihan satu-klik, tidak perlu bersihkan lalu simpan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-#, fuzzy
 msgid "Lightweight cleaning option is now saved"
-msgstr "_Mode ringan"
+msgstr "Opsi mode ringan sekarang disimpan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
@@ -130,7 +128,7 @@ msgstr "Apa yang baru di v1.0.4:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
 msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr "Terjemahan bahasa Turki ( oleh Oğuz Ersen)"
+msgstr "Terjemahan bahasa Turki (oleh Oğuz Ersen)"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:115
 msgid "New in v1.0.2:"
@@ -161,18 +159,16 @@ msgid "German translation (contributed by lux)"
 msgstr "Terjemahan Bahasa Jerman (disumbangkan oleh lux)"
 
 #: data/gtk/help-overlay.ui:15
-#, fuzzy
 msgid "Files"
-msgstr "Berkas"
+msgstr "Berkas-berkas"
 
 #: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
 msgid "Add files"
 msgstr "Tambah berkas"
 
 #: data/gtk/help-overlay.ui:24
-#, fuzzy
 msgid "Clean metadata"
-msgstr "Memeriksa metadata…"
+msgstr "Bersihkan metadata"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clear all files from window"
@@ -180,51 +176,47 @@ msgstr ""
 
 #: data/gtk/help-overlay.ui:38
 msgid "General"
-msgstr ""
+msgstr "Umum"
 
 #: data/gtk/help-overlay.ui:41
-#, fuzzy
 msgid "New window"
 msgstr "Jendela baru"
 
 #: data/gtk/help-overlay.ui:47
-#, fuzzy
 msgid "Close window"
 msgstr "Tutup jendela"
 
 #: data/gtk/help-overlay.ui:53
-#, fuzzy
 msgid "Quit"
 msgstr "Keluar"
 
 #: data/gtk/help-overlay.ui:59
-#, fuzzy
 msgid "Keyboard shortcuts"
-msgstr "Pintasan papan tik"
+msgstr "Pintasan papan ketik"
 
 #: data/gtk/help-overlay.ui:65
 msgid "Help"
-msgstr ""
+msgstr "Bantuan"
 
 #: data/ui/AboutDialog.ui:87
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "Mengobrol di Matrix"
 
 #: data/ui/AboutDialog.ui:97
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "Lihat kodenya di GitLab"
 
 #: data/ui/AboutDialog.ui:107
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "Terjemahkan di Weblate"
 
 #: data/ui/AboutDialog.ui:117
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Dukung kami di Liberapay"
 
 #: data/ui/AboutDialog.ui:147
 msgid "Code"
-msgstr ""
+msgstr "Kode"
 
 #: data/ui/AboutDialog.ui:153
 msgid "Artwork"
@@ -232,12 +224,11 @@ msgstr ""
 
 #: data/ui/AboutDialog.ui:159
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasi"
 
 #: data/ui/AboutDialog.ui:165
-#, fuzzy
 msgid "Translation"
-msgstr "Terjemahan baru"
+msgstr "Terjemahan"
 
 #: data/ui/AboutDialog.ui:170
 #, fuzzy
@@ -302,7 +293,7 @@ msgstr "Tutup jendela"
 
 #: data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "Bant_uan"
 
 #: data/ui/MenuButton.ui:25
 msgid "_Keyboard shortcuts"
@@ -326,28 +317,27 @@ msgstr "Jangan beritahu lagi"
 
 #: data/ui/SaveWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "Batal"
 
 #: data/ui/SaveWarningDialog.ui:30
-#, fuzzy
 msgid "Clean"
-msgstr "_Bersihkan"
+msgstr "Bersihkan"
 
 #: data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Pengaturan pembersihan"
 
 #: data/ui/SettingsButton.ui:33
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Pelajari lebih lanjut tentang pembersihan ringan"
 
 #: data/ui/Window.ui:72
 msgid "Details"
-msgstr ""
+msgstr "Keterangan"
 
 #: data/ui/Window.ui:78
 msgid "Close"
-msgstr ""
+msgstr "Tutup"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/Window.ui:98
@@ -357,13 +347,14 @@ msgstr ""
 "rezaalmanda"
 
 #: data/ui/Window.ui:107
-#, fuzzy
 msgid "Choose files to clean"
-msgstr "Pilih berkas"
+msgstr "Pilih berkas yang ingin dibersihkan"
 
 #: metadatacleaner/modules/file.py:223
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
+"Sesuatu buruk terjadi ketika pembersihan, berkas yang dibersihkan tidak "
+"ditemukan"
 
 #: metadatacleaner/ui/detailsview.py:58
 msgid "The file has been cleaned."
@@ -371,16 +362,15 @@ msgstr "Berkas telah dibersihkan."
 
 #: metadatacleaner/ui/detailsview.py:69
 msgid "Unable to read the file."
-msgstr ""
+msgstr "Tidak dapat membaca berkas."
 
 #: metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
 msgstr "Jenis berkas tidak didukung."
 
 #: metadatacleaner/ui/detailsview.py:72
-#, fuzzy
 msgid "Unable to check metadata."
-msgstr "Galat saat memeriksa metadata:"
+msgstr "Gagal saat memeriksa metadata."
 
 #: metadatacleaner/ui/detailsview.py:74
 #, fuzzy
@@ -390,9 +380,8 @@ msgstr ""
 "Berkas akan tetap dibersihkan, lebih baik aman daripada menyesal."
 
 #: metadatacleaner/ui/detailsview.py:76
-#, fuzzy
 msgid "Unable to remove metadata."
-msgstr "Catatan tentang menghapus metadata"
+msgstr "Tidak dapat menghapus metadata."
 
 #: metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
