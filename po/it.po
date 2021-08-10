@@ -129,8 +129,8 @@ msgid ""
 "<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
 "a> to clean the metadata. Show them some love!</small>"
 msgstr ""
-"<small>Questo programma utilizza <a href=\"https://0xacab.org/jvoisin/mat2\""
-">mat2</a> per pulire i metadati. Mostra loro un po' d'amore!</small>"
+"<small>Questo programma utilizza <a href=\"https://0xacab.org/jvoisin/"
+"mat2\">mat2</a> per pulire i metadati. Mostra loro un po' d'amore!</small>"
 
 #: data/ui/AboutMetadataPrivacyDialog.ui:9
 msgid "Note about metadata and privacy"
