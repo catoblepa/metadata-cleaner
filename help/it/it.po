@@ -3,43 +3,57 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-10 17:50+0000\n"
+"Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metadati e privacy"
 
 #. (itstool) path: section/p
 #: C/general.page:15
 msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
 msgstr ""
+"I metadati sono informazioni che caratterizzano i dati. I metadati vengono "
+"utilizzati per fornire documentazione per i prodotti di dati. In sostanza, i "
+"metadati rispondono a chi, cosa, quando, dove, perché e come su ogni aspetto "
+"dei dati che vengono documentati."
 
 #. (itstool) path: section/p
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"I metadati all'interno di un file possono dire molto su di te. Le fotocamere "
+"registrano i dati su quando è stata scattata una foto e quale fotocamera è "
+"stata utilizzata. Le applicazioni di Office aggiungono automaticamente "
+"informazioni sull'autore e sull'azienda a documenti e fogli di calcolo. "
+"Forse non vuoi divulgare queste informazioni."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Esempio di metadati in un file immagine"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Il file fornisce informazioni sull'hardware, le impostazioni, la data, il "
+"luogo delle riprese. Contiene un totale di 79 metadati."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Processo di pulizia"
 
 #. (itstool) path: section/p
 #: C/general.page:28
@@ -50,11 +64,14 @@ msgstr ""
 #: C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Metadata Cleaner</app> prende il contenuto del file e lo inserisce in "
+"uno nuovo senza metadati, assicurando che tutti i metadati non rilevati "
+"vengano rimossi."
 
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Limitazioni"
 
 #. (itstool) path: section/p
 #: C/general.page:36
