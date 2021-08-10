@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-10 14:45+0200\n"
-"PO-Revision-Date: 2021-07-02 18:32+0000\n"
+"PO-Revision-Date: 2021-08-11 06:09+0000\n"
 "Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/pt_BR/>\n"
@@ -28,7 +28,7 @@ msgstr "Limpador de metadados"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr "Limpa metadados de seus arquivos"
+msgstr "Limpa os metadados de seus arquivos"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:16
@@ -45,35 +45,36 @@ msgstr "Mostrar a janela de aviso antes de salvar os arquivos limpos"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:28
-#, fuzzy
 msgid "Lightweight cleaning"
-msgstr "_Modo leve"
+msgstr "Limpeza leve"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid ""
 "Trade some metadata's presence in exchange of the guarantee that the data "
 "won't be modified"
 msgstr ""
+"Negocie a presença de alguns metadados em troca da garantia de que os dados "
+"não serão modificados"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "Largura da janela"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr ""
+msgstr "Largura salva da janela"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "Altura da janela"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr ""
+msgstr "Altura salva da janela"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr "Ver e limpar metadados em arquivos"
+msgstr "Veja e limpe os metadados em arquivos"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
@@ -98,20 +99,20 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "Interface de usuário adaptável aprimorada"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New help pages"
-msgstr ""
+msgstr "Novas páginas de ajuda"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "One-click cleaning, no need to clean then save anymore"
 msgstr ""
+"Limpeza com um clique, não há mais necessidade de limpar e depois salvar"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-#, fuzzy
 msgid "Lightweight cleaning option is now saved"
-msgstr "_Modo leve"
+msgstr "A opção de limpeza leve agora é salva"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
@@ -163,7 +164,6 @@ msgid "German translation (contributed by lux)"
 msgstr "Tradução para o alemão (contribuição de lux)"
 
 #: data/gtk/help-overlay.ui:15
-#, fuzzy
 msgid "Files"
 msgstr "Arquivos"
 
@@ -172,84 +172,76 @@ msgid "Add files"
 msgstr "Adicionar arquivos"
 
 #: data/gtk/help-overlay.ui:24
-#, fuzzy
 msgid "Clean metadata"
 msgstr "Limpar metadados"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Limpar todos os arquivos da janela"
 
 #: data/gtk/help-overlay.ui:38
-#, fuzzy
 msgid "General"
 msgstr "Geral"
 
 #: data/gtk/help-overlay.ui:41
-#, fuzzy
 msgid "New window"
 msgstr "Nova janela"
 
 #: data/gtk/help-overlay.ui:47
-#, fuzzy
 msgid "Close window"
 msgstr "Fechar janela"
 
 #: data/gtk/help-overlay.ui:53
-#, fuzzy
 msgid "Quit"
 msgstr "Sair"
 
 #: data/gtk/help-overlay.ui:59
-#, fuzzy
 msgid "Keyboard shortcuts"
 msgstr "Atalhos de teclado"
 
 #: data/gtk/help-overlay.ui:65
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 #: data/ui/AboutDialog.ui:87
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "Chat no Matrix"
 
 #: data/ui/AboutDialog.ui:97
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "Ver código no GitLab"
 
 #: data/ui/AboutDialog.ui:107
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "Traduzir no Weblate"
 
 #: data/ui/AboutDialog.ui:117
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Apoie-nos no Liberapay"
 
 #: data/ui/AboutDialog.ui:147
 msgid "Code"
-msgstr ""
+msgstr "Código"
 
 #: data/ui/AboutDialog.ui:153
 msgid "Artwork"
-msgstr ""
+msgstr "Arte"
 
 #: data/ui/AboutDialog.ui:159
 msgid "Documentation"
-msgstr ""
+msgstr "Documentação"
 
 #: data/ui/AboutDialog.ui:165
-#, fuzzy
 msgid "Translation"
-msgstr "Novas traduções"
+msgstr "Tradução"
 
 #: data/ui/AboutDialog.ui:170
-#, fuzzy
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
-"<small>Este programa usa <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
-"a> para limpar os metadados. Mostre a eles um pouco de amor!</small>"
+"Este programa usa <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> para "
+"analisar e limpar os metadados. Mostre a eles um pouco de amor!"
 
 #: data/ui/AboutDialog.ui:183
 msgid ""
@@ -258,12 +250,18 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"O código-fonte deste programa é lançado sob os termos da <a href=\"https"
+"://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 ou posterior</a>. A arte "
+"original e as traduções são liberadas sob os termos <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: data/ui/AboutDialog.ui:196
 msgid ""
 "The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks of "
 "their respective owners."
 msgstr ""
+"Os logotipos e nomes do GitLab, Matrix, Liberapay e Weblate são marcas "
+"registradas de seus respectivos proprietários."
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -275,7 +273,7 @@ msgstr "Limpe seus rastros."
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
-msgstr ""
+msgstr "Saiba mais sobre metadados e as limitações do processo de limpeza."
 
 #: data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -298,13 +296,12 @@ msgid "_New window"
 msgstr "_Nova janela"
 
 #: data/ui/MenuButton.ui:14
-#, fuzzy
 msgid "_Clear window"
-msgstr "Fechar janela"
+msgstr "_Limpar janela"
 
 #: data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_Ajuda"
 
 #: data/ui/MenuButton.ui:25
 msgid "_Keyboard shortcuts"
@@ -319,38 +316,36 @@ msgid "Make sure you backed up your files!"
 msgstr "Certifique-se de fazer backup de seus arquivos!"
 
 #: data/ui/SaveWarningDialog.ui:10
-#, fuzzy
 msgid "Once the files are cleaned, there's no going back."
-msgstr "Depois de substituir seus arquivos, não há como voltar atrás."
+msgstr "Depois que os arquivos são limpos, não há como voltar atrás."
 
 #: data/ui/SaveWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr "Não mostrar novamente"
+msgstr "Não mostre novamente"
 
 #: data/ui/SaveWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: data/ui/SaveWarningDialog.ui:30
-#, fuzzy
 msgid "Clean"
-msgstr "_Limpar"
+msgstr "Limpar"
 
 #: data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Configurações de limpeza"
 
 #: data/ui/SettingsButton.ui:33
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Saiba mais sobre a limpeza leve"
 
 #: data/ui/Window.ui:72
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 #: data/ui/Window.ui:78
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/Window.ui:98
@@ -358,14 +353,12 @@ msgid "translator-credits"
 msgstr "Gustavo Costa <xfgusta@gmail.com>"
 
 #: data/ui/Window.ui:107
-#, fuzzy
 msgid "Choose files to clean"
-msgstr "Escolher arquivos"
+msgstr "Escolha os arquivos para limpar"
 
 #: metadatacleaner/modules/file.py:223
-#, fuzzy
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr "Algo ruim aconteceu durante a remoção, arquivo limpo não encontrado"
+msgstr "Algo ruim aconteceu durante a limpeza, arquivo limpo não encontrado"
 
 #: metadatacleaner/ui/detailsview.py:58
 msgid "The file has been cleaned."
@@ -373,28 +366,23 @@ msgstr "O arquivo foi limpo."
 
 #: metadatacleaner/ui/detailsview.py:69
 msgid "Unable to read the file."
-msgstr ""
+msgstr "Não foi possível ler o arquivo."
 
 #: metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
 msgstr "Tipo de arquivo não compatível."
 
 #: metadatacleaner/ui/detailsview.py:72
-#, fuzzy
 msgid "Unable to check metadata."
-msgstr "Erro ao verificar os metadados:"
+msgstr "Não foi possível verificar os metadados."
 
 #: metadatacleaner/ui/detailsview.py:74
-#, fuzzy
 msgid "No known metadata, the file will be cleaned to be sure."
-msgstr ""
-"Nenhum metadado foi encontrado.\n"
-"O arquivo será limpo de qualquer maneira, melhor prevenir do que remediar."
+msgstr "Sem metadados conhecidos, o arquivo será limpo para ter certeza."
 
 #: metadatacleaner/ui/detailsview.py:76
-#, fuzzy
 msgid "Unable to remove metadata."
-msgstr "Nota sobre remoção de metadados"
+msgstr "Não foi possível remover metadados."
 
 #: metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
