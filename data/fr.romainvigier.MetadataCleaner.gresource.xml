@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <gresources>
 	<gresource prefix="/fr/romainvigier/MetadataCleaner">
-		<file compressed="true" preprocess="xml-stripblanks">icons/metadatacleaner-add-files-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks">icons/metadatacleaner-background-logo.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks">icons/metadatacleaner-clean-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks">icons/metadatacleaner-error-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks">icons/metadatacleaner-metadata-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks">icons/metadatacleaner-remove-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks">icons/metadatacleaner-warning-symbolic.svg</file>
+		<file compressed="true" alias="style.css">css/style.css</file>
+		<file compressed="true" alias="style-dark.css">css/style-dark.css</file>
+		<file compressed="true" preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/metadatacleaner-background-logo.svg">icons/background-logo.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-remove-symbolic.svg">icons/remove-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/places/metadatacleaner-gitlab-symbolic.svg">icons/gitlab-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/places/metadatacleaner-liberapay-symbolic.svg">icons/liberapay-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/places/metadatacleaner-matrix-symbolic.svg">icons/matrix-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/places/metadatacleaner-weblate-symbolic.svg">icons/weblate-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-ok-symbolic.svg">icons/ok-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-error-symbolic.svg">icons/error-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-warning-symbolic.svg">icons/warning-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/AboutDialog.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/AboutMetadataPrivacyDialog.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/AboutRemovingMetadataDialog.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/AddFilesButton.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/Badge.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/CleanMetadataButton.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/CreditsRole.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/DetailsView.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/EmptyView.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/FileButton.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/FilePopover.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/FileRow.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/FilesView.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/InfoDetails.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/MenuButton.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/MenuPopover.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataDetails.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataWindow.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/SaveFilesButton.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataDetailsRow.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/OutButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/SaveWarningDialog.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/ShortcutsDialog.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/SettingsButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/StatusIndicator.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/Window.ui</file>
 	</gresource>

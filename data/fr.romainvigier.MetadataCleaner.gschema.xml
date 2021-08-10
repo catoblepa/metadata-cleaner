@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <schemalist gettext-domain="fr.romainvigier.MetadataCleaner">
@@ -9,6 +9,21 @@ SPDX-License-Identifier: GPL-3.0-or-later
             <default>true</default>
             <summary>Warn before saving cleaned files</summary>
             <description>Show the warning dialog before saving the cleaned files</description>
+        </key>
+        <key name="lightweight-cleaning" type="b">
+            <default>false</default>
+            <summary>Lightweight cleaning</summary>
+            <description>Trade some metadata's presence in exchange of the guarantee that the data won't be modified</description>
+        </key>
+        <key name="window-width" type="u">
+            <default>400</default>
+            <summary>Window width</summary>
+            <description>Saved width of the window</description>
+        </key>
+        <key name="window-height" type="u">
+            <default>600</default>
+            <summary>Window height</summary>
+            <description>Saved height of the window</description>
         </key>
     </schema>
 </schemalist>

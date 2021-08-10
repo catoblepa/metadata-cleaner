@@ -1,35 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <requires lib="gtk+" version="3.24"/>
-  <requires lib="libhandy" version="1.0"/>
-  <template class="Window" parent="HdyApplicationWindow">
-    <property name="default-width">500</property>
-    <property name="default-height">340</property>
-    <property name="show-menubar">False</property>
+  <template class="Window" parent="AdwApplicationWindow">
     <child>
-      <object class="GtkBox">
-        <property name="visible">True</property>
-        <property name="orientation">vertical</property>
-        <child>
-          <object class="HdyHeaderBar" id="_headerbar">
-            <property name="visible">True</property>
-            <property name="show-close-button">True</property>
+      <object class="AdwFlap" id="_mode_flap">
+        <property name="transition-type">slide</property>
+        <property name="swipe-to-open">False</property>
+        <property name="flap-position">end</property>
+        <property name="reveal-flap">False</property>
+        <property name="locked">True</property>
+        <signal name="notify::reveal-flap" handler="_on_mode_flap_revealed"/>
+        <property name="content">
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+            <child>
+              <object class="AdwHeaderBar" id="_cleaner_header_bar">
+                <child type="start">
+                  <object class="AddFilesButton" />
+                </child>
+                <child type="end">
+                  <object class="MenuButton" />
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkStack" id="_view_stack">
+                <property name="transition-type">crossfade</property>
+                <property name="vexpand">True</property>
+                <child>
+                  <object class="GtkStackPage">
+                    <property name="name">empty</property>
+                    <property name="child">
+                      <object class="GtkLabel"></object>
+                      <object class="EmptyView" />
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkStackPage">
+                    <property name="name">files</property>
+                    <property name="child">
+                      <object class="FilesView">
+                        <property name="file-store" bind-source="Window" bind-property="file-store"/>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+              </object>
+            </child>
           </object>
-        </child>
-        <child>
-          <object class="GtkStack" id="_stack">
-            <property name="visible">True</property>
-            <property name="transition-type">crossfade</property>
+        </property>
+        <property name="separator">
+          <object class="GtkSeparator">
+            <property name="orientation">vertical</property>
           </object>
-          <packing>
-            <property name="expand">True</property>
-          </packing>
-        </child>
+        </property>
+        <property name="flap">
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+            <property name="hexpand">True</property>
+            <style>
+              <class name="metadata-view" />
+            </style>
+            <child>
+              <object class="AdwHeaderBar">
+                <property name="title-widget">
+                  <object class="AdwWindowTitle">
+                    <property name="title" translatable="yes">Details</property>
+                  </object>
+                </property>
+                <child type="start">
+                  <object class="GtkButton">
+                    <property name="icon-name">go-previous-symbolic</property>
+                    <property name="tooltip-text" translatable="yes">Close</property>
+                    <property name="action-name">win.close-details-view</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="DetailsView" id="_details_view" />
+            </child>
+          </object>
+        </property>
       </object>
     </child>
   </template>
+  <object class="AboutDialog" id="_about_dialog">
+    <property name="modal">True</property>
+    <property name="authors">Romain Vigier</property>
+    <property name="artists">Romain Vigier</property>
+    <property name="documenters">Romain Vigier</property>
+    <property name="copyright">© 2020-2021 Romain Vigier</property>
+    <property name="translator-credits" translatable="yes" comments="Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name &lt;mail@example.org&gt;`). If names are already present, do not remove them and add yours on a new line.">translator-credits</property>
+    <binding name="transient-for">
+      <lookup name="root" type="GtkWidget"/>
+    </binding>
+    <binding name="version">
+      <lookup name="version" type="MetadataCleaner"><lookup name="application" type="GtkApplicationWindow"><lookup name="root" type="GtkWidget"/></lookup></lookup>
+    </binding>
+  </object>
+  <object class="FileChooserDialog" id="_file_chooser_dialog">
+    <property name="title" translatable="yes">Choose files to clean</property>
+    <property name="action">open</property>
+    <property name="select-multiple">True</property>
+    <property name="modal">True</property>
+    <binding name="transient-for">
+      <lookup name="root" type="GtkWidget"/>
+    </binding>
+    <signal name="response" handler="_on_file_chooser_dialog_response"/>
+  </object>
+  <object class="SaveWarningDialog" id="_save_warning_dialog">
+    <binding name="transient-for">
+      <lookup name="root" type="GtkWidget"/>
+    </binding>
+    <binding name="settings">
+      <lookup name="settings" type="MetadataCleaner"><lookup name="application" type="GtkApplicationWindow"><lookup name="root" type="GtkWidget"/></lookup></lookup>
+    </binding>
+    <signal name="response" handler="_on_save_warning_dialog_response"/>
+  </object>
 </interface>

@@ -1,29 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <requires lib="gtk+" version="3.24"/>
   <template class="MetadataDetails" parent="GtkBox">
-    <property name="visible">True</property>
     <property name="orientation">vertical</property>
+    <property name="spacing">6</property>
     <child>
-      <object class="GtkLabel" id="_label">
-        <property name="visible">True</property>
-        <property name="halign">start</property>
-        <property name="margin-bottom">12</property>
+      <object class="GtkLabel">
+        <property name="label" bind-source="MetadataDetails" bind-property="filename"/>
+        <property name="xalign">0</property>
         <property name="wrap">True</property>
-        <attributes>
-          <attribute name="weight" value="bold"/>
-        </attributes>
+        <property name="wrap-mode">word-char</property>
+        <style>
+          <class name="heading"/>
+        </style>
       </object>
     </child>
     <child>
-      <object class="GtkGrid" id="_grid">
-        <property name="visible">True</property>
-        <property name="row-spacing">6</property>
-        <property name="column-spacing">12</property>
+      <object class="GtkFrame">
+        <child>
+          <object class="GtkListView">
+            <property name="model">
+              <object class="GtkNoSelection">
+                <property name="model" bind-source="MetadataDetails" bind-property="metadata-list"/>
+              </object>
+            </property>
+            <property name="factory">
+              <object class="GtkBuilderListItemFactory">
+                <property name="bytes">
+                  <![CDATA[
+                    <interface>
+                      <template class="GtkListItem">
+                        <property name="activatable">False</property>
+                        <property name="child">
+                          <object class="MetadataDetailsRow">
+                            <binding name="key">
+                              <lookup name="key" type="Metadata"><lookup name="item">GtkListItem</lookup></lookup>
+                            </binding>
+                            <binding name="value">
+                              <lookup name="value" type="Metadata"><lookup name="item">GtkListItem</lookup></lookup>
+                            </binding>
+                          </object>
+                        </property>
+                      </template>
+                    </interface>
+                  ]]>
+                </property>
+              </object>
+            </property>
+            <property name="show-separators">True</property>
+          </object>
+        </child>
       </object>
     </child>
   </template>

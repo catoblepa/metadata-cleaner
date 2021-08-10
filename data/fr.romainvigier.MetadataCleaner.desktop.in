@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 [Desktop Entry]
@@ -6,7 +6,7 @@ Name=Metadata Cleaner
 GenericName=Metadata Cleaner
 Comment=Clean metadata from your files
 Icon=fr.romainvigier.MetadataCleaner
-Exec=metadata-cleaner
+Exec=metadata-cleaner %F
 Terminal=false
 Type=Application
 StartupNotify=true

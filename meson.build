@@ -1,35 +1,41 @@
-# SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-project('metadata-remover',
-  version: '1.0.8',
+project(
+  'metadata-cleaner',
+  version: '2.0.0',
+  license: ['GPL-3.0-or-later', 'CC-BY-SA-4.0', 'CC0-1.0'],
   meson_version: '>= 0.51.0'
 )
 
 APP_ID = 'fr.romainvigier.MetadataCleaner'
 
-python = import('python').find_installation('python3', modules: 'libmat2')
+gnome = import('gnome')
+i18n = import('i18n')
+python = import('python').find_installation('python3', modules: ['libmat2'])
+
+dependency('gtk4', version: '>=4.0')
+dependency('libadwaita-1')
+dependency('pygobject-3.0', version: '>=3.40')
+dependency('python3')
 
 prefix = get_option('prefix')
 
-bindir = join_paths(prefix, get_option('bindir'))
-datadir = join_paths(prefix, get_option('datadir'))
-libexecdir = join_paths(prefix, get_option('libexecdir'))
-localedir = join_paths(prefix, get_option('localedir'))
-pythondir = join_paths(prefix, python.get_install_dir())
+bindir = prefix / get_option('bindir')
+datadir = prefix / get_option('datadir')
+libexecdir = prefix / get_option('libexecdir')
+localedir = prefix / get_option('localedir')
+pythondir = prefix / python.get_install_dir()
 
-pkgdatadir = join_paths(datadir, meson.project_name())
+pkgdatadir = datadir / meson.project_name()
 
-appdatadir = join_paths(datadir, 'metainfo')
-applicationsdir = join_paths(datadir, 'applications')
-metadatacleanerdir = join_paths(pythondir, 'metadatacleaner')
-iconsdir = join_paths(datadir, 'icons')
-schemasdir = join_paths(datadir, 'glib-2.0', 'schemas')
+appdatadir = datadir / 'metainfo'
+applicationsdir = datadir / 'applications'
+metadatacleanerdir = pythondir / 'metadatacleaner'
+iconsdir = datadir / 'icons'
+schemasdir = datadir / 'glib-2.0' / 'schemas'
 
-dependency('gtk+-3.0', version: '>=3.24')
-dependency('libhandy-1')
-dependency('pygobject-3.0', version: '>= 3.30')
-dependency('python3')
+devel = get_option('devel')
 
 bin_config = configuration_data()
 bin_config.set('localedir', localedir)
@@ -37,45 +43,20 @@ bin_config.set('pkgdatadir', pkgdatadir)
 bin_config.set('pythondir', pythondir)
 bin_config.set('schemasdir', schemasdir)
 bin_config.set('app_id', APP_ID)
+bin_config.set('devel', devel)
 bin_config.set('version', meson.project_version())
 
 configure_file(
   input: 'metadata-cleaner.py.in',
   output: 'metadata-cleaner',
   configuration: bin_config,
-  install_dir: get_option('bindir')
+  install_dir: bindir
 )
 
-sources = [
-  'metadatacleaner/__init__.py',
-  'metadatacleaner/aboutdialog.py',
-  'metadatacleaner/aboutmetadataprivacydialog.py',
-  'metadatacleaner/aboutremovingmetadatadialog.py',
-  'metadatacleaner/addfilesbutton.py',
-  'metadatacleaner/app.py',
-  'metadatacleaner/cleanmetadatabutton.py',
-  'metadatacleaner/emptyview.py',
-  'metadatacleaner/file.py',
-  'metadatacleaner/filebutton.py',
-  'metadatacleaner/filechooserdialog.py',
-  'metadatacleaner/filepopover.py',
-  'metadatacleaner/filerow.py',
-  'metadatacleaner/filesmanager.py',
-  'metadatacleaner/filesview.py',
-  'metadatacleaner/logger.py',
-  'metadatacleaner/menubutton.py',
-  'metadatacleaner/menupopover.py',
-  'metadatacleaner/metadatadetails.py',
-  'metadatacleaner/metadatawindow.py',
-  'metadatacleaner/savefilesbutton.py',
-  'metadatacleaner/savewarningdialog.py',
-  'metadatacleaner/shortcutsdialog.py',
-  'metadatacleaner/statusindicator.py',
-  'metadatacleaner/window.py',
-]
-install_data(sources, install_dir: metadatacleanerdir)
-
 subdir('data')
+subdir('help')
+subdir('metadatacleaner')
 subdir('po')
+subdir('tests')
 
-meson.add_install_script('meson_postinstall.py')
+meson.add_install_script('build-aux' / 'postinstall.py')

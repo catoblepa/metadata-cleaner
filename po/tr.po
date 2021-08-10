@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-01 11:08+0200\n"
+"POT-Creation-Date: 2021-08-10 14:45+0200\n"
 "PO-Revision-Date: 2021-07-01 13:31+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -21,7 +21,7 @@ msgstr ""
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: metadatacleaner/app.py:43
+#: data/ui/AboutDialog.ui:66 metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "Üst Veri Temizleyici"
 
@@ -42,15 +42,39 @@ msgstr "Temizlenen dosyaları kaydetmeden önce uyar"
 msgid "Show the warning dialog before saving the cleaned files"
 msgstr "Temizlenen dosyaları kaydetmeden önce uyarı iletişim kutusunu göster"
 
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
+#: data/ui/SettingsButton.ui:28
+#, fuzzy
+msgid "Lightweight cleaning"
+msgstr "Hafif _mod"
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
+msgid ""
+"Trade some metadata's presence in exchange of the guarantee that the data "
+"won't be modified"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
+msgid "Window width"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
+msgid "Saved width of the window"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
+msgid "Window height"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
+msgid "Saved height of the window"
+msgstr ""
+
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "Dosyalardaki üst verileri görüntüle ve temizle"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:15
-msgid "Romain Vigier"
-msgstr "Romain Vigier"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:22
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when a picture was taken and what camera was used. Office applications "
@@ -63,7 +87,7 @@ msgstr ""
 "otomatik olarak yazar ve şirket bilgilerini ekler. Belki bu bilgileri "
 "açıklamak istemezsiniz."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:23
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of them, "
 "as much as possible."
@@ -71,334 +95,431 @@ msgstr ""
 "Bu araç, dosyalarınızdaki üst verileri görüntülemenizi ve mümkün olduğunca "
 "onlardan kurtulmanızı sağlar."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:52
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
+msgid "Improved adaptive user interface"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+msgid "New help pages"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+msgid "One-click cleaning, no need to clean then save anymore"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
+#, fuzzy
+msgid "Lightweight cleaning option is now saved"
+msgstr "Hafif _mod"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "New translations"
 msgstr "Yeni çeviriler"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:59
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:98
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr "Hırvatça çeviri (katkıda bulunan: Milo Ivir)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:60
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr "Portekizce (Brezilya) çeviri (katkıda bulunan: Gustavo Costa)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:67
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
 msgid "New in v1.0.4:"
 msgstr "1.0.4 sürümündeki yenilikler:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:69
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Türkçe çeviri (katkıda bulunan: Oğuz Ersen)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:115
 msgid "New in v1.0.2:"
 msgstr "1.0.2 sürümündeki yenilikler:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:117
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "İspanyolca çeviri (katkıda bulunan: Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "İsveççe çeviri (katkıda bulunan: Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "Bug fixes:"
 msgstr "Hata düzeltmeleri:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
 msgid "Files with uppercase extension can now be added"
 msgstr "Büyük harfli uzantıya sahip dosyalar artık eklenebilir"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "New in v1.0.1:"
 msgstr "1.0.1 sürümündeki yenilikler:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
 msgid "German translation (contributed by lux)"
 msgstr "Almanca çeviri (katkıda bulunan: lux)"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: data/ui/AboutDialog.ui:15
-msgid "translator-credits"
-msgstr "Oğuz Ersen"
+#: data/gtk/help-overlay.ui:15
+#, fuzzy
+msgid "Files"
+msgstr "Dosyalar"
 
-#: data/ui/AboutDialog.ui:24
+#: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
+msgid "Add files"
+msgstr "Dosya ekle"
+
+#: data/gtk/help-overlay.ui:24
+#, fuzzy
+msgid "Clean metadata"
+msgstr "Üst verileri temizle"
+
+#: data/gtk/help-overlay.ui:30
+msgid "Clear all files from window"
+msgstr ""
+
+#: data/gtk/help-overlay.ui:38
+#, fuzzy
+msgid "General"
+msgstr "Genel"
+
+#: data/gtk/help-overlay.ui:41
+#, fuzzy
+msgid "New window"
+msgstr "Yeni pencere"
+
+#: data/gtk/help-overlay.ui:47
+#, fuzzy
+msgid "Close window"
+msgstr "Pencereyi kapat"
+
+#: data/gtk/help-overlay.ui:53
+#, fuzzy
+msgid "Quit"
+msgstr "Çıkış"
+
+#: data/gtk/help-overlay.ui:59
+#, fuzzy
+msgid "Keyboard shortcuts"
+msgstr "Klavye kısayolları"
+
+#: data/gtk/help-overlay.ui:65
+msgid "Help"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:87
+msgid "Chat on Matrix"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:97
+msgid "View the code on GitLab"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:107
+msgid "Translate on Weblate"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:117
+msgid "Support us on Liberapay"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:147
+msgid "Code"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:153
+msgid "Artwork"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:159
+msgid "Documentation"
+msgstr ""
+
+#: data/ui/AboutDialog.ui:165
+#, fuzzy
+msgid "Translation"
+msgstr "Yeni çeviriler"
+
+#: data/ui/AboutDialog.ui:170
+#, fuzzy
 msgid ""
-"<small>This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
-"a> to clean the metadata. Show them some love!</small>"
+"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+"parse and clean the metadata. Show them some love!"
 msgstr ""
 "<small>Bu program, üst verileri temizlemek için <a href=\"https://0xacab.org/"
 "jvoisin/mat2\">mat2</a> kullanmaktadır. Onlara biraz sevgi gösterin!</small>"
 
-#: data/ui/AboutMetadataPrivacyDialog.ui:9
-msgid "Note about metadata and privacy"
-msgstr "Üst veriler ve gizlilik hakkında not"
-
-#: data/ui/AboutMetadataPrivacyDialog.ui:10
+#: data/ui/AboutDialog.ui:183
 msgid ""
-"Metadata consist of information that characterizes data. Metadata are used "
-"to provide documentation for data products. In essence, metadata answer who, "
-"what, when, where, why, and how about every facet of the data that are being "
-"documented.\n"
-"\n"
-"Metadata within a file can tell a lot about you. Cameras record data about "
-"when a picture was taken and what camera was used. Office aplications "
-"automatically add author and company information to documents and "
-"spreadsheets. Maybe you don't want to disclose those informations.\n"
-"\n"
-"This tool will get rid, as much as possible, of metadata."
+"The source code of this program is released under the terms of the <a href="
+"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
+"original artwork and translations are released under the terms of the <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"Üst veriler, verilerin kendisini tanımlayan bilgilerden oluşur. Üst veriler, "
-"veri ürünleri için belgelendirme sağlamak için kullanılır. Esasında üst "
-"veriler, belgelenen verilerin her yönüyle ilgili kim, ne, ne zaman, nerede, "
-"neden ve nasıl sorularına yanıt verir.\n"
-"\n"
-"Bir dosyadaki üst veriler sizin hakkınızda çok şey söyleyebilir. Kameralar, "
-"bir resmin ne zaman çekildiği ve hangi kameranın kullanıldığı ile ilgili "
-"verileri kaydeder. Ofis uygulamaları, belgelere ve elektronik tablolara "
-"otomatik olarak yazar ve şirket bilgilerini ekler. Belki bu bilgileri "
-"açıklamak istemezsiniz.\n"
-"\n"
-"Bu araç, üst verileri mümkün olduğunca kaldıracaktır."
 
-#: data/ui/AboutRemovingMetadataDialog.ui:9
-msgid "Note about removing metadata"
-msgstr "Üst verileri kaldırmayla ilgili not"
-
-#: data/ui/AboutRemovingMetadataDialog.ui:10
+#: data/ui/AboutDialog.ui:196
 msgid ""
-"While this tool is doing its very best to display metadata, it doesn't mean "
-"that a file is clean from any metadata if it doesn't show any. There is no "
-"reliable way to detect every single possible metadata for complex file "
-"formats.\n"
-"\n"
-"This is why you shouldn't rely on metadata's presence to decide if your file "
-"must be cleaned or not."
+"The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks of "
+"their respective owners."
 msgstr ""
-"Bu araç üst verileri görüntülemek için elinden gelenin en iyisini yapmasına "
-"rağmen bu, bir dosyanın herhangi bir üst veriden temiz olduğu anlamına "
-"gelmez. Karmaşık dosya biçimleri için olası her bir üst veriyi algılamanın "
-"güvenilir bir yolu yoktur.\n"
-"\n"
-"Bu nedenle, dosyanızın temizlenmesi gerekip gerekmediğine karar vermek için "
-"üst verilerin varlığına güvenmemelisiniz."
 
-#: data/ui/AddFilesButton.ui:9
-msgid "Add files"
-msgstr "Dosya ekle"
-
-#: data/ui/CleanMetadataButton.ui:12
+#: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Temizle"
 
-#: data/ui/EmptyView.ui:23
+#: data/ui/EmptyView.ui:13
 msgid "Clean your traces."
 msgstr "İzlerinizi temizleyin."
 
-#: data/ui/FileButton.ui:25
-msgid "Warning"
-msgstr "Uyarı"
+#: data/ui/EmptyView.ui:27
+msgid "Learn more about metadata and the cleaning process limitations."
+msgstr ""
 
-#: data/ui/FileButton.ui:35
-msgid "Error"
-msgstr "Hata"
-
-#: data/ui/FileButton.ui:45
-msgid "Metadata"
-msgstr "Üst veri"
-
-#: data/ui/FileButton.ui:55
-msgid "Cleaned"
-msgstr "Temizlendi"
-
-#: data/ui/FileRow.ui:14
+#: data/ui/FileRow.ui:12
 msgid "Remove file from list"
 msgstr "Dosyayı listeden kaldır"
 
-#: data/ui/MenuPopover.ui:18
+#: data/ui/FileRow.ui:93
+msgid "Warning"
+msgstr "Uyarı"
+
+#: data/ui/FileRow.ui:111
+msgid "Error"
+msgstr "Hata"
+
+#: data/ui/FileRow.ui:151
+msgid "Cleaned"
+msgstr "Temizlendi"
+
+#: data/ui/MenuButton.ui:10
 msgid "_New window"
 msgstr "_Yeni pencere"
 
-#: data/ui/MenuPopover.ui:33
-msgid "_Lightweight mode"
-msgstr "Hafif _mod"
+#: data/ui/MenuButton.ui:14
+#, fuzzy
+msgid "_Clear window"
+msgstr "Pencereyi kapat"
 
-#: data/ui/MenuPopover.ui:34
-msgid ""
-"By default, the removal process might alter a bit the data of your files, in "
-"order to remove as much metadata as possible. For example, texts in PDF "
-"might not be selectable anymore, compressed images might get compressed "
-"again… If you're willing to trade some metadata's presence in exchange of "
-"the guarantee that the data of your files won't be modified, the lightweight "
-"mode precisely does that."
+#: data/ui/MenuButton.ui:20
+msgid "_Help"
 msgstr ""
-"Öntanımlı olarak kaldırma işlemi, olabildiğince fazla üst veriyi kaldırmak "
-"için dosyalarınızın verilerini biraz değiştirebilir. Örneğin, PDF "
-"dosyalarındaki metinler artık seçilemeyebilir, sıkıştırılmış görüntüler "
-"tekrar sıkıştırılabilir… Dosyalarınızın verilerinin değiştirilmeyeceği "
-"garantisi karşılığında bazı üst verilerin varlığını takas etmeye "
-"istekliyseniz, hafif mod tam olarak bunu yapar."
 
-#: data/ui/MenuPopover.ui:48
-msgid "Note about _metadata and privacy"
-msgstr "_Üst veriler ve gizlilik hakkında not"
-
-#: data/ui/MenuPopover.ui:55
-msgid "Note about _removing metadata"
-msgstr "Üst _verileri kaldırmayla ilgili not"
-
-#: data/ui/MenuPopover.ui:71
+#: data/ui/MenuButton.ui:25
 msgid "_Keyboard shortcuts"
 msgstr "_Klavye kısayolları"
 
-#: data/ui/MenuPopover.ui:78
+#: data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
 msgstr "Üst Veri Temizleyici _Hakkında"
-
-#: data/ui/MetadataWindow.ui:9
-msgid "Metadata details"
-msgstr "Üst veri ayrıntıları"
-
-#: data/ui/SaveFilesButton.ui:12
-msgid "_Save"
-msgstr "_Kaydet"
 
 #: data/ui/SaveWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
 msgstr "Dosyalarınızı yedeklediğinizden emin olun!"
 
 #: data/ui/SaveWarningDialog.ui:10
-msgid "Once you replace your files, there's no going back."
+#, fuzzy
+msgid "Once the files are cleaned, there's no going back."
 msgstr "Dosyalarınızı değiştirdikten sonra geri dönüş yoktur."
 
-#: data/ui/SaveWarningDialog.ui:18
+#: data/ui/SaveWarningDialog.ui:17
 msgid "Don't tell me again"
 msgstr "Bir daha söyleme"
 
-#: data/ui/ShortcutsDialog.ui:18
-msgctxt "shortcut window"
-msgid "Files"
-msgstr "Dosyalar"
+#: data/ui/SaveWarningDialog.ui:25
+msgid "Cancel"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:22
-msgctxt "shortcut window"
-msgid "Add files"
-msgstr "Dosya ekle"
+#: data/ui/SaveWarningDialog.ui:30
+#, fuzzy
+msgid "Clean"
+msgstr "_Temizle"
 
-#: data/ui/ShortcutsDialog.ui:29
-msgctxt "shortcut window"
-msgid "Clean metadata"
-msgstr "Üst verileri temizle"
+#: data/ui/SettingsButton.ui:9
+msgid "Cleaning settings"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:36
-msgctxt "shortcut window"
-msgid "Save cleaned files"
-msgstr "Temizlenen dosyaları kaydet"
+#: data/ui/SettingsButton.ui:33
+msgid "Learn more about the lightweight cleaning"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:45
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Genel"
+#: data/ui/Window.ui:72
+msgid "Details"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:49
-msgctxt "shortcut window"
-msgid "New window"
-msgstr "Yeni pencere"
+#: data/ui/Window.ui:78
+msgid "Close"
+msgstr ""
 
-#: data/ui/ShortcutsDialog.ui:56
-msgctxt "shortcut window"
-msgid "Close window"
-msgstr "Pencereyi kapat"
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
+#: data/ui/Window.ui:98
+msgid "translator-credits"
+msgstr "Oğuz Ersen"
 
-#: data/ui/ShortcutsDialog.ui:63
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "Çıkış"
-
-#: data/ui/ShortcutsDialog.ui:70
-msgctxt "shortcut window"
-msgid "Keyboard shortcuts"
-msgstr "Klavye kısayolları"
-
-#: data/ui/StatusIndicator.ui:35
-msgid "Done!"
-msgstr "Bitti!"
-
-#: metadatacleaner/file.py:139
-msgid "Something bad happened during the removal, cleaned file not found"
-msgstr "Kaldırma sırasında kötü bir şey oldu, temizlenen dosya bulunamadı"
-
-#: metadatacleaner/filechooserdialog.py:21
-msgid "Choose files"
+#: data/ui/Window.ui:107
+#, fuzzy
+msgid "Choose files to clean"
 msgstr "Dosya seç"
 
-#: metadatacleaner/filechooserdialog.py:31
-msgid "All supported files"
-msgstr "Desteklenen tüm dosyalar"
+#: metadatacleaner/modules/file.py:223
+#, fuzzy
+msgid "Something bad happened during the cleaning, cleaned file not found"
+msgstr "Kaldırma sırasında kötü bir şey oldu, temizlenen dosya bulunamadı"
 
-#: metadatacleaner/filepopover.py:38
-msgid "Initializing…"
-msgstr "Başlatılıyor…"
+#: metadatacleaner/ui/detailsview.py:58
+msgid "The file has been cleaned."
+msgstr "Dosya temizlendi."
 
-#: metadatacleaner/filepopover.py:40
-msgid "Error while initializing the file parser."
-msgstr "Dosya ayrıştırıcı başlatılırken hata oluştu."
+#: metadatacleaner/ui/detailsview.py:69
+msgid "Unable to read the file."
+msgstr ""
 
-#: metadatacleaner/filepopover.py:42
+#: metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
 msgstr "Dosya türü desteklenmiyor."
 
-#: metadatacleaner/filepopover.py:43
-msgid "File type supported."
-msgstr "Dosya türü destekleniyor."
-
-#: metadatacleaner/filepopover.py:44
-msgid "Checking metadata…"
-msgstr "Üst veriler denetleniyor…"
-
-#: metadatacleaner/filepopover.py:46
-msgid "Error while checking metadata:"
+#: metadatacleaner/ui/detailsview.py:72
+#, fuzzy
+msgid "Unable to check metadata."
 msgstr "Üst veriler denetlenirken hata oluştu:"
 
-#: metadatacleaner/filepopover.py:49
-msgid ""
-"No metadata have been found.\n"
-"The file will be cleaned anyway, better safe than sorry."
+#: metadatacleaner/ui/detailsview.py:74
+#, fuzzy
+msgid "No known metadata, the file will be cleaned to be sure."
 msgstr ""
 "Hiçbir üst veri bulunamadı.\n"
 "Ne olur ne olmaz, dosya yine de temizlenecek."
 
-#: metadatacleaner/filepopover.py:52
-msgid "Removing metadata…"
-msgstr "Üst veriler kaldırılıyor…"
+#: metadatacleaner/ui/detailsview.py:76
+#, fuzzy
+msgid "Unable to remove metadata."
+msgstr "Üst verileri kaldırmayla ilgili not"
 
-#: metadatacleaner/filepopover.py:54
-msgid "Error while removing metadata:"
-msgstr "Üst veriler kaldırılırken hata oluştu:"
+#: metadatacleaner/ui/filechooserdialog.py:24
+msgid "All supported files"
+msgstr "Desteklenen tüm dosyalar"
 
-#: metadatacleaner/filepopover.py:56
-msgid "The file has been cleaned."
-msgstr "Dosya temizlendi."
-
-#: metadatacleaner/filepopover.py:57
-msgid "Saving the cleaned file…"
-msgstr "Temizlenen dosya kaydediliyor…"
-
-#: metadatacleaner/filepopover.py:58
-msgid "Error while saving the file:"
-msgstr "Dosya kaydedilirken hata oluştu:"
-
-#: metadatacleaner/filepopover.py:59
-msgid "The cleaned file has been saved."
-msgstr "Temizlenen dosya kaydedildi."
-
-#: metadatacleaner/metadatadetails.py:39
-#, python-brace-format
-msgid "{filename}:"
-msgstr "{filename}:"
-
-#: metadatacleaner/statusindicator.py:33
+#: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "{}/{} dosya işleniyor"
+
+#~ msgid "Romain Vigier"
+#~ msgstr "Romain Vigier"
+
+#~ msgid "Note about metadata and privacy"
+#~ msgstr "Üst veriler ve gizlilik hakkında not"
+
+#~ msgid ""
+#~ "Metadata consist of information that characterizes data. Metadata are "
+#~ "used to provide documentation for data products. In essence, metadata "
+#~ "answer who, what, when, where, why, and how about every facet of the data "
+#~ "that are being documented.\n"
+#~ "\n"
+#~ "Metadata within a file can tell a lot about you. Cameras record data "
+#~ "about when a picture was taken and what camera was used. Office "
+#~ "aplications automatically add author and company information to documents "
+#~ "and spreadsheets. Maybe you don't want to disclose those informations.\n"
+#~ "\n"
+#~ "This tool will get rid, as much as possible, of metadata."
+#~ msgstr ""
+#~ "Üst veriler, verilerin kendisini tanımlayan bilgilerden oluşur. Üst "
+#~ "veriler, veri ürünleri için belgelendirme sağlamak için kullanılır. "
+#~ "Esasında üst veriler, belgelenen verilerin her yönüyle ilgili kim, ne, ne "
+#~ "zaman, nerede, neden ve nasıl sorularına yanıt verir.\n"
+#~ "\n"
+#~ "Bir dosyadaki üst veriler sizin hakkınızda çok şey söyleyebilir. "
+#~ "Kameralar, bir resmin ne zaman çekildiği ve hangi kameranın kullanıldığı "
+#~ "ile ilgili verileri kaydeder. Ofis uygulamaları, belgelere ve elektronik "
+#~ "tablolara otomatik olarak yazar ve şirket bilgilerini ekler. Belki bu "
+#~ "bilgileri açıklamak istemezsiniz.\n"
+#~ "\n"
+#~ "Bu araç, üst verileri mümkün olduğunca kaldıracaktır."
+
+#~ msgid ""
+#~ "While this tool is doing its very best to display metadata, it doesn't "
+#~ "mean that a file is clean from any metadata if it doesn't show any. There "
+#~ "is no reliable way to detect every single possible metadata for complex "
+#~ "file formats.\n"
+#~ "\n"
+#~ "This is why you shouldn't rely on metadata's presence to decide if your "
+#~ "file must be cleaned or not."
+#~ msgstr ""
+#~ "Bu araç üst verileri görüntülemek için elinden gelenin en iyisini "
+#~ "yapmasına rağmen bu, bir dosyanın herhangi bir üst veriden temiz olduğu "
+#~ "anlamına gelmez. Karmaşık dosya biçimleri için olası her bir üst veriyi "
+#~ "algılamanın güvenilir bir yolu yoktur.\n"
+#~ "\n"
+#~ "Bu nedenle, dosyanızın temizlenmesi gerekip gerekmediğine karar vermek "
+#~ "için üst verilerin varlığına güvenmemelisiniz."
+
+#~ msgid "Metadata"
+#~ msgstr "Üst veri"
+
+#~ msgid ""
+#~ "By default, the removal process might alter a bit the data of your files, "
+#~ "in order to remove as much metadata as possible. For example, texts in "
+#~ "PDF might not be selectable anymore, compressed images might get "
+#~ "compressed again… If you're willing to trade some metadata's presence in "
+#~ "exchange of the guarantee that the data of your files won't be modified, "
+#~ "the lightweight mode precisely does that."
+#~ msgstr ""
+#~ "Öntanımlı olarak kaldırma işlemi, olabildiğince fazla üst veriyi "
+#~ "kaldırmak için dosyalarınızın verilerini biraz değiştirebilir. Örneğin, "
+#~ "PDF dosyalarındaki metinler artık seçilemeyebilir, sıkıştırılmış "
+#~ "görüntüler tekrar sıkıştırılabilir… Dosyalarınızın verilerinin "
+#~ "değiştirilmeyeceği garantisi karşılığında bazı üst verilerin varlığını "
+#~ "takas etmeye istekliyseniz, hafif mod tam olarak bunu yapar."
+
+#~ msgid "Note about _metadata and privacy"
+#~ msgstr "_Üst veriler ve gizlilik hakkında not"
+
+#~ msgid "Note about _removing metadata"
+#~ msgstr "Üst _verileri kaldırmayla ilgili not"
+
+#~ msgid "Metadata details"
+#~ msgstr "Üst veri ayrıntıları"
+
+#~ msgid "_Save"
+#~ msgstr "_Kaydet"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Add files"
+#~ msgstr "Dosya ekle"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Save cleaned files"
+#~ msgstr "Temizlenen dosyaları kaydet"
+
+#~ msgid "Done!"
+#~ msgstr "Bitti!"
+
+#~ msgid "Initializing…"
+#~ msgstr "Başlatılıyor…"
+
+#~ msgid "Error while initializing the file parser."
+#~ msgstr "Dosya ayrıştırıcı başlatılırken hata oluştu."
+
+#~ msgid "File type supported."
+#~ msgstr "Dosya türü destekleniyor."
+
+#~ msgid "Checking metadata…"
+#~ msgstr "Üst veriler denetleniyor…"
+
+#~ msgid "Removing metadata…"
+#~ msgstr "Üst veriler kaldırılıyor…"
+
+#~ msgid "Error while removing metadata:"
+#~ msgstr "Üst veriler kaldırılırken hata oluştu:"
+
+#~ msgid "Saving the cleaned file…"
+#~ msgstr "Temizlenen dosya kaydediliyor…"
+
+#~ msgid "Error while saving the file:"
+#~ msgstr "Dosya kaydedilirken hata oluştu:"
+
+#~ msgid "The cleaned file has been saved."
+#~ msgstr "Temizlenen dosya kaydedildi."
+
+#, python-brace-format
+#~ msgid "{filename}:"
+#~ msgstr "{filename}:"
