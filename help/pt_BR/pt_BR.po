@@ -3,140 +3,183 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-11 06:09+0000\n"
+"Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"metadata-cleaner/help/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metadados e privacidade"
 
 #. (itstool) path: section/p
 #: C/general.page:15
 msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
 msgstr ""
+"Os metadados consistem em informações que caracterizam os dados. Os "
+"metadados são usados para fornecer documentação para produtos de dados. Em "
+"essência, os metadados respondem quem, o quê, quando, onde, por que e como "
+"sobre cada faceta dos dados que estão sendo documentados."
 
 #. (itstool) path: section/p
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"Os metadados em um arquivo podem dizer muito sobre você. As câmeras "
+"registram dados sobre quando uma foto foi tirada e qual câmera foi usada. Os "
+"aplicativos de Office adicionam automaticamente informações do autor e da "
+"empresa a documentos e planilhas. Talvez você não queira divulgar essas "
+"informações."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Exemplo de metadados em um arquivo de imagem"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"O arquivo divulga informações sobre o hardware, configurações, data, local "
+"da filmagem. Ele contém um total de 79 metadados."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Processo de limpeza"
 
 #. (itstool) path: section/p
 #: C/general.page:28
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"Embora o <app>Limpador de metadados</app> esteja fazendo o melhor para "
+"exibir metadados, isso não significa que um arquivo está limpo de quaisquer "
+"metadados se não mostrar nenhum. Não existe uma maneira confiável de "
+"detectar todos os metadados possíveis para formatos de arquivo complexos. É "
+"por isso que você não deve confiar na presença de metadados para decidir se "
+"seu arquivo deve ser limpo ou não."
 
 #. (itstool) path: section/p
 #: C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"O <app>Limpador de metadados</app> pega o conteúdo do arquivo e o coloca em "
+"um novo sem metadados, garantindo que quaisquer metadados não detectados "
+"sejam removidos."
 
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Limitações"
 
 #. (itstool) path: section/p
 #: C/general.page:36
 msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Esteja ciente de que os metadados não são a única forma de marcar um "
+"arquivo. Se o conteúdo divulgar informações pessoais ou tiver marca d'água, "
+"o <app>Limpador de metadados</app> não o protegerá."
 
 #. (itstool) path: page/title
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Limpador de metadados"
 
 #. (itstool) path: page/p
 #: C/index.page:14
 msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
 msgstr ""
+"O <app>Limpador de metadados</app> permite que você visualize metadados em "
+"seus arquivos e se livre deles, tanto quanto possível."
 
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General informations"
-msgstr ""
+msgstr "Informações gerais"
 
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Usando o <app>Limpador de metadados</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Adicionar arquivos"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
 msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
 msgstr ""
+"Para adicionar arquivos, pressione o botão <gui style=\"button\">Adicionar "
+"arquivos</gui>. Um seletor de arquivos será aberto, selecione os arquivos "
+"que deseja limpar."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "Botão <gui style=\"button\">Adicionar arquivos</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:25
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Ver metadados"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
 msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
 msgstr ""
+"Clique em um arquivo da lista para abrir a visualização detalhada. Se houver "
+"metadados, eles serão mostrados lá."
 
 #. (itstool) path: figure/title
 #: C/usage.page:28
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Visão detalhada dos metadados"
 
 #. (itstool) path: section/title
 #: C/usage.page:36
 msgid "Cleaning files"
-msgstr ""
+msgstr "Limpar arquivos"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Para limpar todos os arquivos da janela, pressione o botão <gui style="
+"\"button\">Limpar</gui>. O processo de limpeza pode levar algum tempo para "
+"ser concluído."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "Botão <gui style=\"button\">Limpar</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Limpeza leve"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"Por padrão, o processo de remoção pode alterar um pouco os dados de seus "
+"arquivos, a fim de remover o máximo de metadados possível. Por exemplo, "
+"textos em PDF podem não ser mais selecionáveis, imagens comprimidas podem "
+"ser comprimidas novamente…"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
 msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
 msgstr ""
+"Se você deseja trocar a presença de alguns metadados em troca da garantia de "
+"que os dados de seus arquivos não serão modificados, o modo leve faz "
+"exatamente isso."
