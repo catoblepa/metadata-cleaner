@@ -3,68 +3,93 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-11 16:06+0000\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metagegevens en privacy"
 
 #. (itstool) path: section/p
 #: C/general.page:15
 msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
 msgstr ""
+"Metagegevens bevatten informatie met mogelijk herleidbare gegevens. Deze "
+"worden gebruikt om productdocumentatie samen te stellen en te bepalen wie, "
+"wat, wanneer, waar, waarom en hoe elk facet wordt gedocumenteerd."
 
 #. (itstool) path: section/p
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"Metagegevens in een bestand kunnen herleidbaar zijn tot jou. Zo slaan "
+"camera's informatie op over wanneer een foto is genomen, welke camera je "
+"hebt gebruikt, enz. En kantoorpakketten (zoals tekstverwerkers) voegen "
+"automatisch auteurs- en bedrijfsinformatie toe. Misschien wil je al die "
+"informatie niet prijgeven."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Voorbeeld van metagegevens in een afbeeldingsbestand"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Dit bestand bevat informatie over de gebruikte camera, instellingen, datum "
+"en fotolocatie. In totaal staan er 79 gegevens."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Opschoonproces"
 
 #. (itstool) path: section/p
 #: C/general.page:28
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"Hoewel <app>Metagegevensopruiming</app> probeert de metagegevens zo goed als "
+"mogelijk te tonen, maar biedt geen garantie dat alle gegevens nadien zijn "
+"verwijderd. Er is geen betrouwbare manier om élk gegeven uit te lezen, zeker "
+"bij complexere bestandsformaten. Om deze reden moet je je niet blind staren "
+"op de aanwezigheid van metagegevens als je besluit om een bestand op te "
+"schonen."
 
 #. (itstool) path: section/p
 #: C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Metagegevensopruiming</app> scant de bestandsinhoud en verwijdert alle "
+"metagegevens zodat je er bijna zeker van kunt zijn dat ze helemaal "
+"verwijderd zijn."
 
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Beperkingen"
 
 #. (itstool) path: section/p
 #: C/general.page:36
 msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Let op: metagegevens zijn niet de enige manier om een bestand op te maken. "
+"Als de inhoud persoonlijke informatie bevat of gewatermerkt is, dan biedt "
+"<app>Metagegevensopruiming</app> geen bescherming."
 
 #. (itstool) path: page/title
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Metagegevensopruiming"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -129,7 +154,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:47
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Eenvoudige modus"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
