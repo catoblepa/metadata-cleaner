@@ -7,365 +7,444 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-10 14:45+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-11 16:06+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/metadata-cleaner/"
+"application/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: data/ui/AboutDialog.ui:66 metadatacleaner/app.py:38
+#, fuzzy
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Metadatarenseren"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "Rens metadata fra dine filer"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:16
+#, fuzzy
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "Metadata;renser;tømning;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Warn before saving cleaned files"
-msgstr ""
+msgstr "Advar før lagring af rensede filer"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
+#, fuzzy
 msgid "Show the warning dialog before saving the cleaned files"
-msgstr ""
+msgstr "Vis en advarselsdialog inden rensede filer lagres"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:28
+#, fuzzy
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Enkel rens"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
+#, fuzzy
 msgid ""
 "Trade some metadata's presence in exchange of the guarantee that the data "
 "won't be modified"
 msgstr ""
+"La der blive igen metadata hvis det betyder at filens nyttedata aldrig "
+"ændres."
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
+#, fuzzy
 msgid "Window width"
-msgstr ""
+msgstr "Vinduesbredde"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
+#, fuzzy
 msgid "Saved width of the window"
-msgstr ""
+msgstr "Lagret bredde for programvinduet"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
+#, fuzzy
 msgid "Window height"
-msgstr ""
+msgstr "Vindueshøjde"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
+#, fuzzy
 msgid "Saved height of the window"
-msgstr ""
+msgstr "Lagret højde for programvinduet"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Vis og rens metadata i filer"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#, fuzzy
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when a picture was taken and what camera was used. Office applications "
 "automatically add author and company information to documents and "
 "spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"Metadata i filer fortæller meget om dig. Kameraer spiller ind data om når et "
+"bilde ble knipset og hvilket kamera der brugtes. Kontorsoftware tillægger "
+"forfatter og bedriftsinfo automatisk i dokumenter og regneark. Måske du ikke "
+"vil dele af dig alt der findes i sandemosen?"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#, fuzzy
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of them, "
 "as much as possible."
-msgstr ""
+msgstr "Vis metadata i dine filer og rens dem."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
+#, fuzzy
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "Forbedret adaptivt brugergrensesnitt"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New help pages"
-msgstr ""
+msgstr "Nye hjælpesider"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#, fuzzy
 msgid "One-click cleaning, no need to clean then save anymore"
-msgstr ""
+msgstr "Etkliksrens. Ingen efterfølgende manuel lagring."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
+#, fuzzy
 msgid "Lightweight cleaning option is now saved"
-msgstr ""
+msgstr "Enkel rensevalg er nu vedvarende"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
+#, fuzzy
 msgid "New translations"
-msgstr ""
+msgstr "Oversættelser opdateret"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:98
 msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr ""
+msgstr "Kroatisk oversættelse, ved Milo Ivir"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+#, fuzzy
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr ""
+msgstr "Portugisisk (Brasil) oversættelse, ved Gustavo Costa"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
+#, fuzzy
 msgid "New in v1.0.4:"
-msgstr ""
+msgstr "Nydt i v1.0.4:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
 msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr ""
+msgstr "Tyrkisk oversættelse, ved Oğuz Ersen"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:115
+#, fuzzy
 msgid "New in v1.0.2:"
-msgstr ""
+msgstr "Nydt i v1.0.2:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:117
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr ""
+msgstr "Spansk oversættelse, ved Óscar Fernández Díaz"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#, fuzzy
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr ""
+msgstr "Svensk oversættelse, ved Åke Engelbrektson"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
+#, fuzzy
 msgid "Bug fixes:"
-msgstr ""
+msgstr "Aflusning:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
+#, fuzzy
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "Filer med store bogstaver i filendelse kan nu lægges til"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
+#, fuzzy
 msgid "New in v1.0.1:"
-msgstr ""
+msgstr "Nydt i v1.0.1:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
 msgid "German translation (contributed by lux)"
-msgstr ""
+msgstr "Tysk oversættelse, ved lux"
 
 #: data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "Filer"
 
 #: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
+#, fuzzy
 msgid "Add files"
-msgstr ""
+msgstr "Tillæg filer"
 
 #: data/gtk/help-overlay.ui:24
+#, fuzzy
 msgid "Clean metadata"
-msgstr ""
+msgstr "Rens metadata"
 
 #: data/gtk/help-overlay.ui:30
+#, fuzzy
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Rens alle filer fra vinduet"
 
 #: data/gtk/help-overlay.ui:38
+#, fuzzy
 msgid "General"
-msgstr ""
+msgstr "Generelt"
 
 #: data/gtk/help-overlay.ui:41
+#, fuzzy
 msgid "New window"
-msgstr ""
+msgstr "Nydt vindue"
 
 #: data/gtk/help-overlay.ui:47
+#, fuzzy
 msgid "Close window"
-msgstr ""
+msgstr "Luk vindue"
 
 #: data/gtk/help-overlay.ui:53
 msgid "Quit"
-msgstr ""
+msgstr "Afslut"
 
 #: data/gtk/help-overlay.ui:59
+#, fuzzy
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Tastaturgenveje"
 
 #: data/gtk/help-overlay.ui:65
 msgid "Help"
-msgstr ""
+msgstr "Hjælp"
 
 #: data/ui/AboutDialog.ui:87
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "Sludre på Matrix"
 
 #: data/ui/AboutDialog.ui:97
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "Vis kildekode på GitLab"
 
 #: data/ui/AboutDialog.ui:107
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "Oversæt på Weblate"
 
 #: data/ui/AboutDialog.ui:117
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Stødt os på Liberapay"
 
 #: data/ui/AboutDialog.ui:147
 msgid "Code"
-msgstr ""
+msgstr "Kildekode"
 
 #: data/ui/AboutDialog.ui:153
+#, fuzzy
 msgid "Artwork"
-msgstr ""
+msgstr "Billedværk"
 
 #: data/ui/AboutDialog.ui:159
+#, fuzzy
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: data/ui/AboutDialog.ui:165
 msgid "Translation"
-msgstr ""
+msgstr "Oversættelse"
 
 #: data/ui/AboutDialog.ui:170
+#, fuzzy
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
+"Programmet bruger <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> til å "
+"tolke og rense metadata. Vis dem din gunst."
 
 #: data/ui/AboutDialog.ui:183
+#, fuzzy
 msgid ""
 "The source code of this program is released under the terms of the <a href="
 "\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"Licenseret <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GPLv3+</a>. "
+"Originale kunstværk og oversættelser licenseret <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: data/ui/AboutDialog.ui:196
+#, fuzzy
 msgid ""
 "The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks of "
 "their respective owners."
 msgstr ""
+"Logoer og navne for GitLab, Matrix, og Weblate er varemærker der tilhører "
+"sine respektive eiere."
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_Rens"
 
 #: data/ui/EmptyView.ui:13
+#, fuzzy
 msgid "Clean your traces."
-msgstr ""
+msgstr "Rens dine spor"
 
 #: data/ui/EmptyView.ui:27
+#, fuzzy
 msgid "Learn more about metadata and the cleaning process limitations."
-msgstr ""
+msgstr "Lær mer om metadata og begrensninger i renseprocessen."
 
 #: data/ui/FileRow.ui:12
+#, fuzzy
 msgid "Remove file from list"
-msgstr ""
+msgstr "Fjern filen fra listen"
 
 #: data/ui/FileRow.ui:93
+#, fuzzy
 msgid "Warning"
-msgstr ""
+msgstr "Advarsel"
 
 #: data/ui/FileRow.ui:111
+#, fuzzy
 msgid "Error"
-msgstr ""
+msgstr "Feil"
 
 #: data/ui/FileRow.ui:151
+#, fuzzy
 msgid "Cleaned"
-msgstr ""
+msgstr "Renset"
 
 #: data/ui/MenuButton.ui:10
+#, fuzzy
 msgid "_New window"
-msgstr ""
+msgstr "_Nydt vindue"
 
 #: data/ui/MenuButton.ui:14
+#, fuzzy
 msgid "_Clear window"
-msgstr ""
+msgstr "_Tøm vindue"
 
 #: data/ui/MenuButton.ui:20
+#, fuzzy
 msgid "_Help"
-msgstr ""
+msgstr "_Hjælp"
 
 #: data/ui/MenuButton.ui:25
+#, fuzzy
 msgid "_Keyboard shortcuts"
-msgstr ""
+msgstr "_ Tastaturgjenvege"
 
 #: data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_Om Metadatarenseren"
 
 #: data/ui/SaveWarningDialog.ui:9
+#, fuzzy
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Forsikre er om at de har sikkerhedskopiered dine filer."
 
 #: data/ui/SaveWarningDialog.ui:10
+#, fuzzy
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "Når filene først er renset er det ingen veg tilbage"
 
 #: data/ui/SaveWarningDialog.ui:17
+#, fuzzy
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Ikke påmind mig"
 
 #: data/ui/SaveWarningDialog.ui:25
+#, fuzzy
 msgid "Cancel"
-msgstr ""
+msgstr "Afbryd"
 
 #: data/ui/SaveWarningDialog.ui:30
+#, fuzzy
 msgid "Clean"
-msgstr ""
+msgstr "Rens"
 
 #: data/ui/SettingsButton.ui:9
+#, fuzzy
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Rensningsindstillinger"
 
 #: data/ui/SettingsButton.ui:33
+#, fuzzy
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Lær mer om enkel rens"
 
 #: data/ui/Window.ui:72
+#, fuzzy
 msgid "Details"
-msgstr ""
+msgstr "Detaljer"
 
 #: data/ui/Window.ui:78
+#, fuzzy
 msgid "Close"
-msgstr ""
+msgstr "Luk"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: data/ui/Window.ui:98
+#, fuzzy
 msgid "translator-credits"
-msgstr ""
+msgstr "Allan Nordhøy <epost@anotheragency.no>"
 
 #: data/ui/Window.ui:107
+#, fuzzy
 msgid "Choose files to clean"
-msgstr ""
+msgstr "Hvilke filer der skal renses"
 
 #: metadatacleaner/modules/file.py:223
+#, fuzzy
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
+msgstr "Der gik noget galt under rens. Finner ikke den rensede fil."
 
 #: metadatacleaner/ui/detailsview.py:58
+#, fuzzy
 msgid "The file has been cleaned."
-msgstr ""
+msgstr "Filen har blevet renset."
 
 #: metadatacleaner/ui/detailsview.py:69
+#, fuzzy
 msgid "Unable to read the file."
-msgstr ""
+msgstr "Kunne ikke læse filen."
 
 #: metadatacleaner/ui/detailsview.py:70
+#, fuzzy
 msgid "File type not supported."
-msgstr ""
+msgstr "Filtypen er ikke støttet."
 
 #: metadatacleaner/ui/detailsview.py:72
+#, fuzzy
 msgid "Unable to check metadata."
-msgstr ""
+msgstr "Kunne ikke udføre check af metadata."
 
 #: metadatacleaner/ui/detailsview.py:74
+#, fuzzy
 msgid "No known metadata, the file will be cleaned to be sure."
-msgstr ""
+msgstr "Ingen kendt metadata. Filen vil blive renset for at være sikker."
 
 #: metadatacleaner/ui/detailsview.py:76
+#, fuzzy
 msgid "Unable to remove metadata."
-msgstr ""
+msgstr "Kunne ikke fjerne metadata."
 
 #: metadatacleaner/ui/filechooserdialog.py:24
+#, fuzzy
 msgid "All supported files"
-msgstr ""
+msgstr "Alle filer der støttes"
 
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "Behandler fil {}/{}"
