@@ -1,141 +1,202 @@
+# Allan Nordhøy <epost@anotheragency.no>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-11 16:06+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Danish <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
+#, fuzzy
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metadata og personværn"
 
 #. (itstool) path: section/p
 #: C/general.page:15
+#, fuzzy
 msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
 msgstr ""
+"Metadata består af info der karakteriserer data. Det bruges til at tilby "
+"dokumentation for dataprodukter. I sum besvarer metadata hvem, hvad, hvor, "
+"når, hvorfor, og hvordan om hver faset av den data der dokumenteres."
 
 #. (itstool) path: section/p
 #: C/general.page:16
+#, fuzzy
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"Metadata i filer fortæller meget om dig. Kameraer spiller ind data om når et "
+"bilde ble knipset og hvilket kamera der brugtes. Kontorsoftware tillægger "
+"forfatter og bedriftsinfo automatisk i dokumenter og regneark. Måske du ikke "
+"vil dele af dig alt der findes i sandemosen?"
 
 #. (itstool) path: figure/title
 #: C/general.page:18
+#, fuzzy
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Eksempler på metadata i en billedfil"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
+#, fuzzy
 msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Filen tilkendegiver info om maskinvaren, indstillinger, dato, og stedet "
+"billedet blev knipset. Det indeholder i alt 79 bider metadata."
 
 #. (itstool) path: section/title
 #: C/general.page:27
+#, fuzzy
 msgid "Cleaning process"
-msgstr ""
+msgstr "Renseprocessen"
 
 #. (itstool) path: section/p
 #: C/general.page:28
+#, fuzzy
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"Selv om <app>Metadatarenseren</app> gør sit yderste for at vise metadata, "
+"betyder det ikke at en fil er tom for metadata om det ser slik ud. Det er "
+"ingen pålidelig måder at opdage alle metadata i komplekse filformater. "
+"Derfor bør du ikke stole på hvorvidt du ser metadata for om en fil bør "
+"renses eller ikke."
 
 #. (itstool) path: section/p
 #: C/general.page:29
+#, fuzzy
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Metadatarenseren</app> tar alt indeholdende i en fil og putter det i en "
+"ny uden. Dette forsikrer at alle uopdagede data er strippet."
 
 #. (itstool) path: section/title
 #: C/general.page:35
+#, fuzzy
 msgid "Limitations"
-msgstr ""
+msgstr "Begrensninger"
 
 #. (itstool) path: section/p
 #: C/general.page:36
+#, fuzzy
 msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Husk at der findes flere måder å markere en fil, som når filindholdet "
+"tilkendegiver personlig info eller har blevet vandmærket. "
+"<app>Metadatarenseren</app> vil da ikke beskytte dig."
 
 #. (itstool) path: page/title
 #: C/index.page:10
+#, fuzzy
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Metadatarenseren"
 
 #. (itstool) path: page/p
 #: C/index.page:14
+#, fuzzy
 msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
 msgstr ""
+"<app>Metadatarensern</app> vis metadata i dine filer og lader dig rens dem."
 
 #. (itstool) path: section/title
 #: C/index.page:17
+#, fuzzy
 msgid "General informations"
-msgstr ""
+msgstr "Generel info"
 
 #. (itstool) path: section/title
 #: C/index.page:21
+#, fuzzy
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Brug af <app>Metadatarenseren</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
+#, fuzzy
 msgid "Adding files"
-msgstr ""
+msgstr "Tillæg af filer"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
+#, fuzzy
 msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
 msgstr ""
+"Click <gui style=\"button\">Tillæg filer</gui>-knappen for at lægge til "
+"filer. En filudvælger vil åbnes, og de kan vælge hvad de vil ha renset."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
+#, fuzzy
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Tillæg filer</gui>-knappen"
 
 #. (itstool) path: section/title
 #: C/usage.page:25
+#, fuzzy
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Visning af metadata"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
+#, fuzzy
 msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
 msgstr ""
+"Click på en fil i listen for at åbne detaljeret visning. Hvis den har "
+"metadata vil den blive vist her."
 
 #. (itstool) path: figure/title
 #: C/usage.page:28
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Detaljeret visning af metadaten"
 
 #. (itstool) path: section/title
 #: C/usage.page:36
+#, fuzzy
 msgid "Cleaning files"
-msgstr ""
+msgstr "Rens af filer"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
+#, fuzzy
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"For å rense alle filer i vinduet, click på <gui style=\"button\">Rens</gui>-"
+"knappen. Renseprocessen kan tage litt tid."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
+#, fuzzy
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Rens</gui>-knappen"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
+#, fuzzy
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Enkel rens"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
+#, fuzzy
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"Renseprocessen kan omfatte nyttedata som forvalg, for at rense så meget som "
+"mulig er. For eksempel kan dette gi sig udslag i at tekst i PDF-er ikke "
+"længer kan velges, eller at komprimerede billeder ikke kan sammenpakkes "
+"igen, osv."
 
 #. (itstool) path: section/p
 #: C/usage.page:49
+#, fuzzy
 msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
 msgstr ""
+"La der blive igen metadata hvis det betyder at filens nyttedata aldrig "
+"ændres. Det enkle modus gør nemt det."
