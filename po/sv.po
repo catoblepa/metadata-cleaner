@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021.
+# Allan Nordhøy <epost@anotheragency.no>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-10 14:45+0200\n"
-"PO-Revision-Date: 2021-08-10 14:55+0000\n"
-"Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
+"PO-Revision-Date: 2021-08-11 16:06+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/sv/>\n"
 "Language: sv\n"
@@ -49,10 +50,11 @@ msgid "Lightweight cleaning"
 msgstr "_Lättviktsläge"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
+#, fuzzy
 msgid ""
 "Trade some metadata's presence in exchange of the guarantee that the data "
 "won't be modified"
-msgstr ""
+msgstr "Lämna något metadata, när det betyder att filens data aldrig ändras."
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -95,16 +97,19 @@ msgstr ""
 "mycket som möjligt."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
+#, fuzzy
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "Bättre anpassningsbart användargränssnitt"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+#, fuzzy
 msgid "New help pages"
-msgstr ""
+msgstr "Nya hjälpasidor"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#, fuzzy
 msgid "One-click cleaning, no need to clean then save anymore"
-msgstr ""
+msgstr "Rensning med ett klick. Inget behov for att rensa och sen lagra."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 #, fuzzy
