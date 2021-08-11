@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: 2021-08-11 16:06+0000\n"
+"PO-Revision-Date: 2021-08-12 08:43+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/nl/>\n"
@@ -95,61 +95,70 @@ msgstr "Metagegevensopruiming"
 #: C/index.page:14
 msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
 msgstr ""
+"<app>Metagegevensopruiming</app> stelt je in staat metagegevens te bekijken "
+"en ze zo goed als mogelijk te verwijderen."
 
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General informations"
-msgstr ""
+msgstr "Algemene informatie"
 
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "<app>Metagegevensopruiming</app> gebruiken"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Bestanden toevoegen"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
 msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
 msgstr ""
+"Voeg bestanden toe door op de knop <gui style=\"button\">Bestanden "
+"toevoegen</gui> te klikken. In de bestandskiezer kun je aangeven welke "
+"bestanden je wilt opschonen."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Bestanden toevoegen</gui>-knop"
 
 #. (itstool) path: section/title
 #: C/usage.page:25
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Metagegevens bekijken"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
 msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
 msgstr ""
+"Klik op een bestand op de lijst om de details te tonen. Als er metagegevens "
+"zijn, dan worden ze daar getoond."
 
 #. (itstool) path: figure/title
 #: C/usage.page:28
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Metagegevensdetails"
 
 #. (itstool) path: section/title
 #: C/usage.page:36
 msgid "Cleaning files"
-msgstr ""
+msgstr "Bestanden opschonen"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Schoon bestanden op door op de knop <gui style=\"button\">Opschonen</gui> te "
+"klikken. Het opschoonproces kan even duren."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Opschonen</gui>-knop"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
@@ -160,8 +169,15 @@ msgstr "Eenvoudige modus"
 #: C/usage.page:48
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"Standaard tast het verwijderproces je bestanden een beetje aan om zoveel "
+"mogelijk metagegevens te verwijderen. Voorbeelden: tekst in pdf-bestanden is "
+"mogelijk niet meer selecteerbaar, gecomprimeerde afbeeldingen worden opnieuw "
+"gecomprimeerd…"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
 msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
 msgstr ""
+"Als je niet wilt dat dit gebeurt en bereid bent voor lief te nemen dat er "
+"mogelijk een paar gegevens achterblijven, dan is de eenvoudige modus "
+"geschikt."
