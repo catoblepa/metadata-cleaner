@@ -86,7 +86,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                               <object class="OutButton">
                                 <property name="label" translatable="yes">Chat on Matrix</property>
                                 <property name="uri">https://matrix.to/#/#metadata-cleaner:gnome.org</property>
-                                <property name="icon-name">metadatacleaner-matrix-symbolic</property>
+                                <property name="icon-name">metadatacleaner-chat-symbolic</property>
                                 <style>
                                   <class name="matrix"/>
                                 </style>
@@ -96,7 +96,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                               <object class="OutButton">
                                 <property name="label" translatable="yes">View the code on GitLab</property>
                                 <property name="uri">https://gitlab.com/rmnvgr/metadata-cleaner/</property>
-                                <property name="icon-name">metadatacleaner-gitlab-symbolic</property>
+                                <property name="icon-name">metadatacleaner-code-symbolic</property>
                                 <style>
                                   <class name="gitlab"/>
                                 </style>
@@ -106,7 +106,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                               <object class="OutButton">
                                 <property name="label" translatable="yes">Translate on Weblate</property>
                                 <property name="uri">https://hosted.weblate.org/engage/metadata-cleaner/</property>
-                                <property name="icon-name">metadatacleaner-weblate-symbolic</property>
+                                <property name="icon-name">metadatacleaner-translate-symbolic</property>
                                 <style>
                                   <class name="weblate"/>
                                 </style>
@@ -116,7 +116,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                               <object class="OutButton">
                                 <property name="label" translatable="yes">Support us on Liberapay</property>
                                 <property name="uri">https://liberapay.com/rmnvgr/donate</property>
-                                <property name="icon-name">metadatacleaner-liberapay-symbolic</property>
+                                <property name="icon-name">metadatacleaner-support-symbolic</property>
                                 <style>
                                   <class name="liberapay"/>
                                 </style>
@@ -181,19 +181,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
                         <child>
                           <object class="GtkLabel">
                             <property name="label" translatable="yes"><![CDATA[The source code of this program is released under the terms of the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU GPL 3.0 or later</a>. The original artwork and translations are released under the terms of the <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.]]></property>
-                            <property name="justify">center</property>
-                            <property name="wrap">True</property>
-                            <property name="width-chars">40</property>
-                            <property name="max-width-chars">40</property>
-                            <property name="use-markup">True</property>
-                            <style>
-                              <class name="caption" />
-                            </style>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="GtkLabel">
-                            <property name="label" translatable="yes">The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks of their respective owners.</property>
                             <property name="justify">center</property>
                             <property name="wrap">True</property>
                             <property name="width-chars">40</property>

@@ -9,11 +9,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file compressed="true" alias="style-dark.css">css/style-dark.css</file>
 		<file compressed="true" preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks" alias="icons/metadatacleaner-background-logo.svg">icons/background-logo.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-chat-symbolic.svg">icons/chat-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-code-symbolic.svg">icons/code-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-remove-symbolic.svg">icons/remove-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/places/metadatacleaner-gitlab-symbolic.svg">icons/gitlab-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/places/metadatacleaner-liberapay-symbolic.svg">icons/liberapay-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/places/metadatacleaner-matrix-symbolic.svg">icons/matrix-symbolic.svg</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/places/metadatacleaner-weblate-symbolic.svg">icons/weblate-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-support-symbolic.svg">icons/support-symbolic.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-translate-symbolic.svg">icons/translate-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-ok-symbolic.svg">icons/ok-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-error-symbolic.svg">icons/error-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-warning-symbolic.svg">icons/warning-symbolic.svg</file>
