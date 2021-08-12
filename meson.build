@@ -14,10 +14,10 @@ gnome = import('gnome')
 i18n = import('i18n')
 python = import('python').find_installation('python3', modules: ['libmat2'])
 
-dependency('gtk4', version: '>=4.0')
-dependency('libadwaita-1')
-dependency('pygobject-3.0', version: '>=3.40')
-dependency('python3')
+# dependency('gtk4', version: '>=4.0')
+# dependency('libadwaita-1')
+# dependency('pygobject-3.0', version: '>=3.40')
+# dependency('python3')
 
 prefix = get_option('prefix')
 
