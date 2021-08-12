@@ -52,7 +52,7 @@ meson install -C builddir
 Flatpak building is also available and requires the GNOME platform and SDK runtimes:
 
 ```sh
-flatpak-builder --force-clean --user --install builddir data/fr.romainvigier.MetadataCleaner.yaml
+flatpak-builder --force-clean --user --install builddir build-aux/fr.romainvigier.MetadataCleaner.yaml
 ```
 
 ## Contributing
