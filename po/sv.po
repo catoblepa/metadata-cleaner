@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-10 14:45+0200\n"
+"POT-Creation-Date: 2021-08-12 12:21+0200\n"
 "PO-Revision-Date: 2021-08-11 16:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -36,15 +36,15 @@ msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;Borttagning;Rensning;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Warn before saving cleaned files"
-msgstr "Varna innan rensade filer sparas"
+msgid "Clean without warning"
+msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Show the warning dialog before saving the cleaned files"
-msgstr "Visa varningsmeddelandet innan de rensade filerna sparas"
+msgid "Clean the files without showing the warning dialog"
+msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-#: data/ui/SettingsButton.ui:28
+#: data/ui/SettingsButton.ui:27
 #, fuzzy
 msgid "Lightweight cleaning"
 msgstr "_Lättviktsläge"
@@ -266,16 +266,30 @@ msgstr ""
 "Originalbildkonsten och översättningarna är släppta enligt villkoren i <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
-#: data/ui/AboutDialog.ui:196
-msgid ""
-"The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks of "
-"their respective owners."
-msgstr ""
-"Logotyperna och namnen GitLab, Matrix, Liberapay och Weblate är varumärken "
-"som tillhör respektive ägare."
-
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
+msgstr "_Rensa"
+
+#: data/ui/CleaningWarningDialog.ui:9
+msgid "Make sure you backed up your files!"
+msgstr "Tillse att du har säkerhetskopierat dina filer!"
+
+#: data/ui/CleaningWarningDialog.ui:10
+#, fuzzy
+msgid "Once the files are cleaned, there's no going back."
+msgstr "När du väl har bytt ut dina filer finns det ingen återvändo."
+
+#: data/ui/CleaningWarningDialog.ui:17
+msgid "Don't tell me again"
+msgstr "Visa inte igen"
+
+#: data/ui/CleaningWarningDialog.ui:25
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: data/ui/CleaningWarningDialog.ui:30
+#, fuzzy
+msgid "Clean"
 msgstr "_Rensa"
 
 #: data/ui/EmptyView.ui:13
@@ -323,33 +337,11 @@ msgstr "_Tangentbordsgenvägar"
 msgid "_About Metadata Cleaner"
 msgstr "_Om Metadata Cleaner"
 
-#: data/ui/SaveWarningDialog.ui:9
-msgid "Make sure you backed up your files!"
-msgstr "Tillse att du har säkerhetskopierat dina filer!"
-
-#: data/ui/SaveWarningDialog.ui:10
-#, fuzzy
-msgid "Once the files are cleaned, there's no going back."
-msgstr "När du väl har bytt ut dina filer finns det ingen återvändo."
-
-#: data/ui/SaveWarningDialog.ui:17
-msgid "Don't tell me again"
-msgstr "Visa inte igen"
-
-#: data/ui/SaveWarningDialog.ui:25
-msgid "Cancel"
-msgstr "Avbryt"
-
-#: data/ui/SaveWarningDialog.ui:30
-#, fuzzy
-msgid "Clean"
-msgstr "_Rensa"
-
 #: data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
 msgstr "Rensningsinställningar"
 
-#: data/ui/SettingsButton.ui:33
+#: data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
 msgstr "Läs mer om lättviktsrensning"
 
@@ -412,6 +404,19 @@ msgstr "Alla filer som stöds"
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "Bearbetar fil {}/{}"
+
+#~ msgid "Warn before saving cleaned files"
+#~ msgstr "Varna innan rensade filer sparas"
+
+#~ msgid "Show the warning dialog before saving the cleaned files"
+#~ msgstr "Visa varningsmeddelandet innan de rensade filerna sparas"
+
+#~ msgid ""
+#~ "The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks "
+#~ "of their respective owners."
+#~ msgstr ""
+#~ "Logotyperna och namnen GitLab, Matrix, Liberapay och Weblate är "
+#~ "varumärken som tillhör respektive ägare."
 
 #~ msgid "Romain Vigier"
 #~ msgstr "Romain Vigier"

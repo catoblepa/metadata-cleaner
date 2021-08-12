@@ -8,6 +8,7 @@ data/gtk/help-overlay.ui
 data/ui/AboutDialog.ui
 data/ui/AddFilesButton.ui
 data/ui/Badge.ui
+data/ui/CleaningWarningDialog.ui
 data/ui/CleanMetadataButton.ui
 data/ui/CreditsRole.ui
 data/ui/DetailsView.ui
@@ -19,7 +20,6 @@ data/ui/MenuButton.ui
 data/ui/MetadataDetails.ui
 data/ui/MetadataDetailsRow.ui
 data/ui/OutButton.ui
-data/ui/SaveWarningDialog.ui
 data/ui/SettingsButton.ui
 data/ui/StatusIndicator.ui
 data/ui/Window.ui
@@ -30,6 +30,7 @@ metadatacleaner/modules/logger.py
 metadatacleaner/ui/aboutdialog.py
 metadatacleaner/ui/addfilesbutton.py
 metadatacleaner/ui/badge.py
+metadatacleaner/ui/cleaningwarningdialog.py
 metadatacleaner/ui/cleanmetadatabutton.py
 metadatacleaner/ui/creditsrole.py
 metadatacleaner/ui/detailsview.py
@@ -42,7 +43,6 @@ metadatacleaner/ui/menubutton.py
 metadatacleaner/ui/metadatadetails.py
 metadatacleaner/ui/metadatadetailsrow.py
 metadatacleaner/ui/outbutton.py
-metadatacleaner/ui/savewarningdialog.py
 metadatacleaner/ui/settingsbutton.py
 metadatacleaner/ui/statusindicator.py
 metadatacleaner/ui/window.py

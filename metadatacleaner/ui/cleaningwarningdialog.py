@@ -1,18 +1,19 @@
 # SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-"""Dialog warning the user of possible data loss on saving."""
+"""Dialog warning the user of possible data loss on cleaning."""
 
 from gi.repository import Gio, GObject, Gtk
 
 
 @Gtk.Template(
-    resource_path="/fr/romainvigier/MetadataCleaner/ui/SaveWarningDialog.ui"
+    resource_path=(
+        "/fr/romainvigier/MetadataCleaner/ui/CleaningWarningDialog.ui")
 )
-class SaveWarningDialog(Gtk.MessageDialog):
-    """Dialog warning the user of possible data loss on saving."""
+class CleaningWarningDialog(Gtk.MessageDialog):
+    """Dialog warning the user of possible data loss on cleaning."""
 
-    __gtype_name__ = "SaveWarningDialog"
+    __gtype_name__ = "CleaningWarningDialog"
 
     settings = GObject.Property(type=Gio.Settings)
 
@@ -27,7 +28,7 @@ class SaveWarningDialog(Gtk.MessageDialog):
         if not self.settings:
             return
         self.settings.bind(
-            "warn-before-saving",
+            "cleaning-without-warning",
             self._checkbutton,
             "active",
-            Gio.SettingsBindFlags.INVERT_BOOLEAN)
+            Gio.SettingsBindFlags.DEFAULT)

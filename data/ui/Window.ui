@@ -113,13 +113,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
     </binding>
     <signal name="response" handler="_on_file_chooser_dialog_response"/>
   </object>
-  <object class="SaveWarningDialog" id="_save_warning_dialog">
+  <object class="CleaningWarningDialog" id="_cleaning_warning_dialog">
     <binding name="transient-for">
       <lookup name="root" type="GtkWidget"/>
     </binding>
     <binding name="settings">
       <lookup name="settings" type="MetadataCleaner"><lookup name="application" type="GtkApplicationWindow"><lookup name="root" type="GtkWidget"/></lookup></lookup>
     </binding>
-    <signal name="response" handler="_on_save_warning_dialog_response"/>
+    <signal name="response" handler="_on_cleaning_warning_dialog_response"/>
   </object>
 </interface>

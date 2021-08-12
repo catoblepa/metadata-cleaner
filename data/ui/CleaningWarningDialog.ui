@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <template class="SaveWarningDialog" parent="GtkMessageDialog">
+  <template class="CleaningWarningDialog" parent="GtkMessageDialog">
     <property name="modal">True</property>
     <property name="text" translatable="yes">Make sure you backed up your files!</property>
     <property name="secondary-text" translatable="yes">Once the files are cleaned, there's no going back.</property>

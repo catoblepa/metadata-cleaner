@@ -15,7 +15,7 @@ from metadatacleaner.ui.filechooserdialog import FileChooserDialog
 from metadatacleaner.ui.filesview import FilesView
 from metadatacleaner.ui.menubutton import MenuButton
 from metadatacleaner.ui.detailsview import DetailsView
-from metadatacleaner.ui.savewarningdialog import SaveWarningDialog
+from metadatacleaner.ui.cleaningwarningdialog import CleaningWarningDialog
 
 
 @Gtk.Template(resource_path="/fr/romainvigier/MetadataCleaner/ui/Window.ui")
@@ -33,7 +33,7 @@ class Window(Adw.ApplicationWindow):
 
     _about_dialog: AboutDialog = Gtk.Template.Child()
     _file_chooser_dialog: FileChooserDialog = Gtk.Template.Child()
-    _save_warning_dialog: SaveWarningDialog = Gtk.Template.Child()
+    _cleaning_warning_dialog: CleaningWarningDialog = Gtk.Template.Child()
 
     def __init__(
         self,
@@ -177,9 +177,9 @@ class Window(Adw.ApplicationWindow):
 
         def on_clean_metadata(action: Gio.Action, parameters: None) -> None:
             self.close_details_view()
-            if self.get_application() \
-                    .settings.get_boolean("warn-before-saving"):
-                self._save_warning_dialog.show()
+            if not self.get_application() \
+                    .settings.get_boolean("cleaning-without-warning"):
+                self._cleaning_warning_dialog.show()
                 return
             self.file_store.clean_files()
         clean_metadata = Gio.SimpleAction.new("clean-metadata", None)
@@ -207,9 +207,9 @@ class Window(Adw.ApplicationWindow):
             self.file_store.add_gfiles(dialog.get_files())
 
     @Gtk.Template.Callback()
-    def _on_save_warning_dialog_response(
+    def _on_cleaning_warning_dialog_response(
             self,
-            dialog: SaveWarningDialog,
+            dialog: CleaningWarningDialog,
             response: Gtk.ResponseType) -> None:
         dialog.hide()
         if response == Gtk.ResponseType.OK:

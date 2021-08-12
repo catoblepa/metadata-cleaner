@@ -20,6 +20,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file compressed="true" preprocess="xml-stripblanks">ui/AboutDialog.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/AddFilesButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/Badge.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/CleaningWarningDialog.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/CleanMetadataButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/CreditsRole.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/DetailsView.ui</file>
@@ -31,7 +32,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataDetails.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataDetailsRow.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/OutButton.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/SaveWarningDialog.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/SettingsButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/StatusIndicator.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/Window.ui</file>

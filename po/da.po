@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-10 14:45+0200\n"
+"POT-Creation-Date: 2021-08-12 12:21+0200\n"
 "PO-Revision-Date: 2021-08-11 16:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -37,16 +37,15 @@ msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;renser;tømning;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Warn before saving cleaned files"
-msgstr "Advar før lagring af rensede filer"
+msgid "Clean without warning"
+msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-#, fuzzy
-msgid "Show the warning dialog before saving the cleaned files"
-msgstr "Vis en advarselsdialog inden rensede filer lagres"
+msgid "Clean the files without showing the warning dialog"
+msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-#: data/ui/SettingsButton.ui:28
+#: data/ui/SettingsButton.ui:27
 #, fuzzy
 msgid "Lightweight cleaning"
 msgstr "Enkel rens"
@@ -279,21 +278,37 @@ msgid ""
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
 "Licenseret <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GPLv3+</a>. "
-"Originale kunstværk og oversættelser licenseret <a href=\"https"
-"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-
-#: data/ui/AboutDialog.ui:196
-#, fuzzy
-msgid ""
-"The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks of "
-"their respective owners."
-msgstr ""
-"Logoer og navne for GitLab, Matrix, og Weblate er varemærker der tilhører "
-"sine respektive eiere."
+"Originale kunstværk og oversættelser licenseret <a href=\"https://"
+"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Rens"
+
+#: data/ui/CleaningWarningDialog.ui:9
+#, fuzzy
+msgid "Make sure you backed up your files!"
+msgstr "Forsikre er om at de har sikkerhedskopiered dine filer."
+
+#: data/ui/CleaningWarningDialog.ui:10
+#, fuzzy
+msgid "Once the files are cleaned, there's no going back."
+msgstr "Når filene først er renset er det ingen veg tilbage"
+
+#: data/ui/CleaningWarningDialog.ui:17
+#, fuzzy
+msgid "Don't tell me again"
+msgstr "Ikke påmind mig"
+
+#: data/ui/CleaningWarningDialog.ui:25
+#, fuzzy
+msgid "Cancel"
+msgstr "Afbryd"
+
+#: data/ui/CleaningWarningDialog.ui:30
+#, fuzzy
+msgid "Clean"
+msgstr "Rens"
 
 #: data/ui/EmptyView.ui:13
 #, fuzzy
@@ -349,37 +364,12 @@ msgstr "_ Tastaturgjenvege"
 msgid "_About Metadata Cleaner"
 msgstr "_Om Metadatarenseren"
 
-#: data/ui/SaveWarningDialog.ui:9
-#, fuzzy
-msgid "Make sure you backed up your files!"
-msgstr "Forsikre er om at de har sikkerhedskopiered dine filer."
-
-#: data/ui/SaveWarningDialog.ui:10
-#, fuzzy
-msgid "Once the files are cleaned, there's no going back."
-msgstr "Når filene først er renset er det ingen veg tilbage"
-
-#: data/ui/SaveWarningDialog.ui:17
-#, fuzzy
-msgid "Don't tell me again"
-msgstr "Ikke påmind mig"
-
-#: data/ui/SaveWarningDialog.ui:25
-#, fuzzy
-msgid "Cancel"
-msgstr "Afbryd"
-
-#: data/ui/SaveWarningDialog.ui:30
-#, fuzzy
-msgid "Clean"
-msgstr "Rens"
-
 #: data/ui/SettingsButton.ui:9
 #, fuzzy
 msgid "Cleaning settings"
 msgstr "Rensningsindstillinger"
 
-#: data/ui/SettingsButton.ui:33
+#: data/ui/SettingsButton.ui:32
 #, fuzzy
 msgid "Learn more about the lightweight cleaning"
 msgstr "Lær mer om enkel rens"
@@ -448,3 +438,18 @@ msgstr "Alle filer der støttes"
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "Behandler fil {}/{}"
+
+#~ msgid "Warn before saving cleaned files"
+#~ msgstr "Advar før lagring af rensede filer"
+
+#, fuzzy
+#~ msgid "Show the warning dialog before saving the cleaned files"
+#~ msgstr "Vis en advarselsdialog inden rensede filer lagres"
+
+#, fuzzy
+#~ msgid ""
+#~ "The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks "
+#~ "of their respective owners."
+#~ msgstr ""
+#~ "Logoer og navne for GitLab, Matrix, og Weblate er varemærker der tilhører "
+#~ "sine respektive eiere."

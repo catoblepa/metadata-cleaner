@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-10 14:45+0200\n"
+"POT-Creation-Date: 2021-08-12 12:21+0200\n"
 "PO-Revision-Date: 2021-08-11 13:59+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -36,15 +36,15 @@ msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;Remover;Cleaner;Metadatos;Limpiador;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Warn before saving cleaned files"
-msgstr "Avisar antes de guardar los archivos limpios"
+msgid "Clean without warning"
+msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Show the warning dialog before saving the cleaned files"
-msgstr "Mostrar advertencia antes de guardar los archivos limpiados"
+msgid "Clean the files without showing the warning dialog"
+msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-#: data/ui/SettingsButton.ui:28
+#: data/ui/SettingsButton.ui:27
 msgid "Lightweight cleaning"
 msgstr "Limpieza ligera"
 
@@ -255,17 +255,29 @@ msgstr ""
 "términos de <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC "
 "BY-SA 4.0</a>."
 
-#: data/ui/AboutDialog.ui:196
-msgid ""
-"The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks of "
-"their respective owners."
-msgstr ""
-"Los logotipos y nombres de GitLab, Matrix, Liberapay y Weblate son marcas "
-"comerciales de sus respectivos propietarios."
-
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Limpiar"
+
+#: data/ui/CleaningWarningDialog.ui:9
+msgid "Make sure you backed up your files!"
+msgstr "¡Asegúrese de hacer una copia de seguridad de sus archivos!"
+
+#: data/ui/CleaningWarningDialog.ui:10
+msgid "Once the files are cleaned, there's no going back."
+msgstr "Una vez limpiados los archivos, no hay vuelta atrás."
+
+#: data/ui/CleaningWarningDialog.ui:17
+msgid "Don't tell me again"
+msgstr "No volver a mostrar este mensaje"
+
+#: data/ui/CleaningWarningDialog.ui:25
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: data/ui/CleaningWarningDialog.ui:30
+msgid "Clean"
+msgstr "Limpiar"
 
 #: data/ui/EmptyView.ui:13
 msgid "Clean your traces."
@@ -313,31 +325,11 @@ msgstr "Atajos de _teclado"
 msgid "_About Metadata Cleaner"
 msgstr "Acerca de Limpiador de _metadatos"
 
-#: data/ui/SaveWarningDialog.ui:9
-msgid "Make sure you backed up your files!"
-msgstr "¡Asegúrese de hacer una copia de seguridad de sus archivos!"
-
-#: data/ui/SaveWarningDialog.ui:10
-msgid "Once the files are cleaned, there's no going back."
-msgstr "Una vez limpiados los archivos, no hay vuelta atrás."
-
-#: data/ui/SaveWarningDialog.ui:17
-msgid "Don't tell me again"
-msgstr "No volver a mostrar este mensaje"
-
-#: data/ui/SaveWarningDialog.ui:25
-msgid "Cancel"
-msgstr "Cancelar"
-
-#: data/ui/SaveWarningDialog.ui:30
-msgid "Clean"
-msgstr "Limpiar"
-
 #: data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
 msgstr "Ajustes de limpieza"
 
-#: data/ui/SettingsButton.ui:33
+#: data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
 msgstr "Más información sobre la limpieza ligera"
 
@@ -393,6 +385,19 @@ msgstr "Todos los archivos compatibles"
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "Procesando archivo {}/{}"
+
+#~ msgid "Warn before saving cleaned files"
+#~ msgstr "Avisar antes de guardar los archivos limpios"
+
+#~ msgid "Show the warning dialog before saving the cleaned files"
+#~ msgstr "Mostrar advertencia antes de guardar los archivos limpiados"
+
+#~ msgid ""
+#~ "The GitLab, Matrix, Liberapay and Weblate logos and names are trademarks "
+#~ "of their respective owners."
+#~ msgstr ""
+#~ "Los logotipos y nombres de GitLab, Matrix, Liberapay y Weblate son marcas "
+#~ "comerciales de sus respectivos propietarios."
 
 #~ msgid "Romain Vigier"
 #~ msgstr "Romain Vigier"
