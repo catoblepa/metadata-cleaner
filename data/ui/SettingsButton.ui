@@ -10,7 +10,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="icon-name">emblem-system-symbolic</property>
     <property name="popover">settings-popover</property>
     <property name="valign">center</property>
-    <signal name="notify::settings" handler="_on_settings_changed"/>
     <style>
       <class name="circular"/>
     </style>
@@ -44,6 +43,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
               <object class="GtkSwitch" id="_lightweight_switch">
                 <property name="valign">center</property>
                 <property name="margin-start">48</property>
+                <property name="action-name">app.lightweight-cleaning</property>
               </object>
             </child>
           </object>

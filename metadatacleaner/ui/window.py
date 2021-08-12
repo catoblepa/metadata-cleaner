@@ -187,20 +187,6 @@ class Window(Adw.ApplicationWindow):
         clean_metadata.set_enabled(False)
         self.add_action(clean_metadata)
 
-        def on_lightweight_mode(action: Gio.Action, parameters: None) -> None:
-            active = not self.get_application() \
-                .settings.get_boolean("lightweight-cleaning")
-            self.file_store.lightweight_mode = active
-            self.get_application().settings \
-                .set_boolean("lightweight-cleaning", active)
-            action.set_state(GLib.Variant.new_boolean(active))
-        lightweight_mode = Gio.SimpleAction.new_stateful(
-            "lightweight-mode",
-            None,
-            self.get_application().settings.get_value("lightweight-cleaning"))
-        lightweight_mode.connect("activate", on_lightweight_mode)
-        self.add_action(lightweight_mode)
-
     # SIGNALS
 
     @Gtk.Template.Callback()

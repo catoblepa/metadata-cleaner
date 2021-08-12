@@ -73,11 +73,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
             <property name="orientation">horizontal</property>
             <property name="spacing">6</property>
             <child>
-              <object class="SettingsButton">
-                <binding name="settings">
-                  <lookup name="settings" type="MetadataCleaner"><lookup name="application" type="GtkApplicationWindow"><lookup name="root" type="GtkWidget"/></lookup></lookup>
-                </binding>
-              </object>
+              <object class="SettingsButton"/>
             </child>
             <child>
               <object class="CleanMetadataButton"/>
