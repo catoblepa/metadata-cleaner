@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-12 12:21+0200\n"
-"PO-Revision-Date: 2021-08-11 06:09+0000\n"
-"Last-Translator: liimee <alt3753.7@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/id/>\n"
+"PO-Revision-Date: 2021-08-13 10:21+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,11 +37,11 @@ msgstr "Metadata;Penghapus;Pembersih;"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr ""
+msgstr "Bersihkan tanpa peringatan"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr ""
+msgstr "Bersihkan file tanpa menampilkan dialog peringatan"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:27
@@ -53,6 +53,8 @@ msgid ""
 "Trade some metadata's presence in exchange of the guarantee that the data "
 "won't be modified"
 msgstr ""
+"Perdagangkan beberapa metadata sebagai ganti jaminan bahwa data tidak akan "
+"dimodifikasi"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -81,6 +83,11 @@ msgid ""
 "automatically add author and company information to documents and "
 "spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
+"Metadata dalam file dapat mengetahui banyak tentang Anda. Kamera merekam "
+"data tentang kapan gambar diambil dan kamera apa yang digunakan. Aplikasi "
+"Office secara otomatis menambahkan penulis dan informasi perusahaan ke "
+"dokumen dan spreadsheet. Mungkin Anda tidak ingin mengungkapkan informasi-"
+"informasi tersebut."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -92,7 +99,7 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "Tampilan antarmuka adaptif yang ditingkatkan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New help pages"
@@ -146,7 +153,7 @@ msgstr "Perbaikan bug:"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "Berkas dengan ekstensi huruf besar kini bisa ditambahkan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "New in v1.0.1:"
@@ -170,7 +177,7 @@ msgstr "Bersihkan metadata"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Hapus semua berkas dari jendela"
 
 #: data/gtk/help-overlay.ui:38
 msgid "General"
@@ -218,7 +225,7 @@ msgstr "Kode"
 
 #: data/ui/AboutDialog.ui:153
 msgid "Artwork"
-msgstr ""
+msgstr "Ilustrasi"
 
 #: data/ui/AboutDialog.ui:159
 msgid "Documentation"
@@ -229,14 +236,12 @@ msgid "Translation"
 msgstr "Terjemahan"
 
 #: data/ui/AboutDialog.ui:170
-#, fuzzy
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
-"<small>Program ini menggunakan <a href=\"https://0xacab.org/jvoisin/"
-"mat2\">mat2</a> untuk membersihkan metadata. Tunjukkan pada mereka cinta!</"
-"small>"
+"Program ini menggunakan <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
+"untuk membersihkan metadata. Tunjukkan pada mereka cinta!"
 
 #: data/ui/AboutDialog.ui:183
 msgid ""
@@ -245,6 +250,10 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"Kode sumber dari program ini dirilis berdasarkan ketentuan <a href=\"https"
+"://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 atau yang lebih baru</a>. "
+"Karya seni dan terjemahan asli dirilis di bawah ketentuan <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -256,7 +265,7 @@ msgstr "Pastikan Anda sudah mencadangkan berkas Anda!"
 
 #: data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "Setelah berkas dibersihkan, tidak bisa kembali semula lagi."
 
 #: data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
@@ -276,7 +285,7 @@ msgstr "Hapus jejak Anda."
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
-msgstr ""
+msgstr "Pelajari lebih lanjut tentang metadata dan batasan proses pembersihan."
 
 #: data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -299,9 +308,8 @@ msgid "_New window"
 msgstr "_Jendela baru"
 
 #: data/ui/MenuButton.ui:14
-#, fuzzy
 msgid "_Clear window"
-msgstr "Tutup jendela"
+msgstr "_Bersihkan jendela"
 
 #: data/ui/MenuButton.ui:20
 msgid "_Help"
@@ -365,11 +373,10 @@ msgid "Unable to check metadata."
 msgstr "Gagal saat memeriksa metadata."
 
 #: metadatacleaner/ui/detailsview.py:74
-#, fuzzy
 msgid "No known metadata, the file will be cleaned to be sure."
 msgstr ""
-"Tidak ada metadata yang ditemukan.\n"
-"Berkas akan tetap dibersihkan, lebih baik aman daripada menyesal."
+"Tidak ada metadata yang ditemukan. Berkas akan tetap dibersihkan, lebih baik "
+"aman daripada menyesal."
 
 #: metadatacleaner/ui/detailsview.py:76
 msgid "Unable to remove metadata."
