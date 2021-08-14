@@ -16,7 +16,6 @@ finish-args:
 
 cleanup:
   - /include
-  - /lib/libsass.so
   - /lib/pkgconfig
   - /share/doc
   - /share/man
