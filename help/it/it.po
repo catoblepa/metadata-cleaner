@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: 2021-08-13 05:43+0000\n"
+"PO-Revision-Date: 2021-08-16 11:43+0000\n"
 "Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/it/>\n"
@@ -154,11 +154,14 @@ msgstr "Pulizia dei file"
 #: C/usage.page:37
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Per pulire tutti i file nella finestra, premere il <gui style=\"button\""
+">Pulsante</gui> pulisci. Il completamento del processo di pulizia potrebbe "
+"richiedere del tempo."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Pulsante</gui> pulisci"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
