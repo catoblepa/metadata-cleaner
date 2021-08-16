@@ -1,11 +1,12 @@
 # Allan Nordhøy <epost@anotheragency.no>, 2021.
 # Luna Jernberg <droidbittin@gmail.com>, 2021.
+# Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-04-23 14:39+0200\n"
-"PO-Revision-Date: 2021-08-16 11:43+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2021-08-17 12:35+0000\n"
+"Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/sv/>\n"
 "Language: sv\n"
@@ -33,9 +34,9 @@ msgstr ""
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
 msgstr ""
 "Metadata i en fil kan säga mycket om dig. Kameran tar upp data om när en "
-"bild tagits, och kameran som används. Kontorsprogramvara lägger in "
-"författare och info om bedriften i dokument och kalkylblad. Kanske ni inte "
-"ville uppgiva den infon?"
+"bild tagits, och vilken kamera som används. Kontorsprogramvara lägger "
+"automatiskt till författare och info om företag i dokument och kalkylblad. "
+"Kanske du inte vill avslöja den informationen."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
@@ -166,10 +167,10 @@ msgstr "Lätt upprensning"
 #: C/usage.page:48
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
-"Som förval kan det hända processen ändrar en bit av dom reella uppgifterna i "
-"dina filer, for att rensa så mycket metadata som mögligt. Till exempel vill "
-"text i PDF-er inte kunna väljas, komprimerade bilder vill inte kunna "
-"sammanpackas igen."
+"Som standard händer det att processen ändrar lite data i dina filer, för att "
+"rensa bort så mycket metadata som möjligt. Som exempel kan text i PDF-filer "
+"kanske inte markeras längre eller komprimerade bilder kanske inte kan "
+"komprimeras mer…"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
