@@ -524,6 +524,5 @@ msgstr "Bezig met verwerken van bestand {}/{}…"
 #~ msgid "The cleaned file has been saved."
 #~ msgstr "Het opgeruimde bestand is opgeslagen."
 
-#, python-brace-format
 #~ msgid "{filename}:"
 #~ msgstr "{filename}:"

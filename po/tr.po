@@ -516,6 +516,5 @@ msgstr "{}/{} dosya işleniyor"
 #~ msgid "The cleaned file has been saved."
 #~ msgstr "Temizlenen dosya kaydedildi."
 
-#, python-brace-format
 #~ msgid "{filename}:"
 #~ msgstr "{filename}:"

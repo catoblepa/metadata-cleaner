@@ -518,6 +518,5 @@ msgstr "Procesando archivo {}/{}"
 #~ msgid "The cleaned file has been saved."
 #~ msgstr "El archivo limpiado ha sido guardado."
 
-#, python-brace-format
 #~ msgid "{filename}:"
 #~ msgstr "{filename}:"

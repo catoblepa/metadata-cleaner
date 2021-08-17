@@ -524,7 +524,6 @@ msgstr "Traitement du fichier {}/{}"
 #~ msgid "The cleaned file has been saved."
 #~ msgstr "Le fichier nettoyé a été enregistré."
 
-#, python-brace-format
 #~ msgid "{filename}:"
 #~ msgstr "{filename} :"
 

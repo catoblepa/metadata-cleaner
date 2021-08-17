@@ -447,6 +447,5 @@ msgstr "Behandler fil {}/{}"
 #~ msgid "The cleaned file has been saved."
 #~ msgstr "Den rensede filen har blitt lagret."
 
-#, python-brace-format
 #~ msgid "{filename}:"
 #~ msgstr "{filename}:"

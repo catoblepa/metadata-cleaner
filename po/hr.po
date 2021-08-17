@@ -522,6 +522,5 @@ msgstr "Obrada datoteke {}/{}"
 #~ msgid "The cleaned file has been saved."
 #~ msgstr "Očišćena datoteka je spremljena."
 
-#, python-brace-format
 #~ msgid "{filename}:"
 #~ msgstr "{filename}:"

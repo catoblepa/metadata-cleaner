@@ -514,6 +514,5 @@ msgstr "Processando arquivo {}/{}"
 #~ msgid "The cleaned file has been saved."
 #~ msgstr "O arquivo limpo foi salvo."
 
-#, python-brace-format
 #~ msgid "{filename}:"
 #~ msgstr "{filename}:"

@@ -496,6 +496,5 @@ msgstr "Käsitellään tiedostoa {}/{}"
 #~ msgid "The cleaned file has been saved."
 #~ msgstr "Siivottu tiedosto on tallennettu."
 
-#, python-brace-format
 #~ msgid "{filename}:"
 #~ msgstr "{filename}:"

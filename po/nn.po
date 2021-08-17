@@ -51,7 +51,8 @@ msgstr "Lett reingjøring"
 msgid ""
 "Trade some metadata's presence in exchange of the guarantee that the data "
 "won't be modified"
-msgstr "Ikkje reingjør all metadata når det ville medført fjerning av nyttedata"
+msgstr ""
+"Ikkje reingjør all metadata når det ville medført fjerning av nyttedata"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -245,9 +246,9 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"Kjeldekoden har lisensen <a href=\"https://www.gnu.org/licenses/gpl-3.0."
-"html\">«GPLv3+»</a>. Kunstverk og omsettingar har <a href=\"https"
-"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>-lisens."
+"Kjeldekoden har lisensen <a href=\"https://www.gnu.org/licenses/gpl-3.0.html"
+"\">«GPLv3+»</a>. Kunstverk og omsettingar har <a href=\"https://"
+"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>-lisens."
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
