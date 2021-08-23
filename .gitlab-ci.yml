@@ -4,6 +4,7 @@
 variables:
   APP_ID: fr.romainvigier.MetadataCleaner
   MANIFEST: build-aux/fr.romainvigier.MetadataCleaner.yaml
+  PACKAGE_REGISTRY_URL: ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/metadata-cleaner
 
 workflow:
   rules:
@@ -136,15 +137,63 @@ package:
   needs:
     - job: app
       artifacts: true
+    - job: debug
+      artifacts: true
   image: curlimages/curl:latest
   rules:
     - if: $CI_COMMIT_TAG
   script:
-    - 'curl --header "JOB-TOKEN: $CI_JOB_TOKEN" --upload-file $APP_ID.flatpak "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/metadata-cleaner/$CI_COMMIT_TAG/$APP_ID.flatpak"'
+    - |
+      curl \
+      --header "JOB-TOKEN: $CI_JOB_TOKEN" \
+      --upload-file ${APP_ID}.flatpak \
+      "${PACKAGE_REGISTRY_URL}/$CI_COMMIT_TAG/${APP_ID}.flatpak"'
+    - |
+      curl \
+      --header "JOB-TOKEN: $CI_JOB_TOKEN" \
+      --upload-file ${APP_ID}.flatpak \
+      "${PACKAGE_REGISTRY_URL}/$CI_COMMIT_TAG/${APP_ID}.Debug.flatpak"'
+
+release-notes:
+  extends: .python
+  stage: deploy
+  needs:
+    - reuse
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - ./build-aux/get_release_notes.py $CI_COMMIT_TAG > release-notes.md
+  artifacts:
+    paths:
+      - release-notes.md
+    expire_in: 1 day
+
+release:
+  stage: deploy
+  needs:
+    - package
+    - job: release-notes
+      artifacts: true
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+  script:
+    - echo "Creating release for $CI_COMMIT_TAG"
+  release:
+    name: Metadata Cleaner $CI_COMMIT_TAG
+    tag_name: $CI_COMMIT_TAG
+    description: release-notes.md
+    assets:
+      links:
+        - name: Flatpak bundle
+          url: ${PACKAGE_REGISTRY_URL}/${CI_COMMIT_TAG}/${APP_ID}.flatpak
+          filepath: /${APP_ID}.flatpak
+          link_type: package
 
 pages:
   stage: deploy
-  needs: []
+  needs:
+    - reuse
   image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
   script:
     - cp -r website public
