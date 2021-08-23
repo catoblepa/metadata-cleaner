@@ -4,11 +4,11 @@ SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 <svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
- <rect width="64" height="64" fill="#813d9c" fill-rule="evenodd"/>
- <g transform="matrix(.61624 0 0 .61624 12.256 11.826)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.3801">
-  <path d="m27.436 30.165c6.7955 17.806 21.339 26.584 21.339 26.584"/>
-  <path d="m39.025 60.942c-13.279-12.721-28.948-35.841-13.927-39.587 12.74-3.1773 8.3516 16.544 29.899 29.101"/>
-  <path d="m28.212 61.478c-19.876-18.871-22.883-39.437-9.8283-46.164 24.846-12.803 24.16 20.272 41.166 28.286"/>
-  <path d="m12.522 55.379c-7.8612-9.9308-19.982-38.193 3.3534-48.266 30.822-13.305 34.138 19.876 45.923 25.768"/>
+ <rect id="background" width="64" height="64" fill="#813d9c"/>
+ <g id="fingerprint" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5">
+  <path d="m29.148 30.853c4.2472 11.129 13.309 16.566 13.309 16.566"/>
+  <path d="m36.857 49.977c-9.3444-7.4225-18.559-22.288-9.1706-24.629 7.9625-1.9858 5.3946 10.471 18.862 18.319"/>
+  <path d="m29.574 50.459c-12.422-11.794-14.244-24.683-6.0846-28.888 15.529-8.0019 15.1 12.67 25.729 17.679"/>
+  <path d="m19.531 46.991c-6.1105-8.4812-10.936-24.281 2.391-30.544 18.989-8.925 21.824 13.021 28.64 17.199"/>
  </g>
 </svg>

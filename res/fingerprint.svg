@@ -1,78 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64"
-   height="64"
-   viewBox="0 0 64 64"
-   version="1.1"
-   id="svg986"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="fingerprint.svg">
-  <defs
-     id="defs980" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="30.206939"
-     inkscape:cy="40.2298"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     units="px"
-     inkscape:snap-global="false"
-     inkscape:snap-page="true" />
-  <metadata
-     id="metadata983">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="fingerprint"
-     inkscape:groupmode="layer"
-     id="layer1"
-     sodipodi:insensitive="true">
-    <path
-       style="fill:none;stroke:#000000;stroke-width:4.38009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 27.436327,30.164835 c 6.7955,17.806193 21.339099,26.584067 21.339099,26.584067"
-       id="path1549"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:4.38009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 39.025162,60.94243 C 25.746538,48.221822 10.077309,25.101822 25.097875,21.35581 37.838104,18.178497 33.449456,37.899727 54.996641,50.457025"
-       id="path1551"
-       sodipodi:nodetypes="csc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:4.38009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 28.212256,61.477811 C 8.3366624,42.606405 5.3291742,22.041101 18.383995,15.314133 43.230384,2.5111342 42.544106,35.58659 59.549548,43.599698"
-       id="path1553"
-       sodipodi:nodetypes="csc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:4.38009;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 12.521504,55.379234 C 4.6602773,45.448384 -7.4605268,17.185909 15.874933,7.1131457 46.697359,-6.1913706 50.012928,26.989416 61.798391,32.880801"
-       id="path1555"
-       sodipodi:nodetypes="csc" />
-  </g>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+ <g id="fingerprint" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+  <path d="m27.436 30.165c6.7955 17.806 21.294 26.505 21.294 26.505"/>
+  <path d="m39.771 60.763c-14.951-11.876-29.694-35.661-14.673-39.407 12.74-3.1773 8.6314 16.753 30.179 29.31"/>
+  <path d="m28.119 61.534c-19.876-18.871-22.79-39.493-9.7354-46.22 24.846-12.803 24.16 20.272 41.166 28.286"/>
+  <path d="m12.049 55.985c-9.7769-13.57-17.498-38.849 3.8255-48.871 30.383-14.28 34.919 20.834 45.824 27.518"/>
+ </g>
 </svg>
