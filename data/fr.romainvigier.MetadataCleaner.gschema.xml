@@ -13,7 +13,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <key name="lightweight-cleaning" type="b">
             <default>false</default>
             <summary>Lightweight cleaning</summary>
-            <description>Trade some metadata's presence in exchange of the guarantee that the data won't be modified</description>
+            <description>Don't make destructive changes to files but may leave some metadata</description>
         </key>
         <key name="window-width" type="u">
             <default>400</default>

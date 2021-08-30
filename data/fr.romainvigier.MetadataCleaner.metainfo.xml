@@ -23,8 +23,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <url type="translate">https://hosted.weblate.org/engage/metadata-cleaner/</url>
 
   <description>
-    <p>Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office applications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations.</p>
-    <p>This tool allows you to view metadata in your files and to get rid of them, as much as possible.</p>
+    <p>Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office aplications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it.</p>
+    <p>This tool allows you to view metadata in your files and to get rid of it, as much as possible.</p>
   </description>
 
   <launchable type="desktop-id">fr.romainvigier.MetadataCleaner.desktop</launchable>
@@ -73,8 +73,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <ul>
           <li>Improved adaptive user interface</li>
           <li>New help pages</li>
-          <li>One-click cleaning, no need to clean then save anymore</li>
-          <li>Lightweight cleaning option is now saved</li>
+          <li>One-click cleaning, no need to save after cleaning</li>
+          <li>Persistent ightweight cleaning option</li>
         </ul>
       </description>
     </release>
