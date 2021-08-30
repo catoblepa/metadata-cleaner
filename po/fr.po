@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 18:50+0200\n"
-"PO-Revision-Date: 2021-08-30 16:00+0000\n"
+"PO-Revision-Date: 2021-08-31 18:37+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/fr/>\n"
@@ -110,8 +110,6 @@ msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Nettoyage en un clic, plus besoin d’enregistrer après avoir nettoyé"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-#, fuzzy
-#| msgid "Persistent ightweight cleaning option"
 msgid "Persistent lightweight cleaning option"
 msgstr "L’option de nettoyage léger est désormais mémorisée"
 
