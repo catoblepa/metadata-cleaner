@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 18:50+0200\n"
-"PO-Revision-Date: 2021-08-13 05:43+0000\n"
+"PO-Revision-Date: 2021-08-31 18:37+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/nl/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -52,6 +52,8 @@ msgstr "Eenvoudige modus"
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
+"Ga niet te grondig te werk, hoewel er dan wel metagegevens kunnen "
+"achterblijven"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -74,13 +76,6 @@ msgid "View and clean metadata in files"
 msgstr "Bekijk metagegevens in bestanden en verwijder ze"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when a picture was taken and what camera was used. Office "
-#| "applications automatically add author and company information to "
-#| "documents and spreadsheets. Maybe you don't want to disclose those "
-#| "informations."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -89,21 +84,17 @@ msgid ""
 "disclose it."
 msgstr ""
 "Metagegevens in een bestand kunnen herleidbaar zijn tot jou. Zo slaan "
-"camera's informatie op over wanneer een foto is genomen, welke camera je "
-"hebt gebruikt, enz. En kantoorpakketten (zoals tekstverwerkers) voegen "
-"automatisch auteurs- en bedrijfsinformatie toe. Misschien wil je al die "
-"informatie niet prijgeven."
+"camera's informatie op over waar en wanneer een foto is genomen, welke "
+"camera je hebt gebruikt, enz. En kantoorpakketten (zoals tekstverwerkers) "
+"voegen automatisch auteurs- en bedrijfsinformatie toe. Misschien wil je dat "
+"soort gevoelige informatie niet prijgeven."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
-#, fuzzy
-#| msgid ""
-#| "This tool allows you to view metadata in your files and to get rid of "
-#| "them, as much as possible."
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
-"Met deze toepassing kun je die metagegevens beijken en ze zo goed als "
+"Met deze toepassing kun je die metagegevens bekijken en ze zo goed als "
 "mogelijk verwijderen."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
@@ -115,17 +106,13 @@ msgid "New help pages"
 msgstr "Nieuwe hulppagina's"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#, fuzzy
-#| msgid "One-click cleaning, no need to clean then save anymore"
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr ""
-"Opschonen met één klik: je hoeft niet meer op te schonen en dan op te slaan"
+"Opschonen met één klik: je hoeft niet op te schonen en dan nog op te slaan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-#, fuzzy
-#| msgid "Lightweight cleaning option is now saved"
 msgid "Persistent lightweight cleaning option"
-msgstr "De eenvoudige modus-optie wordt voortaan onthouden"
+msgstr "Permanente eenvoudige modus-optie"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
