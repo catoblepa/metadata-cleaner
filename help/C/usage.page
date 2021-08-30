@@ -23,7 +23,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 			<link type="guide" xref="index#usage"/>
 		</info>
 		<title>Viewing metadata</title>
-		<p>Click on a file in the list to open the detailed view. If it has metadata, they will be shown there.</p>
+		<p>Click on a file in the list to open the detailed view. If it has metadata, it will be shown there.</p>
 		<figure>
 			<title>Detailed view of the metadata</title>
 			<media type="image" src="figures/metadata-example.png" its:translate="no"/>
@@ -46,6 +46,6 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 		</info>
 		<title>Lightweight cleaning</title>
 		<p>By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…</p>
-		<p>If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that.</p>
+		<p>The lightweight mode, while not as thorough, will not make destructive changes to your files.</p>
 	</section>
 </page>

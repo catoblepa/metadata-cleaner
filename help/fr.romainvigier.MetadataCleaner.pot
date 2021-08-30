@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-04-23 14:39+0200\n"
+"POT-Creation-Date: 2021-08-30 17:04+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,12 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:15
-msgid "Metadata consist of information that characterizes data. Metadata are used to provide documentation for data products. In essence, metadata answer who, what, when, where, why, and how about every facet of the data that are being documented."
+msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
 msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
-msgid "Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office aplications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations."
+msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office aplications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
 
 #. (itstool) path: figure/title
@@ -31,7 +31,7 @@ msgstr ""
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
-msgid "The file discloses informations about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
+msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -41,7 +41,7 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:28
-msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from any metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
 
 #. (itstool) path: section/p
@@ -56,17 +56,18 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:36
-msgid "Be aware that metadata are not the only way of marking a file. If the content discloses personal informations or has been watermarked, <app>Metadata Cleaner</app> will not protect you."
+msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 
 #. (itstool) path: page/title
+#. The application name. It can be translated.
 #: C/index.page:10
 msgid "Metadata Cleaner"
 msgstr ""
 
 #. (itstool) path: page/p
 #: C/index.page:14
-msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of them, as much as possible."
+msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
 msgstr ""
 
 #. (itstool) path: section/title
@@ -101,7 +102,7 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/usage.page:26
-msgid "Click on a file in the list to open the detailed view. If it has metadata, they will be shown there."
+msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
 msgstr ""
 
 #. (itstool) path: figure/title
@@ -136,6 +137,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/usage.page:49
-msgid "If you're willing to trade some metadata's presence in exchange of the guarantee that the data of your files won't be modified, the lightweight mode precisely does that."
+msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
 msgstr ""
 
