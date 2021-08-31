@@ -86,9 +86,12 @@ flatpak-repo:
       optional: true
     - reuse
   image: registry.gitlab.com/rmnvgr/metadata-cleaner/flatpak-builder:latest
+  variables:
+    FLATPAK_SYSTEM_DIR: "$CI_PROJECT_DIR/.flatpak"
   cache:
     - key: flatpak-repo-$CI_COMMIT_REF_SLUG
       paths:
+        - .flatpak
         - .flatpak-builder
   script:
     - if [[ -v CI_COMMIT_TAG ]]; then build-aux/prepare_release.py; fi
