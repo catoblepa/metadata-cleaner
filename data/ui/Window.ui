@@ -5,7 +5,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
   <template class="Window" parent="AdwApplicationWindow">
-    <child>
+    <property name="content">
       <object class="AdwFlap" id="_mode_flap">
         <property name="transition-type">slide</property>
         <property name="swipe-to-open">False</property>
@@ -87,7 +87,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           </object>
         </property>
       </object>
-    </child>
+    </property>
   </template>
   <object class="AboutDialog" id="_about_dialog">
     <property name="modal">True</property>

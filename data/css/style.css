@@ -56,7 +56,7 @@ headerbar:not(.flat)
 
 .file-list:not(.small)
 {
-	margin: 30px;
+	padding: 30px;
 }
 
 .file-list row

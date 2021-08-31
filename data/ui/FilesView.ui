@@ -12,49 +12,44 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <property name="vexpand">True</property>
         <property name="hscrollbar-policy">never</property>
         <child>
-          <object class="GtkViewport">
-            <property name="scroll-to-focus">True</property>
+          <object class="AdwClampScrollable">
+            <property name="orientation">horizontal</property>
+            <property name="tightening-threshold">600</property>
             <child>
-              <object class="AdwClamp">
-                <property name="orientation">horizontal</property>
-                <property name="tightening-threshold">600</property>
-                <child>
-                  <object class="GtkListView">
-                    <property name="model">
-                      <object class="GtkSingleSelection" id="_selection_model">
-                        <property name="autoselect">False</property>
-                        <property name="can-unselect">True</property>
-                        <property name="model" bind-source="FilesView" bind-property="file-store"/>
-                        <signal name="selection-changed" handler="_on_selection_changed"/>
-                      </object>
-                    </property>
-                    <property name="factory">
-                      <object class="GtkBuilderListItemFactory">
-                        <property name="bytes">
-                          <![CDATA[
-                            <interface>
-                              <template class="GtkListItem">
-                                <property name="child">
-                                  <object class="FileRow">
-                                    <binding name="file">
-                                      <lookup name="item">GtkListItem</lookup>
-                                    </binding>
-                                    <binding name="position">
-                                      <lookup name="position">GtkListItem</lookup>
-                                    </binding>
-                                  </object>
-                                </property>
-                              </template>
-                            </interface>
-                          ]]>
-                        </property>
-                      </object>
-                    </property>
-                    <style>
-                      <class name="file-list"/>
-                    </style>
+              <object class="GtkListView">
+                <property name="model">
+                  <object class="GtkSingleSelection" id="_selection_model">
+                    <property name="autoselect">False</property>
+                    <property name="can-unselect">True</property>
+                    <property name="model" bind-source="FilesView" bind-property="file-store"/>
+                    <signal name="selection-changed" handler="_on_selection_changed"/>
                   </object>
-                </child>
+                </property>
+                <property name="factory">
+                  <object class="GtkBuilderListItemFactory">
+                    <property name="bytes">
+                      <![CDATA[
+                        <interface>
+                          <template class="GtkListItem">
+                            <property name="child">
+                              <object class="FileRow">
+                                <binding name="file">
+                                  <lookup name="item">GtkListItem</lookup>
+                                </binding>
+                                <binding name="position">
+                                  <lookup name="position">GtkListItem</lookup>
+                                </binding>
+                              </object>
+                            </property>
+                          </template>
+                        </interface>
+                      ]]>
+                    </property>
+                  </object>
+                </property>
+                <style>
+                  <class name="file-list"/>
+                </style>
               </object>
             </child>
           </object>

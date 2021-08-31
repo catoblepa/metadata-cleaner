@@ -12,7 +12,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <style>
       <class name="flat"/>
     </style>
-    <child>
+    <property name="content">
       <object class="GtkWindowHandle">
         <child>
           <object class="GtkBox">
@@ -212,7 +212,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
           </object>
         </child>
       </object>
-    </child>
+    </property>
     <child>
       <object class="GtkShortcutController">
         <property name="scope">managed</property>
