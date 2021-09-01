@@ -7,9 +7,9 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 ![](./data/icons/hicolor/scalable/apps/fr.romainvigier.MetadataCleaner.svg)
 
-Metadata within a file can tell a lot about you. Cameras record data about when a picture was taken and what camera was used. Office applications automatically add author and company information to documents and spreadsheets. Maybe you don't want to disclose those informations.
+Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office aplications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it.
 
-This tool allows you to view metadata in your files and to get rid of them, as much as possible.
+This tool allows you to view metadata in your files and to get rid of it, as much as possible.
 
 Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse and remove the metadata.
 
