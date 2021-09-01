@@ -58,20 +58,35 @@ SPDX-License-Identifier: GPL-3.0-or-later
     </child>
     <child>
       <object class="GtkActionBar">
-        <child type="start">
-          <object class="StatusIndicator">
-            <property name="file-store" bind-source="FilesView" bind-property="file-store"/>
-          </object>
-        </child>
-        <child type="end">
-          <object class="GtkBox">
+        <child type="center">
+          <object class="AdwClamp">
             <property name="orientation">horizontal</property>
-            <property name="spacing">6</property>
+            <property name="tightening-threshold">540</property>
+            <property name="maximum-size">540</property>
+            <property name="hexpand">True</property>
             <child>
-              <object class="SettingsButton"/>
-            </child>
-            <child>
-              <object class="CleanMetadataButton"/>
+              <object class="GtkBox">
+                <property name="orientation">horizontal</property>
+                <property name="hexpand">True</property>
+                <child>
+                  <object class="StatusIndicator">
+                    <property name="file-store" bind-source="FilesView" bind-property="file-store"/>
+                    <property name="hexpand">True</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkBox">
+                    <property name="orientation">horizontal</property>
+                    <property name="spacing">6</property>
+                    <child>
+                      <object class="SettingsButton"/>
+                    </child>
+                    <child>
+                      <object class="CleanMetadataButton"/>
+                    </child>
+                  </object>
+                </child>
+              </object>
             </child>
           </object>
         </child>
