@@ -19,40 +19,40 @@ SPDX-License-Identifier: GPL-3.0-or-later
       </object>
     </child>
     <child>
-      <object class="GtkFrame">
-        <child>
-          <object class="GtkListView">
-            <property name="model">
-              <object class="GtkNoSelection">
-                <property name="model" bind-source="MetadataDetails" bind-property="metadata-list"/>
-              </object>
-            </property>
-            <property name="factory">
-              <object class="GtkBuilderListItemFactory">
-                <property name="bytes">
-                  <![CDATA[
-                    <interface>
-                      <template class="GtkListItem">
-                        <property name="activatable">False</property>
-                        <property name="child">
-                          <object class="MetadataDetailsRow">
-                            <binding name="key">
-                              <lookup name="key" type="Metadata"><lookup name="item">GtkListItem</lookup></lookup>
-                            </binding>
-                            <binding name="value">
-                              <lookup name="value" type="Metadata"><lookup name="item">GtkListItem</lookup></lookup>
-                            </binding>
-                          </object>
-                        </property>
-                      </template>
-                    </interface>
-                  ]]>
-                </property>
-              </object>
-            </property>
-            <property name="show-separators">True</property>
+      <object class="GtkListView">
+        <property name="model">
+          <object class="GtkNoSelection">
+            <property name="model" bind-source="MetadataDetails" bind-property="metadata-list"/>
           </object>
-        </child>
+        </property>
+        <property name="factory">
+          <object class="GtkBuilderListItemFactory">
+            <property name="bytes">
+              <![CDATA[
+                <interface>
+                  <template class="GtkListItem">
+                    <property name="selectable">False</property>
+                    <property name="activatable">False</property>
+                    <property name="child">
+                      <object class="MetadataDetailsRow">
+                        <binding name="key">
+                          <lookup name="key" type="Metadata"><lookup name="item">GtkListItem</lookup></lookup>
+                        </binding>
+                        <binding name="value">
+                          <lookup name="value" type="Metadata"><lookup name="item">GtkListItem</lookup></lookup>
+                        </binding>
+                      </object>
+                    </property>
+                  </template>
+                </interface>
+              ]]>
+            </property>
+          </object>
+        </property>
+        <property name="show-separators">True</property>
+        <style>
+          <class name="frame"/>
+        </style>
       </object>
     </child>
   </template>

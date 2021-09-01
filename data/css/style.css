@@ -211,3 +211,8 @@ headerbar:not(.flat)
 {
 	background-color: rgba(46, 204, 170, 1);
 }
+
+.frame
+{
+	border-radius: 6px;
+}
