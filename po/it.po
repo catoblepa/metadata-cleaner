@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 18:50+0200\n"
-"PO-Revision-Date: 2021-08-13 05:43+0000\n"
+"PO-Revision-Date: 2021-09-09 15:35+0000\n"
 "Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -51,6 +51,8 @@ msgstr "Modalità leggera"
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
+"Non apportare modifiche distruttive ai file ma potrebbe lasciare alcuni "
+"metadati"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -73,13 +75,6 @@ msgid "View and clean metadata in files"
 msgstr "Visualizza e pulisci i metadati nei file"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when a picture was taken and what camera was used. Office "
-#| "applications automatically add author and company information to "
-#| "documents and spreadsheets. Maybe you don't want to disclose those "
-#| "informations."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -88,22 +83,18 @@ msgid ""
 "disclose it."
 msgstr ""
 "I metadati all'interno di un file possono dire molto su di te. Le fotocamere "
-"registrano i dati su quando è stata scattata una foto e quale fotocamera è "
-"stata utilizzata. Le applicazioni di Office aggiungono automaticamente "
-"informazioni sull'autore e sull'azienda a documenti e fogli di calcolo. "
-"Forse non vuoi divulgare queste informazioni."
+"registrano dati su quando e dove è stata scattata una foto e quale "
+"fotocamera è stata utilizzata. Le applicazioni di Office aggiungono "
+"automaticamente informazioni sull'autore e sull'azienda a documenti e fogli "
+"di calcolo. Si tratta di informazioni sensibili che non vorresti divulgare."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
-#, fuzzy
-#| msgid ""
-#| "This tool allows you to view metadata in your files and to get rid of "
-#| "them, as much as possible."
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
 "Questo strumento ti consente di visualizzare i metadati nei tuoi file e di "
-"eliminarli il più possibile."
+"liberartene, per quanto possibile."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Improved adaptive user interface"
@@ -114,16 +105,12 @@ msgid "New help pages"
 msgstr "Nuove pagine di aiuto"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#, fuzzy
-#| msgid "One-click cleaning, no need to clean then save anymore"
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Pulizia con un clic, non è necessario pulire e poi salvare ancora"
+msgstr "Pulizia con un clic, non è necessario salvare dopo la pulizia"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-#, fuzzy
-#| msgid "Lightweight cleaning option is now saved"
 msgid "Persistent lightweight cleaning option"
-msgstr "L'opzione di pulizia leggera è ora salvata"
+msgstr "Opzione di pulizia leggera persistente"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
