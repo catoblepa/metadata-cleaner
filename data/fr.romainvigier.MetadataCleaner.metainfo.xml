@@ -59,7 +59,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
   </recommends>
 
   <requires>
-    <display_length compare="ge">small</display_length>
+    <display_length compare="ge">360</display_length>
   </requires>
 
   <kudos>
