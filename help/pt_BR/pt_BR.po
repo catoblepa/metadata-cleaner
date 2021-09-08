@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-08-30 17:04+0200\n"
-"PO-Revision-Date: 2021-08-11 06:09+0000\n"
+"PO-Revision-Date: 2021-09-09 15:35+0000\n"
 "Last-Translator: Gustavo Costa <xfgusta@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/pt_BR/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -21,12 +21,6 @@ msgstr "Metadados e privacidade"
 
 #. (itstool) path: section/p
 #: C/general.page:15
-#, fuzzy
-#| msgid ""
-#| "Metadata consist of information that characterizes data. Metadata are "
-#| "used to provide documentation for data products. In essence, metadata "
-#| "answer who, what, when, where, why, and how about every facet of the data "
-#| "that are being documented."
 msgid ""
 "Metadata consists of information that characterizes data. Metadata is used "
 "to provide documentation for data products. In essence, metadata answers "
@@ -40,12 +34,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when a picture was taken and what camera was used. Office "
-#| "aplications automatically add author and company information to documents "
-#| "and spreadsheets. Maybe you don't want to disclose those informations."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -53,11 +41,11 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Os metadados em um arquivo podem dizer muito sobre você. As câmeras "
-"registram dados sobre quando uma foto foi tirada e qual câmera foi usada. Os "
-"aplicativos de Office adicionam automaticamente informações do autor e da "
-"empresa a documentos e planilhas. Talvez você não queira divulgar essas "
-"informações."
+"Os metadados num arquivo podem dizer muito sobre você. As câmeras registram "
+"dados sobre quando e onde uma foto foi tirada e qual câmera foi usada. Os "
+"aplicativos de escritório adicionam automaticamente informações do autor e "
+"da empresa a documentos e planilhas. Estas são informações confidenciais e "
+"você não pode querer divulgá-las."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
@@ -66,10 +54,6 @@ msgstr "Exemplo de metadados em um arquivo de imagem"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
-#, fuzzy
-#| msgid ""
-#| "The file discloses informations about the hardware, settings, date, "
-#| "location of the shoot. It contains a total of 79 metadata."
 msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
@@ -84,13 +68,6 @@ msgstr "Processo de limpeza"
 
 #. (itstool) path: section/p
 #: C/general.page:28
-#, fuzzy
-#| msgid ""
-#| "While <app>Metadata Cleaner</app> is doing its very best to display "
-#| "metadata, it doesn't mean that a file is clean from any metadata if it "
-#| "doesn't show any. There is no reliable way to detect every single "
-#| "possible metadata for complex file formats. This is why you shouldn't "
-#| "rely on metadata's presence to decide if your file must be cleaned or not."
 msgid ""
 "While <app>Metadata Cleaner</app> is doing its very best to display "
 "metadata, it doesn't mean that a file is clean from metadata if it doesn't "
@@ -122,19 +99,15 @@ msgstr "Limitações"
 
 #. (itstool) path: section/p
 #: C/general.page:36
-#, fuzzy
-#| msgid ""
-#| "Be aware that metadata are not the only way of marking a file. If the "
-#| "content discloses personal informations or has been watermarked, "
-#| "<app>Metadata Cleaner</app> will not protect you."
 msgid ""
 "Be aware that metadata is not the only way of marking a file. If the content "
 "itself discloses personal information or has been watermarked, traditionally "
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 "Esteja ciente de que os metadados não são a única forma de marcar um "
-"arquivo. Se o conteúdo divulgar informações pessoais ou tiver marca d'água, "
-"o <app>Limpador de metadados</app> não o protegerá."
+"arquivo. Se o próprio conteúdo divulgar informações pessoais ou tiver marca "
+"d'água, tradicionalmente ou por meio de esteganografia, o <app>Limpador de "
+"metadados</app> não o protegerá."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -144,10 +117,6 @@ msgstr "Limpador de metadados"
 
 #. (itstool) path: page/p
 #: C/index.page:14
-#, fuzzy
-#| msgid ""
-#| "<app>Metadata Cleaner</app> allows you to view metadata in your files and "
-#| "to get rid of them, as much as possible."
 msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
@@ -192,10 +161,6 @@ msgstr "Ver metadados"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
-#, fuzzy
-#| msgid ""
-#| "Click on a file in the list to open the detailed view. If it has "
-#| "metadata, they will be shown there."
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -252,6 +217,8 @@ msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
 msgstr ""
+"O modo leve, embora não seja tão completo, não fará alterações destrutivas "
+"em seus arquivos."
 
 #~ msgid ""
 #~ "If you're willing to trade some metadata's presence in exchange of the "
