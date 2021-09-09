@@ -24,7 +24,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <property name="selection-mode">none</property>
         <child>
           <object class="AdwActionRow">
-            <property name="title" translatable="yes">Lightweight cleaning</property>
+            <property name="title" translatable="yes">Lightweight Cleaning</property>
             <property name="activatable-widget">_lightweight_switch</property>
             <child>
               <object class="GtkButton">

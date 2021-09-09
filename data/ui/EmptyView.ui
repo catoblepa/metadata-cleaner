@@ -10,7 +10,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
       <object class="AdwStatusPage">
         <property name="vexpand">True</property>
         <property name="icon-name">metadatacleaner-illustration</property>
-        <property name="title" translatable="yes">Clean your traces.</property>
+        <property name="title" translatable="yes">Clean Your Traces</property>
       </object>
     </child>
     <child>

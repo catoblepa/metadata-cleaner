@@ -7,11 +7,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <menu id="app-menu">
     <section>
       <item>
-        <attribute name="label" translatable="yes">_New window</attribute>
+        <attribute name="label" translatable="yes">_New Window</attribute>
         <attribute name="action">app.new-window</attribute>
       </item>
       <item>
-        <attribute name="label" translatable="yes">_Clear window</attribute>
+        <attribute name="label" translatable="yes">_Clear Window</attribute>
         <attribute name="action">win.clear-files</attribute>
       </item>
     </section>
@@ -22,7 +22,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <attribute name="target">/index</attribute>
       </item>
       <item>
-        <attribute name="label" translatable="yes">_Keyboard shortcuts</attribute>
+        <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
         <attribute name="action">win.show-help-overlay</attribute>
       </item>
       <item>
