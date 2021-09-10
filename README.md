@@ -36,7 +36,7 @@ Metadata Cleaner is available as a Flatpak on Flathub:
 
 Dependencies:
 
-- `gtk4` >= 4.0
+- `gtk4` >= 4.4
 - `libadwaita-1`
 - `pygobject-3.0`
 - `python3`
