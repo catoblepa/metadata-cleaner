@@ -24,6 +24,11 @@ headerbar:not(.flat)
 	color: @accent_fg_color;
 }
 
+headerbar:not(.flat) button:focus
+{
+	outline-color: alpha(@accent_fg_color, 0.5);
+}
+
 .help-infobar
 {
 	transition: margin 0.1s;
@@ -63,6 +68,11 @@ headerbar:not(.flat)
 {
 	padding: 0;
 	transition: all 0.1s;
+}
+
+.file-list row:hover
+{
+	background: none;
 }
 
 .file-list.small row
@@ -106,25 +116,35 @@ headerbar:not(.flat)
 	border-bottom-right-radius: 8px;
 }
 
-.file-list .file:hover
+.file-list:not(.small) row:selected .file,
+.file-list.small row:selected
 {
-	background: @theme_bg_color;
+	background: alpha(@theme_fg_color, 0.1);
 }
 
-.file-list.small row:selected .file:hover
+.file-list .file:hover
 {
-	background: unset;
+	background: alpha(@theme_fg_color, 0.07);
+}
+
+.file-list .file:active
+{
+	background: alpha(@theme_fg_color, 0.16);
+}
+
+.file-list row:selected .file:hover
+{
+	background: alpha(@theme_fg_color, 0.13);
+}
+
+.file-list row:selected .file:active
+{
+	background: alpha(@theme_fg_color, 0.19);
 }
 
 .file-list.small row:hover .file
 {
 	box-shadow: inset 1px 0 0 0 @borders;
-}
-
-.file-list:not(.small) row:selected .file,
-.file-list.small row:selected
-{
-	background: alpha(@theme_fg_color, 0.1);
 }
 
 .badge
