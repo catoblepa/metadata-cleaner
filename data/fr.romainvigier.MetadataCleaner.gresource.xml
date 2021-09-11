@@ -8,7 +8,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file compressed="true" alias="style.css">css/style.css</file>
 		<file compressed="true" alias="style-dark.css">css/style-dark.css</file>
 		<file compressed="true" preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks" alias="icons/metadatacleaner-background-logo.svg">icons/background-logo.svg</file>
+		<file compressed="true" preprocess="xml-stripblanks" alias="icons/metadatacleaner-illustration.svg">icons/illustration.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-chat-symbolic.svg">icons/chat-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-code-symbolic.svg">icons/code-symbolic.svg</file>
 		<file compressed="true" preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-remove-symbolic.svg">icons/remove-symbolic.svg</file>
