@@ -5,8 +5,12 @@ SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
   <template class="AddFilesButton" parent="GtkButton">
-    <property name="tooltip-text" translatable="yes">Add files</property>
     <property name="action-name">win.add-files</property>
-    <property name="icon-name">document-new-symbolic</property>
+    <property name="child">
+      <object class="AdwButtonContent">
+        <property name="label" translatable="yes">Add files</property>
+        <property name="icon-name">document-new-symbolic</property>
+      </object>
+    </property>
   </template>
 </interface>
