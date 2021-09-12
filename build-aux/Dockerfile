@@ -4,5 +4,5 @@
 FROM fedora:latest
 
 RUN dnf update -y \
-	&& dnf install --nodocs -y flatpak flatpak-builder python3-pyyaml gzip brotli \
+	&& dnf install --setopt=install_weak_deps=False --nodocs -y flatpak flatpak-builder git python3-pyyaml gzip brotli \
 	&& dnf clean all
