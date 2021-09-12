@@ -21,10 +21,10 @@ Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse an
 
 ## Screenshots
 
-![Welcome screen](./data/screenshots/1.png)
-![Files view](./data/screenshots/2.png)
-![Metadata details view](./data/screenshots/3.png)
-![Cleaned files](./data/screenshots/4.png)
+<a href="./data/screenshots/1.png"><img src="./data/screenshots/1.png" alt="Welcome screen" height="250"></a>
+<a href="./data/screenshots/1.png"><img src="./data/screenshots/2.png" alt="Files view" height="250"></a>
+<a href="./data/screenshots/1.png"><img src="./data/screenshots/3.png" alt="Metadata details" height="250"></a>
+<a href="./data/screenshots/1.png"><img src="./data/screenshots/4.png" alt="Cleaned files" height="250"></a>
 
 ## Installing
 
