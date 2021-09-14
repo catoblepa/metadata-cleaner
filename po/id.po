@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 18:50+0200\n"
-"PO-Revision-Date: 2021-08-13 10:21+0000\n"
+"PO-Revision-Date: 2021-09-14 17:00+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -51,6 +51,8 @@ msgstr "Pembersihan ringan"
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
+"Jangan membuat perubahan destruktif pada file tetapi mungkin meninggalkan "
+"beberapa metadata"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -73,13 +75,6 @@ msgid "View and clean metadata in files"
 msgstr "Lihat dan bersihkan metadata pada berkas-berkas"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when a picture was taken and what camera was used. Office "
-#| "applications automatically add author and company information to "
-#| "documents and spreadsheets. Maybe you don't want to disclose those "
-#| "informations."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -87,23 +82,19 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Metadata dalam file dapat mengetahui banyak tentang Anda. Kamera merekam "
-"data tentang kapan gambar diambil dan kamera apa yang digunakan. Aplikasi "
-"Office secara otomatis menambahkan penulis dan informasi perusahaan ke "
-"dokumen dan spreadsheet. Mungkin Anda tidak ingin mengungkapkan informasi-"
-"informasi tersebut."
+"Metadata dalam file dapat memberi tahu banyak tentang Anda. Kamera merekam "
+"data tentang kapan dan di mana gambar diambil dan kamera mana yang "
+"digunakan. Aplikasi Office secara otomatis menambahkan informasi penulis dan "
+"perusahaan ke dokumen dan spreadsheet. Ini adalah informasi sensitif dan "
+"Anda mungkin tidak ingin mengungkapkannya."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
-#, fuzzy
-#| msgid ""
-#| "This tool allows you to view metadata in your files and to get rid of "
-#| "them, as much as possible."
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
-"Alat ini membantu Anda untuk melihat metadata pada berkas-berkas Anda dan "
-"membersihkannya, sebanyak mungkin."
+"Alat ini memungkinkan Anda untuk melihat metadata dalam file Anda dan "
+"menyingkirkannya, sebanyak mungkin."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
 msgid "Improved adaptive user interface"
@@ -114,16 +105,12 @@ msgid "New help pages"
 msgstr "Halaman bantuan baru"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#, fuzzy
-#| msgid "One-click cleaning, no need to clean then save anymore"
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Pembersihan satu-klik, tidak perlu bersihkan lalu simpan"
+msgstr "Pembersihan sekali klik, tidak perlu menyimpan setelah dibersihkan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-#, fuzzy
-#| msgid "Lightweight cleaning option is now saved"
 msgid "Persistent lightweight cleaning option"
-msgstr "Opsi mode ringan sekarang disimpan"
+msgstr "Opsi pembersihan ringan yang persisten"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
