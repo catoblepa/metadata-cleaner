@@ -16,8 +16,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <property name="content">
           <object class="GtkBox">
             <property name="orientation">vertical</property>
+            <property name="hexpand" bind-property="reveal-flap" bind-source="_mode_flap" bind-flags="invert-boolean"/>
             <child>
-              <object class="AdwHeaderBar" id="_cleaner_header_bar">
+              <object class="AdwHeaderBar">
+                <property name="show-end-title-buttons" bind-property="reveal-flap" bind-source="_mode_flap" bind-flags="invert-boolean"/>
+                <property name="show-start-title-buttons" bind-property="reveal-flap" bind-source="_mode_flap" bind-flags="invert-boolean"/>
                 <property name="title-widget">
                   <object class="GtkLabel"/>
                 </property>

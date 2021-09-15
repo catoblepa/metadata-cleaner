@@ -27,7 +27,6 @@ class Window(Adw.ApplicationWindow):
     file_store = GObject.Property(type=FileStore, nick="file-store")
 
     _mode_flap: Adw.Flap = Gtk.Template.Child()
-    _cleaner_header_bar: Adw.HeaderBar = Gtk.Template.Child()
     _view_stack: Gtk.Stack = Gtk.Template.Child()
     _details_view: DetailsView = Gtk.Template.Child()
 
@@ -230,15 +229,9 @@ class Window(Adw.ApplicationWindow):
     def open_details_view(self) -> None:
         """Show the details view."""
         self._mode_flap.set_reveal_flap(True)
-        self._mode_flap.get_content().set_hexpand(False)
-        self._cleaner_header_bar.set_show_start_title_buttons(False)
-        self._cleaner_header_bar.set_show_end_title_buttons(False)
 
     def close_details_view(self) -> None:
         """Close the details view."""
         self._mode_flap.set_reveal_flap(False)
         self._details_view.clear()
-        self._cleaner_header_bar.set_show_start_title_buttons(True)
-        self._cleaner_header_bar.set_show_end_title_buttons(True)
         self._view_stack.get_child_by_name("files").clear_selected_file()
-        self._mode_flap.get_content().set_hexpand(True)
