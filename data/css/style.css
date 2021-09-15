@@ -77,7 +77,7 @@ headerbar:not(.flat) button:focus
 
 .file-list.small row
 {
-	background: @content_view_bg;
+	background: @theme_base_color;
 	border-bottom: 1px solid @borders;
 	padding-left: 6px;
 }
@@ -100,7 +100,7 @@ headerbar:not(.flat) button:focus
 .file-list:not(.small) .file
 {
 	border-width: 0 1px 1px;
-	background: @content_view_bg;
+	background: @theme_base_color;
 }
 
 .file-list:not(.small) row:first-child .file
