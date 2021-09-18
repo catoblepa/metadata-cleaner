@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-30 18:50+0200\n"
-"PO-Revision-Date: 2021-09-14 22:47+0000\n"
+"PO-Revision-Date: 2021-09-19 22:36+0000\n"
 "Last-Translator: Kaede <contact@kaede.ch>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/ja/>\n"
@@ -45,7 +45,7 @@ msgstr "警告ダイアログを表示せずにファイルからメタデータ
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 #: data/ui/SettingsButton.ui:27
 msgid "Lightweight cleaning"
-msgstr "ライトクリーニング"
+msgstr "簡易除去"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
@@ -102,7 +102,7 @@ msgstr "ワンクリック除去、除去後の保存は不要"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 msgid "Persistent lightweight cleaning option"
-msgstr "永続的なライトクリーニングオプション"
+msgstr "永続的な簡易除去オプション"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
@@ -319,7 +319,7 @@ msgstr "クリーニングの設定"
 
 #: data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr "ライトクリーニングの詳細についてはこちらをご覧ください"
+msgstr "簡易除去の詳細についてはこちらをご覧ください"
 
 #: data/ui/Window.ui:72
 msgid "Details"
