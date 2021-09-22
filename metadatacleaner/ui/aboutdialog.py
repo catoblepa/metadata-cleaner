@@ -1,7 +1,7 @@
 # SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-"""About dialog giving informations about the application."""
+"""About dialog giving information about the application."""
 
 from gettext import gettext as _
 from gi.repository import Adw, GObject, Gtk

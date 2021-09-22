@@ -11,7 +11,7 @@ from gi.repository import GObject, Gtk
     resource_path="/fr/romainvigier/MetadataCleaner/ui/InfoDetails.ui"
 )
 class InfoDetails(Gtk.Box):
-    """Informations about a file."""
+    """Information about a file."""
 
     __gtype_name__ = "InfoDetails"
 

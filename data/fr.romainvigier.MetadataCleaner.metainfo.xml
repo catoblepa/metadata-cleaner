@@ -24,7 +24,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <url type="translate">https://hosted.weblate.org/engage/metadata-cleaner/</url>
 
   <description>
-    <p>Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office aplications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it.</p>
+    <p>Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it.</p>
     <p>This tool allows you to view metadata in your files and to get rid of it, as much as possible.</p>
   </description>
 
