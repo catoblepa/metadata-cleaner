@@ -2,11 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-08-30 17:04+0200\n"
+"POT-Creation-Date: 2021-09-23 11:49+0200\n"
 "PO-Revision-Date: 2021-09-03 10:59+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/help/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/help/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,11 @@ msgstr "Metapodaci i privatnost"
 
 #. (itstool) path: section/p
 #: C/general.page:15
-msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
+msgid ""
+"Metadata consists of information that characterizes data. Metadata is used "
+"to provide documentation for data products. In essence, metadata answers "
+"who, what, when, where, why, and how about every facet of the data that is "
+"being documented."
 msgstr ""
 "Metapodaci se sastoje od informacija koje karakteriziraju podatke. "
 "Metapodaci se koriste za pružanje dokumentacije za podatkovne proizvode. U "
@@ -31,7 +35,19 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
-msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office aplications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
+#, fuzzy
+#| msgid ""
+#| "Metadata within a file can tell a lot about you. Cameras record data "
+#| "about when and where a picture was taken and which camera was used. "
+#| "Office aplications automatically add author and company information to "
+#| "documents and spreadsheets. This is sensitive information and you may not "
+#| "want to disclose it."
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when and where a picture was taken and which camera was used. Office "
+"applications automatically add author and company information to documents "
+"and spreadsheets. This is sensitive information and you may not want to "
+"disclose it."
 msgstr ""
 "Metapodaci u datoteci mogu otkriti razne informacije o tebi. Kamere bilježe "
 "podatke o tome kada i gdje je slika snimljena te koja je kamera korištena. "
@@ -45,7 +61,9 @@ msgstr "Primjer metapodataka u slikovnoj datoteci"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
-msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
+msgid ""
+"The file discloses information about the hardware, settings, date, location "
+"of the shoot. It contains a total of 79 metadata."
 msgstr ""
 "Datoteka otkriva informacije o hardveru, postavkama, datumu, mjestu snimanja "
 "itd. Ukupno sadrži 79 metapodataka."
@@ -57,17 +75,24 @@ msgstr "Postupak čišćenja"
 
 #. (itstool) path: section/p
 #: C/general.page:28
-msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+msgid ""
+"While <app>Metadata Cleaner</app> is doing its very best to display "
+"metadata, it doesn't mean that a file is clean from metadata if it doesn't "
+"show any. There is no reliable way to detect every single possible metadata "
+"for complex file formats. This is why you shouldn't rely on metadata's "
+"presence to decide if your file must be cleaned or not."
 msgstr ""
 "Mada se <app>Brisač metapodataka</app> trudi prikazati metapodatke, to ne "
 "znači da datoteka ne sadrži metapodatke ako ih ne prikazuje. Ne postoji "
 "pouzdan način za otkrivanje svih mogućih metapodataka za složene datotečne "
-"formate. Stoga, odluku o čišćenju nemoj donositi samo na osnovi (ne)"
-"prisutnosti metapodataka."
+"formate. Stoga, odluku o čišćenju nemoj donositi samo na osnovi "
+"(ne)prisutnosti metapodataka."
 
 #. (itstool) path: section/p
 #: C/general.page:29
-msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
+msgid ""
+"<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
+"new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
 "<app>Brisač metapodataka</app> uzima sadržaj datoteke i stavlja ga u novi "
 "bez metapodataka, osiguravajući uklanjanje svih neotkrivenih metapodataka."
@@ -79,7 +104,10 @@ msgstr "Ograničenja"
 
 #. (itstool) path: section/p
 #: C/general.page:36
-msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
+msgid ""
+"Be aware that metadata is not the only way of marking a file. If the content "
+"itself discloses personal information or has been watermarked, traditionally "
+"or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 "Imaj na umu da metapodaci nisu jedini način označavanja datoteka. Ako "
 "sadržaj sadrži osobne podatke ili je označen vodenim žigom, tradicionalno "
@@ -93,14 +121,18 @@ msgstr "Brisač metapodataka"
 
 #. (itstool) path: page/p
 #: C/index.page:14
-msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
+msgid ""
+"<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
+"get rid of it, as much as possible."
 msgstr ""
 "<app>Brisač metapodataka</app> omogućuje prikaz i brisanje (po mogućnosti "
 "svih) metapodataka u datotekama."
 
 #. (itstool) path: section/title
 #: C/index.page:17
-msgid "General informations"
+#, fuzzy
+#| msgid "General informations"
+msgid "General information"
 msgstr "Opće informacije"
 
 #. (itstool) path: section/title
@@ -115,7 +147,9 @@ msgstr "Dodavanje datoteka"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
-msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
+msgid ""
+"To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
+"chooser will open, select the files you want to clean."
 msgstr ""
 "Za dodavanje datoteka pritisni gumb <gui style=\"button\">Dodaj datoteke</"
 "gui>. U sljedećem prozoru odaberi datoteke koje želiš očistiti."
@@ -132,7 +166,9 @@ msgstr "Prikaz metapodataka"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
-msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
+msgid ""
+"Click on a file in the list to open the detailed view. If it has metadata, "
+"it will be shown there."
 msgstr ""
 "Za otvaranje detaljnog prikaza pritisni željenu datoteku u popisu. Ako "
 "sadrži metapodatke, tamo će se prikazati."
@@ -149,10 +185,12 @@ msgstr "Čišćenje datoteka"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
-msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
+msgid ""
+"To clean all the files in the window, press the <gui style=\"button\">Clean</"
+"gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Za čišćenje svih datoteka u prozoru pritisni gumb <gui style=\"button\""
-">Očisti</gui>. Postpak čišćenja može potrajati."
+"Za čišćenje svih datoteka u prozoru pritisni gumb <gui style=\"button"
+"\">Očisti</gui>. Postpak čišćenja može potrajati."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
@@ -166,7 +204,11 @@ msgstr "Jednostavno čišćenje"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
-msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
+msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again…"
 msgstr ""
 "Postupak čišćenja može promijeniti podatke datoteka kako bi se uklonilo što "
 "više metapodataka. Na primjer, u PDF datotekama se tekstovi možda više neće "
@@ -174,7 +216,9 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/usage.page:49
-msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
+msgid ""
+"The lightweight mode, while not as thorough, will not make destructive "
+"changes to your files."
 msgstr ""
 "Jednostavno čišćenje mijenja datoteke na nedestruktivan način, ali možda ne "
 "briše sve metapodatke."

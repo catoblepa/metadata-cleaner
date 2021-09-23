@@ -2,11 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-08-30 17:04+0200\n"
+"POT-Creation-Date: 2021-09-23 11:49+0200\n"
 "PO-Revision-Date: 2021-08-31 18:37+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/help/lt/>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/help/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,10 +35,17 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
+#, fuzzy
+#| msgid ""
+#| "Metadata within a file can tell a lot about you. Cameras record data "
+#| "about when and where a picture was taken and which camera was used. "
+#| "Office aplications automatically add author and company information to "
+#| "documents and spreadsheets. This is sensitive information and you may not "
+#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
-"aplications automatically add author and company information to documents "
+"applications automatically add author and company information to documents "
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
@@ -126,7 +133,9 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/index.page:17
-msgid "General informations"
+#, fuzzy
+#| msgid "General informations"
+msgid "General information"
 msgstr "Bendra informacija"
 
 #. (itstool) path: section/title

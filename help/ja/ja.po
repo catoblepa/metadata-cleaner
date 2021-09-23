@@ -2,11 +2,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-08-30 17:04+0200\n"
+"POT-Creation-Date: 2021-09-23 11:49+0200\n"
 "PO-Revision-Date: 2021-09-19 22:36+0000\n"
 "Last-Translator: Kaede <contact@kaede.ch>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/"
-"metadata-cleaner/help/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/metadata-"
+"cleaner/help/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,17 +21,37 @@ msgstr "メタデータとプライバシー"
 
 #. (itstool) path: section/p
 #: C/general.page:15
-msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
+msgid ""
+"Metadata consists of information that characterizes data. Metadata is used "
+"to provide documentation for data products. In essence, metadata answers "
+"who, what, when, where, why, and how about every facet of the data that is "
+"being documented."
 msgstr ""
-"メタデータとは、データを特徴づける情報のことです。メタデータは、そのファイルの詳細を説明するために使用されます。メタデータは、そのファイルのあらゆる側面に"
-"ついて、誰が、何を、いつ、どこで、なぜ、どのようにしたのかを記録したものです。"
+"メタデータとは、データを特徴づける情報のことです。メタデータは、そのファイル"
+"の詳細を説明するために使用されます。メタデータは、そのファイルのあらゆる側面"
+"について、誰が、何を、いつ、どこで、なぜ、どのようにしたのかを記録したもので"
+"す。"
 
 #. (itstool) path: section/p
 #: C/general.page:16
-msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office aplications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
+#, fuzzy
+#| msgid ""
+#| "Metadata within a file can tell a lot about you. Cameras record data "
+#| "about when and where a picture was taken and which camera was used. "
+#| "Office aplications automatically add author and company information to "
+#| "documents and spreadsheets. This is sensitive information and you may not "
+#| "want to disclose it."
+msgid ""
+"Metadata within a file can tell a lot about you. Cameras record data about "
+"when and where a picture was taken and which camera was used. Office "
+"applications automatically add author and company information to documents "
+"and spreadsheets. This is sensitive information and you may not want to "
+"disclose it."
 msgstr ""
-"ファイル内のメタデータは、あなたのことをよく表しています。カメラは、いつ、どこで、どの機種で撮影したかを画像ファイルに記録します。オフィスアプリケーション"
-"は、作成者や会社の情報を文書ファイルや表計算ファイルに自動的に追加します。これらの情報は機密情報であり、公開したくない場合もあります。"
+"ファイル内のメタデータは、あなたのことをよく表しています。カメラは、いつ、ど"
+"こで、どの機種で撮影したかを画像ファイルに記録します。オフィスアプリケーショ"
+"ンは、作成者や会社の情報を文書ファイルや表計算ファイルに自動的に追加します。"
+"これらの情報は機密情報であり、公開したくない場合もあります。"
 
 #. (itstool) path: figure/title
 #: C/general.page:18
@@ -40,8 +60,12 @@ msgstr "画像ファイルに含まれるメタデータの例"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
-msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
-msgstr "このファイルの場合、ハードウェア、設定、日時、撮影場所など合計 79 件のメタデータが含まれていました。"
+msgid ""
+"The file discloses information about the hardware, settings, date, location "
+"of the shoot. It contains a total of 79 metadata."
+msgstr ""
+"このファイルの場合、ハードウェア、設定、日時、撮影場所など合計 79 件のメタ"
+"データが含まれていました。"
 
 #. (itstool) path: section/title
 #: C/general.page:27
@@ -50,18 +74,27 @@ msgstr "除去プロセス"
 
 #. (itstool) path: section/p
 #: C/general.page:28
-msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
+msgid ""
+"While <app>Metadata Cleaner</app> is doing its very best to display "
+"metadata, it doesn't mean that a file is clean from metadata if it doesn't "
+"show any. There is no reliable way to detect every single possible metadata "
+"for complex file formats. This is why you shouldn't rely on metadata's "
+"presence to decide if your file must be cleaned or not."
 msgstr ""
-"<app>メタデータクリーナー</app>は細心の注意を払ってメタデータを表示していますが、何も表示されないからといってそのファイルにメタデータがないとは"
-"限りません。様々なファイル形式が存在するため、ありとあらゆるメタデータを検出する確実な方法はありません。そのため、メタデータが表示されていないからと言って"
-"、そのファイルのメタデータ除去は必要ないと判断するべきではありません。"
+"<app>メタデータクリーナー</app>は細心の注意を払ってメタデータを表示しています"
+"が、何も表示されないからといってそのファイルにメタデータがないとは限りませ"
+"ん。様々なファイル形式が存在するため、ありとあらゆるメタデータを検出する確実"
+"な方法はありません。そのため、メタデータが表示されていないからと言って、その"
+"ファイルのメタデータ除去は必要ないと判断するべきではありません。"
 
 #. (itstool) path: section/p
 #: C/general.page:29
-msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
+msgid ""
+"<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
+"new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"<app>メタデータクリーナー</app>は、メタデータを含まないファイルのコンテンツ部分を新しいファイルに出力するため、未検出のメタデータが確実に取り除"
-"かれます。"
+"<app>メタデータクリーナー</app>は、メタデータを含まないファイルのコンテンツ部"
+"分を新しいファイルに出力するため、未検出のメタデータが確実に取り除かれます。"
 
 #. (itstool) path: section/title
 #: C/general.page:35
@@ -70,10 +103,14 @@ msgstr "限界"
 
 #. (itstool) path: section/p
 #: C/general.page:36
-msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
+msgid ""
+"Be aware that metadata is not the only way of marking a file. If the content "
+"itself discloses personal information or has been watermarked, traditionally "
+"or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
-"ファイルにマーキングする方法はメタデータ以外にも存在します。コンテンツ自体に個人情報が含まれる場合や、伝統的なまたはステガノグラフィによる電子透かしが施さ"
-"れている場合、<app>メタデータクリーナー</app>はあなたを保護しません。"
+"ファイルにマーキングする方法はメタデータ以外にも存在します。コンテンツ自体に"
+"個人情報が含まれる場合や、伝統的なまたはステガノグラフィによる電子透かしが施"
+"されている場合、<app>メタデータクリーナー</app>はあなたを保護しません。"
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -83,12 +120,18 @@ msgstr "メタデータクリーナー"
 
 #. (itstool) path: page/p
 #: C/index.page:14
-msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
-msgstr "<app>メタデータクリーナー</app>を使用すると、ファイル内のメタデータを確認し、可能な範囲で除去できます。"
+msgid ""
+"<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
+"get rid of it, as much as possible."
+msgstr ""
+"<app>メタデータクリーナー</app>を使用すると、ファイル内のメタデータを確認し、"
+"可能な範囲で除去できます。"
 
 #. (itstool) path: section/title
 #: C/index.page:17
-msgid "General informations"
+#, fuzzy
+#| msgid "General informations"
+msgid "General information"
 msgstr "一般的な情報"
 
 #. (itstool) path: section/title
@@ -103,10 +146,13 @@ msgstr "ファイルの追加"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
-msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
+msgid ""
+"To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
+"chooser will open, select the files you want to clean."
 msgstr ""
-"ファイルを追加するには<gui style=\"button\""
-">ファイル追加</gui>ボタンを押します。ファイル選択画面が開くので、メタデータを除去したいファイルを選択してください。"
+"ファイルを追加するには<gui style=\"button\">ファイル追加</gui>ボタンを押しま"
+"す。ファイル選択画面が開くので、メタデータを除去したいファイルを選択してくだ"
+"さい。"
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
@@ -120,8 +166,12 @@ msgstr "メタデータの確認"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
-msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
-msgstr "一覧でファイルをクリックすると、詳細画面が表示されます。メタデータがある場合はそれも表示されます。"
+msgid ""
+"Click on a file in the list to open the detailed view. If it has metadata, "
+"it will be shown there."
+msgstr ""
+"一覧でファイルをクリックすると、詳細画面が表示されます。メタデータがある場合"
+"はそれも表示されます。"
 
 #. (itstool) path: figure/title
 #: C/usage.page:28
@@ -135,10 +185,12 @@ msgstr "ファイルからメタデータを除去"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
-msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
+msgid ""
+"To clean all the files in the window, press the <gui style=\"button\">Clean</"
+"gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"ウィンドウ内の全ファイルからメタデータを除去するには、<gui style=\"button\""
-">除去</gui>ボタンを押します。除去の完了には時間がかかる場合があります。"
+"ウィンドウ内の全ファイルからメタデータを除去するには、<gui style=\"button\">"
+"除去</gui>ボタンを押します。除去の完了には時間がかかる場合があります。"
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
@@ -152,12 +204,21 @@ msgstr "簡易除去"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
-msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
+msgid ""
+"By default, the removal process might alter a bit the data of your files, in "
+"order to remove as much metadata as possible. For example, texts in PDF "
+"might not be selectable anymore, compressed images might get compressed "
+"again…"
 msgstr ""
-"デフォルトでは、可能な限り多くのメタデータを除去するために、除去プロセス中にファイルのデータを少し変更することがあります。例えば、PDF "
-"内のテキストが選択できなくなったり、圧縮された画像が再圧縮される場合があります。"
+"デフォルトでは、可能な限り多くのメタデータを除去するために、除去プロセス中に"
+"ファイルのデータを少し変更することがあります。例えば、PDF 内のテキストが選択"
+"できなくなったり、圧縮された画像が再圧縮される場合があります。"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
-msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
-msgstr "簡易除去モードでは、徹底的な除去は行われませんが、ファイルに壊滅的な変更を加えません。"
+msgid ""
+"The lightweight mode, while not as thorough, will not make destructive "
+"changes to your files."
+msgstr ""
+"簡易除去モードでは、徹底的な除去は行われませんが、ファイルに壊滅的な変更を加"
+"えません。"
