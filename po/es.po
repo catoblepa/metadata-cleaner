@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-23 11:49+0200\n"
-"PO-Revision-Date: 2021-09-16 18:37+0000\n"
+"PO-Revision-Date: 2021-09-24 10:49+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/es/>\n"
@@ -74,13 +74,6 @@ msgid "View and clean metadata in files"
 msgstr "Ver y limpiar los metadatos en los archivos"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when and where a picture was taken and which camera was used. "
-#| "Office aplications automatically add author and company information to "
-#| "documents and spreadsheets. This is sensitive information and you may not "
-#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -262,10 +255,8 @@ msgstr ""
 "BY-SA 4.0</a>."
 
 #: data/ui/AddFilesButton.ui:11
-#, fuzzy
-#| msgid "Add files"
 msgid "_Add Files"
-msgstr "Añadir archivos"
+msgstr "_Añadir archivos"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -292,10 +283,8 @@ msgid "Clean"
 msgstr "Limpiar"
 
 #: data/ui/EmptyView.ui:13
-#, fuzzy
-#| msgid "Clean your traces."
 msgid "Clean Your Traces"
-msgstr "Limpie sus huellas."
+msgstr "Limpie sus huellas"
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
@@ -320,24 +309,18 @@ msgid "Cleaned"
 msgstr "Limpiado"
 
 #: data/ui/MenuButton.ui:10
-#, fuzzy
-#| msgid "_New window"
 msgid "_New Window"
 msgstr "Ventana _nueva"
 
 #: data/ui/MenuButton.ui:14
-#, fuzzy
-#| msgid "_Clear window"
 msgid "_Clear Window"
 msgstr "Limpiar _ventana"
 
 #: data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr "_Ayuda"
+msgstr "A_yuda"
 
 #: data/ui/MenuButton.ui:25
-#, fuzzy
-#| msgid "_Keyboard shortcuts"
 msgid "_Keyboard Shortcuts"
 msgstr "Atajos del _teclado"
 
@@ -350,8 +333,6 @@ msgid "Cleaning settings"
 msgstr "Ajustes de limpieza"
 
 #: data/ui/SettingsButton.ui:27
-#, fuzzy
-#| msgid "Lightweight cleaning"
 msgid "Lightweight Cleaning"
 msgstr "Limpieza ligera"
 
