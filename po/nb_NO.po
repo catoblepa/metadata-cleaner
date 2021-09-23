@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-30 18:50+0200\n"
+"POT-Creation-Date: 2021-09-23 11:49+0200\n"
 "PO-Revision-Date: 2021-08-13 10:21+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
@@ -44,7 +44,6 @@ msgid "Clean the files without showing the warning dialog"
 msgstr "Rens filene uten å vise advarselsdialogen"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-#: data/ui/SettingsButton.ui:27
 msgid "Lightweight cleaning"
 msgstr "Lett rensing"
 
@@ -72,7 +71,7 @@ msgstr "Lagret vindushøyde"
 msgid "View and clean metadata in files"
 msgstr "Vis og rens metadata i filer"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 #, fuzzy
 #| msgid ""
 #| "Metadata within a file can tell a lot about you. Cameras record data "
@@ -83,7 +82,7 @@ msgstr "Vis og rens metadata i filer"
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
-"aplications automatically add author and company information to documents "
+"applications automatically add author and company information to documents "
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
@@ -92,7 +91,7 @@ msgstr ""
 "automatisk til utvikler- og bedrifts-info i dokumenter og regneark. Kanskje "
 "du ikke ønsker å viderebringe den infoen?"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 #, fuzzy
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
@@ -101,74 +100,74 @@ msgstr ""
 "Dette verktøyet lar deg vise metadata i filene dine og å slette dem, så mye "
 "som mulig."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "Improved adaptive user interface"
 msgstr "Forbedret tillpassbart brukergrensesnitt"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "New help pages"
 msgstr "Nye hjelpesider"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 #, fuzzy
 #| msgid "One-click cleaning, no need to clean then save anymore"
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Rensing med ett klikk. Ingen grunn til å rense for så å lagre."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #, fuzzy
 #| msgid "Lightweight cleaning option is now saved"
 msgid "Persistent lightweight cleaning option"
 msgstr "Valg om lett rensing er nå vedvarende"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "New translations"
 msgstr "Nye oversettelser"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:98
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr "Kroatisk oversettelse ved Milo Ivir"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
 #, fuzzy
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr "Brasiliansk-portugisisk oversettelse ved Gustavo Costa"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
 msgid "New in v1.0.4:"
 msgstr "Nytt i v1.0.4:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:109
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Tyrkisk oversettelse ved Oğuz Ersen"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:115
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
 msgid "New in v1.0.2:"
 msgstr "Nytt i v1.0.2:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:117
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Spansk oversettelse ved Óscar Fernández Díaz"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Svensk oversettelse ved Åke Engelbrektson"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
 #, fuzzy
 msgid "Bug fixes:"
 msgstr "Feilfikser:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
 msgid "Files with uppercase extension can now be added"
 msgstr "Filer med filendelser som bruker store bokstaver kan nå legges til"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
 msgid "New in v1.0.1:"
 msgstr "Nytt i v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
 msgid "German translation (contributed by lux)"
 msgstr "Tysk oversettelse ved lux"
 
@@ -177,7 +176,7 @@ msgstr "Tysk oversettelse ved lux"
 msgid "Files"
 msgstr "Filer"
 
-#: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
+#: data/gtk/help-overlay.ui:18
 msgid "Add files"
 msgstr "Legg til filer"
 
@@ -271,6 +270,12 @@ msgstr ""
 "Kunsten og oversettelsen er utgitt som<a href=\"https://creativecommons.org/"
 "licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
+#: data/ui/AddFilesButton.ui:11
+#, fuzzy
+#| msgid "Add files"
+msgid "_Add Files"
+msgstr "Legg til filer"
+
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Rens"
@@ -297,7 +302,9 @@ msgid "Clean"
 msgstr "_Rens"
 
 #: data/ui/EmptyView.ui:13
-msgid "Clean your traces."
+#, fuzzy
+#| msgid "Clean your traces."
+msgid "Clean Your Traces"
 msgstr "Rens opp etter deg."
 
 #: data/ui/EmptyView.ui:27
@@ -308,25 +315,27 @@ msgstr "Lær mer om metadata og begrensninger i renseprosessen."
 msgid "Remove file from list"
 msgstr "Fjern filen fra listen"
 
-#: data/ui/FileRow.ui:93
+#: data/ui/FileRow.ui:96
 msgid "Warning"
 msgstr "Advarsel"
 
-#: data/ui/FileRow.ui:111
+#: data/ui/FileRow.ui:114
 msgid "Error"
 msgstr "Feil"
 
-#: data/ui/FileRow.ui:151
+#: data/ui/FileRow.ui:154
 msgid "Cleaned"
 msgstr "Renset"
 
 #: data/ui/MenuButton.ui:10
-msgid "_New window"
+#, fuzzy
+#| msgid "_New window"
+msgid "_New Window"
 msgstr "_Nytt vindu"
 
 #: data/ui/MenuButton.ui:14
 #, fuzzy
-msgid "_Clear window"
+msgid "_Clear Window"
 msgstr "Lukk vindu"
 
 #: data/ui/MenuButton.ui:20
@@ -334,7 +343,9 @@ msgid "_Help"
 msgstr "_Hjelp"
 
 #: data/ui/MenuButton.ui:25
-msgid "_Keyboard shortcuts"
+#, fuzzy
+#| msgid "_Keyboard shortcuts"
+msgid "_Keyboard Shortcuts"
 msgstr "_Tastatursnarveier"
 
 #: data/ui/MenuButton.ui:29
@@ -345,24 +356,30 @@ msgstr "_Om Metadatarenser"
 msgid "Cleaning settings"
 msgstr "Rensningsinnstillinger"
 
+#: data/ui/SettingsButton.ui:27
+#, fuzzy
+#| msgid "Lightweight cleaning"
+msgid "Lightweight Cleaning"
+msgstr "Lett rensing"
+
 #: data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
 msgstr "Lær mer om den lette renseprosessen"
 
-#: data/ui/Window.ui:72
+#: data/ui/Window.ui:78
 msgid "Details"
 msgstr "Detaljer"
 
-#: data/ui/Window.ui:78
+#: data/ui/Window.ui:84
 msgid "Close"
 msgstr "Lukk"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: data/ui/Window.ui:98
+#: data/ui/Window.ui:104
 msgid "translator-credits"
 msgstr "Allan Nordhøy <epost@anotheragency.no>"
 
-#: data/ui/Window.ui:107
+#: data/ui/Window.ui:113
 #, fuzzy
 msgid "Choose files to clean"
 msgstr "Velg filer"

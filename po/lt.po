@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-30 18:50+0200\n"
+"POT-Creation-Date: 2021-09-23 11:49+0200\n"
 "PO-Revision-Date: 2021-08-31 18:37+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/lt/>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +45,6 @@ msgid "Clean the files without showing the warning dialog"
 msgstr "Valyti failus nerodant įspėjimo dialogo lango"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-#: data/ui/SettingsButton.ui:27
 msgid "Lightweight cleaning"
 msgstr "Lengvasis valymas"
 
@@ -75,11 +74,18 @@ msgstr "Išsaugotas lango aukštis"
 msgid "View and clean metadata in files"
 msgstr "Peržiūrėti ir išvalyti failų metaduomenis"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#, fuzzy
+#| msgid ""
+#| "Metadata within a file can tell a lot about you. Cameras record data "
+#| "about when and where a picture was taken and which camera was used. "
+#| "Office aplications automatically add author and company information to "
+#| "documents and spreadsheets. This is sensitive information and you may not "
+#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
-"aplications automatically add author and company information to documents "
+"applications automatically add author and company information to documents "
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
@@ -89,7 +95,7 @@ msgstr ""
 "informaciją prie dokumentų ir skaičiuoklių. Tai neskelbtina informacija ir "
 "galbūt nenorėsite jos atskleisti."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -97,68 +103,68 @@ msgstr ""
 "Šis įrankis leidžia peržiūrėti failų metaduomenis ir jų kiek įmanoma "
 "atsikratyti."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "Improved adaptive user interface"
 msgstr "Patobulinta adaptyvi vartotojo sąsaja"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "New help pages"
 msgstr "Nauji pagalbos puslapiai"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Valymas vienu paspaudimu, išsaugoti po to nebereikia"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 msgid "Persistent lightweight cleaning option"
 msgstr "Nuolatinė lengvojo valymo pasirinktis"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "New translations"
 msgstr "Nauji vertimai"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:98
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr "Vertimas į kroatų kalbą (prisidėjo Milo Ivir)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr "Vertimas į portugalų kalbą (Brazilų) (prisidėjo Gustavo Costa)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
 msgid "New in v1.0.4:"
 msgstr "Nauja 1.0.4 versijoje:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:109
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Vertimas į turkų kalbą (prisidėjo Oğuzas Ersenas)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:115
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
 msgid "New in v1.0.2:"
 msgstr "Nauja 1.0.2 versijoje:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:117
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Vertimas į ispanų kalbą (prisidėjo Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Vertimas į švedų kalbą (prisidėjo Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
 msgid "Bug fixes:"
 msgstr "Klaidų pataisymai:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
 msgid "Files with uppercase extension can now be added"
 msgstr "Dabar galima pridėti failus su plėtiniais didžiosiomis raidėmis"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
 msgid "New in v1.0.1:"
 msgstr "Nauja 1.0.1 versijoje:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
 msgid "German translation (contributed by lux)"
 msgstr "Vertimas į vokiečių kalbą (prisidėjo lux)"
 
@@ -166,7 +172,7 @@ msgstr "Vertimas į vokiečių kalbą (prisidėjo lux)"
 msgid "Files"
 msgstr "Failai"
 
-#: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
+#: data/gtk/help-overlay.ui:18
 msgid "Add files"
 msgstr "Pridėti failus"
 
@@ -254,6 +260,12 @@ msgstr ""
 "Originalus dizainas ir vertimai išleisti pagal <a href=\"https://"
 "creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> sąlygas."
 
+#: data/ui/AddFilesButton.ui:11
+#, fuzzy
+#| msgid "Add files"
+msgid "_Add Files"
+msgstr "Pridėti failus"
+
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Valyti"
@@ -279,7 +291,9 @@ msgid "Clean"
 msgstr "Valyti"
 
 #: data/ui/EmptyView.ui:13
-msgid "Clean your traces."
+#, fuzzy
+#| msgid "Clean your traces."
+msgid "Clean Your Traces"
 msgstr "Išvalyk savo pėdsakus."
 
 #: data/ui/EmptyView.ui:27
@@ -290,24 +304,28 @@ msgstr "Sužinokite daugiau apie metaduomenis ir valymo proceso apribojimus."
 msgid "Remove file from list"
 msgstr "Pašalinti failą iš sąrašo"
 
-#: data/ui/FileRow.ui:93
+#: data/ui/FileRow.ui:96
 msgid "Warning"
 msgstr "Perspėjimas"
 
-#: data/ui/FileRow.ui:111
+#: data/ui/FileRow.ui:114
 msgid "Error"
 msgstr "Klaida"
 
-#: data/ui/FileRow.ui:151
+#: data/ui/FileRow.ui:154
 msgid "Cleaned"
 msgstr "Išvalyta"
 
 #: data/ui/MenuButton.ui:10
-msgid "_New window"
+#, fuzzy
+#| msgid "_New window"
+msgid "_New Window"
 msgstr "_Naujas langas"
 
 #: data/ui/MenuButton.ui:14
-msgid "_Clear window"
+#, fuzzy
+#| msgid "_Clear window"
+msgid "_Clear Window"
 msgstr "_Išvalyti langą"
 
 #: data/ui/MenuButton.ui:20
@@ -315,7 +333,9 @@ msgid "_Help"
 msgstr "_Pagalba"
 
 #: data/ui/MenuButton.ui:25
-msgid "_Keyboard shortcuts"
+#, fuzzy
+#| msgid "_Keyboard shortcuts"
+msgid "_Keyboard Shortcuts"
 msgstr "_Spartieji klavišai"
 
 #: data/ui/MenuButton.ui:29
@@ -326,24 +346,30 @@ msgstr "_Apie Metaduomenų Valytoją"
 msgid "Cleaning settings"
 msgstr "Valymo nustatymai"
 
+#: data/ui/SettingsButton.ui:27
+#, fuzzy
+#| msgid "Lightweight cleaning"
+msgid "Lightweight Cleaning"
+msgstr "Lengvasis valymas"
+
 #: data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
 msgstr "Sužinokite daugiau apie lengvąjį valymą"
 
-#: data/ui/Window.ui:72
+#: data/ui/Window.ui:78
 msgid "Details"
 msgstr "Išsamesnė informacija"
 
-#: data/ui/Window.ui:78
+#: data/ui/Window.ui:84
 msgid "Close"
 msgstr "Uždaryti"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: data/ui/Window.ui:98
+#: data/ui/Window.ui:104
 msgid "translator-credits"
 msgstr "Gediminas Murauskas"
 
-#: data/ui/Window.ui:107
+#: data/ui/Window.ui:113
 msgid "Choose files to clean"
 msgstr "Pasirinkite, kuriuos failus valyti"
 

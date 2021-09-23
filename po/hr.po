@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-08-30 18:50+0200\n"
+"POT-Creation-Date: 2021-09-23 11:49+0200\n"
 "PO-Revision-Date: 2021-09-03 11:06+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +45,6 @@ msgid "Clean the files without showing the warning dialog"
 msgstr "Očisti datoteke bez prikazivanja upozorenja"
 
 #: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-#: data/ui/SettingsButton.ui:27
 msgid "Lightweight cleaning"
 msgstr "Jednostavno čišćenje"
 
@@ -74,11 +73,18 @@ msgstr "Spremljena visina prozora"
 msgid "View and clean metadata in files"
 msgstr "Prikaži i izbriši metapodatke u datotekama"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#, fuzzy
+#| msgid ""
+#| "Metadata within a file can tell a lot about you. Cameras record data "
+#| "about when and where a picture was taken and which camera was used. "
+#| "Office aplications automatically add author and company information to "
+#| "documents and spreadsheets. This is sensitive information and you may not "
+#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
-"aplications automatically add author and company information to documents "
+"applications automatically add author and company information to documents "
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
@@ -87,7 +93,7 @@ msgstr ""
 "Uredski programi automatski dodaju podatke o autoru i tvrtki u dokumente i "
 "proračunske tablice. Možda ne želiš da te informacije budu dostupne drugima."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -95,69 +101,69 @@ msgstr ""
 "Ovaj program omogućuje prikaz i brisanje (po mogućnosti svih) metapodataka u "
 "datotekama."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:74
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "Improved adaptive user interface"
 msgstr "Poboljšano prilagodljivo korisničko sučelje"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 msgid "New help pages"
 msgstr "Nove stranice pomoći"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Jednostavno čišćenje, bez potrebe za spremanjem nakon čišćenja"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 msgid "Persistent lightweight cleaning option"
 msgstr "Opcija za jednostavno čišćenje"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "New translations"
 msgstr "Novi prijevodi"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:98
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr "Hrvatski prijevod (Milo Ivir)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr "Portugalski (Brazil) prijevod (Gustavo Costa)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
 msgid "New in v1.0.4:"
 msgstr "Novo u v1.0.4:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:108
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:109
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Turski prijevod (Oğuz Ersen)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:115
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
 msgid "New in v1.0.2:"
 msgstr "Novo u v1.0.2:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:117
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Španjolski prijevod (Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Švedski prijevod (Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
 msgid "Bug fixes:"
 msgstr "Ispravci grešaka:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 "Sada je moguće dodati datoteke s datotečnim nastavkom pisan velikim slovima"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
 msgid "New in v1.0.1:"
 msgstr "Novo u v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
 msgid "German translation (contributed by lux)"
 msgstr "Njemački prijevod (lux)"
 
@@ -165,7 +171,7 @@ msgstr "Njemački prijevod (lux)"
 msgid "Files"
 msgstr "Datoteke"
 
-#: data/gtk/help-overlay.ui:18 data/ui/AddFilesButton.ui:8
+#: data/gtk/help-overlay.ui:18
 msgid "Add files"
 msgstr "Dodaj datoteke"
 
@@ -238,8 +244,8 @@ msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
-"Za obradu i brisanje metapodataka ovaj program koristi <a href=\"https"
-"://0xacab.org/jvoisin/mat2\">mat2</a>. Pokaži im malo ljubavi!"
+"Za obradu i brisanje metapodataka ovaj program koristi <a href="
+"\"https://0xacab.org/jvoisin/mat2\">mat2</a>. Pokaži im malo ljubavi!"
 
 #: data/ui/AboutDialog.ui:183
 msgid ""
@@ -248,10 +254,16 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"Izvorni kod ovog programa objavljen je pod uvjetima licence <a href=\"https"
-"://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 ili novije</a>. Izvorna "
-"umjetnička djela i prijevodi objavljuju se pod uvjetima licence <a href="
-"\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
+"Izvorni kod ovog programa objavljen je pod uvjetima licence <a href="
+"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 ili novije</a>. "
+"Izvorna umjetnička djela i prijevodi objavljuju se pod uvjetima licence <a "
+"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
+
+#: data/ui/AddFilesButton.ui:11
+#, fuzzy
+#| msgid "Add files"
+msgid "_Add Files"
+msgstr "Dodaj datoteke"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -278,7 +290,9 @@ msgid "Clean"
 msgstr "Očisti"
 
 #: data/ui/EmptyView.ui:13
-msgid "Clean your traces."
+#, fuzzy
+#| msgid "Clean your traces."
+msgid "Clean Your Traces"
 msgstr "Izbriši svoje tragove."
 
 #: data/ui/EmptyView.ui:27
@@ -289,24 +303,28 @@ msgstr "Saznaj više o metapodacima i o ograničenjima postupka čišćenja."
 msgid "Remove file from list"
 msgstr "Ukloni datoteku iz popisa"
 
-#: data/ui/FileRow.ui:93
+#: data/ui/FileRow.ui:96
 msgid "Warning"
 msgstr "Upozorenje"
 
-#: data/ui/FileRow.ui:111
+#: data/ui/FileRow.ui:114
 msgid "Error"
 msgstr "Greška"
 
-#: data/ui/FileRow.ui:151
+#: data/ui/FileRow.ui:154
 msgid "Cleaned"
 msgstr "Očišćeno"
 
 #: data/ui/MenuButton.ui:10
-msgid "_New window"
+#, fuzzy
+#| msgid "_New window"
+msgid "_New Window"
 msgstr "_Novi prozor"
 
 #: data/ui/MenuButton.ui:14
-msgid "_Clear window"
+#, fuzzy
+#| msgid "_Clear window"
+msgid "_Clear Window"
 msgstr "_Isprazni prozor"
 
 #: data/ui/MenuButton.ui:20
@@ -314,7 +332,9 @@ msgid "_Help"
 msgstr "_Pomoć"
 
 #: data/ui/MenuButton.ui:25
-msgid "_Keyboard shortcuts"
+#, fuzzy
+#| msgid "_Keyboard shortcuts"
+msgid "_Keyboard Shortcuts"
 msgstr "_Tipkovni prečaci"
 
 #: data/ui/MenuButton.ui:29
@@ -325,24 +345,30 @@ msgstr "_O programu Brisač metapodataka"
 msgid "Cleaning settings"
 msgstr "Postavke čišćenja"
 
+#: data/ui/SettingsButton.ui:27
+#, fuzzy
+#| msgid "Lightweight cleaning"
+msgid "Lightweight Cleaning"
+msgstr "Jednostavno čišćenje"
+
 #: data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
 msgstr "Saznaj više o jednostavnom čišćenju"
 
-#: data/ui/Window.ui:72
+#: data/ui/Window.ui:78
 msgid "Details"
 msgstr "Detalji"
 
-#: data/ui/Window.ui:78
+#: data/ui/Window.ui:84
 msgid "Close"
 msgstr "Zatvori"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: data/ui/Window.ui:98
+#: data/ui/Window.ui:104
 msgid "translator-credits"
 msgstr "Milo Ivir <mail@milotype.de>"
 
-#: data/ui/Window.ui:107
+#: data/ui/Window.ui:113
 msgid "Choose files to clean"
 msgstr "Odaberi datoteke koje želiš očistiti"
 
