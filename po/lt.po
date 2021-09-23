@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-23 11:49+0200\n"
-"PO-Revision-Date: 2021-08-31 18:37+0000\n"
+"PO-Revision-Date: 2021-09-24 10:49+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/lt/>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -75,13 +75,6 @@ msgid "View and clean metadata in files"
 msgstr "Peržiūrėti ir išvalyti failų metaduomenis"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when and where a picture was taken and which camera was used. "
-#| "Office aplications automatically add author and company information to "
-#| "documents and spreadsheets. This is sensitive information and you may not "
-#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -261,8 +254,6 @@ msgstr ""
 "creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> sąlygas."
 
 #: data/ui/AddFilesButton.ui:11
-#, fuzzy
-#| msgid "Add files"
 msgid "_Add Files"
 msgstr "Pridėti failus"
 
@@ -291,10 +282,8 @@ msgid "Clean"
 msgstr "Valyti"
 
 #: data/ui/EmptyView.ui:13
-#, fuzzy
-#| msgid "Clean your traces."
 msgid "Clean Your Traces"
-msgstr "Išvalyk savo pėdsakus."
+msgstr "Išvalyk savo pėdsakus"
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
@@ -317,14 +306,10 @@ msgid "Cleaned"
 msgstr "Išvalyta"
 
 #: data/ui/MenuButton.ui:10
-#, fuzzy
-#| msgid "_New window"
 msgid "_New Window"
 msgstr "_Naujas langas"
 
 #: data/ui/MenuButton.ui:14
-#, fuzzy
-#| msgid "_Clear window"
 msgid "_Clear Window"
 msgstr "_Išvalyti langą"
 
@@ -333,8 +318,6 @@ msgid "_Help"
 msgstr "_Pagalba"
 
 #: data/ui/MenuButton.ui:25
-#, fuzzy
-#| msgid "_Keyboard shortcuts"
 msgid "_Keyboard Shortcuts"
 msgstr "_Spartieji klavišai"
 
@@ -347,8 +330,6 @@ msgid "Cleaning settings"
 msgstr "Valymo nustatymai"
 
 #: data/ui/SettingsButton.ui:27
-#, fuzzy
-#| msgid "Lightweight cleaning"
 msgid "Lightweight Cleaning"
 msgstr "Lengvasis valymas"
 
