@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-09-23 11:49+0200\n"
-"PO-Revision-Date: 2021-09-16 18:37+0000\n"
+"PO-Revision-Date: 2021-09-24 10:49+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/es/>\n"
@@ -28,19 +28,12 @@ msgid ""
 "being documented."
 msgstr ""
 "Los metadatos consisten en información que caracteriza los datos. Los "
-"metadatos se utilizan para documentar los productos de datos. En esencia, "
-"los metadatos responden a quién, qué, cuándo, dónde, por qué y cómo sobre "
-"cada faceta de los datos que se documentan."
+"metadatos se usan para documentar los productos de datos. En esencia, los "
+"metadatos responden a quién, qué, cuándo, dónde, por qué y cómo sobre cada "
+"faceta de los datos que se documentan."
 
 #. (itstool) path: section/p
 #: C/general.page:16
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when and where a picture was taken and which camera was used. "
-#| "Office aplications automatically add author and company information to "
-#| "documents and spreadsheets. This is sensitive information and you may not "
-#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -132,8 +125,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/index.page:17
-#, fuzzy
-#| msgid "General informations"
 msgid "General information"
 msgstr "Información general"
 
