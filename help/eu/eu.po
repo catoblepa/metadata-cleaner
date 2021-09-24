@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-09-23 11:49+0200\n"
-"PO-Revision-Date: 2021-09-24 10:49+0000\n"
+"PO-Revision-Date: 2021-09-25 20:07+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/eu/>\n"
@@ -17,52 +17,75 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metadatuak eta pribatutasuna"
 
 #. (itstool) path: section/p
 #: C/general.page:15
 msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
 msgstr ""
+"Metadatuak datuak ezaugarritzen dituen informazioa dira. Metadatuak datu-"
+"produktuak dokumentatzeko erabiltzen dira. Funtsean, metadatuek "
+"dokumentatzen diren datuen alderdi bakoitzari erantzuten diote: nor, zer, "
+"noiz, non, zergatik eta nola."
 
 #. (itstool) path: section/p
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
+"Fitxategi bateko metadatuek asko esan dezakete pertsona bati buruz. Kamerek "
+"argazki bat noiz eta non atera zen eta zein kamera erabili zen adierazten "
+"dute. Aplikazio ofimatikoek egileari eta enpresari buruzko informazioa "
+"gehitzen diete automatikoki dokumentuei eta kalkulu-orriei. Informazio "
+"delikatua da, eta baliteke jakinarazi nahi ez izatea."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Irudi-fitxategi bateko metadatuen adibidea"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Artxiboak hardwareari, doikuntzei, datari eta hartze-tokiari buruzko "
+"informazioa ematen du. Guztira 79 metadatu ditu."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Garbiketa-prozesua"
 
 #. (itstool) path: section/p
 #: C/general.page:28
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"<app>Metadatuen garbitzailea</app> metadatuak erakusteko ahal duen guztia "
+"egiten badu ere, ez du esan nahi fitxategi bat metadaturik gabe dagoenik, "
+"bat bera ere erakusten ez badu. Ez dago fitxategi formatu konplexuetarako "
+"metadatu posible guztiak detektatzeko modu fidagarririk. Horregatik, ez da "
+"fidatu behar metadatuak egongo direnik artxiboa garbitu behar den ala ez "
+"erabakitzeko."
 
 #. (itstool) path: section/p
 #: C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Metadatuen garbitzailea</app> fitxategiaren edukia hartzen du eta "
+"metadaturik gabeko berri batean jartzen du, antzeman gabeko metadatuak "
+"desegiten direla ziurtatuz."
 
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Mugak"
 
 #. (itstool) path: section/p
 #: C/general.page:36
 msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Metadata ez da fitxategia markatzeko modu bakarra. Edukiak berak informazio "
+"pertsonala zabaltzen badu edo urpean geratu bada, tradizionalki edo via "
+"esteganografia, <app>Metadatuen garbitzailea</app> ez zaitu babestuko."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -74,73 +97,87 @@ msgstr "Metadatuen garbitzailea"
 #: C/index.page:14
 msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
 msgstr ""
+"<app>Metadatuen garbitzaileak</app> aukera ematen dizu zure fitxategien "
+"metadatuak ikusteko eta, ahal den neurrian, horiek kentzeko."
 
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General information"
-msgstr ""
+msgstr "Informazio orokorra"
 
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "<app>Metadatuen garbitzailea</app> erabiltzen"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Gehitu fitxategiak"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
 msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
 msgstr ""
+"Fitxategiak gehitzeko, sakatu <gui style=\"button\">Gehitu fitxategiak</gui> "
+"botoia. Fitxategien hautagailu bat irekiko da, eta hautatu garbitu nahi "
+"dituzun fitxategiak."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Gehitu fitxategiak</gui> botoia"
 
 #. (itstool) path: section/title
 #: C/usage.page:25
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Metadatuak bistaratu"
 
 #. (itstool) path: section/p
 #: C/usage.page:26
 msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
 msgstr ""
+"Egin klik zerrendako fitxategi batean bista zehatza irekitzeko. Metadatuak "
+"baditu, han agertuko dira."
 
 #. (itstool) path: figure/title
 #: C/usage.page:28
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Metadatuen ikuspegi xehatua"
 
 #. (itstool) path: section/title
 #: C/usage.page:36
 msgid "Cleaning files"
-msgstr ""
+msgstr "Artxiboak garbitu"
 
 #. (itstool) path: section/p
 #: C/usage.page:37
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Leihoko fitxategi guztiak garbitzeko, sakatu <gui style=\"button\">Garbitu</"
+"gui> botoia. Garbiketa-prozesua osatzeko denbora behar izan daiteke."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Garbitu</gui> botoia"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Garbiketa arina"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"Berez, kentzeko prozesuak zure fitxategietako datuak pixka bat alda ditzake, "
+"ahalik eta metadatu gehien kentzeko. Adibidez, baliteke PDFko testuak jada "
+"ez hautatzea, konprimitutako irudiak berriro konprimitu daitezke …"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
 msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
 msgstr ""
+"Modu arinak, oso zehatza ez bada ere, ez du aldaketa suntsitzailerik egingo "
+"zure fitxategietan."
