@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-23 11:49+0200\n"
-"PO-Revision-Date: 2021-09-03 11:06+0000\n"
+"PO-Revision-Date: 2021-09-27 19:41+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -74,13 +74,6 @@ msgid "View and clean metadata in files"
 msgstr "Prikaži i izbriši metapodatke u datotekama"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when and where a picture was taken and which camera was used. "
-#| "Office aplications automatically add author and company information to "
-#| "documents and spreadsheets. This is sensitive information and you may not "
-#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -260,10 +253,8 @@ msgstr ""
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: data/ui/AddFilesButton.ui:11
-#, fuzzy
-#| msgid "Add files"
 msgid "_Add Files"
-msgstr "Dodaj datoteke"
+msgstr "_Dodaj datoteke"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -290,10 +281,8 @@ msgid "Clean"
 msgstr "Očisti"
 
 #: data/ui/EmptyView.ui:13
-#, fuzzy
-#| msgid "Clean your traces."
 msgid "Clean Your Traces"
-msgstr "Izbriši svoje tragove."
+msgstr "Izbriši svoje tragove"
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
@@ -316,14 +305,10 @@ msgid "Cleaned"
 msgstr "Očišćeno"
 
 #: data/ui/MenuButton.ui:10
-#, fuzzy
-#| msgid "_New window"
 msgid "_New Window"
 msgstr "_Novi prozor"
 
 #: data/ui/MenuButton.ui:14
-#, fuzzy
-#| msgid "_Clear window"
 msgid "_Clear Window"
 msgstr "_Isprazni prozor"
 
@@ -332,8 +317,6 @@ msgid "_Help"
 msgstr "_Pomoć"
 
 #: data/ui/MenuButton.ui:25
-#, fuzzy
-#| msgid "_Keyboard shortcuts"
 msgid "_Keyboard Shortcuts"
 msgstr "_Tipkovni prečaci"
 
@@ -346,8 +329,6 @@ msgid "Cleaning settings"
 msgstr "Postavke čišćenja"
 
 #: data/ui/SettingsButton.ui:27
-#, fuzzy
-#| msgid "Lightweight cleaning"
 msgid "Lightweight Cleaning"
 msgstr "Jednostavno čišćenje"
 
