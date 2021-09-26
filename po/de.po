@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-23 11:49+0200\n"
-"PO-Revision-Date: 2021-09-03 11:06+0000\n"
+"PO-Revision-Date: 2021-09-27 19:41+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/de/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -76,13 +76,6 @@ msgid "View and clean metadata in files"
 msgstr "Metadaten in Dateien anzeigen und bereinigen"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when and where a picture was taken and which camera was used. "
-#| "Office aplications automatically add author and company information to "
-#| "documents and spreadsheets. This is sensitive information and you may not "
-#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -264,10 +257,8 @@ msgstr ""
 "sa/4.0/\">CC BY-SA 4.0</a> veröffentlicht."
 
 #: data/ui/AddFilesButton.ui:11
-#, fuzzy
-#| msgid "Add files"
 msgid "_Add Files"
-msgstr "Dateien hinzufügen"
+msgstr "_Dateien hinzufügen"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -294,10 +285,8 @@ msgid "Clean"
 msgstr "Reinigen"
 
 #: data/ui/EmptyView.ui:13
-#, fuzzy
-#| msgid "Clean your traces."
 msgid "Clean Your Traces"
-msgstr "Bereinige deine Spuren."
+msgstr "Bereinige deine Spuren"
 
 #: data/ui/EmptyView.ui:27
 msgid "Learn more about metadata and the cleaning process limitations."
@@ -321,14 +310,10 @@ msgid "Cleaned"
 msgstr "Bereinigt"
 
 #: data/ui/MenuButton.ui:10
-#, fuzzy
-#| msgid "_New window"
 msgid "_New Window"
 msgstr "_Neues Fenster"
 
 #: data/ui/MenuButton.ui:14
-#, fuzzy
-#| msgid "_Clear window"
 msgid "_Clear Window"
 msgstr "_Fenster lehren"
 
@@ -337,8 +322,6 @@ msgid "_Help"
 msgstr "_Hilfe"
 
 #: data/ui/MenuButton.ui:25
-#, fuzzy
-#| msgid "_Keyboard shortcuts"
 msgid "_Keyboard Shortcuts"
 msgstr "_Tastaturkürzel"
 
@@ -351,8 +334,6 @@ msgid "Cleaning settings"
 msgstr "Reinigungs-Einstellungen"
 
 #: data/ui/SettingsButton.ui:27
-#, fuzzy
-#| msgid "Lightweight cleaning"
 msgid "Lightweight Cleaning"
 msgstr "Oberflächliche Bereinigung"
 
