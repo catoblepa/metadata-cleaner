@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-09-23 11:49+0200\n"
-"PO-Revision-Date: 2021-08-31 18:37+0000\n"
+"PO-Revision-Date: 2021-09-28 08:29+0000\n"
 "Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/sv/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -36,13 +36,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when and where a picture was taken and which camera was used. "
-#| "Office aplications automatically add author and company information to "
-#| "documents and spreadsheets. This is sensitive information and you may not "
-#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -66,13 +59,13 @@ msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
 msgstr ""
-"Filen tillkännager info om maskinvaran, inställningar, dato, och städ for "
-"bilden. Den har i alt 79 bitar metadata."
+"Filen tillkännager info om maskinvaran, inställningar, datum och plats för "
+"bilden. Den innehåller totalt 79 metadata."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr "Reningsprocessen"
+msgstr "Rensningsprocess"
 
 #. (itstool) path: section/p
 #: C/general.page:28
@@ -83,11 +76,11 @@ msgid ""
 "for complex file formats. This is why you shouldn't rely on metadata's "
 "presence to decide if your file must be cleaned or not."
 msgstr ""
-"Även om <app>Metadatarensaren</app> gör sitt bästa for att visa metadata, "
-"betyder det inte att en fil är tom for metadata om den inte visas. Det finns "
-"inget tillräckligt sätt att upptäcka all metadata for komplexa filformat. "
-"Därför borde ni inte lita på huruvida det visas metadata for om en fil borde "
-"rensas eller inte."
+"Även om <app>Metadata Cleaner</app> gör sitt bästa for att visa metadata, "
+"betyder det inte att en fil är ren från metadata om inget visas. Det finns "
+"inget pålitligt sätt att upptäcka all möjlig metadata för komplexa "
+"filformat, därför bör du inte lita på metadatas närvaro för att avgöra om "
+"filen måste rensas eller inte."
 
 #. (itstool) path: section/p
 #: C/general.page:29
@@ -95,8 +88,8 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"<app>Metadatarensaren</app> tar alt innehållet av filen och puttar den i en "
-"ny utan metadata, slik att all uppdagat metadata strippas."
+"<app>Metadata Cleaner</app> tar innehållet i filen och placerar det i en ny, "
+"utan metadata, vilket säkerställer att all oupptäckt metadata tas bort."
 
 #. (itstool) path: section/title
 #: C/general.page:35
@@ -110,16 +103,16 @@ msgid ""
 "itself discloses personal information or has been watermarked, traditionally "
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
-"Kom ihåg att metadata inte är den enda sättet att markera en fil. Om "
+"Kom ihåg att metadata inte är den enda sättet att märka en fil. Om "
 "innehållet tillkännager personuppgifter eller har blivit vattenstämplat, "
-"traditionellt eller via steganografi, kommer inte <app>Metadatarensaren</"
+"traditionellt eller via steganografi, kommer inte <app>Metadata Cleaner</"
 "app> att skydda dig."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr "Metadatarensaren"
+msgstr "Metadata Cleaner"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -132,20 +125,18 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/index.page:17
-#, fuzzy
-#| msgid "General informations"
 msgid "General information"
-msgstr "Generell info"
+msgstr "Allmän information"
 
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr "Bruk av <app>Metadatarensaren</app>"
+msgstr "Användning av <app>Metadata Cleaner</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr "Tillägg av filer"
+msgstr "Lägg till filer"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
@@ -153,13 +144,13 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
-"Tryck <gui style=\"button\">Lägg till filer</gui>-knappen for att lägga till "
-"filar.En filväljare vill öppnas där ni kan välja filer att öppna."
+"Tryck på knappen <gui style=\"button\">Lägg till filer</gui> för att lägga "
+"till filer. En filväljare öppnas där du kan välja de filer du vill rensa."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr "<gui style=\"button\">Lägg till filer</gui>-knappen"
+msgstr "<gui style=\"button\">Lägg till filer</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:25
@@ -191,18 +182,18 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Klick <gui style=\"button\">Rensa</gui>-knappen for at rensa alla filerna i "
-"fönstret. Reningsprocessen kan ta et tag."
+"Tryck på knappen <gui style=\"button\">Rensa</gui> för att rensa alla filer "
+"i fönstret. Rensningsprocessen kan ta en stund att slutföra."
 
 #. (itstool) path: figure/title
 #: C/usage.page:39
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr "<gui style=\"button\">Rensa</gui>-knappen"
+msgstr "<gui style=\"button\">Rensa</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:47
 msgid "Lightweight cleaning"
-msgstr "Lätt upprensning"
+msgstr "Lätt rensning"
 
 #. (itstool) path: section/p
 #: C/usage.page:48
