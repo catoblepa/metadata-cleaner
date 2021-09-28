@@ -6,6 +6,28 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.0.1] - 2021-09-28
+
+### Added
+- New Basque translation (contributed by @sergitroll9)
+
+### Changed
+- Dependency upon libadwaita 1.0.0.alpha.3
+- Updated Croatian translation (contributed by @milotype)
+- Updated Dutch translation (contributed by @Vistaus)
+- Updated French translation
+- Updated German translation (contributed by @milotype)
+- Updated Hungarian translation (contributed by @urbalazs)
+- Updated Lithuanian translation (contributed by @completed)
+- Updated Spanish translation (contributed by @oscfdezdz)
+- Updated Swedish translation (contributed by @eson)
+- Updated Turkish translation (contributed by @ersen)
+
+### Fixed
+- Writing style (contributed by @BrainBlasted)
+- Typos (contributed by @urbalazs)
+
+
 ## [2.0.0] - 2021-09-22
 
 Metadata Cleaner v2.0.0 is a major release featuring a brand new user interface written in GTK4 and using libadwaita, a new help system and a whole set of new and updated translations.
