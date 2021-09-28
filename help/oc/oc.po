@@ -1,10 +1,11 @@
 # Quentin PAGÈS <quentinantonin@free.fr>, 2021.
+# Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-09-23 11:49+0200\n"
-"PO-Revision-Date: 2021-09-10 12:52+0000\n"
-"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
+"PO-Revision-Date: 2021-09-28 08:49+0000\n"
+"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/oc/>\n"
 "Language: oc\n"
@@ -35,13 +36,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
-#, fuzzy
-#| msgid ""
-#| "Metadata within a file can tell a lot about you. Cameras record data "
-#| "about when and where a picture was taken and which camera was used. "
-#| "Office aplications automatically add author and company information to "
-#| "documents and spreadsheets. This is sensitive information and you may not "
-#| "want to disclose it."
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -52,8 +46,8 @@ msgstr ""
 "Las metadonadas dins un fichièr pòdon en dire fòrça a vòstre subjècte. Los "
 "aparelhs fòto enregistran quand e ont una fotografia foguèt presa e qual "
 "aparelh foguèt utilizat. Las aplicacions de burèu ajustan automaticament "
-"d'informacions sus l'autor e l'entrepresa als documents e als tablèus. Son "
-"d’informacions sensiblas e volètz benlèu pas las desvelar."
+"d'informacions sus l'autor e l'entrepresa als documents e als tablèus. Son d’"
+"informacions sensiblas e volètz benlèu pas las desvelar."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
@@ -124,8 +118,6 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/index.page:17
-#, fuzzy
-#| msgid "General informations"
 msgid "General information"
 msgstr "Informacions generals"
 
