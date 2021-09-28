@@ -151,7 +151,7 @@ package:
     - |
       curl \
       --header "JOB-TOKEN: $CI_JOB_TOKEN" \
-      --upload-file ${APP_ID}.flatpak \
+      --upload-file ${APP_ID}.Debug.flatpak \
       "${PACKAGE_REGISTRY_URL}/$CI_COMMIT_TAG/${APP_ID}.Debug.flatpak"
 
 release-notes:
