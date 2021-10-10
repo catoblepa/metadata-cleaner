@@ -349,7 +349,7 @@ msgstr ""
 msgid "Choose folders to clean"
 msgstr ""
 
-#: metadatacleaner/modules/file.py:223
+#: metadatacleaner/modules/file.py:238
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 

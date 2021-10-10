@@ -29,13 +29,15 @@ SPDX-License-Identifier: GPL-3.0-or-later
         <child>
           <object class="GtkBox">
             <property name="orientation">horizontal</property>
-            <property name="spacing">6</property>
+            <property name="margin-top">6</property>
+            <property name="margin-bottom">6</property>
+            <property name="spacing">12</property>
             <child>
               <object class="GtkBox">
                 <property name="orientation">horizontal</property>
                 <property name="hexpand">True</property>
                 <property name="valign">center</property>
-                <property name="spacing">6</property>
+                <property name="spacing">12</property>
                 <child>
                   <object class="GtkImage">
                     <property name="valign">center</property>
@@ -46,15 +48,35 @@ SPDX-License-Identifier: GPL-3.0-or-later
                   </object>
                 </child>
                 <child>
-                  <object class="GtkLabel">
-                    <property name="xalign">0</property>
-                    <property name="ellipsize">middle</property>
-                    <property name="wrap-mode">word-char</property>
-                    <property name="lines">2</property>
-                    <property name="single-line-mode">True</property>
-                    <binding name="label">
-                      <lookup name="filename" type="File"><lookup name="file">FileRow</lookup></lookup>
-                    </binding>
+                  <object class="GtkBox">
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="xalign">0</property>
+                        <property name="ellipsize">middle</property>
+                        <binding name="label">
+                          <lookup name="filename" type="File"><lookup name="file">FileRow</lookup></lookup>
+                        </binding>
+                        <binding name="tooltip-text">
+                          <lookup name="filename" type="File"><lookup name="file">FileRow</lookup></lookup>
+                        </binding>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkLabel">
+                        <property name="xalign">0</property>
+                        <property name="ellipsize">middle</property>
+                        <binding name="label">
+                          <lookup name="directory" type="File"><lookup name="file">FileRow</lookup></lookup>
+                        </binding>
+                        <binding name="tooltip-text">
+                          <lookup name="directory" type="File"><lookup name="file">FileRow</lookup></lookup>
+                        </binding>
+                        <style>
+                          <class name="subtitle"/>
+                        </style>
+                      </object>
+                    </child>
                   </object>
                 </child>
               </object>

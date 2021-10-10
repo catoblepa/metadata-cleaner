@@ -5,6 +5,7 @@
 
 import hashlib
 import os
+import re
 import tempfile
 
 from enum import IntEnum, auto
@@ -44,6 +45,7 @@ class File(GObject.GObject):
     }
 
     filename = GObject.Property(type=str)
+    directory = GObject.Property(type=str)
     icon_name = GObject.Property(type=str, nick="icon-name")
     simple_state = GObject.Property(
         type=str,
@@ -75,6 +77,7 @@ class File(GObject.GObject):
         self._temp_path = self._compute_temp_path(gfile.get_path())
         self.path = gfile.get_path()
         self.filename = gfile.get_basename()
+        self.directory = self._simplify_dir_path(gfile.get_path())
         self.state = FileState.INITIALIZING
         self.mimetype = "text/plain"
         self.icon_name = Gio.content_type_get_generic_icon_name(self.mimetype)
@@ -86,6 +89,18 @@ class File(GObject.GObject):
         filename, extension = os.path.splitext(path)
         digest = hashlib.sha256(path.encode("utf-8")).hexdigest()
         return os.path.join(tempfile.gettempdir(), f"{digest}{extension}")
+
+    def _simplify_dir_path(self, path: str) -> str:
+        dir_path = os.path.dirname(path)
+        doc_path_match = re.match(r"/run/user/\d+/doc/[a-z\d]+/", dir_path)
+        home_path_match = re.match(GLib.get_home_dir(), dir_path)
+        if doc_path_match:
+            # Remove the Document Store path
+            dir_path = dir_path.replace(doc_path_match.group(0), "", 1)
+        elif home_path_match:
+            # Replace the home path with the friendly ~
+            dir_path = dir_path.replace(GLib.get_home_dir(), "~", 1)
+        return dir_path
 
     def _set_state(self, state: FileState) -> None:
         if state == self.state:
