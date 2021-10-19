@@ -149,18 +149,27 @@ headerbar:not(.flat) button:focus
 
 .badge
 {
-	padding: 0.25em;
-	border-radius: 1em;
+	border-radius: 11px;
 	background-color: rgba(0, 0, 0, 0.5);
 	color: #fff;
 	font-weight: bold;
-	font-size: 0.85em;
+	font-size: 12px;
 }
 
 .badge.flat
 {
 	background: none;
 	color: @theme_fg_color;
+}
+
+.badge label
+{
+	margin: 0 6px;
+}
+
+.badge.metadata
+{
+	background-color: @accent_color;
 }
 
 .badge.warning

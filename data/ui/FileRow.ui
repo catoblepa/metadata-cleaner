@@ -62,6 +62,8 @@ SPDX-License-Identifier: GPL-3.0-or-later
             <child>
               <object class="GtkStack">
                 <property name="transition-type">crossfade</property>
+                <property name="hhomogeneous">False</property>
+                <property name="valign">center</property>
                 <binding name="visible-child-name">
                   <lookup name="simple-state" type="File"><lookup name="file">FileRow</lookup></lookup>
                 </binding>
@@ -124,7 +126,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                     <property name="child">
                       <object class="Badge">
                         <style>
-                          <class name="error"/>
+                          <class name="metadata"/>
                         </style>
                         <child>
                           <object class="GtkLabel">
