@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-27 17:33+0200\n"
-"PO-Revision-Date: 2021-10-09 08:01+0000\n"
+"PO-Revision-Date: 2021-10-27 18:03+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/oc/>\n"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New button to add folders"
-msgstr ""
+msgstr "Boton novèl per ajustar de dossièrs"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
@@ -139,10 +139,8 @@ msgid "Add files"
 msgstr "Ajustar de fichièrs"
 
 #: data/gtk/help-overlay.ui:24
-#, fuzzy
-#| msgid "Add files"
 msgid "Add folders"
-msgstr "Ajustar de fichièrs"
+msgstr "Ajustar de dossièrs"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -234,10 +232,8 @@ msgid "_Add Files"
 msgstr "_Ajustar de fichièrs"
 
 #: data/ui/AddFilesButton.ui:24
-#, fuzzy
-#| msgid "_Add Files"
 msgid "Add _Folders"
-msgstr "_Ajustar de fichièrs"
+msgstr "_Ajustar de dossièrrs"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -339,10 +335,8 @@ msgid "Choose files to clean"
 msgstr "Causir los fichièrs de netejar"
 
 #: data/ui/Window.ui:123
-#, fuzzy
-#| msgid "Choose files to clean"
 msgid "Choose folders to clean"
-msgstr "Causir los fichièrs de netejar"
+msgstr "Causir los dossièrs de netejar"
 
 #: metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -378,23 +372,19 @@ msgstr "Totes los fichièrs preses en carga"
 
 #: metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Ajustar los fichièrs dels jos-dossièrs"
 
 #: metadatacleaner/ui/statusindicator.py:36
-#, fuzzy
-#| msgid "Add files"
 msgid "Adding files…"
-msgstr "Ajustar de fichièrs"
+msgstr "Ajustar de dossièrs…"
 
 #: metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
 msgstr "Tractament del fichièr {}/{}"
 
 #: metadatacleaner/ui/statusindicator.py:40
-#, fuzzy
-#| msgid "Processing file {}/{}"
 msgid "Cleaning file {}/{}"
-msgstr "Tractament del fichièr {}/{}"
+msgstr "Netejatge del fichièr {}/{}"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Traduccion en croat (contribucion de Milo Ivir)"
