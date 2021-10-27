@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-23 11:49+0200\n"
+"POT-Creation-Date: 2021-10-24 23:50+0200\n"
 "PO-Revision-Date: 2021-08-13 10:21+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
@@ -101,73 +101,74 @@ msgstr ""
 "som mulig."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+msgid "New translations"
+msgstr "Nye oversettelser"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
 msgid "Improved adaptive user interface"
 msgstr "Forbedret tillpassbart brukergrensesnitt"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
 msgid "New help pages"
 msgstr "Nye hjelpesider"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 #, fuzzy
 #| msgid "One-click cleaning, no need to clean then save anymore"
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Rensing med ett klikk. Ingen grunn til å rense for så å lagre."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
 #, fuzzy
 #| msgid "Lightweight cleaning option is now saved"
 msgid "Persistent lightweight cleaning option"
 msgstr "Valg om lett rensing er nå vedvarende"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
-msgid "New translations"
-msgstr "Nye oversettelser"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr "Kroatisk oversettelse ved Milo Ivir"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
 #, fuzzy
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr "Brasiliansk-portugisisk oversettelse ved Gustavo Costa"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
 msgid "New in v1.0.4:"
 msgstr "Nytt i v1.0.4:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:109
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Tyrkisk oversettelse ved Oğuz Ersen"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
 msgid "New in v1.0.2:"
 msgstr "Nytt i v1.0.2:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:125
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Spansk oversettelse ved Óscar Fernández Díaz"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Svensk oversettelse ved Åke Engelbrektson"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 #, fuzzy
 msgid "Bug fixes:"
 msgstr "Feilfikser:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
 msgid "Files with uppercase extension can now be added"
 msgstr "Filer med filendelser som bruker store bokstaver kan nå legges til"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
 msgid "New in v1.0.1:"
 msgstr "Nytt i v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "German translation (contributed by lux)"
 msgstr "Tysk oversettelse ved lux"
 
@@ -182,40 +183,46 @@ msgstr "Legg til filer"
 
 #: data/gtk/help-overlay.ui:24
 #, fuzzy
+#| msgid "Add files"
+msgid "Add folders"
+msgstr "Legg til filer"
+
+#: data/gtk/help-overlay.ui:30
+#, fuzzy
 msgid "Clean metadata"
 msgstr "Rens metadata"
 
-#: data/gtk/help-overlay.ui:30
+#: data/gtk/help-overlay.ui:36
 #, fuzzy
 msgid "Clear all files from window"
 msgstr "Rens alle filer fra vinduet"
 
-#: data/gtk/help-overlay.ui:38
+#: data/gtk/help-overlay.ui:44
 #, fuzzy
 msgid "General"
 msgstr "Generelt"
 
-#: data/gtk/help-overlay.ui:41
+#: data/gtk/help-overlay.ui:47
 #, fuzzy
 msgid "New window"
 msgstr "Nytt vindu"
 
-#: data/gtk/help-overlay.ui:47
+#: data/gtk/help-overlay.ui:53
 #, fuzzy
 msgid "Close window"
 msgstr "Lukk vindu"
 
-#: data/gtk/help-overlay.ui:53
+#: data/gtk/help-overlay.ui:59
 #, fuzzy
 msgid "Quit"
 msgstr "Avslutt"
 
-#: data/gtk/help-overlay.ui:59
+#: data/gtk/help-overlay.ui:65
 #, fuzzy
 msgid "Keyboard shortcuts"
 msgstr "Tastatursnarveier"
 
-#: data/gtk/help-overlay.ui:65
+#: data/gtk/help-overlay.ui:71
 msgid "Help"
 msgstr "Hjelp"
 
@@ -276,6 +283,12 @@ msgstr ""
 msgid "_Add Files"
 msgstr "Legg til filer"
 
+#: data/ui/AddFilesButton.ui:24
+#, fuzzy
+#| msgid "Add files"
+msgid "Add _Folders"
+msgstr "Legg til filer"
+
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Rens"
@@ -315,15 +328,15 @@ msgstr "Lær mer om metadata og begrensninger i renseprosessen."
 msgid "Remove file from list"
 msgstr "Fjern filen fra listen"
 
-#: data/ui/FileRow.ui:96
+#: data/ui/FileRow.ui:120
 msgid "Warning"
 msgstr "Advarsel"
 
-#: data/ui/FileRow.ui:114
+#: data/ui/FileRow.ui:138
 msgid "Error"
 msgstr "Feil"
 
-#: data/ui/FileRow.ui:154
+#: data/ui/FileRow.ui:178
 msgid "Cleaned"
 msgstr "Renset"
 
@@ -384,7 +397,12 @@ msgstr "Allan Nordhøy <epost@anotheragency.no>"
 msgid "Choose files to clean"
 msgstr "Velg filer"
 
-#: metadatacleaner/modules/file.py:223
+#: data/ui/Window.ui:123
+#, fuzzy
+msgid "Choose folders to clean"
+msgstr "Velg filer"
+
+#: metadatacleaner/modules/file.py:238
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Noe gikk galt under renseprosessen. Finner ikke den rensede filen."
 
@@ -416,6 +434,10 @@ msgstr "Kunne ikke fjerne metadata."
 #: metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
 msgstr "Alle støttede filer"
+
+#: metadatacleaner/ui/folderchooserdialog.py:22
+msgid "Add files from subfolders"
+msgstr ""
 
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"

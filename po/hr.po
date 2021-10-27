@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-23 11:49+0200\n"
+"POT-Creation-Date: 2021-10-24 23:50+0200\n"
 "PO-Revision-Date: 2021-09-27 19:41+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,68 +95,69 @@ msgstr ""
 "datotekama."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-msgid "Improved adaptive user interface"
-msgstr "Poboljšano prilagodljivo korisničko sučelje"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-msgid "New help pages"
-msgstr "Nove stranice pomoći"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Jednostavno čišćenje, bez potrebe za spremanjem nakon čišćenja"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
-msgid "Persistent lightweight cleaning option"
-msgstr "Opcija za jednostavno čišćenje"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
 msgid "New translations"
 msgstr "Novi prijevodi"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
+msgid "Improved adaptive user interface"
+msgstr "Poboljšano prilagodljivo korisničko sučelje"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+msgid "New help pages"
+msgstr "Nove stranice pomoći"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+msgid "One-click cleaning, no need to save after cleaning"
+msgstr "Jednostavno čišćenje, bez potrebe za spremanjem nakon čišćenja"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+msgid "Persistent lightweight cleaning option"
+msgstr "Opcija za jednostavno čišćenje"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr "Hrvatski prijevod (Milo Ivir)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr "Portugalski (Brazil) prijevod (Gustavo Costa)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
 msgid "New in v1.0.4:"
 msgstr "Novo u v1.0.4:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:109
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Turski prijevod (Oğuz Ersen)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
 msgid "New in v1.0.2:"
 msgstr "Novo u v1.0.2:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:125
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Španjolski prijevod (Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Švedski prijevod (Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "Bug fixes:"
 msgstr "Ispravci grešaka:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 "Sada je moguće dodati datoteke s datotečnim nastavkom pisan velikim slovima"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
 msgid "New in v1.0.1:"
 msgstr "Novo u v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "German translation (contributed by lux)"
 msgstr "Njemački prijevod (lux)"
 
@@ -169,34 +170,40 @@ msgid "Add files"
 msgstr "Dodaj datoteke"
 
 #: data/gtk/help-overlay.ui:24
+#, fuzzy
+#| msgid "Add files"
+msgid "Add folders"
+msgstr "Dodaj datoteke"
+
+#: data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
 msgstr "Izbriši metapodatke"
 
-#: data/gtk/help-overlay.ui:30
+#: data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
 msgstr "Ukloni sve datoteke iz prozora"
 
-#: data/gtk/help-overlay.ui:38
+#: data/gtk/help-overlay.ui:44
 msgid "General"
 msgstr "Opće"
 
-#: data/gtk/help-overlay.ui:41
+#: data/gtk/help-overlay.ui:47
 msgid "New window"
 msgstr "Novi prozor"
 
-#: data/gtk/help-overlay.ui:47
+#: data/gtk/help-overlay.ui:53
 msgid "Close window"
 msgstr "Zatvori prozor"
 
-#: data/gtk/help-overlay.ui:53
+#: data/gtk/help-overlay.ui:59
 msgid "Quit"
 msgstr "Zatvori program"
 
-#: data/gtk/help-overlay.ui:59
+#: data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
 msgstr "Tipkovni prečaci"
 
-#: data/gtk/help-overlay.ui:65
+#: data/gtk/help-overlay.ui:71
 msgid "Help"
 msgstr "Pomoć"
 
@@ -256,6 +263,12 @@ msgstr ""
 msgid "_Add Files"
 msgstr "_Dodaj datoteke"
 
+#: data/ui/AddFilesButton.ui:24
+#, fuzzy
+#| msgid "_Add Files"
+msgid "Add _Folders"
+msgstr "_Dodaj datoteke"
+
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Očisti"
@@ -292,15 +305,15 @@ msgstr "Saznaj više o metapodacima i o ograničenjima postupka čišćenja."
 msgid "Remove file from list"
 msgstr "Ukloni datoteku iz popisa"
 
-#: data/ui/FileRow.ui:96
+#: data/ui/FileRow.ui:120
 msgid "Warning"
 msgstr "Upozorenje"
 
-#: data/ui/FileRow.ui:114
+#: data/ui/FileRow.ui:138
 msgid "Error"
 msgstr "Greška"
 
-#: data/ui/FileRow.ui:154
+#: data/ui/FileRow.ui:178
 msgid "Cleaned"
 msgstr "Očišćeno"
 
@@ -353,7 +366,13 @@ msgstr "Milo Ivir <mail@milotype.de>"
 msgid "Choose files to clean"
 msgstr "Odaberi datoteke koje želiš očistiti"
 
-#: metadatacleaner/modules/file.py:223
+#: data/ui/Window.ui:123
+#, fuzzy
+#| msgid "Choose files to clean"
+msgid "Choose folders to clean"
+msgstr "Odaberi datoteke koje želiš očistiti"
+
+#: metadatacleaner/modules/file.py:238
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Tijekom čišćenja se dogodila greška, očišćena datoteka nije pronađena"
 
@@ -384,6 +403,10 @@ msgstr "Nije moguće ukloniti metapodatke."
 #: metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
 msgstr "Sve podržane datoteke"
+
+#: metadatacleaner/ui/folderchooserdialog.py:22
+msgid "Add files from subfolders"
+msgstr ""
 
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"

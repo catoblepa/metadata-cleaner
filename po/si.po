@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-23 11:49+0200\n"
+"POT-Creation-Date: 2021-10-24 23:50+0200\n"
 "PO-Revision-Date: 2021-07-21 18:34+0000\n"
 "Last-Translator: HelaBasa <R45XvezA@protonmail.ch>\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -86,67 +86,68 @@ msgid ""
 msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-msgid "Improved adaptive user interface"
-msgstr ""
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-msgid "New help pages"
-msgstr ""
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
-msgid "Persistent lightweight cleaning option"
-msgstr ""
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
 msgid "New translations"
 msgstr "නව පරිවර්තන"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
+msgid "Improved adaptive user interface"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+msgid "New help pages"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+msgid "One-click cleaning, no need to save after cleaning"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+msgid "Persistent lightweight cleaning option"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
 msgid "New in v1.0.4:"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:109
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
 msgid "New in v1.0.2:"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:125
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "Bug fixes:"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
 msgid "New in v1.0.1:"
 msgstr ""
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "German translation (contributed by lux)"
 msgstr ""
 
@@ -160,38 +161,44 @@ msgid "Add files"
 msgstr "ගොනු එකතු කරන්න"
 
 #: data/gtk/help-overlay.ui:24
+#, fuzzy
+#| msgid "Add files"
+msgid "Add folders"
+msgstr "ගොනු එකතු කරන්න"
+
+#: data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
 msgstr ""
 
-#: data/gtk/help-overlay.ui:30
+#: data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
 msgstr ""
 
-#: data/gtk/help-overlay.ui:38
+#: data/gtk/help-overlay.ui:44
 msgid "General"
 msgstr ""
 
-#: data/gtk/help-overlay.ui:41
+#: data/gtk/help-overlay.ui:47
 #, fuzzy
 msgid "New window"
 msgstr "නව කවුළුව"
 
-#: data/gtk/help-overlay.ui:47
+#: data/gtk/help-overlay.ui:53
 #, fuzzy
 msgid "Close window"
 msgstr "කවුළුව වසන්න"
 
-#: data/gtk/help-overlay.ui:53
+#: data/gtk/help-overlay.ui:59
 #, fuzzy
 msgid "Quit"
 msgstr "ඉවත් වන්න"
 
-#: data/gtk/help-overlay.ui:59
+#: data/gtk/help-overlay.ui:65
 #, fuzzy
 msgid "Keyboard shortcuts"
 msgstr "යතුරුපුවරු කෙටිමං"
 
-#: data/gtk/help-overlay.ui:65
+#: data/gtk/help-overlay.ui:71
 msgid "Help"
 msgstr ""
 
@@ -248,6 +255,12 @@ msgstr ""
 msgid "_Add Files"
 msgstr "ගොනු එකතු කරන්න"
 
+#: data/ui/AddFilesButton.ui:24
+#, fuzzy
+#| msgid "Add files"
+msgid "Add _Folders"
+msgstr "ගොනු එකතු කරන්න"
+
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr ""
@@ -284,15 +297,15 @@ msgstr ""
 msgid "Remove file from list"
 msgstr ""
 
-#: data/ui/FileRow.ui:96
+#: data/ui/FileRow.ui:120
 msgid "Warning"
 msgstr "අවවාදයයි"
 
-#: data/ui/FileRow.ui:114
+#: data/ui/FileRow.ui:138
 msgid "Error"
 msgstr "දෝෂයකි"
 
-#: data/ui/FileRow.ui:154
+#: data/ui/FileRow.ui:178
 msgid "Cleaned"
 msgstr ""
 
@@ -348,7 +361,11 @@ msgstr ""
 msgid "Choose files to clean"
 msgstr ""
 
-#: metadatacleaner/modules/file.py:223
+#: data/ui/Window.ui:123
+msgid "Choose folders to clean"
+msgstr ""
+
+#: metadatacleaner/modules/file.py:238
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 
@@ -378,6 +395,10 @@ msgstr ""
 
 #: metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
+msgstr ""
+
+#: metadatacleaner/ui/folderchooserdialog.py:22
+msgid "Add files from subfolders"
 msgstr ""
 
 #: metadatacleaner/ui/statusindicator.py:35

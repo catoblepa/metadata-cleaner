@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-23 11:49+0200\n"
+"POT-Creation-Date: 2021-10-24 23:50+0200\n"
 "PO-Revision-Date: 2021-09-24 10:49+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -97,69 +97,70 @@ msgstr ""
 "mogelijk verwijderen."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+msgid "New translations"
+msgstr "Nieuwe vertalingen"
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
 msgid "Improved adaptive user interface"
 msgstr "De automatisch aanpasbare vormgeving is verbeterd"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
 msgid "New help pages"
 msgstr "Nieuwe hulppagina's"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:77
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr ""
 "Opschonen met één klik: je hoeft niet op te schonen en dan nog op te slaan"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
 msgid "Persistent lightweight cleaning option"
 msgstr "Permanente eenvoudige modus-optie"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
-msgid "New translations"
-msgstr "Nieuwe vertalingen"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
 msgid "Croatian translation (contributed by Milo Ivir)"
 msgstr "Kroatisch (met dank aan Milo Ivir)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
 msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
 msgstr "Portugees (Brazilië - met dank aan Gustavo Costa)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
 msgid "New in v1.0.4:"
 msgstr "Nieuw in v1.0.4:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:109
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
 msgid "Turkish translation (contributed by Oğuz Ersen)"
 msgstr "Turkse vertaling (met dank aan Oğuz Ersen)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
 msgid "New in v1.0.2:"
 msgstr "Nieuw in v1.0.2:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:125
 msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
 msgstr "Spaanse vertaling (met dank aan Óscar Fernández Díaz)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
 msgid "Swedish translation (contributed by Åke Engelbrektson)"
 msgstr "Zweedse vertaling (met dank aan Åke Engelbrektson)"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "Bug fixes:"
 msgstr "Opgeloste fouten:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 "Bestanden met een extensie in hoofdletters kunnen voortaan worden toegevoegd"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
 msgid "New in v1.0.1:"
 msgstr "Nieuw in v1.0.1:"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "German translation (contributed by lux)"
 msgstr "Duitse vertaling (met dank aan lux)"
 
@@ -172,34 +173,40 @@ msgid "Add files"
 msgstr "Bestanden toevoegen"
 
 #: data/gtk/help-overlay.ui:24
+#, fuzzy
+#| msgid "Add files"
+msgid "Add folders"
+msgstr "Bestanden toevoegen"
+
+#: data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
 msgstr "Metagegevens opschonen"
 
-#: data/gtk/help-overlay.ui:30
+#: data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
 msgstr "Alle bestanden op venster wissen"
 
-#: data/gtk/help-overlay.ui:38
+#: data/gtk/help-overlay.ui:44
 msgid "General"
 msgstr "Algemeen"
 
-#: data/gtk/help-overlay.ui:41
+#: data/gtk/help-overlay.ui:47
 msgid "New window"
 msgstr "Nieuw venster openen"
 
-#: data/gtk/help-overlay.ui:47
+#: data/gtk/help-overlay.ui:53
 msgid "Close window"
 msgstr "Venster sluiten"
 
-#: data/gtk/help-overlay.ui:53
+#: data/gtk/help-overlay.ui:59
 msgid "Quit"
 msgstr "Afsluiten"
 
-#: data/gtk/help-overlay.ui:59
+#: data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
 msgstr "Sneltoetsen tonen"
 
-#: data/gtk/help-overlay.ui:65
+#: data/gtk/help-overlay.ui:71
 msgid "Help"
 msgstr "Hulp"
 
@@ -260,6 +267,12 @@ msgstr ""
 msgid "_Add Files"
 msgstr "Best_anden toevoegen"
 
+#: data/ui/AddFilesButton.ui:24
+#, fuzzy
+#| msgid "_Add Files"
+msgid "Add _Folders"
+msgstr "Best_anden toevoegen"
+
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Opschonen"
@@ -297,15 +310,15 @@ msgstr "Lees meer over metagegevens en opschoonbeperkingen."
 msgid "Remove file from list"
 msgstr "Bestand verwijderen van lijst"
 
-#: data/ui/FileRow.ui:96
+#: data/ui/FileRow.ui:120
 msgid "Warning"
 msgstr "Waarschuwing"
 
-#: data/ui/FileRow.ui:114
+#: data/ui/FileRow.ui:138
 msgid "Error"
 msgstr "Foutmelding"
 
-#: data/ui/FileRow.ui:154
+#: data/ui/FileRow.ui:178
 msgid "Cleaned"
 msgstr "Opgeschoond"
 
@@ -358,7 +371,13 @@ msgstr "Heimen Stoffels <vistausss@fastmail.com>"
 msgid "Choose files to clean"
 msgstr "Kies op te schonen bestanden"
 
-#: metadatacleaner/modules/file.py:223
+#: data/ui/Window.ui:123
+#, fuzzy
+#| msgid "Choose files to clean"
+msgid "Choose folders to clean"
+msgstr "Kies op te schonen bestanden"
+
+#: metadatacleaner/modules/file.py:238
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Er is iets misgegaan tijdens het verwijderen: het opgeschoonde bestand is "
@@ -393,6 +412,10 @@ msgstr "De metagegevens kunnen niet worden verwijderd."
 #: metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
 msgstr "Alle ondersteunde bestanden"
+
+#: metadatacleaner/ui/folderchooserdialog.py:22
+msgid "Add files from subfolders"
+msgstr ""
 
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
