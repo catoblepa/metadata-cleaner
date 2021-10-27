@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-27 17:33+0200\n"
-"PO-Revision-Date: 2021-10-27 15:45+0000\n"
-"Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
+"PO-Revision-Date: 2021-10-27 18:03+0000\n"
+"Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/es/>\n"
 "Language: es\n"
@@ -377,20 +377,16 @@ msgid "Add files from subfolders"
 msgstr "Añadir archivos desde subcarpetas"
 
 #: metadatacleaner/ui/statusindicator.py:36
-#, fuzzy
-#| msgid "Add files"
 msgid "Adding files…"
-msgstr "Añadir archivos"
+msgstr "Añadir archivos…"
 
 #: metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
 msgstr "Procesando archivo {}/{}"
 
 #: metadatacleaner/ui/statusindicator.py:40
-#, fuzzy
-#| msgid "Processing file {}/{}"
 msgid "Cleaning file {}/{}"
-msgstr "Procesando archivo {}/{}"
+msgstr "Limpiando el archivo {}/{}"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Traducción al croata (aportada por Milo Ivir)"
