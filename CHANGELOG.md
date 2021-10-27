@@ -6,6 +6,18 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.1.0] - 2021-11-04
+
+### Added
+- New button to add folders
+- Folder name is now displayed in the files view
+
+### Changed
+- Info bar on the empty view is now a button
+- Updated Finnish translation (contributed by @artnay)
+- Updated Occitan translation (contributed by @quenty_occitania)
+
+
 ## [2.0.1] - 2021-09-28
 
 ### Added
