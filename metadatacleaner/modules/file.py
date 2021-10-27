@@ -46,6 +46,10 @@ class File(GObject.GObject):
 
     filename = GObject.Property(type=str)
     directory = GObject.Property(type=str)
+    display_directory = GObject.Property(
+        type=bool,
+        nick="display-directory",
+        default=True)
     icon_name = GObject.Property(type=str, nick="icon-name")
     simple_state = GObject.Property(
         type=str,
@@ -78,6 +82,7 @@ class File(GObject.GObject):
         self.path = gfile.get_path()
         self.filename = gfile.get_basename()
         self.directory = self._simplify_dir_path(gfile.get_path())
+        self.display_directory = bool(self.directory)
         self.state = FileState.INITIALIZING
         self.mimetype = "text/plain"
         self.icon_name = Gio.content_type_get_generic_icon_name(self.mimetype)
@@ -92,7 +97,7 @@ class File(GObject.GObject):
 
     def _simplify_dir_path(self, path: str) -> str:
         dir_path = os.path.dirname(path)
-        doc_path_match = re.match(r"/run/user/\d+/doc/[a-z\d]+/", dir_path)
+        doc_path_match = re.match(r"/run/user/\d+/doc/[a-z\d]+/?", dir_path)
         home_path_match = re.match(GLib.get_home_dir(), dir_path)
         if doc_path_match:
             # Remove the Document Store path

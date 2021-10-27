@@ -50,6 +50,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 <child>
                   <object class="GtkBox">
                     <property name="orientation">vertical</property>
+                    <property name="valign">center</property>
                     <child>
                       <object class="GtkLabel">
                         <property name="xalign">0</property>
@@ -71,6 +72,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
                         </binding>
                         <binding name="tooltip-text">
                           <lookup name="directory" type="File"><lookup name="file">FileRow</lookup></lookup>
+                        </binding>
+                        <binding name="visible">
+                          <lookup name="display-directory" type="File"><lookup name="file">FileRow</lookup></lookup>
                         </binding>
                         <style>
                           <class name="subtitle"/>
