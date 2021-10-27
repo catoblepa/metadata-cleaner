@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-24 23:50+0200\n"
+"POT-Creation-Date: 2021-10-27 15:36+0200\n"
 "PO-Revision-Date: 2021-09-24 10:49+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
@@ -97,70 +97,39 @@ msgstr ""
 "atsikratyti."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+msgid "New button to add folders"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New translations"
 msgstr "Nauji vertimai"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:90
 msgid "Improved adaptive user interface"
 msgstr "Patobulinta adaptyvi vartotojo sąsaja"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "New help pages"
 msgstr "Nauji pagalbos puslapiai"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Valymas vienu paspaudimu, išsaugoti po to nebereikia"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
 msgid "Persistent lightweight cleaning option"
 msgstr "Nuolatinė lengvojo valymo pasirinktis"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
-msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr "Vertimas į kroatų kalbą (prisidėjo Milo Ivir)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
-msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr "Vertimas į portugalų kalbą (Brazilų) (prisidėjo Gustavo Costa)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
-msgid "New in v1.0.4:"
-msgstr "Nauja 1.0.4 versijoje:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
-msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr "Vertimas į turkų kalbą (prisidėjo Oğuzas Ersenas)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
-msgid "New in v1.0.2:"
-msgstr "Nauja 1.0.2 versijoje:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:125
-msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr "Vertimas į ispanų kalbą (prisidėjo Óscar Fernández Díaz)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
-msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr "Vertimas į švedų kalbą (prisidėjo Åke Engelbrektson)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-msgid "Bug fixes:"
-msgstr "Klaidų pataisymai:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
 msgid "Files with uppercase extension can now be added"
 msgstr "Dabar galima pridėti failus su plėtiniais didžiosiomis raidėmis"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
-msgid "New in v1.0.1:"
-msgstr "Nauja 1.0.1 versijoje:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
-msgid "German translation (contributed by lux)"
-msgstr "Vertimas į vokiečių kalbą (prisidėjo lux)"
 
 #: data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -298,7 +267,7 @@ msgstr "Valyti"
 msgid "Clean Your Traces"
 msgstr "Išvalyk savo pėdsakus"
 
-#: data/ui/EmptyView.ui:27
+#: data/ui/EmptyView.ui:38
 msgid "Learn more about metadata and the cleaning process limitations."
 msgstr "Sužinokite daugiau apie metaduomenis ir valymo proceso apribojimus."
 
@@ -373,7 +342,7 @@ msgstr "Pasirinkite, kuriuos failus valyti"
 msgid "Choose folders to clean"
 msgstr "Pasirinkite, kuriuos failus valyti"
 
-#: metadatacleaner/modules/file.py:238
+#: metadatacleaner/modules/file.py:249
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Valymo metu įvyko kažkas nepavyko, išvalytas failas nerastas"
 
@@ -414,6 +383,36 @@ msgstr ""
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "Failas apdorojamas {}/{}"
+
+#~ msgid "Croatian translation (contributed by Milo Ivir)"
+#~ msgstr "Vertimas į kroatų kalbą (prisidėjo Milo Ivir)"
+
+#~ msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
+#~ msgstr "Vertimas į portugalų kalbą (Brazilų) (prisidėjo Gustavo Costa)"
+
+#~ msgid "New in v1.0.4:"
+#~ msgstr "Nauja 1.0.4 versijoje:"
+
+#~ msgid "Turkish translation (contributed by Oğuz Ersen)"
+#~ msgstr "Vertimas į turkų kalbą (prisidėjo Oğuzas Ersenas)"
+
+#~ msgid "New in v1.0.2:"
+#~ msgstr "Nauja 1.0.2 versijoje:"
+
+#~ msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
+#~ msgstr "Vertimas į ispanų kalbą (prisidėjo Óscar Fernández Díaz)"
+
+#~ msgid "Swedish translation (contributed by Åke Engelbrektson)"
+#~ msgstr "Vertimas į švedų kalbą (prisidėjo Åke Engelbrektson)"
+
+#~ msgid "Bug fixes:"
+#~ msgstr "Klaidų pataisymai:"
+
+#~ msgid "New in v1.0.1:"
+#~ msgstr "Nauja 1.0.1 versijoje:"
+
+#~ msgid "German translation (contributed by lux)"
+#~ msgstr "Vertimas į vokiečių kalbą (prisidėjo lux)"
 
 #~ msgid ""
 #~ "Trade some metadata's presence in exchange of the guarantee that the data "

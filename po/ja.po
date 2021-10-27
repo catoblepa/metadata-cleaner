@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-24 23:50+0200\n"
+"POT-Creation-Date: 2021-10-27 15:36+0200\n"
 "PO-Revision-Date: 2021-09-28 08:49+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/metadata-"
@@ -93,70 +93,39 @@ msgstr ""
 "このツールではファイル内のメタデータを確認し、可能な範囲で除去できます。"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+msgid "New button to add folders"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New translations"
 msgstr "新しい翻訳"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:90
 msgid "Improved adaptive user interface"
 msgstr "Adaptive User Interface の改善"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "New help pages"
 msgstr "新しいヘルプページ"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "ワンクリック除去、除去後の保存は不要"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
 msgid "Persistent lightweight cleaning option"
 msgstr "永続的な簡易除去オプション"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
-msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr "クロアチア語の翻訳 (Milo Ivir による貢献)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
-msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr "ポルトガル語 (ブラジル) の翻訳 (Gustavo Costa による貢献)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
-msgid "New in v1.0.4:"
-msgstr "v1.0.4 の更新内容:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
-msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr "トルコ語の翻訳 (Oğuz Ersen による貢献)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
-msgid "New in v1.0.2:"
-msgstr "v1.0.2 の更新内容:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:125
-msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr "スペイン語の翻訳 (Óscar Fernández Díaz による貢献)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
-msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr "スウェーデン語の翻訳 (Åke Engelbrektson による貢献)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-msgid "Bug fixes:"
-msgstr "バグ修正:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
 msgid "Files with uppercase extension can now be added"
 msgstr "拡張子が大文字のファイルを追加できるようになりました"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
-msgid "New in v1.0.1:"
-msgstr "v1.0.1 の更新内容:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
-msgid "German translation (contributed by lux)"
-msgstr "ドイツ語の翻訳 (lux による貢献)"
 
 #: data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -294,7 +263,7 @@ msgstr "除去"
 msgid "Clean Your Traces"
 msgstr "メタデータを除去します"
 
-#: data/ui/EmptyView.ui:27
+#: data/ui/EmptyView.ui:38
 msgid "Learn more about metadata and the cleaning process limitations."
 msgstr "メタデータおよび除去プロセスの限界についてはこちらをご覧ください。"
 
@@ -369,7 +338,7 @@ msgstr "メタデータを除去するファイルを選択"
 msgid "Choose folders to clean"
 msgstr "メタデータを除去するファイルを選択"
 
-#: metadatacleaner/modules/file.py:238
+#: metadatacleaner/modules/file.py:249
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "何らかの問題が発生し、除去済みのファイルが見つかりません"
 
@@ -408,3 +377,33 @@ msgstr ""
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "処理中のファイル {}/{}"
+
+#~ msgid "Croatian translation (contributed by Milo Ivir)"
+#~ msgstr "クロアチア語の翻訳 (Milo Ivir による貢献)"
+
+#~ msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
+#~ msgstr "ポルトガル語 (ブラジル) の翻訳 (Gustavo Costa による貢献)"
+
+#~ msgid "New in v1.0.4:"
+#~ msgstr "v1.0.4 の更新内容:"
+
+#~ msgid "Turkish translation (contributed by Oğuz Ersen)"
+#~ msgstr "トルコ語の翻訳 (Oğuz Ersen による貢献)"
+
+#~ msgid "New in v1.0.2:"
+#~ msgstr "v1.0.2 の更新内容:"
+
+#~ msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
+#~ msgstr "スペイン語の翻訳 (Óscar Fernández Díaz による貢献)"
+
+#~ msgid "Swedish translation (contributed by Åke Engelbrektson)"
+#~ msgstr "スウェーデン語の翻訳 (Åke Engelbrektson による貢献)"
+
+#~ msgid "Bug fixes:"
+#~ msgstr "バグ修正:"
+
+#~ msgid "New in v1.0.1:"
+#~ msgstr "v1.0.1 の更新内容:"
+
+#~ msgid "German translation (contributed by lux)"
+#~ msgstr "ドイツ語の翻訳 (lux による貢献)"

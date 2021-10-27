@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-24 23:50+0200\n"
+"POT-Creation-Date: 2021-10-27 15:36+0200\n"
 "PO-Revision-Date: 2021-09-24 10:49+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -96,71 +96,40 @@ msgstr ""
 "de ellos en la medida de lo posible."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+msgid "New button to add folders"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New translations"
 msgstr "Nuevas traducciones"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:90
 msgid "Improved adaptive user interface"
 msgstr "Interfaz de usuario adaptable mejorada"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "New help pages"
 msgstr "Nuevas páginas de ayuda"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr ""
 "Limpieza con un solo clic, sin necesidad de guardar después de la limpieza"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
 msgid "Persistent lightweight cleaning option"
 msgstr "Opción de limpieza ligera persistente"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
-msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr "Traducción al croata (aportada por Milo Ivir)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
-msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr "Traducción al portugués (Brasil) (aportada por Gustavo Costa)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
-msgid "New in v1.0.4:"
-msgstr "Nuevo en la versión 1.0.4:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
-msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr "Traducción al turco (aportada por Oğuz Ersen)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
-msgid "New in v1.0.2:"
-msgstr "Nuevo en la versión 1.0.2:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:125
-msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr "Traducción al español (aportada por Óscar Fernández Díaz)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
-msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr "Traducción al sueco (aportada por Åke Engelbrektson)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-msgid "Bug fixes:"
-msgstr "Corrección de errores:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
 msgid "Files with uppercase extension can now be added"
 msgstr "Ahora se pueden añadir archivos con extensión en mayúsculas"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
-msgid "New in v1.0.1:"
-msgstr "Nuevo en la versión 1.0.1:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
-msgid "German translation (contributed by lux)"
-msgstr "Traducción al alemán (aportada por lux)"
 
 #: data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -299,7 +268,7 @@ msgstr "Limpiar"
 msgid "Clean Your Traces"
 msgstr "Limpie sus huellas"
 
-#: data/ui/EmptyView.ui:27
+#: data/ui/EmptyView.ui:38
 msgid "Learn more about metadata and the cleaning process limitations."
 msgstr ""
 "Más información sobre los metadatos y las limitaciones del proceso de "
@@ -376,7 +345,7 @@ msgstr "Elija los archivos que desee limpiar"
 msgid "Choose folders to clean"
 msgstr "Elija los archivos que desee limpiar"
 
-#: metadatacleaner/modules/file.py:238
+#: metadatacleaner/modules/file.py:249
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Algo malo sucedió durante la limpieza, archivo limpio no encontrado"
 
@@ -415,6 +384,36 @@ msgstr ""
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "Procesando archivo {}/{}"
+
+#~ msgid "Croatian translation (contributed by Milo Ivir)"
+#~ msgstr "Traducción al croata (aportada por Milo Ivir)"
+
+#~ msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
+#~ msgstr "Traducción al portugués (Brasil) (aportada por Gustavo Costa)"
+
+#~ msgid "New in v1.0.4:"
+#~ msgstr "Nuevo en la versión 1.0.4:"
+
+#~ msgid "Turkish translation (contributed by Oğuz Ersen)"
+#~ msgstr "Traducción al turco (aportada por Oğuz Ersen)"
+
+#~ msgid "New in v1.0.2:"
+#~ msgstr "Nuevo en la versión 1.0.2:"
+
+#~ msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
+#~ msgstr "Traducción al español (aportada por Óscar Fernández Díaz)"
+
+#~ msgid "Swedish translation (contributed by Åke Engelbrektson)"
+#~ msgstr "Traducción al sueco (aportada por Åke Engelbrektson)"
+
+#~ msgid "Bug fixes:"
+#~ msgstr "Corrección de errores:"
+
+#~ msgid "New in v1.0.1:"
+#~ msgstr "Nuevo en la versión 1.0.1:"
+
+#~ msgid "German translation (contributed by lux)"
+#~ msgstr "Traducción al alemán (aportada por lux)"
 
 #~ msgid ""
 #~ "Trade some metadata's presence in exchange of the guarantee that the data "

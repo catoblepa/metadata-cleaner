@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-24 23:50+0200\n"
+"POT-Creation-Date: 2021-10-27 15:36+0200\n"
 "PO-Revision-Date: 2021-09-28 08:29+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/metadata-"
@@ -96,70 +96,39 @@ msgstr ""
 "metaadatokat, és a lehető legnagyobb mértékben megszabaduljon tőlük."
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:99
+msgid "New button to add folders"
+msgstr ""
+
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New translations"
 msgstr "Új fordítások"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:82
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:90
 msgid "Improved adaptive user interface"
 msgstr "Továbbfejlesztett alkalmazkodó felhasználói felület"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
 msgid "New help pages"
 msgstr "Új súgóoldalak"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Egykattintásos tisztítás, nincs szükség mentésre a tisztítás után"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
 msgid "Persistent lightweight cleaning option"
 msgstr "Állandó egyszerűsített tisztítási lehetőség"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:106
-msgid "Croatian translation (contributed by Milo Ivir)"
-msgstr "Horvát fordítás (Milo Ivir közreműködésével)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
-msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-msgstr "Portugál (brazíliai) fordítás (Gustavo Costa közreműködésével)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
-msgid "New in v1.0.4:"
-msgstr "Újdonságok az 1.0.4-es verzióban:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:116
-msgid "Turkish translation (contributed by Oğuz Ersen)"
-msgstr "Török fordítás (Oğuz Ersen közreműködésével)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:123
-msgid "New in v1.0.2:"
-msgstr "Újdonságok az 1.0.2-es verzióban:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:125
-msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-msgstr "Spanyol fordítás (Óscar Fernández Díaz közreműködésével)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
-msgid "Swedish translation (contributed by Åke Engelbrektson)"
-msgstr "Svéd fordítás (Åke Engelbrektson közreműködésével)"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-msgid "Bug fixes:"
-msgstr "Hibajavítások:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
 msgid "Files with uppercase extension can now be added"
 msgstr "Mostantól hozzáadhatók a nagybetűs kiterjesztéssel rendelkező fájlok"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:136
-msgid "New in v1.0.1:"
-msgstr "Újdonságok az 1.0.1-es verzióban:"
-
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
-msgid "German translation (contributed by lux)"
-msgstr "Német fordítás (lux közreműködésével)"
 
 #: data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -298,7 +267,7 @@ msgstr "Tisztítás"
 msgid "Clean Your Traces"
 msgstr "Tisztítsa meg a nyomait"
 
-#: data/ui/EmptyView.ui:27
+#: data/ui/EmptyView.ui:38
 msgid "Learn more about metadata and the cleaning process limitations."
 msgstr ""
 "Tudjon meg többet a metaadatokról és a tisztítási folyamat korlátjairól."
@@ -374,7 +343,7 @@ msgstr "Fájlok kiválasztása a tisztításhoz"
 msgid "Choose folders to clean"
 msgstr "Fájlok kiválasztása a tisztításhoz"
 
-#: metadatacleaner/modules/file.py:238
+#: metadatacleaner/modules/file.py:249
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Valami rossz történt a tisztítás során, a megtisztított fájl nem található"
@@ -415,3 +384,33 @@ msgstr ""
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
 msgstr "{}/{} fájl feldolgozása"
+
+#~ msgid "Croatian translation (contributed by Milo Ivir)"
+#~ msgstr "Horvát fordítás (Milo Ivir közreműködésével)"
+
+#~ msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
+#~ msgstr "Portugál (brazíliai) fordítás (Gustavo Costa közreműködésével)"
+
+#~ msgid "New in v1.0.4:"
+#~ msgstr "Újdonságok az 1.0.4-es verzióban:"
+
+#~ msgid "Turkish translation (contributed by Oğuz Ersen)"
+#~ msgstr "Török fordítás (Oğuz Ersen közreműködésével)"
+
+#~ msgid "New in v1.0.2:"
+#~ msgstr "Újdonságok az 1.0.2-es verzióban:"
+
+#~ msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
+#~ msgstr "Spanyol fordítás (Óscar Fernández Díaz közreműködésével)"
+
+#~ msgid "Swedish translation (contributed by Åke Engelbrektson)"
+#~ msgstr "Svéd fordítás (Åke Engelbrektson közreműködésével)"
+
+#~ msgid "Bug fixes:"
+#~ msgstr "Hibajavítások:"
+
+#~ msgid "New in v1.0.1:"
+#~ msgstr "Újdonságok az 1.0.1-es verzióban:"
+
+#~ msgid "German translation (contributed by lux)"
+#~ msgstr "Német fordítás (lux közreműködésével)"
