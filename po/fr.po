@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-24 23:50+0200\n"
-"PO-Revision-Date: 2021-09-24 10:49+0000\n"
+"PO-Revision-Date: 2021-10-27 14:07+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/fr/>\n"
@@ -172,10 +172,8 @@ msgid "Add files"
 msgstr "Ajouter des fichiers"
 
 #: data/gtk/help-overlay.ui:24
-#, fuzzy
-#| msgid "Add files"
 msgid "Add folders"
-msgstr "Ajouter des fichiers"
+msgstr "Ajouter des dossier"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -267,10 +265,8 @@ msgid "_Add Files"
 msgstr "_Ajouter des fichiers"
 
 #: data/ui/AddFilesButton.ui:24
-#, fuzzy
-#| msgid "_Add Files"
 msgid "Add _Folders"
-msgstr "_Ajouter des fichiers"
+msgstr "Ajouter des _dossiers"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -372,10 +368,8 @@ msgid "Choose files to clean"
 msgstr "Sélectionner les fichiers à nettoyer"
 
 #: data/ui/Window.ui:123
-#, fuzzy
-#| msgid "Choose files to clean"
 msgid "Choose folders to clean"
-msgstr "Sélectionner les fichiers à nettoyer"
+msgstr "Sélectionner les dossiers à nettoyer"
 
 #: metadatacleaner/modules/file.py:238
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -413,7 +407,7 @@ msgstr "Tous les fichiers supportés"
 
 #: metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Ajouter les fichiers des sous-dossiers"
 
 #: metadatacleaner/ui/statusindicator.py:35
 msgid "Processing file {}/{}"
