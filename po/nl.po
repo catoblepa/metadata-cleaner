@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 15:36+0200\n"
+"POT-Creation-Date: 2021-10-27 17:33+0200\n"
 "PO-Revision-Date: 2021-09-24 10:49+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -279,15 +279,15 @@ msgstr "Lees meer over metagegevens en opschoonbeperkingen."
 msgid "Remove file from list"
 msgstr "Bestand verwijderen van lijst"
 
-#: data/ui/FileRow.ui:120
+#: data/ui/FileRow.ui:124
 msgid "Warning"
 msgstr "Waarschuwing"
 
-#: data/ui/FileRow.ui:138
+#: data/ui/FileRow.ui:142
 msgid "Error"
 msgstr "Foutmelding"
 
-#: data/ui/FileRow.ui:178
+#: data/ui/FileRow.ui:182
 msgid "Cleaned"
 msgstr "Opgeschoond"
 
@@ -346,7 +346,7 @@ msgstr "Kies op te schonen bestanden"
 msgid "Choose folders to clean"
 msgstr "Kies op te schonen bestanden"
 
-#: metadatacleaner/modules/file.py:249
+#: metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Er is iets misgegaan tijdens het verwijderen: het opgeschoonde bestand is "
@@ -386,8 +386,20 @@ msgstr "Alle ondersteunde bestanden"
 msgid "Add files from subfolders"
 msgstr ""
 
-#: metadatacleaner/ui/statusindicator.py:35
+#: metadatacleaner/ui/statusindicator.py:36
+#, fuzzy
+#| msgid "Add files"
+msgid "Adding files…"
+msgstr "Bestanden toevoegen"
+
+#: metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
+msgstr "Bezig met verwerken van bestand {}/{}…"
+
+#: metadatacleaner/ui/statusindicator.py:40
+#, fuzzy
+#| msgid "Processing file {}/{}"
+msgid "Cleaning file {}/{}"
 msgstr "Bezig met verwerken van bestand {}/{}…"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"

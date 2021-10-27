@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 15:36+0200\n"
+"POT-Creation-Date: 2021-10-27 17:33+0200\n"
 "PO-Revision-Date: 2021-09-28 08:29+0000\n"
 "Last-Translator: Balázs Úr <balazs@urbalazs.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/metadata-"
@@ -276,15 +276,15 @@ msgstr ""
 msgid "Remove file from list"
 msgstr "Fájl eltávolítása a listáról"
 
-#: data/ui/FileRow.ui:120
+#: data/ui/FileRow.ui:124
 msgid "Warning"
 msgstr "Figyelmeztetés"
 
-#: data/ui/FileRow.ui:138
+#: data/ui/FileRow.ui:142
 msgid "Error"
 msgstr "Hiba"
 
-#: data/ui/FileRow.ui:178
+#: data/ui/FileRow.ui:182
 msgid "Cleaned"
 msgstr "Megtisztítva"
 
@@ -343,7 +343,7 @@ msgstr "Fájlok kiválasztása a tisztításhoz"
 msgid "Choose folders to clean"
 msgstr "Fájlok kiválasztása a tisztításhoz"
 
-#: metadatacleaner/modules/file.py:249
+#: metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Valami rossz történt a tisztítás során, a megtisztított fájl nem található"
@@ -381,8 +381,20 @@ msgstr "Minden támogatott fájl"
 msgid "Add files from subfolders"
 msgstr ""
 
-#: metadatacleaner/ui/statusindicator.py:35
+#: metadatacleaner/ui/statusindicator.py:36
+#, fuzzy
+#| msgid "Add files"
+msgid "Adding files…"
+msgstr "Fájlok hozzáadása"
+
+#: metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
+msgstr "{}/{} fájl feldolgozása"
+
+#: metadatacleaner/ui/statusindicator.py:40
+#, fuzzy
+#| msgid "Processing file {}/{}"
+msgid "Cleaning file {}/{}"
 msgstr "{}/{} fájl feldolgozása"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"

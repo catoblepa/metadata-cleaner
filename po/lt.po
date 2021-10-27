@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 15:36+0200\n"
+"POT-Creation-Date: 2021-10-27 17:33+0200\n"
 "PO-Revision-Date: 2021-09-24 10:49+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
@@ -275,15 +275,15 @@ msgstr "Sužinokite daugiau apie metaduomenis ir valymo proceso apribojimus."
 msgid "Remove file from list"
 msgstr "Pašalinti failą iš sąrašo"
 
-#: data/ui/FileRow.ui:120
+#: data/ui/FileRow.ui:124
 msgid "Warning"
 msgstr "Perspėjimas"
 
-#: data/ui/FileRow.ui:138
+#: data/ui/FileRow.ui:142
 msgid "Error"
 msgstr "Klaida"
 
-#: data/ui/FileRow.ui:178
+#: data/ui/FileRow.ui:182
 msgid "Cleaned"
 msgstr "Išvalyta"
 
@@ -342,7 +342,7 @@ msgstr "Pasirinkite, kuriuos failus valyti"
 msgid "Choose folders to clean"
 msgstr "Pasirinkite, kuriuos failus valyti"
 
-#: metadatacleaner/modules/file.py:249
+#: metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Valymo metu įvyko kažkas nepavyko, išvalytas failas nerastas"
 
@@ -380,8 +380,20 @@ msgstr "Visi palaikomi failai"
 msgid "Add files from subfolders"
 msgstr ""
 
-#: metadatacleaner/ui/statusindicator.py:35
+#: metadatacleaner/ui/statusindicator.py:36
+#, fuzzy
+#| msgid "Add files"
+msgid "Adding files…"
+msgstr "Pridėti failus"
+
+#: metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
+msgstr "Failas apdorojamas {}/{}"
+
+#: metadatacleaner/ui/statusindicator.py:40
+#, fuzzy
+#| msgid "Processing file {}/{}"
+msgid "Cleaning file {}/{}"
 msgstr "Failas apdorojamas {}/{}"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"

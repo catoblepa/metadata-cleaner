@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 15:36+0200\n"
+"POT-Creation-Date: 2021-10-27 17:33+0200\n"
 "PO-Revision-Date: 2021-10-27 12:46+0000\n"
 "Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -268,15 +268,15 @@ msgstr "Läs mer om metadata och begränsningar i rensningsprocessen."
 msgid "Remove file from list"
 msgstr "Ta bort filen från listan"
 
-#: data/ui/FileRow.ui:120
+#: data/ui/FileRow.ui:124
 msgid "Warning"
 msgstr "Varning"
 
-#: data/ui/FileRow.ui:138
+#: data/ui/FileRow.ui:142
 msgid "Error"
 msgstr "Fel"
 
-#: data/ui/FileRow.ui:178
+#: data/ui/FileRow.ui:182
 msgid "Cleaned"
 msgstr "Rensat"
 
@@ -335,7 +335,7 @@ msgstr "Välj filer att rensa"
 msgid "Choose folders to clean"
 msgstr "Välj mappar att rensa"
 
-#: metadatacleaner/modules/file.py:249
+#: metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Något dåligt hände under borttagningen, en rensad fil hittades inte"
 
@@ -372,8 +372,20 @@ msgstr "Alla filer som stöds"
 msgid "Add files from subfolders"
 msgstr "Lägg till filer från undermappar"
 
-#: metadatacleaner/ui/statusindicator.py:35
+#: metadatacleaner/ui/statusindicator.py:36
+#, fuzzy
+#| msgid "Add files"
+msgid "Adding files…"
+msgstr "Lägg till filer"
+
+#: metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
+msgstr "Bearbetar fil {}/{}"
+
+#: metadatacleaner/ui/statusindicator.py:40
+#, fuzzy
+#| msgid "Processing file {}/{}"
+msgid "Cleaning file {}/{}"
 msgstr "Bearbetar fil {}/{}"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
