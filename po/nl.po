@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-27 17:33+0200\n"
-"PO-Revision-Date: 2021-09-24 10:49+0000\n"
+"PO-Revision-Date: 2021-10-27 18:03+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/nl/>\n"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New button to add folders"
-msgstr ""
+msgstr "Nieuwe knop om mappen toe te voegen"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
@@ -122,7 +122,7 @@ msgstr "Nieuwe hulppagina's"
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr ""
-"Opschonen met één klik: je hoeft niet op te schonen en dan nog op te slaan"
+"Opschonen met één klik: u hoeft niet op te schonen en dan nog op te slaan"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
 msgid "Persistent lightweight cleaning option"
@@ -142,10 +142,8 @@ msgid "Add files"
 msgstr "Bestanden toevoegen"
 
 #: data/gtk/help-overlay.ui:24
-#, fuzzy
-#| msgid "Add files"
 msgid "Add folders"
-msgstr "Bestanden toevoegen"
+msgstr "Mappen toevoegen"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -237,10 +235,8 @@ msgid "_Add Files"
 msgstr "Best_anden toevoegen"
 
 #: data/ui/AddFilesButton.ui:24
-#, fuzzy
-#| msgid "_Add Files"
 msgid "Add _Folders"
-msgstr "Best_anden toevoegen"
+msgstr "M_appen toevoegen"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -341,10 +337,8 @@ msgid "Choose files to clean"
 msgstr "Kies op te schonen bestanden"
 
 #: data/ui/Window.ui:123
-#, fuzzy
-#| msgid "Choose files to clean"
 msgid "Choose folders to clean"
-msgstr "Kies op te schonen bestanden"
+msgstr "Kies op te schonen mappen"
 
 #: metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -384,23 +378,19 @@ msgstr "Alle ondersteunde bestanden"
 
 #: metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Bestanden toevoegen uit onderliggende mappen"
 
 #: metadatacleaner/ui/statusindicator.py:36
-#, fuzzy
-#| msgid "Add files"
 msgid "Adding files…"
-msgstr "Bestanden toevoegen"
+msgstr "Bezig met toevoegen van bestanden…"
 
 #: metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
 msgstr "Bezig met verwerken van bestand {}/{}…"
 
 #: metadatacleaner/ui/statusindicator.py:40
-#, fuzzy
-#| msgid "Processing file {}/{}"
 msgid "Cleaning file {}/{}"
-msgstr "Bezig met verwerken van bestand {}/{}…"
+msgstr "Bezig met opschonen van bestand {}/{}…"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Kroatisch (met dank aan Milo Ivir)"
