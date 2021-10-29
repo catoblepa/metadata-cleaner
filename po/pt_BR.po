@@ -4,13 +4,14 @@
 # Gustavo Costa <xfgusta@gmail.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2021.
+# Davi Patricio <davipatricio@pm.me>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-27 17:33+0200\n"
-"PO-Revision-Date: 2021-09-28 08:33+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"PO-Revision-Date: 2021-10-31 08:36+0000\n"
+"Last-Translator: Davi Patricio <davipatricio@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -97,7 +98,7 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New button to add folders"
-msgstr ""
+msgstr "Novo botão para adicionar pastas"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
@@ -139,10 +140,8 @@ msgid "Add files"
 msgstr "Adicionar arquivos"
 
 #: data/gtk/help-overlay.ui:24
-#, fuzzy
-#| msgid "Add files"
 msgid "Add folders"
-msgstr "Adicionar arquivos"
+msgstr "Adicionar pastas"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -233,10 +232,8 @@ msgid "_Add Files"
 msgstr "_Adicionar arquivos"
 
 #: data/ui/AddFilesButton.ui:24
-#, fuzzy
-#| msgid "_Add Files"
 msgid "Add _Folders"
-msgstr "_Adicionar arquivos"
+msgstr "_Adicionar pastas"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -336,10 +333,8 @@ msgid "Choose files to clean"
 msgstr "Escolha os arquivos para limpar"
 
 #: data/ui/Window.ui:123
-#, fuzzy
-#| msgid "Choose files to clean"
 msgid "Choose folders to clean"
-msgstr "Escolha os arquivos para limpar"
+msgstr "Escolha as pastas para limpar"
 
 #: metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -375,23 +370,19 @@ msgstr "Todos os arquivos suportados"
 
 #: metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Adicionar arquivos de subpastas"
 
 #: metadatacleaner/ui/statusindicator.py:36
-#, fuzzy
-#| msgid "Add files"
 msgid "Adding files…"
-msgstr "Adicionar arquivos"
+msgstr "Adicionando arquivos…"
 
 #: metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
 msgstr "Processando arquivo {}/{}"
 
 #: metadatacleaner/ui/statusindicator.py:40
-#, fuzzy
-#| msgid "Processing file {}/{}"
 msgid "Cleaning file {}/{}"
-msgstr "Processando arquivo {}/{}"
+msgstr "Limpando arquivo {}/{}"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Tradução croata (contribuição de Milo Ivir)"
