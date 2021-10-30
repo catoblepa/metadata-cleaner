@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-27 17:33+0200\n"
-"PO-Revision-Date: 2021-09-24 10:49+0000\n"
-"Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/lt/>\n"
+"PO-Revision-Date: 2021-10-31 08:36+0000\n"
+"Last-Translator: g <muziejusinfo@gmail.com>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
 "X-Generator: Weblate 4.9-dev\n"
 
 #: data/fr.romainvigier.MetadataCleaner.desktop.in:6
@@ -98,7 +99,7 @@ msgstr ""
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New button to add folders"
-msgstr ""
+msgstr "Naujas aplankų pridėjimo mygtukas"
 
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
@@ -140,10 +141,8 @@ msgid "Add files"
 msgstr "Pridėti failus"
 
 #: data/gtk/help-overlay.ui:24
-#, fuzzy
-#| msgid "Add files"
 msgid "Add folders"
-msgstr "Pridėti failus"
+msgstr "Pridėti aplankus"
 
 #: data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -234,10 +233,8 @@ msgid "_Add Files"
 msgstr "Pridėti failus"
 
 #: data/ui/AddFilesButton.ui:24
-#, fuzzy
-#| msgid "_Add Files"
 msgid "Add _Folders"
-msgstr "Pridėti failus"
+msgstr "Pridėti _aplankus"
 
 #: data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -337,10 +334,8 @@ msgid "Choose files to clean"
 msgstr "Pasirinkite, kuriuos failus valyti"
 
 #: data/ui/Window.ui:123
-#, fuzzy
-#| msgid "Choose files to clean"
 msgid "Choose folders to clean"
-msgstr "Pasirinkite, kuriuos failus valyti"
+msgstr "Pasirinkite, kuriuos aplankus valyti"
 
 #: metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -378,23 +373,19 @@ msgstr "Visi palaikomi failai"
 
 #: metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Pridėti failus iš poaplankių"
 
 #: metadatacleaner/ui/statusindicator.py:36
-#, fuzzy
-#| msgid "Add files"
 msgid "Adding files…"
-msgstr "Pridėti failus"
+msgstr "Pridedami failai…"
 
 #: metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
 msgstr "Failas apdorojamas {}/{}"
 
 #: metadatacleaner/ui/statusindicator.py:40
-#, fuzzy
-#| msgid "Processing file {}/{}"
 msgid "Cleaning file {}/{}"
-msgstr "Failas apdorojamas {}/{}"
+msgstr "Valomas failas {}/{}"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Vertimas į kroatų kalbą (prisidėjo Milo Ivir)"
