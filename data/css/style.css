@@ -29,6 +29,17 @@ headerbar:not(.flat) button:focus
 	outline-color: alpha(@accent_fg_color, 0.5);
 }
 
+window.flat headerbar
+{
+	border-bottom: 1px solid @theme_bg_color;
+	transition: border 0.4s;
+}
+
+window.flat.scrolled headerbar
+{
+	border-bottom: 1px solid @borders;
+}
+
 .help-button
 {
 	transition: margin 0.1s, border-radius 0.1s;
@@ -225,4 +236,9 @@ headerbar:not(.flat) button:focus
 .outbutton.weblate:hover
 {
 	background-color: rgba(46, 204, 170, 1);
+}
+
+.app-icon
+{
+	-gtk-icon-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }

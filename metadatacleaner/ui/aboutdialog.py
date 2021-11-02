@@ -27,16 +27,24 @@ class AboutDialog(Adw.Window):
     _documenters = ""
     _translator_credits = ""
 
+    _about_scrolled_window: Gtk.ScrolledWindow = Gtk.Template.Child()
     _copyright_label: OutButton = Gtk.Template.Child()
     _credits_artwork: OutButton = Gtk.Template.Child()
     _credits_code: OutButton = Gtk.Template.Child()
     _credits_documentation: OutButton = Gtk.Template.Child()
+    _credits_scrolled_window: Gtk.ScrolledWindow = Gtk.Template.Child()
     _credits_translation: OutButton = Gtk.Template.Child()
     _stack: Gtk.Stack = Gtk.Template.Child()
 
     def __init__(self, *args, **kwargs) -> None:
         """About dialog initialization."""
         super().__init__(*args, **kwargs)
+        self._about_scrolled_window.props.vadjustment.connect(
+            "value-changed",
+            self._on_scroll)
+        self._credits_scrolled_window.props.vadjustment.connect(
+            "value-changed",
+            self._on_scroll)
 
     @GObject.Property(type=str)
     def artists(self) -> str:
@@ -118,3 +126,26 @@ class AboutDialog(Adw.Window):
     @Gtk.Template.Callback()
     def _on_close_request(self, window: Adw.Window) -> None:
         self._stack.set_visible_child_name("about")
+        self._about_scrolled_window.props.vadjustment.props.value = 0
+
+    @Gtk.Template.Callback()
+    def _on_page_changed(
+            self, stack: Gtk.Stack, p_spec: GObject.ParamSpec) -> None:
+        self._update_scrolled_appearence()
+        self._about_scrolled_window.props.vadjustment.props.value = 0
+        self._credits_scrolled_window.props.vadjustment.props.value = 0
+
+    def _on_scroll(self, adjustment: Gtk.Adjustment) -> None:
+        self._update_scrolled_appearence()
+
+    def _update_scrolled_appearence(self) -> None:
+        if (
+            self._stack.props.visible_child_name == "about" and
+            self._about_scrolled_window.props.vadjustment.props.value != 0
+        ) or (
+            self._stack.props.visible_child_name == "credits" and
+            self._credits_scrolled_window.props.vadjustment.props.value != 0
+        ):
+            self.add_css_class("scrolled")
+        else:
+            self.remove_css_class("scrolled")
