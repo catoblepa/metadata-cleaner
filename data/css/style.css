@@ -58,7 +58,7 @@ window.flat.scrolled headerbar
 .file-list
 {
 	background: none;
-	transition: all 0.1s;
+	transition: all 0.2s ease-out;
 }
 
 .file-list:not(.small)
@@ -69,7 +69,8 @@ window.flat.scrolled headerbar
 .file-list row
 {
 	padding: 0;
-	transition: all 0.1s;
+	border-color: @borders;
+	transition: all 0.2s ease-out;
 }
 
 .file-list row:hover
@@ -79,9 +80,9 @@ window.flat.scrolled headerbar
 
 .file-list.small row
 {
-	background: @theme_base_color;
-	border-bottom: 1px solid @borders;
 	padding-left: 6px;
+	border-bottom: 1px solid @borders;
+	background: @card_bg_color;
 }
 
 .file-list row:selected
@@ -96,52 +97,42 @@ window.flat.scrolled headerbar
 	border-radius: unset;
 	background: unset;
 	font-weight: unset;
-	transition: all 0.1s;
+	transition: all 0.2s ease-out;
 }
 
 .file-list:not(.small) .file
 {
 	border-width: 0 1px 1px;
-	background: @theme_base_color;
+	background: @card_bg_color;
 }
 
 .file-list:not(.small) row:first-child .file
 {
 	border-width: 1px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
 }
 
 .file-list:not(.small) row:last-child .file
 {
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
 }
 
 .file-list:not(.small) row:selected .file,
 .file-list.small row:selected
 {
-	background: alpha(@theme_fg_color, 0.1);
+	background: alpha(@card_fg_color, 0.1);
 }
 
 .file-list .file:hover
 {
-	background: alpha(@theme_fg_color, 0.07);
+	background-image: image(alpha(@card_fg_color, 0.03));
 }
 
 .file-list .file:active
 {
-	background: alpha(@theme_fg_color, 0.16);
-}
-
-.file-list row:selected .file:hover
-{
-	background: alpha(@theme_fg_color, 0.13);
-}
-
-.file-list row:selected .file:active
-{
-	background: alpha(@theme_fg_color, 0.19);
+	background-image: image(alpha(@card_fg_color, 0.08));
 }
 
 .file-list.small row:hover .file
