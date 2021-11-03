@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 17:33+0200\n"
+"POT-Creation-Date: 2021-11-03 21:27+0100\n"
 "PO-Revision-Date: 2021-10-31 08:36+0000\n"
 "Last-Translator: g <muziejusinfo@gmail.com>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/lt/>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,61 +21,61 @@ msgstr ""
 "1 : 2);\n"
 "X-Generator: Weblate 4.9-dev\n"
 
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:6
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:7
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: data/ui/AboutDialog.ui:66 metadatacleaner/app.py:38
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
+#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "Metaduomenų valytojas"
 
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:8
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
 msgstr "Išvalyti failų metaduomenis"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:16
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metaduomenys;Šalintojas;Valytojas;"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
 msgstr "Valyti be įspėjimo"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
 msgstr "Valyti failus nerodant įspėjimo dialogo lango"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
 msgstr "Lengvasis valymas"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
 "Nedaryti destruktyvių failų pakeitimų, bet tai gali palikti kai kuriuos "
 "metaduomenis"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
 msgstr "Lango plotis"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
 msgstr "Išsaugotas lango plotis"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
 msgstr "Lango aukštis"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
 msgstr "Išsaugotas lango aukštis"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "Peržiūrėti ir išvalyti failų metaduomenis"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -89,7 +89,7 @@ msgstr ""
 "informaciją prie dokumentų ir skaičiuoklių. Tai neskelbtina informacija ir "
 "galbūt nenorėsite jos atskleisti."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -97,118 +97,118 @@ msgstr ""
 "Šis įrankis leidžia peržiūrėti failų metaduomenis ir jų kiek įmanoma "
 "atsikratyti."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New button to add folders"
 msgstr "Naujas aplankų pridėjimo mygtukas"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:141
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
 msgid "New translations"
 msgstr "Nauji vertimai"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:90
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "Improved adaptive user interface"
 msgstr "Patobulinta adaptyvi vartotojo sąsaja"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
 msgid "New help pages"
 msgstr "Nauji pagalbos puslapiai"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Valymas vienu paspaudimu, išsaugoti po to nebereikia"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 msgid "Persistent lightweight cleaning option"
 msgstr "Nuolatinė lengvojo valymo pasirinktis"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
 msgid "Files with uppercase extension can now be added"
 msgstr "Dabar galima pridėti failus su plėtiniais didžiosiomis raidėmis"
 
-#: data/gtk/help-overlay.ui:15
+#: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "Failai"
 
-#: data/gtk/help-overlay.ui:18
+#: application/data/gtk/help-overlay.ui:18
 msgid "Add files"
 msgstr "Pridėti failus"
 
-#: data/gtk/help-overlay.ui:24
+#: application/data/gtk/help-overlay.ui:24
 msgid "Add folders"
 msgstr "Pridėti aplankus"
 
-#: data/gtk/help-overlay.ui:30
+#: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
 msgstr "Išvalyti metaduomenis"
 
-#: data/gtk/help-overlay.ui:36
+#: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
 msgstr "Išvalyti visus failus iš lango"
 
-#: data/gtk/help-overlay.ui:44
+#: application/data/gtk/help-overlay.ui:44
 msgid "General"
 msgstr "Bendrieji"
 
-#: data/gtk/help-overlay.ui:47
+#: application/data/gtk/help-overlay.ui:47
 msgid "New window"
 msgstr "Naujas langas"
 
-#: data/gtk/help-overlay.ui:53
+#: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
 msgstr "Uždaryti langą"
 
-#: data/gtk/help-overlay.ui:59
+#: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
 msgstr "Išeiti"
 
-#: data/gtk/help-overlay.ui:65
+#: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
 msgstr "Spartieji klavišai"
 
-#: data/gtk/help-overlay.ui:71
+#: application/data/gtk/help-overlay.ui:71
 msgid "Help"
 msgstr "Pagalba"
 
-#: data/ui/AboutDialog.ui:87
+#: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
 msgstr "Pokalbis Matrix"
 
-#: data/ui/AboutDialog.ui:97
+#: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
 msgstr "Peržiūrėkite kodą GitLab"
 
-#: data/ui/AboutDialog.ui:107
+#: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
 msgstr "Verskite Weblate"
 
-#: data/ui/AboutDialog.ui:117
+#: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
 msgstr "Paremkite mus Liberapay"
 
-#: data/ui/AboutDialog.ui:147
+#: application/data/ui/AboutDialog.ui:170
 msgid "Code"
 msgstr "Kodas"
 
-#: data/ui/AboutDialog.ui:153
+#: application/data/ui/AboutDialog.ui:176
 msgid "Artwork"
 msgstr "Dizainas"
 
-#: data/ui/AboutDialog.ui:159
+#: application/data/ui/AboutDialog.ui:182
 msgid "Documentation"
 msgstr "Dokumentacija"
 
-#: data/ui/AboutDialog.ui:165
+#: application/data/ui/AboutDialog.ui:188
 msgid "Translation"
 msgstr "Vertimas"
 
-#: data/ui/AboutDialog.ui:170
+#: application/data/ui/AboutDialog.ui:193
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
@@ -216,7 +216,7 @@ msgstr ""
 "Ši programa naudoja <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
 "metaduomenų analizei ir valymui. Parodykite jiems šiek tiek meilės!"
 
-#: data/ui/AboutDialog.ui:183
+#: application/data/ui/AboutDialog.ui:206
 msgid ""
 "The source code of this program is released under the terms of the <a href="
 "\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
@@ -228,162 +228,162 @@ msgstr ""
 "Originalus dizainas ir vertimai išleisti pagal <a href=\"https://"
 "creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> sąlygas."
 
-#: data/ui/AddFilesButton.ui:11
+#: application/data/ui/AddFilesButton.ui:11
 msgid "_Add Files"
 msgstr "Pridėti failus"
 
-#: data/ui/AddFilesButton.ui:24
+#: application/data/ui/AddFilesButton.ui:24
 msgid "Add _Folders"
 msgstr "Pridėti _aplankus"
 
-#: data/ui/CleanMetadataButton.ui:9
+#: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Valyti"
 
-#: data/ui/CleaningWarningDialog.ui:9
+#: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
 msgstr "Įsitikinkite, kad padarėte atsarginę failų kopiją!"
 
-#: data/ui/CleaningWarningDialog.ui:10
+#: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
 msgstr "Kai failai bus išvalyti, kelio atgal nebebus."
 
-#: data/ui/CleaningWarningDialog.ui:17
+#: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
 msgstr "Nesakyk man daugiau"
 
-#: data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
 msgstr "Atsisakyti"
 
-#: data/ui/CleaningWarningDialog.ui:30
+#: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
 msgstr "Valyti"
 
-#: data/ui/EmptyView.ui:13
+#: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
 msgstr "Išvalyk savo pėdsakus"
 
-#: data/ui/EmptyView.ui:38
+#: application/data/ui/EmptyView.ui:38
 msgid "Learn more about metadata and the cleaning process limitations."
 msgstr "Sužinokite daugiau apie metaduomenis ir valymo proceso apribojimus."
 
-#: data/ui/FileRow.ui:12
+#: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
 msgstr "Pašalinti failą iš sąrašo"
 
-#: data/ui/FileRow.ui:124
+#: application/data/ui/FileRow.ui:124
 msgid "Warning"
 msgstr "Perspėjimas"
 
-#: data/ui/FileRow.ui:142
+#: application/data/ui/FileRow.ui:142
 msgid "Error"
 msgstr "Klaida"
 
-#: data/ui/FileRow.ui:182
+#: application/data/ui/FileRow.ui:182
 msgid "Cleaned"
 msgstr "Išvalyta"
 
-#: data/ui/MenuButton.ui:10
+#: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
 msgstr "_Naujas langas"
 
-#: data/ui/MenuButton.ui:14
+#: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
 msgstr "_Išvalyti langą"
 
-#: data/ui/MenuButton.ui:20
+#: application/data/ui/MenuButton.ui:20
 msgid "_Help"
 msgstr "_Pagalba"
 
-#: data/ui/MenuButton.ui:25
+#: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
 msgstr "_Spartieji klavišai"
 
-#: data/ui/MenuButton.ui:29
+#: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
 msgstr "_Apie Metaduomenų Valytoją"
 
-#: data/ui/SettingsButton.ui:9
+#: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
 msgstr "Valymo nustatymai"
 
-#: data/ui/SettingsButton.ui:27
+#: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
 msgstr "Lengvasis valymas"
 
-#: data/ui/SettingsButton.ui:32
+#: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
 msgstr "Sužinokite daugiau apie lengvąjį valymą"
 
-#: data/ui/Window.ui:78
+#: application/data/ui/Window.ui:78
 msgid "Details"
 msgstr "Išsamesnė informacija"
 
-#: data/ui/Window.ui:84
+#: application/data/ui/Window.ui:84
 msgid "Close"
 msgstr "Uždaryti"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: data/ui/Window.ui:104
+#: application/data/ui/Window.ui:104
 msgid "translator-credits"
 msgstr "Gediminas Murauskas"
 
-#: data/ui/Window.ui:113
+#: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
 msgstr "Pasirinkite, kuriuos failus valyti"
 
-#: data/ui/Window.ui:123
+#: application/data/ui/Window.ui:123
 msgid "Choose folders to clean"
 msgstr "Pasirinkite, kuriuos aplankus valyti"
 
-#: metadatacleaner/modules/file.py:254
+#: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Valymo metu įvyko kažkas nepavyko, išvalytas failas nerastas"
 
-#: metadatacleaner/ui/detailsview.py:58
+#: application/metadatacleaner/ui/detailsview.py:58
 msgid "The file has been cleaned."
 msgstr "Šis failas buvo išvalytas."
 
-#: metadatacleaner/ui/detailsview.py:69
+#: application/metadatacleaner/ui/detailsview.py:69
 msgid "Unable to read the file."
 msgstr "Neįmanoma nuskaityti failo."
 
-#: metadatacleaner/ui/detailsview.py:70
+#: application/metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
 msgstr "Failo tipas nepalaikomas."
 
-#: metadatacleaner/ui/detailsview.py:72
+#: application/metadatacleaner/ui/detailsview.py:72
 msgid "Unable to check metadata."
 msgstr "Neįmanoma patikrinti metaduomenų."
 
-#: metadatacleaner/ui/detailsview.py:74
+#: application/metadatacleaner/ui/detailsview.py:74
 msgid "No known metadata, the file will be cleaned to be sure."
 msgstr ""
 "Metaduomenys nežinomi, kad įsitikintumėte, failas dėl visa ko bus vis tiek "
 "išvalytas."
 
-#: metadatacleaner/ui/detailsview.py:76
+#: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to remove metadata."
 msgstr "Nepavyko pašalinti metaduomenų."
 
-#: metadatacleaner/ui/filechooserdialog.py:24
+#: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
 msgstr "Visi palaikomi failai"
 
-#: metadatacleaner/ui/folderchooserdialog.py:22
+#: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
 msgstr "Pridėti failus iš poaplankių"
 
-#: metadatacleaner/ui/statusindicator.py:36
+#: application/metadatacleaner/ui/statusindicator.py:36
 msgid "Adding files…"
 msgstr "Pridedami failai…"
 
-#: metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
 msgstr "Failas apdorojamas {}/{}"
 
-#: metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:40
 msgid "Cleaning file {}/{}"
 msgstr "Valomas failas {}/{}"
 

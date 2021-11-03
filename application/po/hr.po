@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-27 17:33+0200\n"
+"POT-Creation-Date: 2021-11-03 21:27+0100\n"
 "PO-Revision-Date: 2021-10-29 09:44+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
-"Language-Team: Croatian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/hr/>\n"
+"Language-Team: Croatian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,60 +20,60 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.9-dev\n"
 
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:6
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:7
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: data/ui/AboutDialog.ui:66 metadatacleaner/app.py:38
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
+#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "Brisač metapodataka"
 
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:8
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
 msgstr "Izbriši metapodatke iz datoteka"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/fr.romainvigier.MetadataCleaner.desktop.in:16
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metapodaci;uklanjanje;brisanje;brisač;"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:10
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
 msgstr "Izbriši bez upozoravanja"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:11
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
 msgstr "Očisti datoteke bez prikazivanja upozorenja"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:15
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
 msgstr "Jednostavno čišćenje"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:16
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
 "Mijenja datoteke na nedestruktivan način, ali možda ne briše sve metapodatke"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:20
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
 msgstr "Širina prozora"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:21
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
 msgstr "Spremljena širina prozora"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:25
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
 msgstr "Visina prozora"
 
-#: data/fr.romainvigier.MetadataCleaner.gschema.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
 msgstr "Spremljena visina prozora"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "Prikaži i izbriši metapodatke u datotekama"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -86,7 +86,7 @@ msgstr ""
 "Uredski programi automatski dodaju podatke o autoru i tvrtki u dokumente i "
 "proračunske tablice. Možda ne želiš da te informacije budu dostupne drugima."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -94,119 +94,119 @@ msgstr ""
 "Ovaj program omogućuje prikaz i brisanje (po mogućnosti svih) metapodataka u "
 "datotekama."
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "New button to add folders"
 msgstr "Novi gumb za dodavanje mapa"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:83
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:100
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:107
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:114
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:122
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:141
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
 msgid "New translations"
 msgstr "Novi prijevodi"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:90
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
 msgid "Improved adaptive user interface"
 msgstr "Poboljšano prilagodljivo korisničko sučelje"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:91
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
 msgid "New help pages"
 msgstr "Nove stranice pomoći"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Jednostavno čišćenje, bez potrebe za spremanjem nakon čišćenja"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 msgid "Persistent lightweight cleaning option"
 msgstr "Opcija za jednostavno čišćenje"
 
-#: data/fr.romainvigier.MetadataCleaner.metainfo.xml:131
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
 msgid "Files with uppercase extension can now be added"
 msgstr ""
 "Sada je moguće dodati datoteke s datotečnim nastavkom pisan velikim slovima"
 
-#: data/gtk/help-overlay.ui:15
+#: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "Datoteke"
 
-#: data/gtk/help-overlay.ui:18
+#: application/data/gtk/help-overlay.ui:18
 msgid "Add files"
 msgstr "Dodaj datoteke"
 
-#: data/gtk/help-overlay.ui:24
+#: application/data/gtk/help-overlay.ui:24
 msgid "Add folders"
 msgstr "Dodaj mape"
 
-#: data/gtk/help-overlay.ui:30
+#: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
 msgstr "Izbriši metapodatke"
 
-#: data/gtk/help-overlay.ui:36
+#: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
 msgstr "Ukloni sve datoteke iz prozora"
 
-#: data/gtk/help-overlay.ui:44
+#: application/data/gtk/help-overlay.ui:44
 msgid "General"
 msgstr "Opće"
 
-#: data/gtk/help-overlay.ui:47
+#: application/data/gtk/help-overlay.ui:47
 msgid "New window"
 msgstr "Novi prozor"
 
-#: data/gtk/help-overlay.ui:53
+#: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
 msgstr "Zatvori prozor"
 
-#: data/gtk/help-overlay.ui:59
+#: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
 msgstr "Zatvori program"
 
-#: data/gtk/help-overlay.ui:65
+#: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
 msgstr "Tipkovni prečaci"
 
-#: data/gtk/help-overlay.ui:71
+#: application/data/gtk/help-overlay.ui:71
 msgid "Help"
 msgstr "Pomoć"
 
-#: data/ui/AboutDialog.ui:87
+#: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
 msgstr "Razgovaraj na Matrixu"
 
-#: data/ui/AboutDialog.ui:97
+#: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
 msgstr "Pogledaj kôd na GitLabu"
 
-#: data/ui/AboutDialog.ui:107
+#: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
 msgstr "Prevodi na Weblateu"
 
-#: data/ui/AboutDialog.ui:117
+#: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
 msgstr "Podrži nas na Liberapayu"
 
-#: data/ui/AboutDialog.ui:147
+#: application/data/ui/AboutDialog.ui:170
 msgid "Code"
 msgstr "Programiranje"
 
-#: data/ui/AboutDialog.ui:153
+#: application/data/ui/AboutDialog.ui:176
 msgid "Artwork"
 msgstr "Ilustracija"
 
-#: data/ui/AboutDialog.ui:159
+#: application/data/ui/AboutDialog.ui:182
 msgid "Documentation"
 msgstr "Dokumentacija"
 
-#: data/ui/AboutDialog.ui:165
+#: application/data/ui/AboutDialog.ui:188
 msgid "Translation"
 msgstr "Prijevod"
 
-#: data/ui/AboutDialog.ui:170
+#: application/data/ui/AboutDialog.ui:193
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
@@ -214,7 +214,7 @@ msgstr ""
 "Za obradu i brisanje metapodataka ovaj program koristi <a href="
 "\"https://0xacab.org/jvoisin/mat2\">mat2</a>. Pokaži im malo ljubavi!"
 
-#: data/ui/AboutDialog.ui:183
+#: application/data/ui/AboutDialog.ui:206
 msgid ""
 "The source code of this program is released under the terms of the <a href="
 "\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
@@ -226,160 +226,160 @@ msgstr ""
 "Izvorna umjetnička djela i prijevodi objavljuju se pod uvjetima licence <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
-#: data/ui/AddFilesButton.ui:11
+#: application/data/ui/AddFilesButton.ui:11
 msgid "_Add Files"
 msgstr "_Dodaj datoteke"
 
-#: data/ui/AddFilesButton.ui:24
+#: application/data/ui/AddFilesButton.ui:24
 msgid "Add _Folders"
 msgstr "Dodaj _mape"
 
-#: data/ui/CleanMetadataButton.ui:9
+#: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
 msgstr "_Očisti"
 
-#: data/ui/CleaningWarningDialog.ui:9
+#: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
 msgstr "Spremi sigurnosne kopije tvojih datoteka!"
 
-#: data/ui/CleaningWarningDialog.ui:10
+#: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
 msgstr "Nakon što se datoteke očiste, nema povratka na staro."
 
-#: data/ui/CleaningWarningDialog.ui:17
+#: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
 msgstr "Nemoj me više podsjećivati"
 
-#: data/ui/CleaningWarningDialog.ui:25
+#: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
 msgstr "Odustani"
 
-#: data/ui/CleaningWarningDialog.ui:30
+#: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
 msgstr "Očisti"
 
-#: data/ui/EmptyView.ui:13
+#: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
 msgstr "Izbriši svoje tragove"
 
-#: data/ui/EmptyView.ui:38
+#: application/data/ui/EmptyView.ui:38
 msgid "Learn more about metadata and the cleaning process limitations."
 msgstr "Saznaj više o metapodacima i o ograničenjima postupka čišćenja."
 
-#: data/ui/FileRow.ui:12
+#: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
 msgstr "Ukloni datoteku iz popisa"
 
-#: data/ui/FileRow.ui:124
+#: application/data/ui/FileRow.ui:124
 msgid "Warning"
 msgstr "Upozorenje"
 
-#: data/ui/FileRow.ui:142
+#: application/data/ui/FileRow.ui:142
 msgid "Error"
 msgstr "Greška"
 
-#: data/ui/FileRow.ui:182
+#: application/data/ui/FileRow.ui:182
 msgid "Cleaned"
 msgstr "Očišćeno"
 
-#: data/ui/MenuButton.ui:10
+#: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
 msgstr "_Novi prozor"
 
-#: data/ui/MenuButton.ui:14
+#: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
 msgstr "_Isprazni prozor"
 
-#: data/ui/MenuButton.ui:20
+#: application/data/ui/MenuButton.ui:20
 msgid "_Help"
 msgstr "_Pomoć"
 
-#: data/ui/MenuButton.ui:25
+#: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
 msgstr "_Tipkovni prečaci"
 
-#: data/ui/MenuButton.ui:29
+#: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
 msgstr "_O programu Brisač metapodataka"
 
-#: data/ui/SettingsButton.ui:9
+#: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
 msgstr "Postavke čišćenja"
 
-#: data/ui/SettingsButton.ui:27
+#: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
 msgstr "Jednostavno čišćenje"
 
-#: data/ui/SettingsButton.ui:32
+#: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
 msgstr "Saznaj više o jednostavnom čišćenju"
 
-#: data/ui/Window.ui:78
+#: application/data/ui/Window.ui:78
 msgid "Details"
 msgstr "Detalji"
 
-#: data/ui/Window.ui:84
+#: application/data/ui/Window.ui:84
 msgid "Close"
 msgstr "Zatvori"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: data/ui/Window.ui:104
+#: application/data/ui/Window.ui:104
 msgid "translator-credits"
 msgstr "Milo Ivir <mail@milotype.de>"
 
-#: data/ui/Window.ui:113
+#: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
 msgstr "Odaberi datoteke koje želiš očistiti"
 
-#: data/ui/Window.ui:123
+#: application/data/ui/Window.ui:123
 msgid "Choose folders to clean"
 msgstr "Odaberi mape koje želiš očistiti"
 
-#: metadatacleaner/modules/file.py:254
+#: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Tijekom čišćenja se dogodila greška, očišćena datoteka nije pronađena"
 
-#: metadatacleaner/ui/detailsview.py:58
+#: application/metadatacleaner/ui/detailsview.py:58
 msgid "The file has been cleaned."
 msgstr "Datoteka je očišćena."
 
-#: metadatacleaner/ui/detailsview.py:69
+#: application/metadatacleaner/ui/detailsview.py:69
 msgid "Unable to read the file."
 msgstr "Nije moguće čitati datoteku."
 
-#: metadatacleaner/ui/detailsview.py:70
+#: application/metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
 msgstr "Vrsta datoteke nije podržana."
 
-#: metadatacleaner/ui/detailsview.py:72
+#: application/metadatacleaner/ui/detailsview.py:72
 msgid "Unable to check metadata."
 msgstr "Nije moguće provjeriti metapodatke."
 
-#: metadatacleaner/ui/detailsview.py:74
+#: application/metadatacleaner/ui/detailsview.py:74
 msgid "No known metadata, the file will be cleaned to be sure."
 msgstr "Nema poznatih metapodataka. Datoteka će se, za svaki slučaj, očistiti."
 
-#: metadatacleaner/ui/detailsview.py:76
+#: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to remove metadata."
 msgstr "Nije moguće ukloniti metapodatke."
 
-#: metadatacleaner/ui/filechooserdialog.py:24
+#: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
 msgstr "Sve podržane datoteke"
 
-#: metadatacleaner/ui/folderchooserdialog.py:22
+#: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
 msgstr "Dodaj datoteke iz podmapa"
 
-#: metadatacleaner/ui/statusindicator.py:36
+#: application/metadatacleaner/ui/statusindicator.py:36
 msgid "Adding files…"
 msgstr "Dodavanje datoteka …"
 
-#: metadatacleaner/ui/statusindicator.py:38
+#: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
 msgstr "Obrađivanje datoteke {}/{}"
 
-#: metadatacleaner/ui/statusindicator.py:40
+#: application/metadatacleaner/ui/statusindicator.py:40
 msgid "Cleaning file {}/{}"
 msgstr "Čićenje datoteke {}/{}"
 
