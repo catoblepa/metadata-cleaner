@@ -15,7 +15,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 The help pages are written in [Mallard](http://projectmallard.org/index.html) and are viewed in [GNOME Yelp](https://wiki.gnome.org/Apps/Yelp/).
 
-If you create new pages, add their path to the `./help/meson.build` file.
+The source of the help is in the `./help` directory. Only edit files in the `C` subdirectory, other subdirectoies are automatically generated. If you create new pages, add their path to the `./help/meson.build` file.
 
 If you add or modify text, make your modifications available to translation by updating the POT file with this command:
 
@@ -33,6 +33,8 @@ Current translation status:
 
 ## Code
 
+The code of the application is in the `./application` directory.
+
 Before writing any code, please open a new issue to discuss your intended changes.
 
 ### Conventions
@@ -47,7 +49,7 @@ meson test -C builddir
 
 ### New files
 
-If you add new UI or Python files, add their path to the `./po/POTFILES` file. Add the UI files path to `./data/fr.romainvigier.MetadataCleaner.gresource.xml` and the Python files path to `./metadatacleaner/meson.build`.
+If you add new UI or Python files, add their path to the `./application/po/POTFILES` file. Add the UI files path to `./application/data/fr.romainvigier.MetadataCleaner.gresource.xml` and the Python files path to `./application/metadatacleaner/meson.build`.
 
 ### Localizable strings
 
