@@ -197,13 +197,13 @@ pages:
   image: registry.gitlab.com/rmnvgr/metadata-cleaner/build-env:latest
   script:
     - cp -r website public
-    - cp -r application/data/screenshots public/screenshots
+    - cp -r resources/screenshots public/screenshots
     - find public -type f -regex '.*\.\(|html\|css\|svg\|png\|woff\|woff2\)$' -exec gzip -f -k {} \;
     - find public -type f -regex '.*\.\(|html\|css\|svg\|png\|woff\|woff2\)$' -exec brotli -f -k {} \;
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       changes:
-      - application/data/screenshots/**/*
+      - resources/screenshots/**/*
       - website/**/*
   artifacts:
     paths:
