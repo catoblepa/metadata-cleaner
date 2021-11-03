@@ -13,8 +13,8 @@ bin_config.set('devel', devel)
 bin_config.set('version', meson.project_version())
 
 configure_file(
-  input: 'metadata-cleaner.py',
-  output: 'metadata-cleaner',
+  input: 'main.py',
+  output: meson.project_name(),
   configuration: bin_config,
   install_dir: bindir
 )
