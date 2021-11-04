@@ -25,4 +25,4 @@ class OutButton(Gtk.Button):
 
     @Gtk.Template.Callback()
     def _on_clicked(self, button) -> None:
-        Gtk.show_uri(None, self.uri, Gdk.CURRENT_TIME)
+        Gtk.show_uri(self.get_root(), self.uri, Gdk.CURRENT_TIME)
