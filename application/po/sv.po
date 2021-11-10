@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021.
 # Allan Nordhøy <epost@anotheragency.no>, 2021.
+# Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
-"PO-Revision-Date: 2021-10-27 20:16+0000\n"
-"Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
+"PO-Revision-Date: 2021-11-10 17:20+0000\n"
+"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/sv/>\n"
 "Language: sv\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -94,10 +95,8 @@ msgstr ""
 "mycket som möjligt."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-#, fuzzy
-#| msgid "Bug fixes:"
 msgid "Bug fixes"
-msgstr "Buggfixar:"
+msgstr "Buggfixar"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
