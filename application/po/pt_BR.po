@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-03 21:27+0100\n"
+"POT-Creation-Date: 2021-11-10 18:05+0100\n"
 "PO-Revision-Date: 2021-10-31 08:36+0000\n"
 "Last-Translator: Davi Patricio <davipatricio@pm.me>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -97,37 +97,44 @@ msgstr ""
 "livre deles, o tanto quanto possível."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-msgid "New button to add folders"
-msgstr "Novo botão para adicionar pastas"
+#, fuzzy
+#| msgid "Bug fixes:"
+msgid "Bug fixes"
+msgstr "Correção de bugs:"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:130
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:141
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
 msgid "New translations"
 msgstr "Novas traduções"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:92
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+msgid "New button to add folders"
+msgstr "Novo botão para adicionar pastas"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
 msgid "Improved adaptive user interface"
 msgstr "Interface de usuário adaptável aprimorada"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
 msgid "New help pages"
 msgstr "Novas páginas de ajuda"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Limpeza com um clique, não há necessidade de salvar após a limpeza"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
 msgid "Persistent lightweight cleaning option"
 msgstr "Opção de limpeza leve e persistente"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 msgid "Files with uppercase extension can now be added"
 msgstr "Arquivos com extensão em maiúsculas agora podem ser adicionados"
 
@@ -405,9 +412,6 @@ msgstr "Limpando arquivo {}/{}"
 
 #~ msgid "Swedish translation (contributed by Åke Engelbrektson)"
 #~ msgstr "Tradução para o sueco (contribuição de Åke Engelbrektson)"
-
-#~ msgid "Bug fixes:"
-#~ msgstr "Correção de bugs:"
 
 #~ msgid "New in v1.0.1:"
 #~ msgstr "Novo na versão 1.0.1:"
