@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
-"PO-Revision-Date: 2021-10-28 09:46+0000\n"
+"PO-Revision-Date: 2021-11-10 17:20+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.9.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -96,10 +96,8 @@ msgstr ""
 "liberartene, per quanto possibile."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-#, fuzzy
-#| msgid "Bug fixes:"
 msgid "Bug fixes"
-msgstr "Correzioni di bug:"
+msgstr "Correzioni di bug"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
