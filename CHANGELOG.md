@@ -6,7 +6,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
-# [2.1.1] - 2021-11-11
+## [2.1.1] - 2021-11-11
 
 ### Added
 - New Romanian translation (contributed by Victor Mihalache)
