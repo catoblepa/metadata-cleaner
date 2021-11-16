@@ -9,10 +9,12 @@ from gi.repository import Adw, Gtk
 @Gtk.Template(
     resource_path="/fr/romainvigier/MetadataCleaner/ui/AddFilesButton.ui"
 )
-class AddFilesButton(Adw.SplitButton):
+class AddFilesButton(Gtk.Widget):
     """Button allowing to add files."""
 
     __gtype_name__ = "AddFilesButton"
+
+    _split_button: Adw.SplitButton = Gtk.Template.Child()
 
     def __init__(self, *args, **kwargs) -> None:
         """Button initialization."""
@@ -20,4 +22,4 @@ class AddFilesButton(Adw.SplitButton):
 
     @Gtk.Template.Callback()
     def _on_add_folders_button_clicked(self, button: Gtk.Button) -> None:
-        self.popdown()
+        self._split_button.popdown()
