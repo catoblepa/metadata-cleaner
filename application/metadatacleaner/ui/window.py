@@ -52,9 +52,7 @@ class Window(Adw.ApplicationWindow):
         self._setup_size()
         self._setup_devel_style()
         self._setup_file_store()
-        # FIXME: Enable the drop target, needs GdkFileList support in PyGObject
-        # See https://gitlab.gnome.org/GNOME/pygobject/-/issues/468
-        # self._setup_drop_target()
+        self._setup_drop_target()
         self._setup_actions()
 
     # SETUP #
@@ -112,7 +110,7 @@ class Window(Adw.ApplicationWindow):
                 x: int,
                 y: int):
             if isinstance(value, Gdk.FileList):
-                self.file_store.add_gfiles(value)
+                self.file_store.add_gfiles(value.get_files())
 
         drop_target = Gtk.DropTarget.new(Gdk.FileList, Gdk.DragAction.COPY)
         drop_target.connect("drop", on_drop)
@@ -221,7 +219,7 @@ class Window(Adw.ApplicationWindow):
             response: Gtk.ResponseType) -> None:
         dialog.hide()
         if response == Gtk.ResponseType.ACCEPT:
-            self.file_store.add_gfiles_from_dirs(
+            self.file_store.add_gfiles(
                 dialog.get_files(),
                 dialog.get_choice("recursive"))
 
