@@ -4,13 +4,14 @@
 # liimee <alt3753.7@gmail.com>, 2021.
 # Reza Almanda <rezaalmanda27@gmail.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
+# neko <smurfkandy@tutanota.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
-"PO-Revision-Date: 2021-11-10 17:20+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
+"PO-Revision-Date: 2021-12-24 03:54+0000\n"
+"Last-Translator: neko <smurfkandy@tutanota.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/id/>\n"
 "Language: id\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -114,7 +115,7 @@ msgstr "Terjemahan baru"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 msgid "New button to add folders"
-msgstr ""
+msgstr "Tombol baru untuk menambahkan folder"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
 msgid "Improved adaptive user interface"
@@ -145,10 +146,8 @@ msgid "Add files"
 msgstr "Tambah berkas"
 
 #: application/data/gtk/help-overlay.ui:24
-#, fuzzy
-#| msgid "Add files"
 msgid "Add folders"
-msgstr "Tambah berkas"
+msgstr "Tambahkan folder"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -239,10 +238,8 @@ msgid "_Add Files"
 msgstr "_Tambah berkas"
 
 #: application/data/ui/AddFilesButton.ui:24
-#, fuzzy
-#| msgid "_Add Files"
 msgid "Add _Folders"
-msgstr "_Tambah berkas"
+msgstr "Tambah _Folder"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
@@ -337,17 +334,16 @@ msgstr "Tutup"
 msgid "translator-credits"
 msgstr ""
 "liimee\n"
-"rezaalmanda"
+"rezaalmanda\n"
+"neko"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
 msgstr "Pilih berkas yang ingin dibersihkan"
 
 #: application/data/ui/Window.ui:123
-#, fuzzy
-#| msgid "Choose files to clean"
 msgid "Choose folders to clean"
-msgstr "Pilih berkas yang ingin dibersihkan"
+msgstr "Pilih folder yang ingin dibersihkan"
 
 #: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -387,23 +383,19 @@ msgstr "Semua berkas yang didukung"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Tambahkan berkas dari subfolder"
 
 #: application/metadatacleaner/ui/statusindicator.py:36
-#, fuzzy
-#| msgid "Add files"
 msgid "Adding files…"
-msgstr "Tambah berkas"
+msgstr "Tambahkan berkas…"
 
 #: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
 msgstr "Memproses berkas {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:40
-#, fuzzy
-#| msgid "Processing file {}/{}"
 msgid "Cleaning file {}/{}"
-msgstr "Memproses berkas {}/{}"
+msgstr "Membersihkan berkas {}/{}"
 
 #~ msgid "Croatian translation (contributed by Milo Ivir)"
 #~ msgstr "Terjemahan Bahasa Kroasia (dikontribusikan oleh Milo Ivir)"
