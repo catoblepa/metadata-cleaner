@@ -1,20 +1,21 @@
 # liimee <alt3753.7@gmail.com>, 2021.
 # Reza Almanda <rezaalmanda27@gmail.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
+# neko <smurfkandy@tutanota.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2021-09-28 08:49+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/help/id/>\n"
+"PO-Revision-Date: 2021-12-24 03:51+0000\n"
+"Last-Translator: neko <smurfkandy@tutanota.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/help/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -29,6 +30,10 @@ msgid ""
 "who, what, when, where, why, and how about every facet of the data that is "
 "being documented."
 msgstr ""
+"Metadata terdiri dari informasi yang mencirikan data. Metadata digunakan "
+"untuk menyediakan dokumentasi untuk produk data. Intinya, metadata menjawab "
+"siapa, apa, kapan, di mana, mengapa, dan bagaimana setiap aspek data yang "
+"didokumentasikan."
 
 #. (itstool) path: section/p
 #: C/general.page:16
@@ -56,6 +61,8 @@ msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"File tersebut mengungkapkan informasi tentang perangkat keras, pengaturan, "
+"tanggal, lokasi pemotretan. File tersebut berisi total 79 metadata."
 
 #. (itstool) path: section/title
 #: C/general.page:27
@@ -71,6 +78,12 @@ msgid ""
 "for complex file formats. This is why you shouldn't rely on metadata's "
 "presence to decide if your file must be cleaned or not."
 msgstr ""
+"Meskipun <app>Metadata Cleaner</app> melakukan yang terbaik untuk "
+"menampilkan metadata, itu tidak berarti bahwa sebuah file bersih dari "
+"metadata jika tidak ditampilkan. Tidak ada cara yang dapat diandalkan untuk "
+"mendeteksi setiap kemungkinan metadata untuk format file yang kompleks. "
+"Inilah sebabnya mengapa Anda tidak boleh bergantung pada keberadaan metadata "
+"untuk memutuskan apakah file Anda harus dibersihkan atau tidak."
 
 #. (itstool) path: section/p
 #: C/general.page:29
@@ -78,6 +91,8 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Metadata Cleaner</app> mengambil konten dari file dan memasukkannya ke "
+"file baru tanpa metadata, memastikan metadata yang tidak terdeteksi dihapus."
 
 #. (itstool) path: section/title
 #: C/general.page:35
@@ -91,6 +106,10 @@ msgid ""
 "itself discloses personal information or has been watermarked, traditionally "
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Ketahuilah bahwa metadata bukan satu-satunya cara menandai file. Jika konten "
+"itu sendiri mengungkapkan informasi pribadi atau telah diberi watermark, "
+"secara tradisional atau melalui steganografi, <app>Metadata Cleaner</app> "
+"tidak dapat melindungi Anda."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -146,6 +165,12 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
+"Untuk menambahkan seluruh folder sekaligus, tekan panah di sebelah tombol "
+"<gui style=\"button\">Tambah File</gui> dan tekan tombol <gui style=\"button"
+"\">Tambah Folder</gui>. Sebuah pemilih file akan terbuka, pilih folder yang "
+"ingin Anda tambahkan. Anda juga dapat memilih untuk menambahkan semua file "
+"dari semua subfolder dengan mencentang kotak <gui style=\"checkbox\">Tambah "
+"file dari subfolder</gui>."
 
 #. (itstool) path: section/title
 #: C/usage.page:26
@@ -177,6 +202,9 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Untuk membersihkan semua file di jendela, tekan tombol <gui style=\"button\""
+">Bersihkan</gui>. Proses pembersihan mungkin membutuhkan waktu untuk "
+"diselesaikan."
 
 #. (itstool) path: figure/title
 #: C/usage.page:40
@@ -196,6 +224,10 @@ msgid ""
 "might not be selectable anymore, compressed images might get compressed "
 "again…"
 msgstr ""
+"Secara default, proses penghapusan mungkin mengubah sedikit data file Anda, "
+"untuk menghapus metadata sebanyak mungkin. Misalnya, teks dalam PDF mungkin "
+"tidak dapat dipilih lagi, gambar yang dikompresi mungkin akan dikompresi "
+"lagi…"
 
 #. (itstool) path: section/p
 #: C/usage.page:50
