@@ -1,10 +1,10 @@
-# Quentin PAGÈS <quentinantonin@free.fr>, 2021.
+# Quentin PAGÈS <quentinantonin@free.fr>, 2021, 2022.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2021-10-04 12:36+0000\n"
+"PO-Revision-Date: 2022-01-03 10:06+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/oc/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -166,6 +166,12 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
+"Per apondre de dossièrs entièrs, clicatz la sageta a costat del boton <gui "
+"style=\"button\">Ajustar de fichièrs</gui> e quichatz lo boton <gui style="
+"\"button\">Ajustar de dossièrs</gui>. Un selector apareissarà, seleccionatz "
+"los fichièrs que volètz apondre. D’un biais opcional podètz causir d’apondre "
+"totes los fichièrs de totes los jos-dossièrs en marcant la cassa <gui style="
+"\"checkbox\">Ajustar los fichièrs dels jos-dossièrs</gui>."
 
 #. (itstool) path: section/title
 #: C/usage.page:26
