@@ -1,44 +1,59 @@
+# Fran Diéguez <fran.dieguez@mabishu.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-01-03 10:06+0000\n"
+"Last-Translator: Fran Diéguez <fran.dieguez@mabishu.com>\n"
+"Language-Team: Galician <https://hosted.weblate.org/projects/"
+"metadata-cleaner/help/gl/>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metadatos e privacidade"
 
 #. (itstool) path: section/p
 #: C/general.page:15
 msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
 msgstr ""
+"Os metadatos consisten en información que caracteriza os datos. Os metadatos "
+"úsanse para documentar os produtos de datos. En esencia, os metadatos "
+"responden a quen, que, cando, onde, por que e como sobre cada faceta dos "
+"datos que se documentan."
 
 #. (itstool) path: section/p
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
+"Os metadatos dun ficheiro poden decirme moito sobre unha persona. As cámaras "
+"rexistran datos sobre cando e onde se tomou unha foto e qué cámara se usou. "
+"As aplicacións ofimáticas engaden automaticamente información sobre o autor "
+"e a empresa aos documentos e follas de cálculo. Trátase de información "
+"delicada e é posíbel que non queira revelala."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Exemplo de metadatos dun ficheiro de imaxe"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"O ficheiro revela información sobre o hardware, os axustes, a data e o lugar "
+"da toma. Contén un total de 79 metadatos."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Proceso de limpeza"
 
 #. (itstool) path: section/p
 #: C/general.page:28
@@ -53,18 +68,22 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Limitacións"
 
 #. (itstool) path: section/p
 #: C/general.page:36
 msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Teña en conta que os metadatos non son a única forma de marcar un ficheiro. "
+"Se o propio contido revela información persoal ou foi marcado con unha marca "
+"de auga, tradicionalmente ou mediante esteganografía <app>Limpador de "
+"metadatos</app> non lle protexerá."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Limpador de metadatos"
 
 #. (itstool) path: page/p
 #: C/index.page:14
@@ -74,17 +93,17 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General information"
-msgstr ""
+msgstr "Información xeral"
 
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Uso de <app>Limpador de metadatos</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Engadir ficheiros"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
@@ -94,7 +113,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "Botón de <gui style=\"button\">Engadir ficheiros</gui>"
 
 #. (itstool) path: section/p
 #: C/usage.page:20
@@ -104,7 +123,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:26
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Visualización dos metadatos"
 
 #. (itstool) path: section/p
 #: C/usage.page:27
@@ -114,12 +133,12 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/usage.page:29
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Vista detallada dos metadatos"
 
 #. (itstool) path: section/title
 #: C/usage.page:37
 msgid "Cleaning files"
-msgstr ""
+msgstr "Limpeza de ficheiros"
 
 #. (itstool) path: section/p
 #: C/usage.page:38
@@ -129,12 +148,12 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "Botón de <gui style=\"button\">Limpar</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:48
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Limpeza lixeira"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
@@ -145,3 +164,5 @@ msgstr ""
 #: C/usage.page:50
 msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
 msgstr ""
+"O modo lixeiro, aínda que non é tan exhaustivo, non fará cambios destrutivos "
+"nos seus ficheiros."
