@@ -1,9 +1,9 @@
-# Sergio Varela <sergitroll9@gmail.com>, 2021.
+# Sergio Varela <sergitroll9@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2021-09-25 20:07+0000\n"
+"PO-Revision-Date: 2022-01-09 19:55+0000\n"
 "Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
 "Language-Team: Basque <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/eu/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -163,6 +163,12 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
+"Karpeta osoak batera gehitzeko, sakatu botoiaren ondoan dagoen gezia<gui "
+"style=\"button\">Gehitu fitxategiak</gui> eta sakatu <gui style=\"button\""
+">Gehitu karpetak</gui>. Fitxategien hautagailu bat irekiko da, eta aukeratu "
+"gehitu nahi dituzun karpetak. Aukeran, azpikarpeta guztietako fitxategi "
+"guztiak eranstea ere aukera dezakezu,<gui style=\"checkbox\">Azpikarpetetako "
+"fitxategiak</gui> laukitxoa markatuz."
 
 #. (itstool) path: section/title
 #: C/usage.page:26
