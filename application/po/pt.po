@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Sergio Varela <sergitroll9@gmail.com>, 2021, 2022.
-# Romain Vigier <romain@romainvigier.fr>, 2021.
+# Juliano de Souza Camargo <julianosc@protonmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
-"PO-Revision-Date: 2022-01-10 20:57+0000\n"
-"Last-Translator: Sergio Varela <sergitroll9@gmail.com>\n"
-"Language-Team: Basque <https://hosted.weblate.org/projects/metadata-cleaner/"
-"application/eu/>\n"
-"Language: eu\n"
+"PO-Revision-Date: 2022-01-08 13:40+0000\n"
+"Last-Translator: Juliano de Souza Camargo <julianosc@protonmail.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/pt/>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.10.1\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
@@ -24,54 +23,53 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "Metadatuen garbitzailea"
+msgstr "Limpador de metadados"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr "Garbitu metadatuak zure fitxategietatik"
+msgstr "Limpar os metadados de seus ficheiros"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
-msgstr "Metadatuak;Ezabatzailea;Garbitzailea;"
+msgstr "Metadado;Metainformação;Eliminar;Remover;Limpador;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr "Garbitu ohartarazi gabe"
+msgstr "Limpar sem advertir"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr "Artxiboak garbitu ohartarazpen-elkarrizketa erakutsi gabe"
+msgstr "Limpar os ficheiros sem mostrar o diálogo de advertência"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
-msgstr "Garbiketa arina"
+msgstr "Limpeza ligeira"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
-"Ez egin aldaketa suntsitzailerik fitxategietan, baina metadatu batzuk utz "
-"ditzake"
+"Não faz alterações destrutivas nos ficheiros mas pode ignorar algum metadado"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr "Leihoaren zabalera"
+msgstr "Largura da janela"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr "Leihoaren zabalera gordeta"
+msgstr "Largura gravada da janela"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr "Leihoaren altuera"
+msgstr "Altura da janela"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr "Leihoaren altuera gordeta"
+msgstr "Altura gravada da janela"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr "Metadatuak artxiboetan ikusi eta garbitu"
+msgstr "Ver e limpar os metadados dos ficheiros"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -81,23 +79,23 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Fitxategi bateko metadatuek asko esan dezakete pertsona bati buruz. Kamerek "
-"argazki bat noiz eta non atera zen eta zein kamera erabili zen adierazten "
-"dute. Aplikazio ofimatikoek egileari eta enpresari buruzko informazioa "
-"gehitzen diete automatikoki dokumentuei eta kalkulu-orriei. Informazio "
-"delikatua da, eta baliteke jakinarazi nahi ez izatea."
+"Os metadados dum ficheiro podem dizer muito sobre alguém. As câmaras "
+"registam dados sobre quando e onde se tomou uma foto e que câmara se usou. "
+"As aplicações de escritório registam automaticamente informação acerca do "
+"autor e da empresa nos documentos e folhas de cálculo. Trata-se de "
+"informação delicada e é possível que não a queira revelar."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
-"Tresna honi esker, metadatuak artxiboetan ikus ditzakezu, eta ahal den "
-"neurrian kendu."
+"Esta ferramenta permite-lhe ver os metadados nos seus ficheiros e desfazer-"
+"se deles na medida do possível."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "Bug fixes"
-msgstr "Erroreen zuzenketa"
+msgstr "Correção de erros"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
@@ -109,115 +107,115 @@ msgstr "Erroreen zuzenketa"
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
 msgid "New translations"
-msgstr "Itzulpen berriak"
+msgstr "Novas traduções"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 msgid "New button to add folders"
-msgstr "Karpetak gehitzeko botoi berria"
+msgstr "Novo botão para adicionar pastas"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
 msgid "Improved adaptive user interface"
-msgstr "Erabiltzaile-interfaze egokigarri hobetua"
+msgstr "Interface de utilizador adaptável aprimorada"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
 msgid "New help pages"
-msgstr "Laguntza-orri berriak"
+msgstr "Novas páginas de ajuda"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Garbitu klik bakarrarekin, garbitu ondoren gorde beharrik gabe"
+msgstr "Limpar com um clique, não há necessidade de gravar após a limpeza"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
 msgid "Persistent lightweight cleaning option"
-msgstr "Garbiketa arin iraunkorra egiteko aukera"
+msgstr "Opção de limpeza ligeira persistente"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 msgid "Files with uppercase extension can now be added"
-msgstr "Orain, letra larriz luzatutako fitxategiak gehitu daitezke"
+msgstr "Agora pode-se adicionar ficheiros com extensão em maiúsculas"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr "Fitxategiak"
+msgstr "Ficheiros"
 
 #: application/data/gtk/help-overlay.ui:18
 msgid "Add files"
-msgstr "Gehitu fitxategiak"
+msgstr "Adicionar ficheiros"
 
 #: application/data/gtk/help-overlay.ui:24
 msgid "Add folders"
-msgstr "Gehitu karpetak"
+msgstr "Adicionar pastas"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr "Metadatuak garbitu"
+msgstr "Limpar metadados"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr "Leihoko fitxategi guztiak garbitu"
+msgstr "Limpar todos os ficheiros da janela"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr "Orokorra"
+msgstr "Geral"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr "Leiho berria"
+msgstr "Nova janela"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr "Itxi leihoa"
+msgstr "Fechar janela"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr "Irten"
+msgstr "Sair"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr "Teklatuko lasterbideak"
+msgstr "Atalhos de teclado"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr "Laguntza"
+msgstr "Ajuda"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
-msgstr "Txateatu Matrix-en"
+msgstr "Conversar em Matrix"
 
 #: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
-msgstr "Ikusi kodea GitLab-en"
+msgstr "Ver o código em GitLab"
 
 #: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
-msgstr "Itzuli Weblate-n"
+msgstr "Traduzir em Weblate"
 
 #: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
-msgstr "Lagundu iezaguzu Liberapay-n"
+msgstr "Apoie-nos em Liberapay"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
-msgstr "Kodea"
+msgstr "Código"
 
 #: application/data/ui/AboutDialog.ui:176
 msgid "Artwork"
-msgstr "Artelanak"
+msgstr "Arte"
 
 #: application/data/ui/AboutDialog.ui:182
 msgid "Documentation"
-msgstr "Dokumentazioa"
+msgstr "Documentação"
 
 #: application/data/ui/AboutDialog.ui:188
 msgid "Translation"
-msgstr "Itzulpena"
+msgstr "Tradução"
 
 #: application/data/ui/AboutDialog.ui:193
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
-"Programa honek <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
-"erabiltzen du metadatuak aztertzeko. Erakutsi maitasun pixka bat!"
+"Este programa usa <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> para "
+"analisar e limpar os metadados. Ofereça-lhes um pouco de amor!"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -226,194 +224,165 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"Programa honen iturburu kodea <a href=\"https://www.gnu.org/licenses/gpl-3.0."
-"html\"> GNU GPL 3.0 edo berriagoen </a> baldintzen arabera kaleratzen da. "
-"Jatorrizko artelanak eta itzulpenak <a href=\"https://creativecommons.org/"
-"licenses/by-sa/4.0/\"> CC BY-SA 4.0 </a> baldintzapean argitaratzen dira."
+"O código-fonte deste programa é publicado sob os termos da <a href=\"https"
+"://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 ou posterior</a>. O "
+"material gráfico e as traduções são publicadas sob os termos <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: application/data/ui/AddFilesButton.ui:11
 msgid "_Add Files"
-msgstr "_Fitxategiak gehitu"
+msgstr "_Adicionar ficheiros"
 
 #: application/data/ui/AddFilesButton.ui:24
 msgid "Add _Folders"
-msgstr "Gehitu _karpetak"
+msgstr "Adicionar _pastas"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr "_Garbitu"
+msgstr "_Limpar"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr "Ziurtatu zure fitxategien babeskopia bat egiten duzula!"
+msgstr "Assegure-se de fazer uma cópia de segurança dos seus ficheiros!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr "Artxiboak garbitu ondoren, ez dago atzera bueltarik."
+msgstr "Uma vez limpados os ficheiros, não há volta atrás."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr "Ez erakutsi berriro mezu hau"
+msgstr "Não voltar a mostrar esta mensagem"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
-msgstr "Ezeztatu"
+msgstr "Cancelar"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr "Garbitu"
+msgstr "Limpar"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr "Garbitu zure oinatzak"
+msgstr "Limpe as suas pegadas"
 
 #: application/data/ui/EmptyView.ui:38
 msgid "Learn more about metadata and the cleaning process limitations."
 msgstr ""
-"Lortu informazio gehiago metadatuei eta garbiketa-prozesuaren mugei buruz."
+"Mais informação acerca dos metadados e das limitações do processo de limpeza."
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
-msgstr "Kendu fitxategia zerrendatik"
+msgstr "Remover ficheiro da lista"
 
 #: application/data/ui/FileRow.ui:124
 msgid "Warning"
-msgstr "Ohartarazpena"
+msgstr "Advertência"
 
 #: application/data/ui/FileRow.ui:142
 msgid "Error"
-msgstr "Errorea"
+msgstr "Erro"
 
 #: application/data/ui/FileRow.ui:182
 msgid "Cleaned"
-msgstr "Garbituta"
+msgstr "Limpo"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr "_Leiho berria"
+msgstr "_Nova janela"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr "_Garbitu leihoa"
+msgstr "_Limpar janela"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr "_Laguntza"
+msgstr "A_juda"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr "_Teklatu-lasterbideak"
+msgstr "Atalhos de _teclado"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "_ Metadatuen Garbitzaileari buruz"
+msgstr "Acerca do Limpador de _metadados"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr "Garbiketa ezarpenak"
+msgstr "Ajustes de limpeza"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr "Garbiketa arina"
+msgstr "Limpeza ligeira"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr "Garbiketa arinari buruzko informazio gehiago"
+msgstr "Mais informação acerca da limpeza ligeira"
 
 #: application/data/ui/Window.ui:78
 msgid "Details"
-msgstr "Xehetasunak"
+msgstr "Detalhes"
 
 #: application/data/ui/Window.ui:84
 msgid "Close"
-msgstr "Itxi"
+msgstr "Fechar"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
 msgid "translator-credits"
-msgstr "Sergio Varela <sergitroll9@gmail.com>"
+msgstr "Juliano de Souza Camargo <julianosc@pm.me>"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
-msgstr "Aukeratu garbitu nahi dituzun fitxategiak"
+msgstr "Selecione os ficheiros que deseja limpar"
 
 #: application/data/ui/Window.ui:123
 msgid "Choose folders to clean"
-msgstr "Aukeratu garbitu nahi dituzun karpetak"
+msgstr "Selecione as pastas que deseja limpar"
 
 #: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
-"Zerbait txarra gertatu zen garbiketan, garbitu gabeko fitxategia ez da "
-"aurkitu"
+msgstr "Algo correu mal durante a limpeza, ficheiro limpo não encontrado"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The file has been cleaned."
-msgstr "Fitxategia garbitu egin da."
+msgstr "Limpou-se o ficheiro."
 
 #: application/metadatacleaner/ui/detailsview.py:69
 msgid "Unable to read the file."
-msgstr "Ezin da fitxategia irakurri."
+msgstr "Não foi possível ler o ficheiro."
 
 #: application/metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
-msgstr "Fitxategi mota ez da onartzen."
+msgstr "Tipo de ficheiro não compatível."
 
 #: application/metadatacleaner/ui/detailsview.py:72
 msgid "Unable to check metadata."
-msgstr "Ezin dira metadatuak egiaztatu."
+msgstr "Não foi possível verificar os metadados."
 
 #: application/metadatacleaner/ui/detailsview.py:74
 msgid "No known metadata, the file will be cleaned to be sure."
-msgstr "Ez dago metadatu ezagunik, artxiboa garbituko da ziurtatzeko."
+msgstr "Não há metadados conhecidos, limpar-se-á o ficheiro para assegurar-se."
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to remove metadata."
-msgstr "Ezin dira metadatuak kendu."
+msgstr "Não foi possível eliminar os metadados."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr "Onartutako fitxategi guztiak"
+msgstr "Todos os ficheiros compatíveis"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr "Gehitu fitxategiak azpikarpetetatik"
+msgstr "Adicionar ficheiros de subpastas"
 
 #: application/metadatacleaner/ui/statusindicator.py:36
 msgid "Adding files…"
-msgstr "Fitxategiak gehitzen…"
+msgstr "A adicionar ficheiros…"
 
 #: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
-msgstr "{} / {} Fitxategia prozesatzen"
+msgstr "A processar ficheiro {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:40
 msgid "Cleaning file {}/{}"
-msgstr "{} / {} Fitxategia garbitzen"
-
-#~ msgid "Croatian translation (contributed by Milo Ivir)"
-#~ msgstr "Kroazierazko itzulpena (Milo Ivir-ek emana)"
-
-#~ msgid "Portuguese (Brazil) translation (contributed by Gustavo Costa)"
-#~ msgstr "Portugeserako itzulpena (Brasil) (Gustavo Costak emana)"
-
-#~ msgid "New in v1.0.4:"
-#~ msgstr "Berria 1.0.4 bertsioan:"
-
-#~ msgid "Turkish translation (contributed by Oğuz Ersen)"
-#~ msgstr "Turkiarrarentzako itzulpena (Oğuz Ersen-ek emana)"
-
-#~ msgid "New in v1.0.2:"
-#~ msgstr "Berria 1.0.2 bertsioan:"
-
-#~ msgid "Spanish translation (contributed by Óscar Fernández Díaz)"
-#~ msgstr "Gaztelaniazko itzulpena (Óscar Fernández Díaz-ek emana)"
-
-#~ msgid "Swedish translation (contributed by Åke Engelbrektson)"
-#~ msgstr "Suedierazko itzulpena (Åke Engelbrektson-ek emana)"
-
-#~ msgid "New in v1.0.1:"
-#~ msgstr "Berria 1.0.1 bertsioan:"
-
-#~ msgid "German translation (contributed by lux)"
-#~ msgstr "Alemanezko itzulpena (lux-ek emana)"
+msgstr "A limpar ficheiro {}/{}"
