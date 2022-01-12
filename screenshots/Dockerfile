@@ -7,4 +7,4 @@ RUN dnf update -y \
 	&& dnf install --setopt=install_weak_deps=False --nodocs -y desktop-file-utils git glib2-devel itstool meson \
 	&& dnf clean all
 
-ENTRYPOINT [ "bash" ]
+ENTRYPOINT [ "bash", "-c" ]
