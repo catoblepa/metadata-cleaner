@@ -209,9 +209,9 @@ screenshots:
     - meson install -C builddir
     - python3 screenshots/screenshot.py
     - |
-      if [[-n $(git status --porcelain help)]]; then
-        git add help &&
-        git commit -m "Help: Update screenshots" &&
+      if [[ -n $(git status --porcelain help) ]]; then
+        git add help
+        git commit -m "Help: Update screenshots"
         git push
       fi
 
