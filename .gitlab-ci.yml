@@ -214,9 +214,11 @@ screenshots:
     - meson builddir --prefix=/usr
     - meson install -C builddir
     - python3 screenshots/screenshot.py
-    - git add .
-    - "git commit -m 'Help: Update screenshots'"
-    - git push
+    - |
+      if [[-n $(git status --porcelain help)]]; then
+        git add help &&
+        git commit -m "Help: Update screenshots"
+        git push
 
 pages:
   stage: deploy
