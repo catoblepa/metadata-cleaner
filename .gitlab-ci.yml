@@ -86,12 +86,6 @@ flatpak-repo:
       optional: true
     - reuse
   image: registry.gitlab.com/rmnvgr/metadata-cleaner/build-env:latest
-  rules:
-    - changes:
-      - application/**/*
-      - build-aux/**/*
-      - help/**/*
-      - meson.build
   cache:
     - key: flatpak-repo-$CI_COMMIT_REF_SLUG
       paths:
