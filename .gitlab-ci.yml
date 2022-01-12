@@ -199,6 +199,7 @@ screenshots:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       changes:
       - help/**/*.po
+      - help/LINGUAS
       - screenshots/**/*
   before_script:
     - git config --global user.email "${GITLAB_USER_EMAIL}"
@@ -208,6 +209,8 @@ screenshots:
     - meson builddir --prefix=/usr
     - meson install -C builddir
     - python3 screenshots/screenshot.py
+  after_script:
+    - git status
     - |
       if [[ -n $(git status --porcelain help) ]]; then
         git add help
