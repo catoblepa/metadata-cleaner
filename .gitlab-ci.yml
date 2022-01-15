@@ -212,11 +212,21 @@ screenshots:
   after_script:
     - git status
     - |
+      if [[ -n $(git status --porcelain resources) ]]; then
+        git add resources
+        git commit -m "Resources: Update screenshots"
+      fi
+    - |
       if [[ -n $(git status --porcelain help) ]]; then
         git add help
         git commit -m "Help: Update screenshots"
-        git push origin HEAD:main
       fi
+    - |
+      if [[ -n $(git status --porcelain website) ]]; then
+        git add website
+        git commit -m "Website: Update screenshots"
+      fi
+    - git push origin HEAD:main
 
 pages:
   stage: deploy

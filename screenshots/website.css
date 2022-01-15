@@ -1,0 +1,7 @@
+@import './application.css';
+
+window
+{
+	border-radius: 0;
+	box-shadow: none;
+}

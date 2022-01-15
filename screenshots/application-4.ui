@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2022 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<interface>
+  <object class="AdwWindow" id="widget">
+    <property name="default-width">400</property>
+    <property name="default-height">600</property>
+    <property name="content">
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <property name="width-request">340</property>
+        <child>
+          <object class="AdwHeaderBar">
+            <property name="title-widget">
+              <object class="GtkLabel"/>
+            </property>
+            <child type="start">
+              <object class="AdwSplitButton">
+                <property name="child">
+                  <object class="AdwButtonContent">
+                    <property name="label" translatable="yes">_Add Files</property>
+                    <property name="icon-name">document-new-symbolic</property>
+                    <property name="use-underline">True</property>
+                  </object>
+                </property>
+                <property name="popover">
+                  <object class="GtkPopover"/>
+                </property>
+              </object>
+            </child>
+            <child type="end">
+              <object class="GtkMenuButton">
+                <property name="direction">none</property>
+                <property name="popover">
+                  <object class="GtkPopover"/>
+                </property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow">
+            <property name="vexpand">true</property>
+            <child>
+              <object class="GtkViewport">
+                <child>
+                  <object class="GtkBox">
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">16</property>
+                        <style>
+                          <class name="file"/>
+                        </style>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                            <property name="valign">center</property>
+                            <style>
+                              <class name="flat"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">horizontal</property>
+                            <property name="margin-top">6</property>
+                            <property name="margin-bottom">6</property>
+                            <property name="spacing">12</property>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="hexpand">True</property>
+                                <property name="valign">center</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="valign">center</property>
+                                    <property name="icon-size">large</property>
+                                    <property name="icon-name">video-x-generic</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="valign">center</property>
+                                    <property name="xalign">0</property>
+                                    <property name="label">dirty.avi</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwBin">
+                                <property name="valign">center</property>
+                                <property name="width-request">22</property>
+                                <property name="height-request">22</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">metadatacleaner-ok-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Cleaned</property>
+                                  </object>
+                                </child>
+                                <style>
+                                  <class name="badge"/>
+                                  <class name="success"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="icon-name">go-next-symbolic</property>
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">16</property>
+                        <style>
+                          <class name="file"/>
+                        </style>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                            <property name="valign">center</property>
+                            <style>
+                              <class name="flat"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">horizontal</property>
+                            <property name="margin-top">6</property>
+                            <property name="margin-bottom">6</property>
+                            <property name="spacing">12</property>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="hexpand">True</property>
+                                <property name="valign">center</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="valign">center</property>
+                                    <property name="icon-size">large</property>
+                                    <property name="icon-name">x-office-document</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="valign">center</property>
+                                    <property name="xalign">0</property>
+                                    <property name="label">dirty.epub</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwBin">
+                                <property name="valign">center</property>
+                                <property name="width-request">22</property>
+                                <property name="height-request">22</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">metadatacleaner-ok-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Cleaned</property>
+                                  </object>
+                                </child>
+                                <style>
+                                  <class name="badge"/>
+                                  <class name="success"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="icon-name">go-next-symbolic</property>
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">16</property>
+                        <style>
+                          <class name="file"/>
+                        </style>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                            <property name="valign">center</property>
+                            <style>
+                              <class name="flat"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">horizontal</property>
+                            <property name="margin-top">6</property>
+                            <property name="margin-bottom">6</property>
+                            <property name="spacing">12</property>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="hexpand">True</property>
+                                <property name="valign">center</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="valign">center</property>
+                                    <property name="icon-size">large</property>
+                                    <property name="icon-name">audio-x-generic</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="valign">center</property>
+                                    <property name="xalign">0</property>
+                                    <property name="label">dirty.flac</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwBin">
+                                <property name="valign">center</property>
+                                <property name="width-request">22</property>
+                                <property name="height-request">22</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">metadatacleaner-ok-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Cleaned</property>
+                                  </object>
+                                </child>
+                                <style>
+                                  <class name="badge"/>
+                                  <class name="success"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="icon-name">go-next-symbolic</property>
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">16</property>
+                        <style>
+                          <class name="file"/>
+                        </style>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                            <property name="valign">center</property>
+                            <style>
+                              <class name="flat"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">horizontal</property>
+                            <property name="margin-top">6</property>
+                            <property name="margin-bottom">6</property>
+                            <property name="spacing">12</property>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="hexpand">True</property>
+                                <property name="valign">center</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="valign">center</property>
+                                    <property name="icon-size">large</property>
+                                    <property name="icon-name">image-x-generic</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="valign">center</property>
+                                    <property name="xalign">0</property>
+                                    <property name="label">dirty.jpg</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwBin">
+                                <property name="valign">center</property>
+                                <property name="width-request">22</property>
+                                <property name="height-request">22</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">metadatacleaner-ok-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Cleaned</property>
+                                  </object>
+                                </child>
+                                <style>
+                                  <class name="badge"/>
+                                  <class name="success"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="icon-name">go-next-symbolic</property>
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">16</property>
+                        <style>
+                          <class name="file"/>
+                        </style>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                            <property name="valign">center</property>
+                            <style>
+                              <class name="flat"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">horizontal</property>
+                            <property name="margin-top">6</property>
+                            <property name="margin-bottom">6</property>
+                            <property name="spacing">12</property>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="hexpand">True</property>
+                                <property name="valign">center</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="valign">center</property>
+                                    <property name="icon-size">large</property>
+                                    <property name="icon-name">audio-x-generic</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="valign">center</property>
+                                    <property name="xalign">0</property>
+                                    <property name="label">dirty.mp3</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwBin">
+                                <property name="valign">center</property>
+                                <property name="width-request">22</property>
+                                <property name="height-request">22</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">metadatacleaner-ok-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Cleaned</property>
+                                  </object>
+                                </child>
+                                <style>
+                                  <class name="badge"/>
+                                  <class name="success"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="icon-name">go-next-symbolic</property>
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">16</property>
+                        <style>
+                          <class name="file"/>
+                        </style>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                            <property name="valign">center</property>
+                            <style>
+                              <class name="flat"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">horizontal</property>
+                            <property name="margin-top">6</property>
+                            <property name="margin-bottom">6</property>
+                            <property name="spacing">12</property>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="hexpand">True</property>
+                                <property name="valign">center</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="valign">center</property>
+                                    <property name="icon-size">large</property>
+                                    <property name="icon-name">video-x-generic</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="valign">center</property>
+                                    <property name="xalign">0</property>
+                                    <property name="label">dirty.mp4</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwBin">
+                                <property name="valign">center</property>
+                                <property name="width-request">22</property>
+                                <property name="height-request">22</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">metadatacleaner-ok-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Cleaned</property>
+                                  </object>
+                                </child>
+                                <style>
+                                  <class name="badge"/>
+                                  <class name="success"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="icon-name">go-next-symbolic</property>
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">16</property>
+                        <style>
+                          <class name="file"/>
+                        </style>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                            <property name="valign">center</property>
+                            <style>
+                              <class name="flat"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">horizontal</property>
+                            <property name="margin-top">6</property>
+                            <property name="margin-bottom">6</property>
+                            <property name="spacing">12</property>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="hexpand">True</property>
+                                <property name="valign">center</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="valign">center</property>
+                                    <property name="icon-size">large</property>
+                                    <property name="icon-name">x-office-document</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="valign">center</property>
+                                    <property name="xalign">0</property>
+                                    <property name="label">dirty.odt</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwBin">
+                                <property name="valign">center</property>
+                                <property name="width-request">22</property>
+                                <property name="height-request">22</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">metadatacleaner-ok-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Cleaned</property>
+                                  </object>
+                                </child>
+                                <style>
+                                  <class name="badge"/>
+                                  <class name="success"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="icon-name">go-next-symbolic</property>
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkBox">
+                        <property name="spacing">16</property>
+                        <style>
+                          <class name="file"/>
+                        </style>
+                        <child>
+                          <object class="GtkButton">
+                            <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                            <property name="valign">center</property>
+                            <style>
+                              <class name="flat"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="orientation">horizontal</property>
+                            <property name="margin-top">6</property>
+                            <property name="margin-bottom">6</property>
+                            <property name="spacing">12</property>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="hexpand">True</property>
+                                <property name="valign">center</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="valign">center</property>
+                                    <property name="icon-size">large</property>
+                                    <property name="icon-name">x-office-document</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="valign">center</property>
+                                    <property name="xalign">0</property>
+                                    <property name="label">dirty.pdf</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwBin">
+                                <property name="valign">center</property>
+                                <property name="width-request">22</property>
+                                <property name="height-request">22</property>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">metadatacleaner-ok-symbolic</property>
+                                    <property name="tooltip-text" translatable="yes">Cleaned</property>
+                                  </object>
+                                </child>
+                                <style>
+                                  <class name="badge"/>
+                                  <class name="success"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkImage">
+                                <property name="icon-name">go-next-symbolic</property>
+                                <property name="valign">center</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="GtkActionBar">
+            <property name="valign">end</property>
+            <child type="center">
+              <object class="GtkBox">
+                <property name="orientation">horizontal</property>
+                <property name="hexpand">True</property>
+                <property name="spacing">6</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="hexpand">true</property>
+                    <property name="margin-start">12</property>
+                    <property name="label">8 files cleaned.</property>
+                    <property name="xalign">0</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkButton">
+                    <property name="icon-name">emblem-system-symbolic</property>
+                  </object>
+                </child>
+                <child>
+                  <object class="GtkButton">
+                    <property name="sensitive">false</property>
+                    <property name="label" translatable="yes">_Clean</property>
+                    <property name="use-underline">True</property>
+                    <style>
+                      <class name="destructive-action"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </property>
+  </object>
+</interface>

@@ -8,7 +8,12 @@
 import os
 import subprocess
 
+from datetime import date
 from typing import Optional
+
+
+SOCKET = "wayland-99"
+SOCKET_2X = "wayland-100"
 
 
 class Widget:
@@ -30,6 +35,21 @@ class Widget:
         self.css_file: Optional[str] = css_file
 
 
+class ApplicationWidget(Widget):
+    """Application widget."""
+
+    def __init__(self, number: int) -> None:
+        """Create a new application widget.
+
+        Args:
+            number (int): Number of the screenshot.
+        """
+        ui_file = os.path.join("screenshots", f"application-{number}.ui")
+        image_file = os.path.join("resources", "screenshots", f"{number}.png")
+        css_file = os.path.join("screenshots", "application.css")
+        super().__init__(ui_file, image_file, css_file)
+
+
 class HelpWidget(Widget):
     """Help widget."""
 
@@ -41,16 +61,24 @@ class HelpWidget(Widget):
             lang (str): Language of the widget.
             css (bool): If the widget uses a custom stylesheet.
         """
-        self.ui_file = os.path.join("screenshots", f"{name}.ui")
-        self.image_file = os.path.join("help", lang, "figures", f"{name}.png")
-        self.license_file = f"{self.image_file}.license"
-        self.css_file = os.path.join("screenshots", f"{name}.css") if css \
+        ui_file = os.path.join("screenshots", f"help-{name}.ui")
+        image_file = os.path.join("help", lang, "figures", f"{name}.png")
+        css_file = os.path.join("screenshots", f"help-{name}.css") if css \
             else None
+        super().__init__(ui_file, image_file, css_file)
 
 
-def start_weston() -> subprocess.Popen[bytes]:
+def start_weston(
+        scale: int = None,
+        socket: str = None) -> subprocess.Popen[bytes]:
     """Start the Weston compositor in headless mode."""
-    return subprocess.Popen(["weston", "--backend=headless-backend.so"])
+    args = []
+    if scale:
+        args.append(f"--scale={scale}")
+    if socket:
+        args.append(f"--socket={socket}")
+    return subprocess.Popen(
+        ["weston", "--backend=headless-backend.so"] + args)
 
 
 def run_uishooter(
@@ -61,6 +89,7 @@ def run_uishooter(
         textdomain: str = None,
         locale: str = None,
         css: str = None,
+        scale: int = None,
         dark: bool = False,
         libadwaita: bool = False,) -> int:
     """Shoot the given UI file.
@@ -74,6 +103,8 @@ def run_uishooter(
         textdomain (str, optional): Translation textdomain. Defaults to None.
         locale (str, optional): Locale to use. Defaults to None.
         css (str, optional): Path to a CSS file to load. Defaults to None.
+        scale (int, optional): Integer scale factor of the output image.
+            Defaults to 1.
         dark (bool, optional): Use dark color scheme. Defaults to False.
         libadwaita (bool, optional): Use libadwaita. Defaults to False.
 
@@ -81,8 +112,9 @@ def run_uishooter(
         int: uishooter exit code
     """
     args = []
+    env = os.environ.copy()
     if output:
-        args.append(f"--out={output}")
+        args.append(f"--output={output}")
     if resource_file:
         args.append(f"--resource-file={resource_file}")
     if resource_path:
@@ -93,17 +125,46 @@ def run_uishooter(
         args.append(f"--locale={locale}")
     if css:
         args.append(f"--css={css}")
+    if scale:
+        args.append(f"--scale={scale}")
     if dark:
         args.append(f"--dark")
     if libadwaita:
         args.append(f"--libadwaita")
     args.append(ui_file)
-    uishooter = subprocess.Popen(["uishooter"] + args)
+    env["WAYLAND_DISPLAY"] = SOCKET_2X if scale == 2 else SOCKET
+    uishooter = subprocess.Popen(["uishooter"] + args, env=env)
     return uishooter.wait()
+
+
+def shoot_application() -> None:
+    """Shoot widgets for application metainfo."""
+    print("Shooting application widgets…")
+    total = 4
+    for i in range(1, total + 1):
+        widget = ApplicationWidget(i)
+        print(f"[{i}/{total}] Shooting {widget.ui_file}…")
+        exit_code = run_uishooter(
+            ui_file=widget.ui_file,
+            resource_path="/fr/romainvigier/MetadataCleaner",
+            resource_file="/usr/share/metadata-cleaner/"
+                          "fr.romainvigier.MetadataCleaner.gresource",
+            css=widget.css_file,
+            output=widget.image_file,
+            libadwaita=True)
+        if exit_code != 0:
+            raise RuntimeError(f"Error while shooting {widget.ui_file}.")
+        with open(widget.license_file, "w") as f:
+            f.writelines([
+                f"SPDX-FileCopyrightText: {date.today().year} "
+                "Romain Vigier <contact AT romainvigier.fr>\n",
+                "SPDX-License-Identifier: CC-BY-SA-4.0"
+            ])
 
 
 def shoot_help() -> None:
     """Shoot widgets for the help pages."""
+    print("Shooting help widgets…")
     with open("help/LINGUAS") as f:
         languages = [lang for lang in f.read().splitlines() if lang[0] != "#"]
     languages.sort()
@@ -128,10 +189,39 @@ def shoot_help() -> None:
                 raise RuntimeError(f"Error while shooting {widget.ui_file}.")
             with open(widget.license_file, "w") as f:
                 f.writelines([
-                    "SPDX-FileCopyrightText: 2021 Romain Vigier "
-                    "<contact AT romainvigier.fr>\n",
+                    f"SPDX-FileCopyrightText: {date.today().year} "
+                    "Romain Vigier <contact AT romainvigier.fr>\n",
                     "SPDX-License-Identifier: CC-BY-SA-4.0"
                 ])
+
+
+def shoot_website() -> None:
+    """Shoot widgets for website."""
+    print("Shooting website widgets…")
+    for scale in [1, 2]:
+        image_suffix = f"-{scale}x" if scale > 1 else ""
+        widget = Widget(
+            os.path.join("screenshots", "website.ui"),
+            os.path.join("website", f"app{image_suffix}.png"),
+            os.path.join("screenshots", "website.css"))
+        print(f"[1/1|{scale}x] Shooting {widget.ui_file}…")
+        exit_code = run_uishooter(
+            ui_file=widget.ui_file,
+            resource_path="/fr/romainvigier/MetadataCleaner",
+            resource_file="/usr/share/metadata-cleaner/"
+                          "fr.romainvigier.MetadataCleaner.gresource",
+            css=widget.css_file,
+            scale=scale,
+            output=widget.image_file,
+            libadwaita=True)
+        if exit_code != 0:
+            raise RuntimeError(f"Error while shooting {widget.ui_file}.")
+        with open(widget.license_file, "w") as f:
+            f.writelines([
+                f"SPDX-FileCopyrightText: {date.today().year} "
+                "Romain Vigier <contact AT romainvigier.fr>\n",
+                "SPDX-License-Identifier: CC-BY-SA-4.0"
+            ])
 
 
 def locale_from_lang(lang: str) -> str:
@@ -301,8 +391,13 @@ def locale_from_lang(lang: str) -> str:
 if __name__ == "__main__":
     weston = None
     try:
-        weston = start_weston()
+        weston = start_weston(socket=SOCKET)
+        weston_2x = start_weston(scale=2, socket=SOCKET_2X)
+        shoot_application()
         shoot_help()
+        shoot_website()
     finally:
         if weston:
             weston.terminate()
+        if weston_2x:
+            weston_2x.terminate()

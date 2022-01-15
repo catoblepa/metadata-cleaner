@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2022 Romain Vigier <contact AT romainvigier.fr>
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+<interface>
+  <object class="AdwWindow" id="widget">
+    <property name="default-width">800</property>
+    <property name="default-height">600</property>
+    <property name="content">
+      <object class="AdwFlap">
+        <property name="flap-position">end</property>
+        <property name="reveal-flap">True</property>
+        <property name="locked">True</property>
+        <property name="content">
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+            <property name="width-request">340</property>
+            <child>
+              <object class="AdwHeaderBar">
+                <property name="show-end-title-buttons">False</property>
+                <property name="title-widget">
+                  <object class="GtkLabel"/>
+                </property>
+                <child type="start">
+                  <object class="AdwSplitButton">
+                    <property name="child">
+                      <object class="AdwButtonContent">
+                        <property name="label" translatable="yes">_Add Files</property>
+                        <property name="icon-name">document-new-symbolic</property>
+                        <property name="use-underline">True</property>
+                      </object>
+                    </property>
+                    <property name="popover">
+                      <object class="GtkPopover"/>
+                    </property>
+                  </object>
+                </child>
+                <child type="end">
+                  <object class="GtkMenuButton">
+                    <property name="direction">none</property>
+                    <property name="popover">
+                      <object class="GtkPopover"/>
+                    </property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkScrolledWindow">
+                <property name="vexpand">true</property>
+                <property name="hexpand">false</property>
+                <child>
+                  <object class="GtkViewport">
+                    <child>
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="spacing">16</property>
+                            <style>
+                              <class name="file"/>
+                            </style>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                                <property name="valign">center</property>
+                                <style>
+                                  <class name="flat"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkBox">
+                                    <property name="orientation">horizontal</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="valign">center</property>
+                                    <property name="spacing">12</property>
+                                    <child>
+                                      <object class="GtkImage">
+                                        <property name="valign">center</property>
+                                        <property name="icon-size">large</property>
+                                        <property name="icon-name">video-x-generic</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="valign">center</property>
+                                        <property name="xalign">0</property>
+                                        <property name="label">dirty.avi</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwBin">
+                                    <property name="valign">center</property>
+                                    <property name="width-request">22</property>
+                                    <property name="height-request">22</property>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="label">2</property>
+                                        <style>
+                                          <class name="numeric"/>
+                                        </style>
+                                      </object>
+                                    </child>
+                                    <style>
+                                      <class name="badge"/>
+                                      <class name="accent"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="spacing">16</property>
+                            <style>
+                              <class name="file"/>
+                            </style>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                                <property name="valign">center</property>
+                                <style>
+                                  <class name="flat"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkBox">
+                                    <property name="orientation">horizontal</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="valign">center</property>
+                                    <property name="spacing">12</property>
+                                    <child>
+                                      <object class="GtkImage">
+                                        <property name="valign">center</property>
+                                        <property name="icon-size">large</property>
+                                        <property name="icon-name">x-office-document</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="valign">center</property>
+                                        <property name="xalign">0</property>
+                                        <property name="label">dirty.epub</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwBin">
+                                    <property name="valign">center</property>
+                                    <property name="width-request">22</property>
+                                    <property name="height-request">22</property>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="label">118</property>
+                                        <style>
+                                          <class name="numeric"/>
+                                        </style>
+                                      </object>
+                                    </child>
+                                    <style>
+                                      <class name="badge"/>
+                                      <class name="accent"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="spacing">16</property>
+                            <style>
+                              <class name="file"/>
+                            </style>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                                <property name="valign">center</property>
+                                <style>
+                                  <class name="flat"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkBox">
+                                    <property name="orientation">horizontal</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="valign">center</property>
+                                    <property name="spacing">12</property>
+                                    <child>
+                                      <object class="GtkImage">
+                                        <property name="valign">center</property>
+                                        <property name="icon-size">large</property>
+                                        <property name="icon-name">audio-x-generic</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="valign">center</property>
+                                        <property name="xalign">0</property>
+                                        <property name="label">dirty.flac</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwBin">
+                                    <property name="valign">center</property>
+                                    <property name="width-request">22</property>
+                                    <property name="height-request">22</property>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="label">9</property>
+                                        <style>
+                                          <class name="numeric"/>
+                                        </style>
+                                      </object>
+                                    </child>
+                                    <style>
+                                      <class name="badge"/>
+                                      <class name="accent"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="spacing">16</property>
+                            <style>
+                              <class name="file"/>
+                              <class name="selected"/>
+                            </style>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                                <property name="valign">center</property>
+                                <style>
+                                  <class name="flat"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkBox">
+                                    <property name="orientation">horizontal</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="valign">center</property>
+                                    <property name="spacing">12</property>
+                                    <child>
+                                      <object class="GtkImage">
+                                        <property name="valign">center</property>
+                                        <property name="icon-size">large</property>
+                                        <property name="icon-name">image-x-generic</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="valign">center</property>
+                                        <property name="xalign">0</property>
+                                        <property name="label">dirty.jpg</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwBin">
+                                    <property name="valign">center</property>
+                                    <property name="width-request">22</property>
+                                    <property name="height-request">22</property>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="label">79</property>
+                                        <style>
+                                          <class name="numeric"/>
+                                        </style>
+                                      </object>
+                                    </child>
+                                    <style>
+                                      <class name="badge"/>
+                                      <class name="accent"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="spacing">16</property>
+                            <style>
+                              <class name="file"/>
+                            </style>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                                <property name="valign">center</property>
+                                <style>
+                                  <class name="flat"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkBox">
+                                    <property name="orientation">horizontal</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="valign">center</property>
+                                    <property name="spacing">12</property>
+                                    <child>
+                                      <object class="GtkImage">
+                                        <property name="valign">center</property>
+                                        <property name="icon-size">large</property>
+                                        <property name="icon-name">audio-x-generic</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="valign">center</property>
+                                        <property name="xalign">0</property>
+                                        <property name="label">dirty.mp3</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwBin">
+                                    <property name="valign">center</property>
+                                    <property name="width-request">22</property>
+                                    <property name="height-request">22</property>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="label">8</property>
+                                        <style>
+                                          <class name="numeric"/>
+                                        </style>
+                                      </object>
+                                    </child>
+                                    <style>
+                                      <class name="badge"/>
+                                      <class name="accent"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="spacing">16</property>
+                            <style>
+                              <class name="file"/>
+                            </style>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                                <property name="valign">center</property>
+                                <style>
+                                  <class name="flat"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkBox">
+                                    <property name="orientation">horizontal</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="valign">center</property>
+                                    <property name="spacing">12</property>
+                                    <child>
+                                      <object class="GtkImage">
+                                        <property name="valign">center</property>
+                                        <property name="icon-size">large</property>
+                                        <property name="icon-name">video-x-generic</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="valign">center</property>
+                                        <property name="xalign">0</property>
+                                        <property name="label">dirty.mp4</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwBin">
+                                    <property name="valign">center</property>
+                                    <property name="width-request">22</property>
+                                    <property name="height-request">22</property>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="label">28</property>
+                                        <style>
+                                          <class name="numeric"/>
+                                        </style>
+                                      </object>
+                                    </child>
+                                    <style>
+                                      <class name="badge"/>
+                                      <class name="accent"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="spacing">16</property>
+                            <style>
+                              <class name="file"/>
+                            </style>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                                <property name="valign">center</property>
+                                <style>
+                                  <class name="flat"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkBox">
+                                    <property name="orientation">horizontal</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="valign">center</property>
+                                    <property name="spacing">12</property>
+                                    <child>
+                                      <object class="GtkImage">
+                                        <property name="valign">center</property>
+                                        <property name="icon-size">large</property>
+                                        <property name="icon-name">x-office-document</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="valign">center</property>
+                                        <property name="xalign">0</property>
+                                        <property name="label">dirty.odt</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwBin">
+                                    <property name="valign">center</property>
+                                    <property name="width-request">22</property>
+                                    <property name="height-request">22</property>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="label">32</property>
+                                        <style>
+                                          <class name="numeric"/>
+                                        </style>
+                                      </object>
+                                    </child>
+                                    <style>
+                                      <class name="badge"/>
+                                      <class name="accent"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkBox">
+                            <property name="spacing">16</property>
+                            <style>
+                              <class name="file"/>
+                            </style>
+                            <child>
+                              <object class="GtkButton">
+                                <property name="icon-name">metadatacleaner-remove-symbolic</property>
+                                <property name="valign">center</property>
+                                <style>
+                                  <class name="flat"/>
+                                </style>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="orientation">horizontal</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkBox">
+                                    <property name="orientation">horizontal</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="valign">center</property>
+                                    <property name="spacing">12</property>
+                                    <child>
+                                      <object class="GtkImage">
+                                        <property name="valign">center</property>
+                                        <property name="icon-size">large</property>
+                                        <property name="icon-name">x-office-document</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="valign">center</property>
+                                        <property name="xalign">0</property>
+                                        <property name="label">dirty.pdf</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwBin">
+                                    <property name="valign">center</property>
+                                    <property name="width-request">22</property>
+                                    <property name="height-request">22</property>
+                                    <child>
+                                      <object class="GtkLabel">
+                                        <property name="label">16</property>
+                                        <style>
+                                          <class name="numeric"/>
+                                        </style>
+                                      </object>
+                                    </child>
+                                    <style>
+                                      <class name="badge"/>
+                                      <class name="accent"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkImage">
+                                    <property name="icon-name">go-next-symbolic</property>
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkActionBar">
+                <property name="valign">end</property>
+                <child type="center">
+                  <object class="GtkBox">
+                    <property name="orientation">horizontal</property>
+                    <property name="hexpand">True</property>
+                    <property name="halign">end</property>
+                    <property name="spacing">6</property>
+                    <child>
+                      <object class="GtkButton">
+                        <property name="icon-name">emblem-system-symbolic</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkButton">
+                        <property name="label" translatable="yes">_Clean</property>
+                        <property name="use-underline">True</property>
+                        <style>
+                          <class name="destructive-action"/>
+                        </style>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </property>
+        <property name="separator">
+          <object class="GtkSeparator">
+            <property name="orientation">vertical</property>
+          </object>
+        </property>
+        <property name="flap">
+          <object class="GtkBox">
+            <property name="orientation">vertical</property>
+            <property name="hexpand">True</property>
+            <child>
+              <object class="AdwHeaderBar">
+                <property name="title-widget">
+                  <object class="AdwWindowTitle">
+                    <property name="title" translatable="yes">Details</property>
+                  </object>
+                </property>
+                <child type="start">
+                  <object class="GtkButton">
+                    <property name="icon-name">go-previous-symbolic</property>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkScrolledWindow">
+                <property name="vexpand">True</property>
+                <child>
+                  <object class="GtkViewport">
+                    <child>
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <property name="margin-top">12</property>
+                        <property name="margin-bottom">12</property>
+                        <property name="margin-start">12</property>
+                        <property name="margin-end">12</property>
+                        <property name="spacing">6</property>
+                        <child>
+                          <object class="GtkLabel">
+                            <property name="label">dirty.jpg</property>
+                            <property name="xalign">0</property>
+                            <style>
+                              <class name="heading"/>
+                            </style>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkListBox">
+                            <style>
+                              <class name="content"/>
+                            </style>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">Make</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">Apple</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">Model</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">iPhone SE (1st generation)</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">CreateDate</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">2021:10:25 12:15:11</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">OffsetTime</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">+02:00</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">ShutterSpeedValue</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">1/100</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">ApertureValue</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">2.2</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">Flash</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">Off, Did not fire</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">FocalLength</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">4.2 mm</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">SceneType</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">Directly photographed</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">GPSLatitudeRef</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">North</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">GPSLongitudeRef</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">East</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">GPSSpeed</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">4.53000021</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">GPSImgDirection</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">41.79921722</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">GPSHPositioningError</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">30m</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox">
+                                <property name="margin-start">6</property>
+                                <property name="margin-end">6</property>
+                                <property name="margin-top">6</property>
+                                <property name="margin-bottom">6</property>
+                                <property name="spacing">12</property>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">GPSAltitude</property>
+                                    <property name="xalign">1</property>
+                                    <property name="width-chars">16</property>
+                                    <style>
+                                      <class name="dim-label"/>
+                                    </style>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel">
+                                    <property name="label">51.6 m Above Sea Level</property>
+                                    <property name="xalign">0</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </property>
+      </object>
+    </property>
+  </object>
+</interface>

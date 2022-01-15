@@ -52,9 +52,10 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 <property name="orientation">vertical</property>
                 <child>
                   <object class="GtkBox">
-                    <property name="spacing">6</property>
+                    <property name="spacing">16</property>
                     <style>
                       <class name="file"/>
+                      <class name="selected"/>
                     </style>
                     <child>
                       <object class="GtkButton">
@@ -248,7 +249,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                                 </child>
                                 <child>
                                   <object class="GtkLabel">
-                                    <property name="label">iPhone Se (1st generation)</property>
+                                    <property name="label">iPhone SE (1st generation)</property>
                                     <property name="xalign">0</property>
                                   </object>
                                 </child>

@@ -22,6 +22,11 @@ SPDX-License-Identifier: GPL-3.0-or-later
 	background-color: @accent_color;
 }
 
+.badge.success
+{
+	background-color: @success_color;
+}
+
 .badge label
 {
 	margin: 0 6px;

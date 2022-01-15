@@ -1,9 +1,4 @@
-/*
-SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
-SPDX-License-Identifier: GPL-3.0-or-later
-*/
-
-@import "common.css";
+@import './common.css';
 
 window
 {
@@ -16,9 +11,19 @@ headerbar
 	color: @accent_fg_color;
 }
 
+.welcome-button
+{
+	border-radius: 0;
+}
+
 .file
 {
-	padding: 6px;
+	padding: 5px 10px 5px 6px;
 	border-bottom: 1px solid @borders;
+	background: @view_bg_color;
+}
+
+.file.selected
+{
 	background: alpha(@card_fg_color, 0.1);
 }
