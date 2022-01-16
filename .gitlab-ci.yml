@@ -207,8 +207,6 @@ screenshots:
     - git config --global user.name "${GITLAB_USER_NAME}"
     - git remote set-url origin "https://${CI_GITLAB_USERNAME}:${CI_GITLAB_ACCESS_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
   script:
-    - meson builddir --prefix=/usr
-    - meson install -C builddir
     - python3 screenshots/screenshot.py
   after_script:
     - git status

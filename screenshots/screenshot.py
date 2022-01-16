@@ -12,6 +12,17 @@ from datetime import date
 from typing import Optional
 
 
+PREFIX = os.path.join("/tmp", "screenshots")
+DATA_DIR = os.path.join(PREFIX, "share")
+LOCALE_DIR = os.path.join(DATA_DIR, "locale")
+
+APP_ID = "fr.romainvigier.MetadataCleaner"
+PACKAGE_NAME = "metadata-cleaner"
+RESOURCE_DIR = os.path.join(DATA_DIR, PACKAGE_NAME)
+RESOURCE_FILE = os.path.join(RESOURCE_DIR, f"{APP_ID}.gresource")
+RESOURCE_PATH = "/fr/romainvigier/MetadataCleaner"
+TEXTDOMAIN = APP_ID
+
 SOCKET = "wayland-99"
 SOCKET_2X = "wayland-100"
 
@@ -68,6 +79,39 @@ class HelpWidget(Widget):
         super().__init__(ui_file, image_file, css_file)
 
 
+def compile_translations() -> None:
+    """Compile translations."""
+    print("Compiling translations…")
+    po_dir = os.path.join("application", "po")
+    with open(os.path.join(po_dir, "LINGUAS")) as f:
+        languages = [lang for lang in f.read().splitlines()
+                     if lang != "" and lang[0] != "#"]
+    languages.sort()
+    for i, lang in enumerate(languages, 1):
+        print(f"[{i}/{len(languages)}] Compiling {lang} translation…")
+        in_file = os.path.join(po_dir, f"{lang}.po")
+        out_dir = os.path.join(LOCALE_DIR, lang, "LC_MESSAGES")
+        out_file = os.path.join(out_dir, f"{TEXTDOMAIN}.mo")
+        os.makedirs(out_dir, exist_ok=True)
+        subprocess.run([
+            "msgfmt",
+            f"--output-file={out_file}",
+            in_file])
+
+
+def compile_resources() -> None:
+    """Compile resources."""
+    print("Compiling resources…")
+    source_dir = os.path.join("application", "data")
+    source_file = os.path.join(source_dir, f"{APP_ID}.gresource.xml")
+    os.makedirs(RESOURCE_DIR, exist_ok=True)
+    subprocess.run([
+        "glib-compile-resources",
+        f"--target={RESOURCE_FILE}",
+        f"--sourcedir={source_dir}",
+        source_file])
+
+
 def start_weston(
         scale: int = None,
         socket: str = None) -> subprocess.Popen[bytes]:
@@ -88,6 +132,7 @@ def run_uishooter(
         resource_path: str = None,
         textdomain: str = None,
         locale: str = None,
+        locale_dir: str = None,
         css: str = None,
         scale: int = None,
         dark: bool = False,
@@ -102,6 +147,8 @@ def run_uishooter(
         resource_path (str, optional): Resource path to load. Defaults to None.
         textdomain (str, optional): Translation textdomain. Defaults to None.
         locale (str, optional): Locale to use. Defaults to None.
+        locale_dir (str, optional): Path to a directory containing compiled
+            translations. Defaults to None.
         css (str, optional): Path to a CSS file to load. Defaults to None.
         scale (int, optional): Integer scale factor of the output image.
             Defaults to 1.
@@ -123,6 +170,8 @@ def run_uishooter(
         args.append(f"--textdomain={textdomain}")
     if locale:
         args.append(f"--locale={locale}")
+    if locale_dir:
+        args.append(f"--locale-dir={locale_dir}")
     if css:
         args.append(f"--css={css}")
     if scale:
@@ -146,53 +195,43 @@ def shoot_application() -> None:
         print(f"[{i}/{total}] Shooting {widget.ui_file}…")
         exit_code = run_uishooter(
             ui_file=widget.ui_file,
-            resource_path="/fr/romainvigier/MetadataCleaner",
-            resource_file="/usr/share/metadata-cleaner/"
-                          "fr.romainvigier.MetadataCleaner.gresource",
+            resource_path=RESOURCE_PATH,
+            resource_file=RESOURCE_FILE,
             css=widget.css_file,
             output=widget.image_file,
             libadwaita=True)
         if exit_code != 0:
             raise RuntimeError(f"Error while shooting {widget.ui_file}.")
-        with open(widget.license_file, "w") as f:
-            f.writelines([
-                f"SPDX-FileCopyrightText: {date.today().year} "
-                "Romain Vigier <contact AT romainvigier.fr>\n",
-                "SPDX-License-Identifier: CC-BY-SA-4.0"
-            ])
+        write_license_file(widget.license_file)
 
 
 def shoot_help() -> None:
     """Shoot widgets for the help pages."""
     print("Shooting help widgets…")
-    with open("help/LINGUAS") as f:
-        languages = [lang for lang in f.read().splitlines() if lang[0] != "#"]
+    with open(os.path.join("help", "LINGUAS")) as f:
+        languages = [lang for lang in f.read().splitlines()
+                     if lang != "" and lang[0] != "#"]
     languages.sort()
-    for i, lang in enumerate(["C"] + languages):
+    total = len(languages) + 1
+    for i, lang in enumerate(["C"] + languages, 1):
         for widget in [
                 HelpWidget("add-files-button", lang, True),
                 HelpWidget("clean-button", lang, False),
                 HelpWidget("metadata-example", lang, True)]:
-            os.makedirs(os.path.join("help", lang, "figures"), exist_ok=True)
-            print(f"[{i}/{len(languages)}|{lang}] Shooting {widget.ui_file}…")
+            print(f"[{i}/{total}|{lang}] Shooting {widget.ui_file}…")
             exit_code = run_uishooter(
                 ui_file=widget.ui_file,
                 locale=locale_from_lang(lang),
-                textdomain="fr.romainvigier.MetadataCleaner",
-                resource_path="/fr/romainvigier/MetadataCleaner",
-                resource_file="/usr/share/metadata-cleaner/"
-                              "fr.romainvigier.MetadataCleaner.gresource",
+                locale_dir=LOCALE_DIR,
+                textdomain=TEXTDOMAIN,
+                resource_path=RESOURCE_PATH,
+                resource_file=RESOURCE_FILE,
                 css=widget.css_file,
                 output=widget.image_file,
                 libadwaita=True)
             if exit_code != 0:
                 raise RuntimeError(f"Error while shooting {widget.ui_file}.")
-            with open(widget.license_file, "w") as f:
-                f.writelines([
-                    f"SPDX-FileCopyrightText: {date.today().year} "
-                    "Romain Vigier <contact AT romainvigier.fr>\n",
-                    "SPDX-License-Identifier: CC-BY-SA-4.0"
-                ])
+            write_license_file(widget.license_file)
 
 
 def shoot_website() -> None:
@@ -207,21 +246,29 @@ def shoot_website() -> None:
         print(f"[1/1|{scale}x] Shooting {widget.ui_file}…")
         exit_code = run_uishooter(
             ui_file=widget.ui_file,
-            resource_path="/fr/romainvigier/MetadataCleaner",
-            resource_file="/usr/share/metadata-cleaner/"
-                          "fr.romainvigier.MetadataCleaner.gresource",
+            resource_path=RESOURCE_PATH,
+            resource_file=RESOURCE_FILE,
             css=widget.css_file,
             scale=scale,
             output=widget.image_file,
             libadwaita=True)
         if exit_code != 0:
             raise RuntimeError(f"Error while shooting {widget.ui_file}.")
-        with open(widget.license_file, "w") as f:
-            f.writelines([
-                f"SPDX-FileCopyrightText: {date.today().year} "
-                "Romain Vigier <contact AT romainvigier.fr>\n",
-                "SPDX-License-Identifier: CC-BY-SA-4.0"
-            ])
+        write_license_file(widget.license_file)
+
+
+def write_license_file(path: str) -> None:
+    """Write a license file at the given path.
+
+    Args:
+        path (str): The path of the license file.
+    """
+    with open(path, "w") as f:
+        f.writelines([
+            f"SPDX-FileCopyrightText: {date.today().year} "
+            "Romain Vigier <contact AT romainvigier.fr>\n",
+            "SPDX-License-Identifier: CC-BY-SA-4.0"
+        ])
 
 
 def locale_from_lang(lang: str) -> str:
@@ -390,7 +437,10 @@ def locale_from_lang(lang: str) -> str:
 
 if __name__ == "__main__":
     weston = None
+    weston_2x = None
     try:
+        compile_translations()
+        compile_resources()
         weston = start_weston(socket=SOCKET)
         weston_2x = start_weston(scale=2, socket=SOCKET_2X)
         shoot_application()

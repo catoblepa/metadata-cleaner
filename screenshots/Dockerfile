@@ -4,7 +4,7 @@
 FROM registry.gitlab.com/rmnvgr/uishooter:latest
 
 RUN dnf update -y \
-	&& dnf install --setopt=install_weak_deps=False --nodocs -y desktop-file-utils git glib2-devel itstool meson \
+	&& dnf install --setopt=install_weak_deps=False --nodocs -y git glib2-devel \
 	&& dnf clean all
 
 ENTRYPOINT [ "bash", "-c" ]
