@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2022-01-05 12:47+0000\n"
+"PO-Revision-Date: 2022-01-28 16:52+0000\n"
 "Last-Translator: Zszywek <zszywek+weblate@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -69,7 +69,7 @@ msgstr ""
 #. The application name. It can be translated.
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr "Usuwacz Metadanych"
+msgstr "Czyściciel Metadanych"
 
 #. (itstool) path: page/p
 #: C/index.page:14
