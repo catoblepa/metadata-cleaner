@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2021, 2022 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
-  <template class="MetadataDetailsRow" parent="GtkBox">
-    <property name="spacing">12</property>
-    <property name="margin-start">6</property>
-    <property name="margin-end">6</property>
-    <property name="margin-top">6</property>
-    <property name="margin-bottom">6</property>
-    <signal name="notify::value" handler="_on_value_changed"/>
-    <child>
-      <object class="GtkLabel">
-        <property name="label" bind-source="MetadataDetailsRow" bind-property="key"/>
-        <property name="valign">start</property>
-        <property name="xalign">1</property>
-        <property name="justify">right</property>
-        <property name="wrap">True</property>
-        <property name="wrap-mode">word-char</property>
-        <property name="width-chars">16</property>
-        <property name="max-width-chars">16</property>
-        <property name="selectable">True</property>
-        <style>
-          <class name="dim-label"/>
-        </style>
+  <template class="MetadataDetailsRow" parent="GtkListBoxRow">
+    <property name="activatable">False</property>
+    <style>
+      <class name="metadata"/>
+    </style>
+    <property name="child">
+      <object class="GtkBox">
+        <child>
+          <object class="GtkLabel">
+            <property name="label" bind-source="MetadataDetailsRow" bind-property="key"/>
+            <property name="valign">start</property>
+            <property name="xalign">1</property>
+            <property name="justify">right</property>
+            <property name="wrap">True</property>
+            <property name="wrap-mode">word-char</property>
+            <property name="width-chars">16</property>
+            <property name="max-width-chars">16</property>
+            <property name="selectable">True</property>
+            <style>
+              <class name="dim-label"/>
+            </style>
+          </object>
+        </child>
+        <child>
+          <object class="GtkLabel">
+            <property name="label" bind-source="MetadataDetailsRow" bind-property="value"/>
+            <property name="valign">start</property>
+            <property name="xalign">0</property>
+            <property name="justify">left</property>
+            <property name="wrap">True</property>
+            <property name="wrap-mode">word-char</property>
+            <property name="selectable">True</property>
+          </object>
+        </child>
       </object>
-    </child>
-    <child>
-      <object class="GtkTextView">
-        <property name="buffer" bind-source="MetadataDetailsRow" bind-property="buffer"/>
-        <property name="hexpand">True</property>
-        <property name="editable">False</property>
-        <property name="wrap-mode">word-char</property>
-      </object>
-    </child>
+    </property>
   </template>
 </interface>

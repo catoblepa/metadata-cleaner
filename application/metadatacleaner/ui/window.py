@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 """Application window of Metadata Cleaner."""
@@ -251,5 +251,4 @@ class Window(Adw.ApplicationWindow):
     def close_details_view(self) -> None:
         """Close the details view."""
         self._mode_flap.set_reveal_flap(False)
-        self._details_view.clear()
         self._view_stack.get_child_by_name("files").clear_selected_file()

@@ -1,32 +1,26 @@
-# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-"""Window detailing the file's metadata."""
+"""View details of a file."""
 
 from gettext import gettext as _
-from gi.repository import Gtk
+from gi.repository import Adw, Gtk
 from typing import Optional
 
 from metadatacleaner.modules.file import File, FileState
 
-from metadatacleaner.ui.infodetails import InfoDetails
-from metadatacleaner.ui.metadatadetails import MetadataDetails
+from metadatacleaner.ui.metadataview import MetadataView
 
 
 @Gtk.Template(
     resource_path="/fr/romainvigier/MetadataCleaner/ui/DetailsView.ui"
 )
-class DetailsView(Gtk.ScrolledWindow):
+class DetailsView(Gtk.Widget):
     """View details of a file."""
 
     __gtype_name__ = "DetailsView"
 
-    _box: Gtk.Box = Gtk.Template.Child()
-
-    def __init__(self, *args, **kwargs) -> None:
-        """View initialization."""
-        super().__init__(*args, **kwargs)
-        self._file: Optional[File] = None
+    _child: Optional[Gtk.Widget] = None
 
     def view_file(self, f: File) -> None:
         """Set the file to view.
@@ -47,35 +41,41 @@ class DetailsView(Gtk.ScrolledWindow):
                 FileState.UNSUPPORTED]:
             self._setup_error_details(f)
 
+    def set_child(self, w) -> None:
+        """Set the widget's child."""
+        self.clear()
+        w.set_parent(self)
+        self._child = w
+
     def clear(self) -> None:
         """Clear the view."""
-        while self._box.get_first_child():
-            self._box.remove(self._box.get_first_child())
-        self.get_vadjustment().set_value(0)
+        if self._child:
+            self._child.unparent()
 
     def _setup_cleaned_details(self) -> None:
-        self._box.append(InfoDetails(
-            title=_("The file has been cleaned.")))
+        self.set_child(
+            Adw.StatusPage(
+                title=_("The File Has Been Cleaned"),
+                icon_name="metadatacleaner-ok-symbolic"))
 
     def _setup_metadata_details(self, f: File) -> None:
-        for metadata_file in f.metadata:
-            self._box.append(MetadataDetails(
-                filename=metadata_file.filename,
-                metadata_list=metadata_file.metadata
-            ))
+        self.set_child(MetadataView(metadata=f.metadata))
 
     def _setup_error_details(self, f: File) -> None:
         info_titles = {
-            FileState.ERROR_WHILE_INITIALIZING: _("Unable to read the file."),
-            FileState.UNSUPPORTED: _("File type not supported."),
+            FileState.ERROR_WHILE_INITIALIZING: _("Unable to Read the File"),
+            FileState.UNSUPPORTED: _("File Type not Supported"),
             FileState.ERROR_WHILE_CHECKING_METADATA: _(
-                "Unable to check metadata."),
-            FileState.HAS_NO_METADATA: _(
-                "No known metadata, the file will be cleaned to be sure."),
+                "Unable to Check for Metadata"),
+            FileState.HAS_NO_METADATA: _("No Known Metadata"),
             FileState.ERROR_WHILE_REMOVING_METADATA: _(
-                "Unable to remove metadata.")
+                "Unable to Remove Metadata")
         }
         info_details = str(f.error or "")
-        self._box.append(InfoDetails(
-            title=info_titles[f.state],
-            details=info_details))
+        if f.state == FileState.HAS_NO_METADATA:
+            info_details = _("The file will be cleaned anyway to be sure.")
+        self.set_child(
+            Adw.StatusPage(
+                title=info_titles[f.state],
+                description=info_details,
+                css_classes=["compact"]))

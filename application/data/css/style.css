@@ -1,5 +1,5 @@
 /*
-SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2021, 2022 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 */
 
@@ -151,29 +151,25 @@ window.flat.scrolled headerbar
 	box-shadow: inset -1px 0 0 0 @borders;
 }
 
-.metadata-list
+listview.metadata
 {
 	background: none;
 }
 
-.metadata-list row
+listview.metadata>row
 {
-	border: 1px solid @borders;
-	border-top-width: 0;
-	background: @card_bg_color;
+	margin: 12px 24px;
 }
 
-.metadata-list row:first-child
+listview.metadata>row:last-child
 {
-	border-width: 1px;
-	border-top-left-radius: 12px;
-	border-top-right-radius: 12px;
+	margin-bottom: 24px;
 }
 
-.metadata-list row:last-child
+row.metadata>box
 {
-	border-bottom-left-radius: 12px;
-	border-bottom-right-radius: 12px;
+	margin: 6px;
+	border-spacing: 12px;
 }
 
 .badge

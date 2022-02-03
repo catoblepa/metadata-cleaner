@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
@@ -19,38 +19,10 @@ SPDX-License-Identifier: GPL-3.0-or-later
       </object>
     </child>
     <child>
-      <object class="GtkListView">
-        <property name="model">
-          <object class="GtkNoSelection">
-            <property name="model" bind-source="MetadataDetails" bind-property="metadata-list"/>
-          </object>
-        </property>
-        <property name="factory">
-          <object class="GtkBuilderListItemFactory">
-            <property name="bytes">
-              <![CDATA[
-                <interface>
-                  <template class="GtkListItem">
-                    <property name="selectable">False</property>
-                    <property name="activatable">False</property>
-                    <property name="child">
-                      <object class="MetadataDetailsRow">
-                        <binding name="key">
-                          <lookup name="key" type="Metadata"><lookup name="item">GtkListItem</lookup></lookup>
-                        </binding>
-                        <binding name="value">
-                          <lookup name="value" type="Metadata"><lookup name="item">GtkListItem</lookup></lookup>
-                        </binding>
-                      </object>
-                    </property>
-                  </template>
-                </interface>
-              ]]>
-            </property>
-          </object>
-        </property>
+      <object class="GtkListBox" id="_list">
+        <property name="selection-mode">none</property>
         <style>
-          <class name="metadata-list"/>
+          <class name="boxed-list"/>
         </style>
       </object>
     </child>

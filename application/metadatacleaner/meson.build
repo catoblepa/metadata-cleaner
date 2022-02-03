@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2021, 2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 main = [
@@ -26,10 +26,10 @@ ui = [
   'ui/filerow.py',
   'ui/filesview.py',
   'ui/folderchooserdialog.py',
-  'ui/infodetails.py',
   'ui/menubutton.py',
   'ui/metadatadetails.py',
   'ui/metadatadetailsrow.py',
+  'ui/metadataview.py',
   'ui/outbutton.py',
   'ui/settingsbutton.py',
   'ui/statusindicator.py',

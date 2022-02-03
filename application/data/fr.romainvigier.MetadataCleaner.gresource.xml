@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <gresources>
@@ -27,10 +27,10 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file compressed="true" preprocess="xml-stripblanks">ui/EmptyView.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/FileRow.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/FilesView.ui</file>
-		<file compressed="true" preprocess="xml-stripblanks">ui/InfoDetails.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/MenuButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataDetails.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataDetailsRow.ui</file>
+		<file compressed="true" preprocess="xml-stripblanks">ui/MetadataView.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/OutButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/SettingsButton.ui</file>
 		<file compressed="true" preprocess="xml-stripblanks">ui/StatusIndicator.ui</file>

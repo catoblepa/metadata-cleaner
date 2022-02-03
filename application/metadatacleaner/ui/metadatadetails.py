@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020, 2021 Romain Vigier <contact AT romainvigier.fr>
+# SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 """List of a file's metadata."""
@@ -19,8 +19,29 @@ class MetadataDetails(Gtk.Box):
     __gtype_name__ = "MetadataDetails"
 
     filename = GObject.Property(type=str)
-    metadata_list = GObject.Property(type=MetadataList, nick="metadata-list")
+
+    _metadata_list = MetadataList()
+
+    _list: Gtk.ListBox = Gtk.Template.Child()
 
     def __init__(self, *args, **kwargs) -> None:
         """Widget initialization."""
         super().__init__(*args, **kwargs)
+
+    @GObject.Property(type=MetadataList)
+    def metadata_list(self) -> MetadataList:
+        """Metadata List.
+
+        Returns:
+            MetadataList: A list of Metadata.
+        """
+        return self._metadata_list
+
+    @metadata_list.setter  # type: ignore
+    def metadata_list(self, metadata_list):
+        self._metadata_list = metadata_list
+        self._list.bind_model(metadata_list, _create_row)
+
+
+def _create_row(metadata):
+    return MetadataDetailsRow(key=metadata.key, value=metadata.value)
