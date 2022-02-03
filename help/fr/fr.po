@@ -1,9 +1,9 @@
-# Romain Vigier <romain@romainvigier.fr>, 2021.
+# Romain Vigier <romain@romainvigier.fr>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2021-10-27 12:07+0000\n"
+"PO-Revision-Date: 2022-02-04 20:57+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/fr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -90,7 +90,7 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"<app>Nettoyeur de métadonnées</app> prends le contenu du fichier et le place "
+"<app>Nettoyeur de métadonnées</app> prend le contenu du fichier et le place "
 "dans un nouveau sans métadonnées, garantissant que toutes les métadonnées "
 "non-détectées sont retirées."
 
@@ -106,9 +106,9 @@ msgid ""
 "itself discloses personal information or has been watermarked, traditionally "
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
-"Prenez conscience que les métadonnées ne sont pas le seul moyen pour tracer "
-"un fichier. Si le contenu lui-même divulgue des informations personnelles ou "
-"a été tatoué numériquement, de manière traditionnelle ou par de la "
+"Ayez conscience que les métadonnées ne sont pas le seul moyen pour tracer un "
+"fichier. Si le contenu lui-même divulgue des informations personnelles ou a "
+"été tatoué numériquement, de manière traditionnelle ou par de la "
 "stéganographie, <app>Nettoyeur de métadonnées</app> ne vous protégera pas."
 
 #. (itstool) path: page/title
