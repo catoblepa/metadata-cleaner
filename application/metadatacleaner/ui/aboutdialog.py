@@ -5,7 +5,6 @@
 
 from gettext import gettext as _
 from gi.repository import Adw, GObject, Gtk
-from typing import Optional
 
 from metadatacleaner.ui.creditsrole import CreditsRole
 from metadatacleaner.ui.outbutton import OutButton

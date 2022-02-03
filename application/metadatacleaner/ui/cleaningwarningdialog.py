@@ -19,10 +19,6 @@ class CleaningWarningDialog(Gtk.MessageDialog):
 
     _checkbutton: Gtk.CheckButton = Gtk.Template.Child()
 
-    def __init__(self, *args, **kwargs) -> None:
-        """Dialog initialization."""
-        super().__init__(*args, **kwargs)
-
     @Gtk.Template.Callback()
     def _on_settings_changed(self, dialog, p_spec: GObject.ParamSpec) -> None:
         if not self.settings:

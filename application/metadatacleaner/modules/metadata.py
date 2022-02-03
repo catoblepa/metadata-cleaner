@@ -14,10 +14,6 @@ class Metadata(GObject.GObject):
     key = GObject.Property(type=str)
     value = GObject.Property(type=str)
 
-    def __init__(self, *args, **kwargs) -> None:
-        """Metadata object initialization."""
-        super().__init__(**kwargs)
-
 
 class MetadataList(Gio.ListStore):
     """Metadata List object."""
@@ -36,10 +32,6 @@ class MetadataFile(GObject.GObject):
 
     filename = GObject.Property(type=str)
     metadata = GObject.Property(type=MetadataList)
-
-    def __init__(self, *args, **kwargs) -> None:
-        """Metadata File initialization."""
-        super().__init__(**kwargs)
 
 
 class MetadataStore(Gio.ListStore):

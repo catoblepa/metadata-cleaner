@@ -24,10 +24,6 @@ class MetadataDetails(Gtk.Box):
 
     _list: Gtk.ListBox = Gtk.Template.Child()
 
-    def __init__(self, *args, **kwargs) -> None:
-        """Widget initialization."""
-        super().__init__(*args, **kwargs)
-
     @GObject.Property(type=MetadataList)
     def metadata_list(self) -> MetadataList:
         """Metadata List.

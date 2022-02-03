@@ -16,10 +16,6 @@ class AddFilesButton(Gtk.Widget):
 
     _split_button: Adw.SplitButton = Gtk.Template.Child()
 
-    def __init__(self, *args, **kwargs) -> None:
-        """Button initialization."""
-        super().__init__(*args, **kwargs)
-
     @Gtk.Template.Callback()
     def _on_add_folders_button_clicked(self, button: Gtk.Button) -> None:
         self._split_button.popdown()

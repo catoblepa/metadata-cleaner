@@ -11,7 +11,3 @@ class Badge(Adw.Bin):
     """Badge to display information."""
 
     __gtype_name__ = "Badge"
-
-    def __init__(self, *args, **kwargs) -> None:
-        """Badge initialization."""
-        super().__init__(*args, **kwargs)

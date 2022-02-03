@@ -21,10 +21,6 @@ class FileRow(Gtk.Box):
     file: File = GObject.Property(type=File)
     position: int = GObject.Property(type=int)
 
-    def __init__(self, *args, **kwargs) -> None:
-        """Row initialization."""
-        super().__init__(*args, **kwargs)
-
     @Gtk.Template.Callback()
     def _on_remove_file_button_clicked(self, button: Gtk.Button) -> None:
         self.activate_action(

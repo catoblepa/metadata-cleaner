@@ -22,10 +22,6 @@ class CreditsRole(Gtk.Box):
 
     _persons = ""
 
-    def __init__(self, *args, **kwargs) -> None:
-        """Button initialization."""
-        super().__init__(*args, **kwargs)
-
     @GObject.Property(type=str)
     def persons(self) -> str:
         """Get the persons string.

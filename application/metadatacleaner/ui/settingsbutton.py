@@ -13,7 +13,3 @@ class SettingsButton(Gtk.MenuButton):
     """Settings button."""
 
     __gtype_name__ = "SettingsButton"
-
-    def __init__(self, *args, **kwargs) -> None:
-        """Initialize Settings button."""
-        super().__init__(*args, **kwargs)

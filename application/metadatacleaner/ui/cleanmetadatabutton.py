@@ -13,7 +13,3 @@ class CleanMetadataButton(Gtk.Button):
     """Button to clean metadata of all added files."""
 
     __gtype_name__ = "CleanMetadataButton"
-
-    def __init__(self, *args, **kwargs) -> None:
-        """Button initialization."""
-        super().__init__(*args, **kwargs)
