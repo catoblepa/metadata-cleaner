@@ -40,17 +40,19 @@ window.flat.scrolled headerbar
 	border-bottom: 1px solid @borders;
 }
 
-.help-button
+button.help
 {
-	transition: margin 0.1s, border-radius 0.1s;
+	transition: padding 0.1s, margin 0.1s, border-radius 0.1s;
 }
 
-.help-button.small
+button.help.small
 {
 	border-radius: 0;
+	padding-left: 18px;
+	padding-right: 18px;
 }
 
-.help-button:not(.small)
+button.help:not(.small)
 {
 	margin: 0 18px 18px;
 }
