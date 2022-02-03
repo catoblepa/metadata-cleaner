@@ -32,7 +32,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
                 <property name="tooltip-text" translatable="yes">Learn more about the lightweight cleaning</property>
                 <property name="valign">center</property>
                 <property name="action-name">app.help</property>
-                <property name="action-target">"/lightweight-cleaning"</property>
+                <property name="action-target">"/usage#lightweight-cleaning"</property>
                 <style>
                   <class name="circular"/>
                   <class name="flat"/>
