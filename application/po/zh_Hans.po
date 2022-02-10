@@ -7,65 +7,68 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-02-10 10:40+0000\n"
+"Last-Translator: poi <erbaotao@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "属性信息删除器"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "删除文件里的元数据"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "元数据;属性;删除;清理;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr ""
+msgstr "要删除时不进行警告"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr ""
+msgstr "删除文件元数据时不显示警告对话框"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "浅层删除"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
+msgstr "不破坏性修改文件，但可能会残留一些元数据"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "窗口宽度"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr ""
+msgstr "记忆的窗口宽度的值"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "窗口高度"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr ""
+msgstr "记忆的窗口高度的值"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "查看、删除文件里的元数据"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -80,7 +83,7 @@ msgstr ""
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
-msgstr ""
+msgstr "此工具可以用来尽可能地查看或删除文件里的元数据。"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "Bug fixes"
@@ -124,85 +127,87 @@ msgstr ""
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "文件"
 
 #: application/data/gtk/help-overlay.ui:18
 msgid "Add files"
-msgstr ""
+msgstr "添加文件"
 
 #: application/data/gtk/help-overlay.ui:24
 msgid "Add folders"
-msgstr ""
+msgstr "添加文件夹"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr ""
+msgstr "删除元数据"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr ""
+msgstr "移走窗口中所有的文件"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr ""
+msgstr "全局"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr ""
+msgstr "再打开一个窗口"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr ""
+msgstr "关闭窗口"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "键盘快捷键"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr ""
+msgstr "调出帮助"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "在 Matrix 上联系开发者"
 
 #: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "在 GitLab 上查看软件代码"
 
 #: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "在 Weblate 上翻译软件"
 
 #: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "用 Liberapay 支持开发者"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
-msgstr ""
+msgstr "程序编写"
 
 #: application/data/ui/AboutDialog.ui:176
 msgid "Artwork"
-msgstr ""
+msgstr "美术设计"
 
 #: application/data/ui/AboutDialog.ui:182
 msgid "Documentation"
-msgstr ""
+msgstr "帮助文档"
 
 #: application/data/ui/AboutDialog.ui:188
 msgid "Translation"
-msgstr ""
+msgstr "翻译"
 
 #: application/data/ui/AboutDialog.ui:193
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
+"此软件使用 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
+"解码、删除文件元数据。此软件开发者由衷支持他们，非常喜爱他们的工作成果。"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -211,6 +216,10 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"本程序源代码根据 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3."
+"0（有人称之为：GNU 通用公共许可协议 3.0），或者其更高版本</a> 的条款发布。原始美术设计作品和翻译根据 <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0（有人称之为：知识共享 署名-"
+"相同方式共享 4.0 国际版）</a> 的条款发布。"
 
 #: application/data/ui/AddFilesButton.ui:11
 msgid "_Add Files"
@@ -226,47 +235,47 @@ msgstr ""
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "请确保您备份了您的文件！"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "一但文件被清理元数据，就无法撤销了。"
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "不再提示此警告"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "删除"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr ""
+msgstr "清理您的隐私信息"
 
 #: application/data/ui/EmptyView.ui:38
 msgid "Learn more about metadata and the cleaning process limitations."
-msgstr ""
+msgstr "详细了解元数据及本软件将其删除过程的局限性。"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
-msgstr ""
+msgstr "把列表中的文件移走"
 
 #: application/data/ui/FileRow.ui:124
 msgid "Warning"
-msgstr ""
+msgstr "注意"
 
 #: application/data/ui/FileRow.ui:142
 msgid "Error"
-msgstr ""
+msgstr "出错了"
 
 #: application/data/ui/FileRow.ui:182
 msgid "Cleaned"
-msgstr ""
+msgstr "删除完成"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
