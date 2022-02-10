@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
-"PO-Revision-Date: 2022-02-10 10:40+0000\n"
+"PO-Revision-Date: 2022-02-11 00:14+0000\n"
 "Last-Translator: poi <erbaotao@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/zh_Hans/>\n"
@@ -78,6 +78,8 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"文件的元数据暗藏着许多重要的隐私信息。照相机会在元数据中记录拍照的时间地点，还会记录照片是由哪台照相机拍的；办公软件会自动把文档作者和公司信息添加到文档和"
+"电子表格文件中。这些信息可能很敏感，人们可能不想披露这些信息。"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
@@ -87,7 +89,7 @@ msgstr "此工具可以用来尽可能地查看或删除文件里的元数据。
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
 msgid "Bug fixes"
-msgstr ""
+msgstr "修正软件错误"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
@@ -99,31 +101,31 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
 msgid "New translations"
-msgstr ""
+msgstr "新增翻译"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 msgid "New button to add folders"
-msgstr ""
+msgstr "新增用来添加文件夹的按钮"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "改进了自适应用户界面"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
 msgid "New help pages"
-msgstr ""
+msgstr "新增了帮助页面"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
+msgstr "一键删除元数据，删完后无需保存"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
 msgid "Persistent lightweight cleaning option"
-msgstr ""
+msgstr "可以记住浅层删除选项的选中状态了"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "现在扩展名大写的文件也可以添加了"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -143,7 +145,7 @@ msgstr "删除元数据"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr "移走窗口中所有的文件"
+msgstr "清空窗口中所有的文件"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
@@ -223,19 +225,19 @@ msgstr ""
 
 #: application/data/ui/AddFilesButton.ui:11
 msgid "_Add Files"
-msgstr ""
+msgstr "添加文件 (_A)"
 
 #: application/data/ui/AddFilesButton.ui:24
 msgid "Add _Folders"
-msgstr ""
+msgstr "添加文件夹 (_A)"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "删除元数据 (_C)"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr "请确保您备份了您的文件！"
+msgstr "请一定要备份您的文件！"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
@@ -279,43 +281,43 @@ msgstr "删除完成"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr ""
+msgstr "再打开一个窗口 (_N)"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr ""
+msgstr "清空窗口 (_C)"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "帮助 (_H)"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "键盘快捷键 (_K)"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "属性信息删除器简介 (_A)"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "清理选项"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr ""
+msgstr "浅层删除"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "详细了解浅层删除"
 
 #: application/data/ui/Window.ui:78
 msgid "Details"
-msgstr ""
+msgstr "详情"
 
 #: application/data/ui/Window.ui:84
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
@@ -324,56 +326,56 @@ msgstr ""
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
-msgstr ""
+msgstr "选择待清理文件"
 
 #: application/data/ui/Window.ui:123
 msgid "Choose folders to clean"
-msgstr ""
+msgstr "选择待清理文件夹"
 
 #: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
+msgstr "元数据删除出现了糟糕错误，删除完元数据的文件找不到了"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The file has been cleaned."
-msgstr ""
+msgstr "文件的元数据删除完成。"
 
 #: application/metadatacleaner/ui/detailsview.py:69
 msgid "Unable to read the file."
-msgstr ""
+msgstr "文件无法读取。"
 
 #: application/metadatacleaner/ui/detailsview.py:70
 msgid "File type not supported."
-msgstr ""
+msgstr "文件类型不支持。"
 
 #: application/metadatacleaner/ui/detailsview.py:72
 msgid "Unable to check metadata."
-msgstr ""
+msgstr "元数据无法查看。"
 
 #: application/metadatacleaner/ui/detailsview.py:74
 msgid "No known metadata, the file will be cleaned to be sure."
-msgstr ""
+msgstr "没有发现元数据，为了确保元数据清理彻底，还是会尝试删除元数据。"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to remove metadata."
-msgstr ""
+msgstr "元数据无法删除。"
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "支持清理的所有文件"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "也添加子文件夹中文件"
 
 #: application/metadatacleaner/ui/statusindicator.py:36
 msgid "Adding files…"
-msgstr ""
+msgstr "添加文件……"
 
 #: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "正在处理文件 {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:40
 msgid "Cleaning file {}/{}"
-msgstr ""
+msgstr "正在删除元数据 {}/{}"
