@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # poi <erbaotao@outlook.com>, 2022.
+# Eric <alchemillatruth@purelymail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
 "PO-Revision-Date: 2022-02-11 00:14+0000\n"
-"Last-Translator: poi <erbaotao@outlook.com>\n"
+"Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -208,8 +209,8 @@ msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
-"此软件使用 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
-"解码、删除文件元数据。此软件开发者由衷支持他们，非常喜爱他们的工作成果。"
+"此软件使用 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> 解析、删除文件元数据。给 mat2 "
+"开发者们一些爱吧！"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
