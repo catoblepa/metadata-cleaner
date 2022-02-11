@@ -427,6 +427,7 @@ def locale_from_lang(lang: str) -> str:
             "yi": "yi_US",
             "yo": "yo_NG",
             "zh": "zh_CN",
+            "zh_Hans": "zh_CN",
             "zh_Hant": "zh_CN",
             "zu": "zu_ZA",
         }[lang]
