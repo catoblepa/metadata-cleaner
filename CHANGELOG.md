@@ -5,6 +5,19 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Changelog
 
+## [2.1.5] - 2022-02-15
+
+### Added
+- New Chinese (simplified) translation (contributed by poi and Eric)
+- New Portuguese translation (contributed by @JulianoSC)
+
+### Changed
+- Updated Basque translation (contributed by @sergitroll9)
+- Updated French translation
+- Updated Italian translation (contributed by @albanobattistella)
+- Updated Polish translation (contributed by Zszywek)
+- Updated Russian translation (contributed by Sasha)
+
 
 ## [2.1.4] - 2022-01-07
 
