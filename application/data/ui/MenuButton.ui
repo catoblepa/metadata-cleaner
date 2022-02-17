@@ -35,5 +35,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
     <property name="direction">none</property>
     <property name="menu-model">app-menu</property>
     <property name="primary">True</property>
+    <property name="tooltip-text" translatable="yes">Main menu</property>
   </template>
 </interface>
