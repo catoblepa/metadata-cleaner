@@ -1,10 +1,11 @@
 # Zszywek <zszywek+weblate@gmail.com>, 2022.
+# Anon Ymous <mivon27841@shackvine.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2022-01-28 16:52+0000\n"
-"Last-Translator: Zszywek <zszywek+weblate@gmail.com>\n"
+"PO-Revision-Date: 2022-03-01 06:58+0000\n"
+"Last-Translator: Anon Ymous <mivon27841@shackvine.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/pl/>\n"
 "Language: pl\n"
@@ -13,12 +14,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metadane i prywatność"
 
 #. (itstool) path: section/p
 #: C/general.page:15
@@ -27,8 +28,14 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: C/general.page:16
+#, fuzzy
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
+"Metadane w pliku mogą wiele o Tobie powiedzieć. Kamery rejestrują dane o "
+"tym, kiedy i gdzie zostało zrobione zdjęcie oraz jakiego aparatu użyto. "
+"Aplikacje pakietu Office automatycznie dodają informacje o autorze i firmie "
+"do dokumentów i arkuszy kalkulacyjnych. Są to informacje poufne i możesz nie "
+"chcieć ich ujawniać."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
