@@ -140,8 +140,12 @@ class FileStore(Gio.ListStore):
             f_type = gfile.query_file_type(Gio.FileQueryInfoFlags.NONE, None)
             if f_type == Gio.FileType.DIRECTORY:
                 all_gfiles.extend(self._get_gfiles_from_dir(gfile, recursive))
-            else:
+            elif f_type == Gio.FileType.REGULAR:
                 all_gfiles.append(gfile)
+            else:
+                logger.info(
+                    f"File {gfile.get_path()} is neither a directory nor a "
+                    "regular file, skipping.")
         with ThreadPoolExecutor() as executor:
             files = list(filter(None, executor.map(
                 self._file_from_gfile,
@@ -172,7 +176,7 @@ class FileStore(Gio.ListStore):
             if info.get_file_type() == Gio.FileType.DIRECTORY:
                 if recursive:
                     subdirs.append(child)
-            else:
+            elif info.get_file_type() == Gio.FileType.REGULAR:
                 gfiles.append(child)
         children_enumerator.close(None)
         with ThreadPoolExecutor() as executor:
