@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-10 18:05+0100\n"
-"PO-Revision-Date: 2022-02-11 00:14+0000\n"
+"PO-Revision-Date: 2022-03-22 06:58+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -323,7 +323,7 @@ msgstr "关闭"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
 msgid "translator-credits"
-msgstr ""
+msgstr "翻译者致谢"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
