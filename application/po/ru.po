@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-10 18:05+0100\n"
+"POT-Creation-Date: 2022-03-22 21:51+0100\n"
 "PO-Revision-Date: 2022-01-18 19:52+0000\n"
 "Last-Translator: Sasha <maxminer88@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -32,7 +32,7 @@ msgid "Clean metadata from your files"
 msgstr "Удалите метаданные из ваших файлов"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Метаданные;Средство для удаления;Очиститель;"
 
@@ -93,45 +93,61 @@ msgstr ""
 "Эта утилита позволяет просматривать метаданные и избавляться от них там, где "
 "это возможно."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-msgid "Bug fixes"
-msgstr "Исправление багов"
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
+#, fuzzy
+#| msgid "Improved adaptive user interface"
+msgid "Improved user interface"
+msgstr "Улучшена адаптивность"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#, fuzzy
+#| msgid "New translations"
+msgid "Updated translations"
+msgstr "Новые переводы"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
 msgid "New translations"
 msgstr "Новые переводы"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+msgid "Bug fixes"
+msgstr "Исправление багов"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "New button to add folders"
 msgstr "Новая кнопка для добавления папок"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
 msgid "Improved adaptive user interface"
 msgstr "Улучшена адаптивность"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New help pages"
 msgstr "Новые страницы помощи"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Очистка в один клик, не надо сохранять после операции"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:140
 #, fuzzy
 #| msgid "Lightweight cleaning"
 msgid "Persistent lightweight cleaning option"
 msgstr "Легкое удаление"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:187
 msgid "Files with uppercase extension can now be added"
 msgstr "Теперь файлы с заглавным именем расширения могут быть импортированы"
 
@@ -226,16 +242,16 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"Исходный код этой программы распространяется под лицензией <a href=\"https"
-"://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. "
-"Оригинальная графика и переводы рапространяются под лицензией <a href=\"https"
-"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
+"Исходный код этой программы распространяется под лицензией <a href=\"https://"
+"www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. Оригинальная "
+"графика и переводы рапространяются под лицензией <a href=\"https://"
+"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
-#: application/data/ui/AddFilesButton.ui:11
+#: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
 msgstr "_Добавить файлы"
 
-#: application/data/ui/AddFilesButton.ui:24
+#: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
 msgstr "Добавить _папки"
 
@@ -267,8 +283,10 @@ msgstr "Очистить"
 msgid "Clean Your Traces"
 msgstr "Очисти свои следы"
 
-#: application/data/ui/EmptyView.ui:38
-msgid "Learn more about metadata and the cleaning process limitations."
+#: application/data/ui/EmptyView.ui:39
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid "Learn more about metadata and the cleaning process limitations"
 msgstr "Изучить больше про метаданные и процесс очистки."
 
 #: application/data/ui/FileRow.ui:12
@@ -306,6 +324,10 @@ msgstr "_Горячие клавиши"
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
 msgstr "_Об Очистка Метаданных"
+
+#: application/data/ui/MenuButton.ui:38
+msgid "Main menu"
+msgstr ""
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -345,28 +367,56 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Произошло что-то плохое, очищенный файл не найден"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-msgid "The file has been cleaned."
+#, fuzzy
+#| msgid "The file has been cleaned."
+msgid "The File Has Been Cleaned"
 msgstr "Файл был очищен."
 
-#: application/metadatacleaner/ui/detailsview.py:69
-msgid "Unable to read the file."
-msgstr "Невозможно прочитать файл."
+#: application/metadatacleaner/ui/detailsview.py:60
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid ""
+"Known metadata have been removed, however the cleaning process has some "
+"limitations."
+msgstr "Изучить больше про метаданные и процесс очистки."
 
-#: application/metadatacleaner/ui/detailsview.py:70
-msgid "File type not supported."
-msgstr "Расширение файла не поддерживается."
-
-#: application/metadatacleaner/ui/detailsview.py:72
-msgid "Unable to check metadata."
-msgstr "Невозможно проверить метаданные."
+#: application/metadatacleaner/ui/detailsview.py:63
+msgid "Learn more"
+msgstr ""
 
 #: application/metadatacleaner/ui/detailsview.py:74
-msgid "No known metadata, the file will be cleaned to be sure."
-msgstr "Метаданные не найдены, на всякий случай файл будет очищен."
+#, fuzzy
+#| msgid "Unable to read the file."
+msgid "Unable to Read the File"
+msgstr "Невозможно прочитать файл."
 
-#: application/metadatacleaner/ui/detailsview.py:76
-msgid "Unable to remove metadata."
+#: application/metadatacleaner/ui/detailsview.py:75
+#, fuzzy
+#| msgid "File type not supported."
+msgid "File Type not Supported"
+msgstr "Расширение файла не поддерживается."
+
+#: application/metadatacleaner/ui/detailsview.py:77
+#, fuzzy
+#| msgid "Unable to check metadata."
+msgid "Unable to Check for Metadata"
+msgstr "Невозможно проверить метаданные."
+
+#: application/metadatacleaner/ui/detailsview.py:78
+msgid "No Known Metadata"
+msgstr ""
+
+#: application/metadatacleaner/ui/detailsview.py:80
+#, fuzzy
+#| msgid "Unable to remove metadata."
+msgid "Unable to Remove Metadata"
 msgstr "Невозможно удалить метаданные."
+
+#: application/metadatacleaner/ui/detailsview.py:84
+#, fuzzy
+#| msgid "No known metadata, the file will be cleaned to be sure."
+msgid "The file will be cleaned anyway to be sure."
+msgstr "Метаданные не найдены, на всякий случай файл будет очищен."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"

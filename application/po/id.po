@@ -9,11 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-10 18:05+0100\n"
+"POT-Creation-Date: 2022-03-22 21:51+0100\n"
 "PO-Revision-Date: 2021-12-24 03:54+0000\n"
 "Last-Translator: neko <smurfkandy@tutanota.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/id/>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgid "Clean metadata from your files"
 msgstr "Bersihkan metadata dari berkas-berkas Anda"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;Penghapus;Pembersih;"
 
@@ -97,43 +97,59 @@ msgstr ""
 "Alat ini memungkinkan Anda untuk melihat metadata dalam file Anda dan "
 "menyingkirkannya, sebanyak mungkin."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-msgid "Bug fixes"
-msgstr "Perbaikan bug"
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
+#, fuzzy
+#| msgid "Improved adaptive user interface"
+msgid "Improved user interface"
+msgstr "Tampilan antarmuka adaptif yang ditingkatkan"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#, fuzzy
+#| msgid "New translations"
+msgid "Updated translations"
+msgstr "Terjemahan baru"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
 msgid "New translations"
 msgstr "Terjemahan baru"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+msgid "Bug fixes"
+msgstr "Perbaikan bug"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "New button to add folders"
 msgstr "Tombol baru untuk menambahkan folder"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
 msgid "Improved adaptive user interface"
 msgstr "Tampilan antarmuka adaptif yang ditingkatkan"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New help pages"
 msgstr "Halaman bantuan baru"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Pembersihan sekali klik, tidak perlu menyimpan setelah dibersihkan"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:140
 msgid "Persistent lightweight cleaning option"
 msgstr "Opsi pembersihan ringan yang persisten"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:187
 msgid "Files with uppercase extension can now be added"
 msgstr "Berkas dengan ekstensi huruf besar kini bisa ditambahkan"
 
@@ -233,11 +249,11 @@ msgstr ""
 "Karya seni dan terjemahan asli dirilis di bawah ketentuan <a href=\"https://"
 "creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
-#: application/data/ui/AddFilesButton.ui:11
+#: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
 msgstr "_Tambah berkas"
 
-#: application/data/ui/AddFilesButton.ui:24
+#: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
 msgstr "Tambah _Folder"
 
@@ -269,8 +285,10 @@ msgstr "Bersihkan"
 msgid "Clean Your Traces"
 msgstr "Hapus jejak Anda"
 
-#: application/data/ui/EmptyView.ui:38
-msgid "Learn more about metadata and the cleaning process limitations."
+#: application/data/ui/EmptyView.ui:39
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid "Learn more about metadata and the cleaning process limitations"
 msgstr "Pelajari lebih lanjut tentang metadata dan batasan proses pembersihan."
 
 #: application/data/ui/FileRow.ui:12
@@ -308,6 +326,10 @@ msgstr "_Pintasan papan ketik"
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
 msgstr "_Tentang Metadata Cleaner"
+
+#: application/data/ui/MenuButton.ui:38
+msgid "Main menu"
+msgstr ""
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -352,30 +374,60 @@ msgstr ""
 "ditemukan"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-msgid "The file has been cleaned."
+#, fuzzy
+#| msgid "The file has been cleaned."
+msgid "The File Has Been Cleaned"
 msgstr "Berkas telah dibersihkan."
 
-#: application/metadatacleaner/ui/detailsview.py:69
-msgid "Unable to read the file."
-msgstr "Tidak dapat membaca berkas."
+#: application/metadatacleaner/ui/detailsview.py:60
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid ""
+"Known metadata have been removed, however the cleaning process has some "
+"limitations."
+msgstr "Pelajari lebih lanjut tentang metadata dan batasan proses pembersihan."
 
-#: application/metadatacleaner/ui/detailsview.py:70
-msgid "File type not supported."
-msgstr "Jenis berkas tidak didukung."
-
-#: application/metadatacleaner/ui/detailsview.py:72
-msgid "Unable to check metadata."
-msgstr "Gagal saat memeriksa metadata."
+#: application/metadatacleaner/ui/detailsview.py:63
+msgid "Learn more"
+msgstr ""
 
 #: application/metadatacleaner/ui/detailsview.py:74
-msgid "No known metadata, the file will be cleaned to be sure."
+#, fuzzy
+#| msgid "Unable to read the file."
+msgid "Unable to Read the File"
+msgstr "Tidak dapat membaca berkas."
+
+#: application/metadatacleaner/ui/detailsview.py:75
+#, fuzzy
+#| msgid "File type not supported."
+msgid "File Type not Supported"
+msgstr "Jenis berkas tidak didukung."
+
+#: application/metadatacleaner/ui/detailsview.py:77
+#, fuzzy
+#| msgid "Unable to check metadata."
+msgid "Unable to Check for Metadata"
+msgstr "Gagal saat memeriksa metadata."
+
+#: application/metadatacleaner/ui/detailsview.py:78
+#, fuzzy
+#| msgid "Metadata"
+msgid "No Known Metadata"
+msgstr "Metadata"
+
+#: application/metadatacleaner/ui/detailsview.py:80
+#, fuzzy
+#| msgid "Unable to remove metadata."
+msgid "Unable to Remove Metadata"
+msgstr "Tidak dapat menghapus metadata."
+
+#: application/metadatacleaner/ui/detailsview.py:84
+#, fuzzy
+#| msgid "No known metadata, the file will be cleaned to be sure."
+msgid "The file will be cleaned anyway to be sure."
 msgstr ""
 "Tidak ada metadata yang ditemukan. Berkas akan tetap dibersihkan, lebih baik "
 "aman daripada menyesal."
-
-#: application/metadatacleaner/ui/detailsview.py:76
-msgid "Unable to remove metadata."
-msgstr "Tidak dapat menghapus metadata."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
@@ -445,9 +497,6 @@ msgstr "Membersihkan berkas {}/{}"
 
 #~ msgid "Note about metadata and privacy"
 #~ msgstr "Catatan tentang metadata dan privasi"
-
-#~ msgid "Metadata"
-#~ msgstr "Metadata"
 
 #~ msgid "Note about _removing metadata"
 #~ msgstr "Catatan mengenai _menghapus metadata"

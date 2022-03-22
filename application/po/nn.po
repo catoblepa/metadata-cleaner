@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-10 18:05+0100\n"
+"POT-Creation-Date: 2022-03-22 21:51+0100\n"
 "PO-Revision-Date: 2021-08-13 03:01+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Nynorsk <https://hosted.weblate.org/projects/"
@@ -30,7 +30,7 @@ msgid "Clean metadata from your files"
 msgstr "Reingjør filane dine for metadata"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;reingjør;reingjøring;"
 
@@ -102,49 +102,65 @@ msgstr ""
 "Verktyet lar deg visa metadata i filane dine og kvitta deg med den, såframt "
 "det er mogleg."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
+#, fuzzy
+#| msgid "Improved adaptive user interface"
+msgid "Improved user interface"
+msgstr "Betre tilpassingsdyktig brukargrensesnitt"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#, fuzzy
+#| msgid "New translations"
+msgid "Updated translations"
+msgstr "Nye omsettingar"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
+msgid "New translations"
+msgstr "Nye omsettingar"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
 #, fuzzy
 #| msgid "Bug fixes:"
 msgid "Bug fixes"
 msgstr "Avlusing:"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
-msgid "New translations"
-msgstr "Nye omsettingar"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
 msgid "New button to add folders"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
 msgid "Improved adaptive user interface"
 msgstr "Betre tilpassingsdyktig brukargrensesnitt"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New help pages"
 msgstr "Nye hjelpesider"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
 #, fuzzy
 #| msgid "One-click cleaning, no need to clean then save anymore"
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Reingjøring med eit klikk. Inga grunn til å lagra i eiga steg etterpå."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:140
 #, fuzzy
 #| msgid "Lightweight cleaning option is now saved"
 msgid "Persistent lightweight cleaning option"
 msgstr "Val for lett reingjøring vart no lagra"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:187
 msgid "Files with uppercase extension can now be added"
 msgstr "Filar med storbokstavar i filendinga kan no varte nytta"
 
@@ -245,13 +261,13 @@ msgstr ""
 "\">«GPLv3+»</a>. Kunstverk og omsettingar har <a href=\"https://"
 "creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>-lisens."
 
-#: application/data/ui/AddFilesButton.ui:11
+#: application/data/ui/AddFilesButton.ui:16
 #, fuzzy
 #| msgid "Add files"
 msgid "_Add Files"
 msgstr "Legg til filer"
 
-#: application/data/ui/AddFilesButton.ui:24
+#: application/data/ui/AddFilesButton.ui:29
 #, fuzzy
 #| msgid "Add files"
 msgid "Add _Folders"
@@ -287,8 +303,10 @@ msgstr "Reingjør"
 msgid "Clean Your Traces"
 msgstr "Sop opp dine spor"
 
-#: application/data/ui/EmptyView.ui:38
-msgid "Learn more about metadata and the cleaning process limitations."
+#: application/data/ui/EmptyView.ui:39
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid "Learn more about metadata and the cleaning process limitations"
 msgstr "Lær meir om metadata og kor langt ein kan gå i reingjøringsprosessen."
 
 #: application/data/ui/FileRow.ui:12
@@ -333,6 +351,10 @@ msgstr "_Tastatursnarvegar"
 msgid "_About Metadata Cleaner"
 msgstr "_Om Metadatareingjøraren"
 
+#: application/data/ui/MenuButton.ui:38
+msgid "Main menu"
+msgstr ""
+
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
 msgstr "Innstillingar for reingjøring"
@@ -375,29 +397,57 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Noko gjekk gale under reingjøringa. Fann ikkje den reingjorde fila."
 
 #: application/metadatacleaner/ui/detailsview.py:58
-msgid "The file has been cleaned."
+#, fuzzy
+#| msgid "The file has been cleaned."
+msgid "The File Has Been Cleaned"
 msgstr "Fila har blitt reingjord."
 
-#: application/metadatacleaner/ui/detailsview.py:69
-msgid "Unable to read the file."
-msgstr "Kunne ikkje lesa fila."
+#: application/metadatacleaner/ui/detailsview.py:60
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid ""
+"Known metadata have been removed, however the cleaning process has some "
+"limitations."
+msgstr "Lær meir om metadata og kor langt ein kan gå i reingjøringsprosessen."
 
-#: application/metadatacleaner/ui/detailsview.py:70
-msgid "File type not supported."
-msgstr "Denne typen fil støttast ikkje."
-
-#: application/metadatacleaner/ui/detailsview.py:72
-msgid "Unable to check metadata."
-msgstr "Kunne ikkje sjekka metadata."
+#: application/metadatacleaner/ui/detailsview.py:63
+msgid "Learn more"
+msgstr ""
 
 #: application/metadatacleaner/ui/detailsview.py:74
-msgid "No known metadata, the file will be cleaned to be sure."
+#, fuzzy
+#| msgid "Unable to read the file."
+msgid "Unable to Read the File"
+msgstr "Kunne ikkje lesa fila."
+
+#: application/metadatacleaner/ui/detailsview.py:75
+#, fuzzy
+#| msgid "File type not supported."
+msgid "File Type not Supported"
+msgstr "Denne typen fil støttast ikkje."
+
+#: application/metadatacleaner/ui/detailsview.py:77
+#, fuzzy
+#| msgid "Unable to check metadata."
+msgid "Unable to Check for Metadata"
+msgstr "Kunne ikkje sjekka metadata."
+
+#: application/metadatacleaner/ui/detailsview.py:78
+msgid "No Known Metadata"
+msgstr ""
+
+#: application/metadatacleaner/ui/detailsview.py:80
+#, fuzzy
+#| msgid "Unable to remove metadata."
+msgid "Unable to Remove Metadata"
+msgstr "Kunne ikkje fjerna metadata."
+
+#: application/metadatacleaner/ui/detailsview.py:84
+#, fuzzy
+#| msgid "No known metadata, the file will be cleaned to be sure."
+msgid "The file will be cleaned anyway to be sure."
 msgstr ""
 "Ingen kjend metadata. Fila vil bli reingjord for å vera på den sikre sida."
-
-#: application/metadatacleaner/ui/detailsview.py:76
-msgid "Unable to remove metadata."
-msgstr "Kunne ikkje fjerna metadata."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"

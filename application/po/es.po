@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-10 18:05+0100\n"
+"POT-Creation-Date: 2022-03-22 21:51+0100\n"
 "PO-Revision-Date: 2021-12-06 22:59+0000\n"
 "Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -33,7 +33,7 @@ msgid "Clean metadata from your files"
 msgstr "Limpiar los metadatos de sus archivos"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;Remover;Cleaner;Metadatos;Limpiador;"
 
@@ -97,44 +97,60 @@ msgstr ""
 "Esta herramienta le permite ver los metadatos en sus archivos y deshacerse "
 "de ellos en la medida de lo posible."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-msgid "Bug fixes"
-msgstr "Corrección de errores"
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
+#, fuzzy
+#| msgid "Improved adaptive user interface"
+msgid "Improved user interface"
+msgstr "Interfaz de usuario adaptable mejorada"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#, fuzzy
+#| msgid "New translations"
+msgid "Updated translations"
+msgstr "Traducciones nuevas"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
 msgid "New translations"
 msgstr "Traducciones nuevas"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+msgid "Bug fixes"
+msgstr "Corrección de errores"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "New button to add folders"
 msgstr "Botón para añadir carpetas nuevo"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
 msgid "Improved adaptive user interface"
 msgstr "Interfaz de usuario adaptable mejorada"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New help pages"
 msgstr "Páginas de ayuda nuevas"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr ""
 "Limpieza con un solo clic, sin necesidad de guardar después de la limpieza"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:140
 msgid "Persistent lightweight cleaning option"
 msgstr "Opción de limpieza ligera persistente"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:187
 msgid "Files with uppercase extension can now be added"
 msgstr "Ahora se pueden añadir archivos con extensión en mayúsculas"
 
@@ -235,11 +251,11 @@ msgstr ""
 "términos de <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC "
 "BY-SA 4.0</a>."
 
-#: application/data/ui/AddFilesButton.ui:11
+#: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
 msgstr "_Añadir archivos"
 
-#: application/data/ui/AddFilesButton.ui:24
+#: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
 msgstr "Añadir _carpetas"
 
@@ -271,8 +287,10 @@ msgstr "Limpiar"
 msgid "Clean Your Traces"
 msgstr "Limpie sus huellas"
 
-#: application/data/ui/EmptyView.ui:38
-msgid "Learn more about metadata and the cleaning process limitations."
+#: application/data/ui/EmptyView.ui:39
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
 "Más información sobre los metadatos y las limitaciones del proceso de "
 "limpieza."
@@ -313,6 +331,10 @@ msgstr "Atajos del _teclado"
 msgid "_About Metadata Cleaner"
 msgstr "Acerca de Limpiador de _metadatos"
 
+#: application/data/ui/MenuButton.ui:38
+msgid "Main menu"
+msgstr ""
+
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
 msgstr "Ajustes de limpieza"
@@ -351,28 +373,60 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Algo malo sucedió durante la limpieza, archivo limpio no encontrado"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-msgid "The file has been cleaned."
+#, fuzzy
+#| msgid "The file has been cleaned."
+msgid "The File Has Been Cleaned"
 msgstr "El archivo ha sido limpiado."
 
-#: application/metadatacleaner/ui/detailsview.py:69
-msgid "Unable to read the file."
-msgstr "No se pudo leer el archivo."
+#: application/metadatacleaner/ui/detailsview.py:60
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid ""
+"Known metadata have been removed, however the cleaning process has some "
+"limitations."
+msgstr ""
+"Más información sobre los metadatos y las limitaciones del proceso de "
+"limpieza."
 
-#: application/metadatacleaner/ui/detailsview.py:70
-msgid "File type not supported."
-msgstr "Tipo de archivo no compatible."
-
-#: application/metadatacleaner/ui/detailsview.py:72
-msgid "Unable to check metadata."
-msgstr "No se pudo comprobar los metadatos."
+#: application/metadatacleaner/ui/detailsview.py:63
+msgid "Learn more"
+msgstr ""
 
 #: application/metadatacleaner/ui/detailsview.py:74
-msgid "No known metadata, the file will be cleaned to be sure."
-msgstr "No hay metadatos conocidos, se limpiará el archivo para asegurar."
+#, fuzzy
+#| msgid "Unable to read the file."
+msgid "Unable to Read the File"
+msgstr "No se pudo leer el archivo."
 
-#: application/metadatacleaner/ui/detailsview.py:76
-msgid "Unable to remove metadata."
+#: application/metadatacleaner/ui/detailsview.py:75
+#, fuzzy
+#| msgid "File type not supported."
+msgid "File Type not Supported"
+msgstr "Tipo de archivo no compatible."
+
+#: application/metadatacleaner/ui/detailsview.py:77
+#, fuzzy
+#| msgid "Unable to check metadata."
+msgid "Unable to Check for Metadata"
+msgstr "No se pudo comprobar los metadatos."
+
+#: application/metadatacleaner/ui/detailsview.py:78
+#, fuzzy
+#| msgid "Metadata"
+msgid "No Known Metadata"
+msgstr "Metadatos"
+
+#: application/metadatacleaner/ui/detailsview.py:80
+#, fuzzy
+#| msgid "Unable to remove metadata."
+msgid "Unable to Remove Metadata"
 msgstr "No se pudo eliminar los metadatos."
+
+#: application/metadatacleaner/ui/detailsview.py:84
+#, fuzzy
+#| msgid "No known metadata, the file will be cleaned to be sure."
+msgid "The file will be cleaned anyway to be sure."
+msgstr "No hay metadatos conocidos, se limpiará el archivo para asegurar."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
@@ -490,9 +544,6 @@ msgstr "Limpiando el archivo {}/{}"
 #~ "\n"
 #~ "Por eso, no debe confiar en la presencia de metadatos para decidir si su "
 #~ "archivo debe ser limpiado o no."
-
-#~ msgid "Metadata"
-#~ msgstr "Metadatos"
 
 #~ msgid ""
 #~ "By default, the removal process might alter a bit the data of your files, "

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-10 18:05+0100\n"
+"POT-Creation-Date: 2022-03-22 21:51+0100\n"
 "PO-Revision-Date: 2021-12-13 11:54+0000\n"
 "Last-Translator: Janne <mutikaane@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -32,7 +32,7 @@ msgid "Clean metadata from your files"
 msgstr "Poista metatiedot tiedostoistasi"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;Remover;Cleaner;poista;metatiedot;"
 
@@ -96,44 +96,60 @@ msgstr ""
 "Tämä työkalu mahdollistaa tiedostojen metatietojen katselun. Lisäksi voit "
 "yrittää siivota metatiedot mahdollisimman kattavasti."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-msgid "Bug fixes"
-msgstr "Korjatut viat"
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
+#, fuzzy
+#| msgid "Improved adaptive user interface"
+msgid "Improved user interface"
+msgstr "Paranneltu mukautuva käyttöliittymä"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#, fuzzy
+#| msgid "New translations"
+msgid "Updated translations"
+msgstr "Uudet käännökset"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
 msgid "New translations"
 msgstr "Uudet käännökset"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+msgid "Bug fixes"
+msgstr "Korjatut viat"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "New button to add folders"
 msgstr "Uusi painike kansioiden lisäämiseksi"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
 msgid "Improved adaptive user interface"
 msgstr "Paranneltu mukautuva käyttöliittymä"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New help pages"
 msgstr "Uudet ohjesivut"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr ""
 "Siivousta kertanapsautuksella, ei tarvetta tallentaa siivouksen jälkeen"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:140
 msgid "Persistent lightweight cleaning option"
 msgstr "Pienimuotoisen siivouksen tila"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:187
 msgid "Files with uppercase extension can now be added"
 msgstr "Tiedostoja, joiden tiedostopääte on isoin kirjaimin, voi nyt lisätä"
 
@@ -232,11 +248,11 @@ msgstr ""
 "gpl-3.0.html\">GNU GPL 3.0 tai myöhempi</a>. Kuvitus ja käännökset: <a href="
 "\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
-#: application/data/ui/AddFilesButton.ui:11
+#: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
 msgstr "_Lisää tiedostoja"
 
-#: application/data/ui/AddFilesButton.ui:24
+#: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
 msgstr "Lisää _kansioita"
 
@@ -268,8 +284,10 @@ msgstr "Siivoa"
 msgid "Clean Your Traces"
 msgstr "Siivoa jälkesi"
 
-#: application/data/ui/EmptyView.ui:38
-msgid "Learn more about metadata and the cleaning process limitations."
+#: application/data/ui/EmptyView.ui:39
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid "Learn more about metadata and the cleaning process limitations"
 msgstr "Lue lisää metatiedoista ja siivouksen teknisistä rajoituksista."
 
 #: application/data/ui/FileRow.ui:12
@@ -307,6 +325,10 @@ msgstr "_Pikanäppäimet"
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
 msgstr "_Tietoja - Metatietojen poistaja"
+
+#: application/data/ui/MenuButton.ui:38
+msgid "Main menu"
+msgstr ""
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -346,29 +368,59 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Jotain pahaa tapahtui siivouksen aikana, siivottua tiedostoa ei löydy"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-msgid "The file has been cleaned."
+#, fuzzy
+#| msgid "The file has been cleaned."
+msgid "The File Has Been Cleaned"
 msgstr "Tämä tiedosto on siivottu."
 
-#: application/metadatacleaner/ui/detailsview.py:69
-msgid "Unable to read the file."
-msgstr "Tiedostoa ei voi lukea."
+#: application/metadatacleaner/ui/detailsview.py:60
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid ""
+"Known metadata have been removed, however the cleaning process has some "
+"limitations."
+msgstr "Lue lisää metatiedoista ja siivouksen teknisistä rajoituksista."
 
-#: application/metadatacleaner/ui/detailsview.py:70
-msgid "File type not supported."
-msgstr "Tiedostotyyppi ei ole tuettu."
-
-#: application/metadatacleaner/ui/detailsview.py:72
-msgid "Unable to check metadata."
-msgstr "Metatietoja ei voi tarkistaa."
+#: application/metadatacleaner/ui/detailsview.py:63
+msgid "Learn more"
+msgstr ""
 
 #: application/metadatacleaner/ui/detailsview.py:74
-msgid "No known metadata, the file will be cleaned to be sure."
+#, fuzzy
+#| msgid "Unable to read the file."
+msgid "Unable to Read the File"
+msgstr "Tiedostoa ei voi lukea."
+
+#: application/metadatacleaner/ui/detailsview.py:75
+#, fuzzy
+#| msgid "File type not supported."
+msgid "File Type not Supported"
+msgstr "Tiedostotyyppi ei ole tuettu."
+
+#: application/metadatacleaner/ui/detailsview.py:77
+#, fuzzy
+#| msgid "Unable to check metadata."
+msgid "Unable to Check for Metadata"
+msgstr "Metatietoja ei voi tarkistaa."
+
+#: application/metadatacleaner/ui/detailsview.py:78
+#, fuzzy
+#| msgid "Metadata"
+msgid "No Known Metadata"
+msgstr "Metatiedot"
+
+#: application/metadatacleaner/ui/detailsview.py:80
+#, fuzzy
+#| msgid "Unable to remove metadata."
+msgid "Unable to Remove Metadata"
+msgstr "Metatietoja ei voitu poistaa."
+
+#: application/metadatacleaner/ui/detailsview.py:84
+#, fuzzy
+#| msgid "No known metadata, the file will be cleaned to be sure."
+msgid "The file will be cleaned anyway to be sure."
 msgstr ""
 "Metatietoja ei löytynyt. Tiedosto siivotaan silti, parempi katsoa kuin katua."
-
-#: application/metadatacleaner/ui/detailsview.py:76
-msgid "Unable to remove metadata."
-msgstr "Metatietoja ei voitu poistaa."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
@@ -451,9 +503,6 @@ msgstr "Siivotaan tiedostoa {}/{}"
 #~ "\n"
 #~ "Tämän vuoksi sinun ei tule luottaa metatietojen olemassaoloon, kun päätät "
 #~ "pitääkö tiedosto siivota vai ei."
-
-#~ msgid "Metadata"
-#~ msgstr "Metatiedot"
 
 #~ msgid "Note about _metadata and privacy"
 #~ msgstr "Huomio _metatiedoista ja yksityisyydestä"

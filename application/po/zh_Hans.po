@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-10 18:05+0100\n"
+"POT-Creation-Date: 2022-03-22 21:51+0100\n"
 "PO-Revision-Date: 2022-03-22 06:58+0000\n"
 "Last-Translator: Eric <alchemillatruth@purelymail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -31,7 +31,7 @@ msgid "Clean metadata from your files"
 msgstr "删除文件里的元数据"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:16
+#: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "元数据;属性;删除;清理;"
 
@@ -79,8 +79,9 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"文件的元数据暗藏着许多重要的隐私信息。照相机会在元数据中记录拍照的时间地点，还会记录照片是由哪台照相机拍的；办公软件会自动把文档作者和公司信息添加到文档和"
-"电子表格文件中。这些信息可能很敏感，人们可能不想披露这些信息。"
+"文件的元数据暗藏着许多重要的隐私信息。照相机会在元数据中记录拍照的时间地点，"
+"还会记录照片是由哪台照相机拍的；办公软件会自动把文档作者和公司信息添加到文档"
+"和电子表格文件中。这些信息可能很敏感，人们可能不想披露这些信息。"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
@@ -88,43 +89,59 @@ msgid ""
 "much as possible."
 msgstr "此工具可以用来尽可能地查看或删除文件里的元数据。"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:75
-msgid "Bug fixes"
-msgstr "修正软件错误"
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
+#, fuzzy
+#| msgid "Improved adaptive user interface"
+msgid "Improved user interface"
+msgstr "改进了自适应用户界面"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:76
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:85
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:93
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#, fuzzy
+#| msgid "New translations"
+msgid "Updated translations"
+msgstr "新增翻译"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
 msgid "New translations"
 msgstr "新增翻译"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:84
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+msgid "Bug fixes"
+msgstr "修正软件错误"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 msgid "New button to add folders"
 msgstr "新增用来添加文件夹的按钮"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:101
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
 msgid "Improved adaptive user interface"
 msgstr "改进了自适应用户界面"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:102
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
 msgid "New help pages"
 msgstr "新增了帮助页面"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "一键删除元数据，删完后无需保存"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:104
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:140
 msgid "Persistent lightweight cleaning option"
 msgstr "可以记住浅层删除选项的选中状态了"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:187
 msgid "Files with uppercase extension can now be added"
 msgstr "现在扩展名大写的文件也可以添加了"
 
@@ -209,8 +226,8 @@ msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
-"此软件使用 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> 解析、删除文件元数据。给 mat2 "
-"开发者们一些爱吧！"
+"此软件使用 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> 解析、删除文"
+"件元数据。给 mat2 开发者们一些爱吧！"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -219,16 +236,17 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"本程序源代码根据 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3."
-"0（有人称之为：GNU 通用公共许可协议 3.0），或者其更高版本</a> 的条款发布。原始美术设计作品和翻译根据 <a href=\"https"
-"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0（有人称之为：知识共享 署名-"
-"相同方式共享 4.0 国际版）</a> 的条款发布。"
+"本程序源代码根据 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU "
+"GPL 3.0（有人称之为：GNU 通用公共许可协议 3.0），或者其更高版本</a> 的条款发"
+"布。原始美术设计作品和翻译根据 <a href=\"https://creativecommons.org/"
+"licenses/by-sa/4.0/\">CC BY-SA 4.0（有人称之为：知识共享 署名-相同方式共享 "
+"4.0 国际版）</a> 的条款发布。"
 
-#: application/data/ui/AddFilesButton.ui:11
+#: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
 msgstr "添加文件 (_A)"
 
-#: application/data/ui/AddFilesButton.ui:24
+#: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
 msgstr "添加文件夹 (_A)"
 
@@ -260,8 +278,10 @@ msgstr "删除"
 msgid "Clean Your Traces"
 msgstr "清理您的隐私信息"
 
-#: application/data/ui/EmptyView.ui:38
-msgid "Learn more about metadata and the cleaning process limitations."
+#: application/data/ui/EmptyView.ui:39
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid "Learn more about metadata and the cleaning process limitations"
 msgstr "详细了解元数据及本软件将其删除过程的局限性。"
 
 #: application/data/ui/FileRow.ui:12
@@ -299,6 +319,10 @@ msgstr "键盘快捷键 (_K)"
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
 msgstr "属性信息删除器简介 (_A)"
+
+#: application/data/ui/MenuButton.ui:38
+msgid "Main menu"
+msgstr ""
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -338,28 +362,56 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "元数据删除出现了糟糕错误，删除完元数据的文件找不到了"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-msgid "The file has been cleaned."
+#, fuzzy
+#| msgid "The file has been cleaned."
+msgid "The File Has Been Cleaned"
 msgstr "文件的元数据删除完成。"
 
-#: application/metadatacleaner/ui/detailsview.py:69
-msgid "Unable to read the file."
-msgstr "文件无法读取。"
+#: application/metadatacleaner/ui/detailsview.py:60
+#, fuzzy
+#| msgid "Learn more about metadata and the cleaning process limitations."
+msgid ""
+"Known metadata have been removed, however the cleaning process has some "
+"limitations."
+msgstr "详细了解元数据及本软件将其删除过程的局限性。"
 
-#: application/metadatacleaner/ui/detailsview.py:70
-msgid "File type not supported."
-msgstr "文件类型不支持。"
-
-#: application/metadatacleaner/ui/detailsview.py:72
-msgid "Unable to check metadata."
-msgstr "元数据无法查看。"
+#: application/metadatacleaner/ui/detailsview.py:63
+msgid "Learn more"
+msgstr ""
 
 #: application/metadatacleaner/ui/detailsview.py:74
-msgid "No known metadata, the file will be cleaned to be sure."
-msgstr "没有发现元数据，为了确保元数据清理彻底，还是会尝试删除元数据。"
+#, fuzzy
+#| msgid "Unable to read the file."
+msgid "Unable to Read the File"
+msgstr "文件无法读取。"
 
-#: application/metadatacleaner/ui/detailsview.py:76
-msgid "Unable to remove metadata."
+#: application/metadatacleaner/ui/detailsview.py:75
+#, fuzzy
+#| msgid "File type not supported."
+msgid "File Type not Supported"
+msgstr "文件类型不支持。"
+
+#: application/metadatacleaner/ui/detailsview.py:77
+#, fuzzy
+#| msgid "Unable to check metadata."
+msgid "Unable to Check for Metadata"
+msgstr "元数据无法查看。"
+
+#: application/metadatacleaner/ui/detailsview.py:78
+msgid "No Known Metadata"
+msgstr ""
+
+#: application/metadatacleaner/ui/detailsview.py:80
+#, fuzzy
+#| msgid "Unable to remove metadata."
+msgid "Unable to Remove Metadata"
 msgstr "元数据无法删除。"
+
+#: application/metadatacleaner/ui/detailsview.py:84
+#, fuzzy
+#| msgid "No known metadata, the file will be cleaned to be sure."
+msgid "The file will be cleaned anyway to be sure."
+msgstr "没有发现元数据，为了确保元数据清理彻底，还是会尝试删除元数据。"
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
