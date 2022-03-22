@@ -221,7 +221,7 @@ class Window(Adw.ApplicationWindow):
         if response == Gtk.ResponseType.ACCEPT:
             self.file_store.add_gfiles(
                 dialog.get_files(),
-                dialog.get_choice("recursive"))
+                dialog.get_choice("recursive") == "true")
 
     @Gtk.Template.Callback()
     def _on_cleaning_warning_dialog_response(
