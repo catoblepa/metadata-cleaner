@@ -16,7 +16,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 - User interface improvements
 - Folder chooser recursive option is enabled by default
 - Updated Chinese (simplified) translation (contributed by Eric)
+- Updated Dutch translation (contributed by @Vistaus)
+- Updated French translation
 - Updated Polish translation (contributed by Anon Ymous)
+- Updated Spanish translation (contributed by @oscfdezdz)
+- Updated Turkish translation (contributed by @ersen)
 
 ### Fixed
 - Titlebar buttons at the wrong position
