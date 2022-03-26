@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-22 21:51+0100\n"
-"PO-Revision-Date: 2022-03-26 12:08+0000\n"
+"PO-Revision-Date: 2022-03-27 13:06+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/hr/>\n"
@@ -280,10 +280,8 @@ msgid "Clean Your Traces"
 msgstr "Izbriši svoje tragove"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "Saznaj više o metapodacima i o ograničenjima postupka čišćenja."
+msgstr "Saznaj više o metapodacima i ograničenjima postupka čišćenja"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -323,7 +321,7 @@ msgstr "_O programu Brisač metapodataka"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Glavni izbornik"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -363,58 +361,44 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Tijekom čišćenja se dogodila greška, očišćena datoteka nije pronađena"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Datoteka je očišćena."
+msgstr "Datoteka je očišćena"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "Saznaj više o metapodacima i o ograničenjima postupka čišćenja."
+msgstr ""
+"Poznati metapodaci su uklonjeni, međutim postupak čišćenja sadrži neka "
+"ograničenja."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Saznaj više"
 
 #: application/metadatacleaner/ui/detailsview.py:74
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Nije moguće čitati datoteku."
+msgstr "Nije moguće čitati datoteku"
 
 #: application/metadatacleaner/ui/detailsview.py:75
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Vrsta datoteke nije podržana."
+msgstr "Vrsta datoteke nije podržana"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Nije moguće provjeriti metapodatke."
+msgstr "Nije moguće provjeriti metapodatke"
 
 #: application/metadatacleaner/ui/detailsview.py:78
-#, fuzzy
-#| msgid "Metadata"
 msgid "No Known Metadata"
-msgstr "Metapodaci"
+msgstr "Nema poznatih metapodataka"
 
 #: application/metadatacleaner/ui/detailsview.py:80
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Nije moguće ukloniti metapodatke."
+msgstr "Nije moguće ukloniti metapodatke"
 
 #: application/metadatacleaner/ui/detailsview.py:84
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr "Nema poznatih metapodataka. Datoteka će se, za svaki slučaj, očistiti."
+msgstr "Datoteka će se za svaki slučaj svejedno očistiti."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
