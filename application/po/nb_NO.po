@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-22 21:51+0100\n"
+"POT-Creation-Date: 2022-03-28 11:35+0200\n"
 "PO-Revision-Date: 2021-08-13 10:21+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
@@ -101,63 +101,64 @@ msgstr ""
 "som mulig."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
-#, fuzzy
-#| msgid "Improved adaptive user interface"
-msgid "Improved user interface"
-msgstr "Forbedret tillpassbart brukergrensesnitt"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
 #, fuzzy
 #| msgid "New translations"
 msgid "Updated translations"
 msgstr "Nye oversettelser"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+#, fuzzy
+#| msgid "Improved adaptive user interface"
+msgid "Improved user interface"
+msgstr "Forbedret tillpassbart brukergrensesnitt"
+
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:172
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
 msgid "New translations"
 msgstr "Nye oversettelser"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
 #, fuzzy
 msgid "Bug fixes"
 msgstr "Feilfikser:"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "New button to add folders"
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
 msgid "Improved adaptive user interface"
 msgstr "Forbedret tillpassbart brukergrensesnitt"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:146
 msgid "New help pages"
 msgstr "Nye hjelpesider"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:147
 #, fuzzy
 #| msgid "One-click cleaning, no need to clean then save anymore"
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Rensing med ett klikk. Ingen grunn til å rense for så å lagre."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:140
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
 #, fuzzy
 #| msgid "Lightweight cleaning option is now saved"
 msgid "Persistent lightweight cleaning option"
 msgstr "Valg om lett rensing er nå vedvarende"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:187
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
 msgid "Files with uppercase extension can now be added"
 msgstr "Filer med filendelser som bruker store bokstaver kan nå legges til"
 
@@ -419,36 +420,36 @@ msgstr "Lær mer om metadata og begrensninger i renseprosessen."
 msgid "Learn more"
 msgstr ""
 
-#: application/metadatacleaner/ui/detailsview.py:74
+#: application/metadatacleaner/ui/detailsview.py:76
 #, fuzzy
 #| msgid "Unable to read the file."
 msgid "Unable to Read the File"
 msgstr "Kunne ikke lese filen."
 
-#: application/metadatacleaner/ui/detailsview.py:75
+#: application/metadatacleaner/ui/detailsview.py:77
 #, fuzzy
 msgid "File Type not Supported"
 msgstr "Filtypen støttes ikke."
 
-#: application/metadatacleaner/ui/detailsview.py:77
+#: application/metadatacleaner/ui/detailsview.py:79
 #, fuzzy
 #| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
 msgstr "Kunne ikke sjekke metadataen."
 
-#: application/metadatacleaner/ui/detailsview.py:78
+#: application/metadatacleaner/ui/detailsview.py:80
 #, fuzzy
 #| msgid "Metadata"
 msgid "No Known Metadata"
 msgstr "Metadata"
 
-#: application/metadatacleaner/ui/detailsview.py:80
+#: application/metadatacleaner/ui/detailsview.py:82
 #, fuzzy
 #| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
 msgstr "Kunne ikke fjerne metadata."
 
-#: application/metadatacleaner/ui/detailsview.py:84
+#: application/metadatacleaner/ui/detailsview.py:86
 #, fuzzy
 #| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."

@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-22 21:51+0100\n"
+"POT-Creation-Date: 2022-03-28 11:35+0200\n"
 "PO-Revision-Date: 2022-03-28 09:16+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -98,54 +98,55 @@ msgstr ""
 "metaadatokat, és a lehető legnagyobb mértékben megszabaduljon tőlük."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
-msgid "Improved user interface"
-msgstr "Továbbfejlesztett felhasználói felület"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:71
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
 msgid "Updated translations"
 msgstr "Javított fordítások"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
+msgid "Improved user interface"
+msgstr "Továbbfejlesztett felhasználói felület"
+
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:112
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:156
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:172
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
 msgid "New translations"
 msgstr "Új fordítások"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
 msgid "Bug fixes"
 msgstr "Hibajavítások"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:120
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "New button to add folders"
 msgstr "Új gomb mappák hozzáadásához"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
 msgid "Improved adaptive user interface"
 msgstr "Továbbfejlesztett alkalmazkodó felhasználói felület"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:138
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:146
 msgid "New help pages"
 msgstr "Új súgóoldalak"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:139
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:147
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Egykattintásos tisztítás, nincs szükség mentésre a tisztítás után"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:140
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
 msgid "Persistent lightweight cleaning option"
 msgstr "Állandó egyszerűsített tisztítási lehetőség"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:187
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
 msgid "Files with uppercase extension can now be added"
 msgstr "Mostantól hozzáadhatók a nagybetűs kiterjesztéssel rendelkező fájlok"
 
@@ -284,7 +285,8 @@ msgstr "Tisztítsa meg a nyomait"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "Tudjon meg többet a metaadatokról és a tisztítási folyamat korlátjairól"
+msgstr ""
+"Tudjon meg többet a metaadatokról és a tisztítási folyamat korlátjairól"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -380,27 +382,27 @@ msgstr ""
 msgid "Learn more"
 msgstr "Tudj meg többet"
 
-#: application/metadatacleaner/ui/detailsview.py:74
+#: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
 msgstr "Nem lehet olvasni a fájlt"
 
-#: application/metadatacleaner/ui/detailsview.py:75
+#: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
 msgstr "A fájltípus nem támogatott"
 
-#: application/metadatacleaner/ui/detailsview.py:77
+#: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
 msgstr "Nem lehet ellenőrizni a metaadatokat"
 
-#: application/metadatacleaner/ui/detailsview.py:78
+#: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
 msgstr "Nem ismert metaadat"
 
-#: application/metadatacleaner/ui/detailsview.py:80
+#: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
 msgstr "Nem lehet eltávolítani a metaadatokat"
 
-#: application/metadatacleaner/ui/detailsview.py:84
+#: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
 msgstr "A fájl mindenesetre meg lesz tisztítva a biztonság kedvéért."
 
