@@ -64,6 +64,14 @@ SPDX-License-Identifier: GPL-3.0-or-later
   </requires>
 
   <releases its:locNote="Release notes">
+    <release version="2.2.1" date="2022-03-28">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <url>https://gitlab.com/rmnvgr/metadata-cleaner/-/releases/v2.2.1</url>
+    </release>
     <release version="2.2.0" date="2022-03-23">
       <description>
         <ul>
