@@ -5,6 +5,17 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Changelog
 
+## [2.2.1] - 2022-03-28
+
+### Changed
+- Updated Croatian translation (contributed by @milotype)
+- Updated Hungarian translation (contributed by Szia Tomi)
+- Updated Swedish translation (contributed by @eson)
+
+### Fixed
+- DBus activation was not possible on some systems
+
+
 ## [2.2.0] - 2022-03-23
 
 ### Added
@@ -25,6 +36,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 ### Fixed
 - Titlebar buttons at the wrong position
 - Settings help button didn't open the correct help section
+
 
 ## [2.1.5] - 2022-02-15
 
