@@ -1,6 +1,9 @@
 # SPDX-FileCopyrightText: 2020-2022 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
+xdg_config = configuration_data()
+xdg_config.set('bindir', bindir)
+
 gnome.compile_resources(
   APP_ID,
   APP_ID + '.gresource.xml',
@@ -27,7 +30,11 @@ endif
 
 i18n.merge_file(
   type: 'desktop',
-  input: APP_ID + '.desktop.in',
+  input: configure_file(
+    input: APP_ID + '.desktop.in',
+    output: APP_ID + '.desktop.in',
+    configuration: xdg_config,
+  ),
   output: APP_ID + '.desktop',
   po_dir: appsrcdir / 'po',
   install: true,
@@ -43,7 +50,13 @@ i18n.merge_file(
   install_dir: appdatadir
 )
 
+configure_file(
+  input: APP_ID + '.service.in',
+  output: APP_ID + '.service',
+  configuration: xdg_config,
+  install_dir: dbusdir
+)
+
 
 install_data(APP_ID + '.gschema.xml', install_dir: schemasdir)
-install_data(APP_ID + '.service', install_dir: dbusdir)
 install_subdir('icons/hicolor', install_dir: iconsdir)

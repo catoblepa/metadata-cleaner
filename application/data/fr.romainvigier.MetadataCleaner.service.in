@@ -3,4 +3,4 @@
 
 [D-BUS Service]
 Name=fr.romainvigier.MetadataCleaner
-Exec=metadata-cleaner --gapplication-service
+Exec=@bindir@/metadata-cleaner --gapplication-service
