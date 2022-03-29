@@ -2,12 +2,13 @@
 # Reza Almanda <rezaalmanda27@gmail.com>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # neko <smurfkandy@tutanota.com>, 2021.
+# Ibnul Mutaki <ibnuul@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2021-12-24 03:51+0000\n"
-"Last-Translator: neko <smurfkandy@tutanota.com>\n"
+"PO-Revision-Date: 2022-03-29 14:08+0000\n"
+"Last-Translator: Ibnul Mutaki <ibnuul@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/id/>\n"
 "Language: id\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
@@ -44,8 +45,8 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Metadata dalam file dapat memberi tahu banyak tentang Anda. Kamera merekam "
-"data tentang kapan dan di mana gambar diambil dan kamera mana yang "
+"Metadata dalam file dapat memberi tahu banyak informasi tentang Anda. Kamera "
+"merekam data tentang kapan dan di mana gambar diambil dan kamera mana yang "
 "digunakan. Aplikasi Office secara otomatis menambahkan informasi penulis dan "
 "perusahaan ke dokumen dan spreadsheet. Ini adalah informasi sensitif dan "
 "Anda mungkin tidak ingin mengungkapkannya."
