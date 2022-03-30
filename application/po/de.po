@@ -6,13 +6,14 @@
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # Milo Ivir <mail@milotype.de>, 2021.
 # eladyn <f+weblate@piored.de>, 2021.
+# Cgrieger <translate@cgrieger.org>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-28 11:35+0200\n"
-"PO-Revision-Date: 2021-12-01 17:16+0000\n"
-"Last-Translator: eladyn <f+weblate@piored.de>\n"
+"PO-Revision-Date: 2022-03-31 17:10+0000\n"
+"Last-Translator: Cgrieger <translate@cgrieger.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/de/>\n"
 "Language: de\n"
@@ -20,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -36,7 +37,7 @@ msgstr "Bereinige deine Dateien von Metadaten"
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr "Metadaten;Reiniger;Entfernen;"
+msgstr "Metadaten;Reiniger;Entferner;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
@@ -101,16 +102,12 @@ msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
-#, fuzzy
-#| msgid "New translations"
 msgid "Updated translations"
-msgstr "Neue Übersetzungen"
+msgstr "Aktualisierte Übersetzung"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
-#, fuzzy
-#| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
-msgstr "Verbesserte anpassungsfähige Benutzeroberfläche"
+msgstr "Verbesserte Benutzeroberfläche"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
@@ -291,11 +288,9 @@ msgid "Clean Your Traces"
 msgstr "Bereinige deine Spuren"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
-"Erfahre mehr über Metadaten und über Einschränkungen des Reinigungsprozesses."
+"Erfahre mehr über Metadaten und über Einschränkungen des Reinigungsprozesses"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -335,7 +330,7 @@ msgstr "_Über Metataten-Reiniger"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Hauptmenü"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -376,59 +371,44 @@ msgstr ""
 "Etwas ist beim Reinigen schiefgelaufen, bereinigte Datei nicht gefunden"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Die Datei wurde bereinigt."
+msgstr "Die Datei wurde bereinigt"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
-"Erfahre mehr über Metadaten und über Einschränkungen des Reinigungsprozesses."
+"Bekannte Metadaten wurden entfernt. Einzelne Daten wurden eventuell nicht "
+"entfernt."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Mehr erfahren"
 
 #: application/metadatacleaner/ui/detailsview.py:76
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Die Datei kann nicht gelesen werden."
+msgstr "Die Datei kann nicht gelesen werden"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Dateityp wird nicht unterstützt."
+msgstr "Dateityp wird nicht unterstützt"
 
 #: application/metadatacleaner/ui/detailsview.py:79
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Metadaten können nicht überprüft werden."
+msgstr "Metadaten können nicht überprüft werden"
 
 #: application/metadatacleaner/ui/detailsview.py:80
-#, fuzzy
-#| msgid "Metadata"
 msgid "No Known Metadata"
-msgstr "Metadaten"
+msgstr "Metadaten unbekannt"
 
 #: application/metadatacleaner/ui/detailsview.py:82
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Metadaten können nicht entfernt werden."
+msgstr "Metadaten können nicht entfernt werden"
 
 #: application/metadatacleaner/ui/detailsview.py:86
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr "Es wurden keine Metadaten gefunden. Die Datei wird dennoch bereinigt."
+msgstr "Die Datei wird zur Sicherheit dennoch bereinigt."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
