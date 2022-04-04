@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-28 11:35+0200\n"
-"PO-Revision-Date: 2022-01-18 19:52+0000\n"
+"PO-Revision-Date: 2022-04-05 10:09+0000\n"
 "Last-Translator: Sasha <maxminer88@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -42,7 +42,7 @@ msgstr "Удалить без предупреждения"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr "Удалить файлы без отображения диалогового окна с предупреждением"
+msgstr "Удалить файлы без диалогового окна с предупреждением"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
@@ -98,13 +98,13 @@ msgstr ""
 #, fuzzy
 #| msgid "New translations"
 msgid "Updated translations"
-msgstr "Новые переводы"
+msgstr "Обновлённые переводы"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #, fuzzy
 #| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
-msgstr "Улучшена адаптивность"
+msgstr "Улучшен пользовательский интерфейс"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
@@ -285,10 +285,8 @@ msgid "Clean Your Traces"
 msgstr "Очисти свои следы"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "Изучить больше про метаданные и процесс очистки."
+msgstr "Изучите больше про метаданные и процесс очистки"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -328,7 +326,7 @@ msgstr "_Об Очистка Метаданных"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Главное меню"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -368,56 +366,42 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Произошло что-то плохое, очищенный файл не найден"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Файл был очищен."
+msgstr "Файл Был Очищен"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "Изучить больше про метаданные и процесс очистки."
+msgstr "Известные метаданные были очищены, но процесс очистки был неполный."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Узнать больше"
 
 #: application/metadatacleaner/ui/detailsview.py:76
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Невозможно прочитать файл."
+msgstr "Невозможно Прочитать Файл"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Расширение файла не поддерживается."
+msgstr "Расширение Файла не Поддерживается"
 
 #: application/metadatacleaner/ui/detailsview.py:79
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Невозможно проверить метаданные."
+msgstr "Невозможно Проверить Метаданные"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "Нет Известных Метаданных"
 
 #: application/metadatacleaner/ui/detailsview.py:82
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Невозможно удалить метаданные."
+msgstr "Невозможно Удалить Метаданные"
 
 #: application/metadatacleaner/ui/detailsview.py:86
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr "Метаданные не найдены, на всякий случай файл будет очищен."
+msgstr "На всякий случай файл будет очищен."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
