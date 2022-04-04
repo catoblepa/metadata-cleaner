@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Allan Nordhøy <epost@anotheragency.no>, 2021.
+# Allan Nordhøy <epost@anotheragency.no>, 2021, 2022.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-28 11:35+0200\n"
-"PO-Revision-Date: 2021-08-13 10:21+0000\n"
+"PO-Revision-Date: 2022-04-05 10:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/nb_NO/>\n"
@@ -17,14 +17,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "Metadatarenseren"
+msgstr "Metadatarenser"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
@@ -48,8 +48,11 @@ msgid "Lightweight cleaning"
 msgstr "Lett rensing"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
+#, fuzzy
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
+"Ikke utfør noen destruktive endringer i filer, men risiker å levne litt "
+"metadata."
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -136,7 +139,7 @@ msgstr "Feilfikser:"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "New button to add folders"
-msgstr ""
+msgstr "Ny knapp for å legge til mapper"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
 msgid "Improved adaptive user interface"
@@ -359,7 +362,7 @@ msgstr "_Om Metadatarenser"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Hovedmeny"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -418,7 +421,7 @@ msgstr "Lær mer om metadata og begrensninger i renseprosessen."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Lær mer"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 #, fuzzy
@@ -461,7 +464,7 @@ msgstr "Alle støttede filer"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Legg til filer fra undermapper"
 
 #: application/metadatacleaner/ui/statusindicator.py:36
 #, fuzzy
