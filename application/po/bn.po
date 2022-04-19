@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Bingo <eulises.leyendecker@easyonlinemail.net>, 2022.
+# hELLOwORLD <helloworld@allfreemail.net>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-28 11:35+0200\n"
 "PO-Revision-Date: 2022-04-19 22:35+0000\n"
-"Last-Translator: Bingo <eulises.leyendecker@easyonlinemail.net>\n"
+"Last-Translator: hELLOwORLD <helloworld@allfreemail.net>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/bn/>\n"
 "Language: bn\n"
@@ -52,7 +53,7 @@ msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "উইন্ডোর প্রস্থ"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
@@ -60,7 +61,7 @@ msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "উইন্ডোর উচ্চতা"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
@@ -143,7 +144,7 @@ msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "বড় হাতের অক্ষরের এক্সটেনশন যুক্ত ফাইল এখন যুক্ত করা যাবে"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
