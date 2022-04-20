@@ -431,8 +431,8 @@ def locale_from_lang(lang: str) -> str:
             "yi": "yi_US.utf-8",
             "yo": "yo_NG.utf-8",
             "zh": "zh_CN.utf-8",
-            "zh_Hans": "zh_CN.utf-8",
-            "zh_Hant": "zh_TW.utf-8",
+            "zh_CN": "zh_CN.utf-8",
+            "zh_TW": "zh_TW.utf-8",
             "zu": "zu_ZA.utf-8",
         }[lang]
     except KeyError:
