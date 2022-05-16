@@ -50,8 +50,8 @@ modules:
         sources:
           - type: git
             url: https://salsa.debian.org/debian/media-types.git
-            tag: 7.1.0
-            commit: 3fd6c3d8db696261e788090b79131169b4ef04cb
+            tag: 8.0.0
+            commit: cc3ae23eb896a9f8673b213f5e46d5ca7919fc1d
 
       - name: python3-libmat2
         buildsystem: simple
@@ -63,8 +63,8 @@ modules:
         sources:
           - type: git
             url: https://0xacab.org/jvoisin/mat2.git
-            tag: 0.12.3
-            commit: e5dcd39225e165897d69c7400ebc57ab1b4449bc
+            tag: 0.12.4
+            commit: b18e6e11f073ee91616b300f76b19a83ac7766a0
         modules:
           - name: exiftool
             buildsystem: simple
@@ -76,8 +76,8 @@ modules:
             sources:
               - type: git
                 url: https://github.com/exiftool/exiftool.git
-                tag: '12.40'
-                commit: 537cba56936c21b729aeed404b117e31c3c6fed0
+                tag: '12.42'
+                commit: 48df8aae22faa33d830dcf2ecdf406998b4d3849
             modules:
               - name: perl
                 buildsystem: simple
@@ -123,8 +123,8 @@ modules:
                 sources:
                   - type: git
                     url: https://github.com/Perl/perl5.git
-                    tag: v5.34.1
-                    commit: 1181cf72936404b890ef41362f533fe2c2626f9b
+                    tag: v5.36.0
+                    commit: b3c502b607191da0e743a4fa34501a05442305b3
 
           - name: poppler
             buildsystem: cmake
@@ -143,8 +143,8 @@ modules:
             sources:
               - type: git
                 url: https://anongit.freedesktop.org/git/poppler/poppler.git
-                tag: poppler-22.04.0
-                commit: bd6f20a62131baafcae40cbdb8475116f666f84f
+                tag: poppler-22.06.0
+                commit: 32fa2888eaaaaf80e5d2338cb8cb8b773ccfd4d3
             modules:
               - name: poppler-data
                 buildsystem: cmake
