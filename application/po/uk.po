@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-28 11:35+0200\n"
-"PO-Revision-Date: 2022-05-27 13:19+0000\n"
+"PO-Revision-Date: 2022-05-29 11:20+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/uk/>\n"
@@ -80,21 +80,28 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"Метадані у файлі можуть багато розповісти про вас. Камери записують дані про "
+"те, коли та де було зроблено знімок і яка камера була використана. "
+"Застосунки Office автоматично додають дані про автора та компанію в "
+"документи та електронні таблиці. Це конфіденційна інформація, і ви, можливо, "
+"не захочете її розголошувати."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
+"Цей засіб дає змогу переглядати метадані у ваших файлах і максимально "
+"позбутися від них."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:79
 msgid "Updated translations"
-msgstr ""
+msgstr "Оновлені переклади"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 msgid "Improved user interface"
-msgstr ""
+msgstr "Покращений інтерфейс користувача"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:87
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
@@ -110,117 +117,119 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
 msgid "New translations"
-msgstr ""
+msgstr "Нові переклади"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:119
 msgid "Bug fixes"
-msgstr ""
+msgstr "Виправлення помилок"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:128
 msgid "New button to add folders"
-msgstr ""
+msgstr "Нова кнопка для додавання тек"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "Покращений адаптивний інтерфейс користувача"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:146
 msgid "New help pages"
-msgstr ""
+msgstr "Нові сторінки довідки"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:147
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
+msgstr "Очищення одним натисканням та без необхідності зберігати після очищення"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:148
 msgid "Persistent lightweight cleaning option"
-msgstr ""
+msgstr "Надійна проста опція очищення"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "Відтепер можна додавати файли з розширенням великими буквами"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "Файли"
 
 #: application/data/gtk/help-overlay.ui:18
 msgid "Add files"
-msgstr ""
+msgstr "Додати файли"
 
 #: application/data/gtk/help-overlay.ui:24
 msgid "Add folders"
-msgstr ""
+msgstr "Додати теки"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr ""
+msgstr "Очистити метадані"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Очистити всі файли з вікна"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr ""
+msgstr "Загальні"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr ""
+msgstr "Нове вікно"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr ""
+msgstr "Закрити вікно"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr ""
+msgstr "Вийти"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Комбінації клавіш"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr ""
+msgstr "Довідка"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "Поспілкуватися в Matrix"
 
 #: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "Переглянути код на GitLab"
 
 #: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "Перекласти на Weblate"
 
 #: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Підтримати нас на Liberapay"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
-msgstr ""
+msgstr "Код"
 
 #: application/data/ui/AboutDialog.ui:176
 msgid "Artwork"
-msgstr ""
+msgstr "Ілюстрації"
 
 #: application/data/ui/AboutDialog.ui:182
 msgid "Documentation"
-msgstr ""
+msgstr "Документація"
 
 #: application/data/ui/AboutDialog.ui:188
 msgid "Translation"
-msgstr ""
+msgstr "Переклад"
 
 #: application/data/ui/AboutDialog.ui:193
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
+"Цей застосунок використовує <a href=\"https://0xacab.org/jvoisin/mat2\""
+">mat2</a> для аналізу та очищення метаданих. Викажіть їм трохи прихильності!"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -229,178 +238,183 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"Джерельний код цього застосунку випущено за умовами <a href=\"https://www.gnu"
+".org/licenses/gpl-3.0.html\">GNU GPL 3.0 або новішої</a>. Оригінал "
+"ілюстрації та переклади випущені згідно з умовами <a href=\"https"
+"://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
-msgstr ""
+msgstr "_Додати файли"
 
 #: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
-msgstr ""
+msgstr "Додати _теки"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_Очистити"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Переконайтеся, що ви створили резервну копію своїх файлів!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "Після очищення, можливості відновлення файлів не буде."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Не нагадувати знову"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "Очистити"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr ""
+msgstr "Очистьте свої сліди"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr ""
+msgstr "Докладніше про метадані та обмеження процесу очищення"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
-msgstr ""
+msgstr "Вилучити файл зі списку"
 
 #: application/data/ui/FileRow.ui:124
 msgid "Warning"
-msgstr ""
+msgstr "Попередження"
 
 #: application/data/ui/FileRow.ui:142
 msgid "Error"
-msgstr ""
+msgstr "Помилка"
 
 #: application/data/ui/FileRow.ui:182
 msgid "Cleaned"
-msgstr ""
+msgstr "Очищено"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr ""
+msgstr "_Нове вікно"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr ""
+msgstr "_Очистити вікно"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_Довідка"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Комбінації клавіш"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_Про очищувач метаданих"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Головне меню"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Налаштування очищення"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr ""
+msgstr "Легке чищення"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Докладніше про легке очищення"
 
 #: application/data/ui/Window.ui:78
 msgid "Details"
-msgstr ""
+msgstr "Подробиці"
 
 #: application/data/ui/Window.ui:84
 msgid "Close"
-msgstr ""
+msgstr "Закрити"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
 msgid "translator-credits"
-msgstr ""
+msgstr "`Ihor Hordiichuk <igor_ck@outlook.com>`"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
-msgstr ""
+msgstr "Виберіть файли для очищення"
 
 #: application/data/ui/Window.ui:123
 msgid "Choose folders to clean"
-msgstr ""
+msgstr "Виберіть теки для очищення"
 
 #: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
+msgstr "Під час очищення сталося щось погане, очищений файл не знайдено"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr ""
+msgstr "Файл очищено"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
+"Відомі метадані були вилучені, однак процес очищення має деякі обмеження."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Докладніше"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr ""
+msgstr "Не вдалося прочитати файл"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr ""
+msgstr "Тип файлу не підтримується"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr ""
+msgstr "Не вдалося перевірити метадані"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "Немає відомих метаданих"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr ""
+msgstr "Не вдалося вилучити метадані"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
+msgstr "Про всяк випадок файл усе одно буде очищено."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "Усі підтримувані файли"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Додати файли з вкладених тек"
 
 #: application/metadatacleaner/ui/statusindicator.py:36
 msgid "Adding files…"
-msgstr ""
+msgstr "Додавання файлів…"
 
 #: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "Обробка файлу {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:40
 msgid "Cleaning file {}/{}"
-msgstr ""
+msgstr "Файл очищення {}/{}"
