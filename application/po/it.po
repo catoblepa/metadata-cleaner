@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-28 11:35+0200\n"
-"PO-Revision-Date: 2022-03-31 17:10+0000\n"
+"PO-Revision-Date: 2022-06-03 12:20+0000\n"
 "Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -368,7 +368,7 @@ msgstr ""
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr "Il file è stato pulito."
+msgstr "Il file è stato pulito"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
