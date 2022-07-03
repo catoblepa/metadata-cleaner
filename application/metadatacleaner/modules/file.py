@@ -248,7 +248,9 @@ class File(GObject.GObject):
         try:
             self._parser.output_filename = self._temp_path
             self._parser.lightweight_cleaning = lightweight_mode
-            self._parser.remove_all()
+            result = self._parser.remove_all()
+            if result is False:
+                raise RuntimeError(_("An error occured during the cleaning."))
             if not os.path.exists(self._temp_path):
                 raise RuntimeError(_(
                     "Something bad happened during the cleaning, "
