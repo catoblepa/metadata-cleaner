@@ -9,16 +9,16 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: 2022-03-28 09:16+0000\n"
+"PO-Revision-Date: 2022-07-03 20:31+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -198,7 +198,7 @@ msgstr "Súgó"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
-msgstr ""
+msgstr "Névjegy"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
@@ -218,7 +218,7 @@ msgstr "Támogasson minket Liberapay-en"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr ""
+msgstr "Elismerések"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
