@@ -7,65 +7,68 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-08-06 06:53+0000\n"
+"Last-Translator: Ümid Quliyev <lucifer25x@protonmail.com>\n"
+"Language-Team: Azerbaijani <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/az/>\n"
 "Language: az\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Metadata Təmizləyicisi"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "Fayllarınızdan metadata'nı təmizləyin"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "Metadata;Təmizləyici;Təmizləyici"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr ""
+msgstr "Xəbərdarlıq etmədən təmizlə"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr ""
+msgstr "Xəbərdarlıq əlaqə dialoqunu göstərmədən faylları təmizləyin"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Yüngül təmizləmə"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
+msgstr "Fayllarda ciddi dəyişikliklər etməz, amma bəzi metadata buraxa bilər"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "Pəncərə genişliyi"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr ""
+msgstr "Pəncərənin qeyd edilən genişliyi"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "Pəncərə yüksəkliyi"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr ""
+msgstr "Pəncərənin qeyd edilən yüksəkliyi"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Fayllardakı metadata'nı görüntülə və təmizlə"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -75,23 +78,30 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"Bir fayldakı metadata sizin haqqınızda bir çox şey söyləyə bilər. Kameralar "
+"bir şəkilin nə zaman və harada çəkildiyi və hansı kameranın istifadə "
+"olunduğu ilə bağlı məlumatları qeyd edir. Ofis proqramları avtomatik olaraq "
+"fayllara və onlayn cədvəllərə yazıçı və şirkət haqqında bilgilərini əlavə "
+"edir. Bunlar həssas bilgilərdir və açıqlamaq istəməyə bilərsiniz."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
+"Bu alət fayllarınızdakı metadata'nı görüntüləməyinizi və mümkün olduqca "
+"onlardan qurtulmağınızı təmin edir."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 msgid "Updated translations"
-msgstr ""
+msgstr "Güncəllənmiş tərcümələr"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
 msgid "Improved user interface"
-msgstr ""
+msgstr "Yaxşılaşdırılmış istifadəçi interfeysi"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
@@ -107,125 +117,128 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
 msgid "New translations"
-msgstr ""
+msgstr "Yeni tərcümələr"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
 msgid "Bug fixes"
-msgstr ""
+msgstr "Xəta düzəlişləri"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:144
 msgid "New button to add folders"
-msgstr ""
+msgstr "Qovluq əlavə etmək üçün yeni düymə"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:161
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "Yaxşılaşdırılmış uyarlana bilən istifadəçi interfeysi"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
 msgid "New help pages"
-msgstr ""
+msgstr "Yeni kömək səhifələri"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:163
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
+msgstr "Tək toxunuşla təmizləmə, təmizlədikdən sonra qeyd etməyə ehtiyac yoxdur"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
 msgid "Persistent lightweight cleaning option"
-msgstr ""
+msgstr "Qalıcı yüngül təmizləmə seçimi"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "Böyük hərfli fayl uzantısına malik fayllar artıq əlavə edilə bilər"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "Fayllar"
 
 #: application/data/gtk/help-overlay.ui:18
 msgid "Add files"
-msgstr ""
+msgstr "Fayl əlavə et"
 
 #: application/data/gtk/help-overlay.ui:24
 msgid "Add folders"
-msgstr ""
+msgstr "Qovluq əlavə et"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr ""
+msgstr "Metadata'nı təmizlə"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Pəncərədən bütün faylları təmizlə"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr ""
+msgstr "Ümumi"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr ""
+msgstr "Yeni pəncərə"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr ""
+msgstr "Pəncərəni bağla"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr ""
+msgstr "Çıxış"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Klaviatura qısayolları"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr ""
+msgstr "Yardım"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
-msgstr ""
+msgstr "Haqqında"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "Matrix'də söhbət edin"
 
 #: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "GitLab'da kodları görüntüləyin"
 
 #: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "Weblate'də tərcümə edin"
 
 #: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "Liberapay'də bizi dəstəkləyin"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr ""
+msgstr "Qatqıda bulunanlar"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
-msgstr ""
+msgstr "Kod"
 
 #: application/data/ui/AboutDialog.ui:176
 msgid "Artwork"
-msgstr ""
+msgstr "Görüntü"
 
 #: application/data/ui/AboutDialog.ui:182
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasiya"
 
 #: application/data/ui/AboutDialog.ui:188
 msgid "Translation"
-msgstr ""
+msgstr "Tərcümə"
 
 #: application/data/ui/AboutDialog.ui:193
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
+"Bu proqram metadata'nı ayırışdırmaq və təmizləmək üçün <a href=\"https"
+"://0xacab.org/jvoisin/mat2\">mat2</a> istifadə edir. Onlara bir az sevgi "
+"göstərin."
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -234,178 +247,186 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"Bu proqramın qaynaq kodları, <a href=\"https://www.gnu.org/licenses/gpl-3.0."
+"html\">GNU GPL 3.0 və ya sonrası</a> şərtləri altında yayınlanmışdır. "
+"Orginal görüntü və tərcümələr, <a href=\"https://creativecommons.org/"
+"licenses/by-sa/4.0/\">CC BY-SA 4.0</a> şərtləri altında yayınlanmışdır."
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
-msgstr ""
+msgstr "Fayl _Əlavə Et"
 
 #: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
-msgstr ""
+msgstr "_Qovluq Əlavə Et"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_Təmizlə"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Fayllarınızı yedəklədiyinizdən əmin olun!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "Fayllar təmizləndikdən sonra geri dönüş yoxdur."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Bir daha söyləmə"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "Ləğv et"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "Təmizlə"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr ""
+msgstr "İzlərinizi Təmizləyin"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
+"Metadata və təmizləmə prosesinin limitləri haqqında daha çox bilgi öyrənin"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
-msgstr ""
+msgstr "Faylı siyahıdan çıxarın"
 
 #: application/data/ui/FileRow.ui:124
 msgid "Warning"
-msgstr ""
+msgstr "Xəbərdarlıq"
 
 #: application/data/ui/FileRow.ui:142
 msgid "Error"
-msgstr ""
+msgstr "Xəta"
 
 #: application/data/ui/FileRow.ui:182
 msgid "Cleaned"
-msgstr ""
+msgstr "Təmizləndi"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr ""
+msgstr "_Yeni Pəncərə"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr ""
+msgstr "Pəncərəni _Təmizlə"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_Yardım"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Klaviatura Qısayolları"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "Metadata Təmizləyicisi _Haqqında"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Əsas menyu"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Təmizləmə parametrləri"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr ""
+msgstr "Yüngül Təmizləmə"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Yüngül təmizləmə haqqında daha çox bilgi öyrənin"
 
 #: application/data/ui/Window.ui:78
 msgid "Details"
-msgstr ""
+msgstr "Detallar"
 
 #: application/data/ui/Window.ui:84
 msgid "Close"
-msgstr ""
+msgstr "Bağla"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
 msgid "translator-credits"
-msgstr ""
+msgstr "Ümid Quliyev"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
-msgstr ""
+msgstr "Təmizlənəcək faylları seçin"
 
 #: application/data/ui/Window.ui:123
 msgid "Choose folders to clean"
-msgstr ""
+msgstr "Təmizlənəcək qovluqları seçin"
 
 #: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
+"Təmizləmə prosesi zamanı pis bir şey baş verdi, təmizlənən fayl tapılmadı"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr ""
+msgstr "Fayl Təmizləndi"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
+"Bilinən metadata'lar çıxarıldı, ancaq təmizlənmə prosesinin bəzi limitləri "
+"var."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Daha çox öyrən"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr ""
+msgstr "Fayl Oxuna Bilmir"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr ""
+msgstr "Fayl Tipi Dəstəklənmir"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr ""
+msgstr "Metadata Yoxlana Bilmir"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "Bilinən Metadata Yoxdur"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr ""
+msgstr "Metadata'lar Qaldırıla Bilmir"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
+msgstr "Fayl yenə də əmin olmaq üçün təmizlənəcək."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "Dəstəklənən bütün fayllar"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Alt qovluqlardan fayl əlavə et"
 
 #: application/metadatacleaner/ui/statusindicator.py:36
 msgid "Adding files…"
-msgstr ""
+msgstr "Fayllar əlavə edilir…"
 
 #: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "Fayl emal olunur {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:40
 msgid "Cleaning file {}/{}"
-msgstr ""
+msgstr "Fayl təmizlənir {}/{}"
