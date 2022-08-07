@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: 2022-07-03 20:31+0000\n"
+"PO-Revision-Date: 2022-08-08 13:00+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/hu/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -86,7 +86,7 @@ msgstr ""
 "adatokat rögzítenek arról, hogy mikor és hol készült a fénykép, illetve "
 "milyen fényképezőgépet használtak. Az irodai alkalmazások automatikusan "
 "hozzáadják a dokumentumokhoz és táblázatokhoz a szerző és a vállalat "
-"adatait. Ezek érzékeny információk, és nem biztos, hogy szeretné "
+"adatait. Ezek érzékeny információk és nem biztos, hogy szeretné "
 "nyilvánosságra hozni azokat."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
@@ -95,7 +95,7 @@ msgid ""
 "much as possible."
 msgstr ""
 "Ez az eszköz lehetővé teszi, hogy megtekinthesse a fájlokban lévő "
-"metaadatokat, és a lehető legnagyobb mértékben megszabaduljon tőlük."
+"metaadatokat és a lehető legnagyobb mértékben megszabaduljon tőlük."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
