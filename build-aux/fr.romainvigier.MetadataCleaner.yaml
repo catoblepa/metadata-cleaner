@@ -4,7 +4,7 @@
 app-id: fr.romainvigier.MetadataCleaner
 default-branch: main
 runtime: org.gnome.Platform
-runtime-version: '42'
+runtime-version: '43'
 sdk: org.gnome.Sdk
 command: metadata-cleaner
 separate-locales: false
@@ -13,7 +13,7 @@ add-extensions:
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
     add-ld-path: '.'
-    version: '21.08'
+    version: '22.08'
 
 finish-args:
   - --socket=wayland
@@ -63,8 +63,8 @@ modules:
         sources:
           - type: git
             url: https://0xacab.org/jvoisin/mat2.git
-            tag: 0.12.4
-            commit: b18e6e11f073ee91616b300f76b19a83ac7766a0
+            tag: 0.13.0
+            commit: eec5c33a6b1d068d91d9e7a26ae5d4a715fe990b
         modules:
           - name: exiftool
             buildsystem: simple
@@ -76,8 +76,8 @@ modules:
             sources:
               - type: git
                 url: https://github.com/exiftool/exiftool.git
-                tag: '12.42'
-                commit: 48df8aae22faa33d830dcf2ecdf406998b4d3849
+                tag: '12.44'
+                commit: 1e17485cbb372a502e5b9d052d01303db735e6fa
             modules:
               - name: perl
                 buildsystem: simple
@@ -143,8 +143,8 @@ modules:
             sources:
               - type: git
                 url: https://anongit.freedesktop.org/git/poppler/poppler.git
-                tag: poppler-22.06.0
-                commit: 32fa2888eaaaaf80e5d2338cb8cb8b773ccfd4d3
+                tag: poppler-22.09.0
+                commit: 4602cac96104b74037862e223bb774be26bfd67c
             modules:
               - name: poppler-data
                 buildsystem: cmake
