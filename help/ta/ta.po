@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2022-09-25 17:17+0000\n"
+"PO-Revision-Date: 2022-09-27 03:19+0000\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/ta/>\n"
@@ -28,6 +28,11 @@ msgstr ""
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
+"ஒரு கோப்பில் உள்ள மெட்டாடேட்டா உங்களைப் பற்றி நிறைய சொல்ல முடியும். ஒரு படம் "
+"எப்போது, எங்கு எடுக்கப்பட்டது, எந்த கேமரா பயன்படுத்தப்பட்டது என்பது பற்றிய "
+"தரவை கேமராக்கள் பதிவு செய்கின்றன. அலுவலக பயன்பாடுகள் தானாக ஆசிரியர் மற்றும் "
+"நிறுவனத்தின் தகவல்களை ஆவணங்கள் மற்றும் விரிதாள்களில் சேர்க்கும். இது "
+"முக்கியமான தகவல் மற்றும் நீங்கள் அதை வெளியிட விரும்பாமல் இருக்கலாம்."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
