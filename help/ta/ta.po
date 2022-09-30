@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: 2022-09-30 17:22+0000\n"
+"PO-Revision-Date: 2022-10-01 18:18+0000\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/ta/>\n"
@@ -168,11 +168,14 @@ msgstr "கோப்புகளை சுத்தப்படுத்து�
 #: C/usage.page:38
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"சாளரத்தில் உள்ள அனைத்து கோப்புகளையும் சுத்தம் செய்ய, <gui style=\"button\""
+">சுத்தம்</gui> பொத்தானை அழுத்தவும். துப்புரவு செயல்முறை முடிவதற்கு சிறிது "
+"நேரம் ஆகலாம்."
 
 #. (itstool) path: figure/title
 #: C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">சுத்தம்</gui> பொத்தான்"
 
 #. (itstool) path: section/title
 #: C/usage.page:48
@@ -183,8 +186,14 @@ msgstr "இலகுரக சுத்தப்படுத்துதல்"
 #: C/usage.page:49
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"இயல்பாக, முடிந்தவரை மெட்டாடேட்டாவை அகற்ற, அகற்றும் செயல்முறை உங்கள் "
+"கோப்புகளின் தரவை சிறிது மாற்றியமைக்கலாம். எடுத்துக்காட்டாக, PDF இல் உள்ள "
+"உரைகள் இனி தேர்ந்தெடுக்கப்படாமல் இருக்கலாம், சுருக்கப்பட்ட படங்கள் மீண்டும் "
+"சுருக்கப்படலாம்…"
 
 #. (itstool) path: section/p
 #: C/usage.page:50
 msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
 msgstr ""
+"இலகுரக பயன்முறை, முழுமையானதாக இல்லாவிட்டாலும், உங்கள் கோப்புகளில் அழிவுகரமான "
+"மாற்றங்களைச் செய்யாது."
