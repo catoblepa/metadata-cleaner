@@ -3,18 +3,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-10-07 12:33+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metatiedot ja tietosuoja"
 
 #. (itstool) path: section/p
 #: C/general.page:15
@@ -29,7 +32,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Esimerkki kuvatiedoston metatiedoista"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
@@ -39,7 +42,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Siivoustoimenpide"
 
 #. (itstool) path: section/p
 #: C/general.page:28
@@ -54,7 +57,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Rajoitukset"
 
 #. (itstool) path: section/p
 #: C/general.page:36
@@ -75,7 +78,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General information"
-msgstr ""
+msgstr "Yleistä tietoa"
 
 #. (itstool) path: section/title
 #: C/index.page:21
@@ -85,7 +88,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Tiedostojen lisääminen"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
@@ -105,7 +108,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:26
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Metatietojen katselu"
 
 #. (itstool) path: section/p
 #: C/usage.page:27
@@ -120,7 +123,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:37
 msgid "Cleaning files"
-msgstr ""
+msgstr "Tiedostojen siivoaminen"
 
 #. (itstool) path: section/p
 #: C/usage.page:38
@@ -135,7 +138,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/usage.page:48
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Kevyt siivoaminen"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
