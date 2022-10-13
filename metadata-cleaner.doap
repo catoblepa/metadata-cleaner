@@ -17,6 +17,10 @@
 		</GitRepository>
 	</repository>
 
+	<programming-language>Python</programming-language>
+	<platform>GTK 4</platform>
+	<platform>Libadwaita</platform>
+
 	<maintainer>
 		<foaf:Person>
 			<foaf:name>Romain Vigier</foaf:name>
