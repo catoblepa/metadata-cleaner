@@ -28,7 +28,7 @@
 			<foaf:mbox_sha1sum>5c53ca9b23b6db4803772c8ea03080d4284fe52b</foaf:mbox_sha1sum>
 			<foaf:account>
 				<foaf:OnlineAccount>
-					<foaf:accountServiceHomepage rdf:resource="https://gitlab.gnome.org"/>
+					<foaf:accountServiceHomepage rdf:resource="https://gitlab.com"/>
 					<foaf:accountName>rmnvgr</foaf:accountName>
 				</foaf:OnlineAccount>
 			</foaf:account>
