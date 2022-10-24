@@ -2,17 +2,17 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # GM <muziejusinfo@gmail.com>, 2021.
-# Gediminas Murauskas <muziejusinfo@gmail.com>, 2021.
+# Gediminas Murauskas <muziejusinfo@gmail.com>, 2021, 2022.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: 2021-11-10 17:20+0000\n"
-"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
-"Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/lt/>\n"
+"PO-Revision-Date: 2022-10-25 10:02+0000\n"
+"Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
+"Language-Team: Lithuanian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 4.9.1-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -102,16 +102,12 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
-#, fuzzy
-#| msgid "New translations"
 msgid "Updated translations"
-msgstr "Nauji vertimai"
+msgstr "Atnaujinti vertimai"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
-#, fuzzy
-#| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
-msgstr "Patobulinta adaptyvi vartotojo sąsaja"
+msgstr "Patobulinta vartotojo sąsaja"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
@@ -203,7 +199,7 @@ msgstr "Pagalba"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
-msgstr ""
+msgstr "Apie"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
@@ -223,7 +219,7 @@ msgstr "Paremkite mus Liberapay"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr ""
+msgstr "Padėkos"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
@@ -298,10 +294,8 @@ msgid "Clean Your Traces"
 msgstr "Išvalyk savo pėdsakus"
 
 #: application/data/ui/EmptyView.ui:39
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "Sužinokite daugiau apie metaduomenis ir valymo proceso apribojimus."
+msgstr "Sužinokite daugiau apie metaduomenis ir valymo proceso apribojimus"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -341,7 +335,7 @@ msgstr "_Apie Metaduomenų Valytoją"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "Pagrindinis meniu"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -381,60 +375,44 @@ msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Valymo metu įvyko kažkas nepavyko, išvalytas failas nerastas"
 
 #: application/metadatacleaner/ui/detailsview.py:58
-#, fuzzy
-#| msgid "The file has been cleaned."
 msgid "The File Has Been Cleaned"
-msgstr "Šis failas buvo išvalytas."
+msgstr "Šis failas buvo išvalytas"
 
 #: application/metadatacleaner/ui/detailsview.py:60
-#, fuzzy
-#| msgid "Learn more about metadata and the cleaning process limitations."
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "Sužinokite daugiau apie metaduomenis ir valymo proceso apribojimus."
+msgstr ""
+"Žinomi metaduomenys buvo pašalinti, tačiau valymo procesas turi tam tikrų "
+"apribojimų."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Sužinoti daugiau"
 
 #: application/metadatacleaner/ui/detailsview.py:76
-#, fuzzy
-#| msgid "Unable to read the file."
 msgid "Unable to Read the File"
-msgstr "Neįmanoma nuskaityti failo."
+msgstr "Neįmanoma nuskaityti failo"
 
 #: application/metadatacleaner/ui/detailsview.py:77
-#, fuzzy
-#| msgid "File type not supported."
 msgid "File Type not Supported"
-msgstr "Failo tipas nepalaikomas."
+msgstr "Failo tipas nepalaikomas"
 
 #: application/metadatacleaner/ui/detailsview.py:79
-#, fuzzy
-#| msgid "Unable to check metadata."
 msgid "Unable to Check for Metadata"
-msgstr "Neįmanoma patikrinti metaduomenų."
+msgstr "Neįmanoma patikrinti metaduomenų"
 
 #: application/metadatacleaner/ui/detailsview.py:80
-#, fuzzy
-#| msgid "Metadata"
 msgid "No Known Metadata"
-msgstr "Metaduomenys"
+msgstr "Nėra žinomų metaduomenų"
 
 #: application/metadatacleaner/ui/detailsview.py:82
-#, fuzzy
-#| msgid "Unable to remove metadata."
 msgid "Unable to Remove Metadata"
-msgstr "Nepavyko pašalinti metaduomenų."
+msgstr "Nepavyko pašalinti metaduomenų"
 
 #: application/metadatacleaner/ui/detailsview.py:86
-#, fuzzy
-#| msgid "No known metadata, the file will be cleaned to be sure."
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
-"Metaduomenys nežinomi, kad įsitikintumėte, failas dėl visa ko bus vis tiek "
-"išvalytas."
+msgstr "Failas vis tiek bus išvalytas, kad būtumėte tikri."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
