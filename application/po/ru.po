@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # BigmenPixel <bigmen.pixel@tuta.io>, 2021.
 # Sasha <maxminer88@gmail.com>, 2022.
+# Войнов Артем Романович <voynovar@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: 2022-04-05 10:09+0000\n"
-"Last-Translator: Sasha <maxminer88@gmail.com>\n"
+"PO-Revision-Date: 2022-11-19 15:48+0000\n"
+"Last-Translator: Войнов Артем Романович <voynovar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ru/>\n"
 "Language: ru\n"
@@ -18,39 +19,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "Очистка Метаданных"
+msgstr "Очистка метаданных"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr "Удалите метаданные из ваших файлов"
+msgstr "Очистите метаданные ваших файлов"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr "Метаданные;Средство для удаления;Очиститель;"
+msgstr "Метаданные;Удаление;Очистка;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr "Удалить без предупреждения"
+msgstr "Очистить без предупреждения"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr "Удалить файлы без диалогового окна с предупреждением"
+msgstr "Очистить файлы, не показывая диалоговое окно с предупреждением"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
-msgstr "Легкое удаление"
+msgstr "Лёгкая очистка"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
 msgstr ""
+"Не вносит деструктивные изменения в файлы, но может оставить некоторые "
+"метаданные"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
@@ -80,7 +83,7 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Метаданные файла могут раскрыть много данных о вас. Камеры записывают когда "
+"Метаданные файла могут раскрыть много данных о Вас. Камеры записывают когда "
 "и где была заснята фотография и какой камерой. Офисные пакеты автоматически "
 "пишут автора и компанию в документы и презентации. Это личная информация и "
 "вы можете не хотеть её раскрывать."
@@ -97,14 +100,10 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
-#, fuzzy
-#| msgid "New translations"
 msgid "Updated translations"
-msgstr "Обновлённые переводы"
+msgstr "Обновлённые перевод"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
-#, fuzzy
-#| msgid "Improved adaptive user interface"
 msgid "Improved user interface"
 msgstr "Улучшен пользовательский интерфейс"
 
@@ -126,7 +125,7 @@ msgstr "Новые переводы"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
 msgid "Bug fixes"
-msgstr "Исправление багов"
+msgstr "Исправление ошибок"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:144
 msgid "New button to add folders"
@@ -134,25 +133,23 @@ msgstr "Новая кнопка для добавления папок"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:161
 msgid "Improved adaptive user interface"
-msgstr "Улучшена адаптивность"
+msgstr "Пользовательский интерфейс стал более адаптивным"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
 msgid "New help pages"
-msgstr "Новые страницы помощи"
+msgstr "Новые страницы справки"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:163
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Очистка в один клик, не надо сохранять после операции"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
-#, fuzzy
-#| msgid "Lightweight cleaning"
 msgid "Persistent lightweight cleaning option"
-msgstr "Легкое удаление"
+msgstr "Лёгкий вариант очистки"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
 msgid "Files with uppercase extension can now be added"
-msgstr "Теперь файлы с заглавным именем расширения могут быть импортированы"
+msgstr "Теперь можно добавлять файлы с расширением в верхнем регистре"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -200,15 +197,15 @@ msgstr "Помощь"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
-msgstr ""
+msgstr "О приложении"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
-msgstr "Комната Matrix"
+msgstr "Чат в Matrix"
 
 #: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
-msgstr "Код на GitLab"
+msgstr "Просмотрите код на GitLab"
 
 #: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
@@ -220,7 +217,7 @@ msgstr "Поддержать на Liberapay"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr ""
+msgstr "Кредиты"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
@@ -253,10 +250,10 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
-"Исходный код этой программы распространяется под лицензией <a href=\"https://"
-"www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. Оригинальная "
-"графика и переводы рапространяются под лицензией <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
+"Исходный код этой программы распространяется под лицензией <a href=\"https"
+"://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. "
+"Оригинальная графика и переводы распространяются под лицензией <a href="
+"\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
@@ -272,15 +269,15 @@ msgstr "_Очистить"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr "Убедитесь что вы сделали резервные копии файлов!"
+msgstr "Убедитесь, что вы создали резервные копии своих файлов!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr "После очистки, возможности восстановления не будет."
+msgstr "Как только файлы будут очищены, пути назад уже не будет."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr "Не напоминать"
+msgstr "Не говори мне больше"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
@@ -296,7 +293,7 @@ msgstr "Очисти свои следы"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "Изучите больше про метаданные и процесс очистки"
+msgstr "Узнайте больше о метаданных и ограничениях процесса очистки"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
@@ -332,7 +329,7 @@ msgstr "_Горячие клавиши"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "_Об Очистка Метаданных"
+msgstr "_О Metadata Cleaner"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
@@ -344,11 +341,11 @@ msgstr "Параметры очистки"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr "Легкая очистка"
+msgstr "Лёгкая очистка"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr "Изучить больше про лёгкую очистку"
+msgstr "Узнайте больше о лёгкой очистке"
 
 #: application/data/ui/Window.ui:78
 msgid "Details"
@@ -361,29 +358,31 @@ msgstr "Закрыть"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
 msgid "translator-credits"
-msgstr "Nesterenko"
+msgstr "переводчик-кредиты"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
-msgstr "Выбрать файлы для очистки"
+msgstr "Выберите файлы для очистки"
 
 #: application/data/ui/Window.ui:123
 msgid "Choose folders to clean"
-msgstr "Выбрать папки для очистки"
+msgstr "Выберите папки для очистки"
 
 #: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr "Произошло что-то плохое, очищенный файл не найден"
+msgstr "Что-то плохое произошло во время очистки, очищенный файл не найден"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr "Файл Был Очищен"
+msgstr "Файл был очищен"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "Известные метаданные были очищены, но процесс очистки был неполный."
+msgstr ""
+"Известные метаданные были удалены, однако процесс очистки имеет некоторые "
+"ограничения."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
@@ -391,27 +390,27 @@ msgstr "Узнать больше"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr "Невозможно Прочитать Файл"
+msgstr "Не удается прочитать файл"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr "Расширение Файла не Поддерживается"
+msgstr "Тип файла не поддерживается"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr "Невозможно Проверить Метаданные"
+msgstr "Не удается проверить наличие метаданных"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr "Нет Известных Метаданных"
+msgstr "Неизвестные метаданные отсутствуют"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr "Невозможно Удалить Метаданные"
+msgstr "Не удается удалить метаданные"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr "На всякий случай файл будет очищен."
+msgstr "Файл будет очищен в любом случае, чтобы быть уверенным."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
@@ -427,7 +426,7 @@ msgstr "Добавление файлов…"
 
 #: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
-msgstr "Обработка {}/{}"
+msgstr "Обработка фала {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:40
 msgid "Cleaning file {}/{}"
