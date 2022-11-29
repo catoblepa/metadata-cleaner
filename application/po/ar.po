@@ -7,65 +7,69 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-03 13:24+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-11-30 09:59+0000\n"
+"Last-Translator: Ali Aljishi <ahj696@hotmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/metadata-cleaner/"
+"application/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "مُنظف البيانات الوصفية"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "نظف البيانات الوصفية من ملفاتك"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "بيانات وصفية;مزيل;منظف;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
 msgid "Clean without warning"
-msgstr ""
+msgstr "نظف بلا تحذير"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
 msgid "Clean the files without showing the warning dialog"
-msgstr ""
+msgstr "نظف البيانات الوصفية من الملفات بدون إظهار صندوق حوار التحذير"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "الإزالة الخفيفة"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
 msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
+msgstr "لا تقم بتغييرات قد تدمر الملف، قد يترك هذا بعض البيانات الوصفية"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
 msgid "Window width"
-msgstr ""
+msgstr "عرض النافذة"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
 msgid "Saved width of the window"
-msgstr ""
+msgstr "حُفظ عرض النافذة"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
 msgid "Window height"
-msgstr ""
+msgstr "ارتفاع النافذة"
 
 #: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
 msgid "Saved height of the window"
-msgstr ""
+msgstr "حُفظ ارتفاع النافذة"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "استعرض ونظف البيانات الوصفية من الملفات"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -75,23 +79,29 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"يمكن للبيانات الوصفية داخل الملف أن تبدي معلومات كثيرة عنك. تقوم الكاميرات "
+"بحفظ معلومات أين ومتى صُورت الصورة وأي كاميرا استُخدمت، وتقوم تطبيقات الحزم "
+"المكتبية بإضافة معلومات المؤلف والشركة إلى المستندات وجداول البيانات، هذه "
+"بيانات حساسة وقد لا تريد مشاركتها."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
+"تتيح لك هذه الأداة أن تستعرض بيانات التعريف المسجلة في ملفاتك والتخلص منها "
+"قدر الإمكان."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:70
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:78
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:86
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:95
 msgid "Updated translations"
-msgstr ""
+msgstr "الترجمات محدثة"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:94
 msgid "Improved user interface"
-msgstr ""
+msgstr "حُسنت واجهة المستخدم"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:103
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:111
@@ -107,125 +117,127 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
 msgid "New translations"
-msgstr ""
+msgstr "ترجمات جديدة"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:135
 msgid "Bug fixes"
-msgstr ""
+msgstr "إصلاحات أخطاء"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:144
 msgid "New button to add folders"
-msgstr ""
+msgstr "زر جديد لإضافة المجلدات"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:161
 msgid "Improved adaptive user interface"
-msgstr ""
+msgstr "حُسنت واجهة المستخدم التفاعلية"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
 msgid "New help pages"
-msgstr ""
+msgstr "صفحات مساعدة جديدة"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:163
 msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
+msgstr "إزالة بزر واحد، لا حاجة للحفظ بعد الإزالة"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:164
 msgid "Persistent lightweight cleaning option"
-msgstr ""
+msgstr "خيار التنظيف الخفيف المستمر"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
 msgid "Files with uppercase extension can now be added"
-msgstr ""
+msgstr "يمكن الآن إضافة الملفات ذات الامتدادات كبيرة الحروف"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "الملفات"
 
 #: application/data/gtk/help-overlay.ui:18
 msgid "Add files"
-msgstr ""
+msgstr "أضف ملفات"
 
 #: application/data/gtk/help-overlay.ui:24
 msgid "Add folders"
-msgstr ""
+msgstr "أضف مجلدات"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr ""
+msgstr "نظف البيانات الوصفية"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr ""
+msgstr "امسح كل الملفات من النافذة"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr ""
+msgstr "عام"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr ""
+msgstr "نافذة جديدة"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr ""
+msgstr "أغلق النافذة"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr ""
+msgstr "أنهِ"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "اختصارات لوحة المفاتيح"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr ""
+msgstr "المساعدة"
 
 #: application/data/ui/AboutDialog.ui:38
 msgid "About"
-msgstr ""
+msgstr "حول"
 
 #: application/data/ui/AboutDialog.ui:97
 msgid "Chat on Matrix"
-msgstr ""
+msgstr "دردش في ماتركس"
 
 #: application/data/ui/AboutDialog.ui:107
 msgid "View the code on GitLab"
-msgstr ""
+msgstr "استعرض الكود في GitLab"
 
 #: application/data/ui/AboutDialog.ui:117
 msgid "Translate on Weblate"
-msgstr ""
+msgstr "ترجم في Weblate"
 
 #: application/data/ui/AboutDialog.ui:127
 msgid "Support us on Liberapay"
-msgstr ""
+msgstr "ادعمنا عن طريق Liberapay"
 
 #: application/data/ui/AboutDialog.ui:148
 msgid "Credits"
-msgstr ""
+msgstr "الإشادات"
 
 #: application/data/ui/AboutDialog.ui:170
 msgid "Code"
-msgstr ""
+msgstr "الكود"
 
 #: application/data/ui/AboutDialog.ui:176
 msgid "Artwork"
-msgstr ""
+msgstr "العمل الفني"
 
 #: application/data/ui/AboutDialog.ui:182
 msgid "Documentation"
-msgstr ""
+msgstr "التوثيق"
 
 #: application/data/ui/AboutDialog.ui:188
 msgid "Translation"
-msgstr ""
+msgstr "الترجمة"
 
 #: application/data/ui/AboutDialog.ui:193
 msgid ""
 "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 "parse and clean the metadata. Show them some love!"
 msgstr ""
+"يستعمل هذا البرنامج <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
+"للتحليل وإزالة البيانات الوصفية. أظهر بعض الحب لهم!"
 
 #: application/data/ui/AboutDialog.ui:206
 msgid ""
@@ -234,178 +246,182 @@ msgid ""
 "original artwork and translations are released under the terms of the <a "
 "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 msgstr ""
+"ينشر الكود المصدري هذه البرنامج بموجب شروط <a href=\"https://www.gnu.org/"
+"licenses/gpl-3.0.html\"> قنو جي.بي.إل 3.0 أو أحدث</a>. تٌنشر الأعمال الفنية "
+"الأصلية والترجمات بموجب شروط <a href=\"https://creativecommons.org/licenses/"
+"by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #: application/data/ui/AddFilesButton.ui:16
 msgid "_Add Files"
-msgstr ""
+msgstr "_أضف ملفات"
 
 #: application/data/ui/AddFilesButton.ui:29
 msgid "Add _Folders"
-msgstr ""
+msgstr "أضف _مجلدات"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_نظف"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "تأكد من أنك قمت بالنسخ الاحتياطي لملفاتك!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "لا يمكن التراجع عن إزالة البيانات الوصفية من الملفات."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "لا تخبرني مرة أخرى"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 msgid "Cancel"
-msgstr ""
+msgstr "ألغِ"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "نظف"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr ""
+msgstr "نظف آثارك"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr ""
+msgstr "تعرف على المزيد حول البيانات الوصفية وقيود عملية الإزالة"
 
 #: application/data/ui/FileRow.ui:12
 msgid "Remove file from list"
-msgstr ""
+msgstr "ازل ملفاً من القائمة"
 
 #: application/data/ui/FileRow.ui:124
 msgid "Warning"
-msgstr ""
+msgstr "تحذير"
 
 #: application/data/ui/FileRow.ui:142
 msgid "Error"
-msgstr ""
+msgstr "خطأ"
 
 #: application/data/ui/FileRow.ui:182
 msgid "Cleaned"
-msgstr ""
+msgstr "مُنظف"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr ""
+msgstr "_نافذة جديدة"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr ""
+msgstr "_محو النافذة"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_المساعدة"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_اختصارات لوحة المفاتيح"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_حول منظف البيانات الوصفية"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main menu"
-msgstr ""
+msgstr "القائمة الرئيسية"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "إعدادات التنظيف"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr ""
+msgstr "التنظيف الخفيف"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "تعرف على المزيد حول التنظيف الخفيف"
 
 #: application/data/ui/Window.ui:78
 msgid "Details"
-msgstr ""
+msgstr "التفاصيل"
 
 #: application/data/ui/Window.ui:84
 msgid "Close"
-msgstr ""
+msgstr "أغلق"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:104
 msgid "translator-credits"
-msgstr ""
+msgstr "Ali Aljishi <ahj696@hotmail.com>"
 
 #: application/data/ui/Window.ui:113
 msgid "Choose files to clean"
-msgstr ""
+msgstr "اختر الملفات التي تريد تنظيفها"
 
 #: application/data/ui/Window.ui:123
 msgid "Choose folders to clean"
-msgstr ""
+msgstr "اختر المجلدات التي تريد تنظيفها"
 
 #: application/metadatacleaner/modules/file.py:254
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
+msgstr "حصل خطأ أثناء عملية التنظيف، لم يُعثر على الملف المنظف"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr ""
+msgstr "نُظف الملف"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr ""
+msgstr "أزيلت البيانات الوصفية المعروفة، تنبه لأن عملية التنظيف لها بعض القيود."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "تعرف على المزيد"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr ""
+msgstr "تعذرت قراءة الملف"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr ""
+msgstr "نوع الملف غير مدعوم"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr ""
+msgstr "تعذر البحث عن البيانات الوصفية"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "لا توجد بيانات وصفية معروفة"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr ""
+msgstr "تعذرت إزالة البيانات الوصفية"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
+msgstr "سيتم تنظيف الملف على أي حال."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "جميع الملفات المدعومة"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "أضف ملفات من مجلدات فرعية"
 
 #: application/metadatacleaner/ui/statusindicator.py:36
 msgid "Adding files…"
-msgstr ""
+msgstr "تتم إضافة الملفات…"
 
 #: application/metadatacleaner/ui/statusindicator.py:38
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "تتم معالجة الملف {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:40
 msgid "Cleaning file {}/{}"
-msgstr ""
+msgstr "تنظيف الملف {}/{}"
