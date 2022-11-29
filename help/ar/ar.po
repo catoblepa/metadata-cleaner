@@ -1,147 +1,188 @@
+# Ali Aljishi <ahj696@hotmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2021-10-24 23:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-11-30 10:02+0000\n"
+"Last-Translator: Ali Aljishi <ahj696@hotmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #. (itstool) path: section/title
 #: C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "البيانات الوصفية والخصوصية"
 
 #. (itstool) path: section/p
 #: C/general.page:15
 msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
 msgstr ""
+"تتكون البيانات الوصفية من معلومات تميز بياناتها، تُستخدم البيانات الوصفية "
+"لتوثيق لمنتجات البيانات، توفر البيانات الوصفية معلومات من وماذا ومتى وأين "
+"ولماذا وكيف عن كل جانب يُوثق من البيانات."
 
 #. (itstool) path: section/p
 #: C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
+"يمكن للبيانات الوصفية داخل الملف أن تبدي معلومات كثيرة عنك. تقوم الكاميرات "
+"بحفظ معلومات أين ومتى صُورت الصورة وأي كاميرا استُخدمت، وتقوم تطبيقات الحزم "
+"المكتبية بإضافة معلومات المؤلف والشركة إلى المستندات وجداول البيانات، هذه "
+"بيانات حساسة وقد لا تريد مشاركتها."
 
 #. (itstool) path: figure/title
 #: C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "مثال على البيانات الوصفية في ملف صورة"
 
 #. (itstool) path: figure/desc
 #: C/general.page:20
 msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"يوفر الملف بيانات حول العتاد والإعدادات والتاريخ وموقع الالتقاط، لديه "
+"بالمجمل 79 نقطة بيانات وصفية."
 
 #. (itstool) path: section/title
 #: C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "عملية التنظيف"
 
 #. (itstool) path: section/p
 #: C/general.page:28
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"على الرغم من أن <app>منظف البيانات الوصفية</app> يقوم بأقصى ما يستطيع لعرض "
+"البيانات الوصفية إلا أن هذا لا يعني أن الملف خاوٍ منها إن لم يعرض أياً منها، "
+"لا توجد طريقة موثوقة لعرض كل البيانات الوصفية لبعض تنسيقات المعقدة للملفات، "
+"لهذا لا يجب عليك أن تعتمد على وجود البيانات الوصفية لتقرر ما إن كان ملفك "
+"نظيفاً أم لا."
 
 #. (itstool) path: section/p
 #: C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"يقوم <app>منظف البيانات الوصفية</app> بنسخ محتويات الملف إلى ملف جديد بلا "
+"بيانات وصفية مما يضمن أن لا يحتوي الملف الجديد على أي بيانات وصفية لم تُكتشف."
 
 #. (itstool) path: section/title
 #: C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "القيود"
 
 #. (itstool) path: section/p
 #: C/general.page:36
 msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"اعلم بأن البيانات الوصفية ليست الطريقة الوحيدة لتمييز ملف. إذا كان محتوى "
+"الملف يحتوي على بيانات شخصية أو وُضعت عليه علامة مائية - عادة عن طريق "
+"التورية - لن يستطيع <app>منظف البيانات الوصفية</app> حمايتك."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
 #: C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "مُنظف البيانات الوصفية"
 
 #. (itstool) path: page/p
 #: C/index.page:14
 msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
 msgstr ""
+"يتيح لك<app>مُنظف البيانات الوصفية</app> عرض البيانات الوصفية والتخلص منها "
+"بقدر الإمكان."
 
 #. (itstool) path: section/title
 #: C/index.page:17
 msgid "General information"
-msgstr ""
+msgstr "معلومات عامة"
 
 #. (itstool) path: section/title
 #: C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "استخدام <app>منظف البيانات الوصفية</app>"
 
 #. (itstool) path: section/title
 #: C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "إضافة الملفات"
 
 #. (itstool) path: section/p
 #: C/usage.page:15
 msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
 msgstr ""
+"لإضافة الملفات، اضغط على زر <gui style=\"button\">أضف ملفات</gui>. ستظهر "
+"نافذة اختيار الملفات، عندها اختر الملفات التي تريد تنظيفها."
 
 #. (itstool) path: figure/title
 #: C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "زر <gui style=\"button\">أضف ملفات</gui>"
 
 #. (itstool) path: section/p
 #: C/usage.page:20
 msgid "To add whole folders at once, press the arrow next to the <gui style=\"button\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</gui> button. A file chooser will open, select the folders you want to add. You can optionally choose to also add all files from all subfolders by checking the <gui style=\"checkbox\">Add files from subfolders</gui> checkbox."
 msgstr ""
+"لإضافة مجلدات بأكملها، اضغط على السهم بالقرب من زر <gui style=\"button\">أضف "
+"ملفات</gui> واضغط على زر <gui style=\"button\">أضف مجلدات</gui>. ستظهر نافذة "
+"اختيار الملفات، اختر المجلدات التي تريد إضافتها. تستطيع أيضا أن تضيف كل "
+"الملفات الموجود في المجلدات الفرعية عن طريق تعليم صندوق <gui style=\"checkbox"
+"\">أضف الملفات من المجلدات الفرعية</gui>."
 
 #. (itstool) path: section/title
 #: C/usage.page:26
 msgid "Viewing metadata"
-msgstr ""
+msgstr "عرض البيانات الوصفية"
 
 #. (itstool) path: section/p
 #: C/usage.page:27
 msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
 msgstr ""
+"اضغط على ملف من القائمة لعرض البيانات التفصيلية. ستظهر البيانات الوصفية "
+"للملف هنا إذا كانت موجودة."
 
 #. (itstool) path: figure/title
 #: C/usage.page:29
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "عرض مفصل للبيانات الوصفية"
 
 #. (itstool) path: section/title
 #: C/usage.page:37
 msgid "Cleaning files"
-msgstr ""
+msgstr "تنظيف الملفات"
 
 #. (itstool) path: section/p
 #: C/usage.page:38
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"لتنظيف كافة الملفات الموجودة في النافذة، اضغط على الزر <gui style=\"button\""
+">نظف</gui>. قد تستغرق عملية التنظيف بعض الوقت."
 
 #. (itstool) path: figure/title
 #: C/usage.page:40
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "زر <gui style=\"button\">نظف</gui>"
 
 #. (itstool) path: section/title
 #: C/usage.page:48
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "الإزالة الخفيفة"
 
 #. (itstool) path: section/p
 #: C/usage.page:49
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"بشكل افتراضي، قد تؤدي عملية الإزالة إلى تغيير بعض بيانات ملفاتك لأجل إزالة "
+"أكبر قدر ممكن من البيانات الوصفية. على سبيل المثال، قد لا تكون النصوص في "
+"تنسيق PDF قابلة للتحديد بعد الآن، وقد يتم ضغط الصور المضغوطة مرة أخرى…"
 
 #. (itstool) path: section/p
 #: C/usage.page:50
 msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
 msgstr ""
+"لن يقوم وضع التنظيف الخفيف بإحداث تغييرات مدمرة لملفاتك، ولكنه ليس شاملاً."
