@@ -97,10 +97,10 @@ SPDX-License-Identifier: GPL-3.0-or-later
   </template>
   <object class="AboutDialog" id="_about_dialog">
     <property name="modal">True</property>
-    <property name="authors">Romain Vigier</property>
-    <property name="artists">Romain Vigier
+    <property name="authors">Romain Vigier https://www.romainvigier.fr</property>
+    <property name="artists">Romain Vigier https://www.romainvigier.fr
 GNOME Design Team https://gitlab.gnome.org/Teams/Design</property>
-    <property name="documenters">Romain Vigier</property>
+    <property name="documenters">Romain Vigier https://www.romainvigier.fr</property>
     <property name="copyright">© 2020-2022 Romain Vigier</property>
     <property name="translator-credits" translatable="yes" comments="Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name &lt;mail@example.org&gt;`). If names are already present, do not remove them and add yours on a new line.">translator-credits</property>
     <binding name="transient-for">
