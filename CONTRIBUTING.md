@@ -17,12 +17,6 @@ The help pages are written in [Mallard](http://projectmallard.org/index.html) an
 
 The source of the help is in the `./help` directory. Only edit files in the `C` subdirectory, other subdirectoies are automatically generated. If you create new pages, add their path to the `./help/meson.build` file.
 
-If you add or modify text, make your modifications available to translation by updating the POT file with this command:
-
-```bash
-meson compile -C builddir help-fr.romainvigier.MetadataCleaner-pot
-```
-
 ## Translations
 
 The project uses Weblate to manage translations. Head over [Metadata Cleaner's project page](https://hosted.weblate.org/projects/metadata-cleaner/) to start translating the application. If you need help, check out [Weblate's user documentation](https://docs.weblate.org/en/latest/user/translating.html).
@@ -50,13 +44,6 @@ meson test -C builddir
 ### New files
 
 If you add new UI or Python files, add their path to the `./application/po/POTFILES` file. Add the UI files path to `./application/data/fr.romainvigier.MetadataCleaner.gresource.xml` and the Python files path to `./application/metadatacleaner/meson.build`.
-
-### Localizable strings
-
-If you add or modify strings, make your modifications available to translation by updating the POT file with this command:
-
-```bash
-meson compile -C builddir fr.romainvigier.MetadataCleaner-pot
 ```
 
 

@@ -237,6 +237,40 @@ screenshots:
       fi
     - git push origin HEAD:main
 
+translations:
+  image: freedesktopsdk/sdk:22.08
+  stage: tasks
+  needs:
+    - job: reuse
+      artifacts: false
+      optional: true
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      changes:
+        - application/**/*.py
+        - application/data/**/*.desktop
+        - application/data/**/*.ui
+        - application/data/**/*.gschema.xml
+        - application/data/**/*.metainfo.xml
+        - application/po/POTFILES
+        - help/C/**/*.page
+  before_script:
+    - git config --global user.email "no-contact@romainvigier.fr"
+    - git config --global user.name "Translation Bot"
+    - git remote set-url origin "https://ci-access-token:${CI_GITLAB_ACCESS_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+  script:
+    - meson builddir
+    - meson compile -C builddir ${APP_ID}-pot
+    - meson compile -C builddir help-${APP_ID}-pot
+  after_script:
+    - git status
+    - |
+      if [[ -n $(git status --porcelain) ]]; then
+        git add .
+        git commit -m "Translations: Update translation files"
+      fi
+    - git push -o ci.skip origin HEAD:main
+
 pages:
   stage: deploy
   needs:
