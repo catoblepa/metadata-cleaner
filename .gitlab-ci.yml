@@ -16,6 +16,7 @@ stages:
   - check
   - build
   - bundle
+  - tasks
   - deploy
 
 .python:
@@ -201,7 +202,7 @@ release:
           link_type: package
 
 screenshots:
-  stage: deploy
+  stage: tasks
   needs:
     - reuse
   image: registry.gitlab.com/rmnvgr/metadata-cleaner/screenshot-env:latest
