@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 app-id: fr.romainvigier.MetadataCleaner
-default-branch: main
+default-branch: develop
 runtime: org.gnome.Platform
 runtime-version: '43'
 sdk: org.gnome.Sdk
