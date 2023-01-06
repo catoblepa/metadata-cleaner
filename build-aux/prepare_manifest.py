@@ -3,7 +3,7 @@
 # SPDX-FileCopyrightText: 2021 Romain Vigier <contact AT romainvigier.fr>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-"""Prepare a release build."""
+"""Prepare the Flatpak manifest for a release build."""
 
 import yaml
 
