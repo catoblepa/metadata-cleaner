@@ -1,7 +1,7 @@
 # Swedish translation for the fr.romainvigier.MetadataCleaner packet.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021, 2022.
+# Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021, 2022, 2023.
 # Allan Nordhøy <epost@anotheragency.no>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-06 00:43+0000\n"
-"PO-Revision-Date: 2022-07-04 15:51+0000\n"
+"PO-Revision-Date: 2023-01-06 09:44+0000\n"
 "Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/sv/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -361,9 +361,7 @@ msgstr "Stäng"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:105
 msgid "translator-credits"
-msgstr ""
-"Åke Engelbrektson\n"
-"Allan Nordhøy <epost@anotheragency.no>"
+msgstr "Åke Engelbrektson <eson@svenskasprakfiler.se>"
 
 #: application/data/ui/Window.ui:114
 msgid "Choose files to clean"
@@ -375,7 +373,7 @@ msgstr "Välj mappar att rensa"
 
 #: application/metadatacleaner/modules/file.py:243
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "Ett fel uppstod vid rensningen."
 
 #: application/metadatacleaner/modules/file.py:246
 msgid "Something bad happened during the cleaning, cleaned file not found"
