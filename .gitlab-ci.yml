@@ -225,7 +225,9 @@ screenshots:
   stage: tasks
   needs:
     - reuse
-  image: registry.gitlab.com/rmnvgr/metadata-cleaner/screenshot-env:latest
+  image:
+    name: registry.gitlab.com/rmnvgr/uishooter:latest
+    entrypoint: [""]
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
       changes:
@@ -233,6 +235,7 @@ screenshots:
       - help/LINGUAS
       - screenshots/**/*
   before_script:
+    - dnf install --setopt=install_weak_deps=False --nodocs -y git
     - git config --global user.email "no-contact@romainvigier.fr"
     - git config --global user.name "Screenshot Bot"
     - git remote set-url origin "https://screenshot-bot:${CI_GITLAB_ACCESS_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
