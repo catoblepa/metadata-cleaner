@@ -122,7 +122,9 @@ def start_weston(
     if socket:
         args.append(f"--socket={socket}")
     return subprocess.Popen(
-        ["weston", "--backend=headless-backend.so"] + args)
+        ["weston", "--backend=headless-backend.so"] + args,
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL)
 
 
 def run_uishooter(
