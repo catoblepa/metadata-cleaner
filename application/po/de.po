@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Automatically generated, 2020.
 # lux <lux@systemli.org>, 2020.
-# Romain Vigier <romain@romainvigier.fr>, 2021.
+# Romain Vigier <romain@romainvigier.fr>, 2021, 2023.
 # Milo Ivir <mail@milotype.de>, 2021.
 # eladyn <f+weblate@piored.de>, 2021.
 # Cgrieger <translate@cgrieger.org>, 2022.
@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-06 00:43+0000\n"
-"PO-Revision-Date: 2022-12-24 07:07+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2023-01-07 09:45+0000\n"
+"Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/de/>\n"
 "Language: de\n"
@@ -399,8 +399,8 @@ msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
-"Bekannte Metadaten wurden entfernt. Einzelne Daten wurden eventuell nicht "
-"entfernt."
+"Bekannte Metadaten wurden entfernt, der Bereinigungsprozess hat jedoch "
+"einige Einschränkungen."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
@@ -412,7 +412,7 @@ msgstr "Die Datei kann nicht gelesen werden"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr "Dateityp wird nicht unterstützt"
+msgstr "Dateityp nicht unterstützt"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
@@ -420,7 +420,7 @@ msgstr "Metadaten können nicht überprüft werden"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr "Metadaten unbekannt"
+msgstr "Keine bekannten Metadaten"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
@@ -428,7 +428,7 @@ msgstr "Metadaten können nicht entfernt werden"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr "Die Datei wird zur Sicherheit dennoch bereinigt."
+msgstr "Die Datei wird zur Sicherheit trotzdem bereinigt."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
