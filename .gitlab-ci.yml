@@ -289,10 +289,7 @@ pages:
       artifacts: true
   image: debian:stable-slim
   rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-      changes:
-      - resources/screenshots/**/*
-      - website/**/*
+    - if: $CI_COMMIT_TAG
   before_script:
     - apt update
     - apt install --no-install-recommends -y gzip brotli
