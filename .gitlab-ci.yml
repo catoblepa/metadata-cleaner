@@ -320,12 +320,6 @@ push:
   image: bitnami/git:latest
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-      changes:
-        - $APP_POT
-        - $HELP_POT
-        - help/**/*.png
-        - resources/**/*.png
-        - website/**/*.png
   before_script:
     - git config --global user.email $CI_BOT_EMAIL
     - git config --global user.name $CI_BOT_USERNAME
