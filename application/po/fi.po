@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 02:04+0000\n"
+"POT-Creation-Date: 2023-01-09 16:29+0000\n"
 "PO-Revision-Date: 2022-10-07 12:33+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -105,56 +105,57 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 msgid "Updated translations"
 msgstr "Päivitetyt kielikäännökset"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
 msgid "Improved user interface"
 msgstr "Paranneltu käyttöliittymä"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:167
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:193
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:192
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:209
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:228
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:236
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:267
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:244
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:255
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:266
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:275
 msgid "New translations"
 msgstr "Uudet käännökset"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:191
 msgid "Bug fixes"
 msgstr "Korjatut viat"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:192
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:200
 msgid "New button to add folders"
 msgstr "Uusi painike kansioiden lisäämiseksi"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:209
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:217
 msgid "Improved adaptive user interface"
 msgstr "Paranneltu mukautuva käyttöliittymä"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:218
 msgid "New help pages"
 msgstr "Uudet ohjesivut"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr ""
 "Siivousta kertanapsautuksella, ei tarvetta tallentaa siivouksen jälkeen"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
 msgid "Persistent lightweight cleaning option"
 msgstr "Pienimuotoisen siivouksen tila"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:267
 msgid "Files with uppercase extension can now be added"
 msgstr "Tiedostoja, joiden tiedostopääte on isoin kirjaimin, voi nyt lisätä"
 

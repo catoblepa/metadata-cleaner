@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 02:04+0000\n"
+"POT-Creation-Date: 2023-01-09 16:29+0000\n"
 "PO-Revision-Date: 2022-11-29 12:12+0000\n"
 "Last-Translator: Войнов Артем Романович <voynovar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -105,55 +105,56 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:118
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:126
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:134
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:143
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 msgid "Updated translations"
 msgstr "Обновлённые перевод"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:142
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:150
 msgid "Improved user interface"
 msgstr "Улучшен пользовательский интерфейс"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:151
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:159
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:167
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:175
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:184
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:193
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:192
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:201
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:209
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:228
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:236
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:267
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:244
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:255
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:266
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:275
 msgid "New translations"
 msgstr "Новые переводы"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:183
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:191
 msgid "Bug fixes"
 msgstr "Исправление ошибок"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:192
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:200
 msgid "New button to add folders"
 msgstr "Новая кнопка для добавления папок"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:209
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:217
 msgid "Improved adaptive user interface"
 msgstr "Пользовательский интерфейс стал более адаптивным"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:210
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:218
 msgid "New help pages"
 msgstr "Новые страницы справки"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:211
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:219
 msgid "One-click cleaning, no need to save after cleaning"
 msgstr "Очистка в один клик, не надо сохранять после операции"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
 msgid "Persistent lightweight cleaning option"
 msgstr "Лёгкий вариант очистки"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:259
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:267
 msgid "Files with uppercase extension can now be added"
 msgstr "Теперь можно добавлять файлы с расширением в верхнем регистре"
 
