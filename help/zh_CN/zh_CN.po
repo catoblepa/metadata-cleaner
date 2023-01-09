@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-08 02:04+0000\n"
+"POT-Creation-Date: 2023-01-09 16:29+0000\n"
 "PO-Revision-Date: 2022-02-11 00:14+0000\n"
 "Last-Translator: poi <erbaotao@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
