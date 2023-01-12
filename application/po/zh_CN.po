@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # poi <erbaotao@outlook.com>, 2022.
 # Eric <alchemillatruth@purelymail.com>, 2022.
-# Ujhhgtg <feyxiexzf@gmail.com>, 2022.
+# Ujhhgtg <feyxiexzf@gmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-09 16:29+0000\n"
-"PO-Revision-Date: 2022-12-17 05:50+0000\n"
+"PO-Revision-Date: 2023-01-13 03:51+0000\n"
 "Last-Translator: Ujhhgtg <feyxiexzf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/zh_Hans/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -371,7 +371,7 @@ msgstr "选择待清理文件夹"
 
 #: application/metadatacleaner/modules/file.py:243
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "在清理过程中发生了一个错误。"
 
 #: application/metadatacleaner/modules/file.py:246
 msgid "Something bad happened during the cleaning, cleaned file not found"
