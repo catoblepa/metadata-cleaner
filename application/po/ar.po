@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Ali Aljishi <ahj696@hotmail.com>, 2022.
+# Ali Aljishi <ahj696@hotmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-09 16:29+0000\n"
-"PO-Revision-Date: 2022-12-07 11:47+0000\n"
+"PO-Revision-Date: 2023-01-14 08:50+0000\n"
 "Last-Translator: Ali Aljishi <ahj696@hotmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ar/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -373,7 +373,7 @@ msgstr "اختر المجلدات التي تريد تنظيفها"
 
 #: application/metadatacleaner/modules/file.py:243
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "حدث خطأ أثناء التنظيف."
 
 #: application/metadatacleaner/modules/file.py:246
 msgid "Something bad happened during the cleaning, cleaned file not found"
