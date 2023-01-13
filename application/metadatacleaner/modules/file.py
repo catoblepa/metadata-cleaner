@@ -146,14 +146,24 @@ class File(GObject.GObject):
         GLib.idle_add(update_state, state)
         self.state = state
 
-    def setup_parser(self) -> None:
-        """Set up the parser for this file."""
+    def check_metadata(self) -> None:
+        """Set up the parser and check the metadata present in the file."""
         try:
             parser, mimetype = parser_factory.get_parser(self.path)
         except Exception as e:
             self._setup_parser_error(e)
         else:
             self._setup_parser_finish(parser, mimetype)
+
+        if self.state != FileState.SUPPORTED:
+            return
+        self._set_state(FileState.CHECKING_METADATA)
+        try:
+            metadata = self._parser.get_meta()
+        except Exception as e:
+            self._check_metadata_error(e)
+        else:
+            self._check_metadata_finish(metadata)
 
     def _setup_parser_error(self, error: Exception) -> None:
         self.error = error
@@ -173,18 +183,6 @@ class File(GObject.GObject):
             self._set_state(FileState.SUPPORTED)
         else:
             self._set_state(FileState.UNSUPPORTED)
-
-    def check_metadata(self) -> None:
-        """Check the metadata present in the file."""
-        if self.state != FileState.SUPPORTED:
-            return
-        self._set_state(FileState.CHECKING_METADATA)
-        try:
-            metadata = self._parser.get_meta()
-        except Exception as e:
-            self._check_metadata_error(e)
-        else:
-            self._check_metadata_finish(metadata)
 
     def _check_metadata_error(self, error: Exception) -> None:
         self.error = error

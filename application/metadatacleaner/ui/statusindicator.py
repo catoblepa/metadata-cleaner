@@ -33,17 +33,13 @@ class StatusIndicator(Gtk.Stack):
         if not self.file_store or not self.file_store.last_action:
             return
         text = {
-            FileStoreAction.ADDING: _("Adding files…"),
             FileStoreAction.CHECKING:
                 _("Processing file {}/{}").format(current, total),
             FileStoreAction.CLEANING:
                 _("Cleaning file {}/{}").format(current, total),
         }
         self._progressbar.set_text(text[self.file_store.last_action])
-        if self.file_store.last_action == FileStoreAction.ADDING:
-            self._progressbar.pulse()
-        else:
-            self._progressbar.set_fraction(current / total)
+        self._progressbar.set_fraction(current / total)
 
     @Gtk.Template.Callback()
     def _on_file_store_changed(
