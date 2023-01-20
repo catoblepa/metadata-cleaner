@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-20 11:04+0000\n"
+"POT-Creation-Date: 2023-01-20 11:41+0000\n"
 "PO-Revision-Date: 2021-11-10 12:47+0000\n"
 "Last-Translator: Victor Mihalache <vmhl.ph@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/metadata-"
@@ -310,19 +310,19 @@ msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
 "Află mai multe despre metadate și despre limitările procesului de curățare."
 
-#: application/data/ui/FileRow.ui:12
+#: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
 msgstr "Elimină fișierul din listă"
 
-#: application/data/ui/FileRow.ui:124
+#: application/data/ui/FileRow.ui:128
 msgid "Warning"
 msgstr "Avertisment"
 
-#: application/data/ui/FileRow.ui:142
+#: application/data/ui/FileRow.ui:146
 msgid "Error"
 msgstr "Eroare"
 
-#: application/data/ui/FileRow.ui:182
+#: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
 msgstr "Curățat"
 

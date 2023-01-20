@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-20 11:04+0000\n"
+"POT-Creation-Date: 2023-01-20 11:41+0000\n"
 "PO-Revision-Date: 2021-07-21 18:34+0000\n"
 "Last-Translator: HelaBasa <R45XvezA@protonmail.ch>\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -300,19 +300,19 @@ msgstr ""
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
 
-#: application/data/ui/FileRow.ui:12
+#: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
 msgstr ""
 
-#: application/data/ui/FileRow.ui:124
+#: application/data/ui/FileRow.ui:128
 msgid "Warning"
 msgstr "අවවාදයයි"
 
-#: application/data/ui/FileRow.ui:142
+#: application/data/ui/FileRow.ui:146
 msgid "Error"
 msgstr "දෝෂයකි"
 
-#: application/data/ui/FileRow.ui:182
+#: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
 msgstr ""
 

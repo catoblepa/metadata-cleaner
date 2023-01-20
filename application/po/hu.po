@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-20 11:04+0000\n"
+"POT-Creation-Date: 2023-01-20 11:41+0000\n"
 "PO-Revision-Date: 2023-01-11 21:50+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/metadata-"
@@ -306,19 +306,19 @@ msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
 "Tudjon meg többet a metaadatokról és a tisztítási folyamat korlátjairól"
 
-#: application/data/ui/FileRow.ui:12
+#: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
 msgstr "Fájl eltávolítása a listáról"
 
-#: application/data/ui/FileRow.ui:124
+#: application/data/ui/FileRow.ui:128
 msgid "Warning"
 msgstr "Figyelmeztetés"
 
-#: application/data/ui/FileRow.ui:142
+#: application/data/ui/FileRow.ui:146
 msgid "Error"
 msgstr "Hiba"
 
-#: application/data/ui/FileRow.ui:182
+#: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
 msgstr "Megtisztítva"
 

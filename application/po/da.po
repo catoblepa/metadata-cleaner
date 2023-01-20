@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-20 11:04+0000\n"
+"POT-Creation-Date: 2023-01-20 11:41+0000\n"
 "PO-Revision-Date: 2021-08-11 16:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -333,22 +333,22 @@ msgstr "Rens dine spor"
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr "Lær mer om metadata og begrensninger i renseprocessen."
 
-#: application/data/ui/FileRow.ui:12
+#: application/data/ui/FileRow.ui:11
 #, fuzzy
 msgid "Remove file from list"
 msgstr "Fjern filen fra listen"
 
-#: application/data/ui/FileRow.ui:124
+#: application/data/ui/FileRow.ui:128
 #, fuzzy
 msgid "Warning"
 msgstr "Advarsel"
 
-#: application/data/ui/FileRow.ui:142
+#: application/data/ui/FileRow.ui:146
 #, fuzzy
 msgid "Error"
 msgstr "Feil"
 
-#: application/data/ui/FileRow.ui:182
+#: application/data/ui/FileRow.ui:186
 #, fuzzy
 msgid "Cleaned"
 msgstr "Renset"

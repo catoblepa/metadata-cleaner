@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-20 11:04+0000\n"
+"POT-Creation-Date: 2023-01-20 11:41+0000\n"
 "PO-Revision-Date: 2022-04-15 18:08+0000\n"
 "Last-Translator: pavelzahradnik <pavel.zahradnik@centrum.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -300,19 +300,19 @@ msgstr "Zahlaďte své stopy"
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr "Přečtěte si další informace o metadatech a omezeních procesu čištění"
 
-#: application/data/ui/FileRow.ui:12
+#: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
 msgstr "Odstranit soubor ze seznamu"
 
-#: application/data/ui/FileRow.ui:124
+#: application/data/ui/FileRow.ui:128
 msgid "Warning"
 msgstr "Varování"
 
-#: application/data/ui/FileRow.ui:142
+#: application/data/ui/FileRow.ui:146
 msgid "Error"
 msgstr "Chyba"
 
-#: application/data/ui/FileRow.ui:182
+#: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
 msgstr "Vyčištěno"
 

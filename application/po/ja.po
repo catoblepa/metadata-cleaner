@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-20 11:04+0000\n"
+"POT-Creation-Date: 2023-01-20 11:41+0000\n"
 "PO-Revision-Date: 2022-07-21 15:21+0000\n"
 "Last-Translator: Kaede <contact@kaede.ch>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/metadata-"
@@ -299,19 +299,19 @@ msgstr "メタデータを除去します"
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr "メタデータと除去プロセスの限界の詳細はこちらをご覧ください"
 
-#: application/data/ui/FileRow.ui:12
+#: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
 msgstr "ファイルを一覧から削除"
 
-#: application/data/ui/FileRow.ui:124
+#: application/data/ui/FileRow.ui:128
 msgid "Warning"
 msgstr "警告"
 
-#: application/data/ui/FileRow.ui:142
+#: application/data/ui/FileRow.ui:146
 msgid "Error"
 msgstr "エラー"
 
-#: application/data/ui/FileRow.ui:182
+#: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
 msgstr "除去済み"
 
