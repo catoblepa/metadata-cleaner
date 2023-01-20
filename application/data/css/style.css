@@ -7,58 +7,48 @@ SPDX-License-Identifier: GPL-3.0-or-later
 @define-color accent_bg_color @accent_color;
 @define-color accent_fg_color #fff;
 
-window
-{
+window {
 	background: linear-gradient(180deg, @accent_bg_color 0px, @accent_bg_color 20px, @theme_bg_color 20px);
 }
 
 window.dialog,
-window.flat
-{
+window.flat {
 	background: @theme_bg_color;
 }
 
-headerbar:not(.flat)
-{
+headerbar:not(.flat) {
 	background-color: @accent_bg_color;
 	color: @accent_fg_color;
 }
 
-headerbar:not(.flat) button:focus
-{
+headerbar:not(.flat) button:focus {
 	outline-color: alpha(@accent_fg_color, 0.5);
 }
 
-window.flat headerbar
-{
+window.flat headerbar {
 	border-bottom: 1px solid @theme_bg_color;
 	transition: border 0.4s;
 }
 
-window.flat.scrolled headerbar
-{
+window.flat.scrolled headerbar {
 	border-bottom: 1px solid @borders;
 }
 
-button.help
-{
+button.help {
 	transition: padding 0.1s, margin 0.1s, border-radius 0.1s;
 }
 
-button.help.small
-{
+button.help.small {
 	border-radius: 0;
 	padding-left: 18px;
 	padding-right: 18px;
 }
 
-button.help:not(.small)
-{
+button.help:not(.small) {
 	margin: 0 18px 18px;
 }
 
-listview.files>row
-{
+listview.files>row {
 	padding: 0;
 	border-bottom: 1px solid @borders;
 }
@@ -78,28 +68,24 @@ listview.files separator {
 	transition: 0.1s opacity;
 }
 
-listview.files> row:hover separator {
+listview.files>row:hover separator {
 	opacity: 1;
 	transition: none;
 }
 
-listview.metadata
-{
+listview.metadata {
 	background: none;
 }
 
-listview.metadata>row
-{
+listview.metadata>row {
 	margin: 12px 24px;
 }
 
-listview.metadata>row:last-child
-{
+listview.metadata>row:last-child {
 	margin-bottom: 24px;
 }
 
-row.metadata>box
-{
+row.metadata>box {
 	margin: 6px;
 	border-spacing: 12px;
 }
@@ -109,8 +95,7 @@ row.metadata>box
 	color: @headerbar_fg_color;
 }
 
-.badge
-{
+.badge {
 	border-radius: 11px;
 	background-color: rgba(0, 0, 0, 0.5);
 	color: #fff;
@@ -118,67 +103,55 @@ row.metadata>box
 	font-size: 12px;
 }
 
-.badge.flat
-{
+.badge.flat {
 	background: none;
 	color: @theme_fg_color;
 }
 
-.badge label
-{
+.badge label {
 	margin: 0 6px;
 }
 
-.badge.metadata
-{
+.badge.metadata {
 	background-color: @accent_color;
 }
 
-.badge.warning
-{
+.badge.warning {
 	background-color: @warning_color;
 }
 
-.badge.error
-{
+.badge.error {
 	background-color: @error_color;
 }
 
-.badge.success
-{
+.badge.success {
 	background-color: @success_color;
 }
 
-.badge label
-{
+.badge label {
 	padding: 0 0.4em;
 }
 
-button.gitlab
-{
+button.gitlab {
 	background-color: rgba(250, 112, 53, 1);
 	color: #fff;
 }
 
-button.liberapay
-{
+button.liberapay {
 	background-color: rgba(246, 201, 21, 0.8);
 	color: #1a171b;
 }
 
-button.matrix
-{
+button.matrix {
 	background-color: rgba(129, 61, 156, 0.8);
 	color: #fff;
 }
 
-button.weblate
-{
+button.weblate {
 	background-color: rgba(46, 204, 170, 0.8);
 	color: #fff;
 }
 
-.app-icon
-{
+.app-icon {
 	-gtk-icon-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
