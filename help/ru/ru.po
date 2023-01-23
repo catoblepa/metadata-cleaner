@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-20 11:41+0000\n"
+"POT-Creation-Date: 2023-01-23 10:08+0000\n"
 "PO-Revision-Date: 2022-11-29 12:12+0000\n"
 "Last-Translator: Войнов Артем Романович <voynovar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
