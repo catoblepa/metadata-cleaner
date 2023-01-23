@@ -6,6 +6,21 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.4.0] - 2023-01-23
+
+### Added
+
+- It is now possible to cancel adding and cleaning operations
+- Adding files and checking metadata is now done at the same time to give accurate progress report
+
+### Changed
+
+- Updated Arabic translation (contributed by @Ali-98)
+- Updated Chinese (simplified) translation (contributed by Ujhhgtg)
+- Updated Croatian translation (contributed by @milotype)
+- Updated Hungarian translation (contributed by Szia Tomi)
+
+
 ## [2.3.1] - 2023-01-09
 
 ### Changed
