@@ -111,7 +111,7 @@ class File(GObject.GObject):
         if state == self.state:
             return
 
-        def update_state(state) -> None:
+        def update_state(state) -> bool:
             simple_states = {
                 FileState.INITIALIZING: "working",
                 FileState.ERROR_WHILE_INITIALIZING: "error",
@@ -143,6 +143,7 @@ class File(GObject.GObject):
             self.message_type = message_types[state]
             self.has_message = self.message_type != "none"
             self.emit("state-changed", state)
+            return GLib.SOURCE_REMOVE
         GLib.idle_add(update_state, state)
         self.state = state
 
@@ -174,10 +175,11 @@ class File(GObject.GObject):
     def _setup_parser_finish(self, parser, mimetype) -> None:
         self._parser = parser
         if mimetype:
-            def update_mimetype(mimetype) -> None:
+            def update_mimetype(mimetype) -> bool:
                 self.mimetype = mimetype
                 self.icon_name = Gio.content_type_get_generic_icon_name(
                     self.mimetype)
+                return GLib.SOURCE_REMOVE
             GLib.idle_add(update_mimetype, mimetype)
         if self._parser:
             self._set_state(FileState.SUPPORTED)
@@ -215,8 +217,9 @@ class File(GObject.GObject):
                 metadata=metadata_list))
             total_metadata += len(metadata_list)
 
-        def update_total_metadata(total_metadata) -> None:
+        def update_total_metadata(total_metadata) -> bool:
             self.total_metadata = total_metadata
+            return GLib.SOURCE_REMOVE
         GLib.idle_add(update_total_metadata, total_metadata)
         self._set_state(FileState.HAS_METADATA)
 

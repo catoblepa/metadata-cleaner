@@ -73,20 +73,28 @@ class FileStore(Gio.ListStore):
         self.clean_files_executor = ThreadPoolExecutor()
 
     def _on_file_state_changed(self, f: File, new_state: FileState) -> None:
-        GLib.idle_add(
-            self.emit,
-            "file-state-changed",
-            self.get_index_of_file(f))
+        def emit() -> bool:
+            self.emit("file-state-changed", self.get_index_of_file(f))
+            return GLib.SOURCE_REMOVE
+        GLib.idle_add(emit)
 
     def _set_state(self, state: FileStoreState) -> None:
         if state == self.state:
             return
         self.state = state
-        GLib.idle_add(self.emit, "state-changed", state)
+
+        def emit() -> bool:
+            self.emit("state-changed", state)
+            return GLib.SOURCE_REMOVE
+        GLib.idle_add(emit)
 
     def _set_progress(self, current: int, total: int) -> None:
         self.progress = (current, total)
-        GLib.idle_add(self.emit, "progress-changed", current, total)
+
+        def emit() -> bool:
+            self.emit("progress-changed", current, total)
+            return GLib.SOURCE_REMOVE
+        GLib.idle_add(emit)
 
     def get_files(self) -> List[File]:
         """Get all the files from the File Store.
@@ -216,9 +224,10 @@ class FileStore(Gio.ListStore):
         f = File(gfile)
         f.check_metadata()
 
-        def finish() -> None:
+        def finish() -> bool:
             self.append(f)
             f.connect("state-changed", self._on_file_state_changed)
+            return GLib.SOURCE_REMOVE
         GLib.idle_add(finish)
 
     def _stop_adding_gfiles(self) -> None:
