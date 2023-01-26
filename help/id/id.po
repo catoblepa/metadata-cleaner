@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-23 10:08+0000\n"
+"POT-Creation-Date: 2023-01-26 11:17+0000\n"
 "PO-Revision-Date: 2022-03-29 14:08+0000\n"
 "Last-Translator: Ibnul Mutaki <ibnuul@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
