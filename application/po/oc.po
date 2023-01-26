@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 10:08+0000\n"
+"POT-Creation-Date: 2023-01-26 11:17+0000\n"
 "PO-Revision-Date: 2023-01-26 09:51+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -378,11 +378,11 @@ msgstr "Causir los fichièrs de netejar"
 msgid "Choose folders to clean"
 msgstr "Causir los dossièrs de netejar"
 
-#: application/metadatacleaner/modules/file.py:241
+#: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
 msgstr "S’es producha una error pendent lo netejatge."
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Quicòm a trucat pendent lo netejatge, lo fichièr netejat es introbable"
 

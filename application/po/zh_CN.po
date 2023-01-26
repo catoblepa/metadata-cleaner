@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 10:08+0000\n"
+"POT-Creation-Date: 2023-01-26 11:17+0000\n"
 "PO-Revision-Date: 2023-01-13 03:51+0000\n"
 "Last-Translator: Ujhhgtg <feyxiexzf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -370,11 +370,11 @@ msgstr "选择待清理文件"
 msgid "Choose folders to clean"
 msgstr "选择待清理文件夹"
 
-#: application/metadatacleaner/modules/file.py:241
+#: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
 msgstr "在清理过程中发生了一个错误。"
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "元数据删除出现了糟糕错误，删除完元数据的文件找不到了"
 

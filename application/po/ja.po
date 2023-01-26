@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 10:08+0000\n"
+"POT-Creation-Date: 2023-01-26 11:17+0000\n"
 "PO-Revision-Date: 2022-07-21 15:21+0000\n"
 "Last-Translator: Kaede <contact@kaede.ch>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/metadata-"
@@ -372,11 +372,11 @@ msgstr "メタデータを除去するファイルを選択"
 msgid "Choose folders to clean"
 msgstr "メタデータを除去するフォルダを選択"
 
-#: application/metadatacleaner/modules/file.py:241
+#: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "何らかの問題が発生し、除去済みのファイルが見つかりません"
 

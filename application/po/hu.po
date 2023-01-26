@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 10:08+0000\n"
+"POT-Creation-Date: 2023-01-26 11:17+0000\n"
 "PO-Revision-Date: 2023-01-11 21:50+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/metadata-"
@@ -379,11 +379,11 @@ msgstr "Fájlok kiválasztása a tisztításhoz"
 msgid "Choose folders to clean"
 msgstr "Tisztítandó mappák kiválasztása"
 
-#: application/metadatacleaner/modules/file.py:241
+#: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
 msgstr "Hiba történt a tisztítás során."
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Valami rossz történt a tisztítás során, a megtisztított fájl nem található"

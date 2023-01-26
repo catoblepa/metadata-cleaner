@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 10:08+0000\n"
+"POT-Creation-Date: 2023-01-26 11:17+0000\n"
 "PO-Revision-Date: 2023-01-09 15:43+0000\n"
 "Last-Translator: Daniel Abrante <danielabrante@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -380,11 +380,11 @@ msgstr "Escolha os arquivos para limpar"
 msgid "Choose folders to clean"
 msgstr "Escolha as pastas para limpar"
 
-#: application/metadatacleaner/modules/file.py:241
+#: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
 msgstr "Um erro ocorreu durante a limpeza."
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr "Algo ruim aconteceu durante a limpeza, arquivo limpo não encontrado"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 10:08+0000\n"
+"POT-Creation-Date: 2023-01-26 11:17+0000\n"
 "PO-Revision-Date: 2021-11-10 12:47+0000\n"
 "Last-Translator: Victor Mihalache <vmhl.ph@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/metadata-"
@@ -383,11 +383,11 @@ msgstr "Alege fișierele de curățat"
 msgid "Choose folders to clean"
 msgstr "Alege dosarele de curățat"
 
-#: application/metadatacleaner/modules/file.py:241
+#: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "S-a întâmplat ceva rău în timpul curățării, fișierul curățat nu a fost găsit"

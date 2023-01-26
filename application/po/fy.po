@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-23 10:08+0000\n"
+"POT-Creation-Date: 2023-01-26 11:17+0000\n"
 "PO-Revision-Date: 2022-08-08 13:00+0000\n"
 "Last-Translator: Vancha March <tjipkevdh@gmail.com>\n"
 "Language-Team: Frisian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -372,11 +372,11 @@ msgstr "Triemen selektearje om op te skjinjen"
 msgid "Choose folders to clean"
 msgstr "Mappen selektearje om op te skjinjen"
 
-#: application/metadatacleaner/modules/file.py:241
+#: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
 msgstr ""
 
-#: application/metadatacleaner/modules/file.py:244
+#: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
 msgstr ""
 "Der is eat ferkeard gien wylst de opskjinne waard, opskjinne triem net fûn"
