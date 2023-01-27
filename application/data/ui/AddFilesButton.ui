@@ -9,35 +9,55 @@ SPDX-License-Identifier: GPL-3.0-or-later
       <object class="GtkBinLayout"/>
     </property>
     <child>
-      <object class="AdwSplitButton" id="_split_button">
-        <property name="action-name">win.add-files</property>
-        <property name="child">
-          <object class="AdwButtonContent">
-            <property name="label" translatable="yes">_Add Files</property>
-            <property name="icon-name">metadatacleaner-add-file-symbolic</property>
-            <property name="use-underline">True</property>
-          </object>
-        </property>
-        <property name="popover">
-          <object class="GtkPopover">
-            <property name="child">
+      <object class="AdwSqueezer">
+        <child>
+          <object class="GtkBox">
+            <property name="spacing">6</property>
+            <child>
+              <object class="GtkButton">
+                <property name="action-name">win.add-files</property>
+                <property name="child">
+                  <object class="AdwButtonContent">
+                    <property name="label" translatable="yes">_Add Files</property>
+                    <property name="icon-name">metadatacleaner-add-file-symbolic</property>
+                    <property name="use-underline">True</property>
+                  </object>
+                </property>
+              </object>
+            </child>
+            <child>
               <object class="GtkButton">
                 <property name="action-name">win.add-folders</property>
-                <signal name="clicked" handler="_on_add_folders_button_clicked"/>
                 <property name="child">
                   <object class="AdwButtonContent">
                     <property name="label" translatable="yes">Add _Folders</property>
                     <property name="icon-name">metadatacleaner-add-folder-symbolic</property>
                     <property name="use-underline">True</property>
-                    <style>
-                      <class name="flat"/>
-                    </style>
                   </object>
                 </property>
               </object>
-            </property>
+            </child>
           </object>
-        </property>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="spacing">6</property>
+            <child>
+              <object class="GtkButton">
+                <property name="action-name">win.add-files</property>
+                <property name="icon-name">metadatacleaner-add-file-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Add files</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkButton">
+                <property name="action-name">win.add-folders</property>
+                <property name="icon-name">metadatacleaner-add-folder-symbolic</property>
+                <property name="tooltip-text" translatable="yes">Add folders</property>
+              </object>
+            </child>
+          </object>
+        </child>
       </object>
     </child>
   </template>

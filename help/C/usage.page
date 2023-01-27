@@ -17,7 +17,11 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 			<title><gui style="button">Add Files</gui> button</title>
 			<media type="image" src="figures/add-files-button.png" its:translate="no"/>
 		</figure>
-		<p>To add whole folders at once, press the arrow next to the <gui style="button">Add Files</gui> button and press the <gui style="button">Add Folders</gui> button. A file chooser will open, select the folders you want to add. You can optionally choose to also add all files from all subfolders by checking the <gui style="checkbox">Add files from subfolders</gui> checkbox.</p>
+		<p>To add whole folders at once, press the <gui style="button">Add Folders</gui> button. A file chooser will open, select the folders you want to add. You can optionally choose to also add all files from all subfolders by checking the <gui style="checkbox">Add files from subfolders</gui> checkbox.</p>
+		<figure>
+			<title><gui style="button">Add Folders</gui> button</title>
+			<media type="image" src="figures/add-folders-button.png" its:translate="no"/>
+		</figure>
 	</section>
 	<section id="viewing-metadata">
 		<info>

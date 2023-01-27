@@ -13,9 +13,3 @@ class AddFilesButton(Gtk.Widget):
     """Button allowing to add files."""
 
     __gtype_name__ = "AddFilesButton"
-
-    _split_button: Adw.SplitButton = Gtk.Template.Child()
-
-    @Gtk.Template.Callback()
-    def _on_add_folders_button_clicked(self, button: Gtk.Button) -> None:
-        self._split_button.popdown()

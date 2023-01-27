@@ -32,3 +32,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
 	margin: 0 6px;
 	padding: 0 0.4em;
 }
+
+.accent-bg
+{
+	background-color: @accent_bg_color;
+	color: @accent_fg_color;
+}

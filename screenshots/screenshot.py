@@ -217,6 +217,7 @@ def shoot_help() -> None:
     for i, lang in enumerate(["C"] + languages, 1):
         for widget in [
                 HelpWidget("add-files-button", lang, True),
+                HelpWidget("add-folders-button", lang, True),
                 HelpWidget("clean-button", lang, False),
                 HelpWidget("metadata-example", lang, True)]:
             print(f"[{i}/{total}|{lang}] Shooting {widget.ui_file}…")

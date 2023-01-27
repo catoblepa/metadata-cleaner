@@ -17,17 +17,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
               <object class="GtkLabel"/>
             </property>
             <child type="start">
-              <object class="AdwSplitButton">
-                <property name="child">
-                  <object class="AdwButtonContent">
-                    <property name="label" translatable="yes">_Add Files</property>
-                    <property name="icon-name">metadatacleaner-add-file-symbolic</property>
-                    <property name="use-underline">True</property>
-                  </object>
-                </property>
-                <property name="popover">
-                  <object class="GtkPopover"/>
-                </property>
+              <object class="GtkButton">
+                <property name="icon-name">metadatacleaner-add-file-symbolic</property>
+              </object>
+            </child>
+            <child type="start">
+              <object class="GtkButton">
+                <property name="icon-name">metadatacleaner-add-folder-symbolic</property>
               </object>
             </child>
             <child type="end">
