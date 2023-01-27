@@ -39,7 +39,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
                   <object class="GtkStackPage">
                     <property name="name">empty</property>
                     <property name="child">
-                      <object class="GtkLabel"></object>
                       <object class="EmptyView" />
                     </property>
                   </object>
