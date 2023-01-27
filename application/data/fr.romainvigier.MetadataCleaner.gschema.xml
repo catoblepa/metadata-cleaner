@@ -25,5 +25,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
             <summary>Window height</summary>
             <description>Saved height of the window</description>
         </key>
+        <key name="window-maximized" type="b">
+            <default>false</default>
+            <summary>Maximized window</summary>
+        </key>
     </schema>
 </schemalist>

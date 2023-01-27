@@ -60,11 +60,16 @@ class Window(Adw.ApplicationWindow):
     def _setup_size(self) -> None:
         def on_close_request(window: Gtk.Window) -> None:
             width, height = self.get_default_size()
+            maximized = self.is_maximized()
             self.get_application().settings.set_uint("window-width", width)
             self.get_application().settings.set_uint("window-height", height)
+            self.get_application().settings.set_boolean(
+                "window-maximized", maximized)
         self.set_default_size(
             self.get_application().settings.get_uint("window-width"),
             self.get_application().settings.get_uint("window-height"))
+        if self.get_application().settings.get_boolean("window-maximized"):
+            self.maximize()
         self.connect("close-request", on_close_request)
 
     def _setup_devel_style(self) -> None:
