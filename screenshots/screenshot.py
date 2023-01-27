@@ -32,7 +32,10 @@ class Widget:
     """Base widget."""
 
     def __init__(
-            self, ui_file: str, image_file: str, css_file: str = None) -> None:
+            self,
+            ui_file: str,
+            image_file: str,
+            css_file: Optional[str] = None) -> None:
         """Create a new widget.
 
         Args:
@@ -114,8 +117,8 @@ def compile_resources() -> None:
 
 
 def start_weston(
-        scale: int = None,
-        socket: str = None) -> subprocess.Popen[bytes]:
+        scale: Optional[int] = None,
+        socket: Optional[str] = None) -> subprocess.Popen[bytes]:
     """Start the Weston compositor in headless mode."""
     args = []
     if scale:
@@ -130,14 +133,14 @@ def start_weston(
 
 def run_uishooter(
         ui_file: str,
-        output: str = None,
-        resource_file: str = None,
-        resource_path: str = None,
-        textdomain: str = None,
-        locale: str = None,
-        locale_dir: str = None,
-        css: str = None,
-        scale: int = None,
+        output: Optional[str] = None,
+        resource_file: Optional[str] = None,
+        resource_path: Optional[str] = None,
+        textdomain: Optional[str] = None,
+        locale: Optional[str] = None,
+        locale_dir: Optional[str] = None,
+        css: Optional[str] = None,
+        scale: Optional[int] = None,
         dark: bool = False,
         libadwaita: bool = False) -> int:
     """Shoot the given UI file.
