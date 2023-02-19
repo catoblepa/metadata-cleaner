@@ -4,13 +4,14 @@
 # Åke Engelbrektson <eson@svenskasprakfiler.se>, 2021, 2022, 2023.
 # Allan Nordhøy <epost@anotheragency.no>, 2021.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
+# Luna Jernberg <droidbittin@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 13:14+0000\n"
-"PO-Revision-Date: 2023-01-06 09:44+0000\n"
-"Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
+"PO-Revision-Date: 2023-02-19 18:03+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/sv/>\n"
 "Language: sv\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -211,7 +212,9 @@ msgstr "Stäng"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr "Åke Engelbrektson <eson@svenskasprakfiler.se>"
+msgstr ""
+"Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
+"Luna Jernberg <droidbittin@gmail.com>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
@@ -287,7 +290,7 @@ msgstr "Rensar fil {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Bibliotek"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Rensa utan förvarning"
