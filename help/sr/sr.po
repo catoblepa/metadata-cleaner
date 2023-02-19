@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:07+0000\n"
 "PO-Revision-Date: 2022-10-31 16:02+0000\n"
 "Last-Translator: Andrija Djakovic <bozika331@yahoo.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -152,9 +152,16 @@ msgstr "<gui style=\"button\">Додај Фајлове</gui> дугме"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
+#, fuzzy
+#| msgid ""
+#| "To add whole folders at once, press the arrow next to the <gui style="
+#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
+#| "Folders</gui> button. A file chooser will open, select the folders you "
+#| "want to add. You can optionally choose to also add all files from all "
+#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
+#| "subfolders</gui> checkbox."
 msgid ""
-"To add whole folders at once, press the arrow next to the <gui style=\"button"
-"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
 "You can optionally choose to also add all files from all subfolders by "
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
@@ -167,13 +174,20 @@ msgstr ""
 "из свих подфасцикли штиклирањем поља <gui style=\"checkbox\">Додај фајлове "
 "из подфасцикли</gui>."
 
+#. (itstool) path: figure/title
+#: ../help/C/usage.page:22
+#, fuzzy
+#| msgid "<gui style=\"button\">Add Files</gui> button"
+msgid "<gui style=\"button\">Add Folders</gui> button"
+msgstr "<gui style=\"button\">Додај Фајлове</gui> дугме"
+
 #. (itstool) path: section/title
-#: ../help/C/usage.page:26
+#: ../help/C/usage.page:30
 msgid "Viewing metadata"
 msgstr "Преглед метаподатака"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:27
+#: ../help/C/usage.page:31
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -182,17 +196,17 @@ msgstr ""
 "метаподатке, биће приказани тамо."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:29
+#: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
 msgstr "Детаљан преглед метаподатака"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:37
+#: ../help/C/usage.page:41
 msgid "Cleaning files"
 msgstr "Чишћење фајлова"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:38
+#: ../help/C/usage.page:42
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
@@ -201,17 +215,17 @@ msgstr ""
 "\">Очисти</gui>. Процесу чишћења можда затреба неко време да се заврши."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:40
+#: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "Дугме <gui style=\"button\">Очисти</gui>"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:48
+#: ../help/C/usage.page:52
 msgid "Lightweight cleaning"
 msgstr "Једноставно чишћење"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:49
+#: ../help/C/usage.page:53
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -224,7 +238,7 @@ msgstr ""
 "компресују опет…"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:50
+#: ../help/C/usage.page:54
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."

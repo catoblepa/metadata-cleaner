@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:07+0000\n"
 "PO-Revision-Date: 2022-11-30 10:02+0000\n"
 "Last-Translator: Ali Aljishi <ahj696@hotmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -151,9 +151,16 @@ msgstr "زر <gui style=\"button\">أضف ملفات</gui>"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
+#, fuzzy
+#| msgid ""
+#| "To add whole folders at once, press the arrow next to the <gui style="
+#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
+#| "Folders</gui> button. A file chooser will open, select the folders you "
+#| "want to add. You can optionally choose to also add all files from all "
+#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
+#| "subfolders</gui> checkbox."
 msgid ""
-"To add whole folders at once, press the arrow next to the <gui style=\"button"
-"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
 "You can optionally choose to also add all files from all subfolders by "
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
@@ -165,13 +172,20 @@ msgstr ""
 "الملفات الموجود في المجلدات الفرعية عن طريق تعليم صندوق <gui style=\"checkbox"
 "\">أضف الملفات من المجلدات الفرعية</gui>."
 
+#. (itstool) path: figure/title
+#: ../help/C/usage.page:22
+#, fuzzy
+#| msgid "<gui style=\"button\">Add Files</gui> button"
+msgid "<gui style=\"button\">Add Folders</gui> button"
+msgstr "زر <gui style=\"button\">أضف ملفات</gui>"
+
 #. (itstool) path: section/title
-#: ../help/C/usage.page:26
+#: ../help/C/usage.page:30
 msgid "Viewing metadata"
 msgstr "عرض البيانات الوصفية"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:27
+#: ../help/C/usage.page:31
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -180,17 +194,17 @@ msgstr ""
 "للملف هنا إذا كانت موجودة."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:29
+#: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
 msgstr "عرض مفصل للبيانات الوصفية"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:37
+#: ../help/C/usage.page:41
 msgid "Cleaning files"
 msgstr "تنظيف الملفات"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:38
+#: ../help/C/usage.page:42
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
@@ -199,17 +213,17 @@ msgstr ""
 "\">نظف</gui>. قد تستغرق عملية التنظيف بعض الوقت."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:40
+#: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "زر <gui style=\"button\">نظف</gui>"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:48
+#: ../help/C/usage.page:52
 msgid "Lightweight cleaning"
 msgstr "الإزالة الخفيفة"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:49
+#: ../help/C/usage.page:53
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -221,7 +235,7 @@ msgstr ""
 "تنسيق PDF قابلة للتحديد بعد الآن، وقد يتم ضغط الصور المضغوطة مرة أخرى…"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:50
+#: ../help/C/usage.page:54
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."

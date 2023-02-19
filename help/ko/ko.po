@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:07+0000\n"
 "PO-Revision-Date: 2023-01-27 17:46+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -29,9 +29,8 @@ msgid ""
 "being documented."
 msgstr ""
 "메타데이터는 특징을 지닌 데이터 정보로 이루어져있습니다. 메타데이터는 데이터 "
-"제품의 문서를 제공할 때 활용하기도 합니다. 요는, 메타데이터에서 누가, "
-"무엇을, 언제, 어디서, 왜, 어떻게 문서에 데이터를 넣을지 모든 질문에 "
-"답해줍니다."
+"제품의 문서를 제공할 때 활용하기도 합니다. 요는, 메타데이터에서 누가, 무엇"
+"을, 언제, 어디서, 왜, 어떻게 문서에 데이터를 넣을지 모든 질문에 답해줍니다."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:16
@@ -42,10 +41,10 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"파일의 메타데이터는 사용자의 여러 정보가 담겨있습니다. 카메라는 어디서 "
-"사진을 찍었고 어떤 카메라를 사용했는지 데이터를 기록합니다. 오피스 "
-"프로그램은 작성자와 회사 정보를 문서와 스프레드 시트에 추가합니다. 이는 "
-"파일에 넣고 싶지 않은 민감한 정보입니다."
+"파일의 메타데이터는 사용자의 여러 정보가 담겨있습니다. 카메라는 어디서 사진"
+"을 찍었고 어떤 카메라를 사용했는지 데이터를 기록합니다. 오피스 프로그램은 작"
+"성자와 회사 정보를 문서와 스프레드 시트에 추가합니다. 이는 파일에 넣고 싶지 "
+"않은 민감한 정보입니다."
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
@@ -57,8 +56,9 @@ msgstr "그림 파일 메타데이터 예시"
 msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
-msgstr "파일에는 하드웨어, 설정, 날짜, 촬영 위치 정보가 들어있습니다. 지금 보시는 "
-"내용에는 메타데이터가 전부 79개 있습니다."
+msgstr ""
+"파일에는 하드웨어, 설정, 날짜, 촬영 위치 정보가 들어있습니다. 지금 보시는 내"
+"용에는 메타데이터가 전부 79개 있습니다."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
@@ -74,18 +74,19 @@ msgid ""
 "for complex file formats. This is why you shouldn't rely on metadata's "
 "presence to decide if your file must be cleaned or not."
 msgstr ""
-"<app>메타데이터 클리너</app>가 표시할 메타데이터를 최대한 보여주는 반면에, "
-"어떤 정보 조차도 보여주지 않는다고 하여 파일의 메타데이터를 지웠음을 "
-"의미하는건 아닙니다. 복잡한 파일 형식에 단일 존재로 가능한 메타데이터를 "
-"찾아내는데 믿을만한 방법은 없습니다. 이게 바로 파일을 지워야 할 지 말아야 할 "
-"지를 셜정하는데 어떤 메타데이터가 보이느냐에 집착하지 않는 이유입니다."
+"<app>메타데이터 클리너</app>가 표시할 메타데이터를 최대한 보여주는 반면에, 어"
+"떤 정보 조차도 보여주지 않는다고 하여 파일의 메타데이터를 지웠음을 의미하는"
+"건 아닙니다. 복잡한 파일 형식에 단일 존재로 가능한 메타데이터를 찾아내는데 믿"
+"을만한 방법은 없습니다. 이게 바로 파일을 지워야 할 지 말아야 할 지를 셜정하는"
+"데 어떤 메타데이터가 보이느냐에 집착하지 않는 이유입니다."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:29
 msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
-msgstr "<app>메타데이터 클리너</app>는 메타데이터가 빠진 파일의 내용을 새로 취하여, "
+msgstr ""
+"<app>메타데이터 클리너</app>는 메타데이터가 빠진 파일의 내용을 새로 취하여, "
 "발견하지 못한 메타데이터를 제거해냅니다."
 
 #. (itstool) path: section/title
@@ -101,9 +102,9 @@ msgid ""
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
 "메타데이터가 파일의 내용을 표시하는 유일한 수단이 아님을 알아두십시오. 자체 "
-"내용에 개인정보가 들어갔거나, 워터마크로 처리를 했을 때, 기존의 방식대로든 "
-"암호문 방식대로든, <app>메타데이터 클리너</app>로는 개인의 신상을 보호해주지 "
-"않습니다."
+"내용에 개인정보가 들어갔거나, 워터마크로 처리를 했을 때, 기존의 방식대로든 암"
+"호문 방식대로든, <app>메타데이터 클리너</app>로는 개인의 신상을 보호해주지 않"
+"습니다."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -116,8 +117,9 @@ msgstr "메타데이터 클리너"
 msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
-msgstr "<app>메타데이터 클리너</app>는 파일의 메타데이터를 보고 가능한 한 없앨 수 "
-"있게 해줍니다."
+msgstr ""
+"<app>메타데이터 클리너</app>는 파일의 메타데이터를 보고 가능한 한 없앨 수 있"
+"게 해줍니다."
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:17
@@ -140,8 +142,8 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
-"파일을 추가하려면 <gui style=\"button\">파일 추가</gui> 단추를 누르십시오. "
-"파일 선택 대화상자가 열립니다. 메타데이터를 지우려는 파일을 선택하십시오."
+"파일을 추가하려면 <gui style=\"button\">파일 추가</gui> 단추를 누르십시오. 파"
+"일 선택 대화상자가 열립니다. 메타데이터를 지우려는 파일을 선택하십시오."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
@@ -150,78 +152,94 @@ msgstr "<gui style=\"button\">파일 추가</gui> 단추"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
+#, fuzzy
+#| msgid ""
+#| "To add whole folders at once, press the arrow next to the <gui style="
+#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
+#| "Folders</gui> button. A file chooser will open, select the folders you "
+#| "want to add. You can optionally choose to also add all files from all "
+#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
+#| "subfolders</gui> checkbox."
 msgid ""
-"To add whole folders at once, press the arrow next to the <gui style=\"button"
-"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
 "You can optionally choose to also add all files from all subfolders by "
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"전체 폴더를 한번에 추가하려면 <gui style=\"button\">파일 추가</gui>단추 옆 "
-"화살표를 누른 후 <gui style=\"button\">폴더 추가</gui> 단추를 누르십시오. "
-"파일 선택 대화 상자가 열리고, 추가하려는 폴더를 선택하시면 됩니다. <gui "
-"style=\"checkbox\">하위 폴더의 파일 추가</gui> 확인 상자를 표시하여 모든 "
-"하위 폴더의 파일도 추가할 수 있습니다."
+"전체 폴더를 한번에 추가하려면 <gui style=\"button\">파일 추가</gui>단추 옆 화"
+"살표를 누른 후 <gui style=\"button\">폴더 추가</gui> 단추를 누르십시오. 파일 "
+"선택 대화 상자가 열리고, 추가하려는 폴더를 선택하시면 됩니다. <gui style="
+"\"checkbox\">하위 폴더의 파일 추가</gui> 확인 상자를 표시하여 모든 하위 폴더"
+"의 파일도 추가할 수 있습니다."
+
+#. (itstool) path: figure/title
+#: ../help/C/usage.page:22
+#, fuzzy
+#| msgid "<gui style=\"button\">Add Files</gui> button"
+msgid "<gui style=\"button\">Add Folders</gui> button"
+msgstr "<gui style=\"button\">파일 추가</gui> 단추"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:26
+#: ../help/C/usage.page:30
 msgid "Viewing metadata"
 msgstr "메타데이터 보기"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:27
+#: ../help/C/usage.page:31
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
-msgstr "자세히 열어보려는 목록의 파일을 누르십시오. 메타데이터가 있다면, 해당 위치에 "
+msgstr ""
+"자세히 열어보려는 목록의 파일을 누르십시오. 메타데이터가 있다면, 해당 위치에 "
 "나타납니다."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:29
+#: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
 msgstr "메타데이터 자세히 보기"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:37
+#: ../help/C/usage.page:41
 msgid "Cleaning files"
 msgstr "파일 지우기"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:38
+#: ../help/C/usage.page:42
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"창에 있는 모든 파일을 정리하려면, <gui style=\"button\">지우기</gui>단추를 "
-"누르십시오. 정리 과정이 끝나기에는 시간이 좀 걸립니다."
+"창에 있는 모든 파일을 정리하려면, <gui style=\"button\">지우기</gui>단추를 누"
+"르십시오. 정리 과정이 끝나기에는 시간이 좀 걸립니다."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:40
+#: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "<gui style=\"button\">지우기</gui> 단추"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:48
+#: ../help/C/usage.page:52
 msgid "Lightweight cleaning"
 msgstr "간편 정리"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:49
+#: ../help/C/usage.page:53
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
 "might not be selectable anymore, compressed images might get compressed "
 "again…"
 msgstr ""
-"기본적으로 제거 과정에서는 가능한 최대한의 메타데이터를 제거하려고 파일의 "
-"데이터 일부를 바꾸기도 합니다. 예를 들면 PDF의 텍스트는 더이상 선택할 수 "
-"없으며, 압축 이미지는 다시 압축할 수도 있습니다…"
+"기본적으로 제거 과정에서는 가능한 최대한의 메타데이터를 제거하려고 파일의 데"
+"이터 일부를 바꾸기도 합니다. 예를 들면 PDF의 텍스트는 더이상 선택할 수 없으"
+"며, 압축 이미지는 다시 압축할 수도 있습니다…"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:50
+#: ../help/C/usage.page:54
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
-msgstr "간편 동작 모드에서는, 이렇게 동작하지 않기에, 파일에 현상을 바꾸는 변화를 "
-"주지는 않습니다."
+msgstr ""
+"간편 동작 모드에서는, 이렇게 동작하지 않기에, 파일에 현상을 바꾸는 변화를 주"
+"지는 않습니다."

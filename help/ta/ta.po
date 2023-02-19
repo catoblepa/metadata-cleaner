@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:07+0000\n"
 "PO-Revision-Date: 2022-10-01 18:18+0000\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -154,9 +154,16 @@ msgstr "<gui style=\"button\">கோப்புகளைச் சேர்</gu
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
+#, fuzzy
+#| msgid ""
+#| "To add whole folders at once, press the arrow next to the <gui style="
+#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
+#| "Folders</gui> button. A file chooser will open, select the folders you "
+#| "want to add. You can optionally choose to also add all files from all "
+#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
+#| "subfolders</gui> checkbox."
 msgid ""
-"To add whole folders at once, press the arrow next to the <gui style=\"button"
-"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
 "You can optionally choose to also add all files from all subfolders by "
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
@@ -169,13 +176,20 @@ msgstr ""
 "கோப்புறைகளிலிருந்து கோப்புகளைச் சேர்</gui> தேர்வுப்பெட்டியைச் சரிபார்ப்பதன் மூலம், அனைத்து "
 "துணைக் கோப்புறைகளிலிருந்தும் எல்லா கோப்புகளையும் சேர்க்க விருப்பமாகத் தேர்வுசெய்யலாம்."
 
+#. (itstool) path: figure/title
+#: ../help/C/usage.page:22
+#, fuzzy
+#| msgid "<gui style=\"button\">Add Files</gui> button"
+msgid "<gui style=\"button\">Add Folders</gui> button"
+msgstr "<gui style=\"button\">கோப்புகளைச் சேர்</gui> பொத்தான்"
+
 #. (itstool) path: section/title
-#: ../help/C/usage.page:26
+#: ../help/C/usage.page:30
 msgid "Viewing metadata"
 msgstr "மெட்டாடேட்டாவைப் பார்க்கிறது"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:27
+#: ../help/C/usage.page:31
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -184,17 +198,17 @@ msgstr ""
 "இருந்தால், அது அங்கு காண்பிக்கப்படும்."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:29
+#: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
 msgstr "மெட்டாடேட்டாவின் விரிவான பார்வை"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:37
+#: ../help/C/usage.page:41
 msgid "Cleaning files"
 msgstr "கோப்புகளை சுத்தப்படுத்துதல்"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:38
+#: ../help/C/usage.page:42
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
@@ -203,17 +217,17 @@ msgstr ""
 "gui> பொத்தானை அழுத்தவும். துப்புரவு செயல்முறை முடிவதற்கு சிறிது நேரம் ஆகலாம்."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:40
+#: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "<gui style=\"button\">சுத்தம்</gui> பொத்தான்"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:48
+#: ../help/C/usage.page:52
 msgid "Lightweight cleaning"
 msgstr "இலகுரக சுத்தப்படுத்துதல்"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:49
+#: ../help/C/usage.page:53
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -225,7 +239,7 @@ msgstr ""
 "இருக்கலாம், சுருக்கப்பட்ட படங்கள் மீண்டும் சுருக்கப்படலாம்…"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:50
+#: ../help/C/usage.page:54
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."

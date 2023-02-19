@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:07+0000\n"
 "PO-Revision-Date: 2022-02-11 00:14+0000\n"
 "Last-Translator: poi <erbaotao@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -144,9 +144,16 @@ msgstr "<gui style=\"button\">添加文件</gui>按钮"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
+#, fuzzy
+#| msgid ""
+#| "To add whole folders at once, press the arrow next to the <gui style="
+#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
+#| "Folders</gui> button. A file chooser will open, select the folders you "
+#| "want to add. You can optionally choose to also add all files from all "
+#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
+#| "subfolders</gui> checkbox."
 msgid ""
-"To add whole folders at once, press the arrow next to the <gui style=\"button"
-"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
 "You can optionally choose to also add all files from all subfolders by "
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
@@ -157,13 +164,20 @@ msgstr ""
 "口，您可以选择要添加的文件夹。如果您想添加文件夹的子文件夹里的文件，可以勾选"
 "<gui style=\"checkbox\">也添加子文件夹中文件</gui>复选框。"
 
+#. (itstool) path: figure/title
+#: ../help/C/usage.page:22
+#, fuzzy
+#| msgid "<gui style=\"button\">Add Files</gui> button"
+msgid "<gui style=\"button\">Add Folders</gui> button"
+msgstr "<gui style=\"button\">添加文件</gui>按钮"
+
 #. (itstool) path: section/title
-#: ../help/C/usage.page:26
+#: ../help/C/usage.page:30
 msgid "Viewing metadata"
 msgstr "查看元数据"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:27
+#: ../help/C/usage.page:31
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
@@ -172,17 +186,17 @@ msgstr ""
 "出来了。"
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:29
+#: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
 msgstr "元数据详情视图"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:37
+#: ../help/C/usage.page:41
 msgid "Cleaning files"
 msgstr "删除文件元数据"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:38
+#: ../help/C/usage.page:42
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
@@ -191,17 +205,17 @@ msgstr ""
 "钮。删除过程可能需要一段时间。"
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:40
+#: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "<gui style=\"button\">删除元数据</gui>按钮"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:48
+#: ../help/C/usage.page:52
 msgid "Lightweight cleaning"
 msgstr "浅层删除"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:49
+#: ../help/C/usage.page:53
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
 "order to remove as much metadata as possible. For example, texts in PDF "
@@ -212,7 +226,7 @@ msgstr ""
 "如， PDF 中的文本可能会无法选中，压缩的图像可能再次被压缩……"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:50
+#: ../help/C/usage.page:54
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."

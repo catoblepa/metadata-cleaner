@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:07+0000\n"
 "PO-Revision-Date: 2021-08-11 16:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -167,22 +167,27 @@ msgstr "<gui style=\"button\">Tillæg filer</gui>-knappen"
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
 msgid ""
-"To add whole folders at once, press the arrow next to the <gui style=\"button"
-"\">Add Files</gui> button and press the <gui style=\"button\">Add Folders</"
+"To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
 "You can optionally choose to also add all files from all subfolders by "
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
 
+#. (itstool) path: figure/title
+#: ../help/C/usage.page:22
+#, fuzzy
+msgid "<gui style=\"button\">Add Folders</gui> button"
+msgstr "<gui style=\"button\">Tillæg filer</gui>-knappen"
+
 #. (itstool) path: section/title
-#: ../help/C/usage.page:26
+#: ../help/C/usage.page:30
 #, fuzzy
 msgid "Viewing metadata"
 msgstr "Visning af metadata"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:27
+#: ../help/C/usage.page:31
 #, fuzzy
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
@@ -192,18 +197,18 @@ msgstr ""
 "metadata vil den blive vist her."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:29
+#: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
 msgstr "Detaljeret visning af metadaten"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:37
+#: ../help/C/usage.page:41
 #, fuzzy
 msgid "Cleaning files"
 msgstr "Rens af filer"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:38
+#: ../help/C/usage.page:42
 #, fuzzy
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
@@ -213,19 +218,19 @@ msgstr ""
 "knappen. Renseprocessen kan tage litt tid."
 
 #. (itstool) path: figure/title
-#: ../help/C/usage.page:40
+#: ../help/C/usage.page:44
 #, fuzzy
 msgid "<gui style=\"button\">Clean</gui> button"
 msgstr "<gui style=\"button\">Rens</gui>-knappen"
 
 #. (itstool) path: section/title
-#: ../help/C/usage.page:48
+#: ../help/C/usage.page:52
 #, fuzzy
 msgid "Lightweight cleaning"
 msgstr "Enkel rens"
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:49
+#: ../help/C/usage.page:53
 #, fuzzy
 msgid ""
 "By default, the removal process might alter a bit the data of your files, in "
@@ -239,7 +244,7 @@ msgstr ""
 "igen, osv."
 
 #. (itstool) path: section/p
-#: ../help/C/usage.page:50
+#: ../help/C/usage.page:54
 msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
