@@ -5,12 +5,6 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Contributing
 
----
-
-[[_TOC_]]
-
----
-
 ## Documentation
 
 The help pages are written in [Mallard](http://projectmallard.org/index.html) and are viewed in [GNOME Yelp](https://wiki.gnome.org/Apps/Yelp/).
