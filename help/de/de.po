@@ -1,10 +1,11 @@
 # eladyn <f+weblate@piored.de>, 2021.
+# eladyn <eladyn@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-02-19 11:09+0000\n"
-"PO-Revision-Date: 2021-12-01 17:10+0000\n"
-"Last-Translator: eladyn <f+weblate@piored.de>\n"
+"PO-Revision-Date: 2023-02-19 13:16+0000\n"
+"Last-Translator: eladyn <eladyn@protonmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/de/>\n"
 "Language: de\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -158,14 +159,6 @@ msgstr "<gui style=\"button\">Dateien hinzufügen</gui> Knopf"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
-#, fuzzy
-#| msgid ""
-#| "To add whole folders at once, press the arrow next to the <gui style="
-#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
-#| "Folders</gui> button. A file chooser will open, select the folders you "
-#| "want to add. You can optionally choose to also add all files from all "
-#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
-#| "subfolders</gui> checkbox."
 msgid ""
 "To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
@@ -173,19 +166,16 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Um ganze Ordner auszuwählen, klicken Sie auf den Pfeil neben <gui style="
-"\"button\">Dateien hinzufügen</gui> und wählen Sie <gui style=\"button"
-"\">Ordner hinzufügen</gui>. Eine Dateiauswahl wird sich öffnen, in der man "
-"die gewünschten Ordner auswählen kann. Man kann optional auch alle Dateien "
-"aus Unterordner automatischen hinzufügen lassen, indem man einen Haken bei "
-"<gui style=\"checkbox\">Dateien aus Unterordnern hinzufügen</gui> setzt."
+"Um ganze Ordner hinzuzufügen, klicken Sie auf <gui style=\"button\">Ordner "
+"hinzufügen</gui>. Eine Dateiauswahl wird sich öffnen, in der man die "
+"gewünschten Ordner auswählen kann. Man kann optional auch alle Dateien aus "
+"Unterordner automatisch hinzufügen lassen, indem man einen Haken bei <gui "
+"style=\"checkbox\">Dateien aus Unterordnern hinzufügen</gui> setzt."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
-#, fuzzy
-#| msgid "<gui style=\"button\">Add Files</gui> button"
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "<gui style=\"button\">Dateien hinzufügen</gui> Knopf"
+msgstr "Schaltfläche <gui style=\"button\">Ordner hinzufügen</gui>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
