@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 11:09+0000\n"
-"PO-Revision-Date: 2023-01-26 09:51+0000\n"
+"PO-Revision-Date: 2023-02-19 13:16+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/oc/>\n"
@@ -289,7 +289,7 @@ msgstr "Netejatge del fichièr {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Bibliotècas"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Netejar sens avertir"
