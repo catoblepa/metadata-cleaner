@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2022-08-04 23:19+0000\n"
 "Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
 "stagas@gmail.com>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 #, fuzzy
 msgid "Metadata Cleaner"
 msgstr "Καθαριστής μεταδεδομένων"
@@ -35,40 +35,6 @@ msgstr "Καθάριστε τα μεταδεδομένα από τα αρχεί�
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Μεταδεδομένα;Αφαιρετής;Καθαριστής;"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr "Καθάρισε χωρίς ειδοποίηση"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr "Καθάρισε τα αρχεία δίχως εμφάνισής προειδοποιητικού διάλογου"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-msgid "Lightweight cleaning"
-msgstr "Ελαφρό καθάρισμα"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
-"Μην κάνεις καταστροφικές αλλαγές στα αρχεία άλλα υπάρχει πιθανότητα "
-"διατηρήσεις μερικών μεταδεδόμενων"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-msgid "Window width"
-msgstr "Πλάτος παραθύρου"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-msgid "Saved width of the window"
-msgstr "Αποθηκευμένο πλάτος παραθύρου"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-msgid "Window height"
-msgstr "Ύψος παραθύρου"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-msgid "Saved height of the window"
-msgstr "Αποθηκευμένο ύψος παράθυρου"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -97,77 +63,17 @@ msgstr ""
 "Αυτό το εργαλείο σάς επιτρέπει να βλέπετε τα μεταδεδομένα στα αρχεία σας και "
 "να τα ξεφορτώνεστε, όσο το δυνατόν περισσότερο."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-msgid "Updated translations"
-msgstr "Ενημερωμένες μεταφράσεις"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-msgid "Improved user interface"
-msgstr "Βελτιωμένη διεπαφή χρήστη"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-msgid "New translations"
-msgstr "Νέες μεταφράσεις"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-msgid "Bug fixes"
-msgstr "Διορθώσεις σφαλμάτων"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr "Νέο κουμπί για την προσθήκη φακέλων"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-msgid "Improved adaptive user interface"
-msgstr "Βελτιωμένη προσαρμοστική διεπαφή χρήστη"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr "Νέες σελίδες βοήθειας"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Καθαρισμός με ένα κλικ, δεν χρειάζεται αποθήκευση μετά τον καθαρισμό"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-msgid "Persistent lightweight cleaning option"
-msgstr "Επίμονη επιλογή ελαφρού καθαρισμού"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-msgid "Files with uppercase extension can now be added"
-msgstr "Μπορούν τώρα να προστεθούν αρχεία με επέκταση κεφαλαίων γράμματων"
-
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "Αρχεία"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
 msgstr "Προσθήκη αρχείων"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
 msgstr "Προσθήκη φακέλων"
 
@@ -203,73 +109,11 @@ msgstr "Συντομεύσεις πληκτρολογίου"
 msgid "Help"
 msgstr "Βοήθεια"
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr "Περί"
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr "Συνομιλία Matrix"
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr "Δείτε τον κώδικα στο GitLab"
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr "Μεταφράστε στο Weblate"
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr "Υποστηρίξτε μας στο Liberapay"
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr "Εύσημα"
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr "Κώδικας"
-
-#: application/data/ui/AboutDialog.ui:176
-msgid "Artwork"
-msgstr "Λογότυπο"
-
-#: application/data/ui/AboutDialog.ui:182
-msgid "Documentation"
-msgstr "Εγχειρίδιο"
-
-#: application/data/ui/AboutDialog.ui:188
-msgid "Translation"
-msgstr "Μετάφραση"
-
-#: application/data/ui/AboutDialog.ui:193
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-"Αυτό το πρόγραμμα χρησιμοποιεί το <a href=\"https://0xacab.org/jvoisin/"
-"mat2\">mat2</a> για την ανάλυση και τον καθαρισμό των μεταδεδομένων. Δείξτε "
-"τους λίγη αγάπη!"
-
-#: application/data/ui/AboutDialog.ui:206
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-"Ο πηγαίος κώδικας αυτού του προγράμματος κυκλοφορεί υπό τους όρους της <a "
-"href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 ή "
-"μεταγενέστερης</a>. Το πρωτότυπο λογότυπο και οι μεταφράσεις κυκλοφορούν υπό "
-"τους όρους της <a href=\"https://creativecommons.org/licenses/by-sa/4.0/"
-"\">CC BY-SA 4.0</a>."
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
 msgstr "_Πρόσθεσε αρχεία"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
 msgstr "Προσθήκη _Φακέλων"
 
@@ -361,24 +205,24 @@ msgstr "Ελαφρύς καθαρισμός"
 msgid "Learn more about the lightweight cleaning"
 msgstr "Μάθετε περισσότερα για τον ελαφρύ καθαρισμό"
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 msgid "Details"
 msgstr "Λεπτομέρειες"
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 msgid "Close"
 msgstr "Κλείσιμο"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 msgid "translator-credits"
 msgstr "Athanasios-Nektarios Karachalios-Stagkas<1xlzgeu2y@mozmail.com>"
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
 msgstr "Επιλέξτε αρχεία για καθαρισμό"
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
 msgstr "Επιλέξτε φακέλους για καθαρισμό"
 
@@ -448,6 +292,118 @@ msgstr "Επεξεργασία αρχείου {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Καθαρισμός αρχείου {}/{}"
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#~ msgid "Clean without warning"
+#~ msgstr "Καθάρισε χωρίς ειδοποίηση"
+
+#~ msgid "Clean the files without showing the warning dialog"
+#~ msgstr "Καθάρισε τα αρχεία δίχως εμφάνισής προειδοποιητικού διάλογου"
+
+#~ msgid "Lightweight cleaning"
+#~ msgstr "Ελαφρό καθάρισμα"
+
+#~ msgid "Don't make destructive changes to files but may leave some metadata"
+#~ msgstr ""
+#~ "Μην κάνεις καταστροφικές αλλαγές στα αρχεία άλλα υπάρχει πιθανότητα "
+#~ "διατηρήσεις μερικών μεταδεδόμενων"
+
+#~ msgid "Window width"
+#~ msgstr "Πλάτος παραθύρου"
+
+#~ msgid "Saved width of the window"
+#~ msgstr "Αποθηκευμένο πλάτος παραθύρου"
+
+#~ msgid "Window height"
+#~ msgstr "Ύψος παραθύρου"
+
+#~ msgid "Saved height of the window"
+#~ msgstr "Αποθηκευμένο ύψος παράθυρου"
+
+#~ msgid "Updated translations"
+#~ msgstr "Ενημερωμένες μεταφράσεις"
+
+#~ msgid "Improved user interface"
+#~ msgstr "Βελτιωμένη διεπαφή χρήστη"
+
+#~ msgid "New translations"
+#~ msgstr "Νέες μεταφράσεις"
+
+#~ msgid "Bug fixes"
+#~ msgstr "Διορθώσεις σφαλμάτων"
+
+#~ msgid "New button to add folders"
+#~ msgstr "Νέο κουμπί για την προσθήκη φακέλων"
+
+#~ msgid "Improved adaptive user interface"
+#~ msgstr "Βελτιωμένη προσαρμοστική διεπαφή χρήστη"
+
+#~ msgid "New help pages"
+#~ msgstr "Νέες σελίδες βοήθειας"
+
+#~ msgid "One-click cleaning, no need to save after cleaning"
+#~ msgstr ""
+#~ "Καθαρισμός με ένα κλικ, δεν χρειάζεται αποθήκευση μετά τον καθαρισμό"
+
+#~ msgid "Persistent lightweight cleaning option"
+#~ msgstr "Επίμονη επιλογή ελαφρού καθαρισμού"
+
+#~ msgid "Files with uppercase extension can now be added"
+#~ msgstr "Μπορούν τώρα να προστεθούν αρχεία με επέκταση κεφαλαίων γράμματων"
+
+#~ msgid "About"
+#~ msgstr "Περί"
+
+#~ msgid "Chat on Matrix"
+#~ msgstr "Συνομιλία Matrix"
+
+#~ msgid "View the code on GitLab"
+#~ msgstr "Δείτε τον κώδικα στο GitLab"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "Μεταφράστε στο Weblate"
+
+#~ msgid "Support us on Liberapay"
+#~ msgstr "Υποστηρίξτε μας στο Liberapay"
+
+#~ msgid "Credits"
+#~ msgstr "Εύσημα"
+
+#~ msgid "Code"
+#~ msgstr "Κώδικας"
+
+#~ msgid "Artwork"
+#~ msgstr "Λογότυπο"
+
+#~ msgid "Documentation"
+#~ msgstr "Εγχειρίδιο"
+
+#~ msgid "Translation"
+#~ msgstr "Μετάφραση"
+
+#~ msgid ""
+#~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+#~ "parse and clean the metadata. Show them some love!"
+#~ msgstr ""
+#~ "Αυτό το πρόγραμμα χρησιμοποιεί το <a href=\"https://0xacab.org/jvoisin/"
+#~ "mat2\">mat2</a> για την ανάλυση και τον καθαρισμό των μεταδεδομένων. "
+#~ "Δείξτε τους λίγη αγάπη!"
+
+#~ msgid ""
+#~ "The source code of this program is released under the terms of the <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</"
+#~ "a>. The original artwork and translations are released under the terms of "
+#~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
+#~ "4.0</a>."
+#~ msgstr ""
+#~ "Ο πηγαίος κώδικας αυτού του προγράμματος κυκλοφορεί υπό τους όρους της <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 ή "
+#~ "μεταγενέστερης</a>. Το πρωτότυπο λογότυπο και οι μεταφράσεις κυκλοφορούν "
+#~ "υπό τους όρους της <a href=\"https://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\">CC BY-SA 4.0</a>."
 
 #~ msgid "Adding files…"
 #~ msgstr "Προσθήκη αρχείων…"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2022-10-31 15:02+0000\n"
 "Last-Translator: Andrija Djakovic <bozika331@yahoo.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -22,7 +22,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "Чистач Метаподатака"
 
@@ -34,39 +34,6 @@ msgstr "Очисти метаподатке са својих фајлова"
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Метаподаци;Уклањач;Чистач;"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr "Очисти без упозорења"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr "Очисти фајлове без приказивања упозорења"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-msgid "Lightweight cleaning"
-msgstr "Једноставно чишћење"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
-"Не прави деструктивне промене на фајловима али можда остави неки метаподатак"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-msgid "Window width"
-msgstr "Ширина прозора"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-msgid "Saved width of the window"
-msgstr "Сачувана ширина прозора"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-msgid "Window height"
-msgstr "Висина прозора"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-msgid "Saved height of the window"
-msgstr "Сачувана висина прозора"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -93,77 +60,17 @@ msgstr ""
 "Ова алатка ти дозвољава да видиш метаподатке твојих фајлова и отарасиш их "
 "се, колико год то било могуће."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-msgid "Updated translations"
-msgstr "Ажурирани преводи"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-msgid "Improved user interface"
-msgstr "Побољшан кориснички интерфејс"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-msgid "New translations"
-msgstr "Нови преводи"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-msgid "Bug fixes"
-msgstr "Поправке багова"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr "Ново дугме за додавање фасцикли"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-msgid "Improved adaptive user interface"
-msgstr "Побољшан адаптивни кориснички интерфејс"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr "Нове странице за помоћ"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Чишћење једним кликом, нема потребе за чувањем након чишћења"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-msgid "Persistent lightweight cleaning option"
-msgstr "Доследна једноставна опција чишћења"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-msgid "Files with uppercase extension can now be added"
-msgstr "Фајлови са екстензијом великих слова се сада могу додати"
-
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "Фајлови"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
 msgstr "Додај фајлове"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
 msgstr "Додај фасцикле"
 
@@ -199,71 +106,11 @@ msgstr "Пречице на тастатури"
 msgid "Help"
 msgstr "Помоћ"
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr "Основни подаци о"
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr "Ћаскај на \"Matrix\""
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr "Погледај код на \"GitLab\""
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr "Преведи на \"Weblate\""
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr "Подржи нас на \"Liberapay\""
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr "Заслуге"
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr "Код"
-
-#: application/data/ui/AboutDialog.ui:176
-msgid "Artwork"
-msgstr "Илустрације"
-
-#: application/data/ui/AboutDialog.ui:182
-msgid "Documentation"
-msgstr "Документација"
-
-#: application/data/ui/AboutDialog.ui:188
-msgid "Translation"
-msgstr "Превод"
-
-#: application/data/ui/AboutDialog.ui:193
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-"Овај програм користи <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> за "
-"анализу и чишћење метаподатака. Покажите им мало љубави!"
-
-#: application/data/ui/AboutDialog.ui:206
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-"Изворни код овог програма је објављен под условима <a href=\"https://www.gnu."
-"org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. Оригиналне илустрације "
-"и преводи су објављени под условима <a href=\"https://creativecommons.org/"
-"licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
 msgstr "_Додај Фајлове"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
 msgstr "Додај_Фасцикле"
 
@@ -352,24 +199,24 @@ msgstr "Једноставно Чишћење"
 msgid "Learn more about the lightweight cleaning"
 msgstr "Сазнај више о једноставном чишћењу"
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 msgid "Details"
 msgstr "Детаљи"
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 msgid "Close"
 msgstr "Затвори"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 msgid "translator-credits"
 msgstr "Андрија <andrija10djakovic@gmail.com>"
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
 msgstr "Одабери фајлове за чишћење"
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
 msgstr "Одабери фасцикле за чишћење"
 
@@ -435,6 +282,115 @@ msgstr "Обрађујем фајл {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Чистим фајл {}/{}"
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#~ msgid "Clean without warning"
+#~ msgstr "Очисти без упозорења"
+
+#~ msgid "Clean the files without showing the warning dialog"
+#~ msgstr "Очисти фајлове без приказивања упозорења"
+
+#~ msgid "Lightweight cleaning"
+#~ msgstr "Једноставно чишћење"
+
+#~ msgid "Don't make destructive changes to files but may leave some metadata"
+#~ msgstr ""
+#~ "Не прави деструктивне промене на фајловима али можда остави неки "
+#~ "метаподатак"
+
+#~ msgid "Window width"
+#~ msgstr "Ширина прозора"
+
+#~ msgid "Saved width of the window"
+#~ msgstr "Сачувана ширина прозора"
+
+#~ msgid "Window height"
+#~ msgstr "Висина прозора"
+
+#~ msgid "Saved height of the window"
+#~ msgstr "Сачувана висина прозора"
+
+#~ msgid "Updated translations"
+#~ msgstr "Ажурирани преводи"
+
+#~ msgid "Improved user interface"
+#~ msgstr "Побољшан кориснички интерфејс"
+
+#~ msgid "New translations"
+#~ msgstr "Нови преводи"
+
+#~ msgid "Bug fixes"
+#~ msgstr "Поправке багова"
+
+#~ msgid "New button to add folders"
+#~ msgstr "Ново дугме за додавање фасцикли"
+
+#~ msgid "Improved adaptive user interface"
+#~ msgstr "Побољшан адаптивни кориснички интерфејс"
+
+#~ msgid "New help pages"
+#~ msgstr "Нове странице за помоћ"
+
+#~ msgid "One-click cleaning, no need to save after cleaning"
+#~ msgstr "Чишћење једним кликом, нема потребе за чувањем након чишћења"
+
+#~ msgid "Persistent lightweight cleaning option"
+#~ msgstr "Доследна једноставна опција чишћења"
+
+#~ msgid "Files with uppercase extension can now be added"
+#~ msgstr "Фајлови са екстензијом великих слова се сада могу додати"
+
+#~ msgid "About"
+#~ msgstr "Основни подаци о"
+
+#~ msgid "Chat on Matrix"
+#~ msgstr "Ћаскај на \"Matrix\""
+
+#~ msgid "View the code on GitLab"
+#~ msgstr "Погледај код на \"GitLab\""
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "Преведи на \"Weblate\""
+
+#~ msgid "Support us on Liberapay"
+#~ msgstr "Подржи нас на \"Liberapay\""
+
+#~ msgid "Credits"
+#~ msgstr "Заслуге"
+
+#~ msgid "Code"
+#~ msgstr "Код"
+
+#~ msgid "Artwork"
+#~ msgstr "Илустрације"
+
+#~ msgid "Documentation"
+#~ msgstr "Документација"
+
+#~ msgid "Translation"
+#~ msgstr "Превод"
+
+#~ msgid ""
+#~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+#~ "parse and clean the metadata. Show them some love!"
+#~ msgstr ""
+#~ "Овај програм користи <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
+#~ "за анализу и чишћење метаподатака. Покажите им мало љубави!"
+
+#~ msgid ""
+#~ "The source code of this program is released under the terms of the <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</"
+#~ "a>. The original artwork and translations are released under the terms of "
+#~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
+#~ "4.0</a>."
+#~ msgstr ""
+#~ "Изворни код овог програма је објављен под условима <a href=\"https://www."
+#~ "gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. Оригиналне "
+#~ "илустрације и преводи су објављени под условима <a href=\"https://"
+#~ "creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #~ msgid "Adding files…"
 #~ msgstr "Додајем фајлове…"

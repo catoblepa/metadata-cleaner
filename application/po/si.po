@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2021-07-21 18:34+0000\n"
 "Last-Translator: HelaBasa <R45XvezA@protonmail.ch>\n"
 "Language-Team: Sinhala <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -21,7 +21,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr ""
 
@@ -32,38 +32,6 @@ msgstr ""
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-msgid "Lightweight cleaning"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-msgid "Window width"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-msgid "Saved width of the window"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-msgid "Window height"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-msgid "Saved height of the window"
 msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
@@ -85,80 +53,18 @@ msgid ""
 "much as possible."
 msgstr ""
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-#, fuzzy
-#| msgid "New translations"
-msgid "Updated translations"
-msgstr "නව පරිවර්තන"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-msgid "Improved user interface"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-msgid "New translations"
-msgstr "නව පරිවර්තන"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-msgid "Bug fixes"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-msgid "Improved adaptive user interface"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-msgid "Persistent lightweight cleaning option"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-msgid "Files with uppercase extension can now be added"
-msgstr ""
-
 #: application/data/gtk/help-overlay.ui:15
 #, fuzzy
 msgid "Files"
 msgstr "ගොනු"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
 msgstr "ගොනු එකතු කරන්න"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 #, fuzzy
 #| msgid "Add files"
 msgid "Add folders"
@@ -200,68 +106,13 @@ msgstr "යතුරුපුවරු කෙටිමං"
 msgid "Help"
 msgstr ""
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:176
-msgid "Artwork"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:182
-msgid "Documentation"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:188
-#, fuzzy
-msgid "Translation"
-msgstr "නව පරිවර්තන"
-
-#: application/data/ui/AboutDialog.ui:193
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:206
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 #, fuzzy
 #| msgid "Add files"
 msgid "_Add Files"
 msgstr "ගොනු එකතු කරන්න"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 #, fuzzy
 #| msgid "Add files"
 msgid "Add _Folders"
@@ -355,24 +206,24 @@ msgstr ""
 msgid "Learn more about the lightweight cleaning"
 msgstr ""
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 msgid "Details"
 msgstr ""
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 msgid "Close"
 msgstr ""
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 msgid "translator-credits"
 msgstr ""
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
 msgstr ""
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
 msgstr ""
 
@@ -437,6 +288,22 @@ msgstr ""
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr ""
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#, fuzzy
+#~| msgid "New translations"
+#~ msgid "Updated translations"
+#~ msgstr "නව පරිවර්තන"
+
+#~ msgid "New translations"
+#~ msgstr "නව පරිවර්තන"
+
+#, fuzzy
+#~ msgid "Translation"
+#~ msgstr "නව පරිවර්තන"
 
 #, fuzzy
 #~| msgid "Add files"

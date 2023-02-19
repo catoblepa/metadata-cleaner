@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2021-08-11 16:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -21,7 +21,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 #, fuzzy
 msgid "Metadata Cleaner"
 msgstr "Metadatarenseren"
@@ -35,43 +35,6 @@ msgstr "Rens metadata fra dine filer"
 #, fuzzy
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;renser;tømning;"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-#, fuzzy
-msgid "Lightweight cleaning"
-msgstr "Enkel rens"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-#, fuzzy
-msgid "Window width"
-msgstr "Vinduesbredde"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-#, fuzzy
-msgid "Saved width of the window"
-msgstr "Lagret bredde for programvinduet"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-#, fuzzy
-msgid "Window height"
-msgstr "Vindueshøjde"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-#, fuzzy
-msgid "Saved height of the window"
-msgstr "Lagret højde for programvinduet"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -98,86 +61,18 @@ msgid ""
 "much as possible."
 msgstr "Vis metadata i dine filer og rens dem."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-#, fuzzy
-msgid "Updated translations"
-msgstr "Oversættelser opdateret"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-#, fuzzy
-msgid "Improved user interface"
-msgstr "Forbedret adaptivt brugergrensesnitt"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-#, fuzzy
-msgid "New translations"
-msgstr "Oversættelser opdateret"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-#, fuzzy
-msgid "Bug fixes"
-msgstr "Aflusning:"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-#, fuzzy
-msgid "Improved adaptive user interface"
-msgstr "Forbedret adaptivt brugergrensesnitt"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr "Nye hjælpesider"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-#, fuzzy
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Etkliksrens. Ingen efterfølgende manuel lagring."
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-#, fuzzy
-msgid "Persistent lightweight cleaning option"
-msgstr "Enkel rensevalg er nu vedvarende"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-#, fuzzy
-msgid "Files with uppercase extension can now be added"
-msgstr "Filer med store bogstaver i filendelse kan nu lægges til"
-
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "Filer"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 #, fuzzy
 msgid "Add files"
 msgstr "Tillæg filer"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 #, fuzzy
 msgid "Add folders"
 msgstr "Tillæg filer"
@@ -220,75 +115,12 @@ msgstr "Tastaturgenveje"
 msgid "Help"
 msgstr "Hjælp"
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr "Sludre på Matrix"
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr "Vis kildekode på GitLab"
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr "Oversæt på Weblate"
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr "Stødt os på Liberapay"
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr "Kildekode"
-
-#: application/data/ui/AboutDialog.ui:176
-#, fuzzy
-msgid "Artwork"
-msgstr "Billedværk"
-
-#: application/data/ui/AboutDialog.ui:182
-#, fuzzy
-msgid "Documentation"
-msgstr "Dokumentation"
-
-#: application/data/ui/AboutDialog.ui:188
-msgid "Translation"
-msgstr "Oversættelse"
-
-#: application/data/ui/AboutDialog.ui:193
-#, fuzzy
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-"Programmet bruger <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> til å "
-"tolke og rense metadata. Vis dem din gunst."
-
-#: application/data/ui/AboutDialog.ui:206
-#, fuzzy
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-"Licenseret <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GPLv3+</a>. "
-"Originale kunstværk og oversættelser licenseret <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 #, fuzzy
 msgid "_Add Files"
 msgstr "Tillæg filer"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 #, fuzzy
 msgid "Add _Folders"
 msgstr "Tillæg filer"
@@ -396,28 +228,28 @@ msgstr "Enkel rens"
 msgid "Learn more about the lightweight cleaning"
 msgstr "Lær mer om enkel rens"
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 #, fuzzy
 msgid "Details"
 msgstr "Detaljer"
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 #, fuzzy
 msgid "Close"
 msgstr "Luk"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 #, fuzzy
 msgid "translator-credits"
 msgstr "Allan Nordhøy <epost@anotheragency.no>"
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 #, fuzzy
 msgid "Choose files to clean"
 msgstr "Hvilke filer der skal renses"
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 #, fuzzy
 msgid "Choose folders to clean"
 msgstr "Hvilke filer der skal renses"
@@ -494,6 +326,111 @@ msgstr "Behandler fil {}/{}"
 #| msgid "Processing file {}/{}"
 msgid "Cleaning file {}/{}"
 msgstr "Behandler fil {}/{}"
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Lightweight cleaning"
+#~ msgstr "Enkel rens"
+
+#, fuzzy
+#~ msgid "Window width"
+#~ msgstr "Vinduesbredde"
+
+#, fuzzy
+#~ msgid "Saved width of the window"
+#~ msgstr "Lagret bredde for programvinduet"
+
+#, fuzzy
+#~ msgid "Window height"
+#~ msgstr "Vindueshøjde"
+
+#, fuzzy
+#~ msgid "Saved height of the window"
+#~ msgstr "Lagret højde for programvinduet"
+
+#, fuzzy
+#~ msgid "Updated translations"
+#~ msgstr "Oversættelser opdateret"
+
+#, fuzzy
+#~ msgid "Improved user interface"
+#~ msgstr "Forbedret adaptivt brugergrensesnitt"
+
+#, fuzzy
+#~ msgid "New translations"
+#~ msgstr "Oversættelser opdateret"
+
+#, fuzzy
+#~ msgid "Bug fixes"
+#~ msgstr "Aflusning:"
+
+#, fuzzy
+#~ msgid "Improved adaptive user interface"
+#~ msgstr "Forbedret adaptivt brugergrensesnitt"
+
+#~ msgid "New help pages"
+#~ msgstr "Nye hjælpesider"
+
+#, fuzzy
+#~ msgid "One-click cleaning, no need to save after cleaning"
+#~ msgstr "Etkliksrens. Ingen efterfølgende manuel lagring."
+
+#, fuzzy
+#~ msgid "Persistent lightweight cleaning option"
+#~ msgstr "Enkel rensevalg er nu vedvarende"
+
+#, fuzzy
+#~ msgid "Files with uppercase extension can now be added"
+#~ msgstr "Filer med store bogstaver i filendelse kan nu lægges til"
+
+#~ msgid "Chat on Matrix"
+#~ msgstr "Sludre på Matrix"
+
+#~ msgid "View the code on GitLab"
+#~ msgstr "Vis kildekode på GitLab"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "Oversæt på Weblate"
+
+#~ msgid "Support us on Liberapay"
+#~ msgstr "Stødt os på Liberapay"
+
+#~ msgid "Code"
+#~ msgstr "Kildekode"
+
+#, fuzzy
+#~ msgid "Artwork"
+#~ msgstr "Billedværk"
+
+#, fuzzy
+#~ msgid "Documentation"
+#~ msgstr "Dokumentation"
+
+#~ msgid "Translation"
+#~ msgstr "Oversættelse"
+
+#, fuzzy
+#~ msgid ""
+#~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+#~ "parse and clean the metadata. Show them some love!"
+#~ msgstr ""
+#~ "Programmet bruger <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
+#~ "til å tolke og rense metadata. Vis dem din gunst."
+
+#, fuzzy
+#~ msgid ""
+#~ "The source code of this program is released under the terms of the <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</"
+#~ "a>. The original artwork and translations are released under the terms of "
+#~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
+#~ "4.0</a>."
+#~ msgstr ""
+#~ "Licenseret <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GPLv3+</"
+#~ "a>. Originale kunstværk og oversættelser licenseret <a href=\"https://"
+#~ "creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #, fuzzy
 #~ msgid "Adding files…"

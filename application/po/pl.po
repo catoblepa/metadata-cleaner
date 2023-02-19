@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2022-03-01 06:55+0000\n"
 "Last-Translator: Anon Ymous <mivon27841@shackvine.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -23,7 +23,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "Czyściciel Metadanych"
 
@@ -35,40 +35,6 @@ msgstr "Usuń metadane ze swoich plików"
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadane;Usuwacz;Oczyszczacz;"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr "Czyść bez ostrzeżenia"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr "Oczyść pliki bez pokazywania ostrzegającego okna dialogowego"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-msgid "Lightweight cleaning"
-msgstr "Lekkie czyszczenie"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
-"Nie wprowadza destrukcyjnych zmian w plikach, ale może pozostawić pewne "
-"metadane"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-msgid "Window width"
-msgstr "Szerokość okna"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-msgid "Saved width of the window"
-msgstr "Zapisana szerokość okna"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-msgid "Window height"
-msgstr "Wysokość okna"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-msgid "Saved height of the window"
-msgstr "Zapisana wysokość okna"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -97,82 +63,17 @@ msgstr ""
 "To narzędzie umożliwia przeglądanie metadanych w plikach i pozbycie się ich "
 "w jak największym stopniu."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-#, fuzzy
-#| msgid "New translations"
-msgid "Updated translations"
-msgstr "Nowe tłumaczenia"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-#, fuzzy
-#| msgid "Improved adaptive user interface"
-msgid "Improved user interface"
-msgstr "Ulepszony adaptacyjny interfejs użytkownika"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-msgid "New translations"
-msgstr "Nowe tłumaczenia"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-msgid "Bug fixes"
-msgstr "Poprawki błędów"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr "Nowy przycisk do dodawania folderów"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-msgid "Improved adaptive user interface"
-msgstr "Ulepszony adaptacyjny interfejs użytkownika"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr "Nowe strony pomocy"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
-"Czyszczenie jednym kliknięciem, brak potrzeby zapisywania po czyszczeniu"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-msgid "Persistent lightweight cleaning option"
-msgstr "Opcja trwałego lekkiego czyszczenia"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-msgid "Files with uppercase extension can now be added"
-msgstr "Można teraz dodawać pliki z rozszerzeniem zawierającym wielkie litery"
-
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "Pliki"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
 msgstr "Dodaj pliki"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
 msgstr "Dodaj foldery"
 
@@ -208,71 +109,11 @@ msgstr "Skróty klawiszowe"
 msgid "Help"
 msgstr "Pomoc"
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr "Czat na Matrix"
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr "Pokaż kod na GitLab"
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr "Tłumacz na Weblate"
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr "Wspomóż nas na Liberapay"
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr ""
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr "Kod"
-
-#: application/data/ui/AboutDialog.ui:176
-msgid "Artwork"
-msgstr "Grafika"
-
-#: application/data/ui/AboutDialog.ui:182
-msgid "Documentation"
-msgstr "Dokumentacja"
-
-#: application/data/ui/AboutDialog.ui:188
-msgid "Translation"
-msgstr "Tłumaczenie"
-
-#: application/data/ui/AboutDialog.ui:193
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-"Ten program używa <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> do "
-"analizowania i czyszczenia metadanych. Okaż im trochę miłości!"
-
-#: application/data/ui/AboutDialog.ui:206
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-"Kod źródłowy tego programu jest udostępniany na warunkach <a href=\"https://"
-"www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 lub nowszej</a>. Oryginalna "
-"grafika i tłumaczenia są wydawane na warunkach <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
 msgstr "_Dodaj Pliki"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
 msgstr "Dodaj _Foldery"
 
@@ -363,25 +204,25 @@ msgstr "Lekkie Czyszczenie"
 msgid "Learn more about the lightweight cleaning"
 msgstr "Dowiedz się więcej o lekkim czyszczeniu"
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 msgid "Details"
 msgstr "Szczegóły"
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 msgid "Close"
 msgstr "Zamknij"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 #, fuzzy
 msgid "translator-credits"
 msgstr "Anonim <nie@dam.maila>"
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
 msgstr "Wybierz pliki do wyczyszczenia"
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
 msgstr "Wybierz foldery do wyczyszczenia"
 
@@ -462,6 +303,115 @@ msgstr "Przetwarzanie pliku {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Czyszczenie pliku {}/{}"
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#~ msgid "Clean without warning"
+#~ msgstr "Czyść bez ostrzeżenia"
+
+#~ msgid "Clean the files without showing the warning dialog"
+#~ msgstr "Oczyść pliki bez pokazywania ostrzegającego okna dialogowego"
+
+#~ msgid "Lightweight cleaning"
+#~ msgstr "Lekkie czyszczenie"
+
+#~ msgid "Don't make destructive changes to files but may leave some metadata"
+#~ msgstr ""
+#~ "Nie wprowadza destrukcyjnych zmian w plikach, ale może pozostawić pewne "
+#~ "metadane"
+
+#~ msgid "Window width"
+#~ msgstr "Szerokość okna"
+
+#~ msgid "Saved width of the window"
+#~ msgstr "Zapisana szerokość okna"
+
+#~ msgid "Window height"
+#~ msgstr "Wysokość okna"
+
+#~ msgid "Saved height of the window"
+#~ msgstr "Zapisana wysokość okna"
+
+#, fuzzy
+#~| msgid "New translations"
+#~ msgid "Updated translations"
+#~ msgstr "Nowe tłumaczenia"
+
+#, fuzzy
+#~| msgid "Improved adaptive user interface"
+#~ msgid "Improved user interface"
+#~ msgstr "Ulepszony adaptacyjny interfejs użytkownika"
+
+#~ msgid "New translations"
+#~ msgstr "Nowe tłumaczenia"
+
+#~ msgid "Bug fixes"
+#~ msgstr "Poprawki błędów"
+
+#~ msgid "New button to add folders"
+#~ msgstr "Nowy przycisk do dodawania folderów"
+
+#~ msgid "Improved adaptive user interface"
+#~ msgstr "Ulepszony adaptacyjny interfejs użytkownika"
+
+#~ msgid "New help pages"
+#~ msgstr "Nowe strony pomocy"
+
+#~ msgid "One-click cleaning, no need to save after cleaning"
+#~ msgstr ""
+#~ "Czyszczenie jednym kliknięciem, brak potrzeby zapisywania po czyszczeniu"
+
+#~ msgid "Persistent lightweight cleaning option"
+#~ msgstr "Opcja trwałego lekkiego czyszczenia"
+
+#~ msgid "Files with uppercase extension can now be added"
+#~ msgstr ""
+#~ "Można teraz dodawać pliki z rozszerzeniem zawierającym wielkie litery"
+
+#~ msgid "Chat on Matrix"
+#~ msgstr "Czat na Matrix"
+
+#~ msgid "View the code on GitLab"
+#~ msgstr "Pokaż kod na GitLab"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "Tłumacz na Weblate"
+
+#~ msgid "Support us on Liberapay"
+#~ msgstr "Wspomóż nas na Liberapay"
+
+#~ msgid "Code"
+#~ msgstr "Kod"
+
+#~ msgid "Artwork"
+#~ msgstr "Grafika"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentacja"
+
+#~ msgid "Translation"
+#~ msgstr "Tłumaczenie"
+
+#~ msgid ""
+#~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+#~ "parse and clean the metadata. Show them some love!"
+#~ msgstr ""
+#~ "Ten program używa <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> do "
+#~ "analizowania i czyszczenia metadanych. Okaż im trochę miłości!"
+
+#~ msgid ""
+#~ "The source code of this program is released under the terms of the <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</"
+#~ "a>. The original artwork and translations are released under the terms of "
+#~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
+#~ "4.0</a>."
+#~ msgstr ""
+#~ "Kod źródłowy tego programu jest udostępniany na warunkach <a href="
+#~ "\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 lub nowszej</"
+#~ "a>. Oryginalna grafika i tłumaczenia są wydawane na warunkach <a href="
+#~ "\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #~ msgid "Adding files…"
 #~ msgstr "Dodawanie plików…"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2023-01-27 17:46+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -23,7 +23,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "메타데이터 클리너"
 
@@ -37,39 +37,6 @@ msgid "Metadata;Remover;Cleaner;"
 msgstr ""
 "Metadata;Remover;Cleaner;메타데이터;클리너;제거도구;정리도구;청소도구;리무버;"
 
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr "경고 없이 정리"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr "경고 대화상자를 표시하지 않고 파일 정리하기"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-msgid "Lightweight cleaning"
-msgstr "간편 정리"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr "파일을 손상하는 수준으로 변경하지 않습니다. 하지만 일부 메타데이터를 남길 수 "
-"있습니다"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-msgid "Window width"
-msgstr "창 너비"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-msgid "Saved width of the window"
-msgstr "저장하는 창의 너비"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-msgid "Window height"
-msgstr "창 높이"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-msgid "Saved height of the window"
-msgstr "저장하는 창의 높이"
-
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
 msgstr "파일에서 메타데이터 보기 및 정리하기"
@@ -82,10 +49,10 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"파일의 메타데이터는 사용자의 여러 정보가 담겨있습니다. 카메라는 어디서 "
-"사진을 찍었고 어떤 카메라를 사용했는지 데이터를 기록합니다. 오피스 "
-"프로그램은 작성자와 회사 정보를 문서와 스프레드 시트에 추가합니다. 이는 "
-"파일에 넣고 싶지 않은 민감한 정보입니다."
+"파일의 메타데이터는 사용자의 여러 정보가 담겨있습니다. 카메라는 어디서 사진"
+"을 찍었고 어떤 카메라를 사용했는지 데이터를 기록합니다. 오피스 프로그램은 작"
+"성자와 회사 정보를 문서와 스프레드 시트에 추가합니다. 이는 파일에 넣고 싶지 "
+"않은 민감한 정보입니다."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
@@ -93,77 +60,17 @@ msgid ""
 "much as possible."
 msgstr "이 도구를 사용하면 파일의 메타데이터를 보고 최대한 제거할 수 있습니다."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-msgid "Updated translations"
-msgstr "최신 번역"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-msgid "Improved user interface"
-msgstr "개선한 사용자 인터페이스"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-msgid "New translations"
-msgstr "새 번역"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-msgid "Bug fixes"
-msgstr "버그 수정"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr "폴더를 추가하는 새 단추"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-msgid "Improved adaptive user interface"
-msgstr "개선한 적응형 사용자 인터페이스"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr "새 도움말 페이지"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr "원-클릭으로 정리하여, 정리 후 저장할 필요가 없음"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-msgid "Persistent lightweight cleaning option"
-msgstr "지속적인 간편 정리 옵션"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-msgid "Files with uppercase extension can now be added"
-msgstr "이제 대문자 확장자 파일을 추가할 수 있습니다"
-
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "파일"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
 msgstr "파일 추가"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
 msgstr "폴더 추가"
 
@@ -199,71 +106,11 @@ msgstr "키보드 바로 가기 키"
 msgid "Help"
 msgstr "도움말"
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr "정보"
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr "매트릭스에서 대화"
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr "깃랩 코드 보기"
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr "웹레이트에서 번역"
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr "리베라페이에서 지원하기"
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr "제작자"
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr "코드"
-
-#: application/data/ui/AboutDialog.ui:176
-msgid "Artwork"
-msgstr "아트워크"
-
-#: application/data/ui/AboutDialog.ui:182
-msgid "Documentation"
-msgstr "문서"
-
-#: application/data/ui/AboutDialog.ui:188
-msgid "Translation"
-msgstr "번역"
-
-#: application/data/ui/AboutDialog.ui:193
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-"이 프로그램은 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a>를 "
-"사용하여 메타데이터를 해석하고 정리합니다. 애정을 표현해주세요!"
-
-#: application/data/ui/AboutDialog.ui:206
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-"이 프로그램의 소스 코드는 <a href=\"https://www.gnu.org/licenses/gpl-3.0."
-"html\">GNU GPL 3.0 이상</a>의 조항에 따라 출시합니다. 원본 아트워크와 번역은 "
-"<a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> "
-"조건에 따라 출시합니다."
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
 msgstr "파일 추가(_A)"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
 msgstr "폴더 추가(_F)"
 
@@ -352,26 +199,26 @@ msgstr "간편 정리"
 msgid "Learn more about the lightweight cleaning"
 msgstr "간편 정리에 대해 더 알아봅니다"
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 msgid "Details"
 msgstr "세부 정보"
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 msgid "Close"
 msgstr "닫기"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 msgid "translator-credits"
 msgstr ""
 "이정희 <daemul72@gmail.com>\n"
 "조성호 <shcho@gnome.org>"
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
 msgstr "정리할 파일 선택"
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
 msgstr "정리할 폴더 선택"
 
@@ -436,6 +283,115 @@ msgstr "{}/{} 파일 처리 중"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "{}/{} 파일 정리 중"
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#~ msgid "Clean without warning"
+#~ msgstr "경고 없이 정리"
+
+#~ msgid "Clean the files without showing the warning dialog"
+#~ msgstr "경고 대화상자를 표시하지 않고 파일 정리하기"
+
+#~ msgid "Lightweight cleaning"
+#~ msgstr "간편 정리"
+
+#~ msgid "Don't make destructive changes to files but may leave some metadata"
+#~ msgstr ""
+#~ "파일을 손상하는 수준으로 변경하지 않습니다. 하지만 일부 메타데이터를 남길 "
+#~ "수 있습니다"
+
+#~ msgid "Window width"
+#~ msgstr "창 너비"
+
+#~ msgid "Saved width of the window"
+#~ msgstr "저장하는 창의 너비"
+
+#~ msgid "Window height"
+#~ msgstr "창 높이"
+
+#~ msgid "Saved height of the window"
+#~ msgstr "저장하는 창의 높이"
+
+#~ msgid "Updated translations"
+#~ msgstr "최신 번역"
+
+#~ msgid "Improved user interface"
+#~ msgstr "개선한 사용자 인터페이스"
+
+#~ msgid "New translations"
+#~ msgstr "새 번역"
+
+#~ msgid "Bug fixes"
+#~ msgstr "버그 수정"
+
+#~ msgid "New button to add folders"
+#~ msgstr "폴더를 추가하는 새 단추"
+
+#~ msgid "Improved adaptive user interface"
+#~ msgstr "개선한 적응형 사용자 인터페이스"
+
+#~ msgid "New help pages"
+#~ msgstr "새 도움말 페이지"
+
+#~ msgid "One-click cleaning, no need to save after cleaning"
+#~ msgstr "원-클릭으로 정리하여, 정리 후 저장할 필요가 없음"
+
+#~ msgid "Persistent lightweight cleaning option"
+#~ msgstr "지속적인 간편 정리 옵션"
+
+#~ msgid "Files with uppercase extension can now be added"
+#~ msgstr "이제 대문자 확장자 파일을 추가할 수 있습니다"
+
+#~ msgid "About"
+#~ msgstr "정보"
+
+#~ msgid "Chat on Matrix"
+#~ msgstr "매트릭스에서 대화"
+
+#~ msgid "View the code on GitLab"
+#~ msgstr "깃랩 코드 보기"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "웹레이트에서 번역"
+
+#~ msgid "Support us on Liberapay"
+#~ msgstr "리베라페이에서 지원하기"
+
+#~ msgid "Credits"
+#~ msgstr "제작자"
+
+#~ msgid "Code"
+#~ msgstr "코드"
+
+#~ msgid "Artwork"
+#~ msgstr "아트워크"
+
+#~ msgid "Documentation"
+#~ msgstr "문서"
+
+#~ msgid "Translation"
+#~ msgstr "번역"
+
+#~ msgid ""
+#~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+#~ "parse and clean the metadata. Show them some love!"
+#~ msgstr ""
+#~ "이 프로그램은 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a>를 사용"
+#~ "하여 메타데이터를 해석하고 정리합니다. 애정을 표현해주세요!"
+
+#~ msgid ""
+#~ "The source code of this program is released under the terms of the <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</"
+#~ "a>. The original artwork and translations are released under the terms of "
+#~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
+#~ "4.0</a>."
+#~ msgstr ""
+#~ "이 프로그램의 소스 코드는 <a href=\"https://www.gnu.org/licenses/gpl-3.0."
+#~ "html\">GNU GPL 3.0 이상</a>의 조항에 따라 출시합니다. 원본 아트워크와 번역"
+#~ "은 <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
+#~ "4.0</a> 조건에 따라 출시합니다."
 
 #~ msgid "Adding files…"
 #~ msgstr "파일 추가하는 중…"

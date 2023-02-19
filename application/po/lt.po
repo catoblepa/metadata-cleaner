@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2022-10-25 10:02+0000\n"
 "Last-Translator: Gediminas Murauskas <muziejusinfo@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/metadata-"
@@ -25,7 +25,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "Metaduomenų valytojas"
 
@@ -37,40 +37,6 @@ msgstr "Išvalyti failų metaduomenis"
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metaduomenys;Šalintojas;Valytojas;"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr "Valyti be įspėjimo"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr "Valyti failus nerodant įspėjimo dialogo lango"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-msgid "Lightweight cleaning"
-msgstr "Lengvasis valymas"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
-"Nedaryti destruktyvių failų pakeitimų, bet tai gali palikti kai kuriuos "
-"metaduomenis"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-msgid "Window width"
-msgstr "Lango plotis"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-msgid "Saved width of the window"
-msgstr "Išsaugotas lango plotis"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-msgid "Window height"
-msgstr "Lango aukštis"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-msgid "Saved height of the window"
-msgstr "Išsaugotas lango aukštis"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -98,77 +64,17 @@ msgstr ""
 "Šis įrankis leidžia peržiūrėti failų metaduomenis ir jų kiek įmanoma "
 "atsikratyti."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-msgid "Updated translations"
-msgstr "Atnaujinti vertimai"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-msgid "Improved user interface"
-msgstr "Patobulinta vartotojo sąsaja"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-msgid "New translations"
-msgstr "Nauji vertimai"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-msgid "Bug fixes"
-msgstr "Klaidų pataisymai"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr "Naujas aplankų pridėjimo mygtukas"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-msgid "Improved adaptive user interface"
-msgstr "Patobulinta adaptyvi vartotojo sąsaja"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr "Nauji pagalbos puslapiai"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr "Valymas vienu paspaudimu, išsaugoti po to nebereikia"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-msgid "Persistent lightweight cleaning option"
-msgstr "Nuolatinė lengvojo valymo pasirinktis"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-msgid "Files with uppercase extension can now be added"
-msgstr "Dabar galima pridėti failus su plėtiniais didžiosiomis raidėmis"
-
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "Failai"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
 msgstr "Pridėti failus"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
 msgstr "Pridėti aplankus"
 
@@ -204,71 +110,11 @@ msgstr "Spartieji klavišai"
 msgid "Help"
 msgstr "Pagalba"
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr "Apie"
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr "Pokalbis Matrix"
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr "Peržiūrėkite kodą GitLab"
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr "Verskite Weblate"
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr "Paremkite mus Liberapay"
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr "Padėkos"
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr "Kodas"
-
-#: application/data/ui/AboutDialog.ui:176
-msgid "Artwork"
-msgstr "Dizainas"
-
-#: application/data/ui/AboutDialog.ui:182
-msgid "Documentation"
-msgstr "Dokumentacija"
-
-#: application/data/ui/AboutDialog.ui:188
-msgid "Translation"
-msgstr "Vertimas"
-
-#: application/data/ui/AboutDialog.ui:193
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-"Ši programa naudoja <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
-"metaduomenų analizei ir valymui. Parodykite jiems šiek tiek meilės!"
-
-#: application/data/ui/AboutDialog.ui:206
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-"Šios programos pirminis kodas išleistas pagal <a href=\"https://www.gnu.org/"
-"licenses/gpl-3.0.html\">GNU GPL 3.0 ar vėlesnės versijos</a> sąlygas. "
-"Originalus dizainas ir vertimai išleisti pagal <a href=\"https://"
-"creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> sąlygas."
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
 msgstr "Pridėti failus"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
 msgstr "Pridėti _aplankus"
 
@@ -357,24 +203,24 @@ msgstr "Lengvasis valymas"
 msgid "Learn more about the lightweight cleaning"
 msgstr "Sužinokite daugiau apie lengvąjį valymą"
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 msgid "Details"
 msgstr "Išsamesnė informacija"
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 msgid "Close"
 msgstr "Uždaryti"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 msgid "translator-credits"
 msgstr "Gediminas Murauskas"
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
 msgstr "Pasirinkite, kuriuos failus valyti"
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
 msgstr "Pasirinkite, kuriuos aplankus valyti"
 
@@ -441,6 +287,115 @@ msgstr "Failas apdorojamas {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Valomas failas {}/{}"
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#~ msgid "Clean without warning"
+#~ msgstr "Valyti be įspėjimo"
+
+#~ msgid "Clean the files without showing the warning dialog"
+#~ msgstr "Valyti failus nerodant įspėjimo dialogo lango"
+
+#~ msgid "Lightweight cleaning"
+#~ msgstr "Lengvasis valymas"
+
+#~ msgid "Don't make destructive changes to files but may leave some metadata"
+#~ msgstr ""
+#~ "Nedaryti destruktyvių failų pakeitimų, bet tai gali palikti kai kuriuos "
+#~ "metaduomenis"
+
+#~ msgid "Window width"
+#~ msgstr "Lango plotis"
+
+#~ msgid "Saved width of the window"
+#~ msgstr "Išsaugotas lango plotis"
+
+#~ msgid "Window height"
+#~ msgstr "Lango aukštis"
+
+#~ msgid "Saved height of the window"
+#~ msgstr "Išsaugotas lango aukštis"
+
+#~ msgid "Updated translations"
+#~ msgstr "Atnaujinti vertimai"
+
+#~ msgid "Improved user interface"
+#~ msgstr "Patobulinta vartotojo sąsaja"
+
+#~ msgid "New translations"
+#~ msgstr "Nauji vertimai"
+
+#~ msgid "Bug fixes"
+#~ msgstr "Klaidų pataisymai"
+
+#~ msgid "New button to add folders"
+#~ msgstr "Naujas aplankų pridėjimo mygtukas"
+
+#~ msgid "Improved adaptive user interface"
+#~ msgstr "Patobulinta adaptyvi vartotojo sąsaja"
+
+#~ msgid "New help pages"
+#~ msgstr "Nauji pagalbos puslapiai"
+
+#~ msgid "One-click cleaning, no need to save after cleaning"
+#~ msgstr "Valymas vienu paspaudimu, išsaugoti po to nebereikia"
+
+#~ msgid "Persistent lightweight cleaning option"
+#~ msgstr "Nuolatinė lengvojo valymo pasirinktis"
+
+#~ msgid "Files with uppercase extension can now be added"
+#~ msgstr "Dabar galima pridėti failus su plėtiniais didžiosiomis raidėmis"
+
+#~ msgid "About"
+#~ msgstr "Apie"
+
+#~ msgid "Chat on Matrix"
+#~ msgstr "Pokalbis Matrix"
+
+#~ msgid "View the code on GitLab"
+#~ msgstr "Peržiūrėkite kodą GitLab"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "Verskite Weblate"
+
+#~ msgid "Support us on Liberapay"
+#~ msgstr "Paremkite mus Liberapay"
+
+#~ msgid "Credits"
+#~ msgstr "Padėkos"
+
+#~ msgid "Code"
+#~ msgstr "Kodas"
+
+#~ msgid "Artwork"
+#~ msgstr "Dizainas"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentacija"
+
+#~ msgid "Translation"
+#~ msgstr "Vertimas"
+
+#~ msgid ""
+#~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+#~ "parse and clean the metadata. Show them some love!"
+#~ msgstr ""
+#~ "Ši programa naudoja <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
+#~ "metaduomenų analizei ir valymui. Parodykite jiems šiek tiek meilės!"
+
+#~ msgid ""
+#~ "The source code of this program is released under the terms of the <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</"
+#~ "a>. The original artwork and translations are released under the terms of "
+#~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
+#~ "4.0</a>."
+#~ msgstr ""
+#~ "Šios programos pirminis kodas išleistas pagal <a href=\"https://www.gnu."
+#~ "org/licenses/gpl-3.0.html\">GNU GPL 3.0 ar vėlesnės versijos</a> sąlygas. "
+#~ "Originalus dizainas ir vertimai išleisti pagal <a href=\"https://"
+#~ "creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> sąlygas."
 
 #~ msgid "Adding files…"
 #~ msgstr "Pridedami failai…"

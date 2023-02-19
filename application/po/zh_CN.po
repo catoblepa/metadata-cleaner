@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2023-01-13 03:51+0000\n"
 "Last-Translator: Ujhhgtg <feyxiexzf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -23,7 +23,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "属性信息删除器"
 
@@ -35,38 +35,6 @@ msgstr "删除文件里的元数据"
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "元数据;属性;删除;清理;"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr "要删除时不进行警告"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr "删除文件元数据时不显示警告对话框"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-msgid "Lightweight cleaning"
-msgstr "浅层删除"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr "不破坏性修改文件，但可能会残留一些元数据"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-msgid "Window width"
-msgstr "窗口宽度"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-msgid "Saved width of the window"
-msgstr "记忆的窗口宽度的值"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-msgid "Window height"
-msgstr "窗口高度"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-msgid "Saved height of the window"
-msgstr "记忆的窗口高度的值"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -90,77 +58,17 @@ msgid ""
 "much as possible."
 msgstr "此工具可以用来尽可能地查看或删除文件里的元数据。"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-msgid "Updated translations"
-msgstr "更新了翻译"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-msgid "Improved user interface"
-msgstr "改进了用户界面"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-msgid "New translations"
-msgstr "新增翻译"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-msgid "Bug fixes"
-msgstr "修正软件错误"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr "新增用来添加文件夹的按钮"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-msgid "Improved adaptive user interface"
-msgstr "改进了自适应用户界面"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr "新增了帮助页面"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr "一键删除元数据，删完后无需保存"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-msgid "Persistent lightweight cleaning option"
-msgstr "可以记住浅层删除选项的选中状态了"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-msgid "Files with uppercase extension can now be added"
-msgstr "现在扩展名大写的文件也可以添加了"
-
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "文件"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
 msgstr "添加文件"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
 msgstr "添加文件夹"
 
@@ -196,71 +104,11 @@ msgstr "键盘快捷键"
 msgid "Help"
 msgstr "调出帮助"
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr "关于"
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr "在 Matrix 上联系开发者"
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr "在 GitLab 上查看软件代码"
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr "在 Weblate 上翻译软件"
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr "用 Liberapay 支持开发者"
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr "致谢"
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr "程序编写"
-
-#: application/data/ui/AboutDialog.ui:176
-msgid "Artwork"
-msgstr "美术设计"
-
-#: application/data/ui/AboutDialog.ui:182
-msgid "Documentation"
-msgstr "帮助文档"
-
-#: application/data/ui/AboutDialog.ui:188
-msgid "Translation"
-msgstr "翻译"
-
-#: application/data/ui/AboutDialog.ui:193
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-"此软件使用 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> 解析、删除文"
-"件元数据。给 mat2 开发者们一些爱吧！"
-
-#: application/data/ui/AboutDialog.ui:206
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-"本程序源代码根据 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\"> GNU "
-"通用公共许可证，第 3 版及以上</a> 的条款发布。原始美术设计作品和翻译根据 <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">知识共享版权归属-相"
-"同方式共享 4.0 国际 公共许可证</a> 的条款发布。"
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
 msgstr "添加文件 (_A)"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
 msgstr "添加文件夹 (_A)"
 
@@ -349,24 +197,24 @@ msgstr "浅层删除"
 msgid "Learn more about the lightweight cleaning"
 msgstr "详细了解浅层删除"
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 msgid "Details"
 msgstr "详情"
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 msgid "Close"
 msgstr "关闭"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 msgid "translator-credits"
 msgstr "翻译者致谢"
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
 msgstr "选择待清理文件"
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
 msgstr "选择待清理文件夹"
 
@@ -431,6 +279,113 @@ msgstr "正在处理文件 {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "正在删除元数据 {}/{}"
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#~ msgid "Clean without warning"
+#~ msgstr "要删除时不进行警告"
+
+#~ msgid "Clean the files without showing the warning dialog"
+#~ msgstr "删除文件元数据时不显示警告对话框"
+
+#~ msgid "Lightweight cleaning"
+#~ msgstr "浅层删除"
+
+#~ msgid "Don't make destructive changes to files but may leave some metadata"
+#~ msgstr "不破坏性修改文件，但可能会残留一些元数据"
+
+#~ msgid "Window width"
+#~ msgstr "窗口宽度"
+
+#~ msgid "Saved width of the window"
+#~ msgstr "记忆的窗口宽度的值"
+
+#~ msgid "Window height"
+#~ msgstr "窗口高度"
+
+#~ msgid "Saved height of the window"
+#~ msgstr "记忆的窗口高度的值"
+
+#~ msgid "Updated translations"
+#~ msgstr "更新了翻译"
+
+#~ msgid "Improved user interface"
+#~ msgstr "改进了用户界面"
+
+#~ msgid "New translations"
+#~ msgstr "新增翻译"
+
+#~ msgid "Bug fixes"
+#~ msgstr "修正软件错误"
+
+#~ msgid "New button to add folders"
+#~ msgstr "新增用来添加文件夹的按钮"
+
+#~ msgid "Improved adaptive user interface"
+#~ msgstr "改进了自适应用户界面"
+
+#~ msgid "New help pages"
+#~ msgstr "新增了帮助页面"
+
+#~ msgid "One-click cleaning, no need to save after cleaning"
+#~ msgstr "一键删除元数据，删完后无需保存"
+
+#~ msgid "Persistent lightweight cleaning option"
+#~ msgstr "可以记住浅层删除选项的选中状态了"
+
+#~ msgid "Files with uppercase extension can now be added"
+#~ msgstr "现在扩展名大写的文件也可以添加了"
+
+#~ msgid "About"
+#~ msgstr "关于"
+
+#~ msgid "Chat on Matrix"
+#~ msgstr "在 Matrix 上联系开发者"
+
+#~ msgid "View the code on GitLab"
+#~ msgstr "在 GitLab 上查看软件代码"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "在 Weblate 上翻译软件"
+
+#~ msgid "Support us on Liberapay"
+#~ msgstr "用 Liberapay 支持开发者"
+
+#~ msgid "Credits"
+#~ msgstr "致谢"
+
+#~ msgid "Code"
+#~ msgstr "程序编写"
+
+#~ msgid "Artwork"
+#~ msgstr "美术设计"
+
+#~ msgid "Documentation"
+#~ msgstr "帮助文档"
+
+#~ msgid "Translation"
+#~ msgstr "翻译"
+
+#~ msgid ""
+#~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+#~ "parse and clean the metadata. Show them some love!"
+#~ msgstr ""
+#~ "此软件使用 <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> 解析、删除"
+#~ "文件元数据。给 mat2 开发者们一些爱吧！"
+
+#~ msgid ""
+#~ "The source code of this program is released under the terms of the <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</"
+#~ "a>. The original artwork and translations are released under the terms of "
+#~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
+#~ "4.0</a>."
+#~ msgstr ""
+#~ "本程序源代码根据 <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\"> "
+#~ "GNU 通用公共许可证，第 3 版及以上</a> 的条款发布。原始美术设计作品和翻译根"
+#~ "据 <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">知识共享版"
+#~ "权归属-相同方式共享 4.0 国际 公共许可证</a> 的条款发布。"
 
 #~ msgid "Adding files…"
 #~ msgstr "添加文件……"

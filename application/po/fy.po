@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2022-08-08 13:00+0000\n"
 "Last-Translator: Vancha March <tjipkevdh@gmail.com>\n"
 "Language-Team: Frisian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -21,7 +21,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "Metadata Opskjinner"
 
@@ -33,40 +33,6 @@ msgstr "De metadata fan jo triemen opskjinje"
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;Opskjinje;Opskjinner;Fuortsmite;"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr "Opskjinje sûnder warskôging"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr "De triemen opskjinje sûnder in warskôgings finster sjen te litten"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-msgid "Lightweight cleaning"
-msgstr "Oerflakkich opskjinje"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
-"Gjin destruktive feroaringen oan triemen meitsje, mar kin soms wat metadata "
-"stean litte"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-msgid "Window width"
-msgstr "Finster breedte"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-msgid "Saved width of the window"
-msgstr "Opsleine breedte fan it finster"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-msgid "Window height"
-msgstr "Finster hichte"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-msgid "Saved height of the window"
-msgstr "Opsleine hichte fan it finster"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -94,78 +60,17 @@ msgstr ""
 "Dizze applikaasje lit jo de metadata fan jo triemen ynsjen en fuorthelje, "
 "foar sa fier as dat mooglik is."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-msgid "Updated translations"
-msgstr "Fernijde oersettingen"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-msgid "Improved user interface"
-msgstr "Ferbettere brûkers ynterfaasje"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-msgid "New translations"
-msgstr "Nije oersettingen"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-msgid "Bug fixes"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr "Nije knop om mappen ta te foegjen"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-msgid "Improved adaptive user interface"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr "Nije help-siden"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
-"Opskjinje mei ien klik, jo hoege neat mear op te slaan nei it opskjinjen"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-msgid "Persistent lightweight cleaning option"
-msgstr ""
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-msgid "Files with uppercase extension can now be added"
-msgstr "Triemen mei haadletters yn de ekstinsje kin no tafoege wurde"
-
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "Triemen"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
 msgstr "Triemen tafoegje"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
 msgstr "Mappen tafoegje"
 
@@ -201,67 +106,11 @@ msgstr "Toetseboerd fluchtoetsen"
 msgid "Help"
 msgstr "Help"
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr "Oer"
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr "Chat op Matrix"
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr "Besjoch de koade op GitLab"
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr "Oersette op Weblate"
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr "Stypje ús op Liberapay"
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr "Mooglik makke troch"
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr "Koade"
-
-#: application/data/ui/AboutDialog.ui:176
-msgid "Artwork"
-msgstr "Untwerp"
-
-#: application/data/ui/AboutDialog.ui:182
-msgid "Documentation"
-msgstr "Dokumintaasje"
-
-#: application/data/ui/AboutDialog.ui:188
-msgid "Translation"
-msgstr "Oersetting"
-
-#: application/data/ui/AboutDialog.ui:193
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-"Dizze applikaasje brûkt <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> "
-"om de metadata te ferwurkjen en op te skjinjen. Besjoch harren koade ek ris!"
-
-#: application/data/ui/AboutDialog.ui:206
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
 msgstr "_Triemen Tafoegje"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
 msgstr "_Mappen Tafoegje"
 
@@ -351,24 +200,24 @@ msgstr "Oerflakkig Opskjinje"
 msgid "Learn more about the lightweight cleaning"
 msgstr "Lear mear oer it oerflakkich opskjinjen"
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 msgid "Details"
 msgstr "Details"
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 msgid "Close"
 msgstr "Slute"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 msgid "translator-credits"
 msgstr "Tjipke van der Heide <tjipke@tutanota.com>"
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
 msgstr "Triemen selektearje om op te skjinjen"
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
 msgstr "Mappen selektearje om op te skjinjen"
 
@@ -435,6 +284,96 @@ msgstr "Triem oan it ferwurkjen {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Triem oan it opskjinjen {}/{}"
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#~ msgid "Clean without warning"
+#~ msgstr "Opskjinje sûnder warskôging"
+
+#~ msgid "Clean the files without showing the warning dialog"
+#~ msgstr "De triemen opskjinje sûnder in warskôgings finster sjen te litten"
+
+#~ msgid "Lightweight cleaning"
+#~ msgstr "Oerflakkich opskjinje"
+
+#~ msgid "Don't make destructive changes to files but may leave some metadata"
+#~ msgstr ""
+#~ "Gjin destruktive feroaringen oan triemen meitsje, mar kin soms wat "
+#~ "metadata stean litte"
+
+#~ msgid "Window width"
+#~ msgstr "Finster breedte"
+
+#~ msgid "Saved width of the window"
+#~ msgstr "Opsleine breedte fan it finster"
+
+#~ msgid "Window height"
+#~ msgstr "Finster hichte"
+
+#~ msgid "Saved height of the window"
+#~ msgstr "Opsleine hichte fan it finster"
+
+#~ msgid "Updated translations"
+#~ msgstr "Fernijde oersettingen"
+
+#~ msgid "Improved user interface"
+#~ msgstr "Ferbettere brûkers ynterfaasje"
+
+#~ msgid "New translations"
+#~ msgstr "Nije oersettingen"
+
+#~ msgid "New button to add folders"
+#~ msgstr "Nije knop om mappen ta te foegjen"
+
+#~ msgid "New help pages"
+#~ msgstr "Nije help-siden"
+
+#~ msgid "One-click cleaning, no need to save after cleaning"
+#~ msgstr ""
+#~ "Opskjinje mei ien klik, jo hoege neat mear op te slaan nei it opskjinjen"
+
+#~ msgid "Files with uppercase extension can now be added"
+#~ msgstr "Triemen mei haadletters yn de ekstinsje kin no tafoege wurde"
+
+#~ msgid "About"
+#~ msgstr "Oer"
+
+#~ msgid "Chat on Matrix"
+#~ msgstr "Chat op Matrix"
+
+#~ msgid "View the code on GitLab"
+#~ msgstr "Besjoch de koade op GitLab"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "Oersette op Weblate"
+
+#~ msgid "Support us on Liberapay"
+#~ msgstr "Stypje ús op Liberapay"
+
+#~ msgid "Credits"
+#~ msgstr "Mooglik makke troch"
+
+#~ msgid "Code"
+#~ msgstr "Koade"
+
+#~ msgid "Artwork"
+#~ msgstr "Untwerp"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumintaasje"
+
+#~ msgid "Translation"
+#~ msgstr "Oersetting"
+
+#~ msgid ""
+#~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+#~ "parse and clean the metadata. Show them some love!"
+#~ msgstr ""
+#~ "Dizze applikaasje brûkt <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</"
+#~ "a> om de metadata te ferwurkjen en op te skjinjen. Besjoch harren koade "
+#~ "ek ris!"
 
 #~ msgid "Adding files…"
 #~ msgstr "Triemen oan it tafoegjen…"

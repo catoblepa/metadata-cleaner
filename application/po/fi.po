@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-26 11:17+0000\n"
+"POT-Creation-Date: 2023-02-19 11:06+0000\n"
 "PO-Revision-Date: 2022-10-07 12:33+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -23,7 +23,7 @@ msgstr ""
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
-#: application/data/ui/AboutDialog.ui:76 application/metadatacleaner/app.py:38
+#: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
 msgstr "Metatietojen puhdistus"
 
@@ -35,40 +35,6 @@ msgstr "Poista metatiedot tiedostoistasi"
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr "Metadata;Remover;Cleaner;poista;metatiedot;"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:10
-msgid "Clean without warning"
-msgstr "Siivoa varoittamatta"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:11
-msgid "Clean the files without showing the warning dialog"
-msgstr "Siivoa tiedostot ilman, että varoitusikkunaa näytetään"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:15
-msgid "Lightweight cleaning"
-msgstr "Kevyt siivoaminen"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:16
-msgid "Don't make destructive changes to files but may leave some metadata"
-msgstr ""
-"Älä tee tuhoavia muutoksia tiedostoihin, mutta jonkin verran metatietoja voi "
-"jäädä poistamatta"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:20
-msgid "Window width"
-msgstr "Ikkunan leveys"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:21
-msgid "Saved width of the window"
-msgstr "Ikkunan tallennettu leveys"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:25
-msgid "Window height"
-msgstr "Ikkunan korkeus"
-
-#: application/data/fr.romainvigier.MetadataCleaner.gschema.xml:26
-msgid "Saved height of the window"
-msgstr "Ikkunan tallennettu korkeus"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -96,78 +62,17 @@ msgstr ""
 "Tämä työkalu mahdollistaa tiedostojen metatietojen katselun. Lisäksi voit "
 "yrittää siivota metatiedot mahdollisimman kattavasti."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:73
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:81
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:89
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:97
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:105
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:113
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:121
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:129
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:137
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:145
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:154
-msgid "Updated translations"
-msgstr "Päivitetyt kielikäännökset"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:153
-msgid "Improved user interface"
-msgstr "Paranneltu käyttöliittymä"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:162
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:170
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:178
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:186
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:195
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:204
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:212
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:231
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:239
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:247
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:258
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:269
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:278
-msgid "New translations"
-msgstr "Uudet käännökset"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:194
-msgid "Bug fixes"
-msgstr "Korjatut viat"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:203
-msgid "New button to add folders"
-msgstr "Uusi painike kansioiden lisäämiseksi"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:220
-msgid "Improved adaptive user interface"
-msgstr "Paranneltu mukautuva käyttöliittymä"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:221
-msgid "New help pages"
-msgstr "Uudet ohjesivut"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:222
-msgid "One-click cleaning, no need to save after cleaning"
-msgstr ""
-"Siivousta kertanapsautuksella, ei tarvetta tallentaa siivouksen jälkeen"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:223
-msgid "Persistent lightweight cleaning option"
-msgstr "Pienimuotoisen siivouksen tila"
-
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:270
-msgid "Files with uppercase extension can now be added"
-msgstr "Tiedostoja, joiden tiedostopääte on isoin kirjaimin, voi nyt lisätä"
-
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
 msgstr "Tiedostot"
 
 #: application/data/gtk/help-overlay.ui:18
+#: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
 msgstr "Lisää tiedostoja"
 
 #: application/data/gtk/help-overlay.ui:24
+#: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
 msgstr "Lisää kansioita"
 
@@ -203,70 +108,11 @@ msgstr "Pikanäppäimet"
 msgid "Help"
 msgstr "Ohje"
 
-#: application/data/ui/AboutDialog.ui:38
-msgid "About"
-msgstr "Tietoja"
-
-#: application/data/ui/AboutDialog.ui:97
-msgid "Chat on Matrix"
-msgstr "Keskustele Matrixissa"
-
-#: application/data/ui/AboutDialog.ui:107
-msgid "View the code on GitLab"
-msgstr "Katso koodi GitLabista"
-
-#: application/data/ui/AboutDialog.ui:117
-msgid "Translate on Weblate"
-msgstr "Käännä Weblatessa"
-
-#: application/data/ui/AboutDialog.ui:127
-msgid "Support us on Liberapay"
-msgstr "Tue meitä Liberapayn kautta"
-
-#: application/data/ui/AboutDialog.ui:148
-msgid "Credits"
-msgstr "Tekijät"
-
-#: application/data/ui/AboutDialog.ui:170
-msgid "Code"
-msgstr "Koodi"
-
-#: application/data/ui/AboutDialog.ui:176
-msgid "Artwork"
-msgstr "Kuvitus"
-
-#: application/data/ui/AboutDialog.ui:182
-msgid "Documentation"
-msgstr "Dokumentaatio"
-
-#: application/data/ui/AboutDialog.ui:188
-msgid "Translation"
-msgstr "Käännös"
-
-#: application/data/ui/AboutDialog.ui:193
-msgid ""
-"This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
-"parse and clean the metadata. Show them some love!"
-msgstr ""
-"Tämä ohjelma käyttää <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a>:ta "
-"metatietojen siivoamiseen. Osoita arvostusta!"
-
-#: application/data/ui/AboutDialog.ui:206
-msgid ""
-"The source code of this program is released under the terms of the <a href="
-"\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. The "
-"original artwork and translations are released under the terms of the <a "
-"href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-msgstr ""
-"Ohjelman lähdekoodin lisenssi on <a href=\"https://www.gnu.org/licenses/"
-"gpl-3.0.html\">GNU GPL 3.0 tai myöhempi</a>. Kuvitus ja käännökset: <a href="
-"\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
-
-#: application/data/ui/AddFilesButton.ui:16
+#: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
 msgstr "_Lisää tiedostoja"
 
-#: application/data/ui/AddFilesButton.ui:29
+#: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
 msgstr "Lisää _kansioita"
 
@@ -355,24 +201,24 @@ msgstr "Pienimuotoinen siivous"
 msgid "Learn more about the lightweight cleaning"
 msgstr "Lue lisää pienimuotoisesta siivouksesta"
 
-#: application/data/ui/Window.ui:78
+#: application/data/ui/Window.ui:80
 msgid "Details"
 msgstr "Yksityiskohdat"
 
-#: application/data/ui/Window.ui:84
+#: application/data/ui/Window.ui:86
 msgid "Close"
 msgstr "Sulje"
 
-#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`). If names are already present, do not remove them and add yours on a new line.
-#: application/data/ui/Window.ui:105
+#. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
+#: application/data/ui/Window.ui:125
 msgid "translator-credits"
 msgstr "Jiri Grönroos"
 
-#: application/data/ui/Window.ui:114
+#: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
 msgstr "Valitse siivottavat tiedostot"
 
-#: application/data/ui/Window.ui:124
+#: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
 msgstr "Valitse siivottavat kansiot"
 
@@ -439,6 +285,115 @@ msgstr "Käsitellään tiedostoa {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Siivotaan tiedostoa {}/{}"
+
+#: application/metadatacleaner/ui/window.py:112
+msgid "Libraries"
+msgstr ""
+
+#~ msgid "Clean without warning"
+#~ msgstr "Siivoa varoittamatta"
+
+#~ msgid "Clean the files without showing the warning dialog"
+#~ msgstr "Siivoa tiedostot ilman, että varoitusikkunaa näytetään"
+
+#~ msgid "Lightweight cleaning"
+#~ msgstr "Kevyt siivoaminen"
+
+#~ msgid "Don't make destructive changes to files but may leave some metadata"
+#~ msgstr ""
+#~ "Älä tee tuhoavia muutoksia tiedostoihin, mutta jonkin verran metatietoja "
+#~ "voi jäädä poistamatta"
+
+#~ msgid "Window width"
+#~ msgstr "Ikkunan leveys"
+
+#~ msgid "Saved width of the window"
+#~ msgstr "Ikkunan tallennettu leveys"
+
+#~ msgid "Window height"
+#~ msgstr "Ikkunan korkeus"
+
+#~ msgid "Saved height of the window"
+#~ msgstr "Ikkunan tallennettu korkeus"
+
+#~ msgid "Updated translations"
+#~ msgstr "Päivitetyt kielikäännökset"
+
+#~ msgid "Improved user interface"
+#~ msgstr "Paranneltu käyttöliittymä"
+
+#~ msgid "New translations"
+#~ msgstr "Uudet käännökset"
+
+#~ msgid "Bug fixes"
+#~ msgstr "Korjatut viat"
+
+#~ msgid "New button to add folders"
+#~ msgstr "Uusi painike kansioiden lisäämiseksi"
+
+#~ msgid "Improved adaptive user interface"
+#~ msgstr "Paranneltu mukautuva käyttöliittymä"
+
+#~ msgid "New help pages"
+#~ msgstr "Uudet ohjesivut"
+
+#~ msgid "One-click cleaning, no need to save after cleaning"
+#~ msgstr ""
+#~ "Siivousta kertanapsautuksella, ei tarvetta tallentaa siivouksen jälkeen"
+
+#~ msgid "Persistent lightweight cleaning option"
+#~ msgstr "Pienimuotoisen siivouksen tila"
+
+#~ msgid "Files with uppercase extension can now be added"
+#~ msgstr "Tiedostoja, joiden tiedostopääte on isoin kirjaimin, voi nyt lisätä"
+
+#~ msgid "About"
+#~ msgstr "Tietoja"
+
+#~ msgid "Chat on Matrix"
+#~ msgstr "Keskustele Matrixissa"
+
+#~ msgid "View the code on GitLab"
+#~ msgstr "Katso koodi GitLabista"
+
+#~ msgid "Translate on Weblate"
+#~ msgstr "Käännä Weblatessa"
+
+#~ msgid "Support us on Liberapay"
+#~ msgstr "Tue meitä Liberapayn kautta"
+
+#~ msgid "Credits"
+#~ msgstr "Tekijät"
+
+#~ msgid "Code"
+#~ msgstr "Koodi"
+
+#~ msgid "Artwork"
+#~ msgstr "Kuvitus"
+
+#~ msgid "Documentation"
+#~ msgstr "Dokumentaatio"
+
+#~ msgid "Translation"
+#~ msgstr "Käännös"
+
+#~ msgid ""
+#~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
+#~ "parse and clean the metadata. Show them some love!"
+#~ msgstr ""
+#~ "Tämä ohjelma käyttää <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a>:"
+#~ "ta metatietojen siivoamiseen. Osoita arvostusta!"
+
+#~ msgid ""
+#~ "The source code of this program is released under the terms of the <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</"
+#~ "a>. The original artwork and translations are released under the terms of "
+#~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
+#~ "4.0</a>."
+#~ msgstr ""
+#~ "Ohjelman lähdekoodin lisenssi on <a href=\"https://www.gnu.org/licenses/"
+#~ "gpl-3.0.html\">GNU GPL 3.0 tai myöhempi</a>. Kuvitus ja käännökset: <a "
+#~ "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #~ msgid "Adding files…"
 #~ msgstr "Lisätään tiedostoja…"
