@@ -14,7 +14,6 @@ modules = [
 ]
 ui = [
   'ui/__init__.py',
-  'ui/aboutdialog.py',
   'ui/addfilesbutton.py',
   'ui/badge.py',
   'ui/cleaningwarningdialog.py',

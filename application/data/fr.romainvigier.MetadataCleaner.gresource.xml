@@ -13,8 +13,6 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-add-file-symbolic.svg">icons/add-file-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-add-folder-symbolic.svg">icons/add-folder-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-cancel-symbolic.svg">icons/cancel-symbolic.svg</file>
-		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-chat-symbolic.svg">icons/chat-symbolic.svg</file>
-		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-code-symbolic.svg">icons/code-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-credits-symbolic.svg">icons/credits-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-next-symbolic.svg">icons/go-next-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-go-next-symbolic-rtl.svg">icons/go-previous-symbolic.svg</file>
@@ -23,12 +21,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-help-symbolic.svg">icons/help-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-remove-symbolic.svg">icons/remove-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-settings-symbolic.svg">icons/settings-symbolic.svg</file>
-		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-support-symbolic.svg">icons/support-symbolic.svg</file>
-		<file preprocess="xml-stripblanks" alias="icons/scalable/actions/metadatacleaner-translate-symbolic.svg">icons/translate-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-ok-symbolic.svg">icons/ok-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-error-symbolic.svg">icons/error-symbolic.svg</file>
 		<file preprocess="xml-stripblanks" alias="icons/scalable/status/metadatacleaner-warning-symbolic.svg">icons/warning-symbolic.svg</file>
-		<file preprocess="xml-stripblanks">ui/AboutDialog.ui</file>
 		<file preprocess="xml-stripblanks">ui/AddFilesButton.ui</file>
 		<file preprocess="xml-stripblanks">ui/Badge.ui</file>
 		<file preprocess="xml-stripblanks">ui/CleaningWarningDialog.ui</file>

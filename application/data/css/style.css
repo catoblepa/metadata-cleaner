@@ -7,31 +7,13 @@ SPDX-License-Identifier: GPL-3.0-or-later
 @define-color accent_bg_color @accent_color;
 @define-color accent_fg_color #fff;
 
-window {
+window.main {
 	background: linear-gradient(180deg, @accent_bg_color 0px, @accent_bg_color 20px, @theme_bg_color 20px);
 }
 
-window.dialog,
-window.flat {
-	background: @theme_bg_color;
-}
-
-headerbar:not(.flat) {
+window.main headerbar {
 	background-color: @accent_bg_color;
 	color: @accent_fg_color;
-}
-
-headerbar:not(.flat) button:focus {
-	outline-color: alpha(@accent_fg_color, 0.5);
-}
-
-window.flat headerbar {
-	border-bottom: 1px solid @theme_bg_color;
-	transition: border 0.4s;
-}
-
-window.flat.scrolled headerbar {
-	border-bottom: 1px solid @borders;
 }
 
 button.help {
@@ -130,28 +112,4 @@ row.metadata>box {
 
 .badge label {
 	padding: 0 0.4em;
-}
-
-button.gitlab {
-	background-color: rgba(250, 112, 53, 1);
-	color: #fff;
-}
-
-button.liberapay {
-	background-color: rgba(246, 201, 21, 0.8);
-	color: #1a171b;
-}
-
-button.matrix {
-	background-color: rgba(129, 61, 156, 0.8);
-	color: #fff;
-}
-
-button.weblate {
-	background-color: rgba(46, 204, 170, 0.8);
-	color: #fff;
-}
-
-.app-icon {
-	-gtk-icon-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }

@@ -5,6 +5,9 @@ SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <interface>
   <template class="Window" parent="AdwApplicationWindow">
+    <style>
+      <class name="main"/>
+    </style>
     <property name="content">
       <object class="AdwFlap" id="_mode_flap">
         <property name="transition-type">slide</property>
@@ -94,20 +97,32 @@ SPDX-License-Identifier: GPL-3.0-or-later
       </object>
     </property>
   </template>
-  <object class="AboutDialog" id="_about_dialog">
+  <object class="AdwAboutWindow" id="_about_window">
     <property name="modal">True</property>
-    <property name="authors">Romain Vigier https://www.romainvigier.fr</property>
-    <property name="artists">Romain Vigier https://www.romainvigier.fr
-GNOME Design Team https://gitlab.gnome.org/Teams/Design</property>
-    <property name="documenters">Romain Vigier https://www.romainvigier.fr</property>
-    <property name="copyright">© 2020-2022 Romain Vigier</property>
-    <property name="translator-credits" translatable="yes" comments="Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name &lt;mail@example.org&gt;`). If names are already present, do not remove them and add yours on a new line.">translator-credits</property>
     <binding name="transient-for">
       <lookup name="root" type="GtkWidget"/>
     </binding>
+    <property name="hide-on-close">True</property>
+    <property name="application-icon">fr.romainvigier.MetadataCleaner</property>
+    <property name="application-name" translatable="yes">Metadata Cleaner</property>
     <binding name="version">
-      <lookup name="version" type="MetadataCleaner"><lookup name="application" type="GtkApplicationWindow"><lookup name="root" type="GtkWidget"/></lookup></lookup>
+      <lookup name="version" type="MetadataCleaner">
+        <lookup name="application" type="GtkApplicationWindow">
+          <lookup name="root" type="GtkWidget"/>
+        </lookup>
+      </lookup>
     </binding>
+    <property name="license-type">gpl-3-0</property>
+    <property name="website">https://metadatacleaner.romainvigier.fr/</property>
+    <property name="issue-url">https://gitlab.com/rmnvgr/metadata-cleaner/-/issues</property>
+    <property name="support-url">https://matrix.to/#/#metadata-cleaner:gnome.org</property>
+    <!-- <property name="comments" translatable="yes"><![CDATA[This program uses <a href="https://0xacab.org/jvoisin/mat2">mat2</a> to parse and clean the metadata. Show them some love!]]></property> -->
+    <property name="developer-name">Romain Vigier</property>
+    <property name="developers">Romain Vigier https://www.romainvigier.fr/</property>
+    <property name="documenters">Romain Vigier https://www.romainvigier.fr</property>
+    <property name="artists">Romain Vigier https://www.romainvigier.fr
+GNOME Design Team https://gitlab.gnome.org/Teams/Design</property>
+    <property name="translator-credits" translatable="yes" comments="Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name &lt;mail@example.org&gt;`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.">translator-credits</property>
   </object>
   <object class="FileChooserDialog" id="_file_chooser_dialog">
     <property name="title" translatable="yes">Choose files to clean</property>

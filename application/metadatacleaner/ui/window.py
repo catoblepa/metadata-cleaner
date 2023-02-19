@@ -9,7 +9,6 @@ from typing import Any
 
 from metadatacleaner.modules.filestore import FileStore, FileStoreState
 
-from metadatacleaner.ui.aboutdialog import AboutDialog
 from metadatacleaner.ui.addfilesbutton import AddFilesButton
 from metadatacleaner.ui.emptyview import EmptyView
 from metadatacleaner.ui.filechooserdialog import FileChooserDialog
@@ -32,7 +31,7 @@ class Window(Adw.ApplicationWindow):
     _view_stack: Gtk.Stack = Gtk.Template.Child()
     _details_view: DetailsView = Gtk.Template.Child()
 
-    _about_dialog: AboutDialog = Gtk.Template.Child()
+    _about_window: Adw.AboutWindow = Gtk.Template.Child()
     _file_chooser_dialog: FileChooserDialog = Gtk.Template.Child()
     _folder_chooser_dialog: FolderChooserDialog = Gtk.Template.Child()
     _cleaning_warning_dialog: CleaningWarningDialog = Gtk.Template.Child()
@@ -52,6 +51,7 @@ class Window(Adw.ApplicationWindow):
         self._setup_size()
         self._setup_devel_style()
         self._setup_file_store()
+        self._setup_about_window()
         self._setup_drop_target()
         self._setup_actions()
 
@@ -107,6 +107,10 @@ class Window(Adw.ApplicationWindow):
             "lightweight-mode",
             Gio.SettingsBindFlags.DEFAULT)
 
+    def _setup_about_window(self) -> None:
+        self._about_window.add_acknowledgement_section(
+            _("Libraries"), ["mat2 https://0xacab.org/jvoisin/mat2"])
+
     def _setup_drop_target(self) -> None:
 
         def on_drop(
@@ -130,7 +134,7 @@ class Window(Adw.ApplicationWindow):
         self.add_action(close)
 
         def on_about(action: Gio.Action, parameters: None) -> None:
-            self._about_dialog.show()
+            self._about_window.show()
         about = Gio.SimpleAction.new("about", None)
         about.connect("activate", on_about)
         self.add_action(about)
