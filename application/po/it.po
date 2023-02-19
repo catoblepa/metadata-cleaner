@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 11:09+0000\n"
-"PO-Revision-Date: 2023-01-08 02:05+0000\n"
+"PO-Revision-Date: 2023-02-19 13:16+0000\n"
 "Last-Translator: albanobattistella <albano_battistella@hotmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -291,7 +291,7 @@ msgstr "Pulizia file {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Librerie"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Pulisci senza preavviso"
