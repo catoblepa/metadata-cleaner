@@ -263,12 +263,6 @@ aside ul.actions a.code::before
 	mask-image: url(icons/code.svg);
 }
 
-aside ul.actions a.support::before
-{
-	-webkit-mask-image: url(icons/support.svg);
-	mask-image: url(icons/support.svg);
-}
-
 aside ul.actions a.translate::before
 {
 	-webkit-mask-image: url(icons/translate.svg);
