@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-02-20 11:08+0000\n"
-"PO-Revision-Date: 2023-02-18 11:39+0000\n"
+"PO-Revision-Date: 2023-03-01 11:36+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/nl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16-rc\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -155,14 +155,6 @@ msgstr "<gui style=\"button\">Bestanden toevoegen</gui>-knop"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
-#, fuzzy
-#| msgid ""
-#| "To add whole folders at once, press the arrow next to the <gui style="
-#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
-#| "Folders</gui> button. A file chooser will open, select the folders you "
-#| "want to add. You can optionally choose to also add all files from all "
-#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
-#| "subfolders</gui> checkbox."
 msgid ""
 "To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
@@ -170,18 +162,15 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Klik op de pijl naast <gui style=\"button\">Bestanden toevoegen</gui> en "
-"vervolgens op <gui style=\"button\">Mappen toevoegen</gui> om mappen toe te "
+"Druk op <gui style=\"button\">Mappen toevoegen</gui> om mappen toe te "
 "voegen. Kies in de bestandskiezer de toe te voegen mappen. Ook kunt u "
-"bestanden uit onderliggende mappen toevoegen door <gui style=\"checkbox"
-"\">Bestanden uit onderliggende mappen toevoegen</gui> aan te kruisen."
+"bestanden uit onderliggende mappen toevoegen door <gui style=\"checkbox\""
+">Bestanden uit onderliggende mappen toevoegen</gui> aan te kruisen."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
-#, fuzzy
-#| msgid "<gui style=\"button\">Add Files</gui> button"
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "<gui style=\"button\">Bestanden toevoegen</gui>-knop"
+msgstr "<gui style=\"button\">Mappen toevoegen</gui>-knop"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
