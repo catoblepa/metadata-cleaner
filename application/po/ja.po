@@ -1,23 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Kaede <contact@kaede.ch>, 2021, 2022.
+# Kaede <contact@kaede.ch>, 2021, 2022, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-20 11:08+0000\n"
-"PO-Revision-Date: 2022-07-21 15:21+0000\n"
+"PO-Revision-Date: 2023-03-01 00:47+0000\n"
 "Last-Translator: Kaede <contact@kaede.ch>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/ja/>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.16-rc\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -209,7 +209,7 @@ msgstr "閉じる"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr "Kaede <contact@kaede.ch>"
+msgstr "Kaede https://kaede.ch/"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
@@ -221,7 +221,7 @@ msgstr "メタデータを除去するフォルダを選択"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "除去中にエラーが発生しました。"
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -283,7 +283,7 @@ msgstr "メタデータ除去中のファイル {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "ライブラリ"
 
 #~ msgid "Clean without warning"
 #~ msgstr "警告なしで除去"
