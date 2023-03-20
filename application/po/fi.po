@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2021, 2022.
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2021, 2022, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # Janne <mutikaane@gmail.com>, 2021.
 msgid ""
@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-20 11:08+0000\n"
-"PO-Revision-Date: 2022-10-07 12:33+0000\n"
+"PO-Revision-Date: 2023-03-21 07:37+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/fi/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -224,7 +224,7 @@ msgstr "Valitse siivottavat kansiot"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "Puhdistuksen aikana tapahtui virhe."
 
 #: application/metadatacleaner/modules/file.py:247
 msgid "Something bad happened during the cleaning, cleaned file not found"
@@ -288,7 +288,7 @@ msgstr "Siivotaan tiedostoa {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Kirjastot"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Siivoa varoittamatta"
