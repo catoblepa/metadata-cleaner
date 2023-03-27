@@ -6,6 +6,20 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.5.1] - 2023-03-27
+
+### Changed
+
+- Updated Croatian translation (contributed by @milotype)
+- Updated Dutch translation (contributed by @philip.goto)
+- Updated Finnish translation (contributed by @artnay)
+- Updated Japanese translation (contributed by Kaede)
+- Updated Occitan translation (contributed by @quenty_occitania)
+- Updated Portuguese (Brazil) translation (contributed by @fkinoshita)
+- Updated Turkish translation (contributed by @sabriunal)
+
+
+
 ## [2.5.0] - 2023-02-19
 
 Packagers: Metadata Cleaner now depends on at least version 1.2 of Libadwaita.
