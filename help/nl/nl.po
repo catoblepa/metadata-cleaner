@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-02-20 11:08+0000\n"
+"POT-Creation-Date: 2023-03-27 09:38+0000\n"
 "PO-Revision-Date: 2023-03-01 11:36+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -164,8 +164,8 @@ msgid ""
 msgstr ""
 "Druk op <gui style=\"button\">Mappen toevoegen</gui> om mappen toe te "
 "voegen. Kies in de bestandskiezer de toe te voegen mappen. Ook kunt u "
-"bestanden uit onderliggende mappen toevoegen door <gui style=\"checkbox\""
-">Bestanden uit onderliggende mappen toevoegen</gui> aan te kruisen."
+"bestanden uit onderliggende mappen toevoegen door <gui style=\"checkbox"
+"\">Bestanden uit onderliggende mappen toevoegen</gui> aan te kruisen."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
