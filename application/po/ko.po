@@ -4,13 +4,14 @@
 # minn _ <xxxzm8818@gmail.com>, 2021.
 # 이정희 <daemul72@gmail.com>, 2022.
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2023.
+# honnip <tmddn741741@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-27 09:38+0000\n"
-"PO-Revision-Date: 2023-01-27 17:46+0000\n"
-"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"PO-Revision-Date: 2023-03-31 12:37+0000\n"
+"Last-Translator: honnip <tmddn741741@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ko/>\n"
 "Language: ko\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -286,7 +287,7 @@ msgstr "{}/{} 파일 정리 중"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "라이브러리"
 
 #~ msgid "Clean without warning"
 #~ msgstr "경고 없이 정리"
