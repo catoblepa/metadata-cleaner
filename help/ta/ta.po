@@ -1,10 +1,11 @@
 # K.B.Dharun Krishna <kbdharunkrishna@gmail.com>, 2022.
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-03-27 09:38+0000\n"
-"PO-Revision-Date: 2022-10-01 18:18+0000\n"
-"Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
+"PO-Revision-Date: 2023-04-11 06:48+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Tamil <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/ta/>\n"
 "Language: ta\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -154,14 +155,6 @@ msgstr "<gui style=\"button\">கோப்புகளைச் சேர்</gu
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
-#, fuzzy
-#| msgid ""
-#| "To add whole folders at once, press the arrow next to the <gui style="
-#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
-#| "Folders</gui> button. A file chooser will open, select the folders you "
-#| "want to add. You can optionally choose to also add all files from all "
-#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
-#| "subfolders</gui> checkbox."
 msgid ""
 "To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
@@ -169,19 +162,17 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"ஒரே நேரத்தில் முழு கோப்புறைகளையும் சேர்க்க, <gui style=\"button\">கோப்புகளைச் சேர்</"
-"gui> பொத்தானுக்கு அடுத்துள்ள அம்புக்குறியை அழுத்தி, <gui style=\"button"
-"\">கோப்புறைகளைச் சேர்</gui> பொத்தானை அழுத்தவும். ஒரு கோப்புத் தேர்வி திறக்கும், நீங்கள் "
-"சேர்க்க விரும்பும் கோப்புறைகளைத் தேர்ந்தெடுக்கவும். <gui style=\"checkbox\">துணைக் "
-"கோப்புறைகளிலிருந்து கோப்புகளைச் சேர்</gui> தேர்வுப்பெட்டியைச் சரிபார்ப்பதன் மூலம், அனைத்து "
-"துணைக் கோப்புறைகளிலிருந்தும் எல்லா கோப்புகளையும் சேர்க்க விருப்பமாகத் தேர்வுசெய்யலாம்."
+"ஒரே நேரத்தில் முழு கோப்புறைகளையும் சேர்க்க, <gui style=\"button\""
+">கோப்புறைகளைச் சேர்</gui> பொத்தானை அழுத்தவும். ஒரு கோப்புத் தேர்வு செய்யும் "
+"கருவி திறக்கும், நீங்கள் சேர்க்க விரும்பும் கோப்புறைகளைத் தேர்ந்தெடுக்கவும். "
+"<gui style=\"checkbox\">துணைக் கோப்புறைகளிலிருந்து கோப்புகளைச் சேர்</gui> "
+"தேர்வுப்பெட்டியைச் சரிபார்ப்பதன் மூலம், அனைத்து துணைக் கோப்புறைகளிலிருந்தும் "
+"எல்லா கோப்புகளையும் சேர்க்க விருப்பமாகத் தேர்வுசெய்யலாம்."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
-#, fuzzy
-#| msgid "<gui style=\"button\">Add Files</gui> button"
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "<gui style=\"button\">கோப்புகளைச் சேர்</gui> பொத்தான்"
+msgstr "<gui style=\"button\">கோப்புறைகளைச் சேர்</gui> பொத்தான்"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
