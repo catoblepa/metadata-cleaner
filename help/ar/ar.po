@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-03-27 09:38+0000\n"
+"POT-Creation-Date: 2023-05-08 19:22+0000\n"
 "PO-Revision-Date: 2023-04-26 12:16+0000\n"
 "Last-Translator: Ali Aljishi <ahj696@hotmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -42,9 +42,9 @@ msgid ""
 "disclose it."
 msgstr ""
 "يمكن للبيانات الوصفية داخل الملف أن تبدي معلومات كثيرة عنك، فترى الكاميرات "
-"تحفظ معلومات عن أين ومتى صُوِّرت الصورة وأي كاميرا اُستخدمت، وترى تطبيقات "
-"الحزم المكتبية تضيف معلومات المؤلف والشركة إلى المستندات وجداول البيانات. "
-"هذه بيانات حساسة وقد لا تريد مشاركتها."
+"تحفظ معلومات عن أين ومتى صُوِّرت الصورة وأي كاميرا اُستخدمت، وترى تطبيقات الحزم "
+"المكتبية تضيف معلومات المؤلف والشركة إلى المستندات وجداول البيانات. هذه "
+"بيانات حساسة وقد لا تريد مشاركتها."
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
