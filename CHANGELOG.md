@@ -6,6 +6,23 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.5.2] - 2023-05-08
+
+### Added
+
+- New Urdu translation (contributed by duckienome)
+
+### Changed
+
+- Updated Arabic translation (contributed by @Ali-98)
+- Updated Hungarian translation (contributed by Szia Tomi)
+- Updated Greek translation (contributed by Athanasios)
+- Updated Korean translation (contributed by @honnip)
+- Updated Russian translation (contributed by @ashed)
+- Updated Tamil translation (contributed by @kbdharun)
+- Updated Ukrainian translation (contributed by @ihor_ck)
+
+
 ## [2.5.1] - 2023-03-27
 
 ### Changed
