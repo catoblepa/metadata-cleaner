@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-08 19:53+0000\n"
-"PO-Revision-Date: 2023-03-31 12:37+0000\n"
-"Last-Translator: honnip <tmddn741741@gmail.com>\n"
+"PO-Revision-Date: 2023-06-14 02:12+0000\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ko/>\n"
 "Language: ko\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -30,7 +30,7 @@ msgstr "메타데이터 클리너"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr "사용자의 파일에서 메타데이터 정리하기"
+msgstr "사용자 파일의 메타데이터를 정리합니다"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
@@ -40,7 +40,7 @@ msgstr ""
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr "파일에서 메타데이터 보기 및 정리하기"
+msgstr "파일의 메타데이터를 보고 정리합니다"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
 msgid ""
@@ -50,10 +50,10 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"파일의 메타데이터는 사용자의 여러 정보가 담겨있습니다. 카메라는 어디서 사진"
-"을 찍었고 어떤 카메라를 사용했는지 데이터를 기록합니다. 오피스 프로그램은 작"
-"성자와 회사 정보를 문서와 스프레드 시트에 추가합니다. 이는 파일에 넣고 싶지 "
-"않은 민감한 정보입니다."
+"파일의 메타데이터는 사용자의 여러 정보가 담겨있습니다. 카메라는 어디서 "
+"사진을 찍었고 어떤 카메라를 사용했는지 데이터를 기록합니다. 오피스 "
+"프로그램은 작성자와 회사 정보를 문서와 스프레드 시트에 추가합니다. 이런 "
+"민감한 정보는 파일에 넣고 싶지 않습니다."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
