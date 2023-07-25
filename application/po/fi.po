@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-25 07:57+0000\n"
-"PO-Revision-Date: 2023-03-21 07:37+0000\n"
+"PO-Revision-Date: 2023-07-26 15:06+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/fi/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -186,8 +186,6 @@ msgid "_About Metadata Cleaner"
 msgstr "_Tietoja - Metatietojen poistaja"
 
 #: application/data/ui/MenuButton.ui:38
-#, fuzzy
-#| msgid "Main menu"
 msgid "Main Menu"
 msgstr "Päävalikko"
 
