@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # liimee <alt3753.7@gmail.com>, 2021, 2022.
-# Reza Almanda <rezaalmanda27@gmail.com>, 2021.
+# Reza Almanda <rezaalmanda27@gmail.com>, 2021, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # neko <smurfkandy@tutanota.com>, 2021.
 # Ibnul Mutaki <ibnuul@gmail.com>, 2022.
@@ -12,16 +12,16 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-25 07:57+0000\n"
-"PO-Revision-Date: 2023-02-09 19:35+0000\n"
-"Last-Translator: Ciki Momogi <github.devility@aleeas.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/id/>\n"
+"PO-Revision-Date: 2023-08-04 00:15+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -194,8 +194,6 @@ msgid "_About Metadata Cleaner"
 msgstr "_Tentang Metadata Cleaner"
 
 #: application/data/ui/MenuButton.ui:38
-#, fuzzy
-#| msgid "Main menu"
 msgid "Main Menu"
 msgstr "Menu utama"
 
@@ -304,7 +302,7 @@ msgstr "Membersihkan berkas {}/{}"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Perpustakaan"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Bersihkan tanpa peringatan"
