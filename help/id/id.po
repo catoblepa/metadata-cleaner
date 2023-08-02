@@ -1,5 +1,5 @@
 # liimee <alt3753.7@gmail.com>, 2021.
-# Reza Almanda <rezaalmanda27@gmail.com>, 2021.
+# Reza Almanda <rezaalmanda27@gmail.com>, 2021, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # neko <smurfkandy@tutanota.com>, 2021.
 # Ibnul Mutaki <ibnuul@gmail.com>, 2022.
@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-06-25 07:57+0000\n"
-"PO-Revision-Date: 2023-02-09 19:35+0000\n"
-"Last-Translator: Ciki Momogi <github.devility@aleeas.com>\n"
-"Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/help/id/>\n"
+"PO-Revision-Date: 2023-08-04 00:11+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/help/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -160,14 +160,6 @@ msgstr "Tombol <gui style=\"button\">Tambah File</gui>"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
-#, fuzzy
-#| msgid ""
-#| "To add whole folders at once, press the arrow next to the <gui style="
-#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
-#| "Folders</gui> button. A file chooser will open, select the folders you "
-#| "want to add. You can optionally choose to also add all files from all "
-#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
-#| "subfolders</gui> checkbox."
 msgid ""
 "To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
@@ -175,19 +167,16 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Untuk menambahkan seluruh folder sekaligus, tekan panah di sebelah tombol "
-"<gui style=\"button\">Tambah File</gui> dan tekan tombol <gui style=\"button"
-"\">Tambah Folder</gui>. Sebuah pemilih file akan terbuka, pilih folder yang "
-"ingin Anda tambahkan. Anda juga dapat memilih untuk menambahkan semua file "
-"dari semua subfolder dengan mencentang kotak <gui style=\"checkbox\">Tambah "
-"file dari subfolder</gui>."
+"Untuk menambahkan seluruh folder sekaligus, tekan tombol <gui style=\"button"
+"\"> Tambahkan Folder </gui>. pemilih file akan terbuka, pilih folder yang "
+"ingin Anda tambahkan. Anda dapat memilih untuk juga menambahkan semua file "
+"dari semua subfolder dengan memeriksa <gui style=\"checkbox\"> Tambahkan "
+"file dari subfolder </gui> kotak centang."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
-#, fuzzy
-#| msgid "<gui style=\"button\">Add Files</gui> button"
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "Tombol <gui style=\"button\">Tambah File</gui>"
+msgstr "<gui style=\"button\"> Tambahkan Folder </gui> tombol"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
