@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-06-25 07:57+0000\n"
+"POT-Creation-Date: 2023-08-06 08:18+0000\n"
 "PO-Revision-Date: 2022-03-01 06:58+0000\n"
 "Last-Translator: Anon Ymous <mivon27841@shackvine.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/metadata-cleaner/"
