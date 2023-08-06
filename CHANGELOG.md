@@ -6,6 +6,30 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # Changelog
 
 
+## [2.5.3] - 2023-08-06
+
+### Added
+
+- New Esperanto translation (contributed by jimgr)
+
+### Changed
+
+- Updated Arabic translation (contributed by @Ali-98)
+- Updated Croatian translation (contributed by @milotype)
+- Updated Czech translation (contributed by @pisekpiskovec)
+- Updated Dutch translation (contributed by @philip.goto)
+- Updated Finnish translation (contributed by @artnay)
+- Updated French translation
+- Updated Hungarian translation (contributed by Szia Tomi)
+- Updated Indonesian translation (contributed by @rezaalmanda)
+- Updated Italian translation (contributed by @albanobattistella)
+- Updated Korean translation (contributed by @darkcircle.0426)
+- Updated Spanish translation (contributed by Óscar Fernández Díaz)
+- Updated Swedish translation (contributed by @bittin1)
+- Updated Turkish translation (contributed by @ersen)
+- Updated Ukrainian translation (contributed by @ihor_ck)
+
+
 ## [2.5.2] - 2023-05-08
 
 ### Added
