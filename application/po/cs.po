@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-06 08:18+0000\n"
-"PO-Revision-Date: 2023-08-20 14:47+0000\n"
+"PO-Revision-Date: 2023-08-21 14:48+0000\n"
 "Last-Translator: Písek Pískovec <pisekpiskovec@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/cs/>\n"
@@ -252,11 +252,11 @@ msgstr "Nelze načíst soubor"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr "Typ souboru není podporován."
+msgstr "Typ souboru není podporován"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr "Nelze zkontrolovat metadata."
+msgstr "Nelze zkontrolovat metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
@@ -264,7 +264,7 @@ msgstr "Žádná známá metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr "Nepodařilo se odstranit metadata."
+msgstr "Nepodařilo se odstranit metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
