@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-08-06 08:18+0000\n"
+"POT-Creation-Date: 2023-08-29 20:11+0000\n"
 "PO-Revision-Date: 2023-06-18 12:50+0000\n"
 "Last-Translator: Viktor Broov <broov2024@gmail.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/metadata-"
