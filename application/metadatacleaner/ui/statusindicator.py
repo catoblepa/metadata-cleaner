@@ -4,7 +4,7 @@
 """Indicator showing the status of the files manager."""
 
 from gettext import gettext as _
-from gettext import ngettext as __
+from gettext import ngettext
 from gi.repository import Gio, GLib, GObject, Gtk
 
 from metadatacleaner.modules.filestore \
@@ -75,12 +75,12 @@ class StatusIndicator(Gtk.Stack):
         self._sync_progressbar(current, total)
         if current == total:
             if file_store.last_action == FileStoreAction.CLEANING:
-                clean_message = __(
+                clean_message = ngettext(
                     "%i file cleaned.",
                     "%i files cleaned.",
                     len(file_store.get_cleaned_files())
                 ) % len(file_store.get_cleaned_files())
-                error_message = (__(
+                error_message = (ngettext(
                     "%i error occured.",
                     "%i errors occured.",
                     len(file_store.get_errored_files())
