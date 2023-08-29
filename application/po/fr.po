@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataRemover\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-29 20:11+0000\n"
-"PO-Revision-Date: 2023-06-25 07:44+0000\n"
+"PO-Revision-Date: 2023-08-31 17:53+0000\n"
 "Last-Translator: Romain Vigier <romain@romainvigier.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -294,15 +294,15 @@ msgstr "Nettoyage du fichier {}/{}"
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%i fichier nettoyé."
+msgstr[1] "%i fichiers nettoyés."
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Une erreur est survenue."
+msgstr[1] "%i erreurs sont survenues."
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
