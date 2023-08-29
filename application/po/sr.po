@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-06 08:18+0000\n"
+"POT-Creation-Date: 2023-08-29 20:11+0000\n"
 "PO-Revision-Date: 2022-10-31 15:02+0000\n"
 "Last-Translator: Andrija Djakovic <bozika331@yahoo.com>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -284,6 +284,22 @@ msgstr "Обрађујем фајл {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Чистим фајл {}/{}"
+
+#: application/metadatacleaner/ui/statusindicator.py:79
+#, python-format
+msgid "%i file cleaned."
+msgid_plural "%i files cleaned."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: application/metadatacleaner/ui/statusindicator.py:84
+#, python-format
+msgid "%i error occured."
+msgid_plural "%i errors occured."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"

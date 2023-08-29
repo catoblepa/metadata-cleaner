@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-06 08:18+0000\n"
+"POT-Creation-Date: 2023-08-29 20:11+0000\n"
 "PO-Revision-Date: 2023-01-13 03:51+0000\n"
 "Last-Translator: Ujhhgtg <feyxiexzf@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -281,6 +281,18 @@ msgstr "正在处理文件 {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "正在删除元数据 {}/{}"
+
+#: application/metadatacleaner/ui/statusindicator.py:79
+#, python-format
+msgid "%i file cleaned."
+msgid_plural "%i files cleaned."
+msgstr[0] ""
+
+#: application/metadatacleaner/ui/statusindicator.py:84
+#, python-format
+msgid "%i error occured."
+msgid_plural "%i errors occured."
+msgstr[0] ""
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"

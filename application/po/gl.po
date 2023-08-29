@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-06 08:18+0000\n"
+"POT-Creation-Date: 2023-08-29 20:11+0000\n"
 "PO-Revision-Date: 2023-01-08 02:05+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/metadata-"
@@ -289,6 +289,20 @@ msgstr "Procesando o ficheiro {}/{}"
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
 msgstr "Limpando o ficheiro {}/{}"
+
+#: application/metadatacleaner/ui/statusindicator.py:79
+#, python-format
+msgid "%i file cleaned."
+msgid_plural "%i files cleaned."
+msgstr[0] ""
+msgstr[1] ""
+
+#: application/metadatacleaner/ui/statusindicator.py:84
+#, python-format
+msgid "%i error occured."
+msgid_plural "%i errors occured."
+msgstr[0] ""
+msgstr[1] ""
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
