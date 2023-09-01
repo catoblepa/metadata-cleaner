@@ -1,19 +1,23 @@
+# victor dargallo <victordargallo@disroot.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-08-29 20:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-09-02 14:54+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"Language-Team: Catalan <https://hosted.weblate.org/projects/metadata-cleaner/"
+"help/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metadades i privadesa"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:15
@@ -23,6 +27,10 @@ msgid ""
 "who, what, when, where, why, and how about every facet of the data that is "
 "being documented."
 msgstr ""
+"Les metadades consisteixen en informació que caracteritza les dades. Les "
+"metadades s'utilitzen per proporcionar documentació dels productes de dades. "
+"En essència, les metadades responen a qui, què, quan, on, per què i com "
+"sobre cada faceta de les dades que s'estan documentant."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:16
@@ -33,11 +41,16 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"Les metadades d'un fitxer poden dir molt sobre vosaltres. Les càmeres "
+"registren dades sobre quan i on es va fer una fotografia i quina càmera es "
+"va utilitzar. Les aplicacions d'oficina afegeixen automàticament informació "
+"de l'autor i de l'empresa als documents i fulls de càlcul. Aquesta és "
+"informació sensible i és possible que no vulgueu revelar-la."
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Exemple de metadades en un fitxer d'imatge"
 
 #. (itstool) path: figure/desc
 #: ../help/C/general.page:20
@@ -45,11 +58,13 @@ msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"El fitxer revela informació sobre el maquinari, la configuració, la data i "
+"la ubicació de la presa de la fotografia. Conté un total de 79 metadades."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Procés de neteja"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:28
@@ -60,6 +75,12 @@ msgid ""
 "for complex file formats. This is why you shouldn't rely on metadata's "
 "presence to decide if your file must be cleaned or not."
 msgstr ""
+"Tot i que el <app>Netejador de Metadades</app> està fent tot el possible per "
+"mostrar les metadades, això no vol dir que un fitxer estigui net de "
+"metadades si no en mostra cap. No hi ha cap manera fiable de detectar totes "
+"les metadades possibles per a formats de fitxer complexos. És per això que "
+"no hauríeu de confiar en la presència de metadades per decidir si el vostre "
+"fitxer s'ha de netejar o no."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:29
@@ -67,11 +88,14 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"El <app>Netejador de Metadades</app> agafa el contingut del fitxer i el col·"
+"loca en un de nou sense metadades, assegurant que les metadades no "
+"detectades siguin eliminades."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Limitacions"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:36
@@ -80,12 +104,16 @@ msgid ""
 "itself discloses personal information or has been watermarked, traditionally "
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Tingueu en compte que les metadades no són l'única manera de marcar un "
+"fitxer. Si el contingut en si revela informació personal o s'ha marcat amb "
+"una marca d'aigua, tradicionalment o mitjançant esteganografia, el "
+"<app>Netejador de Metadades</app> no us protegirà."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
 #: ../help/C/index.page:10
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Netejador de Metadades"
 
 #. (itstool) path: page/p
 #: ../help/C/index.page:14
@@ -93,21 +121,23 @@ msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
 msgstr ""
+"El <app>Netejador de Metadades</app> us permet veure les metadades dels "
+"vostres fitxers i desfer-vos-en d'elles tant com sigui possible."
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:17
 msgid "General information"
-msgstr ""
+msgstr "Informació general"
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Ús del <app>Netejador de Metadades</app>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Afegir fitxers"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:15
@@ -115,11 +145,14 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
+"Per afegir fitxers, premeu el botó <gui style=\"button\">Afegeix fitxers</"
+"gui>. S'obrirà un selector de fitxers, seleccioneu els fitxers que voleu "
+"netejar."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "Botó d'<gui style=\"button\">Afegeix fitxers</gui>"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
@@ -130,16 +163,21 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
+"Per afegir carpetes senceres alhora, premeu el botó <gui style=\"button\""
+">Afegeix carpetes</gui>. S'obrirà un selector de fitxers, seleccioneu les "
+"carpetes que voleu afegir. Opcionalment, podeu escollir també afegir tots "
+"els fitxers de totes les subcarpetes marcant la casella de selecció <gui "
+"style=\"checkbox\">Afegeix fitxers de les subcarpetes</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr ""
+msgstr "Botó d'<gui style=\"button\">Afegeix carpetes</gui>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Veure les metadades"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:31
@@ -147,16 +185,18 @@ msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
 msgstr ""
+"Feu clic a un fitxer de la llista per obrir la vista detallada. Si té "
+"metadades, es mostraran allà."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Vista detallada de les metadades"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:41
 msgid "Cleaning files"
-msgstr ""
+msgstr "Neteja dels fitxers"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:42
@@ -164,16 +204,19 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Per netejar tots els fitxers de la finestra, premeu el botó <gui style="
+"\"button\">Neteja</gui>. El procés de neteja pot trigar una mica a completar-"
+"se."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "Botó de <gui style=\"button\">Neteja</gui>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:52
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Neteja lleugera"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:53
@@ -183,6 +226,10 @@ msgid ""
 "might not be selectable anymore, compressed images might get compressed "
 "again…"
 msgstr ""
+"De manera predeterminada, el procés d'eliminació pot alterar una mica les "
+"dades dels vostres fitxers, per tal d'eliminar tantes metadades com sigui "
+"possible. Per exemple, és possible que els textos en PDF ja no es puguin "
+"seleccionar, les imatges comprimides es podrien tornar a comprimir…"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:54
@@ -190,3 +237,5 @@ msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
 msgstr ""
+"El mode lleuger, tot i que no és tan complet, no farà canvis destructius als "
+"vostres fitxers."
