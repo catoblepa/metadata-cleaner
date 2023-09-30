@@ -1,11 +1,12 @@
 # Zszywek <zszywek+weblate@gmail.com>, 2022.
 # Anon Ymous <mivon27841@shackvine.com>, 2022.
+# Eryk Michalak <gnu.ewm@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2022-03-01 06:58+0000\n"
-"Last-Translator: Anon Ymous <mivon27841@shackvine.com>\n"
+"PO-Revision-Date: 2023-10-01 10:59+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/pl/>\n"
 "Language: pl\n"
@@ -14,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -32,7 +33,6 @@ msgstr ""
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:16
-#, fuzzy
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -40,11 +40,11 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Metadane w pliku mogą wiele o Tobie powiedzieć. Kamery rejestrują dane o "
-"tym, kiedy i gdzie zostało zrobione zdjęcie oraz jakiego aparatu użyto. "
-"Aplikacje pakietu Office automatycznie dodają informacje o autorze i firmie "
-"do dokumentów i arkuszy kalkulacyjnych. Są to informacje poufne i możesz nie "
-"chcieć ich ujawniać."
+"Metadane w pliku mogą wiele o tobie powiedzieć. Aparaty fotograficzne "
+"zapisują dane o tym, kiedy i gdzie zostało wykonane zdjęcie oraz który "
+"aparat został użyty. Aplikacje biurowe automatycznie dodają informacje o "
+"autorze i firmie do dokumentów i arkuszy kalkulacyjnych. Są to informacje "
+"wrażliwe i możesz nie chcieć ich ujawniać."
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
