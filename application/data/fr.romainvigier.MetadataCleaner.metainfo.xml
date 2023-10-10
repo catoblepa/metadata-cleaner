@@ -21,6 +21,7 @@ SPDX-License-Identifier: GPL-3.0-or-later
   <url type="bugtracker">https://gitlab.com/rmnvgr/metadata-cleaner/-/issues</url>
   <url type="contact">https://matrix.to/#/#metadata-cleaner:gnome.org</url>
   <url type="translate">https://hosted.weblate.org/engage/metadata-cleaner/</url>
+  <url type="vcs-browser">https://gitlab.com/rmnvgr/metadata-cleaner/</url>    
 
   <description>
     <p>Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it.</p>
