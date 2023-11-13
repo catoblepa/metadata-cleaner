@@ -65,6 +65,8 @@ modules:
             url: https://0xacab.org/jvoisin/mat2.git
             tag: 0.13.4
             commit: 04786d75dab33bc292067a114c075f403719bfac
+          - type: patch
+            path: sandbox-fix.patch
         modules:
           - name: exiftool
             buildsystem: simple
