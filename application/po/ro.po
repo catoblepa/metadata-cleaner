@@ -3,22 +3,23 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Victor Mihalache <vmhl.ph@gmail.com>, 2021.
 # Matt C <matei.gurzu@gmail.com>, 2023.
+# Andrea Andre <andrea.tsg19@slmail.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2023-02-18 19:12+0000\n"
-"Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
-"Language-Team: Romanian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/ro/>\n"
+"PO-Revision-Date: 2023-11-16 13:05+0000\n"
+"Last-Translator: Andrea Andre <andrea.tsg19@slmail.me>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.2\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -29,12 +30,12 @@ msgstr "Curățător de Metadate"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr "Curățați metadatele din fișierele dumneavoastră"
+msgstr "Curăță metadatele din fișierele tale"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr "Metadate;Eliminător;Curățător;"
+msgstr "Metadata;Remover;Cleaner;Metadate;Eliminator;Curățător;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -60,8 +61,8 @@ msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
-"Acest instrument îți permite să vizualizați metadatele din fișierele tale și "
-"să scapi de ele, pe cât posibil."
+"Acest instrument îți permite să vezi metadatele din fișierele tale și să "
+"scapi de ele, pe cât posibil."
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -75,7 +76,7 @@ msgstr "Adaugă fișiere"
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr "Adaugă foldere"
+msgstr "Adaugă dosare"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -87,7 +88,7 @@ msgstr "Șterge toate fișierele din fereastră"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr "General"
+msgstr "Generale"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
@@ -103,7 +104,7 @@ msgstr "Ieși"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr "Scurtături de tastieră"
+msgstr "Scurtături"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
@@ -123,7 +124,7 @@ msgstr "_Curăță"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr "Asigură-te că v-ați făcut o copie de rezervă a fișierelor!"
+msgstr "Asigură-te că ai făcut o copie de rezervă a fișierelor!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
@@ -136,7 +137,7 @@ msgstr "Nu-mi mai spune"
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
-msgstr "Anulează"
+msgstr "Renunță"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
@@ -149,7 +150,7 @@ msgstr "Curăță-ți urmele"
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
-"Aflați mai multe despre metadate și despre limitările procesului de curățare"
+"Află mai multe despre metadate și despre limitările procesului de curățare"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
@@ -169,11 +170,11 @@ msgstr "Curățat"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr "_Fereastră nouă"
+msgstr "Fereastră _nouă"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr "_Șterge fereastra"
+msgstr "Șt_erge fereastra"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
@@ -181,21 +182,19 @@ msgstr "_Ajutor"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr "_Scurtături de tastieră"
+msgstr "_Scurtături"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
 msgstr "_Despre Curățător de Metadate"
 
 #: application/data/ui/MenuButton.ui:38
-#, fuzzy
-#| msgid "Main menu"
 msgid "Main Menu"
-msgstr "Meniu principal"
+msgstr "Opțiuni"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr "Setări de curățare"
+msgstr "Opțiuni de curățare"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
@@ -257,11 +256,11 @@ msgstr "Nu se poate citi fișierul"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr "Tipul de fișier nu este suportat"
+msgstr "Tipul de fișier nu este acceptat"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr "Imposibil de verificat metadate"
+msgstr "Metadatele nu pot fi verificate"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
@@ -277,7 +276,7 @@ msgstr "Fișierul va fi curățat oricum, pentru a fi siguri."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr "Toate fișierele suportate"
+msgstr "Toate fișierele acceptate"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
@@ -289,27 +288,27 @@ msgstr "Se procesează fișierul {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
-msgstr "Curățare fișier {}/{}"
+msgstr "Se curăță fișierul {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:79
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%i fișier curățat."
+msgstr[1] "%i fișiere curățate."
+msgstr[2] "%i de fișiere curățate."
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "S-a produs %i eroare."
+msgstr[1] "S-au produs %i erori."
+msgstr[2] "S-au produs %i de erori."
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Biblioteci"
 
 #~ msgid "Clean without warning"
 #~ msgstr "Curăță fără avertisment"
