@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2023-11-16 13:05+0000\n"
+"PO-Revision-Date: 2023-11-17 17:03+0000\n"
 "Last-Translator: Andrea Andre <andrea.tsg19@slmail.me>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/ro/>\n"
@@ -128,7 +128,7 @@ msgstr "Asigură-te că ai făcut o copie de rezervă a fișierelor!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr "Odată ce fișierele sunt curățate, nu te mai poți întoarce înapoi."
+msgstr "Odată ce fișierele au fost curățate, nu te mai poți întoarce înapoi."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
