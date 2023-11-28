@@ -2,12 +2,13 @@
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # Davi Patricio <davipatricio@pm.me>, 2021.
 # Gabriel Gian <gabrielgian@live.com>, 2021.
+# Jener Gomes <jenerg1@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2021-12-24 03:51+0000\n"
-"Last-Translator: Gabriel Gian <gabrielgian@live.com>\n"
+"PO-Revision-Date: 2023-11-29 22:04+0000\n"
+"Last-Translator: Jener Gomes <jenerg1@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -15,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -159,14 +160,6 @@ msgstr "Botão <gui style=\"button\">Adicionar arquivos</gui>"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
-#, fuzzy
-#| msgid ""
-#| "To add whole folders at once, press the arrow next to the <gui style="
-#| "\"button\">Add Files</gui> button and press the <gui style=\"button\">Add "
-#| "Folders</gui> button. A file chooser will open, select the folders you "
-#| "want to add. You can optionally choose to also add all files from all "
-#| "subfolders by checking the <gui style=\"checkbox\">Add files from "
-#| "subfolders</gui> checkbox."
 msgid ""
 "To add whole folders at once, press the <gui style=\"button\">Add Folders</"
 "gui> button. A file chooser will open, select the folders you want to add. "
@@ -174,19 +167,17 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Para adicionar pastas inteiras de uma vez, pressione a seta ao lado do botão "
-"<gui style=\"button\"> Adicionar arquivos </gui> e pressione o botão <gui "
-"style=\"button\"> Adicionar pastas </gui>. Um seletor de arquivos será "
-"aberto, selecione as pastas que você deseja adicionar. Você também pode "
-"optar por adicionar todos os arquivos de todas as subpastas marcando a caixa "
-"de seleção <gui style=\"checkbox\"> Adicionar arquivos de subpastas </gui>."
+"Para adicionar pastas inteiras de uma vez, pressione a seta junto ao botão "
+"<gui style=\"button\">Adicionar arquivos</gui> e pressione o botão <gui "
+"style=\"button\">Adicionar pastas</gui>. Um seletor de arquivos abrirá, "
+"selecione as pastas que deseja adicionar. Você também pode optar por "
+"adicionar todos os arquivos de todas as subpastas marcando a caixa de "
+"seleção <gui style=\"checkbox\">Adicionar arquivos de subpastas</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
-#, fuzzy
-#| msgid "<gui style=\"button\">Add Files</gui> button"
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "Botão <gui style=\"button\">Adicionar arquivos</gui>"
+msgstr "Botão <gui style=\"button\">Adicionar pastas</gui>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
