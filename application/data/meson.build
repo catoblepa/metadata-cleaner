@@ -12,23 +12,7 @@ gnome.compile_resources(
   install_dir: pkgdatadir,
 )
 
-# Validate MetaInfo file
-metainfo_file = APP_ID + '.metainfo.xml'
-ascli_exe = find_program('appstreamcli', required: false)
-if ascli_exe.found()
-  test(
-    'validate metainfo file',
-    ascli_exe,
-    args: [
-      'validate',
-      '--no-net',
-      '--pedantic',
-      meson.current_build_dir() / metainfo_file
-    ]
-  )
-endif
-
-i18n.merge_file(
+desktop_file = i18n.merge_file(
   type: 'desktop',
   input: configure_file(
     input: APP_ID + '.desktop.in',
@@ -41,14 +25,33 @@ i18n.merge_file(
   install_dir: applicationsdir
 )
 
-i18n.merge_file(
-  input: metainfo_file,
+# Validate Desktop file
+desktop_file_validate_exe = find_program('desktop-file-validate', required: false)
+if desktop_file_validate_exe.found()
+  test('Validate desktop file',
+    desktop_file_validate_exe,
+    args: [desktop_file]
+  )
+endif
+
+metainfo_file = i18n.merge_file(
+  input: APP_ID + '.metainfo.xml',
   output: APP_ID + '.metainfo.xml',
   type: 'xml',
   po_dir: appsrcdir / 'po',
   install: true,
   install_dir: appdatadir
 )
+
+# Validate MetaInfo file
+appstreamcli_exe = find_program('appstreamcli', required: false)
+if (appstreamcli_exe.found())
+  test('Validate metainfo file',
+    appstreamcli_exe,
+    args: ['validate', '--no-net', '--pedantic', metainfo_file],
+    workdir: meson.current_build_dir()
+  )
+endif
 
 configure_file(
   input: APP_ID + '.service.in',
@@ -59,6 +62,14 @@ configure_file(
 
 
 install_data(APP_ID + '.gschema.xml', install_dir: schemasdir)
+
+glib_compile_schemas_exe = find_program('glib-compile-schemas', required: false)
+if glib_compile_schemas_exe.found()
+  test('Validate schema file',
+    glib_compile_schemas_exe,
+    args: ['--strict', '--dry-run', meson.current_source_dir()]
+  )
+endif
 
 install_data('icons' / APP_ID + '.svg', install_dir: iconsdir / 'hicolor' / 'scalable' / 'apps')
 install_data('icons' / APP_ID + '-symbolic.svg', install_dir: iconsdir / 'hicolor' / 'symbolic' / 'apps')

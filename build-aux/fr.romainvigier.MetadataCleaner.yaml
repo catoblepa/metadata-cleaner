@@ -36,6 +36,7 @@ modules:
 
   - name: metadata-cleaner
     buildsystem: meson
+    run-tests: true
     config-opts:
       - -Ddevel=true
     sources:
