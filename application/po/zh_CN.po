@@ -5,13 +5,14 @@
 # Eric <alchemillatruth@purelymail.com>, 2022.
 # Ujhhgtg <feyxiexzf@gmail.com>, 2022, 2023.
 # D XC <hello_cmd@outlook.com>, 2023.
+# Eric <zxmegaxqug@hldrive.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-11 18:41+0000\n"
-"PO-Revision-Date: 2023-12-14 06:04+0000\n"
-"Last-Translator: D XC <hello_cmd@outlook.com>\n"
+"PO-Revision-Date: 2024-01-05 04:08+0000\n"
+"Last-Translator: Eric <zxmegaxqug@hldrive.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -295,7 +296,7 @@ msgstr[0] "遇到 %i 个错误。"
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "库"
 
 #~ msgid "Clean without warning"
 #~ msgstr "要删除时不进行警告"
