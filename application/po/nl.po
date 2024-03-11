@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-09-29 12:01+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -42,7 +42,11 @@ msgstr ""
 msgid "View and clean metadata in files"
 msgstr "Bekijk metagegevens in bestanden en verwijder ze"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr "Romain Vigier"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -56,7 +60,7 @@ msgstr ""
 "voegen automatisch auteurs- en bedrijfsinformatie toe. Misschien wil je dat "
 "soort gevoelige informatie niet prijgeven."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -468,9 +472,6 @@ msgstr "Bibliotheken"
 #~ msgstr ""
 #~ "De logo's van GitLab, Matrix, Liberapay en Weblate en hun namen zijn "
 #~ "handelmerken van de respectievelijke eigenaren."
-
-#~ msgid "Romain Vigier"
-#~ msgstr "Romain Vigier"
 
 #~ msgid "Note about metadata and privacy"
 #~ msgstr "Opmerking omtrent metagegevens en privacy"

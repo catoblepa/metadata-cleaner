@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2022-04-05 10:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
@@ -39,7 +39,11 @@ msgstr "Metadata;renser;fjerning;"
 msgid "View and clean metadata in files"
 msgstr "Vis og rens metadata i filer"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr "Romain Vigier"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 #, fuzzy
 #| msgid ""
 #| "Metadata within a file can tell a lot about you. Cameras record data "
@@ -59,7 +63,7 @@ msgstr ""
 "automatisk til utvikler- og bedrifts-info i dokumenter og regneark. Kanskje "
 "du ikke ønsker å viderebringe den infoen?"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 #, fuzzy
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
@@ -515,9 +519,6 @@ msgstr ""
 #~ msgstr ""
 #~ "GitLab, Matrix, Liberapay og Weblate-logoene og navnene er varemerker "
 #~ "tilhørende sine respektive eiere."
-
-#~ msgid "Romain Vigier"
-#~ msgstr "Romain Vigier"
 
 #~ msgid "Metadata details"
 #~ msgstr "Metadata-detaljer"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-09-09 14:48+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -41,7 +41,11 @@ msgstr "Metadata;Borttagning;Rensning;"
 msgid "View and clean metadata in files"
 msgstr "Visa och rensa bort metadata i filer"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr "Romain Vigier"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -54,7 +58,7 @@ msgstr ""
 "lägger automatiskt till information om författare och företag i dokument och "
 "kalkylblad. Detta är känslig information som du kanske inte vill avslöja."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -405,11 +409,11 @@ msgstr "Bibliotek"
 #~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
 #~ "4.0</a>."
 #~ msgstr ""
-#~ "Källkoden till det här programmet är släppt enligt villkoren i <a href="
-#~ "\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 eller senare</"
-#~ "a>. Originalbildkonsten och översättningarna är släppta enligt villkoren "
-#~ "i <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
-#~ "4.0</a>."
+#~ "Källkoden till det här programmet är släppt enligt villkoren i <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 eller "
+#~ "senare</a>. Originalbildkonsten och översättningarna är släppta enligt "
+#~ "villkoren i <a href=\"https://creativecommons.org/licenses/by-sa/4.0/"
+#~ "\">CC BY-SA 4.0</a>."
 
 #~ msgid "Adding files…"
 #~ msgstr "Lägger till filer…"
@@ -460,9 +464,6 @@ msgstr "Bibliotek"
 #~ msgstr ""
 #~ "Logotyperna och namnen GitLab, Matrix, Liberapay och Weblate är "
 #~ "varumärken som tillhör respektive ägare."
-
-#~ msgid "Romain Vigier"
-#~ msgstr "Romain Vigier"
 
 #~ msgid "Note about metadata and privacy"
 #~ msgstr "Notis om metadata och sekretess"

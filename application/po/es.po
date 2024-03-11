@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-09-14 09:04+0000\n"
-"Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted.weblate"
-".org>\n"
+"Last-Translator: Óscar Fernández Díaz <oscfdezdz@users.noreply.hosted."
+"weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/es/>\n"
 "Language: es\n"
@@ -44,7 +44,11 @@ msgstr "Metadata;Remover;Cleaner;Metadatos;Limpiador;"
 msgid "View and clean metadata in files"
 msgstr "Ver y limpiar los metadatos en los archivos"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr "Romain Vigier"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -58,7 +62,7 @@ msgstr ""
 "el autor y la empresa a los documentos y hojas de cálculo. Se trata de "
 "información delicada y es posible que no quiera revelarla."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -469,9 +473,6 @@ msgstr "Bibliotecas"
 #~ msgstr ""
 #~ "Los logotipos y nombres de GitLab, Matrix, Liberapay y Weblate son marcas "
 #~ "comerciales de sus respectivos propietarios."
-
-#~ msgid "Romain Vigier"
-#~ msgstr "Romain Vigier"
 
 #~ msgid "Note about metadata and privacy"
 #~ msgstr "Nota sobre los metadatos y la privacidad"

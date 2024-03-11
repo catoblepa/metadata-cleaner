@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2024-01-08 17:06+0000\n"
 "Last-Translator: mittwerk <mittwerk3@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -44,7 +44,11 @@ msgstr "Метаданные;Удаление;Очистка;"
 msgid "View and clean metadata in files"
 msgstr "Просмотр и очистка метаданных в файлах"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr ""
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -58,7 +62,7 @@ msgstr ""
 "документы и электронные таблицы. Это конфиденциальная информация, и вы "
 "можете не захотеть ее раскрывать."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -410,10 +414,10 @@ msgstr "Библиотеки"
 #~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
 #~ "4.0</a>."
 #~ msgstr ""
-#~ "Исходный код этой программы распространяется под лицензией <a href="
-#~ "\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</a>. "
-#~ "Оригинальная графика и переводы распространяются под лицензией <a href="
-#~ "\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
+#~ "Исходный код этой программы распространяется под лицензией <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 or later</"
+#~ "a>. Оригинальная графика и переводы распространяются под лицензией <a "
+#~ "href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>."
 
 #~ msgid "Adding files…"
 #~ msgstr "Добавление файлов…"

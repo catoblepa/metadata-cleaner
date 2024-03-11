@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2022-04-19 22:35+0000\n"
 "Last-Translator: hELLOwORLD <helloworld@allfreemail.net>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -39,7 +39,11 @@ msgstr ""
 msgid "View and clean metadata in files"
 msgstr "ফাইলের মেটাডেটা দেখুন এবং সরিয়ে ফেলুন"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr ""
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -52,7 +56,7 @@ msgstr ""
 "আ্যপলিকেশনগুলো স্বয়ংক্রিয়ভাবে লেখক এবং কোম্পানির তথ্য ডকুমেন্ট ও স্প্রেডশিটে যুক্ত করে "
 "দেয়. এগুলো খুবই সূক্ষ্ম এবং গুরুত্বপূর্ণ তথ্য এবং আপনি হয়তো এগুলো প্রকাশ করতে চান না."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."

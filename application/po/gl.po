@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-01-08 02:05+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/metadata-"
@@ -40,7 +40,11 @@ msgstr "Metadatos;Eliminador;Metadatos;Limpador;"
 msgid "View and clean metadata in files"
 msgstr "Ver e limpar os metadatos dos ficheiro"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr ""
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -54,7 +58,7 @@ msgstr ""
 "e a empresa aos documentos e follas de cálculo. Trátase de información "
 "delicada e é posíbel que non queira revelala."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -408,11 +412,11 @@ msgstr ""
 #~ "the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA "
 #~ "4.0</a>."
 #~ msgstr ""
-#~ "O código fonte deste programa publícase baixo os termos da <a href="
-#~ "\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 ou posterior</"
-#~ "a>. O material gráfico orixinal e as traducións publícanse baixo os "
-#~ "termos de <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC "
-#~ "BY-SA 4.0</a>."
+#~ "O código fonte deste programa publícase baixo os termos da <a "
+#~ "href=\"https://www.gnu.org/licenses/gpl-3.0.html\">GNU GPL 3.0 ou "
+#~ "posterior</a>. O material gráfico orixinal e as traducións publícanse "
+#~ "baixo os termos de <a href=\"https://creativecommons.org/licenses/by-"
+#~ "sa/4.0/\">CC BY-SA 4.0</a>."
 
 #~ msgid "Adding files…"
 #~ msgstr "Engadir ficheiros…"

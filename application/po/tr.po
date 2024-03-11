@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-08-31 17:53+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -41,7 +41,11 @@ msgstr "Metadata;Remover;Cleaner;Üst veri;Kaldırıcı;Temizleyici;"
 msgid "View and clean metadata in files"
 msgstr "Dosyalardaki üst verileri görüntüle ve temizle"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr "Romain Vigier"
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -55,7 +59,7 @@ msgstr ""
 "tablolara otomatik olarak yazar ve şirket bilgilerini ekler. Bunlar hassas "
 "bilgilerdir ve açıklamak istemeyebilirsiniz."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
@@ -396,9 +400,9 @@ msgstr "Kütüphaneler"
 #~ "This program uses <a href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> to "
 #~ "parse and clean the metadata. Show them some love!"
 #~ msgstr ""
-#~ "Bu program, üst verileri ayrıştırmak ve temizlemek için <a href="
-#~ "\"https://0xacab.org/jvoisin/mat2\">mat2</a> kullanmaktadır. Onlara biraz "
-#~ "sevgi gösterin!"
+#~ "Bu program, üst verileri ayrıştırmak ve temizlemek için <a "
+#~ "href=\"https://0xacab.org/jvoisin/mat2\">mat2</a> kullanmaktadır. Onlara "
+#~ "biraz sevgi gösterin!"
 
 #~ msgid ""
 #~ "The source code of this program is released under the terms of the <a "
@@ -463,9 +467,6 @@ msgstr "Kütüphaneler"
 #~ msgstr ""
 #~ "GitLab, Matrix, Liberapay ve Weblate logoları ve adları, ilgili "
 #~ "sahiplerinin ticari markalarıdır."
-
-#~ msgid "Romain Vigier"
-#~ msgstr "Romain Vigier"
 
 #~ msgid "Note about metadata and privacy"
 #~ msgstr "Üst veriler ve gizlilik hakkında not"

@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-11-17 17:03+0000\n"
 "Last-Translator: Andrea Andre <andrea.tsg19@slmail.me>\n"
-"Language-Team: Romanian <https://hosted.weblate.org/projects/"
-"metadata-cleaner/application/ro/>\n"
+"Language-Team: Romanian <https://hosted.weblate.org/projects/metadata-"
+"cleaner/application/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +41,11 @@ msgstr "Metadata;Remover;Cleaner;Metadate;Eliminator;Curățător;"
 msgid "View and clean metadata in files"
 msgstr "Vizualizează și curăță metadatele din fișiere"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr ""
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
 "when and where a picture was taken and which camera was used. Office "
@@ -56,7 +60,7 @@ msgstr ""
 "Acestea sunt informații sensibile și este posibil să nu dorești să le "
 "dezvălui."
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."

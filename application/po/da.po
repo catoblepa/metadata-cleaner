@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2021-08-11 16:06+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -40,7 +40,11 @@ msgstr "Metadata;renser;tømning;"
 msgid "View and clean metadata in files"
 msgstr "Vis og rens metadata i filer"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:26
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
+msgid "Romain Vigier"
+msgstr ""
+
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 #, fuzzy
 msgid ""
 "Metadata within a file can tell a lot about you. Cameras record data about "
@@ -54,7 +58,7 @@ msgstr ""
 "forfatter og bedriftsinfo automatisk i dokumenter og regneark. Måske du ikke "
 "vil dele af dig alt der findes i sandemosen?"
 
-#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
+#: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 #, fuzzy
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
