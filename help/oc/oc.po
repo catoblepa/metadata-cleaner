@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-02-26 20:36+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -165,11 +165,11 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Per apondre de dossièrs entièrs, e quichatz lo boton <gui style=\"button"
-"\">Ajustar de dossièrs</gui>. Un selector apareissarà, seleccionatz los "
-"fichièrs que volètz apondre. D’un biais opcional podètz causir d’apondre "
-"totes los fichièrs de totes los jos-dossièrs en marcant la cassa <gui style="
-"\"checkbox\">Ajustar los fichièrs dels jos-dossièrs</gui>."
+"Per apondre de dossièrs entièrs, e quichatz lo boton <gui "
+"style=\"button\">Ajustar de dossièrs</gui>. Un selector apareissarà, "
+"seleccionatz los fichièrs que volètz apondre. D’un biais opcional podètz "
+"causir d’apondre totes los fichièrs de totes los jos-dossièrs en marcant la "
+"cassa <gui style=\"checkbox\">Ajustar los fichièrs dels jos-dossièrs</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
@@ -206,9 +206,9 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Per netejar totes los fichièrs de la fenèstra, quichatz lo boton <gui style="
-"\"button\">Netejar</gui>. Lo processús de netejatge pòt trigar abans de se "
-"terminar."
+"Per netejar totes los fichièrs de la fenèstra, quichatz lo boton <gui "
+"style=\"button\">Netejar</gui>. Lo processús de netejatge pòt trigar abans "
+"de se terminar."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44

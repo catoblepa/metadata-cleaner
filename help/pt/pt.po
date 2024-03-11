@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-02-19 13:16+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/metadata-"
@@ -164,11 +164,11 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Para adicionar pastas inteiras de uma vez, pressione o botão <gui style="
-"\"button\">Adicionar Pastas</gui>. Um seletor de ficheiros abrirá, selecione "
-"as pastas que deseja adicionar. Também pode optar por adicionar todos os "
-"ficheiros de todas as subpastas marcando a caixa de seleção <gui style="
-"\"checkbox\">Adicionar ficheiros das subpastas</gui>."
+"Para adicionar pastas inteiras de uma vez, pressione o botão <gui "
+"style=\"button\">Adicionar Pastas</gui>. Um seletor de ficheiros abrirá, "
+"selecione as pastas que deseja adicionar. Também pode optar por adicionar "
+"todos os ficheiros de todas as subpastas marcando a caixa de seleção <gui "
+"style=\"checkbox\">Adicionar ficheiros das subpastas</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
@@ -205,9 +205,9 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Para limpar todos os ficheiros da janela, pressione o botão <gui style="
-"\"button\">Limpar</gui>. O processo de limpeza pode levar algum tempo para "
-"ser concluído."
+"Para limpar todos os ficheiros da janela, pressione o botão <gui "
+"style=\"button\">Limpar</gui>. O processo de limpeza pode levar algum tempo "
+"para ser concluído."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44

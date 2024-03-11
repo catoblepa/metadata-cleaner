@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-02-26 20:36+0000\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <https://hosted.weblate.org/projects/metadata-"
@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16-dev\n"
 
 #. (itstool) path: section/title
@@ -159,10 +159,11 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Za dodavanje cijelih mapa odjednom, pritisni gumb <gui style=\"button"
-"\">Dodaj mape</gui>. Otvorit će se birač. Odaberi mape koje želiš dodati. "
-"Ako želiš, možeš odabrati i dodati sve datoteke iz svih podmapa "
-"potvrđivanjem okvira <gui style=\"checkbox\">Dodaj datoteke iz podmapa</gui>."
+"Za dodavanje cijelih mapa odjednom, pritisni gumb <gui "
+"style=\"button\">Dodaj mape</gui>. Otvorit će se birač. Odaberi mape koje "
+"želiš dodati. Ako želiš, možeš odabrati i dodati sve datoteke iz svih "
+"podmapa potvrđivanjem okvira <gui style=\"checkbox\">Dodaj datoteke iz "
+"podmapa</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
@@ -199,8 +200,8 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Za čišćenje svih datoteka u prozoru pritisni gumb <gui style=\"button"
-"\">Očisti</gui>. Postpak čišćenja može potrajati."
+"Za čišćenje svih datoteka u prozoru pritisni gumb <gui "
+"style=\"button\">Očisti</gui>. Postpak čišćenja može potrajati."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44

@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2024-01-05 12:07+0000\n"
 "Last-Translator: D0735 <D0735@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -81,7 +81,8 @@ msgstr ""
 msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
-msgstr "<app>元資料刪除器</app>會獲取檔案資料並將其放入一個新檔案中，以確保刪除任何爲"
+msgstr ""
+"<app>元資料刪除器</app>會獲取檔案資料並將其放入一個新檔案中，以確保刪除任何爲"
 "檢測到的元資料。"
 
 #. (itstool) path: section/title
@@ -132,8 +133,9 @@ msgstr "添加檔案"
 msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
-msgstr "若要添加檔案，請按 <gui style=\"button\">添加檔案</gui> "
-"按鍵。將打開檔案選擇視窗，選擇您要刪除元資料的檔案。"
+msgstr ""
+"若要添加檔案，請按 <gui style=\"button\">添加檔案</gui> 按鍵。將打開檔案選擇"
+"視窗，選擇您要刪除元資料的檔案。"
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
@@ -149,10 +151,9 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"若要一次添加整個資料夾，請按<gui style=\"button\""
-">添加資料夾</gui>按鍵。將打開檔案選擇器，選擇要添加的資料夾。"
-"您可以通過選取<gui style=\"checkbox\""
-">添加子資料夾</gui>複選框來添加資料夾中的子資料夾的所有檔案。"
+"若要一次添加整個資料夾，請按<gui style=\"button\">添加資料夾</gui>按鍵。將打"
+"開檔案選擇器，選擇要添加的資料夾。您可以通過選取<gui style=\"checkbox\">添加"
+"子資料夾</gui>複選框來添加資料夾中的子資料夾的所有檔案。"
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
@@ -169,7 +170,8 @@ msgstr "查看元資料"
 msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
-msgstr "點擊列表中的檔案可開啓詳細視圖。如果它擁有元資料，元資料將會顯示在那裏。"
+msgstr ""
+"點擊列表中的檔案可開啓詳細視圖。如果它擁有元資料，元資料將會顯示在那裏。"
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:33
@@ -186,8 +188,9 @@ msgstr "刪除檔案元資料"
 msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
-msgstr "若要刪除視窗中所有檔案的元資料，請按下<gui style=\"button\">刪除</gui> "
-"按鍵。刪除過程可能需要一些時間。"
+msgstr ""
+"若要刪除視窗中所有檔案的元資料，請按下<gui style=\"button\">刪除</gui> 按鍵。"
+"刪除過程可能需要一些時間。"
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44
@@ -207,8 +210,8 @@ msgid ""
 "might not be selectable anymore, compressed images might get compressed "
 "again…"
 msgstr ""
-"預設情況下，刪除過程可能會更改檔案中的資料，這是爲了儘可能的刪除更多的元資料"
-"。例如，PDF檔中的文字可能會無法選取，已壓縮的圖片可能會被再次壓縮……"
+"預設情況下，刪除過程可能會更改檔案中的資料，這是爲了儘可能的刪除更多的元資"
+"料。例如，PDF檔中的文字可能會無法選取，已壓縮的圖片可能會被再次壓縮……"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:54

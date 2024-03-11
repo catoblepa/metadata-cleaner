@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-08-04 00:11+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/metadata-"
@@ -167,11 +167,11 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Untuk menambahkan seluruh folder sekaligus, tekan tombol <gui style=\"button"
-"\"> Tambahkan Folder </gui>. pemilih file akan terbuka, pilih folder yang "
-"ingin Anda tambahkan. Anda dapat memilih untuk juga menambahkan semua file "
-"dari semua subfolder dengan memeriksa <gui style=\"checkbox\"> Tambahkan "
-"file dari subfolder </gui> kotak centang."
+"Untuk menambahkan seluruh folder sekaligus, tekan tombol <gui "
+"style=\"button\"> Tambahkan Folder </gui>. pemilih file akan terbuka, pilih "
+"folder yang ingin Anda tambahkan. Anda dapat memilih untuk juga menambahkan "
+"semua file dari semua subfolder dengan memeriksa <gui style=\"checkbox\"> "
+"Tambahkan file dari subfolder </gui> kotak centang."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
@@ -208,9 +208,9 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Untuk membersihkan semua file di jendela, tekan tombol <gui style=\"button"
-"\">Bersihkan</gui>. Proses pembersihan mungkin membutuhkan waktu untuk "
-"diselesaikan."
+"Untuk membersihkan semua file di jendela, tekan tombol <gui "
+"style=\"button\">Bersihkan</gui>. Proses pembersihan mungkin membutuhkan "
+"waktu untuk diselesaikan."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-04-26 12:16+0000\n"
 "Last-Translator: Ali Aljishi <ahj696@hotmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -160,8 +160,8 @@ msgid ""
 msgstr ""
 "لإضافة مجلدات بأكملها، اضغط على زر <gui style=\"button\">أضف مجلدات</gui>. "
 "ستظهر نافذة اختيار الملفات، اختر المجلدات التي تريد إضافتها. تستطيع أيضا أن "
-"تضيف كل الملفات الموجود في المجلدات الفرعية عن طريق تعليم صندوق <gui style="
-"\"checkbox\">أضف الملفات من المجلدات الفرعية</gui>."
+"تضيف كل الملفات الموجود في المجلدات الفرعية عن طريق تعليم صندوق <gui "
+"style=\"checkbox\">أضف الملفات من المجلدات الفرعية</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
@@ -198,8 +198,8 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"لتنظيف كافة الملفات الموجودة في النافذة، اضغط على الزر <gui style=\"button"
-"\">نظف</gui>. قد تستغرق عملية التنظيف بعض الوقت."
+"لتنظيف كافة الملفات الموجودة في النافذة، اضغط على الزر <gui "
+"style=\"button\">نظف</gui>. قد تستغرق عملية التنظيف بعض الوقت."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44

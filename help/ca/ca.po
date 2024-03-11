@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-09-02 14:54+0000\n"
 "Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -163,11 +163,11 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Per afegir carpetes senceres alhora, premeu el botó <gui style=\"button"
-"\">Afegeix carpetes</gui>. S'obrirà un selector de fitxers, seleccioneu les "
-"carpetes que voleu afegir. Opcionalment, podeu escollir també afegir tots "
-"els fitxers de totes les subcarpetes marcant la casella de selecció <gui "
-"style=\"checkbox\">Afegeix fitxers de les subcarpetes</gui>."
+"Per afegir carpetes senceres alhora, premeu el botó <gui "
+"style=\"button\">Afegeix carpetes</gui>. S'obrirà un selector de fitxers, "
+"seleccioneu les carpetes que voleu afegir. Opcionalment, podeu escollir "
+"també afegir tots els fitxers de totes les subcarpetes marcant la casella de "
+"selecció <gui style=\"checkbox\">Afegeix fitxers de les subcarpetes</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
@@ -204,9 +204,9 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Per netejar tots els fitxers de la finestra, premeu el botó <gui style="
-"\"button\">Neteja</gui>. El procés de neteja pot trigar una mica a completar-"
-"se."
+"Per netejar tots els fitxers de la finestra, premeu el botó <gui "
+"style=\"button\">Neteja</gui>. El procés de neteja pot trigar una mica a "
+"completar-se."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44

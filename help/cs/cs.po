@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-09-11 18:41+0000\n"
+"POT-Creation-Date: 2024-03-11 18:32+0000\n"
 "PO-Revision-Date: 2023-08-21 14:51+0000\n"
 "Last-Translator: Písek Pískovec <pisekpiskovec@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/metadata-cleaner/"
@@ -163,11 +163,11 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Pro přidání celých složek najednou stiskněte tlačítko <gui style=\"button"
-"\">Přidat složky</gui>. Složky, které chcete přidat, vyberte v dialogu pro "
-"výběr souboru. Volitelně můžete také přidat všechny soubory ze všech "
-"podsložek, a to zaškrtnutím předvolby <gui style=\"checkbox\">Přidat soubory "
-"z podsložek</gui>."
+"Pro přidání celých složek najednou stiskněte tlačítko <gui "
+"style=\"button\">Přidat složky</gui>. Složky, které chcete přidat, vyberte v "
+"dialogu pro výběr souboru. Volitelně můžete také přidat všechny soubory ze "
+"všech podsložek, a to zaškrtnutím předvolby <gui style=\"checkbox\">Přidat "
+"soubory z podsložek</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
@@ -204,8 +204,8 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"Pro vyčištění všech souborů v okně stiskněte tlačítko <gui style=\"button"
-"\">Vyčistit</gui>. Proces čištění může trvat nějakou dobu."
+"Pro vyčištění všech souborů v okně stiskněte tlačítko <gui "
+"style=\"button\">Vyčistit</gui>. Proces čištění může trvat nějakou dobu."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44
