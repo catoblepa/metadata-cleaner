@@ -1,11 +1,12 @@
 # Languages add-on <noreply-addon-languages@weblate.org>, 2024.
 # twlv <kraft_werk@tutanota.com>, 2024.
+# twlvnn <kraft_werk@tutanota.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-11 18:32+0000\n"
-"PO-Revision-Date: 2024-03-18 22:01+0000\n"
-"Last-Translator: twlv <kraft_werk@tutanota.com>\n"
+"PO-Revision-Date: 2024-03-24 21:01+0000\n"
+"Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/bg/>\n"
 "Language: bg\n"
@@ -44,7 +45,7 @@ msgid ""
 msgstr ""
 "Метаданните в един файл могат да разкрият много за вас. Камерите записват "
 "данни за това кога и къде е направена снимка и коя камера е използвана. "
-"Office приложенията автоматично добавят информация за автора и компанията "
+"„Office“ приложенията автоматично добавят информация за автора и компанията "
 "към документи и електронни таблици. Това е чувствителна информация и може да "
 "не искате да я разпространявате."
 
@@ -145,14 +146,14 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
-"За да добавите файлове, натиснете бутона <gui style=\"button\">Добави "
-"Файлове</gui>. Ще се отвори инструмент за избор на файлове, изберете "
+"За да добавите файлове, натиснете бутона <gui style=\"button\">Добавяне на "
+"файлове</gui>. Ще се отвори инструмент за избор на файлове, изберете "
 "файловете, които искате да изчистите."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr "<gui style=\"button\">Добави Файлове</gui> бутон"
+msgstr "<gui style=\"button\">Добавяне на файлове</gui> бутон"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
@@ -163,17 +164,16 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"За да добавите цели папки наведнъж, натиснете бутона <gui "
-"style=\"button\">Добави Папки</gui>. Ще се отвори инструмент за избор на "
-"файлове, изберете папките, които искате да добавите. По желание можете да "
-"изберете да добавите и всички файлове от всички подпапки, като изберете "
-"отметката <gui style=\"checkbox\">Добави файлове от подпапки</gui> с "
-"квадратчето."
+"За да добавите цели папки наведнъж, натиснете бутона <gui style=\"button\""
+">Добавяне на папки</gui>. Ще се отвори инструмент за избор на файлове, "
+"изберете папките, които искате да добавите. По желание можете да изберете да "
+"добавите и всички файлове от всички подпапки, като изберете отметката <gui "
+"style=\"checkbox\">Добавяне на файлове от подпапки</gui> с квадратчето."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr "<gui style=\"button\">Добави Папки</gui> бутон"
+msgstr "<gui style=\"button\">Добавяне на папки</gui> бутон"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
@@ -205,14 +205,14 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
-"За да изчистите всички файлове в прозореца, натиснете бутона <gui "
-"style=\"button\">Изчисти</gui>. Изчистването може да отнеме известно време, "
-"за да завърши."
+"За да изчистите всички файлове в прозореца, натиснете бутона <gui style="
+"\"button\">Изчистване</gui>. Изчистването може да отнеме известно време, за "
+"да завърши."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr "<gui style=\"button\">Изчисти</gui> бутон"
+msgstr "<gui style=\"button\">Изчистване</gui> бутон"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:52
