@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # twelve <kraft_werk@tutanota.com>, 2024.
 # twlv <kraft_werk@tutanota.com>, 2024.
+# twlvnn <kraft_werk@tutanota.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-11 18:32+0000\n"
-"PO-Revision-Date: 2024-03-18 19:01+0000\n"
-"Last-Translator: twlv <kraft_werk@tutanota.com>\n"
+"PO-Revision-Date: 2024-03-23 20:33+0000\n"
+"Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/bg/>\n"
 "Language: bg\n"
@@ -33,7 +34,7 @@ msgstr "Премахнете метаданните от вашите файло
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr "Метаданни;Отстраняване;Чистач;"
+msgstr "Metadata;Remover;Cleaner;метаданни;премахване;чистач;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
@@ -53,7 +54,7 @@ msgid ""
 msgstr ""
 "Метаданните в един файл могат да разкрият много за вас. Камерите записват "
 "данни за това кога и къде е направена снимка и коя камера е използвана. "
-"Office приложенията автоматично добавят информация за автора и компанията "
+"„Office“ приложенията автоматично добавят информация за автора и компанията "
 "към документи и електронни таблици. Това е чувствителна информация и може да "
 "не искате да я разпространявате."
 
@@ -72,24 +73,24 @@ msgstr "Файлове"
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr "Добави файлове"
+msgstr "Добавяне на файлове"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr "Добави папки"
+msgstr "Добавяне на папки"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr "Изчисти метаданни"
+msgstr "Изчистване на метаданни"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr "Изчисти всички файлове в прозореца"
+msgstr "Изчистване на всички файлове в прозореца"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr "Общо"
+msgstr "Общи"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
@@ -97,11 +98,11 @@ msgstr "Нов прозорец"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr "Затвори прозореца"
+msgstr "Затваряне на прозореца"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr "Затвори"
+msgstr "Спиране на програмата"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
@@ -113,15 +114,15 @@ msgstr "Помощ"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr "_Добави Файлове"
+msgstr "_Добавяне на файлове"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr "Добави _Папки"
+msgstr "Добавяне на _папки"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr "_Изчисти"
+msgstr "_Изчистване"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
@@ -138,15 +139,15 @@ msgstr "Не ме питай пак"
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
-msgstr "Отмени"
+msgstr "Отказване"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr "Изчисти"
+msgstr "Изчистване"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr "Изчистете Ваще Отпечатъци"
+msgstr "Изчистете си отпечатъците"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
@@ -154,7 +155,7 @@ msgstr "Научете повече за метаданните и ограни�
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
-msgstr "Премахни файла от списъка"
+msgstr "Премахнете файла от списъка"
 
 #: application/data/ui/FileRow.ui:128
 msgid "Warning"
@@ -170,11 +171,11 @@ msgstr "Изчистено"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr "_Нов Прозорец"
+msgstr "_Нов прозорец"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr "_Изпразни Прозореца"
+msgstr "_Изчистване на прозореца"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
@@ -182,15 +183,15 @@ msgstr "_Помощ"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr "_Клавишни Комбинации"
+msgstr "_Клавишни комбинации"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "_За Метаданни Чистач"
+msgstr "_Относно „Метаданни Чистач“"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
-msgstr "Главно Меню"
+msgstr "Основно меню"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
@@ -198,7 +199,7 @@ msgstr "Настройки за чистене"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr "Леко Чистене"
+msgstr "Леко чистене"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
@@ -210,20 +211,20 @@ msgstr "Подробности"
 
 #: application/data/ui/Window.ui:86
 msgid "Close"
-msgstr "Затвори"
+msgstr "Затваряне"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr "Nick <kraft_werk@tutanota.com>"
+msgstr "twlvnn <kraft_werk@tutanota.com>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
-msgstr "Изберете файлове за чистене"
+msgstr "Избиране на файлове за чистене"
 
 #: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
-msgstr "Изберете папки за чистене"
+msgstr "Избиране на папки за чистене"
 
 #: application/metadatacleaner/modules/file.py:244
 msgid "An error occured during the cleaning."
@@ -236,7 +237,7 @@ msgstr ""
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr "Файлът Беше Изчистен"
+msgstr "Файлът е изчистен"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
@@ -252,23 +253,23 @@ msgstr "Научете повече"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr "Файлът не се Разпознава"
+msgstr "Файлът не се разпознава"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr "Типа на Файла не се Поддържа"
+msgstr "Вида на файла не се поддържа"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr "Неуспешна Проверка за Метаданни"
+msgstr "Неуспешна проверка за метаданни"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr "Няма Разпознати Метаданни"
+msgstr "Няма разпознати метаданни"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr "Неуспешно Премахване на Метаданни"
+msgstr "Неуспешно премахване на метаданни"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
@@ -280,15 +281,15 @@ msgstr "Всички поддържани файлове"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr "Добави файлове от подпапки"
+msgstr "Добавяне на файлове от подпапки"
 
 #: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
-msgstr "Обработва се файл {}/{}"
+msgstr "Обработване на файл {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
-msgstr "Чисти се файл {}/{}"
+msgstr "Изчиства се файл {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:79
 #, python-format
