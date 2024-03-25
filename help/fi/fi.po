@@ -1,10 +1,11 @@
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2022.
+# Roosa Huovinen <roosa.h@proton.me>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-11 18:32+0000\n"
-"PO-Revision-Date: 2022-10-07 12:33+0000\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"PO-Revision-Date: 2024-03-26 19:01+0000\n"
+"Last-Translator: Roosa Huovinen <roosa.h@proton.me>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/fi/>\n"
 "Language: fi\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -37,6 +38,11 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"Tiedostojen metadata voi kertoa sinusta paljon. Kamerat tallentavat tietoa "
+"milloin ja missä kuva on otettu ja mitä kameraa on käytetty. "
+"Toimistosovellukset lisäävät yleensä tekijän ja yrityksen tiedot "
+"asiakirjoihin ja laskentataulukoihin. Tämä on arkaluonteista tietoa, etkä "
+"ehkä halua paljastaa sitä."
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
@@ -49,6 +55,8 @@ msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Tiedosto kertoo tietoa laitteistosta, asetuksista, päivämäärästä ja kuvan "
+"ottopaikasta. Se sisältää kaikkiaan 79 metadata-tietuetta."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
