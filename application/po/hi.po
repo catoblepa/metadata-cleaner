@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-11 18:32+0000\n"
-"PO-Revision-Date: 2024-03-13 03:01+0000\n"
+"PO-Revision-Date: 2024-03-28 21:01+0000\n"
 "Last-Translator: Scrambled777 <weblate.scrambled777@simplelogin.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/hi/>\n"
@@ -111,15 +111,15 @@ msgstr "सहायता"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr "_फाइलें जोड़ें"
+msgstr "फाइलें जोड़ें (_A)"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr "_फोल्डर्स जोड़ें"
+msgstr "फोल्डर्स जोड़ें (_F)"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr "_साफ़"
+msgstr "साफ़ (_C)"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
@@ -136,7 +136,7 @@ msgstr "मुझे दोबारा मत बताएं"
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
-msgstr "रद्द करें"
+msgstr "रद्द"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
@@ -168,23 +168,23 @@ msgstr "साफ किया हुआ"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr "_नई विंडो"
+msgstr "नई विंडो (_N)"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr "_विंडो साफ़ करें"
+msgstr "विंडो साफ़ करें (_C)"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr "_सहायता"
+msgstr "सहायता (_H)"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr "_कीबोर्ड शॉर्टकट"
+msgstr "कीबोर्ड शॉर्टकट (_K)"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "_मेटाडेटा क्लीनर के बारे में"
+msgstr "मेटाडेटा क्लीनर के बारे में (_A)"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
