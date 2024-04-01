@@ -4,6 +4,6 @@
 option (
   'devel',
   type: 'boolean',
-  value: 'false',
+  value: false,
   description: 'Build the app with the development style'
 )
