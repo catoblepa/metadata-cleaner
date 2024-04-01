@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2024-04-01 10:21+0000\n"
+"POT-Creation-Date: 2024-04-01 11:03+0000\n"
 "PO-Revision-Date: 2024-03-24 21:01+0000\n"
 "Last-Translator: twlvnn <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <https://hosted.weblate.org/projects/metadata-"
