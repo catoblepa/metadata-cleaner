@@ -76,8 +76,8 @@ modules:
             sources:
               - type: git
                 url: https://github.com/exiftool/exiftool.git
-                tag: '12.68'
-                commit: 33293ac6b033d519fc7a3a4f0a3d0dfa90d4548b
+                tag: '12.80'
+                commit: da736f3d8894b233dfa44a6b68d793b1fc78b0cb
             modules:
               - name: perl
                 buildsystem: simple
@@ -123,8 +123,8 @@ modules:
                 sources:
                   - type: git
                     url: https://github.com/Perl/perl5.git
-                    tag: v5.38.0
-                    commit: 76298ae68aa7796f0ffc05095b127d23f4b2de8f
+                    tag: v5.38.2
+                    commit: 55dd2f792ffc8cefe614350a411f785374281b24
 
           - name: poppler
             buildsystem: cmake
@@ -143,8 +143,8 @@ modules:
             sources:
               - type: git
                 url: https://anongit.freedesktop.org/git/poppler/poppler.git
-                tag: poppler-23.11.0
-                commit: 975d6998b0ad979e81ea133be493bbf7be113fc7
+                tag: poppler-24.04.0
+                commit: 0aa1fe5c30a6c467c91bad8d81bd6c2f57fcb726
             modules:
               - name: poppler-data
                 buildsystem: cmake
