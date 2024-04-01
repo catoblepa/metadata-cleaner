@@ -4,28 +4,29 @@
 # Kaede <contact@kaede.ch>, 2021, 2022, 2023.
 # Romain Vigier <romain@romainvigier.fr>, 2021.
 # Kaede <kaedech@users.noreply.hosted.weblate.org>, 2023.
+# Himmel <anonymous.colt330@aleeas.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-11 18:32+0000\n"
-"PO-Revision-Date: 2023-10-31 12:00+0000\n"
-"Last-Translator: Kaede <kaedech@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/metadata-"
-"cleaner/application/ja/>\n"
+"PO-Revision-Date: 2024-04-01 10:20+0000\n"
+"Last-Translator: Himmel <anonymous.colt330@aleeas.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "メタデータクリーナー"
+msgstr "Metadata Cleaner"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
@@ -38,11 +39,11 @@ msgstr "Metadata;Remover;Cleaner;メタデータ;削除ツール;クリーナー
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr "ファイルに含まれるメタデータの確認と除去が行えます"
+msgstr "ファイルに含まれるメタデータのご確認と除去が行えます"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:17
 msgid "Romain Vigier"
-msgstr ""
+msgstr "Romain Vigier"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -53,16 +54,16 @@ msgid ""
 "disclose it."
 msgstr ""
 "ファイル内のメタデータは、あなたのことをよく表しています。カメラは、いつ、ど"
-"こで、どの機種で撮影したかを画像ファイルに記録します。オフィスアプリケーショ"
-"ンは、作成者や会社の情報を文書ファイルや表計算ファイルに自動的に追加します。"
-"これらの情報は機密情報であり、公開したくない場合もあります。"
+"こで、どの機種で撮影したかを画像ファイルに記録します。Office アプリケーション"
+"は、作成者や会社の情報を文書ファイルや表計算ファイルに自動的に追加します。こ"
+"れらの情報は機密情報であり、公開したくない場合もあります。"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
-msgstr ""
-"このツールではファイル内のメタデータを確認し、可能な範囲で除去できます。"
+msgstr "このツールではファイル内のメタデータをご確認いただき、可能な範囲で除去できま"
+"す。"
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -71,16 +72,16 @@ msgstr "ファイル"
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr "ファイル追加"
+msgstr "ファイルを追加"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr "フォルダ追加"
+msgstr "フォルダーを追加"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr "メタデータ除去"
+msgstr "メタデータを除去"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
@@ -112,23 +113,23 @@ msgstr "ヘルプ"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr "ファイル追加 (_A)"
+msgstr "_ファイルを追加"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr "フォルダ追加"
+msgstr "フォルダーを追加"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr "除去 (_C)"
+msgstr "_除去"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr "ファイルをバックアップしてください！"
+msgstr "ファイルのバックアップをご確認下さい！"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr "一度メタデータを除去したファイルを、元の状態に戻すことはできません。"
+msgstr "一度メタデータを除去したファイルを元の状態にお戻しすることはできません。"
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
@@ -145,11 +146,11 @@ msgstr "除去"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr "メタデータを除去します"
+msgstr "あなたの痕跡を除去"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr "メタデータと除去プロセスの限界の詳細はこちらをご覧ください"
+msgstr "メタデータと除去プロセスの制限事項の詳細"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
@@ -169,23 +170,23 @@ msgstr "除去済み"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr "新しいウィンドウ (_N)"
+msgstr "_新しいウィンドウ"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr "ウィンドウ内ファイルのメタデータを除去 (_C)"
+msgstr "_ウィンドウをクリア"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr "ヘルプ (_H)"
+msgstr "_ヘルプ"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr "キーボードショートカット (_K)"
+msgstr "_キーボードショートカット"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "メタデータクリーナーについて (_A)"
+msgstr "_Metadata Cleaner について"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
@@ -193,7 +194,7 @@ msgstr "メインメニュー"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr "クリーニングの設定"
+msgstr "除去の設定"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
@@ -201,7 +202,7 @@ msgstr "簡易除去"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr "簡易除去の詳細はこちらをご覧ください"
+msgstr "簡易除去の詳細"
 
 #: application/data/ui/Window.ui:80
 msgid "Details"
@@ -214,7 +215,9 @@ msgstr "閉じる"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr "Kaede https://kaede.ch/"
+msgstr ""
+"Kaede https://kaede.ch/\n"
+"Himmel https://hosted.weblate.org/user/Himmel/"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
@@ -240,11 +243,11 @@ msgstr "ファイルのメタデータが除去されました"
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
-msgstr "既知のメタデータは除去されましたが、除去プロセスには限界があります。"
+msgstr "既知のメタデータは除去されましたが、除去プロセスには制限事項があります。"
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr "詳細"
+msgstr "詳細情報"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
