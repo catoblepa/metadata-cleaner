@@ -1,11 +1,12 @@
-# Athanasios Nektarios Karachalios Stagkas <nasos.karachalios.stagas@gmail.com>, 2022.
+# Athanasios Nektarios Karachalios Stagkas <nasos.karachalios.stagas@gmail.com>, 2022, 2024.
 # Athanasios <nikolaoutns@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-03-11 18:32+0000\n"
-"PO-Revision-Date: 2023-05-08 19:24+0000\n"
-"Last-Translator: Athanasios <nikolaoutns@protonmail.com>\n"
+"PO-Revision-Date: 2024-04-01 10:21+0000\n"
+"Last-Translator: Athanasios Nektarios Karachalios Stagkas <nasos.karachalios."
+"stagas@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/el/>\n"
 "Language: el\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -28,6 +29,10 @@ msgid ""
 "who, what, when, where, why, and how about every facet of the data that is "
 "being documented."
 msgstr ""
+"Τα μεταδεδομένα αποτελούνται από πληροφορίες που χαρακτηρίζουν τα δεδομένα. "
+"Τα μεταδεδομένα χρησιμοποιούνται για την τεκμηρίωση των προϊόντων δεδομένων. "
+"Στην ουσία, τα μεταδεδομένα απαντούν στο ποιος, τι, πότε, πού, γιατί και πώς "
+"για κάθε πτυχή των δεδομένων που τεκμηριώνονται."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:16
@@ -56,6 +61,8 @@ msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Το αρχείο αποκαλύπτει πληροφορίες σχετικά με το υλικό, τις ρυθμίσεις, την "
+"ημερομηνία, την τοποθεσία της λήψης. Περιέχει συνολικά 79 μεταδεδομένα."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
@@ -71,6 +78,12 @@ msgid ""
 "for complex file formats. This is why you shouldn't rely on metadata's "
 "presence to decide if your file must be cleaned or not."
 msgstr ""
+"Ενώ ο <app>Καθαριστής Μεταδεδομένων</app> κάνει ό,τι μπορεί για να εμφανίζει "
+"μεταδεδομένα, δεν σημαίνει ότι ένα αρχείο είναι καθαρό από μεταδεδομένα αν "
+"δεν εμφανίζει κανένα. Δεν υπάρχει αξιόπιστος τρόπος να ανιχνεύσετε κάθε "
+"πιθανό μεταδεδομένο για πολύπλοκες μορφές αρχείων. Αυτός είναι ο λόγος για "
+"τον οποίο δεν πρέπει να βασίζεστε στην παρουσία μεταδεδομένων για να "
+"αποφασίσετε αν το αρχείο σας πρέπει να καθαριστεί ή όχι."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:29
@@ -78,6 +91,9 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Καθαριστής Μεταδεδομένων</app> παίρνει το περιεχόμενο του αρχείου και "
+"το τοποθετεί σε ένα νέο αρχείο χωρίς μεταδεδομένα, διασφαλίζοντας ότι τυχόν "
+"μη εντοπισμένα μεταδεδομένα αφαιρούνται."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:35
@@ -91,13 +107,16 @@ msgid ""
 "itself discloses personal information or has been watermarked, traditionally "
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Έχετε υπόψη ότι τα μεταδεδομένα δεν είναι ο μόνος τρόπος επισήμανσης ενός "
+"αρχείου. Εάν το ίδιο το περιεχόμενο αποκαλύπτει προσωπικές πληροφορίες ή "
+"έχει υδατογράφημα, παραδοσιακά ή μέσω στεγανογραφίας, η <app>Καθαριστής "
+"Μεταδεδομένων</app> δεν θα σας προστατεύσει."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
 #: ../help/C/index.page:10
-#, fuzzy
 msgid "Metadata Cleaner"
-msgstr "Καθαριστής μεταδεδομένων"
+msgstr "Καθαριστής Μεταδεδομένων"
 
 #. (itstool) path: page/p
 #: ../help/C/index.page:14
@@ -105,6 +124,8 @@ msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
 msgstr ""
+"<app>Καθαριστής Μεταδεδομένων</app> σας επιτρέπει να βλέπετε τα μεταδεδομένα "
+"στα αρχεία σας και να απαλλαγείτε από αυτά, όσο το δυνατόν περισσότερο."
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:17
@@ -114,12 +135,12 @@ msgstr "Γενικές πληροφορίες"
 #. (itstool) path: section/title
 #: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "Χρήση του <app>Καθαριστή Μεταδεδομένων</app>"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Προσθήκη αρχείων"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:15
@@ -127,11 +148,14 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
+"Για να προσθέσετε αρχεία, πατήστε το κουμπί <gui style=\"button\" >Προσθήκη "
+"Αρχείων</gui>. Θα ανοίξει ένας επιλογέας αρχείων, επιλέξτε τα αρχεία που "
+"θέλετε να καθαρίσετε."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\" >Προσθήκη Αρχείων</gui> κουμπί"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
@@ -142,16 +166,22 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
+"Για να προσθέσετε ολόκληρους φακέλους ταυτόχρονα, πατήστε το κουμπί <gui "
+"style=\"button\" >Προσθήκη Φακέλων</gui>. Θα ανοίξει ένας επιλογέας αρχείων, "
+"επιλέξτε τους φακέλους που θέλετε να προσθέσετε. Μπορείτε προαιρετικά να "
+"επιλέξετε να προσθέσετε επίσης όλα τα αρχεία από όλους τους υποφακέλους, "
+"τσεκάροντας το πλαίσιο ελέγχου <gui style=\"checkbox\" >Προσθήκη Αρχείων από "
+"υποφακέλους</gui>."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Προσθήκη Φακέλων</gui> κουμπί"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Προβολή μεταδεδομένων"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:31
@@ -159,16 +189,18 @@ msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
 msgstr ""
+"Κάντε κλικ σε ένα αρχείο στη λίστα για να ανοίξετε τη λεπτομερή προβολή. Εάν "
+"έχει μεταδεδομένα, θα εμφανιστούν εκεί."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Λεπτομερής προβολή των μεταδεδομένων"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:41
 msgid "Cleaning files"
-msgstr ""
+msgstr "Καθαρισμός αρχείων"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:42
@@ -176,11 +208,14 @@ msgid ""
 "To clean all the files in the window, press the <gui style=\"button\">Clean</"
 "gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Για να καθαρίσετε όλα τα αρχεία στο παράθυρο, πατήστε το κουμπί <gui style="
+"\"button\" >Καθαρισμός</gui>. Η διαδικασία καθαρισμού ενδέχεται να χρειαστεί "
+"κάποιο χρονικό διάστημα για να ολοκληρωθεί."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\" >καθαρισμός</gui> κουμπί"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:52
@@ -195,6 +230,10 @@ msgid ""
 "might not be selectable anymore, compressed images might get compressed "
 "again…"
 msgstr ""
+"Από προεπιλογή, η διαδικασία αφαίρεσης ενδέχεται να αλλάξει λίγο τα δεδομένα "
+"των αρχείων σας, προκειμένου να αφαιρεθούν όσο το δυνατόν περισσότερα "
+"μεταδεδομένα. Για παράδειγμα, τα κείμενα σε PDF μπορεί να μην είναι πλέον "
+"επιλέξιμα, οι συμπιεσμένες εικόνες μπορεί να συμπιεστούν ξανά…"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:54
@@ -202,3 +241,5 @@ msgid ""
 "The lightweight mode, while not as thorough, will not make destructive "
 "changes to your files."
 msgstr ""
+"Η ελαφριά λειτουργία, αν και δεν είναι τόσο λεπτομερής, δεν θα κάνει "
+"καταστροφικές αλλαγές στα αρχεία σας."
