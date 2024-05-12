@@ -7,35 +7,37 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-05-13 10:00+0000\n"
+"Last-Translator: Matej Kovacic <matej.kovacic@telefoncek.si>\n"
+"Language-Team: Slovenian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 5.5.5-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Čistilec metapodatkov"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "Iz vaših datotek očisti metapodatke"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr ""
+msgstr "Metapodatki;Odstranjevalec;Čistilec;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Poglej in očisti metapodatke v datotekah"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -45,249 +47,262 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"Metapodatki v datotekah lahko povedo veliko o vas. Kamere beležijo podatke o "
+"tem, kdaj in kje je bila slika posneta ter kateri fotoaparat je bil "
+"uporabljen. Pisarniške aplikacije v dokumente in preglednice samodejno "
+"dodajo podatke o avtorju in podjetju. To so občutljivi podatki in jih morda "
+"ne boste želeli razkriti."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
+"To orodje vam omogoča, da si ogledate metapodatke v svojih datotekah in jih "
+"v čim večji meri odstranite."
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "Datoteke"
 
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr ""
+msgstr "Dodaj datoteke"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr ""
+msgstr "Dodaj mape"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr ""
+msgstr "Očisti metapodatke"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Počisti vse datoteke iz okna"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr ""
+msgstr "Splošno"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr ""
+msgstr "Novo okno"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr ""
+msgstr "Zapri okno"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr ""
+msgstr "Izhod"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Tipkovnične bližnjice"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr ""
+msgstr "Pomoč"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr ""
+msgstr "_Dodaj datoteke"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr ""
+msgstr "Dodaj _mape"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_Počisti"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Poskrbite, da imate varnostno kopijo svojih datotek!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr ""
+msgstr "Ko so datoteke očiščene, ni več poti nazaj."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Ne obvesti me ponovno"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
-msgstr ""
+msgstr "Prekini"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "Očisti"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr ""
+msgstr "Očisti svoje sledi"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr ""
+msgstr "Izvedite več o metapodatkih in omejitvah procesa njihovega čiščenja"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
-msgstr ""
+msgstr "Odstrani datoteko iz seznama"
 
 #: application/data/ui/FileRow.ui:128
 msgid "Warning"
-msgstr ""
+msgstr "Opozorilo"
 
 #: application/data/ui/FileRow.ui:146
 msgid "Error"
-msgstr ""
+msgstr "Napaka"
 
 #: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
-msgstr ""
+msgstr "Očiščeno"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr ""
+msgstr "_Novo okno"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr ""
+msgstr "Počisti _okno"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_Pomoč"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Tipkovnične bližnjice"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "_O Čistilcu metapodatkov"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
-msgstr ""
+msgstr "Glavni meni"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Nastavitve čiščenja"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr ""
+msgstr "Lahko čiščenje"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Izvedite več o lahkem čiščenju"
 
 #: application/data/ui/Window.ui:80
 msgid "Details"
-msgstr ""
+msgstr "Podrobnosti"
 
 #: application/data/ui/Window.ui:86
 msgid "Close"
-msgstr ""
+msgstr "Zapri"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr ""
+msgstr "Matej Kovačič <matej@telefoncek.si>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
-msgstr ""
+msgstr "Izberite datoteke za čiščenje"
 
 #: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
-msgstr ""
+msgstr "Izberite mape za čiščenje"
 
 #: application/metadatacleaner/modules/file.py:249
 msgid "An error occured during the cleaning."
-msgstr ""
+msgstr "Med čiščenjem je prišlo do napake."
 
 #: application/metadatacleaner/modules/file.py:252
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
+msgstr "Med čiščenjem je prišlo do napake, očiščene datoteke ni mogoče najti"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr ""
+msgstr "Datoteka je bila očiščena"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
+"Znani metapodatki so bili odstranjeni, vedeti pa morate, da ima proces "
+"čiščenja določene omejitve."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr ""
+msgstr "Izvedite več"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr ""
+msgstr "Ne morem prebrati datoteke"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr ""
+msgstr "Tip datoteke ni podprt"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr ""
+msgstr "Ne morem preveriti metapodatkov"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr ""
+msgstr "Ni znanih metapodatkov"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr ""
+msgstr "Metapodatkov ni mogoče odstraniti"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr ""
+msgstr "Datoteka bo očiščena v vsakem primeru."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr ""
+msgstr "Vse podprte datoteke"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr ""
+msgstr "Dodaj datoteke iz podmap"
 
 #: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
-msgstr ""
+msgstr "Obdelovanje datoteke {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
-msgstr ""
+msgstr "Čiščenje datoteke {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:79
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%i datoteka očiščena."
+msgstr[1] "%i datoteki očiščeni."
+msgstr[2] "%i datoteke očiščene."
+msgstr[3] "%i datoteke očiščene."
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Pojavila se je %i napaka."
+msgstr[1] "Pojavila sta se %i napaki."
+msgstr[2] "Pojavile so se %i napake."
+msgstr[3] "Pojavilo se je %i napak."
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr ""
+msgstr "Knjižnice"
