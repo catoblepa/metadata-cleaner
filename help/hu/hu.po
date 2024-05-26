@@ -1,19 +1,19 @@
 # Balázs Úr <balazs@urbalazs.hu>, 2021.
-# Szia Tomi <sziatomi01@gmail.com>, 2022, 2023.
+# Szia Tomi <sziatomi01@gmail.com>, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2023-09-04 19:51+0000\n"
+"PO-Revision-Date: 2024-05-28 00:09+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
-"Language-Team: Hungarian <https://hosted.weblate.org/projects/metadata-"
-"cleaner/help/hu/>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/help/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -77,7 +77,7 @@ msgid ""
 "for complex file formats. This is why you shouldn't rely on metadata's "
 "presence to decide if your file must be cleaned or not."
 msgstr ""
-"Bár a <app>Metaadattörlő</app> mindent megtesz a metaadatok "
+"Bár a <app>Metaadat-tisztító</app> mindent megtesz a metaadatok "
 "megjelenítéséért, az nem jelenti azt, hogy egy fájl metaadatoktól mentes, ha "
 "nem jelenik meg egy sem. Az összetett fájlformátumok esetében nincs "
 "megbízható módszer minden lehetséges metaadat felismerésére. Ezért nem "
@@ -90,9 +90,9 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"A <app>Metaadattörlő</app> átveszi a fájl tartalmát és egy új, metaadatok "
-"nélküli fájlba helyezi, biztosítva, hogy a fel nem fedezett metaadatok "
-"eltávolításra kerüljenek."
+"A <app>Metaadat-tisztító</app> átveszi a fájl tartalmát és egy új, "
+"metaadatok nélküli fájlba helyezi, biztosítva, hogy a fel nem fedezett "
+"metaadatok eltávolításra kerüljenek."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:35
@@ -108,8 +108,8 @@ msgid ""
 msgstr ""
 "Ne feledje, hogy a metaadat nem az egyetlen módja a fájlok megjelölésének. "
 "Ha maga a tartalom személyes adatokat hoz nyilvánosságra, illetve "
-"hagyományos módon vagy szteganográfiával vízjelezett, akkor a "
-"<app>Metaadattörlő</app> nem fogja megvédeni Önt."
+"hagyományos módon vagy szteganográfiával vízjelezett, akkor a <app>Metaadat-"
+"tisztító</app> nem fogja megvédeni Önt."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -123,8 +123,9 @@ msgid ""
 "<app>Metadata Cleaner</app> allows you to view metadata in your files and to "
 "get rid of it, as much as possible."
 msgstr ""
-"A <app>Metaadattörlő</app> lehetővé teszi, hogy megtekinthesse a fájlokban "
-"lévő metaadatokat és a lehető legnagyobb mértékben megszabaduljon tőlük."
+"A <app>Metaadat-tisztító</app> lehetővé teszi, hogy megtekinthesse a "
+"fájlokban lévő metaadatokat és a lehető legnagyobb mértékben megszabaduljon "
+"tőlük."
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:17
@@ -134,7 +135,7 @@ msgstr "Általános információk"
 #. (itstool) path: section/title
 #: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr "A <app>Metaadattörlő</app> használata"
+msgstr "A <app>Metaadat-tisztító</app> használata"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:14
