@@ -24,7 +24,7 @@ Under the hood, it relies on [mat2](https://0xacab.org/jvoisin/mat2) to parse an
 
 Metadata Cleaner is available as a Flatpak on Flathub:
 
-<a href="https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner"><img src="https://flathub.org/assets/badges/flathub-badge-en.png" alt="Download on Flathub" width="240"></a>
+<a href="https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner"><img src="https://flathub.org/api/badge?svg&locale=en" alt="Download on Flathub" width="240"></a>
 
 ## Building from source
 
