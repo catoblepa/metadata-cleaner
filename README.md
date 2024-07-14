@@ -3,6 +3,14 @@ SPDX-FileCopyrightText: Metadata Cleaner contributors
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
 
+# UNMAINTAINED
+
+After more than 3 years, I unfortunately don't have time to maintain Metadata Cleaner anymore. If someone wants to continue working on it, please feel free to fork the repository.
+
+Thanks to everyone who contributed over the years.
+
+---
+
 # Metadata Cleaner
 
 ![](./resources/icons/icon.svg)
