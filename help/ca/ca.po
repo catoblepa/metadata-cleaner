@@ -1,10 +1,11 @@
 # victor dargallo <victordargallo@disroot.org>, 2023.
+# BennyBeat <bennybeat@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2023-09-02 14:54+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2024-10-31 22:00+0000\n"
+"Last-Translator: BennyBeat <bennybeat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/ca/>\n"
 "Language: ca\n"
@@ -12,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -41,11 +42,12 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Les metadades d'un fitxer poden dir molt sobre vosaltres. Les càmeres "
-"registren dades sobre quan i on es va fer una fotografia i quina càmera es "
-"va utilitzar. Les aplicacions d'oficina afegeixen automàticament informació "
-"de l'autor i de l'empresa als documents i fulls de càlcul. Aquesta és "
-"informació sensible i és possible que no vulgueu revelar-la."
+"Les metadades d'un fitxer poden facilitar molta informació quant a qui sou. "
+"Les càmeres registren dades com ara on i quan es va fer una fotografia i "
+"quin model de càmera es va fer servir. El programari ofimàtic afegeix "
+"automàticament la informació de l'autor i l'empresa als documents i fulls de "
+"càlcul. Aquesta és informació confidencial on, possiblement no voldreu "
+"revelar-la."
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
