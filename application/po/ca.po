@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Ícar N. S. <icar.nin@pm.me>, 2022.
 # victor dargallo <victordargallo@disroot.org>, 2023.
+# BennyBeat <bennybeat@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2023-09-04 19:50+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
+"PO-Revision-Date: 2024-10-31 22:00+0000\n"
+"Last-Translator: BennyBeat <bennybeat@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ca/>\n"
 "Language: ca\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.8.2-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -37,7 +38,7 @@ msgstr "Metadata;Remover;Cleaner;Netejador;Metadades;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr "Veure i netejar les metadades dels fitxers"
+msgstr "Mostra i neteja les metadades dels fitxers"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -47,11 +48,12 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Les metadades d'un fitxer poden dir molt sobre vosaltres. Les càmeres "
-"registren dades sobre quan i on es va fer una fotografia i quina càmera es "
-"va utilitzar. Les aplicacions d'oficina afegeixen automàticament informació "
-"de l'autor i de l'empresa als documents i fulls de càlcul. Aquesta és "
-"informació sensible i és possible que no vulgueu revelar-la."
+"Les metadades d'un fitxer poden facilitar molta informació quant a qui sou. "
+"Les càmeres registren dades com ara on i quan es va fer una fotografia i "
+"quin model de càmera es va fer servir. El programari ofimàtic afegeix "
+"automàticament la informació de l'autor i l'empresa als documents i fulls de "
+"càlcul. Aquesta és informació confidencial on, possiblement no voldreu "
+"revelar-la."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
@@ -81,7 +83,7 @@ msgstr "Neteja les metadades"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr "Cancel·la tots els fitxers de la finestra"
+msgstr "Neteja tots els fitxers de la finestra"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
@@ -89,7 +91,7 @@ msgstr "General"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr "Nova finestra"
+msgstr "Finestra nova"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
@@ -109,7 +111,7 @@ msgstr "Ajuda"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr "_Afegeix arxius"
+msgstr "_Afegeix fitxers"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
@@ -129,7 +131,7 @@ msgstr "Un cop netejats els fitxers, no hi ha marxa enrere."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr "No m'ho tornis a dir"
+msgstr "No tornis a mostrar"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
@@ -142,21 +144,21 @@ msgstr "Neteja"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr "Netegeu els vostres rastres"
+msgstr "Netegeu el rastre"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
 msgstr ""
-"Obteniu més informació sobre les metadades i les limitacions del procés de "
+"Obteniu més informació quant a les metadades i limitacions del procés de "
 "neteja"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
-msgstr "Elimina el fitxer de la llista"
+msgstr "Suprimeix el fitxer de la llista"
 
 #: application/data/ui/FileRow.ui:128
 msgid "Warning"
-msgstr "Avís"
+msgstr "Atenció"
 
 #: application/data/ui/FileRow.ui:146
 msgid "Error"
@@ -168,7 +170,7 @@ msgstr "S'ha netejat"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr "_Nova finestra"
+msgstr "Finestra _nova"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
@@ -192,15 +194,15 @@ msgstr "Menú principal"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr "Paràmetres de neteja"
+msgstr "Opcions de neteja"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr "Neteja Lleugera"
+msgstr "Neteja bàsica"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr "Obteniu més informació sobre la neteja lleugera"
+msgstr "Més informació quant a la neteja bàsica"
 
 #: application/data/ui/Window.ui:80
 msgid "Details"
@@ -213,7 +215,9 @@ msgstr "Tanca"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr "Víctor Dargallo <victordargallo@disroot.org>"
+msgstr ""
+"Víctor Dargallo <victordargallo@disroot.org>\n"
+"Benet «BennyBeat» R. i Camps <bennybeat@gmail.com>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
@@ -234,14 +238,14 @@ msgstr ""
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr "L'arxiu s'ha netejat correctament"
+msgstr "S'ha netejat el fitxer correctament"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
-"S'han eliminat metadades conegudes, però el procés de neteja té algunes "
+"S'han suprimit metadades conegudes, però el procés de neteja té algunes "
 "limitacions."
 
 #: application/metadatacleaner/ui/detailsview.py:63
@@ -266,11 +270,11 @@ msgstr "No hi ha metadades conegudes"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr "No es poden eliminar les metadades"
+msgstr "No es poden suprimir les metadades"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr "El fitxer es netejarà de totes maneres per estar segurs."
+msgstr "El fitxer es netejarà igualment per seguretat."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
@@ -278,7 +282,7 @@ msgstr "Tots els fitxers compatibles"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr "Afegiu fitxers de subcarpetes"
+msgstr "Afegeix fitxers de subcarpetes"
 
 #: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
@@ -292,8 +296,8 @@ msgstr "S'està netejant el fitxer {}/{}"
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] "%i arxiu netejat."
-msgstr[1] "%i arxius netejats."
+msgstr[0] "%i fitxer netejat."
+msgstr[1] "%i fitxers netejats."
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
