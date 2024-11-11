@@ -7,34 +7,38 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-11-12 23:00+0000\n"
+"Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.9-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr ""
+msgstr "Metainfo eemaldaja"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr ""
+msgstr "Eemalda oma failidest metainfo"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
 msgstr ""
+"metainfo;metateave;eemaldaja;puhastaja;kustutaja;eemaldama;puhastama;kustutam"
+"a;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr ""
+msgstr "Leia failidest metainfo ja eemalda see"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -53,61 +57,61 @@ msgstr ""
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr ""
+msgstr "Failid"
 
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr ""
+msgstr "Lisa failid"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr ""
+msgstr "Lisa kaustad"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr ""
+msgstr "Eemalda metainfo"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr ""
+msgstr "Eemalda aknast kõik failid"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
-msgstr ""
+msgstr "Üldised seadistused"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr ""
+msgstr "Uus aken"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr ""
+msgstr "Sulge aken"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr ""
+msgstr "Välju"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr ""
+msgstr "Klaviatuuri kiirklahvid"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr ""
+msgstr "Abiteave"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr ""
+msgstr "_Lisa faile"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr ""
+msgstr "Lisa _kaustu"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr ""
+msgstr "_Eemalda metainfo"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
@@ -201,7 +205,7 @@ msgstr ""
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr ""
+msgstr "Priit Jõerüüt"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
