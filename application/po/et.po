@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-11-12 23:00+0000\n"
+"PO-Revision-Date: 2024-12-01 22:00+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/et/>\n"
@@ -54,6 +54,8 @@ msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
+"Selle tarvikuga saad uurida oma failides leiduvat metainfot ning seda ka "
+"eemaldada, sedavõrd, kui see võimalik on."
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
@@ -115,76 +117,78 @@ msgstr "_Eemalda metainfo"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr ""
+msgstr "Kontrolli, et oled teinud oma failidest varukoopiad!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
 msgstr ""
+"Kui neist failidest oled metainfo eemaldanud, siis seda tagasi pöörata ei "
+"saa."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr ""
+msgstr "Ära enam näita seda teadet"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
-msgstr ""
+msgstr "Katkesta"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr ""
+msgstr "Eemalda metainfo"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr ""
+msgstr "Eemalda failidest oma jäljed"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr ""
+msgstr "Lisateave metainfo ja selle eemaldamise piirangute kohta"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
-msgstr ""
+msgstr "Eemalda fail loendist"
 
 #: application/data/ui/FileRow.ui:128
 msgid "Warning"
-msgstr ""
+msgstr "Hoiatus"
 
 #: application/data/ui/FileRow.ui:146
 msgid "Error"
-msgstr ""
+msgstr "Viga"
 
 #: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
-msgstr ""
+msgstr "Metainfo on eemaldatud"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr ""
+msgstr "_Uus aken"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr ""
+msgstr "_Tühjenda aken"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr ""
+msgstr "_Abiteave"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Kiirklahvid"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr ""
+msgstr "R_akenduse teave"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
-msgstr ""
+msgstr "Peamenüü"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr ""
+msgstr "Metainfo eemaldamise eelistused"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
