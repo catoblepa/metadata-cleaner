@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-12-01 22:00+0000\n"
+"PO-Revision-Date: 2024-12-14 20:24+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/et/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.9-rc\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -48,6 +48,10 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
+"Failis leiduv metainfo võib sinu kohta nii mõndagi rääkida. Kaamerad "
+"salvestavad millal, kus ja mis kaameraga pilt sai tehtud. Kontoritarkvara "
+"lisab dokumendifailidesse autori nime ja organisatsiooni. Tegemist võib aga "
+"olla teabega, mida sa ei soovi levitada."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
@@ -192,19 +196,19 @@ msgstr "Metainfo eemaldamise eelistused"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr ""
+msgstr "Metainfo kerge eemaldamine"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr ""
+msgstr "Lisateave metainfo kerge eemaldamise kohta"
 
 #: application/data/ui/Window.ui:80
 msgid "Details"
-msgstr ""
+msgstr "Üksikasjad"
 
 #: application/data/ui/Window.ui:86
 msgid "Close"
-msgstr ""
+msgstr "Sulge"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
