@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-11-12 23:00+0000\n"
+"PO-Revision-Date: 2024-12-15 23:00+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/et/>\n"
@@ -13,12 +13,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.9-rc\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
 msgid "Metadata and privacy"
-msgstr ""
+msgstr "Metainfo ja privaatsus"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:15
@@ -33,12 +33,14 @@ msgstr ""
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
 msgid "Example of metadata in a picture file"
-msgstr ""
+msgstr "Metainfo näide pildifailis"
 
 #. (itstool) path: figure/desc
 #: ../help/C/general.page:20
 msgid "The file discloses information about the hardware, settings, date, location of the shoot. It contains a total of 79 metadata."
 msgstr ""
+"Failist tuleb välja kasutatud kaamera, pildistamise seadistused, kuupäev ja "
+"asukoht - kokku 79 erinevat kirjet."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
