@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2025-01-21 00:23+0000\n"
+"PO-Revision-Date: 2025-01-22 01:00+0000\n"
 "Last-Translator: \"Emilio S.\" <emism.translations@gmail.com>\n"
 "Language-Team: Interlingua <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/ia/>\n"
@@ -29,6 +29,11 @@ msgstr ""
 #: ../help/C/general.page:16
 msgid "Metadata within a file can tell a lot about you. Cameras record data about when and where a picture was taken and which camera was used. Office applications automatically add author and company information to documents and spreadsheets. This is sensitive information and you may not want to disclose it."
 msgstr ""
+"Le metadatos intra un file pote dicer multo super te. Le cameras registran "
+"datos super quando e ubi un imagine ha essite prendite e qual camera ha "
+"essite usate. Le applicationes de officio adde le information de autor e "
+"interprisa automaticamente al documentos e folios de calculo. Iste es "
+"information sensibile e tu poterea non voler revelar lo."
 
 #. (itstool) path: figure/title
 #: ../help/C/general.page:18
@@ -114,7 +119,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Visualisation de metadatos"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:31
