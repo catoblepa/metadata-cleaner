@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # minn _ <xxxzm8818@gmail.com>, 2021.
 # 이정희 <daemul72@gmail.com>, 2022.
-# Seong-ho Cho <darkcircle.0426@gmail.com>, 2023.
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2023, 2025.
 # honnip <tmddn741741@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2023-06-14 02:12+0000\n"
+"PO-Revision-Date: 2025-02-23 23:30+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ko/>\n"
@@ -19,14 +19,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.10.1-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "메타데이터 클리너"
+msgstr "메타데이터 정리"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
@@ -182,11 +182,9 @@ msgstr "키보드 바로 가기 키(_K)"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "메타데이터 클리너 정보(_A)"
+msgstr "메타데이터 정리 정보(_A)"
 
 #: application/data/ui/MenuButton.ui:38
-#, fuzzy
-#| msgid "Main menu"
 msgid "Main Menu"
 msgstr "주 메뉴"
 
@@ -291,13 +289,13 @@ msgstr "{}/{} 파일 정리 중"
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] ""
+msgstr[0] "파일 %i개를 정리했습니다."
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] ""
+msgstr[0] "오류 %i건이 나타났습니다."
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
