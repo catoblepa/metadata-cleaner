@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Priit Jõerüüt <hwlate@joeruut.com>, 2024.
+# Priit Jõerüüt <hwlate@joeruut.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-12-15 21:00+0000\n"
+"PO-Revision-Date: 2025-02-26 00:06+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/application/et/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-rc\n"
+"X-Generator: Weblate 5.10.2-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -68,12 +68,12 @@ msgstr "Failid"
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr "Lisa failid"
+msgstr "Lisa faile"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr "Lisa kaustad"
+msgstr "Lisa kaustu"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
@@ -213,7 +213,7 @@ msgstr "Sulge"
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr "Priit Jõerüüt"
+msgstr "Priit Jõerüüt 2024-2025"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
