@@ -1,10 +1,10 @@
 # Languages add-on <noreply-addon-languages@weblate.org>, 2024.
-# Priit Jõerüüt <hwlate@joeruut.com>, 2024.
+# Priit Jõerüüt <hwlate@joeruut.com>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-12-15 23:00+0000\n"
+"PO-Revision-Date: 2025-02-26 00:12+0000\n"
 "Last-Translator: Priit Jõerüüt <hwlate@joeruut.com>\n"
 "Language-Team: Estonian <https://hosted.weblate.org/projects/"
 "metadata-cleaner/help/et/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9-rc\n"
+"X-Generator: Weblate 5.10.2-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -24,6 +24,10 @@ msgstr "Metainfo ja privaatsus"
 #: ../help/C/general.page:15
 msgid "Metadata consists of information that characterizes data. Metadata is used to provide documentation for data products. In essence, metadata answers who, what, when, where, why, and how about every facet of the data that is being documented."
 msgstr ""
+"Metaandmete näol on tegimist teabega, mid kirjeldavad sinu andmeid. Seda "
+"kasutatakse näiteks andmete dokumenteerimiseks. Olemuselt leidub metainfos "
+"vastuseid küsimustele kes, mida, millal, kus ja miks ning nii igalt poolt "
+"vaadates."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:16
@@ -45,27 +49,39 @@ msgstr ""
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
 msgid "Cleaning process"
-msgstr ""
+msgstr "Eemaldamise protsess"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:28
 msgid "While <app>Metadata Cleaner</app> is doing its very best to display metadata, it doesn't mean that a file is clean from metadata if it doesn't show any. There is no reliable way to detect every single possible metadata for complex file formats. This is why you shouldn't rely on metadata's presence to decide if your file must be cleaned or not."
 msgstr ""
+"Kuigi <app>Metainfo eemaldaja</app> annab endast parima metaandmete "
+"näitamiseks, siis see ei tähenda, et failis metainfo puudub, kui seda näha "
+"pole. Puudub üheselt usaldatav meetod iga väiksemagi metainfo killu "
+"tuvastamiseks keerukatest failivormingutest. Seetõttu ära usalda ainult "
+"metainfo vaadet otsustamaks, kas fail vajab puhastamist või mitte."
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:29
 msgid "<app>Metadata Cleaner</app> takes the content of the file and puts it into a new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
+"<app>Metainfo eemaldaja</app> võtab vaid faili tegeliku sisu ja teeb sellest "
+"uue metainfovaba faili, tagades sellega, et ka mittemärgatud metateave saab "
+"eemaldatud."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:35
 msgid "Limitations"
-msgstr ""
+msgstr "Piirangud"
 
 #. (itstool) path: section/p
 #: ../help/C/general.page:36
 msgid "Be aware that metadata is not the only way of marking a file. If the content itself discloses personal information or has been watermarked, traditionally or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
+"Palun arvesta, et metateave pole ainus viis faili märgistamiseks. Kui faili "
+"sisus leidub privaatset teavet või on sisule lisatud vesimärk (tavalisel "
+"viisil või steganograafia abil), siis <app>Metainfo eemaldajast</app> suurt "
+"abi pole."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -77,83 +93,101 @@ msgstr "Metainfo eemaldaja"
 #: ../help/C/index.page:14
 msgid "<app>Metadata Cleaner</app> allows you to view metadata in your files and to get rid of it, as much as possible."
 msgstr ""
+"<app>Metainfo eemaldaja</app> võimaldab sul vaadata oma failides leiduvaid "
+"metaandmeid ning neid eemaldada sedavõrd, kui see võimalik on."
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:17
 msgid "General information"
-msgstr ""
+msgstr "Üldteave"
 
 #. (itstool) path: section/title
 #: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr ""
+msgstr "<app>Metainfo eemaldaja</app> kasutamine"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:14
 msgid "Adding files"
-msgstr ""
+msgstr "Failide lisamine"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:15
 msgid "To add files, press the <gui style=\"button\">Add Files</gui> button. A file chooser will open, select the files you want to clean."
 msgstr ""
+"Failide lisamiseks klõpsi <gui style=\"button\">Lisa faile</gui> nuppu. "
+"Avaneb failivalija vaade, mis võimaldab sul valida puhastatavad failid."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
 msgid "<gui style=\"button\">Add Files</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Lisa faile</gui> nupp"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:20
 msgid "To add whole folders at once, press the <gui style=\"button\">Add Folders</gui> button. A file chooser will open, select the folders you want to add. You can optionally choose to also add all files from all subfolders by checking the <gui style=\"checkbox\">Add files from subfolders</gui> checkbox."
 msgstr ""
+"Lisamaks korraga terveid kausti vajuta <gui style=\"button\">Lisa kaustu</"
+"gui> nuppu. Avaneb failivalija vaade, mis võimaldab lisatava kausta valida. "
+"Märkeruudust <gui style=\"checkbox\">Lisa failid ka alamkaustadest</gui> "
+"saad määrata, kas kõik failid alamkaustadest peaksid olema kaasatud."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
 msgid "<gui style=\"button\">Add Folders</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Lisa kaustu</gui> nupp"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:30
 msgid "Viewing metadata"
-msgstr ""
+msgstr "Metainfo vaatamine"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:31
 msgid "Click on a file in the list to open the detailed view. If it has metadata, it will be shown there."
 msgstr ""
+"Klõpsides loendis olevad kirjeid näed üksikasjalikku teavet selle faili "
+"metainfo kohta. Näitame siin kõike, mida me oskame lugeda."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:33
 msgid "Detailed view of the metadata"
-msgstr ""
+msgstr "Metainfo üksikasjalik vaade"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:41
 msgid "Cleaning files"
-msgstr ""
+msgstr "Failide puhastamine"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:42
 msgid "To clean all the files in the window, press the <gui style=\"button\">Clean</gui> button. The cleaning process may take some time to complete."
 msgstr ""
+"Eemaldamaks kõikidest failidest metaandmed klõpsi <gui style=\"button\""
+">Eemalda metainfo</gui> nuppu. Sõltuvalt andmemahust võib natuke aega kuluda."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:44
 msgid "<gui style=\"button\">Clean</gui> button"
-msgstr ""
+msgstr "<gui style=\"button\">Eemalda metainfo</gui> nupp"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:52
 msgid "Lightweight cleaning"
-msgstr ""
+msgstr "Metainfo kerge eemaldamine"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:53
 msgid "By default, the removal process might alter a bit the data of your files, in order to remove as much metadata as possible. For example, texts in PDF might not be selectable anymore, compressed images might get compressed again…"
 msgstr ""
+"Selleks, et võimalikult palju metaandmeid saaks eemaldatud, võib "
+"eemaldamisprotsess vaikimisi killuke muuta ka failide sisu. Näiteks ei "
+"pruugi pdf-failide tekstid olla enam valitavad või juba pakitud pildifailid "
+"pakitakse uuesti üle…"
 
 #. (itstool) path: section/p
 #: ../help/C/usage.page:54
 msgid "The lightweight mode, while not as thorough, will not make destructive changes to your files."
 msgstr ""
+"Kerge eemaldamise režiim pole küll hiidpõhjalik, kuid väldib sellised "
+"tõsisemaid muudatusi sinu failides."
