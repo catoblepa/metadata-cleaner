@@ -1,11 +1,12 @@
 # Oğuz Ersen <oguzersen@protonmail.com>, 2021.
 # Sabri Ünal <libreajans@gmail.com>, 2023.
+# Burak Hassiktir <burakhassiktir@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2023-02-25 12:40+0000\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"PO-Revision-Date: 2025-01-25 08:57+0000\n"
+"Last-Translator: Burak Hassiktir <burakhassiktir@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/metadata-cleaner/"
 "help/tr/>\n"
 "Language: tr\n"
@@ -13,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:14
@@ -59,8 +60,8 @@ msgid ""
 "The file discloses information about the hardware, settings, date, location "
 "of the shoot. It contains a total of 79 metadata."
 msgstr ""
-"Dosyada yapılan çekimin donanımı, ayarları, tarihi, yeri ile ilgili bilgiler "
-"açığa vuruluyor. Toplam 79 üst veri içeriyor."
+"Dosya, donanım, ayarlar, çekim tarihi ve yeri hakkında bilgiler "
+"içermektedir. Toplamda 79 adet üst veri (meta veri) bulunmaktadır."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:27
@@ -89,9 +90,9 @@ msgid ""
 "<app>Metadata Cleaner</app> takes the content of the file and puts it into a "
 "new one without metadata, ensuring that any undetected metadata is stripped."
 msgstr ""
-"<app>Üst Veri Temizleyici</app>, dosyanın içeriğini alır ve üst veri "
-"içermeyen yeni bir dosyaya yerleştirir ve algılanmayan üst verilerin "
-"kaldırıldığından emin olunmasını sağlar."
+"<app>Üstveri Temizleyici</app>, dosyanın içeriğini alır ve üstverisi olmayan "
+"yeni bir dosyaya koyar, böylece tespit edilemeyen herhangi bir üstverinin "
+"temizlendiğinden emin olur."
 
 #. (itstool) path: section/title
 #: ../help/C/general.page:35
@@ -105,10 +106,10 @@ msgid ""
 "itself discloses personal information or has been watermarked, traditionally "
 "or via steganography, <app>Metadata Cleaner</app> will not protect you."
 msgstr ""
-"Bir dosyayı işaretlemenin tek yolunun üst veriler olmadığını unutmayın. "
-"İçeriğin kendisi kişisel bilgileri ortaya döküyorsa veya geleneksel olarak "
-"ya da steganografi yoluyla filigran eklenmişse, <app>Üst Veri Temizleyici</"
-"app> sizi korumayacaktır."
+"Üstverinin bir dosyayı işaretlemenin tek yolu olmadığını unutmayın. İçeriğin "
+"kendisi kişisel bilgileri ifşa ediyorsa veya geleneksel yöntemlerle ya da "
+"steganografi ( gizli yazı ) yoluyla filigranlanmışsa, <app>Üstveri "
+"Temizleyici</app> sizi koruyamaz."
 
 #. (itstool) path: page/title
 #. The application name. It can be translated.
@@ -133,7 +134,7 @@ msgstr "Genel bilgiler"
 #. (itstool) path: section/title
 #: ../help/C/index.page:21
 msgid "Using <app>Metadata Cleaner</app>"
-msgstr "<app>Üst Veri Temizleyiciyi</app> kullanma"
+msgstr "<app>Üstveri Temizleyici</app> Kullanımı"
 
 #. (itstool) path: section/title
 #: ../help/C/usage.page:14
@@ -146,8 +147,8 @@ msgid ""
 "To add files, press the <gui style=\"button\">Add Files</gui> button. A file "
 "chooser will open, select the files you want to clean."
 msgstr ""
-"Dosya eklemek için <gui style=\"button\">Dosya Ekle</gui> düğmesine basın. "
-"Bir dosya seçici açılacaktır, temizlemek istediğiniz dosyaları seçin."
+"Dosya eklemek için, <gui style=\"button\">Dosya Ekle</gui> butonuna "
+"tıklayın. Bir dosya seçici açılacak, temizlemek istediğiniz dosyaları seçin."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:17
@@ -163,11 +164,11 @@ msgid ""
 "checking the <gui style=\"checkbox\">Add files from subfolders</gui> "
 "checkbox."
 msgstr ""
-"Tüm klasörleri bir kerede eklemek için <gui style=\"button\">Klasör Ekle</"
-"gui> düğmesine basın. Bir dosya seçici açılacaktır, eklemek istediğiniz "
-"klasörleri seçin. İsteğe bağlı olarak <gui style=\"checkbox\">Alt "
-"klasörlerdeki dosyaları ekle</gui> onay kutusunu işaretleyerek tüm alt "
-"klasörlerdeki tüm dosyaları da eklemeyi seçebilirsiniz."
+"Tüm klasörleri bir anda eklemek için, <gui style=\"button\">Klasör Ekle</"
+"gui> butonuna tıklayın. Bir dosya seçici açılacak, eklemek istediğiniz "
+"klasörleri seçin. Ayrıca, <gui style=\"checkbox\">Alt klasörlerden dosya "
+"ekle</gui> onay kutusunu işaretleyerek alt klasörlerden de tüm dosyaları "
+"eklemeyi seçebilirsiniz."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:22
@@ -185,8 +186,8 @@ msgid ""
 "Click on a file in the list to open the detailed view. If it has metadata, "
 "it will be shown there."
 msgstr ""
-"Ayrıntılı görünümü açmak için listedeki bir dosyaya tıklayın. Üst verileri "
-"varsa, orada gösterilecektir."
+"Listede bir dosyaya tıklayarak detaylı görünümü açın. Eğer dosyada üstveri "
+"varsa, burada görüntülenecektir."
 
 #. (itstool) path: figure/title
 #: ../help/C/usage.page:33
