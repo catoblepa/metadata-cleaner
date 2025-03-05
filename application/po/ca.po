@@ -2,15 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
 # Ícar N. S. <icar.nin@pm.me>, 2022.
-# victor dargallo <victordargallo@disroot.org>, 2023.
+# victor dargallo <victordargallo@disroot.org>, 2023, 2025.
 # BennyBeat <bennybeat@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2024-10-31 22:00+0000\n"
-"Last-Translator: BennyBeat <bennybeat@gmail.com>\n"
+"PO-Revision-Date: 2025-03-06 01:21+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/metadata-cleaner/"
 "application/ca/>\n"
 "Language: ca\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.8.2-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
@@ -216,7 +216,7 @@ msgstr "Tanca"
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
 msgstr ""
-"Víctor Dargallo <victordargallo@disroot.org>\n"
+"Victor Dargallo <victordargallo@disroot.org>\n"
 "Benet «BennyBeat» R. i Camps <bennybeat@gmail.com>"
 
 #: application/data/ui/Window.ui:128
