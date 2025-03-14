@@ -1,44 +1,42 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the fr.romainvigier.MetadataCleaner package.
-# Ícar N. S. <icar.nin@pm.me>, 2022.
-# victor dargallo <victordargallo@disroot.org>, 2023, 2025.
-# BennyBeat <bennybeat@gmail.com>, 2024.
+# OIS <mistresssilvara@hotmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr.romainvigier.MetadataCleaner\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-04-01 12:45+0000\n"
-"PO-Revision-Date: 2025-03-06 01:21+0000\n"
-"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
-"Language-Team: Catalan <https://hosted.weblate.org/projects/metadata-cleaner/"
-"application/ca/>\n"
-"Language: ca\n"
+"PO-Revision-Date: 2024-12-15 21:00+0000\n"
+"Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
+"Language-Team: Occidental <https://hosted.weblate.org/projects/"
+"metadata-cleaner/application/ie/>\n"
+"Language: ie\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.3-dev\n"
+"X-Generator: Weblate 5.9-rc\n"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:6
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:7
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:9
 #: application/data/ui/Window.ui:107 application/metadatacleaner/app.py:38
 msgid "Metadata Cleaner"
-msgstr "Netejador de Metadades"
+msgstr "Nettage de metadata"
 
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:8
 msgid "Clean metadata from your files"
-msgstr "Netegeu les metadades dels vostres fitxers"
+msgstr "Remover metadata ex vor files"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: application/data/fr.romainvigier.MetadataCleaner.desktop.in:15
 msgid "Metadata;Remover;Cleaner;"
-msgstr "Metadata;Remover;Cleaner;Netejador;Metadades;"
+msgstr "Metadata;Remover;Nettar;"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:10
 msgid "View and clean metadata in files"
-msgstr "Mostra i neteja les metadades dels fitxers"
+msgstr "Vider e remover metadata de files"
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:27
 msgid ""
@@ -48,42 +46,41 @@ msgid ""
 "and spreadsheets. This is sensitive information and you may not want to "
 "disclose it."
 msgstr ""
-"Les metadades d'un fitxer poden facilitar molta informació quant a qui sou. "
-"Les càmeres registren dades com ara on i quan es va fer una fotografia i "
-"quin model de càmera es va fer servir. El programari ofimàtic afegeix "
-"automàticament la informació de l'autor i l'empresa als documents i fulls de "
-"càlcul. Aquesta és informació confidencial on, possiblement no voldreu "
-"revelar-la."
+"Metadata de un file posse racontar multcós pri vos. Li cámeras registra li "
+"dates ye quel un foto esset fat e quel modelle de cámera esset usat. "
+"Programmas de officie adjunte li unformation pri li autor e li organisation "
+"a documentes e follies de calculation. Ti information es particulari e vu "
+"vell voler ne revelar it."
 
 #: application/data/fr.romainvigier.MetadataCleaner.metainfo.xml:28
 msgid ""
 "This tool allows you to view metadata in your files and to get rid of it, as "
 "much as possible."
 msgstr ""
-"Aquesta eina us permet veure les metadades dels vostres fitxers i desfer-vos-"
-"en d'elles tant com sigui possible."
+"Ti-ci utensile permite vos vider li metadata de vor files e remover it "
+"quamcunc it es possibil."
 
 #: application/data/gtk/help-overlay.ui:15
 msgid "Files"
-msgstr "Fitxers"
+msgstr "Files"
 
 #: application/data/gtk/help-overlay.ui:18
 #: application/data/ui/AddFilesButton.ui:49
 msgid "Add files"
-msgstr "Afegeix fitxers"
+msgstr "Adjunter files"
 
 #: application/data/gtk/help-overlay.ui:24
 #: application/data/ui/AddFilesButton.ui:56
 msgid "Add folders"
-msgstr "Afegeix carpetes"
+msgstr "Adjunter fólderes"
 
 #: application/data/gtk/help-overlay.ui:30
 msgid "Clean metadata"
-msgstr "Neteja les metadades"
+msgstr "Nettar li metadata"
 
 #: application/data/gtk/help-overlay.ui:36
 msgid "Clear all files from window"
-msgstr "Neteja tots els fitxers de la finestra"
+msgstr "Nettar omni files in li fenestre"
 
 #: application/data/gtk/help-overlay.ui:44
 msgid "General"
@@ -91,102 +88,100 @@ msgstr "General"
 
 #: application/data/gtk/help-overlay.ui:47
 msgid "New window"
-msgstr "Finestra nova"
+msgstr "Nov fenestre"
 
 #: application/data/gtk/help-overlay.ui:53
 msgid "Close window"
-msgstr "Tanca la finestra"
+msgstr "Cluder li fenestre"
 
 #: application/data/gtk/help-overlay.ui:59
 msgid "Quit"
-msgstr "Surt"
+msgstr "Surtir"
 
 #: application/data/gtk/help-overlay.ui:65
 msgid "Keyboard shortcuts"
-msgstr "Dreceres de teclat"
+msgstr "Rapid-tastes"
 
 #: application/data/gtk/help-overlay.ui:71
 msgid "Help"
-msgstr "Ajuda"
+msgstr "Auxilie"
 
 #: application/data/ui/AddFilesButton.ui:21
 msgid "_Add Files"
-msgstr "_Afegeix fitxers"
+msgstr "_Adjunter files"
 
 #: application/data/ui/AddFilesButton.ui:33
 msgid "Add _Folders"
-msgstr "Afegeix _carpetes"
+msgstr "Adjunter _fólderes"
 
 #: application/data/ui/CleanMetadataButton.ui:9
 msgid "_Clean"
-msgstr "_Neteja"
+msgstr "_Nettar"
 
 #: application/data/ui/CleaningWarningDialog.ui:9
 msgid "Make sure you backed up your files!"
-msgstr "Assegureu-vos que heu fet una còpia de seguretat dels vostres fitxers!"
+msgstr "Assecura que vu have archivat vor files!"
 
 #: application/data/ui/CleaningWarningDialog.ui:10
 msgid "Once the files are cleaned, there's no going back."
-msgstr "Un cop netejats els fitxers, no hi ha marxa enrere."
+msgstr "Pos li nettation on ne posse defar it."
 
 #: application/data/ui/CleaningWarningDialog.ui:17
 msgid "Don't tell me again"
-msgstr "No tornis a mostrar"
+msgstr "Ne dir to me denov"
 
 #: application/data/ui/CleaningWarningDialog.ui:25
 #: application/data/ui/StatusIndicator.ui:37
 msgid "Cancel"
-msgstr "Cancel·la"
+msgstr "Anullar"
 
 #: application/data/ui/CleaningWarningDialog.ui:30
 msgid "Clean"
-msgstr "Neteja"
+msgstr "Nettar"
 
 #: application/data/ui/EmptyView.ui:13
 msgid "Clean Your Traces"
-msgstr "Netegeu el rastre"
+msgstr "Effacer vor tracies"
 
 #: application/data/ui/EmptyView.ui:39
 msgid "Learn more about metadata and the cleaning process limitations"
-msgstr ""
-"Obteniu més informació quant a les metadades i limitacions del procés de "
-"neteja"
+msgstr "Saver plu pri li metadata e limitationes de nettation"
 
 #: application/data/ui/FileRow.ui:11
 msgid "Remove file from list"
-msgstr "Suprimeix el fitxer de la llista"
+msgstr "Remover ex li liste"
 
 #: application/data/ui/FileRow.ui:128
 msgid "Warning"
-msgstr "Atenció"
+msgstr "Avise"
 
 #: application/data/ui/FileRow.ui:146
 msgid "Error"
-msgstr "Error"
+msgstr "Errore"
 
 #: application/data/ui/FileRow.ui:186
 msgid "Cleaned"
-msgstr "S'ha netejat"
+msgstr "Nettat"
 
 #: application/data/ui/MenuButton.ui:10
 msgid "_New Window"
-msgstr "Finestra _nova"
+msgstr "_Nov fenestre"
 
 #: application/data/ui/MenuButton.ui:14
 msgid "_Clear Window"
-msgstr "_Neteja la finestra"
+msgstr "N_ettar li fenestre"
 
 #: application/data/ui/MenuButton.ui:20
 msgid "_Help"
-msgstr "_Ajuda"
+msgstr "Au_xilie"
 
 #: application/data/ui/MenuButton.ui:25
 msgid "_Keyboard Shortcuts"
-msgstr "_Dreceres de teclat"
+msgstr "R_apid-tastes"
 
 #: application/data/ui/MenuButton.ui:29
 msgid "_About Metadata Cleaner"
-msgstr "_Quant al Netejador de Metadades"
+msgstr "_Pri li Nettage de metadata"
 
 #: application/data/ui/MenuButton.ui:38
 msgid "Main Menu"
@@ -194,118 +189,115 @@ msgstr "Menú principal"
 
 #: application/data/ui/SettingsButton.ui:9
 msgid "Cleaning settings"
-msgstr "Opcions de neteja"
+msgstr "Parametres de nettation"
 
 #: application/data/ui/SettingsButton.ui:27
 msgid "Lightweight Cleaning"
-msgstr "Neteja bàsica"
+msgstr "Nettation levi"
 
 #: application/data/ui/SettingsButton.ui:32
 msgid "Learn more about the lightweight cleaning"
-msgstr "Més informació quant a la neteja bàsica"
+msgstr "Saver plu pri li nettation levi"
 
 #: application/data/ui/Window.ui:80
 msgid "Details"
-msgstr "Detalls"
+msgstr "Detallies"
 
 #: application/data/ui/Window.ui:86
 msgid "Close"
-msgstr "Tanca"
+msgstr "Cluder"
 
 #. Translators: Replace `translator-credits` by your name, and optionally your email address between angle brackets (Example: `Name <mail@example.org>`) or your website (Example: `Name https://example.org/`). If names are already present, do not remove them and add yours on a new line.
 #: application/data/ui/Window.ui:125
 msgid "translator-credits"
-msgstr ""
-"Victor Dargallo <victordargallo@disroot.org>\n"
-"Benet «BennyBeat» R. i Camps <bennybeat@gmail.com>"
+msgstr "OIS <mistresssilvara@hotmail.com>"
 
 #: application/data/ui/Window.ui:128
 msgid "Choose files to clean"
-msgstr "Trieu els fitxers a netejar"
+msgstr "Selecter files por nettar"
 
 #: application/data/ui/Window.ui:138
 msgid "Choose folders to clean"
-msgstr "Trieu les carpetes a netejar"
+msgstr "Selecter fólderes por nettar"
 
 #: application/metadatacleaner/modules/file.py:249
 msgid "An error occured during the cleaning."
-msgstr "S'ha produït un error durant la neteja."
+msgstr "Un errore evenit durante li nettation."
 
 #: application/metadatacleaner/modules/file.py:252
 msgid "Something bad happened during the cleaning, cleaned file not found"
-msgstr ""
-"S'ha produït un error durant la neteja, no s'ha trobat el fitxer netejat"
+msgstr "Un errore evenit durante li nettation, li nettat file ne esset trovat"
 
 #: application/metadatacleaner/ui/detailsview.py:58
 msgid "The File Has Been Cleaned"
-msgstr "S'ha netejat el fitxer correctament"
+msgstr "Li file sta nettat"
 
 #: application/metadatacleaner/ui/detailsview.py:60
 msgid ""
 "Known metadata have been removed, however the cleaning process has some "
 "limitations."
 msgstr ""
-"S'han suprimit metadades conegudes, però el procés de neteja té algunes "
-"limitacions."
+"Li conosset metadata esset removet, ma li processu de nettation have quelc "
+"limitationes."
 
 #: application/metadatacleaner/ui/detailsview.py:63
 msgid "Learn more"
-msgstr "Més informació"
+msgstr "Saver plu"
 
 #: application/metadatacleaner/ui/detailsview.py:76
 msgid "Unable to Read the File"
-msgstr "No es pot llegir el fitxer"
+msgstr "Ne successat leer li file"
 
 #: application/metadatacleaner/ui/detailsview.py:77
 msgid "File Type not Supported"
-msgstr "Tipus de fitxer no compatible"
+msgstr "Li tip de file ne es supportat"
 
 #: application/metadatacleaner/ui/detailsview.py:79
 msgid "Unable to Check for Metadata"
-msgstr "No es poden comprovar les metadades"
+msgstr "Ne successat controlar li metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:80
 msgid "No Known Metadata"
-msgstr "No hi ha metadades conegudes"
+msgstr "Null conosset metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:82
 msgid "Unable to Remove Metadata"
-msgstr "No es poden suprimir les metadades"
+msgstr "Ne successat remover li metadata"
 
 #: application/metadatacleaner/ui/detailsview.py:86
 msgid "The file will be cleaned anyway to be sure."
-msgstr "El fitxer es netejarà igualment per seguretat."
+msgstr "Li file va esser nettat sin egarda por li certitá."
 
 #: application/metadatacleaner/ui/filechooserdialog.py:24
 msgid "All supported files"
-msgstr "Tots els fitxers compatibles"
+msgstr "Omni supportat files"
 
 #: application/metadatacleaner/ui/folderchooserdialog.py:22
 msgid "Add files from subfolders"
-msgstr "Afegeix fitxers de subcarpetes"
+msgstr "Adjunter files in subfólderes"
 
 #: application/metadatacleaner/ui/statusindicator.py:37
 msgid "Processing file {}/{}"
-msgstr "S'està processant el fitxer {}/{}"
+msgstr "Processante li file {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:39
 msgid "Cleaning file {}/{}"
-msgstr "S'està netejant el fitxer {}/{}"
+msgstr "Nettante li file {}/{}"
 
 #: application/metadatacleaner/ui/statusindicator.py:79
 #, python-format
 msgid "%i file cleaned."
 msgid_plural "%i files cleaned."
-msgstr[0] "%i fitxer netejat."
-msgstr[1] "%i fitxers netejats."
+msgstr[0] "%i file sta nettat."
+msgstr[1] "%i files sta nettat."
 
 #: application/metadatacleaner/ui/statusindicator.py:84
 #, python-format
 msgid "%i error occured."
 msgid_plural "%i errors occured."
-msgstr[0] "S'ha produït %i error."
-msgstr[1] "S'han produït %i errors."
+msgstr[0] "%i errore evenit."
+msgstr[1] "%i errores evenit."
 
 #: application/metadatacleaner/ui/window.py:112
 msgid "Libraries"
-msgstr "Llibreries"
+msgstr "Bibliotecas"
