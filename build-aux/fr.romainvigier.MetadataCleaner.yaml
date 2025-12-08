@@ -4,7 +4,7 @@
 app-id: fr.romainvigier.MetadataCleaner
 default-branch: develop
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: metadata-cleaner
 separate-locales: false
@@ -13,7 +13,7 @@ add-extensions:
   org.freedesktop.Platform.ffmpeg-full:
     directory: lib/ffmpeg
     add-ld-path: '.'
-    version: '23.08'
+    version: '25.08'
 
 finish-args:
   - --socket=wayland
@@ -64,7 +64,7 @@ modules:
           - type: git
             url: https://0xacab.org/jvoisin/mat2.git
             branch: master
-            commit: a47ac01eb626859fda3a25996ed3d9665f6001fe
+            commit: 235403bc11d8923243ffa8fe7987d6b959adc198
         modules:
           - name: exiftool
             buildsystem: simple

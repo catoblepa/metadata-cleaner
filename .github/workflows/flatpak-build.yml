@@ -1,0 +1,47 @@
+name: Build Flatpak
+
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - 'v*'
+  pull_request:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Flatpak and flatpak-builder
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y flatpak flatpak-builder
+
+      - name: Add Flathub repository
+        run: |
+          sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+          sudo flatpak install -y flathub org.gnome.Platform//49 org.gnome.Sdk//49
+
+      - name: Build Flatpak
+        uses: flatpak/flatpak-github-actions/flatpak-builder@v6
+        with:
+          manifest-path: build-aux/fr.romainvigier.MetadataCleaner.yaml
+          bundle: fr.romainvigier.MetadataCleaner
+
+      - name: Upload Flatpak bundle as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MetadataCleaner-flatpak
+          path: fr.romainvigier.MetadataCleaner.flatpak
+
+      - name: Upload to Release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          files: fr.romainvigier.MetadataCleaner.flatpak
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
